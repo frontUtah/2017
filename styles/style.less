@@ -1,0 +1,177 @@
+@import (less) url('normalize.css');
+
+// ================================
+// LESS Var Definitions
+// ================================
+
+// Color pallete
+// -------------------------
+@black:        #333333;
+@grayDarker:   #474747;
+@grayDark:     #666666;
+@gray:         #999999;
+@grayLight:    #B2B2B2;
+@grayLighter:  #FAFAFA;
+@white:        #FFFFFF;
+
+@orange:       #FD7C00;
+@blue:         #006F9E;
+@purple:       #653789;
+@yellow:       #E2B700;
+// @green:        #00ad68;
+//@red:          #e1575b;
+
+// Font families
+// -------------------------
+@font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+
+// Font weights
+// -------------------------
+@weight-light:      200;
+@weight-regular:    400;
+@weight-bold:       700;
+@weight-extrabold:  800;
+
+// Interface
+@ui-strongest-color: @black;
+@ui-stronger-color:  @grayDarker;
+@ui-strong-color:    @grayDark;
+@ui-color:           @gray;
+@ui-weak-color:      @grayLight;
+@ui-weaker-color:    @grayLighter;
+@ui-weakest-color:   @white;
+
+// Accents
+@accent-primary-color:   @orange;
+
+// Background color
+@background: @ui-weakest-color;
+
+// Copy & Text
+@copy-primary-color:   @ui-strongest-color;
+@copy-accent-color:    @accent-primary-color;
+@default-font-size:    20px;
+@copy-line-height:     1.5em;
+
+// Link
+@link-primary-color:   @accent-primary-color;
+
+//Person Role Colors
+@ux-color:         @orange;
+@pm-color:         @blue;
+@research-color:   @purple;
+@leadership-color: @yellow;
+
+
+//----------------------
+// Typography
+//----------------------
+
+@font-face {
+	font-family: "Proxima Nova";
+	font-weight: @weight-light;
+	font-style: normal;
+	src: url('../fonts/proxima_nova_light.otf');
+}
+
+@font-face {
+	font-family: "Proxima Nova";
+	font-weight: @weight-regular;
+	font-style: normal;
+	src: url('../fonts/proxima_nova_regular.otf');
+}
+
+@font-face {
+	font-family: "Proxima Nova";
+	font-weight: @weight-bold;
+	font-style: normal;
+	src: url('../fonts/proxima_nova_bold.otf');
+}
+
+@font-face {
+	font-family: "Proxima Nova";
+	font-weight: @weight-extrabold;
+	font-style: normal;
+	src: url('../fonts/proxima_nova_extrabold.otf');
+}
+
+body {
+	font: @weight-regular @default-font-size @font-family;
+	line-height: @copy-line-height;
+	color: @copy-primary-color;
+	text-align: center;
+}
+
+b,
+strong {
+	font-weight: @weight-bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: @font-family;
+	font-weight: @weight-light;
+	margin: 0;
+	color: @ui-strong-color;
+
+	&.accent {
+		color: @accent-primary-color;
+	}
+}
+
+a {
+	color: @link-primary-color;
+}
+
+ul,
+li {
+	list-style: none;
+	margin: 0;
+	padding: 0;	
+}
+
+button,
+.button {
+	-webkit-appearance: none;
+	outline: 0;
+    border: none;
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 3px;
+	cursor: pointer;
+	background: @accent-primary-color;
+	padding: 15px 30px;
+	text-decoration: none;
+	color: @ui-weakest-color;
+	font: @weight-bold @default-font-size @font-family;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
+
+.primary-header {
+	background: @ui-strongest-color;
+	color: @ui-weak-color;
+	
+	a {
+		color: @ui-weak-color;
+		text-transform: uppercase;
+		
+		&.active {
+			color: @accent-primary-color;
+		}
+	}
+
+	.primary-nav {
+		height: 50px;
+		overflow: hidden;
+		
+		&.open {
+			height: auto;
+		}
+	}
+
+	.social-nav {
+		display: none;
+	}
+}
