@@ -116,10 +116,20 @@ h1, h2, h3, h4, h5, h6 {
 	&.accent {
 		color: @accent-primary-color;
 	}
+
+	&.logo {
+		text-indent: -9999px;
+		background: url('../images/logo.svg') no-repeat;
+		background-size: contain;
+	}
 }
 
 a {
 	color: @link-primary-color;
+	
+	&:hover {
+		opacity: 0.75;
+	}
 }
 
 ul,
@@ -127,6 +137,10 @@ li {
 	list-style: none;
 	margin: 0;
 	padding: 0;	
+}
+
+section {
+	padding: 70px 40px;
 }
 
 button,
@@ -149,16 +163,67 @@ button,
 	box-sizing: border-box;
 }
 
+.social-nav {
+	li {
+		display: inline-block;
+		
+		a {
+			text-indent: -9999px;
+			display: inline-block;
+			width: 40px;
+			height: 50px;
+		}
+
+		.twitter {
+			background: url('../images/icon-sprite.svg') no-repeat -200px 7px;
+		}
+
+		.linkedin {
+			background: url('../images/icon-sprite.svg') no-repeat -200px -39px;
+		}
+
+		.instagram {
+			background: url('../images/icon-sprite.svg') no-repeat -240px 7px;
+		}
+	}
+}
+
 .primary-header {
 	background: @ui-strongest-color;
 	color: @ui-weak-color;
 	
 	a {
+		display: inline-block;
 		color: @ui-weak-color;
 		text-transform: uppercase;
+		text-decoration: none;
+		font-size: 16px;
+		padding: 0 10px;
+		line-height: 50px;
+		display: inline-block;
+		box-sizing: border-box;
 		
-		&.active {
+		&.home-link {
+			text-indent: -9999px;
+			background: url(../images/icon-sprite.svg) -115px 9px no-repeat;
+			width: 50px;
+			height: 50px;
+		}
+		
+		&.active:not(.home-link) {
 			color: @accent-primary-color;
+			font-weight: @weight-bold;
+			
+			&:after {
+				content: '';
+				background: url('../images/icon-sprite.svg') no-repeat -96px -57px;
+				width: 13px;
+				height: 7px;
+				display: inline-block;
+				margin-left: 10px;
+				margin-top: -5px;
+				vertical-align: middle;
+			}
 		}
 	}
 
@@ -174,4 +239,144 @@ button,
 	.social-nav {
 		display: none;
 	}
+}
+
+.section-header {
+	background: @ui-stronger-color;
+	color: @ui-weakest-color;
+
+	.section-nav {
+		height: 50px;
+		overflow: hidden;
+		
+		.section-nav-head {
+			display: flex;
+			border-bottom: 1px solid @ui-strong-color;
+			height: 50px;
+			
+			h3 {
+				flex: 1;
+				color: @ui-weakest-color;
+				margin: 16px;
+			}	
+		}
+
+		.menu-toggle {
+			background: none;
+			color: @ui-weak-color;
+			margin: 0;
+			padding: 0px 16px;
+			line-height: 50px;
+			
+			&:before {
+				content: '|||';
+				display: inline-block;
+				font-weight: bold;
+				transform: rotate(90deg);
+				font-size: 26px;
+				color: @ui-weakest-color;
+			}
+		}
+		
+		&.open {
+			height: auto;
+			
+			.menu-toggle:before {
+				content: '\D7';
+				font-weight: @weight-light;
+				font-size: 35px;
+			}
+		}
+
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+			padding: 12px 20px;
+			
+			li {
+				padding: 20px;
+				box-sizing: border-box;
+
+				a {
+					font-size: 18px;
+					font-weight: @weight-bold;
+					text-decoration: none;
+				}
+			}
+
+			
+			li:not(:last-child) {
+				width: 50%;
+				text-align: left;
+				
+				a {
+					color: @ui-weakest-color;
+				}
+			}
+
+			li:last-child {
+				width: 100%;
+				
+				.button {
+					background: @ui-weakest-color;
+					color: @ui-stronger-color;
+					padding: 10px;
+					width: 100%;
+					text-transform: none;
+				}
+			}
+		}
+	}
+}
+
+footer {
+	background: @ui-strongest-color;
+	color: @ui-weakest-color;
+	padding: 45px;
+	
+	.logo {
+		background-position: center;
+		margin-bottom: 45px;
+	}
+
+	.main-footer-nav {
+		margin-bottom: 20px;
+
+		a {
+			font-size: 17px;
+			color: @ui-weakest-color;
+			text-decoration: none;
+			display: inline-block;
+			padding: 5px;
+		}
+	}
+
+	p {
+		font-size: 12px;
+	}
+}
+
+.hero {
+	background: url('https://www.frontutah.com/images/home-bg-2.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	color: @ui-weakest-color;
+	
+	.logo {
+		background-position: center;
+	}
+
+	h2 {
+		color: @ui-weakest-color;
+		font-weight: @weight-extrabold;
+	}
+}
+
+section.about {
+	background: @ui-weaker-color;
+}
+
+section.attendee-stats {
+	background: @blue;
+	color: @ui-weakest-color;
 }

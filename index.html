@@ -9,7 +9,7 @@
 	<header class="primary-header">
 		<nav class="primary-nav">
 			<ul>
-				<li><a href="/" class="home-link">Home</a></li>
+				<li><a href="/" class="home-link active">Home</a></li>
 				<li><a href="#">Case Study Conference</a></li>
 				<li><a href="#">Product Bootcamp</a></li>
 				<li><a href="#">Custom Onsite Training</a></li>
@@ -18,19 +18,21 @@
 		</nav>
 		<nav class="social-nav">
 			<ul>
-				<li><a href="#">Twitter</a></li>
-				<li><a href="#">LinkedIn</a></li>
-				<li><a href="#">Instagram</a></li>
+				<li><a class="twitter" href="#">Twitter</a></li>
+				<li><a class="linkedin" href="#">LinkedIn</a></li>
+				<li><a class="instagram" href="#">Instagram</a></li>
 			</ul>
 		</nav>
 	</header>
 	<header class="section-header">
 		<nav class="section-nav">
-			<button class="menu-toggle"></button>
+			<div class="section-nav-head">
+				<h3 class="logo">Front</h3>
+				<button class="menu-toggle"></button>
+			</div>
 			<ul>
 				<li><a href="#">Courses</a></li>
 				<li><a href="#">Schedule</a></li>
-				<li><a href="#">Instructors</a></li>
 				<li><a href="#">Instructors</a></li>
 				<li><a href="#">Venue</a></li>
 				<li><a href="#">FAQs</a></li>
@@ -40,10 +42,12 @@
 		</nav>
 	</header>
 	<main>
-		<h1 class="logo">Front</h1>
-		<p>Inspiration and training for UX designers and product managers</p>
-		<section class="spotlight">
+		<section class="hero">
+			<h1 class="logo">Front</h1>
+			<p>Inspiration and training for UX designers and product managers</p>
 			<h2>UX + PM</h2>
+		</section>
+		<section class="spotlight">
 			<ul>
 				<li>
 					<h6>Case Study Conference</h6>
@@ -123,9 +127,9 @@
 	<footer>
 		<nav class="social-nav">
 			<ul>
-				<li><a href="#">Twitter</a></li>
-				<li><a href="#">LinkedIn</a></li>
-				<li><a href="#">Instagram</a></li>
+				<li><a class="twitter" href="#">Twitter</a></li>
+				<li><a class="linkedin" href="#">LinkedIn</a></li>
+				<li><a class="instagram" href="#">Instagram</a></li>
 			</ul>
 		</nav>
 		<nav class="main-footer-nav">
@@ -135,9 +139,11 @@
 			<li><a href="#">Code of Conduct</a></li>
 			<li><a href="#">Speaker Guide</a></li>
 		</nav>
-		<p>&copy; Front, LLC. All rights reserved.</p>
 		<p>Join us at the</p>
 		<h3 class="logo">Front</h3>
+		<p>&copy; Front, LLC. All rights reserved.</p>
 	</footer>
+	<script src="/scripts/jquery-3.2.1.min.js"></script>
+	<script src="/scripts/ui.js"></script>
 </body>
 </html>
