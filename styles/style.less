@@ -139,6 +139,10 @@ li {
 	padding: 0;	
 }
 
+img {
+	max-width: 100%;
+}
+
 section {
 	padding: 70px 40px;
 }
@@ -161,6 +165,40 @@ button,
 	text-transform: uppercase;
 	margin-bottom: 10px;
 	box-sizing: border-box;
+	
+	@media (min-width: 1000px) {
+		font-size: 28px;
+		padding: 20px 40px;
+	}
+}
+
+.video-thumbnail {
+	cursor: pointer;
+	position: relative;
+	
+	&:before {
+		content: '';
+		display: inline-block;
+		background: url('../images/icon-sprite.svg') no-repeat 0 0;
+		width: 72px;
+		height: 72px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin: -36px 0 0 -36px;
+	}
+}
+
+.headers {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+}
+
+main {
+	margin-top: 50px;
 }
 
 .social-nav {
@@ -239,11 +277,57 @@ button,
 	.social-nav {
 		display: none;
 	}
+
+	@media (min-width: 800px) {
+		display: flex;
+		
+		a {
+			font-size: 14px;
+			padding: 0 18px;
+		}
+		
+		.primary-nav {
+			height: auto;
+			overflow: visible;
+			flex: 1;
+			
+			ul {
+				display: flex;
+			}
+		}
+	}
+
+	@media (min-width: 1000px) {
+		&.sticky {
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			z-index: 10;
+		}
+
+		a {
+			padding: 0 24px;
+		}
+
+		.social-nav {
+			display: block;
+		}
+
+	}
 }
 
 .section-header {
 	background: @ui-stronger-color;
 	color: @ui-weakest-color;
+	
+	&.sticky {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 10;
+	}
 
 	.section-nav {
 		height: 50px;
@@ -327,6 +411,72 @@ button,
 			}
 		}
 	}
+
+	@media (min-width: 1000px) {
+
+		&:not(.sticky) {
+			background: rgba(0, 0, 0, 0);
+		}
+
+		&.sticky {
+			top: 50px;
+		}
+
+		.section-nav {
+			height: auto;
+			overflow: visible;
+			display: flex;
+			align-items: center;
+			padding: 20px;
+			
+			.section-nav-head {
+				border: none;
+				width: 170px;
+				height: 50px;
+			}
+
+			ul {
+				flex: 1;
+				display: block;
+				text-align: right;
+				
+				li {
+					display: inline-block;
+					padding: 5px;
+					a:not(.button) {
+						padding: 10px;
+					}
+				}
+
+				li:last-child .button {
+					padding: 8px 12px;
+					text-transform: lowercase;
+					margin-bottom: 0;
+				}
+
+				li:not(:last-child),
+				li:last-child,
+				li:last-child .button {
+					width: auto;
+				}
+			}
+		}
+
+		.menu-toggle {
+			display: none;
+		}
+	}
+
+	@media (min-width: 1200px) {
+		.section-nav {
+			padding: 20px 40px;
+			
+			.section-nav-head {
+				width: 250px;
+				height: 60px;
+			}
+		}
+	}
 }
 
 footer {
@@ -354,13 +504,30 @@ footer {
 	p {
 		font-size: 12px;
 	}
+	
+	@media (min-width: 800px) {
+		.main-footer-nav li {
+			font-size: 14px;
+			display: inline-block;
+		}
+	}
 }
 
 .hero {
-	background: url('https://www.frontutah.com/images/home-bg-2.jpg');
-	background-size: cover;
-	background-attachment: fixed;
+	height: 550px;
+	box-sizing: border-box;
+	background: @ui-strongest-color top center no-repeat;
+	background-size: auto 100%;
 	color: @ui-weakest-color;
+	padding: 120px 25px 70px;
+	
+	&.image-1 { background-image: url('../images/home-bg-1.jpg'); }
+	&.image-2 { background-image: url('../images/home-bg-2.jpg'); }
+	&.image-3 { background-image: url('../images/home-bg-3.jpg'); }
+	&.image-4 { background-image: url('../images/home-bg-4.jpg'); }
+	&.image-5 { background-image: url('../images/home-bg-5.jpg'); }
+	&.image-6 { background-image: url('../images/home-bg-6.jpg'); }
+	&.image-7 { background-image: url('../images/home-bg-7.jpg'); }
 	
 	.logo {
 		background-position: center;
@@ -369,14 +536,180 @@ footer {
 	h2 {
 		color: @ui-weakest-color;
 		font-weight: @weight-extrabold;
+		font-size: 40px;
+	}
+
+	p {
+		font-size: 30px;
+		font-weight: @weight-light;
+		margin: 50px 0 80px;
+		line-height: 1.5em;
+	}
+
+	@media (min-width: 970px) {
+		background-size: cover;
+	}
+
+	@media (min-width: 1000px) {
+		height: 920px;
+		
+		.logo {
+			height: 50px;
+		}
+
+		p {
+			font-size: 24px;
+			margin-bottom: 240px;
+		}
+
+		h2 {
+			font-size: 80px;
+		}
+	}
+}
+
+section.spotlight {
+	li:not(:last-child) {
+		margin-bottom: 80px;
+	}
+
+	h3 {
+		font-size: 24px;
+		font-weight: @weight-bold;
+	}
+
+	.date-location {
+		font-size: 18px;
+		margin-top: 0;
+	}
+
+	.thumnail {
+		margin: 0 -40px;
+	}
+
+	.description {
+		max-width: 400px;
+		margin: 1em auto;
+	}
+
+	@media (min-width: 1000px) {
+		margin-top: -300px;
+		
+		h3,
+		.date-location {
+			color: @ui-weakest-color;	
+		}
+
+		.thumnail {
+			margin: 0;
+		}
+
+		.description {
+			font-size: 24px;
+			max-width: 100%;
+		}
+
+		ul {
+			display: flex;
+			
+			li {
+				flex: 1;
+				padding: 0 10px;
+			}
+		}
 	}
 }
 
 section.about {
 	background: @ui-weaker-color;
+	
+	@media (min-width: 800px) {
+		h2 {
+			font-size: 56px;
+			line-height: 1em;
+		}
+
+		p {
+			font-size: 24px;
+			max-width: 850px;
+			margin: 1em auto;
+		}
+	}
+}
+
+section.personal-stories {
+	ul {
+		margin-bottom: 70px;
+	}
+
+	li {
+		margin: 40px 0;
+	}
+
+	h3 {
+		font-size: 24px;
+		font-weight: @weight-bold;
+	}
+
+	p {
+		font-size: 18px;
+		margin-top: 0;
+	}
+
+	.card-image {
+		margin: 0 -40px;
+	}
+
+	@media (min-width: 800px) {
+		h2 {
+			font-size: 56px;
+			line-height: 1em;
+		}
+
+		h3 {
+			font-size: 20px;
+		}
+
+		p {
+			font-size: 14px;
+		}
+
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+			margin: 20px 0;
+		}
+
+		li {
+			width: 50%;
+			box-sizing: border-box;
+			padding: 1px;
+			margin: 20px 0;			
+		}
+
+		.card-image {
+			margin: 0;
+		}
+	}
+
+	@media (min-width: 1000px) {
+		li {
+			width: 33.33%;
+		}
+	}
 }
 
 section.attendee-stats {
 	background: @blue;
 	color: @ui-weakest-color;
+	
+	@media (min-width: 800px) {
+		
+		p {
+			font-size: 48px;
+			line-height: @copy-line-height;
+			max-width: 1050px;
+			margin: 1em auto;
+		}
+	}
 }
