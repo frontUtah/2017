@@ -247,6 +247,7 @@ main {
 		line-height: 50px;
 		display: inline-block;
 		box-sizing: border-box;
+		margin-bottom: 9px;
 		
 		&.home {
 			text-indent: -9999px;
@@ -279,6 +280,10 @@ main {
 		&.open {
 			height: auto;
 		}
+
+		ul {
+			margin-bottom: 36px;
+		}
 	}
 
 	.social-nav {
@@ -293,6 +298,7 @@ main {
 			padding: 0 18px;
 			display: block;
 			position: relative;
+			margin: 0;
 			
 			&.active:not(.home) {
 				&:after {
@@ -302,8 +308,8 @@ main {
 					margin: 0;
 					position: absolute;
 					bottom: 0;
-					left: 10px;
-					right: 10px;
+					left: 18px;
+					right: 18px;
 				}
 			}
 		}
@@ -315,6 +321,7 @@ main {
 			
 			ul {
 				display: flex;
+				margin: 0;
 				
 				.order-1 { order: 1; }
 				.order-2 { order: 2; }
@@ -352,6 +359,11 @@ main {
 	@media (min-width: 1100px) {
 		.primary-nav a:not(.home) {
 			padding: 0 37px;
+			
+			&.active:after {
+				left: 37px;
+				right: 37px;
+			}
 		}
 	}
 }
@@ -459,6 +471,11 @@ main {
 
 		&.sticky {
 			top: 50px;
+			
+			.section-nav {
+				padding-top: 4px;
+				padding-bottom: 4px;
+			}
 		}
 
 		.section-nav {
@@ -466,7 +483,7 @@ main {
 			overflow: visible;
 			display: flex;
 			align-items: center;
-			padding: 4px 20px;
+			padding: 23px 20px;
 			
 			.section-nav-head {
 				border: none;
@@ -515,7 +532,7 @@ main {
 
 	@media (min-width: 1350px) {
 		.section-nav {
-			padding: 4px 65px;
+			padding: 23px 65px;
 			
 			.logo {
 				width: 230px;
@@ -533,6 +550,11 @@ footer {
 	background: @ui-strongest-color;
 	color: @ui-weakest-color;
 	padding: 45px 40px 60px;
+	
+	.social-nav {
+		width: 200px;
+		margin: 0 auto;
+	}
 	
 	.logo {
 		background-position: center;
