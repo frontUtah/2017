@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
 	color: @link-primary-color;
-	
+
 	&:hover {
 		opacity: 0.75;
 	}
@@ -136,7 +136,7 @@ ul,
 li {
 	list-style: none;
 	margin: 0;
-	padding: 0;	
+	padding: 0;
 }
 
 img {
@@ -145,7 +145,7 @@ img {
 
 section {
 	padding: 70px 40px;
-	
+
 	h2 {
 		font-size: 30px;
 		line-height: 37px;
@@ -171,7 +171,7 @@ button,
 	margin-bottom: 10px;
 	box-sizing: border-box;
 	letter-spacing: 0.22em;
-	
+
 	@media (min-width: 1000px) {
 		font-size: 28px;
 		padding: 16px 32px;
@@ -182,7 +182,7 @@ button,
 .video-thumbnail {
 	cursor: pointer;
 	position: relative;
-	
+
 	&:before {
 		content: '';
 		display: inline-block;
@@ -211,7 +211,7 @@ main {
 .social-nav {
 	li {
 		display: inline-block;
-		
+
 		a {
 			text-indent: -9999px;
 			display: inline-block;
@@ -236,7 +236,7 @@ main {
 .primary-header {
 	background: @ui-strongest-color;
 	color: @ui-weak-color;
-	
+
 	a {
 		display: inline-block;
 		color: @ui-weak-color;
@@ -248,18 +248,18 @@ main {
 		display: inline-block;
 		box-sizing: border-box;
 		margin-bottom: 9px;
-		
+
 		&.home {
 			text-indent: -9999px;
 			background: url(../images/icon-sprite.svg) -115px 9px no-repeat;
 			width: 50px;
 			height: 50px;
 		}
-		
+
 		&.active:not(.home) {
 			color: @accent-primary-color;
 			font-weight: @weight-bold;
-			
+
 			&:after {
 				content: '';
 				background: url('../images/icon-sprite.svg') no-repeat -96px -57px;
@@ -276,7 +276,7 @@ main {
 	.primary-nav {
 		height: 50px;
 		overflow: hidden;
-		
+
 		&.open {
 			height: auto;
 		}
@@ -292,14 +292,14 @@ main {
 
 	@media (min-width: 800px) {
 		display: flex;
-		
+
 		a {
 			font-size: 14px;
 			padding: 0 18px;
 			display: block;
 			position: relative;
 			margin: 0;
-			
+
 			&.active:not(.home) {
 				&:after {
 					background: @accent-primary-color;
@@ -313,16 +313,16 @@ main {
 				}
 			}
 		}
-		
+
 		.primary-nav {
 			height: auto;
 			overflow: visible;
 			flex: 1;
-			
+
 			ul {
 				display: flex;
 				margin: 0;
-				
+
 				.order-1 { order: 1; }
 				.order-2 { order: 2; }
 				.order-3 { order: 3; }
@@ -359,7 +359,7 @@ main {
 	@media (min-width: 1100px) {
 		.primary-nav a:not(.home) {
 			padding: 0 37px;
-			
+
 			&.active:after {
 				left: 37px;
 				right: 37px;
@@ -371,7 +371,7 @@ main {
 .section-header {
 	background: @ui-stronger-color;
 	color: @ui-weakest-color;
-	
+
 	&.sticky {
 		position: fixed;
 		top: 0;
@@ -383,17 +383,17 @@ main {
 	.section-nav {
 		height: 50px;
 		overflow: hidden;
-		
+
 		.section-nav-head {
 			display: flex;
 			border-bottom: 1px solid @ui-strong-color;
 			height: 50px;
-			
+
 			h3 {
 				flex: 1;
 				color: @ui-weakest-color;
 				margin: 16px;
-			}	
+			}
 		}
 
 		.menu-toggle {
@@ -403,7 +403,7 @@ main {
 			padding: 0px 16px;
 			line-height: 50px;
 			letter-spacing: normal;
-			
+
 			&:before {
 				content: '|||';
 				display: inline-block;
@@ -413,10 +413,10 @@ main {
 				color: @ui-weakest-color;
 			}
 		}
-		
+
 		&.open {
 			height: auto;
-			
+
 			.menu-toggle:before {
 				content: '\D7';
 				font-weight: @weight-light;
@@ -428,7 +428,7 @@ main {
 			display: flex;
 			flex-wrap: wrap;
 			padding: 12px 20px;
-			
+
 			li {
 				padding: 20px;
 				box-sizing: border-box;
@@ -439,11 +439,11 @@ main {
 				}
 			}
 
-			
+
 			li:not(:last-child) {
 				width: 50%;
 				text-align: left;
-				
+
 				a {
 					color: @ui-weakest-color;
 				}
@@ -451,14 +451,14 @@ main {
 
 			li:last-child {
 				width: 100%;
-				
+
 				.button {
 					background: @ui-weakest-color;
 					color: @ui-stronger-color;
 					padding: 10px;
 					width: 100%;
 					text-transform: none;
-					letter-spacing: normal;        
+					letter-spacing: normal;
 				}
 			}
 		}
@@ -471,7 +471,7 @@ main {
 
 		&.sticky {
 			top: 50px;
-			
+
 			.section-nav {
 				padding-top: 4px;
 				padding-bottom: 4px;
@@ -484,12 +484,12 @@ main {
 			display: flex;
 			align-items: center;
 			padding: 23px 20px;
-			
+
 			.section-nav-head {
 				border: none;
 				width: auto;
 				height: auto;
-				
+
 			}
 
 			.logo {
@@ -503,7 +503,7 @@ main {
 				display: block;
 				display: flex;
 				justify-content: flex-end;
-				
+
 				li {
 					padding: 0;
 
@@ -533,7 +533,7 @@ main {
 	@media (min-width: 1350px) {
 		.section-nav {
 			padding: 23px 65px;
-			
+
 			.logo {
 				width: 230px;
 				height: 31px;
@@ -550,12 +550,12 @@ footer {
 	background: @ui-strongest-color;
 	color: @ui-weakest-color;
 	padding: 45px 40px 60px;
-	
+
 	.social-nav {
 		width: 200px;
 		margin: 0 auto;
 	}
-	
+
 	.logo {
 		background-position: center;
 		margin-bottom: 60px;
@@ -577,7 +577,7 @@ footer {
 	p {
 		font-size: 12px;
 	}
-	
+
 	@media (min-width: 800px) {
 		padding-top: 83px;
 
@@ -591,7 +591,7 @@ footer {
 			li {
 				display: inline-block;
 			}
-			
+
 			a {
 				font-size: 14px;
 				padding: 5px 20px;
@@ -649,7 +649,7 @@ footer {
 	@media (min-width: 1000px) {
 		height: 922px;
 		padding-top: 120px;
-		
+
 		.logo {
 			height: 60px;
 		}
@@ -669,7 +669,7 @@ footer {
 	height: 554px;
 	background-image: url('../images/bootcamp-bg.jpg');
 	padding: 100px 40px 50px;
-	
+
 	h1 {
 		color: @ui-weakest-color;
 		font-size: 30px;
@@ -698,13 +698,13 @@ footer {
 	@media (min-width: 1000px) {
 		height: 1070px;
 		padding: 200px 130px 50px;
-		
+
 		h1,
 		li,
 		p {
 			text-align: left;
 		}
-		
+
 		h1 {
 			font-size: 80px;
 			line-height: 98px;
@@ -723,7 +723,7 @@ footer {
 			font-style: italic;
 			margin-bottom: 60px;
 		}
-		
+
 		.button {
 			width: auto;
 		}
@@ -761,10 +761,10 @@ section.spotlight {
 	@media (min-width: 1150px) {
 		margin-top: -330px;
 		padding-bottom: 152px;
-		
+
 		h3,
 		.date-location {
-			color: @ui-weakest-color;	
+			color: @ui-weakest-color;
 		}
 
 		.date-location {
@@ -780,17 +780,17 @@ section.spotlight {
 		ul {
 			display: flex;
 			align-items: stretch;
-			
+
 			li:not(:last-child) {
 				margin-bottom: 0;
 			}
-			
+
 			li {
 				flex: 1;
 				padding: 0 10px;
 				position: relative;
 				padding-bottom: 74px;
-				
+
 				.button {
 					position: absolute;
 					bottom: 0;
@@ -805,7 +805,7 @@ section.spotlight {
 
 section.about {
 	background: @ui-weaker-color;
-	
+
 	@media (min-width: 800px) {
 		padding: 90px 40px 110px;
 
@@ -875,7 +875,7 @@ section.personal-stories {
 			width: 50%;
 			box-sizing: border-box;
 			padding: 1px;
-			margin: 18px 0;			
+			margin: 18px 0;
 		}
 
 		.card-image {
@@ -895,7 +895,7 @@ section.attendee-stats {
 	color: @ui-weakest-color;
 	padding: 50px 30px;
 	line-height: 32px;
-	
+
 	@media (min-width: 800px) {
 		padding: 62px 40px;
 
