@@ -12,6 +12,7 @@ frontConf.ui = (function() {
 
 		$body.on( 'click', '.primary-nav .active', togglePrimaryMenu );
 		$body.on( 'click', '.section-nav .menu-toggle', toggleSectionMenu );
+		$body.on( 'click', '.accordion-title', toggleAccordion );
 
 		if ( $body.find( '.section-header' ).length ) {
 			$win.on( 'scroll', toggleStickyHeaders );
@@ -40,6 +41,10 @@ frontConf.ui = (function() {
 		}
 	};
 
+	var toggleAccordion = function( event ) {
+		$( this ).parents('.accordion').toggleClass( 'open' );
+	};
+
 	var toggleStickyHeaders = function( event ) {
 		var $primaryHeader = $body.find( '.primary-header' );
 		var $sectionHeader = $body.find( '.section-header' );
@@ -60,7 +65,7 @@ frontConf.ui = (function() {
 				$sectionHeader.removeClass( 'sticky' );
 				$primaryHeader.removeClass( 'sticky' );
 			}
-		}
+		};
 	}
 
 	return {
