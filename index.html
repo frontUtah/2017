@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Front Utah Conference - UX &amp; PM</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="styles/magnific-popup.css">
 </head>
 <body>
 	<div class="headers">
@@ -12,7 +13,7 @@
 			<nav class="primary-nav">
 				<ul>
 					<!--Mobile Order: Actual Order. Desktop Order: Class Names. Bless you Flexbox-->
-					<li class="order-1"><a href="insidex.html" class="home active">Home</a></li>
+					<li class="order-1"><a href="/" class="home active">Home</a></li>
 					<li class="order-2"><a href="#" class="case-study">Case Study Conference</a></li>
 					<li class="order-3"><a href="product-bootcamp.html" class="bootcamp">Product Bootcamp</a></li>
 					<li class="order-4"><a href="custom-training.html" class="custom-training">Custom Onsite Training</a></li>
@@ -39,7 +40,7 @@
 				<li>
 					<h3>Case Study Conference</h3>
 					<p class="date-location">Salt Lake City, 9-10 May 2017</p>
-					<div class="thumnail video-thumbnail">
+					<div href="https://vimeo.com/174038670" class="thumnail video-thumbnail recap-video">
 						<img src="images/conf-scene001.jpg" alt="">
 					</div>
 					<p class="description">A two-day, in-depth series  of from-the-trenches case studies by innovative user experience designers and product managers.</p>
@@ -48,7 +49,7 @@
 				<li>
 					<h3>Product Bootcamp</h3>
 					<p class="date-location">Park City, 4-5 January 2018</p>
-					<div class="thumnail video-thumbnail">
+					<div href="https://vimeo.com/216410956" class="thumnail video-thumbnail recap-video">
 						<img src="images/conf-scene002.jpg" alt="">
 					</div>
 					<p class="description">A two-day, hands-on training bootcamp to learn how to create amazing products and work like the teams.</p>
@@ -73,32 +74,32 @@
 			<h2>Personal stories from innovative teams</h2>
 			<ul class="story-cards">
 				<li>
-					<div class="card-image"><img src="images/front-speaker-sian-townsend.jpg" alt=""></div>
+					<div href="https://vimeo.com/167029277" class="card-image recap-video"><img src="images/front-speaker-sian-townsend.jpg" alt=""></div>
 					<h3>Sian Townsend</h3>
 					<p>Jobs to be Done: from Doubter to Believer</p>
 				</li>
 				<li>
-					<div class="card-image"><img src="images/front-speaker-sam-vanessa.jpg" alt=""></div>
+					<div href="https://vimeo.com/167025212" class="card-image recap-video"><img src="images/front-speaker-sam-vanessa.jpg" alt=""></div>
 					<h3>Sam Goertler &amp; Vanessa Koch</h3>
 					<p>Last things first: A redesign strategy that&hellip;</p>
 				</li>
 				<li>
-					<div class="card-image"><img src="images/front-speaker-tracey-varnell.jpg" alt=""></div>
+					<div href="https://vimeo.com/167736107" class="card-image recap-video"><img src="images/front-speaker-tracey-varnell.jpg" alt=""></div>
 					<h3>Tracey Varnell</h3>
 					<p>Collaborative techniques for product leaders</p>
 				</li>
 				<li>
-					<div class="card-image"><img src="images/front-speaker-bob-baxley.jpg" alt=""></div>
+					<div href="https://vimeo.com/166885565" class="card-image recap-video"><img src="images/front-speaker-bob-baxley.jpg" alt=""></div>
 					<h3>Bob Baxley</h3>
 					<p>Designing the machine that designs the designs</p>
 				</li>
 				<li>
-					<div class="card-image"><img src="images/front-speaker-keenan-cummings.jpg" alt=""></div>
+					<div href="https://vimeo.com/167004431" class="card-image recap-video"><img src="images/front-speaker-keenan-cummings.jpg" alt=""></div>
 					<h3>Keenan Cummings</h3>
 					<p>Product vision and storytelling</p>
 				</li>
 				<li>
-					<div class="card-image"><img src="images/front-speaker-kyle-jacobsen.jpg" alt=""></div>
+					<div href="https://vimeo.com/167006595" class="card-image recap-video"><img src="images/front-speaker-kyle-jacobsen.jpg" alt=""></div>
 					<h3>Kyle Jacobson</h3>
 					<p>Where did the Duke Boys go?</p>
 				</li>
@@ -132,11 +133,29 @@
 		<p>&copy; Front, LLC. All rights reserved.</p>
 	</footer>
 	<script src="scripts/jquery-3.2.1.min.js"></script>
+	<script src="scripts/jquery.magnific-popup.js"></script>
 	<script src="scripts/ui.js"></script>
 	<script>
 		$(function() {
 			var imageNumber = Math.floor( Math.random() * 7 ) + 1;
 			$( '.hero' ).addClass( 'image-' + imageNumber );
+			
+			
+			
+	      $(document).ready(function() {
+	        $('.recap-video').magnificPopup({
+	          disableOn: 700,
+	          type: 'iframe',
+	          mainClass: 'mfp-fade',
+	          removalDelay: 160,
+	          preloader: false,
+
+	          fixedContentPos: false
+	        });
+	      });
+
+			
+			
 		});
 	</script>
 </body>
