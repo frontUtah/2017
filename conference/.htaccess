@@ -2,4 +2,4 @@
 RewriteEngine On
 
 # pretty URLs for each speaker
-RewriteRule ^conference/(.*)$ conference/speaker.php?slug=$1 [NC]
+RewriteRule ^conference/speaker/(.*)$ conference/speaker.php [NC]
