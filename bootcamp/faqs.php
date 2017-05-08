@@ -79,11 +79,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<h3>Skiing</h3>
 						<dl class="accordion">
 							<dt class="accordion-title question">When and where is the skiing?</dt>
-							<dd class="accordion-content answer">Front Park City full bootcamp passes that include 2 day lift tickets to Park City Mountain Resort are $1,399 (25% off) until 31 October 2017. Standard price Front Park City full bootcamp passes that include lift tickets are $1,799. The lift tickets provide unlimited access to Park City Resort, 6-7 January 2018.</dd>
+							<dd class="accordion-content answer">Full bootcamp passes that also include two day lift passes to Park City Mountain Resort provide unlimited access to Park City Mountain Resort any two days between 2-8 January 2018.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Will transportation be provided for skiing?</dt>
-							<dd class="accordion-content answer">Park City also provide a <a href="http://parkcity.org/departments/transit-bus/routes-schedules">free bus service</a> around town, including stops along Main Street, the hotel, and Park City Mountain Resort.</dd>
+							<dd class="accordion-content answer">Park City provides a <a href="http://parkcity.org/departments/transit-bus/routes-schedules">free bus service</a> around town, including stops along Main Street, the hotel, and Park City Mountain Resort.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">If I don’t purchase the combination ski ticket, can I still get a discounted lift pass?</dt>
@@ -91,7 +91,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Is ski rental included?</dt>
-							<dd class="accordion-content answer">No, but we have acquired a discounted rate at a rental shop near Park City Mountain Resort. Ski and snowboard equipment may be rented online at the this site.</dd>
+							<dd class="accordion-content answer">No, but we have arranged a discount of 30% off ski and snowboard rentals through <a href="http://www.skirentals.com/front">Breeze Rentals</a>, when purchased online. Their shop is located within Park City Mountain Resort.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">When can I pick up my ski pass?</dt>
@@ -99,7 +99,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Can I rent skis at Park City Mountain Resort?</dt>
-							<dd class="accordion-content answer">We have acquired a discounted rate at a rental shop near Park City Mountain Resort. Ski and snowboard equipment may be rented online at the this site. While we recommend renting from them, there are many other vendors that rent ski and snowboard equipment around the resort.</dd>
+							<dd class="accordion-content answer">Yes, we have arranged a discount of 30% off ski and snowboard rentals through <a href="http://www.skirentals.com/front">Breeze Rentals</a>, when purchased online. Their shop is located within Park City Mountain Resort.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Are meals provided during skiing after the conference?</dt>
