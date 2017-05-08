@@ -12,8 +12,8 @@ switch($uri_parts[0]) {
 	case 'conference':
 		break;
 	case 'bootcamp';
-		require($_SERVER['DOCUMENT_ROOT'] . '/data/instructors_pc18.php');
-		require($_SERVER['DOCUMENT_ROOT'] . '/data/courses_pc18.php');
+		require($_SERVER['DOCUMENT_ROOT'] . '/bootcamp/instructors.data.php');
+		require($_SERVER['DOCUMENT_ROOT'] . '/bootcamp/courses.data.php');
 		break;
 }
 
@@ -35,7 +35,6 @@ switch($uri_parts[0]) {
 	<header class="primary-header">
 		<nav class="primary-nav">
 			<ul>
-
 <?php
 
 $global_nav[1] = array('subsite' => 'landing', 'link' => '/', 'text' => 'Home', 'class' => 'home');
@@ -70,17 +69,17 @@ foreach($global_nav_order as $global_nav_order_item) {
 
 // build global nav
 foreach($sorted_global_nav as $key => $nav) {
-	echo '<li class="order-' . $key . '"><a href="' . $nav['link'] . '" class="' . $nav['class'];
+	echo '				<li class="order-' . $key . '"><a href="' . $nav['link'] . '" class="' . $nav['class'];
 
 	if($uri_parts[0] == $nav['subsite'] || empty($uri_parts[0]) && $nav['subsite'] == 'landing') {
 		echo ' active';
 	}
 
 	echo '">' . $nav['text'] . '</a></li>';
+	echo "\n";
 }
 
 ?>
-
 			</ul>
 		</nav>
 		<nav class="social-nav">
@@ -98,6 +97,15 @@ foreach($sorted_global_nav as $key => $nav) {
 
 switch($uri_parts[0]) {
 	case 'conference':
+		echo '
+			<header class="section-header">
+				<nav class="section-nav">
+					<div class="section-nav-head">
+						<h3 class="logo">Front</h3>
+						<button class="menu-toggle"></button>
+					</div>
+				</nav>
+			</header>';	
 		break;
 	case 'bootcamp';
 
