@@ -1,0 +1,6 @@
+# turn Rewrite Engine on
+RewriteEngine On
+
+# pretty URLs
+RewriteRule ^bootcamp/courses/(.*)$ bootcamp/courses.php [NC]
+RewriteRule ^bootcamp/instructor/(.*)$ bootcamp/instructor.php [NC]

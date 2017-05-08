@@ -12,222 +12,28 @@ require('../includes/header.php');
 		<section class="instructors">
 			<h2 class="">Instructors</h2>
 			<ul class="instructor-list">
-				<li class="instructor pm">
-					<a href="instructor.html">
+
+<?php
+
+// randomize list
+shuffle($instructors);
+
+// spit them out
+foreach($instructors as $instructor) {
+	echo '<li class="instructor ' . $instructor['discipline'] . '">
+					<a href="/bootcamp/instructor/' . $instructor['slug'] . '">
 						<div class="instructor-photo">
-							<img src="images/wade-large.jpg" alt="">
+							<img src="/images/' . $instructor['photo'] . '" alt="">
 						</div>
-						<h4>Ingrid Cruz</h4>
-						<p class="title">Manager of UX<br>InfusionSoft</p>
+						<h4>' . $instructor['name'] . '</h4>
+						<p class="title">' . $instructor['title'] . '<br>' . $instructor['company'] . '</p>
 					</a>
-				</li>
-				<li class="instructor ux">
-					<a href="instructor.html">
-						<div class="instructor-photo">
-							<img src="images/wade-large.jpg" alt="">
-						</div>
-						<h4>Clayton Farr</h4>
-						<p class="title">Manager of UX<br>InfusionSoft</p>
-					</a>
-				</li>
-				<li class="instructor ux">
-					<a href="instructor.html">
-						<div class="instructor-photo">
-							<img src="images/wade-large.jpg" alt="">
-						</div>
-						<h4>Amelie Lamont</h4>
-						<p class="title">Manager of UX<br>InfusionSoft</p>
-					</a>
-				</li>
-				<li class="instructor research">
-					<a href="instructor.html">
-						<div class="instructor-photo">
-							<img src="images/wade-large.jpg" alt="">
-						</div>
-						<h4>Cathrine Shyu</h4>
-						<p class="title">Manager of UX<br>InfusionSoft</p>
-					</a>
-				</li>
-				<li class="instructor leadership">
-					<a href="instructor.html">
-						<div class="instructor-photo">
-							<img src="images/wade-large.jpg" alt="">
-						</div>
-						<h4>Nate Walkingshaw</h4>
-						<p class="title">Manager of UX<br>InfusionSoft</p>
-					</a>
-				</li>
-				<li class="instructor research">
-					<a href="instructor.html">
-						<div class="instructor-photo">
-							<img src="images/wade-large.jpg" alt="">
-						</div>
-						<h4>Christi Wruck</h4>
-						<p class="title">Manager of UX<br>InfusionSoft</p>
-					</a>
-				</li>
-				<li class="instructor pm">
-					<a href="instructor.html">
-						<div class="instructor-photo">
-							<img src="images/wade-large.jpg" alt="">
-						</div>
-						<h4>Ingrid Cruz</h4>
-						<p class="title">Manager of UX<br>InfusionSoft</p>
-					</a>
-				</li>
-				<li class="instructor ux">
-					<a href="instructor.html">
-						<div class="instructor-photo">
-							<img src="images/wade-large.jpg" alt="">
-						</div>
-						<h4>Clayton Farr</h4>
-						<p class="title">Manager of UX<br>InfusionSoft</p>
-					</a>
-				</li>
-				<li class="instructor ux">
-					<a href="instructor.html">
-						<div class="instructor-photo">
-							<img src="images/wade-large.jpg" alt="">
-						</div>
-						<h4>Amelie Lamont</h4>
-						<p class="title">Manager of UX<br>InfusionSoft</p>
-					</a>
-				</li>
-				<li class="instructor research">
-					<a href="instructor.html">
-						<div class="instructor-photo">
-							<img src="images/wade-large.jpg" alt="">
-						</div>
-						<h4>Cathrine Shyu</h4>
-						<p class="title">Manager of UX<br>InfusionSoft</p>
-					</a>
-				</li>
-				<li class="instructor leadership">
-					<a href="instructor.html">
-						<div class="instructor-photo">
-							<img src="images/wade-large.jpg" alt="">
-						</div>
-						<h4>Nate Walkingshaw</h4>
-						<p class="title">Manager of UX<br>InfusionSoft</p>
-					</a>
-				</li>
-				<li class="instructor research">
-					<a href="instructor.html">
-						<div class="instructor-photo">
-							<img src="images/wade-large.jpg" alt="">
-						</div>
-						<h4>Christi Wruck</h4>
-						<p class="title">Manager of UX<br>InfusionSoft</p>
-					</a>
-				</li>
-				<li class="instructor pm">
-					<a href="instructor.html">
-						<div class="instructor-photo">
-							<img src="images/wade-large.jpg" alt="">
-						</div>
-						<h4>Ingrid Cruz</h4>
-						<p class="title">Manager of UX<br>InfusionSoft</p>
-					</a>
-				</li>
-				<li class="instructor ux">
-					<a href="instructor.html">
-						<div class="instructor-photo">
-							<img src="images/wade-large.jpg" alt="">
-						</div>
-						<h4>Clayton Farr</h4>
-						<p class="title">Manager of UX<br>InfusionSoft</p>
-					</a>
-				</li>
-				<li class="instructor ux">
-					<a href="instructor.html">
-						<div class="instructor-photo">
-							<img src="images/wade-large.jpg" alt="">
-						</div>
-						<h4>Amelie Lamont</h4>
-						<p class="title">Manager of UX<br>InfusionSoft</p>
-					</a>
-				</li>
-				<li class="instructor research">
-					<a href="instructor.html">
-						<div class="instructor-photo">
-							<img src="images/wade-large.jpg" alt="">
-						</div>
-						<h4>Cathrine Shyu</h4>
-						<p class="title">Manager of UX<br>InfusionSoft</p>
-					</a>
-				</li>
-				<li class="instructor leadership">
-					<a href="instructor.html">
-						<div class="instructor-photo">
-							<img src="images/wade-large.jpg" alt="">
-						</div>
-						<h4>Nate Walkingshaw</h4>
-						<p class="title">Manager of UX<br>InfusionSoft</p>
-					</a>
-				</li>
-				<li class="instructor research">
-					<a href="instructor.html">
-						<div class="instructor-photo">
-							<img src="images/wade-large.jpg" alt="">
-						</div>
-						<h4>Christi Wruck</h4>
-						<p class="title">Manager of UX<br>InfusionSoft</p>
-					</a>
-				</li>
-				<li class="instructor pm">
-					<a href="instructor.html">
-						<div class="instructor-photo">
-							<img src="images/wade-large.jpg" alt="">
-						</div>
-						<h4>Ingrid Cruz</h4>
-						<p class="title">Manager of UX<br>InfusionSoft</p>
-					</a>
-				</li>
-				<li class="instructor ux">
-					<a href="instructor.html">
-						<div class="instructor-photo">
-							<img src="images/wade-large.jpg" alt="">
-						</div>
-						<h4>Clayton Farr</h4>
-						<p class="title">Manager of UX<br>InfusionSoft</p>
-					</a>
-				</li>
-				<li class="instructor ux">
-					<a href="instructor.html">
-						<div class="instructor-photo">
-							<img src="images/wade-large.jpg" alt="">
-						</div>
-						<h4>Amelie Lamont</h4>
-						<p class="title">Manager of UX<br>InfusionSoft</p>
-					</a>
-				</li>
-				<li class="instructor research">
-					<a href="instructor.html">
-						<div class="instructor-photo">
-							<img src="images/wade-large.jpg" alt="">
-						</div>
-						<h4>Cathrine Shyu</h4>
-						<p class="title">Manager of UX<br>InfusionSoft</p>
-					</a>
-				</li>
-				<li class="instructor leadership">
-					<a href="instructor.html">
-						<div class="instructor-photo">
-							<img src="images/wade-large.jpg" alt="">
-						</div>
-						<h4>Nate Walkingshaw</h4>
-						<p class="title">Manager of UX<br>InfusionSoft</p>
-					</a>
-				</li>
-				<li class="instructor research">
-					<a href="instructor.html">
-						<div class="instructor-photo">
-							<img src="images/wade-large.jpg" alt="">
-						</div>
-						<h4>Christi Wruck</h4>
-						<p class="title">Manager of UX<br>InfusionSoft</p>
-					</a>
-				</li>
+				</li>';
+
+}
+
+?>
+
 			</ul>
 		</section>
 		<section class="join-us">

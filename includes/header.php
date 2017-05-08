@@ -4,6 +4,20 @@
 
 $uri_parts = explode('/', trim($_SERVER['REQUEST_URI'], '/'));
 
+
+// global includes
+require('../includes/functions.php');
+
+// sub site includes
+switch($uri_parts[0]) {
+	case 'conference':
+		break;
+	case 'bootcamp';
+		require('../data/instructors_pc18.php');
+		require('../data/courses_pc18.php');
+		break;
+}
+
 ?>
 
 

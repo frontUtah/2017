@@ -4,6 +4,9 @@ $title = 'Front - The product conference for UX designers and product managers';
 
 require('../includes/header.php');
 
+$instructor = get_instructor($uri_parts[2]);
+$courses = get_courses($instructor['slug'], 'instructor');
+
 ?>
 	<main class="product-bootcamp-page">
 		<section class="hero">
@@ -15,29 +18,53 @@ require('../includes/header.php');
 				<div class="details">
 					<div class="instructor pm">
 						<div class="instructor-photo">
-							<img src="images/wade-large.jpg" alt="">
+							<img src="/images/<?php echo $instructor['photo']; ?>" alt="">
 						</div>
-						<h4>Amelie Lamont</h4>
-						<p class="title">Manager of UX<br>InfusionSoft</p>
-						<p class="experience"><span class="label">Intermed</span></p>
+						<h4><?php echo $instructor['first'] . ' ' . $instructor['first'] ?></h4>
+						<p class="title"><?php echo $instructor['title']; ?><br><?php echo $instructor['company']; ?></p>
 					</div>
 					<nav class="social-nav">
 						<ul>
-							<li><a class="twitter" href="https://twitter.com/front">Twitter</a></li>
-							<li><a class="linkedin" href="https://www.linkedin.com/company-beta/4873375/?pathWildcard=4873375">LinkedIn</a></li>
-							<li><a class="instagram" href="https://www.instagram.com/frontutah/">Instagram</a></li>
+
+							<?php
+
+							// twitter
+							if(!empty($instructor['twitter'])) {
+								echo '<li><a class="twitter" href="https://twitter.com/' . $instructor['twitter'] . '">Twitter</a></li>';
+							}
+
+							// linkedin
+							if(!empty($instructor['linkedin'])) {
+								echo '<li><a class="linkedin" href="' . $instructor['linkedin'] . '">LinkedIn</a></li>';
+							}
+
+							// instagram
+							if(!empty($instructor['instagram'])) {
+								echo '<li><a class="instagram" href="https://www.instagram.com/' . $instructor['instagram'] . '/">Instagram</a></li>';
+							}
+
+							?>
+							
 						</ul>
 					</nav>
 				</div>
 				<div class="instructor-content">
 					<div class="course-description">
-						<h3>Remote User Testing: How to Test Your Designs From The Comfort of Your Herman Miller Aeron Chair</h3>
-						<p>User research is fun. Driving, flying, biking or ubering to get to the user research? Less fun (Not to mention a huge time waster).</p>
-						<p>As a firm believer in work-from-homing and the potential productivity boostage it can bring, and possessing an anthropological zeal for exploring my own inner introvert, I would like to share with you the skills, techniques, and tools necessary to make remote user testing as successful as in-person testing. In this workshop you can expect to take actual prototypes (either your own or examples provided) and work to plan, build, and perform both live and self-moderated (on-demand), remote, user testing campaigns.</p>
+
+						<?php
+
+						if(count($courses) > 0) {
+							foreach($courses as $course) {
+								echo '<h3>' . $course['title'] . '</h3>';
+								echo '<p>' . $course['description'] . '</p>';
+							}
+						}
+
+						?>
 					</div>
 					<div class="about-instructor">
-						<h3>About Daniel</h3>
-						<p>Daniel is a design partner at GV, Google’s venture capital group. He works with the venture funds’ many portfolio companies to solve their design challenges. Daniel has had a varied career that included co-founding an agency (silverorange), design directing at startups (Digg and TinySpeck), and founding two startups (Pownce and Milk). When Milk was acquired by Google, Daniel ran a mobile-focused design team there before moving to GV where he gets to work on everything from robots to apps to wearable therapeutics.</p>
+						<h3>About <?php echo $instructor['first'] ?></h3>
+						<p><?php echo $instructor['bio'] ?></p>
 					</div>
 				</div>
 			</div>
