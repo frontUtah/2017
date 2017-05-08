@@ -40,15 +40,13 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		<section class="photo-collage">
 			<img src="/images/venue-map.jpg" alt="">
 		</section>
-		<section class="webcams">
-			<h2>Live Web Cams</h2>
+		<section class="sports">
+			<h2>Location, location, location</h2>
 			<div class="webcam">
-				<img src="/images/webcam1.jpg" alt="">
-				<img src="/images/webcam2.jpg" alt="">
-			</div>
+			<p>Utah Olympic Park is located in beautiful Park City just 30 minutes from downtown Salt Lake City. From Exit #145 off I80, turn south towards historic Park City. Take a right turn at the second light (Olympic Parkway / Newpark Blvd) and go through the round-about. Take the road up the hill towards the Nordic Jumps, the Quinney Welcome Center is about a mile up the road.</p>
 		</section>
 		<section class="photo-collage">
-			<img src="/images/venue-overhead.jpg" alt="">
+			<img src="/images/Plaza_QWC_Legacy.jpg" alt="">
 		</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
@@ -62,3 +60,6 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php');
 
 ?>
+
+
+

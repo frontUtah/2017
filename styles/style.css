@@ -2144,6 +2144,10 @@ section.accomodations .hotel .book-hotel .button {
 section.accomodations {
 	padding: 140px 40px
 }
+section.accomodations.following {
+	padding: 140px 40px;
+	padding-top: 0px;
+}
 section.accomodations .about-accomodations {
 	font-weight: 200;
 	font-size: 18px;
