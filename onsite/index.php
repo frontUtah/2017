@@ -8,15 +8,15 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 	<main class="custom-training">
 		<section class="hero">
 			<h1>Custom onsite training</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+			<p>Let us to bring Front to you. Tell us about your organization's needs and we'll build a custom training solution to meet them.</p>
 		</section>
 		<section class="custom-training-about">
-			<h2>Lorem ipsum dolor sit amet, consectetur</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+			<h2>Learning to learn, in context</h2>
+			<p>Artifacts from your attempts to ship product likely cover the walls of your war rooms. You’re keenly aware of the competitive threats your feeling from the market. Your team’s strengths and weaknesses are pretty clear. The window to deliver value is likely closing in. Imagine an intensive, multi-day onsite training, customized specifically for your team, to build out a high-functioning, customer-left product organization.</p>
 		</section>
 		<section class="training-courses">
 			<h2>Design your perfect training program</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+			<p>Whether you’re starting from ground zero or looking to fortify a team of seasoned professionals, we’ll work together with you to build a custom training solution that specifically delivers on your desired outcome. By bringing the courses to your team, you are able to control the pace, reach, and context, delivering much deeper and lasting results.</p>
 			<ul class="course-groups">
 				<li class="course-group ux">
 					<dl>

@@ -71,8 +71,8 @@ $courses = get_courses($instructor['slug']);
 		</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-			<p><a href="" class="button">Register</a></p>
+			<p>Reserve your seat now for the premier UX and Product Management training experience. Design your custom training program now. Whether you’re a beginner or seasoned professional, the Front Park City workshop series will take you and your team to the next level in product design and management.</p>
+			<p><a href="/bootcamp/registration" class="button">Register</a></p>
 		</section>
 	</main>
 

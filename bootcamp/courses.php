@@ -30,7 +30,27 @@ $tabs[] = array('link' => 'leadership', 'text' => 'Leadership');
 	</section>
 	<section class="courses <?php echo $track; ?>">
 		<h2 class="">Courses</h2>
-		<p class="about-courses">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+		<p class="about-courses">
+
+<?php
+
+switch($track) {
+	case 'ux':
+		echo 'User experience is everyone’s responsibility, but someone needs to own it. Every team needs an advocate with a keen eye and deep empathy. Learn how to harness the power of your team from these product design experts and evangelists.';
+		break;
+	case 'pm':
+		echo 'Achieving greatness through influence. It’s a little like herding cats. Product Managers help their teams ship the right products to their users. These experienced leaders will share how they are innovating through continuous discovery and validation.';
+		break;
+	case 'research':
+		echo 'The cross-functional team is crucial for effective product design. Delightful, user-focused products only come from organizations that listen, iterate, and learn at every level. Learn about collaboration and culture from other members of the team.';
+		break;
+	case 'leadership':
+		echo 'Regardless of your place in the product team, strong leadership is a requirement for improving process and ultimately, the ability to deliver products and experiences which matter. ';
+		break;
+}
+
+?>
+			</p>
 
 		<nav class="course-track-nav">
 			<h4>Select Your Track</h4>
@@ -116,11 +136,11 @@ $tabs[] = array('link' => 'leadership', 'text' => 'Leadership');
 			</div>
 		</div>
 	</section>
-	<section class="join-us">
-		<h2>Join us at the Front!</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-		<p><a href="" class="button">Register</a></p>
-	</section>
+		<section class="join-us">
+			<h2>Join us at the Front!</h2>
+			<p>Reserve your seat now for the premier UX and Product Management training experience. Design your custom training program now. Whether you’re a beginner or seasoned professional, the Front Park City workshop series will take you and your team to the next level in product design and management.</p>
+			<p><a href="/bootcamp/registration" class="button">Register</a></p>
+		</section>
 </main>
 
 <?php
