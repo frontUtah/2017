@@ -1,6 +1,26 @@
 # turn Rewrite Engine on
 RewriteEngine On
 
+# send non www traffic to www
+RewriteCond %{HTTP_HOST} !^localhost\.
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
+
+# route HTTP to HTTPS
+RewriteCond %{HTTP_HOST} !^localhost\.
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{SERVER_NAME}/$1 [R,L]
+
 # pretty URLs
 RewriteRule ^bootcamp/courses/(.*)$ bootcamp/courses.php [NC]
 RewriteRule ^bootcamp/instructor/(.*)$ bootcamp/instructor.php [NC]
+
+# remove trailing slash for non-existant directories
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} /(.*)/$
+RewriteRule ^ /%1 [R=301,L]
+
+# remove .php extension from all remaining files
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule (.*) $1.php [NC,L]
