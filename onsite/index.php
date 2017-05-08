@@ -1,33 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Custom Onsite Training</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="styles/style.css">
-</head>
-<body>
-	<div class="headers">
-		<header class="primary-header">
-			<nav class="primary-nav">
-				<ul>
-					<!--Mobile Order: Actual Order. Desktop Order: Class Names. Bless you Flexbox-->
-					<li class="order-4"><a href="custom-training.html" class="custom-training active">Custom Onsite Training</a></li>
-					<li class="order-2"><a href="#" class="case-study">Case Study Conference</a></li>
-					<li class="order-3"><a href="product-bootcamp.html" class="bootcamp">Product Bootcamp</a></li>
-					<li class="order-5"><a href="#" class="magazine">Magazine</a></li>
-					<li class="order-1"><a href="index.html" class="home">Home</a></li>
-				</ul>
-			</nav>
-			<nav class="social-nav">
-				<ul>
-					<li><a class="twitter" href="https://twitter.com/front">Twitter</a></li>
-					<li><a class="linkedin" href="https://www.linkedin.com/company-beta/4873375/?pathWildcard=4873375">LinkedIn</a></li>
-					<li><a class="instagram" href="https://www.instagram.com/frontutah/">Instagram</a></li>
-				</ul>
-			</nav>
-		</header>
-	</div>
+<?php
+
+$title = 'Front - The product conference for UX designers and product managers';
+
+require('../includes/header.php');
+
+?>
 	<main class="custom-training">
 		<section class="hero">
 			<h1>Custom onsite training</h1>
@@ -94,27 +71,9 @@
 			</form>
 		</section>
 	</main>
-	<footer>
-		<nav class="social-nav">
-			<ul>
-				<li><a class="twitter" href="https://twitter.com/front">Twitter</a></li>
-				<li><a class="linkedin" href="https://www.linkedin.com/company-beta/4873375/?pathWildcard=4873375">LinkedIn</a></li>
-				<li><a class="instagram" href="https://www.instagram.com/frontutah/">Instagram</a></li>
-			</ul>
-		</nav>
-		<nav class="main-footer-nav">
-			<ul>
-				<li><a href="#">Contact Us</a></li>
-				<li><a href="#">Terms &amp; Conditions</a></li>
-				<li><a href="#">Code of Conduct</a></li>
-				<li><a href="#">Speaker Guide</a></li>
-			</ul>
-		</nav>
-		<p>Join us at the</p>
-		<h3 class="logo">Front</h3>
-		<p>&copy; Front, LLC. All rights reserved.</p>
-	</footer>
-	<script src="scripts/jquery-3.2.1.min.js"></script>
-	<script src="scripts/ui.js"></script>
-</body>
-</html>
+
+<?php
+
+require('includes/footer.php');
+
+?>

@@ -29,4 +29,54 @@
 			</ul>
 		</nav>
 	</header>
+
+<?php
+
+// include sub nav?
+$request_uri_parts = explode('/', trim($_SERVER['REQUEST_URI'], '/'));
+$subsite = $request_uri_parts[0];
+$subsite_page = $request_uri_parts[1];
+
+switch($subsite) {
+	case 'conference':
+		break;
+	case 'bootcamp';
+
+		$bootcamp_nav[] = array('link' => 'courses', 'text' => 'Courses', 'class' => '');
+		$bootcamp_nav[] = array('link' => 'schedule', 'text' => 'Schedule', 'class' => '');
+		$bootcamp_nav[] = array('link' => 'instructors', 'text' => 'Instructors', 'class' => '');
+		$bootcamp_nav[] = array('link' => 'venue', 'text' => 'Venue', 'class' => '');
+		$bootcamp_nav[] = array('link' => 'faqs', 'text' => 'FAQs', 'class' => '');
+		$bootcamp_nav[] = array('link' => 'whyattend', 'text' => 'Why attend', 'class' => '');
+		$bootcamp_nav[] = array('link' => 'registration', 'text' => 'Register', 'class' => 'button');
+
+		echo '
+			<header class="section-header">
+				<nav class="section-nav">
+					<div class="section-nav-head">
+						<a href="/bootcamp"><h3 class="logo">Front</h3></a>
+						<button class="menu-toggle"></button>
+					</div>
+					<ul>';
+
+		foreach($bootcamp_nav as $navitem) {
+			echo '<li><a href="/bootcamp/' . $navitem['link'] . '" class="' . $navitem['class'];
+
+			if($subsite_page == $navitem['link']) {
+				echo ' selected';
+			}
+
+			echo '">' . $navitem['text'] . '</a></li>';
+		}
+
+		echo '
+					</ul>
+				</nav>
+			</header>';
+		break;
+	default:
+}
+
+?>
+
 </div>
