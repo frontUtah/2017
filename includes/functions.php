@@ -11,22 +11,8 @@ function get_instructor($slug) {
 	}
 }
 
-// get courses
-function get_courses($key, $filter) {
-	switch($filter) {
-		case 'instructor':
-			return get_courses_instructor($key);
-			break;
-		case 'instructor':
-			return get_courses_track($key);
-			break;
-		default:
-			return null;
-	}	
-}
-
 // get courses by instructor
-function get_courses_instructor($instructor) {
+function get_courses($instructor) {
 	global $courses;
 
 	foreach($courses as $course) {
@@ -39,16 +25,14 @@ function get_courses_instructor($instructor) {
 }
 
 // get courses by track
-function get_courses_track($track) {
+function get_course($track, $day, $slot) {
 	global $courses;
 
 	foreach($courses as $course) {
-		if($coures['tracj'] == $track) {
-			$these_courses[] = $course;
+		if($course['track'] == $track && $course['day'] == $day && $course['slot'] == $slot) {
+			return $course;
 		}
 	}
-
-	return $these_courses;
 }
 
 ?>

@@ -5,7 +5,7 @@ $title = 'Front - The product conference for UX designers and product managers';
 require('../includes/header.php');
 
 $instructor = get_instructor($uri_parts[2]);
-$courses = get_courses($instructor['slug'], 'instructor');
+$courses = get_courses($instructor['slug']);
 
 ?>
 	<main class="product-bootcamp-page">
