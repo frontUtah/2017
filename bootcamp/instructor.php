@@ -16,11 +16,11 @@ $courses = get_courses($instructor['slug']);
 			<h2 class="">Instructors</h2>
 			<div class="instructor-profile">
 				<div class="details">
-					<div class="instructor pm">
+					<div class="instructor <?php echo $instructor['discipline']; ?>">
 						<div class="instructor-photo">
 							<img src="/images/<?php echo $instructor['photo']; ?>" alt="">
 						</div>
-						<h4><?php echo $instructor['first'] . ' ' . $instructor['first'] ?></h4>
+						<h4><?php echo $instructor['first'] . ' ' . $instructor['last'] ?></h4>
 						<p class="title"><?php echo $instructor['title']; ?><br><?php echo $instructor['company']; ?></p>
 					</div>
 					<nav class="social-nav">

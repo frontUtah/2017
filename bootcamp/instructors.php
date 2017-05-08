@@ -35,6 +35,7 @@ foreach($instructors as $instructor) {
 ?>
 
 			</ul>
+			<p><em>+ 13 more instructors to be announced soon!</em></p>
 		</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
