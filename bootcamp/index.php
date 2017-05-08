@@ -22,8 +22,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		<section class="bootcamp-about">
 			<div class="content">
 				<h2>2 intense days of learning  and practice at 7,000 feet</h2>
-				<p>Join us in the majestic mountains of Utah for an intimate, one-of-a-kind UX and Product Management training expeirence. Select 4 half-day workshops, for 2 intense days of learning and practice. No passive education here. This isn’t for the faint of heart. We’ll be working together, at 7,000 feet and atop the greatest snow on earth, in small groups of six, where you’ll be expected to collaborate and engage.</p>
-				<p>Each workshop will be limited to 48 students and taught by internationally recognized industry leaders and some of tech’s most skilled practictioners. Breakfast and lunch are provided each day. And yeah, we certainly expect that you’ll stay an extra day—or two—for some time in on the slopes. </p>
+				<p>Join us in the majestic mountains of Utah for an intimate, one-of-a-kind UX and Product Management training experience. Select 6 half and quarter-day workshops, for 2 intense days of learning and practice. No passive education here. This isn’t for the faint of heart. We’ll be working together, at 7,000 feet and atop the greatest snow on earth, in small groups of six, where you’ll be expected to collaborate and engage.</p>
+				<p>Each workshop will be limited to 48 students and taught by internationally recognized industry leaders and some of tech’s most skilled practitioners. Breakfast and lunch are provided each day. And yeah, we certainly expect that you’ll stay an extra day—or two—for some time in on the slopes.</p>
 			</div>
 			<div class="image">
 				<img src="/images/front-snow-stamp.png" alt="">
@@ -70,7 +70,7 @@ foreach($instructors as $instructor) {
 		</section>
 		<section class="training-courses">
 			<h2>Design your perfect training program</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+			<p>We’ve assembled a diverse group of instructors which have prepared a wide range of basic, intermediate, and advanced courses on user experience design, product management, research, and leadership. Design your custom training program, selecting from this broad curriculum of twenty-four different courses.</p>
 			<ul class="course-groups">
 				<li class="course-group ux">
 					<dl>
@@ -80,7 +80,7 @@ foreach($instructors as $instructor) {
 						<dd class="basic">Basic</dd>
 					</dl>
 					<p>
-						<a href="courses-ux.html" class="button">View Courses</a>
+						<a href="/bootcamp/courses/ux" class="button">View Courses</a>
 					</p>
 				</li>
 				<li class="course-group pm">
@@ -91,7 +91,7 @@ foreach($instructors as $instructor) {
 						<dd class="basic">Basic</dd>
 					</dl>
 					<p>
-						<a href="courses-pm.html" class="button">View Courses</a>
+						<a href="/bootcamp/courses/pm" class="button">View Courses</a>
 					</p>
 				</li>
 				<li class="course-group research">
@@ -102,7 +102,7 @@ foreach($instructors as $instructor) {
 						<dd class="basic">Basic</dd>
 					</dl>
 					<p>
-						<a href="courses-research.html" class="button">View Courses</a>
+						<a href="/bootcamp/courses/research" class="button">View Courses</a>
 					</p>
 				</li>
 				<li class="course-group leadership">
@@ -113,7 +113,7 @@ foreach($instructors as $instructor) {
 						<dd class="basic">Basic</dd>
 					</dl>
 					<p>
-						<a href="courses-leadership.html" class="button">View Courses</a>
+						<a href="/bootcamp/courses/leadership" class="button">View Courses</a>
 					</p>
 				</li>
 			</ul>
@@ -124,8 +124,8 @@ foreach($instructors as $instructor) {
 		</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-			<p><a href="" class="button">Register</a></p>
+			<p>Reserve your seat now for the premier UX and Product Management training experience. Design your custom training program now. Whether you’re a beginner or seasoned professional, the Front Park City workshop series will take you and your team to the next level in product design and management.</p>
+			<p><a href="/bootcamp/registration" class="button">Register</a></p>
 		</section>
 	</main>
 

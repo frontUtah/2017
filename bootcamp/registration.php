@@ -11,7 +11,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		</section>
 		<section class="registration-about">
 			<h2>Registration</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+			<p class="about-registration">Seating is limited, but the value isn’t. Don’t procrastinate. You don’t want to miss this. Front Park City is back for it’s second year with a fourth track, more intructors, gourmet catered food, and a beautiful venue, perched on a mountain in Park City, Utah. We’ve put together a combination lift pass ticket and great group discounts so your entire team can attend.</p>
 		</section>
 		<section class="pricing">
 			<h2>Pricing</h2>
@@ -72,13 +72,13 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		</section>
 		<section class="accomodations">
 			<h2>Venue and accomodations</h2>
-			<p class="about-accomodations">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+			<p class="about-accomodations">We have acquired a discounted nightly rate of $229/night + tax for a king bed and $249/night + tax for two queens, at the DoubleTree by Hilton Park City. We encourage you to register early as it is ski seasons and the hotel will likely sell out before that date. Book your room online or by calling 855-537-5305 and asking for the “Front” group discount. Free transportation between the hotel and venue will be provided.</p>
 			<div class="hotel">
 				<div class="hotel-info">
 					<h3>DoubleTree Hilton, Park City, Utah</h3>
 					<p>1800 Park Avenue, Park City, Utah, 84060, USA<p>
-					<p>TEL: +1-435-649-7000</p>
-					<p>FAX: +1-435-649-4819</p>
+					<p>Front desk: 435.649.7000</p>
+					<p>Reservations: 855.537.5305</p>
 					<ul>
 						<li>King or double queen beds</li>
 						<li>Breakfast and lunch included</li>
@@ -117,8 +117,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-			<p><a href="" class="button">Register</a></p>
+			<p>Reserve your seat now for the premier UX and Product Management training experience. Design your custom training program now. Whether you’re a beginner or seasoned professional, the Front Park City workshop series will take you and your team to the next level in product design and management.</p>
+			<p><a href="/bootcamp/registration" class="button">Register</a></p>
 		</section>
 	</main>
 

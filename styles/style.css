@@ -1020,7 +1020,7 @@ section.about h2 {
 }
 section.about p {
 	font-size: 24px;
-	max-width: 850px;
+	max-width: 870px;
 	margin: 0 auto;
 	line-height: 35px
 }
@@ -1952,6 +1952,11 @@ section.webcams .webcam img {
 section.registration-about h2 {
 	display: none
 }
+
+section.registration-about .about-registration {
+	font-weight: 200;
+	max-width: 954px;
+	margin: 50px auto
 }
 
 @media (max-width:999px) {

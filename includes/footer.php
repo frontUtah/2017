@@ -9,10 +9,10 @@
 		</nav>
 		<nav class="main-footer-nav">
 			<ul>
-				<li><a href="#">Contact Us</a></li>
-				<li><a href="#">Terms &amp; Conditions</a></li>
-				<li><a href="#">Code of Conduct</a></li>
-				<li><a href="#">Speaker Guide</a></li>
+				<li><a href="/about">About</a></li>
+				<li><a href="/terms">Terms &amp; Conditions</a></li>
+				<li><a href="/coc">Code of Conduct</a></li>
+				<li><a href="/speaker-guide">Speaker Guide</a></li>
 			</ul>
 		</nav>
 		<p>Join us at the</p>
