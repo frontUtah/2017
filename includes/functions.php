@@ -35,4 +35,28 @@ function get_course($track, $day, $slot) {
 	}
 }
 
+// get speaker
+function get_speaker($slug) {
+	global $speakers;
+
+	foreach($speakers as $speaker) {
+		if($speaker['slug'] == $slug) {
+			return $speaker;
+		}
+	}
+}
+
+// get sessions by speaker
+function get_sessions($speaker) {
+	global $sessions;
+
+	foreach($sessions as $session) {
+		if($session['speaker'] == $speaker || is_array($session['speaker']) && in_array($speaker, $session['speaker'])) {
+			$these_sessions[] = $session;
+		}
+	}
+
+	return $these_sessions;
+}
+
 ?>

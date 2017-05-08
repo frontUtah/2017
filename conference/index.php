@@ -90,7 +90,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</div>
 					<div class="item-info">
 						<div class="info-holder">
-								<a href="/conference/michellebarber"><strong class="item-title">Michelle Barber</strong>
+								<a href="/conference/speaker/michellebarber"><strong class="item-title">Michelle Barber</strong>
 								<strong class="subtitle">FamilySearch</strong></a>
 						</div>
 						<ul class="social-network">
@@ -108,7 +108,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</div>
 					<div class="item-info">
 						<div class="info-holder">
-								<a href="/conference/mikedavidson"><strong class="item-title">Mike Davidson</strong>
+								<a href="/conference/speaker/mikedavidson"><strong class="item-title">Mike Davidson</strong>
 								<strong class="subtitle">Twitter VP Design (former)</strong></a>
 						</div>
 						<ul class="social-network">
@@ -126,7 +126,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</div>
 					<div class="item-info">
 						<div class="info-holder">
-								<a href="/conference/miablume"><strong class="item-title">Mia Blume</strong>
+								<a href="/conference/speaker/miablume"><strong class="item-title">Mia Blume</strong>
 								<strong class="subtitle">Design Leadership Coach</strong></a>
 						</div>
 						<ul class="social-network">
@@ -148,7 +148,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</div>
 					<div class="item-info">
 						<div class="info-holder">
-								<a href="/conference/diogenesbrito"><strong class="item-title">Diogenes Brito</strong>
+								<a href="/conference/speaker/diogenesbrito"><strong class="item-title">Diogenes Brito</strong>
 								<strong class="subtitle">Slack</strong></a>
 						</div>
 						<ul class="social-network">
@@ -167,7 +167,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</div>
 					<div class="item-info">
 						<div class="info-holder">
-								<a href="/conference/danielburka"><strong class="item-title">Daniel Burka</strong>
+								<a href="/conference/speaker/danielburka"><strong class="item-title">Daniel Burka</strong>
 								<strong class="subtitle">Google Ventures</strong></a>
 						</div>
 						<ul class="social-network">
@@ -185,7 +185,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</div>
 					<div class="item-info">
 						<div class="info-holder">
-								<a href="/conference/amelielamont"><strong class="item-title">Amélie Lamont</strong>
+								<a href="/conference/speaker/amelielamont"><strong class="item-title">Amélie Lamont</strong>
 								<strong class="subtitle">The New York Times</strong></a>
 						</div>
 						<ul class="social-network">
@@ -210,7 +210,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</div>
 					<div class="item-info">
 						<div class="info-holder">
-								<a href="/conference/taylorpalmer"><strong class="item-title">Taylor Palmer</strong>
+								<a href="/conference/speaker/taylorpalmer"><strong class="item-title">Taylor Palmer</strong>
 								<strong class="subtitle">Lucid</strong></a>
 						</div>
 						<ul class="social-network">
@@ -228,7 +228,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</div>
 					<div class="item-info">
 						<div class="info-holder">
-								<a href="/conference/joshpenrod"><strong class="item-title">Josh Penrod</strong>
+								<a href="/conference/speaker/joshpenrod"><strong class="item-title">Josh Penrod</strong>
 								<strong class="subtitle">Ancestry.com</strong></a>
 						</div>
 						<ul class="social-network">
@@ -264,7 +264,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</div>
 				<div class="item-info">
 					<div class="info-holder">
-							<a href="/conference/ellenchisa"><strong class="item-title">Ellen Chisa</strong>
+							<a href="/conference/speaker/ellenchisa"><strong class="item-title">Ellen Chisa</strong>
 							<strong class="subtitle">Lola Travel</strong></a>
 					</div>
 					<ul class="social-network">
@@ -282,7 +282,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</div>
 					<div class="item-info">
 						<div class="info-holder">
-								<a href="/conference/josephdraschil"><strong class="item-title">Joseph Draschil</strong>
+								<a href="/conference/speaker/josephdraschil"><strong class="item-title">Joseph Draschil</strong>
 								<strong class="subtitle">DirectScale</strong></a>
 						</div>
 						<ul class="social-network">
@@ -301,7 +301,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</div>
 					<div class="item-info">
 						<div class="info-holder">
-								<a href="/conference/mariahhay"><strong class="item-title">Mariah Hay</strong>
+								<a href="/conference/speaker/mariahhay"><strong class="item-title">Mariah Hay</strong>
 								<strong class="subtitle">Pluralsight</strong></a>
 						</div>
 						<ul class="social-network">
@@ -326,7 +326,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</div>
 					<div class="item-info">
 						<div class="info-holder">
-								<a href="/conference/kendallhulet"><strong class="item-title">Kendall Hulet</strong>
+								<a href="/conference/speaker/kendallhulet"><strong class="item-title">Kendall Hulet</strong>
 								<strong class="subtitle">Ancestry.com</strong></a>
 						</div>
 						<ul class="social-network">
@@ -344,7 +344,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</div>
 					<div class="item-info">
 						<div class="info-holder">
-								<a href="/conference/tomkrcha"><strong class="item-title">Tom Krcha</strong>
+								<a href="/conference/speaker/tomkrcha"><strong class="item-title">Tom Krcha</strong>
 								<strong class="subtitle">Adobe</strong></a>
 						</div>
 						<ul class="social-network">
@@ -361,7 +361,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</div>
 					<div class="item-info">
 						<div class="info-holder">
-								<a href="/conference/catherineshyu"><strong class="item-title">Catherine Shyu</strong>
+								<a href="/conference/speaker/catherineshyu"><strong class="item-title">Catherine Shyu</strong>
 								<strong class="subtitle">FullContact</strong></a>
 						</div>
 						<ul class="social-network">
@@ -382,7 +382,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</div>
 					<div class="item-info">
 						<div class="info-holder">
-								<a href="/conference/zacharysivertson"><strong class="item-title">Zach Sivertson</strong>
+								<a href="/conference/speaker/zacharysivertson"><strong class="item-title">Zach Sivertson</strong>
 								<strong class="subtitle">Symantec</strong></a>
 						</div>
 						<ul class="social-network">
@@ -400,7 +400,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</div>
 					<div class="item-info">
 						<div class="info-holder">
-								<a href="/conference/teresatorres"><strong class="item-title">Teresa Torres</strong>
+								<a href="/conference/speaker/teresatorres"><strong class="item-title">Teresa Torres</strong>
 								<strong class="subtitle">Product Talk</strong></a>
 						</div>
 						<ul class="social-network">
@@ -418,7 +418,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</div>
 					<div class="item-info">
 						<div class="info-holder">
-								<a href="/conference/christiwruck"><strong class="item-title">Christi Wruck</strong>
+								<a href="/conference/speaker/christiwruck"><strong class="item-title">Christi Wruck</strong>
 								<strong class="subtitle">Instructure</strong></a>
 						</div>
 						<ul class="social-network">
@@ -452,7 +452,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</div>
 					<div class="item-info">
 						<div class="info-holder">
-								<a href="/conference/vickythomas"><strong class="item-title">Vicky Thomas</strong>
+								<a href="/conference/speaker/vickythomas"><strong class="item-title">Vicky Thomas</strong>
 								<strong class="subtitle">Vivint Smart Home</strong></a>
 						</div>
 						<ul class="social-network">
@@ -470,7 +470,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</div>
 					<div class="item-info">
 						<div class="info-holder">
-								<a href="/conference/victoryocco"><strong class="item-title">Victor Yocco</strong>
+								<a href="/conference/speaker/victoryocco"><strong class="item-title">Victor Yocco</strong>
 								<strong class="subtitle">EY-Intuitive</strong></a>
 						</div>
 						<ul class="social-network">
