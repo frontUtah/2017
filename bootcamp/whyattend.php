@@ -11,7 +11,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		</section>
 		<section class="reasons-why">
 			<h2>Why Attend</h2>
-			<p class="about-reasons-why">You’ve sat through the keynotes, listened to the podcasts, and read the books. Now what? Where do you begin? You’re motivated and inspired, but what if your organization isn’t or what if you’re building a new team? How do you begin? Front Park City is a two-day bootcamp, specifically designed as an intimate, intensive, one-of-a-kind, hands-on UX and Product Management training experience where you will  experience and practice the techniques and methods that will accelerate the efficiency and accuracy and your organization’s product discovery and delivery. It also happens to be held in the majestic mountains of Utah, blanketed with the greatest snow on earth.<br /></br >It’s time to demand more than a workshop, bolted onto a conference as a supplemental day of content. Come, join us at the Front, where you’ll work side-by-side with some of the industry’s best and brightest. Design a custom training program to jump-starting your career or take it to the next level.</p>
+			<p class="about-reasons-why">You’ve sat through the keynotes, listened to the podcasts, and read the books. Now what? Where do you begin? You’re motivated and inspired, but what if your organization isn’t or what if you’re building a new team? How do you begin? Front Park City is a two-day bootcamp, specifically designed as an intimate, intensive, one-of-a-kind, hands-on UX and Product Management training experience where you will  experience and practice the techniques and methods that will accelerate the efficiency and accuracy and your organization’s product discovery and delivery. It also happens to be held in the majestic mountains of Utah, blanketed with the greatest snow on earth.
+
+It’s time to demand more than a workshop, bolted onto a conference as a supplemental day of content. Come, join us at the Front, where you’ll work side-by-side with some of the industry’s best and brightest. Design a custom training program to jump-starting your career or take it to the next level.
+</p>
 			<ul class="reasons-why-list">
 				<li>
 					<img src="/images/conf-scene004.jpg" alt="">
