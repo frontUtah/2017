@@ -2,7 +2,7 @@
 
 $title = 'Front - The product conference for UX designers and product managers';
 
-require('../includes/header.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 $instructor = get_instructor($uri_parts[2]);
 $courses = get_courses($instructor['slug']);
@@ -78,6 +78,6 @@ $courses = get_courses($instructor['slug']);
 
 <?php
 
-require('../includes/footer.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php');
 
 ?>

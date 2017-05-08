@@ -1,7 +1,6 @@
 <?php
 
 // global variables
-
 $uri_parts = explode('/', trim($_SERVER['REQUEST_URI'], '/'));
 
 
@@ -36,12 +35,52 @@ switch($uri_parts[0]) {
 	<header class="primary-header">
 		<nav class="primary-nav">
 			<ul>
-				<!--Mobile Order: Actual Order. Desktop Order: Class Names. Bless you Flexbox-->
-				<li class="order-1"><a href="/" class="home active">Home</a></li>
-				<li class="order-2"><a href="/conference" class="case-study">Case Study Conference</a></li>
-				<li class="order-3"><a href="/bootcamp" class="bootcamp">Product Bootcamp</a></li>
-				<li class="order-4"><a href="/onsite" class="custom-training">Custom Onsite Training</a></li>
-				<li class="order-5"><a href="https://medium.com/front-conference" class="magazine">Magazine</a></li>
+
+<?php
+
+$global_nav[1] = array('subsite' => 'landing', 'link' => '/', 'text' => 'Home', 'class' => 'home');
+$global_nav[2] = array('subsite' => 'conference', 'link' => '/conference', 'text' => 'Case Study Conference', 'class' => 'case-study');
+$global_nav[3] = array('subsite' => 'bootcamp', 'link' => '/bootcamp', 'text' => 'Product Bootcamp', 'class' => 'bootcamp');
+$global_nav[4] = array('subsite' => 'onsite', 'link' => '/onsite', 'text' => 'Custom Onsite Training', 'class' => 'custom-training');
+$global_nav[5] = array('subsite' => 'magazine', 'link' => 'https://medium.com/front-conference', 'text' => 'Magazine', 'class' => 'magazine');
+
+
+// Mobile Order: Actual Order. Desktop Order: Class Names. Bless you Flexbox)
+
+switch($uri_parts[0]) {
+	case 'conference':
+		$global_nav_order = array(2,3,4,5,1);
+		break;
+	case 'bootcamp';
+		$global_nav_order = array(3,2,4,5,1);
+		break;
+	case 'onsite';
+		$global_nav_order = array(4,2,3,5,1);
+		break;
+	default:
+		$global_nav_order = array(1,2,3,4,5);
+}
+
+
+// sort global nav
+foreach($global_nav_order as $global_nav_order_item) {
+	$sorted_global_nav[$global_nav_order_item] = $global_nav[$global_nav_order_item];
+}
+
+
+// build global nav
+foreach($sorted_global_nav as $key => $nav) {
+	echo '<li class="order-' . $key . '"><a href="' . $nav['link'] . '" class="' . $nav['class'];
+
+	if($uri_parts[0] == $nav['subsite'] || empty($uri_parts[0]) && $nav['subsite'] == 'landing') {
+		echo ' active';
+	}
+
+	echo '">' . $nav['text'] . '</a></li>';
+}
+
+?>
+
 			</ul>
 		</nav>
 		<nav class="social-nav">

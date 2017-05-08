@@ -2,7 +2,7 @@
 
 $title = 'Front - The product conference for UX designers and product managers';
 
-require('../includes/header.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 ?>
 	<main class="custom-training">
@@ -11,6 +11,6 @@ require('../includes/header.php');
 
 <?php
 
-require('../includes/footer.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php');
 
 ?>

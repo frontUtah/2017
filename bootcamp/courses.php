@@ -2,9 +2,9 @@
 
 $title = 'Front - The product conference for UX designers and product managers';
 
-require('../includes/header.php');
-require('../data/instructors_pc18.php');
-require('../data/courses_pc18.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/data/instructors_pc18.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/data/courses_pc18.php');
 
 // if no tab requested, redirect to the first
 if(empty($uri_parts[2])) {
@@ -125,6 +125,6 @@ $tabs[] = array('link' => 'leadership', 'text' => 'Leadership');
 
 <?php
 
-require('../includes/footer.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php');
 
 ?>

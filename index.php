@@ -92,6 +92,6 @@ require('includes/header.php');
 
 <?php
 
-require('includes/footer.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php');
 
 ?>
