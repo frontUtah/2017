@@ -25,7 +25,7 @@ foreach($instructors as $instructor) {
 						<div class="instructor-photo">
 							<img src="/images/' . $instructor['photo'] . '" alt="">
 						</div>
-						<h4>' . $instructor['name'] . '</h4>
+						<h4>' . $instructor['first'] . ' ' . $instructor['last'] . '</h4>
 						<p class="title">' . $instructor['title'] . '<br>' . $instructor['company'] . '</p>
 					</a>
 				</li>';

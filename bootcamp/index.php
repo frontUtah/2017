@@ -26,7 +26,7 @@ require('../includes/header.php');
 				<p>Each workshop will be limited to 48 students and taught by internationally recognized industry leaders and some of tech’s most skilled practictioners. Breakfast and lunch are provided each day. And yeah, we certainly expect that you’ll stay an extra day—or two—for some time in on the slopes. </p>
 			</div>
 			<div class="image">
-				<img src="images/front-snow-stamp.png" alt="">
+				<img src="/images/front-snow-stamp.png" alt="">
 			</div>
 		</section>
 		<section class="instructor-preview">
@@ -48,7 +48,7 @@ foreach($instructors as $instructor) {
 						<div class="instructor-photo">
 							<img src="/images/' . $instructor['photo'] . '" alt="">
 						</div>
-						<h4>' . $instructor['first'] . ' ' . $instructor['last']</h4>
+						<h4>' . $instructor['first'] . ' ' . $instructor['last'] . '</h4>
 						<p class="title">' . $instructor['title'] . '<br>' . $instructor['company'] . '</p>
 					</a>
 				</li>';
@@ -65,7 +65,7 @@ foreach($instructors as $instructor) {
 		<section class="highlight-video">
 			<h2>2017 Highlights</h2>
 			<div class="video-thumbnail">
-				<img src="images/ski-thumb.jpg" alt="">
+				<img src="/images/ski-thumb.jpg" alt="">
 			</div>
 		</section>
 		<section class="training-courses">
@@ -119,8 +119,8 @@ foreach($instructors as $instructor) {
 			</ul>
 		</section>
 		<section class="photo-collage">
-			<img src="images/conf-collage-mobile.jpg" alt="" class="mobile">
-			<img src="images/conf-collage-desktop.jpg" alt="" class="desktop">
+			<img src="/images/conf-collage-mobile.jpg" alt="" class="mobile">
+			<img src="/images/conf-collage-desktop.jpg" alt="" class="desktop">
 		</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
