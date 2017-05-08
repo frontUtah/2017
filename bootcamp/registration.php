@@ -11,7 +11,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		</section>
 		<section class="registration-about">
 			<h2>Registration</h2>
-			<p>Seating is limited, but the value isn’t. Don’t procrastinate. You don’t want to miss this. Front Park City is back for it’s second year with a fourth track, more intructors, gourmet catered food, and a beautiful venue, perched on a mountain in Park City, Utah. We’ve put together a combination lift pass ticket and great group discounts so your entire team can attend.</p>
+			<p class="about-registration">Seating is limited, but the value isn’t. Don’t procrastinate. You don’t want to miss this. Front Park City is back for it’s second year with a fourth track, more intructors, gourmet catered food, and a beautiful venue, perched on a mountain in Park City, Utah. We’ve put together a combination lift pass ticket and great group discounts so your entire team can attend.</p>
 		</section>
 		<section class="pricing">
 			<h2>Pricing</h2>
