@@ -3336,6 +3336,9 @@ text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.93);
 #mc_embed_signup input.email {
 	width:245px !important;
 }
-.sponsors-area a.item {
+footer p {
 	text-align:center !important;
+}
+.item-section .info-holder {
+	text-align:left ;
 }
