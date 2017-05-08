@@ -1226,7 +1226,8 @@ section.individual-instructor .instructor {
 	max-width: none
 }
 section.individual-instructor .instructor .instructor-photo {
-	margin-bottom: 18px
+	margin-bottom: 18px;
+	width:400px;
 }
 section.individual-instructor .instructor .instructor-photo:after {
 	width: 140px
