@@ -4,6 +4,17 @@ $title = 'Front - The product conference for UX designers and product managers';
 
 require('../includes/header.php');
 
+
+// if no tab requested, redirect to the first
+if(empty($uri_parts[2])) {
+	$string = '<script type="text/javascript">';
+    $string .= 'window.location = "' . $_SERVER['HTTP_HOST'] . '/bootcamp/courses/ux' . '"';
+    $string .= '</script>';
+
+    echo $string;
+	die;
+}
+
 ?>
 	<main class="product-bootcamp-page">
 		<section class="hero">
