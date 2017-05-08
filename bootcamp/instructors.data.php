@@ -168,3 +168,5 @@ $instructors[] = array(
 	'instagram' => '',
 	'linkedin' => ''
 );
+
+?>

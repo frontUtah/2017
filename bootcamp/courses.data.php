@@ -71,3 +71,5 @@ $courses[] = array(
 	'instructor' => 'danlawyer',
 	'level' => 'basics'
 );
+
+?>
