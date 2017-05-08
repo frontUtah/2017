@@ -1,3 +1,12 @@
+<?php
+
+// global variables
+
+$uri_parts = explode('/', trim($_SERVER['REQUEST_URI'], '/'));
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,11 +42,8 @@
 <?php
 
 // include sub nav?
-$request_uri_parts = explode('/', trim($_SERVER['REQUEST_URI'], '/'));
-$subsite = $request_uri_parts[0];
-$subsite_page = $request_uri_parts[1];
 
-switch($subsite) {
+switch($uri_parts[0]) {
 	case 'conference':
 		break;
 	case 'bootcamp';
@@ -62,7 +68,7 @@ switch($subsite) {
 		foreach($bootcamp_nav as $navitem) {
 			echo '<li><a href="/bootcamp/' . $navitem['link'] . '" class="' . $navitem['class'];
 
-			if($subsite_page == $navitem['link']) {
+			if($uri_parts[1] == $navitem['link']) {
 				echo ' selected';
 			}
 
