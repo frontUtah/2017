@@ -7,7 +7,6 @@
  */
 
 html {
-	font-family: sans-serif; /* 1 */
 	-ms-text-size-adjust: 100%; /* 2 */
 	-webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -18,6 +17,9 @@ html {
 
 body {
 	margin: 0;
+}
+h1, h2, p, #main .instructure, .day-area *, .wrap * {
+	text-align:left !important;
 }
 
 /* HTML5 display definitions
@@ -566,54 +568,6 @@ th {
 	font-style: normal;
 }
 
-@font-face {
-	font-family: "athiti";
-	src: url("fonts/athiti_200-webfont.eot");
-	src: url("fonts/athiti_200-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/athiti_200-webfont.woff2") format("woff2"), url("fonts/athiti_200-webfont.woff") format("woff"), url("fonts/athiti_200-webfont.ttf") format("truetype"), url("fonts/athiti_200-webfont.svg#athitiextralight") format("svg");
-	font-weight: 200;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "athiti";
-	src: url("fonts/athiti_300-webfont.eot");
-	src: url("fonts/athiti_300-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/athiti_300-webfont.woff2") format("woff2"), url("fonts/athiti_300-webfont.woff") format("woff"), url("fonts/athiti_300-webfont.ttf") format("truetype"), url("fonts/athiti_300-webfont.svg#athitilight") format("svg");
-	font-weight: 300;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "athiti";
-	src: url("fonts/athiti_500-webfont.eot");
-	src: url("fonts/athiti_500-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/athiti_500-webfont.woff2") format("woff2"), url("fonts/athiti_500-webfont.woff") format("woff"), url("fonts/athiti_500-webfont.ttf") format("truetype"), url("fonts/athiti_500-webfont.svg#athitimedium") format("svg");
-	font-weight: 500;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "athiti";
-	src: url("fonts/athiti_600-webfont.eot");
-	src: url("fonts/athiti_600-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/athiti_600-webfont.woff2") format("woff2"), url("fonts/athiti_600-webfont.woff") format("woff"), url("fonts/athiti_600-webfont.ttf") format("truetype"), url("fonts/athiti_600-webfont.svg#athitisemibold") format("svg");
-	font-weight: 600;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "athiti";
-	src: url("fonts/athiti_700-webfont.eot");
-	src: url("fonts/athiti_700-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/athiti_700-webfont.woff2") format("woff2"), url("fonts/athiti_700-webfont.woff") format("woff"), url("fonts/athiti_700-webfont.ttf") format("truetype"), url("fonts/athiti_700-webfont.svg#athitibold") format("svg");
-	font-weight: 700;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "athiti";
-	src: url("fonts/athiti_regular-webfont.eot");
-	src: url("fonts/athiti_regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/athiti_regular-webfont.woff2") format("woff2"), url("fonts/athiti_regular-webfont.woff") format("woff"), url("fonts/athiti_regular-webfont.ttf") format("truetype"), url("fonts/athiti_regular-webfont.svg#athitiregular") format("svg");
-	font-weight: normal;
-	font-style: normal;
-}
-
 #nav,
 .social-network,
 .text-frame .info-list,
@@ -661,7 +615,7 @@ html {
 body {
 	color: #424242;
 	background: #fff;
-	font: 18px/1.39 "athiti", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 18px/1.39;
 	min-width: 320px;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -875,13 +829,13 @@ input[type="submit"] {
 }
 
 h1 {
-	font: 500 40px/44px "athiti", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 500 40px/44px;
 	margin: 0 0 15px;
 	color: #fff;
 }
 
 h2 {
-	font: 500 24px/28px "athiti", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 500 24px/28px;
 	margin: 0 0 24px;
 	color: #fff;
 }
@@ -904,7 +858,7 @@ h2 {
 }
 
 #nav li {
-	font: 500 24px/38px "athiti", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 500 24px/38px;
 	letter-spacing: 0;
 	margin-bottom: 20px;
 }
@@ -1142,7 +1096,7 @@ h2 {
 	max-width: 680px;
 	color: #fff;
 	padding: 30px 0 70px 53px;
-	font: 300 30px/36px "athiti", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 300 30px/36px;
 }
 
 .visual.blue .text-frame:before {
@@ -1275,7 +1229,7 @@ iframe {
 }
 
 .block-wrap .title {
-	font: 500 24px/28px "athiti", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 500 24px/28px;
 	display: block;
 	margin-bottom: 15px;
 	text-transform: uppercase;;
@@ -1402,7 +1356,7 @@ iframe {
 }
 
 .text-frame .subtitle {
-	font: 500 26px/28px "athiti", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 500 26px/28px;
 	display: block;
 	margin-bottom: 5px;
 	color: #fff;
@@ -1413,7 +1367,7 @@ iframe {
 }
 
 .text-frame .info-list {
-	font: 500 18px/20px "athiti", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 500 18px/20px;
 	margin-bottom: 15px;
 	color: #fff;
 }
@@ -1464,7 +1418,7 @@ iframe {
 	padding: 10px 5px;
 	min-width: 165px;
 	text-align: center;
-	font: 500 18px/20px "athiti", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 500 18px/20px;
 	position: relative;
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
@@ -1485,8 +1439,6 @@ iframe {
 	background: #fff;
 	position: relative;
 	z-index: 20;
-	padding: 65px 0;
-	margin: -48px 0;
 }
 
 .box-area.gray {
@@ -1497,15 +1449,6 @@ iframe {
 	color: #fd7c00;
 }
 
-.slc .box-area {
-	margin-top:-140px;
-}
-.slc .item-wrap {
-	margin-top:-136px;
-}
-.box-area .wrap {
-	margin-top: 60px;
-}
 .box-area .container {
 	position: relative;
 }
@@ -1547,7 +1490,7 @@ iframe {
 }
 
 .box-area .title {
-	font: 500 45px/48px "athiti", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 500 45px/48px;
 	display: block;
 	margin-bottom: 30px;
 }
@@ -1558,7 +1501,6 @@ iframe {
 
 .item-section {
 	color: #fff;
-	margin: -115px 0 0;
 }
 
 .item-section:first-child {
@@ -1612,7 +1554,6 @@ iframe {
 }
 
 .item-section .item-row {
-	margin-top: -114px;
 	position: relative;
 	z-index: 2;
 }
@@ -1622,7 +1563,6 @@ iframe {
 	z-index: 6;
 }
 .about .item-section .item-row:first-child {
-	margin-top: 69px;
 	z-index: 6;
 }
 
@@ -1645,12 +1585,10 @@ iframe {
 }
 
 .item-section .item:nth-child(2) {
-	margin: -38px 0 38px;
 	z-index: 4;
 }
 
 .item-section .item:last-child {
-	margin: -76px 0 76px;
 }
 
 .item-section .item:first-child {
@@ -1726,13 +1664,13 @@ text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.93);
 }
 
 .item-section .item-title {
-	font: 300 24px/30px "athiti", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 300 24px/30px;
 	display: block;
 	margin-bottom: 5px;
 }
 
 .item-section .subtitle {
-	font: 300 16px/20px "athiti", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 300 16px/20px;
 	display: block;
 	margin-bottom: 5px;
 }
@@ -1754,19 +1692,19 @@ text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.93);
 }
 
 .schedule-section .data-title {
-	font: 300 22px/24px "athiti", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 300 22px/24px;
 	display: block;
 	margin-bottom: 20px;
 }
 
 .schedule-section .schedule-list {
-	font: 300 18px/22px "athiti", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 300 18px/22px;
 }
 
 .schedule-section .schedule-list li {
 	position: relative;
 	padding: 0 0 0 21px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 
 .schedule-section .schedule-list li.yellow:before {
@@ -1899,7 +1837,7 @@ text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.93);
 }
 
 .contacts-section .subtitle {
-	font: 300 22px/24px "athiti", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 300 22px/24px;
 	display: block;
 	margin-bottom: 15px;
 }
@@ -1997,7 +1935,7 @@ text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.93);
 }
 
 .map-section .title {
-	font: 600 36px/38px "athiti", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 600 36px/38px;
 	display: block;
 	margin-bottom: 25px;
 }
@@ -2005,7 +1943,6 @@ text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.93);
 .banner-block {
 	position: relative;
 	z-index: 5;
-	margin: -60px 0 0;
 }
 
 .banner-block:before {
@@ -2074,23 +2011,23 @@ text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.93);
 	color: #fff;
 	position: relative;
 	z-index: 2;
-	padding: 58px 15px 0;
+	padding: 0 15px 0;
 	text-transform: uppercase;
 }
 
 .banner-block .block-title {
-	font: 30px/32px "athiti", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 30px/32px;
 	display: block;
 }
 
 .banner-block time {
-	font: 600 64px/68px "athiti", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 600 64px/68px;
 	display: block;
 	margin: -10px 0 0;
 }
 
 .banner-block .note {
-	font: 300 130px/134px "athiti", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 300 130px/134px;
 	display: block;
 	margin: -30px 0 0;
 }
@@ -2457,7 +2394,7 @@ text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.93);
 
 #footer .text-box {
 	max-width: 550px;
-	font: 300 18px/24px "athiti", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 300 18px/24px;
 	padding: 10px 15px 10px;
 }
 
@@ -2591,7 +2528,7 @@ text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.93);
 	.about .visual .container {
 		min-height:350px;
 	}
-	.block-wrap .title {
+	.title {
 		font-size: 36px;
 		line-height: 40px;
 	}
@@ -2641,10 +2578,6 @@ text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.93);
 		margin-bottom: 30px;
 	}
 
-	.box-area {
-		padding: 102px 0;
-		margin: -112px 0;
-	}
 	.about .box-area {
 		margin-top:-170px;
 	}
@@ -2666,7 +2599,7 @@ text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.93);
 	}
 
 	.item-section .title-block {
-		padding: 154px 0 42px;
+		padding: 72px 0 42px;
 		height: 405px;
 	}
 
@@ -2758,13 +2691,6 @@ text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.93);
 		width: 50%;
 	}
 
-	.banner-block {
-		margin: -85px 0 0;
-	}
-
-	.banner-block.alt {
-		margin-top: -110px;
-	}
 
 	.banner-block.alt .block-title {
 		font-size: 38px;
@@ -2805,6 +2731,7 @@ text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.93);
 
 	.banner-block time {
 		font-size: 110px;
+		font:600 64px/68px "athiti", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
 		line-height: 112px;
 		margin: -20px 0 0;
 	}
@@ -2980,10 +2907,6 @@ text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.93);
 		margin-left: 40px;
 	}
 
-	.visual .container {
-		padding: 227px 15px 95px;
-		min-height: 816px;
-	}
 
 	.about .visual .container {
 		padding: 227px 15px 95px;
@@ -3071,7 +2994,7 @@ text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.93);
 	}
 
 	.box-area .text-block {
-		padding: 21px 75px 0 0;
+		padding: 91px 75px 0 0;
 		width: 80%;
 	}
 	.about .box-area .text-block {
@@ -3095,7 +3018,7 @@ text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.93);
 
 	.item-section .item-info {
 		padding: 0 20px;
-		bottom: -25px;
+		bottom: 5px;
 	}
 	.about .item-section .item-info {
 		bottom:40px;
@@ -3120,7 +3043,7 @@ text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.93);
 	}
 
 	.schedule-section {
-		padding: 190px 0 47px;
+		padding: 190px 0 0px;
 	}
 
 	.schedule-section h2 {
@@ -3134,13 +3057,13 @@ text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.93);
 	}
 
 	.schedule-section .schedule-list {
-		font-size: 24px;
+		font-size: 20px;
 		line-height: 26px;
 		min-width: 350px;
 	}
 
 	.schedule-section .schedule-list li {
-		margin-bottom: 30px;
+		margin-bottom: 40px;
 	}
 
 	.schedule-section .time {
@@ -3201,9 +3124,6 @@ text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.93);
 		margin: 0 0 60px;
 	}
 
-	.banner-block {
-		margin: -112px 0 0;
-	}
 
 	.banner-block.alt .block-title {
 		font-size: 56px;
@@ -3244,12 +3164,15 @@ text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.93);
 
 	.banner-block .block-title {
 		font-size: 79px;
+		font-weight:500;
+		font-family:"athiti", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
 		line-height: 82px;
 	}
 
 	.banner-block time {
 		font-size: 175px;
 		line-height: 178px;
+		font-weight:500;
 		margin: -35px 0 0;
 	}
 
@@ -3410,3 +3333,9 @@ text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.93);
 	.about .item-section .item-info {
 		bottom:58px;
 	}
+#mc_embed_signup input.email {
+	width:245px !important;
+}
+.sponsors-area a.item {
+	text-align:center !important;
+}

@@ -43,8 +43,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<!--End mc_embed_signup-->
 
 
-			<p class="brought_to">Brought to you by </p> 
-			<a href="http://instructure.com" target="_blank"><img src="images/instructure-2x.png" width="200"></a>
+			<p class="brought_to">Brought to you by <br /><a class="instructure" href="http://instructure.com" target="_blank"><img src="images/instructure-2x.png" width="200"></a> </p> 
+			
 			<!--<a href="#" class="btn">Register</a>-->
             
 		</div>
@@ -569,12 +569,12 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							</a>
 							
 				</div>
-	
+	<!--
 	<div class="text-area">
 		<p><strong>Your product or brand should be seen at the Front!</strong></p>
 		<p>We’re looking for great companies to help support Front Salt Lake City. Become a sponsor.</p>
 		<a href="https://frontutah.com/front_sponsorship_2017.pdf" class="btn">Download brochure</a>
-	</div>
+	</div>-->
 </div>
 
 <div class="schedule-section">
@@ -766,7 +766,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li><a href="https://goo.gl/maps/KnNNn5Xdmwx">Conference to downtown</a> (23 min)</li>
 					<li><a href="https://goo.gl/maps/4XqFfYMjj6T2">Downtown to Salt Lake International Airport</a> (27 min)</li>
 				</ul>
-
+				<br /><br /><br />
+<!--
 				<h3>Hotel recommendations</h3>
 				<p>Each of these hotels are along, or within one block of, the TRAX Red Line. Rooms available as of 8 April 2017.</p>
 				<ul>
@@ -776,7 +777,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li><strike><a href="http://www.marriott.com/hotels/travel/slcfd-fairfield-inn-and-suites-salt-lake-city-downtown/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2">Fairfield Inn &amp; Suites Salt Lake City Downtown</a> ($150)</strike></li>
 					<li><strike><a href="http://doubletree3.hilton.com/en/hotels/utah/doubletree-suites-by-hilton-hotel-salt-lake-city-downtown-SLCWSDT/index.html">DoubleTree Suites by Hilton Hotel Salt Lake City Downtown</a> ($120)</strike></li>
 					<li><a href="https://www.choicehotels.com/utah/salt-lake-city/comfort-inn-hotels/ut158/rates">Comfort Inn Downtown</a> ($90-$150)</li>
-				</ul>
+				</ul>-->
 			</div>
 		</div>
 	</div>
