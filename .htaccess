@@ -6,14 +6,14 @@ RewriteCond %{HTTP_HOST} !^localhost\.
 RewriteCond %{HTTP_HOST} !^www\.
 RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
 
+# catch old URLs
+RewriteRule ^saltlakecity(.*) /conference [R,L]
+RewriteRule ^parkcity(.*) /bootcamp [R,L]
+
 # route HTTP to HTTPS
 RewriteCond %{HTTP_HOST} !^localhost\.
 RewriteCond %{HTTPS} off
 RewriteRule (.*) https://%{SERVER_NAME}/$1 [R,L]
-
-# pretty URLs
-RewriteRule ^bootcamp/courses/(.*)$ bootcamp/courses.php [NC]
-RewriteRule ^bootcamp/instructor/(.*)$ bootcamp/instructor.php [NC]
 
 # remove trailing slash for non-existant directories
 RewriteCond %{REQUEST_FILENAME} !-d

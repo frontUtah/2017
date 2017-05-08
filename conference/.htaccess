@@ -1,54 +1,5 @@
 # turn Rewrite Engine on
 RewriteEngine On
 
-# send non www traffic to www
-RewriteCond %{HTTP_HOST} !^www\.
-RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
-
-# route HTTP to HTTPS
-RewriteCond %{HTTPS} off
-RewriteRule (.*) https://%{SERVER_NAME}/$1 [R,L]
-
 # pretty URLs for each speaker
-RewriteRule ^saltlakecity/michellebarber$ saltlakecity-instructors.php?slide=0 [NC]
-RewriteRule ^saltlakecity/mikedavidson$ saltlakecity-instructors.php?slide=1 [NC]
-RewriteRule ^saltlakecity/miablume$ saltlakecity-instructors.php?slide=2 [NC]
-RewriteRule ^saltlakecity/diogenesbrito$ saltlakecity-instructors.php?slide=3 [NC]
-RewriteRule ^saltlakecity/danielburka$ saltlakecity-instructors.php?slide=4 [NC]
-RewriteRule ^saltlakecity/amelielamont$ saltlakecity-instructors.php?slide=5 [NC]
-RewriteRule ^saltlakecity/taylorpalmer$ saltlakecity-instructors.php?slide=6 [NC]
-RewriteRule ^saltlakecity/joshpenrod$ saltlakecity-instructors.php?slide=7 [NC]
-RewriteRule ^saltlakecity/ellenchisa$ saltlakecity-instructors.php?slide=8 [NC]
-RewriteRule ^saltlakecity/josephdraschil$ saltlakecity-instructors.php?slide=9 [NC]
-RewriteRule ^saltlakecity/mariahhay$ saltlakecity-instructors.php?slide=10 [NC]
-RewriteRule ^saltlakecity/kendallhulet$ saltlakecity-instructors.php?slide=11 [NC]
-RewriteRule ^saltlakecity/tomkrcha$ saltlakecity-instructors.php?slide=12 [NC]
-RewriteRule ^saltlakecity/catherineshyu$ saltlakecity-instructors.php?slide=13 [NC]
-RewriteRule ^saltlakecity/zacharysivertson$ saltlakecity-instructors.php?slide=14 [NC]
-RewriteRule ^saltlakecity/teresatorres$ saltlakecity-instructors.php?slide=15 [NC]
-RewriteRule ^saltlakecity/christiwruck$ saltlakecity-instructors.php?slide=16 [NC]
-RewriteRule ^saltlakecity/vickythomas$ saltlakecity-instructors.php?slide=17 [NC]
-RewriteRule ^saltlakecity/victoryocco$ saltlakecity-instructors.php?slide=18 [NC]
-
-RewriteRule ^parkcity/katarchibald$ parkcity-instructors.php?slide=0 [NC]
-RewriteRule ^parkcity/katkennedy$ parkcity-instructors.php?slide=0 [NC]
-RewriteRule ^parkcity/andrewbranch$ parkcity-instructors.php?slide=1 [NC]
-RewriteRule ^parkcity/ingridcruz$ parkcity-instructors.php?slide=2 [NC]
-RewriteRule ^parkcity/claytonfarr$ parkcity-instructors.php?slide=3 [NC]
-RewriteRule ^parkcity/jayfichialos$ parkcity-instructors.php?slide=4 [NC]
-RewriteRule ^parkcity/jeffpatton$ parkcity-instructors.php?slide=5 [NC]
-RewriteRule ^parkcity/melissaperri$ parkcity-instructors.php?slide=6 [NC]
-RewriteRule ^parkcity/natesanders$ parkcity-instructors.php?slide=7 [NC]
-RewriteRule ^parkcity/wadeshearer$ parkcity-instructors.php?slide=8 [NC]
-RewriteRule ^parkcity/talinwadsworth$ parkcity-instructors.php?slide=9 [NC]
-RewriteRule ^parkcity/natewalkingshaw$ parkcity-instructors.php?slide=10 [NC]
-
-# remove trailing slash for non-existant directories
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_URI} /(.*)/$
-RewriteRule ^ /%1 [R=301,L]
-
-# remove .php extension from all remaining files
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule (.*) $1.php [NC,L]
+RewriteRule ^conference/(.*)$ conference/speaker.php?slug=$1 [NC]

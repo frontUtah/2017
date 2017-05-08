@@ -66,9 +66,11 @@ switch($_GET['slide']) {
 
 $title = $name . ' - Front Salt Lake City, 9-10 May 2017';
 
-require 'header.php'; 
+require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 ?>
+
+<link rel="stylesheet" href="/conference/main.css">
 
 <script>
 	var currentStep = <?php 
@@ -886,4 +888,8 @@ require 'header.php';
 			</div>
 		</main>
 		
-<?php require 'footer.php'; ?>
+<?php
+
+require($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php');
+
+?>
