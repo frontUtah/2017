@@ -20,6 +20,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<h4>Brought to you by Ben Peck, Andrew Branch, and Wade Shearer</h4>
 			<p>We were bringing people together, but the impact was small. We continued to meet amazing teams doing amazing work, but there was so little interaction and visibility between them. Again and again we would hear about how easy it is to get lost within the walls of an organization. It was time for something big. It was time to bring the industry together for something new. In 2016, we sold out with over 600 attendees from 5 countries and 28 states across the US.</p>
 			<p>This is a different kind of conference. We are hyper-focused on one thing: extraordinary content. We don’t have a call for speakers. There’s no alcohol. There’s no after-party. Each contributor is sought out for the specific work they are doing and how their team is innovating. Requirements to present are for deep case studies, showcasing the good and the bad. The primary story and experience is learning and growth.</p>
+			<p>Front is named for the Wasatch Front, the metropolitan region in North-central Utah, that stretches along the Wasatch Mountain Range. The Wasatch Range stretches from the Idaho border, south through central Utah and is the western edge of the greater Rocky Mountains. For us, Front is also the fore-front of technology and innovation and product experience—the part you touch, hear, or interact with.
 			<p>Join us at the Front to share, learn, and be inspired to create amazing products.</p>
 		</section>
 	</main>
