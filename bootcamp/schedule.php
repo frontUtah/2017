@@ -56,19 +56,19 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<dt class="time">1:30 PM</dt>
 							<dd class="ux">
 								<h4>UX</h4>
-								<p>Basic</p>
+								<p>Advanced</p>
 							</dd>
 							<dd class="pm">
 								<h4>Product Management</h4>
-								<p>Advanced</p>
+								<p>Basic</p>
 							</dd>
 							<dd class="research">
 								<h4>Research</h4>
-								<p>Basic</p>
+								<p>Intermediate</p>
 							</dd>
 							<dd class="leadership">
 								<h4>Leadership</h4>
-								<p>Advanced</p>
+								<p>Basic</p>
 							</dd>
 						</dl>
 					</li>
@@ -77,7 +77,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<dt class="time">3:30 AM</dt>
 							<dd class="ux">
 								<h4>UX</h4>
-								<p>Basic</p>
+								<p>Intermediate</p>
 							</dd>
 							<dd class="pm">
 								<h4>Product Management</h4>
@@ -85,11 +85,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							</dd>
 							<dd class="research">
 								<h4>Research</h4>
-								<p>Basic</p>
+								<p>Advanced</p>
 							</dd>
 							<dd class="leadership">
 								<h4>Leadership</h4>
-								<p>Advanced</p>
+								<p>Intermediate</p>
 							</dd>
 						</dl>
 					</li>
@@ -111,11 +111,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<dt class="time">8:30 AM</dt>
 							<dd class="ux">
 								<h4>UX</h4>
-								<p>Basic</p>
+								<p>Intermediate</p>
 							</dd>
 							<dd class="pm">
 								<h4>Product Management</h4>
-								<p>Advanced</p>
+								<p>Basic</p>
 							</dd>
 							<dd class="research">
 								<h4>Research</h4>
@@ -139,16 +139,16 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">1:30 PM</dt>
 							<dd class="ux">
-								<h4>UX</h4>
+								<h4>Advanced</h4>
 								<p>Basic</p>
 							</dd>
 							<dd class="pm">
 								<h4>Product Management</h4>
-								<p>Advanced</p>
+								<p>Intermediate</p>
 							</dd>
 							<dd class="research">
 								<h4>Research</h4>
-								<p>Basic</p>
+								<p>Intermediate</p>
 							</dd>
 							<dd class="leadership">
 								<h4>Leadership</h4>
@@ -160,7 +160,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">3:30 AM</dt>
 							<dd class="ux">
-								<h4>UX</h4>
+								<h4>Basic</h4>
 								<p>Basic</p>
 							</dd>
 							<dd class="pm">
@@ -169,11 +169,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							</dd>
 							<dd class="research">
 								<h4>Research</h4>
-								<p>Basic</p>
+								<p>Intermediate</p>
 							</dd>
 							<dd class="leadership">
 								<h4>Leadership</h4>
-								<p>Advanced</p>
+								<p>Intermediate</p>
 							</dd>
 						</dl>
 					</li>
