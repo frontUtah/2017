@@ -2,6 +2,7 @@
 RewriteEngine On
 
 # send non www traffic to www
+RewriteCond %{HTTP_HOST} !^dev\.
 RewriteCond %{HTTP_HOST} !^localhost\.
 RewriteCond %{HTTP_HOST} !^www\.
 RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
@@ -11,6 +12,7 @@ RewriteRule ^saltlakecity(.*) /conference [R,L]
 RewriteRule ^parkcity(.*) /bootcamp [R,L]
 
 # route HTTP to HTTPS
+RewriteCond %{HTTP_HOST} !^dev\.
 RewriteCond %{HTTP_HOST} !^localhost\.
 RewriteCond %{HTTPS} off
 RewriteRule (.*) https://%{SERVER_NAME}/$1 [R,L]
