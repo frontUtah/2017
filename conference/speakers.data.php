@@ -7,7 +7,7 @@
 // Michelle Barber
 $speakers[] = array(
 	'slug' => 'michellebarber',
-	'first' => 'michelle',
+	'first' => 'Michelle',
 	'last' => 'Barber',
 	'title' => 'Lead Designer',
 	'company' => 'FamilySearch',

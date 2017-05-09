@@ -1,6 +1,8 @@
 <?php
 
-$title = 'Front - The product conference for UX designers and product managers';
+require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
+
+$title = 'Front Park City 2018 - UX & Product Management Bootcamp';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 

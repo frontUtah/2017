@@ -1,5 +1,7 @@
 <?php
 
+require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
+
 $title = 'Front - The product conference for UX designers and product managers';
 
 require('includes/header.php');

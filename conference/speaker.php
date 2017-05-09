@@ -1,11 +1,13 @@
 <?php
 
-$title = 'Front - The product conference for UX designers and product managers';
-
-require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
 $speaker = get_speaker($uri_parts[2]);
 $sessions = get_sessions($speaker['slug']);
+
+$title = $speaker['first'] . ' ' . $speaker['last'] . ' - Front Salt Lake City 2017, 9-10 May 2017';
+
+require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 ?>
 	<main class="product-bootcamp-page">
