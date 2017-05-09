@@ -1,5 +1,0 @@
-# turn Rewrite Engine on
-RewriteEngine On
-
-# pretty URLs for each speaker
-RewriteRule ^conference/speaker/(.*)$ conference/speaker.php [NC]

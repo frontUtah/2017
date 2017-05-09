@@ -17,6 +17,11 @@ RewriteCond %{HTTP_HOST} !^localhost\.
 RewriteCond %{HTTPS} off
 RewriteRule (.*) https://%{SERVER_NAME}/$1 [R,L]
 
+# pretty URLs
+RewriteRule ^bootcamp/courses/(.*)$ bootcamp/courses.php [NC,L]
+RewriteRule ^bootcamp/instructor/(.*)$ bootcamp/instructor.php [NC,L]
+RewriteRule ^conference/speaker/(.*)$ conference/speaker.php [NC,L]
+
 # remove trailing slash for non-existant directories
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_URI} /(.*)/$
