@@ -919,8 +919,90 @@ footer .main-footer-nav a {
 	padding-top: 200px
 }
 }
+
+
+
+
+
+/* ARTICLE PAGE */
+
+.article-page .hero {
+	background-image: url(../images/article-bg.png);
+	display: none
+}
+
+@media (min-width:1000px) {
+	.article-page .hero {
+		display: block;
+		height: 392px
+	}
+	.article-page .hero h1 {
+		font-size: 56px;
+		color: #FFF;
+		padding-top: 200px
+	}
+}
+
+.article-page .body {
+	font-weight: 200;
+	max-width: 954px;
+	margin: 0px auto 50px auto;
+	font-size: 18px;
+	line-height: 28px;
+	text-align: left;
+}
+
+.article-page .body.short {
+	padding-bottom: 0px;
+}
+
+.article-page .body li {
+	list-style-type: disc;
+	margin-left: 20px;
+	padding-left: 10px;
+	line-height: 24px;
+	margin-bottom: 12px;
+}
+
+.article-page .body h4 {
+	font-size: 24px;
+	font-weight: 700;
+	margin: 50px 0 10px 0;
+	color: #666;	
+}
+
+.article-page .body h4:first-child {
+	margin-top: 0px;
+}
+
+@media (min-width:1000px) {
+	section.body h2 {
+		display: none
+	}
+}
+
+@media (max-width:999px) {
+	section.body {
+		padding-top: 40px;
+	}
+	section.body h2 {
+		margin: 0px
+	}
+	section.body h4 {
+		font-size: 24px;
+		line-height: 29px;
+		font-weight: 700;
+		margin-top: 10px
+	}
+}
+
+
+
+
+
+
 .custom-training .hero {
-	background-image: url(../images/custom-training-bg.jpg);
+	background-image: url(../images/custom-training-bg.png);
 	height: 550px;
 	padding-top: 310px
 }

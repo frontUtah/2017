@@ -10,8 +10,8 @@
 		<nav class="main-footer-nav">
 			<ul>
 				<li><a href="/about">About</a></li>
-				<li><a href="/terms">Terms &amp; Conditions</a></li>
-				<li><a href="/coc">Code of Conduct</a></li>
+				<li><a href="/terms-and-conditions">Terms &amp; Conditions</a></li>
+				<li><a href="/code-of-conduct">Code of Conduct</a></li>
 				<li><a href="/speaker-guide">Speaker Guide</a></li>
 			</ul>
 		</nav>
@@ -26,8 +26,6 @@
 		$(function() {
 			var imageNumber = Math.floor( Math.random() * 7 ) + 1;
 			$( '.hero' ).addClass( 'image-' + imageNumber );
-			
-			
 			
 	      $(document).ready(function() {
 	        $('.recap-video').magnificPopup({
