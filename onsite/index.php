@@ -1,5 +1,23 @@
 <?php
 
+$request = false;
+
+// send email
+if(!empty($_POST)) {
+	$to      = 'me@wadeshearer.com';
+	$subject = 'Front onsite training request';
+	$message = "Front onsite training request:\n\n";
+	$message .= "Name: " . $_POST['name'] . "\n";
+	$message .= "Company: " . $_POST['company'] . "\n";
+	$message .= "Email: " . $_POST['email'] . "\n";
+	$headers = 'From: noreply@frontutah.com' . "\r\n" .
+	    'X-Mailer: PHP/' . phpversion();
+
+	mail($to, $subject, $message, $headers);
+	header('Location: /onsite#request?request=success');
+}
+
+
 $title = 'Front - The product conference for UX designers and product managers';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
@@ -52,9 +70,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</li>
 			</ul>
 		</section>
+
 		<section class="request-form">
-			<h2>Request Training</h2>
-			<form action="">
+			<form action="/onsite/request#success" method="post">
 				<div class="input">
 					<label for="name">Name</label>
 					<input type="text" id="name" name="name">
@@ -67,7 +85,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<label for="email">Email</label>
 					<input type="text" id="email" name="email">
 				</div>
-				<button type="submit">Submit</button>
+				<button type="submit" name="submit">Submit</button>
 			</form>
 		</section>
 	</main>

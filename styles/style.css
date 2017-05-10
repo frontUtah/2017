@@ -429,6 +429,7 @@ main {
 	line-height: 50px;
 	box-sizing: border-box;
 	margin-bottom: 9px
+	text-decoration: none;
 }
 .primary-header a.home {
 	text-indent: -9999px;

@@ -19,7 +19,7 @@ $global_nav[1] = array('subsite' => 'landing', 'link' => '/', 'text' => 'Home', 
 $global_nav[2] = array('subsite' => 'conference', 'link' => '/conference', 'text' => 'Case Study Conference', 'class' => 'case-study');
 $global_nav[3] = array('subsite' => 'bootcamp', 'link' => '/bootcamp', 'text' => 'Product Bootcamp', 'class' => 'bootcamp');
 $global_nav[4] = array('subsite' => 'onsite', 'link' => '/onsite', 'text' => 'Custom Onsite Training', 'class' => 'custom-training');
-$global_nav[5] = array('subsite' => 'magazine', 'link' => 'https://medium.com/front-conference', 'text' => 'Magazine', 'class' => 'magazine');
+$global_nav[5] = array('subsite' => 'magazine', 'link' => 'https://medium.com/front-conference', 'text' => 'Magazine', 'class' => 'magazine', 'target' => '_blank');
 
 
 // Mobile Order: Actual Order. Desktop Order: Class Names. Bless you Flexbox)
@@ -53,7 +53,7 @@ foreach($sorted_global_nav as $key => $nav) {
 		echo ' active';
 	}
 
-	echo '">' . $nav['text'] . '</a></li>';
+	echo '" target="' . $nav['target'] . '">' . $nav['text'] . '</a></li>';
 	echo "\n";
 }
 
