@@ -1,23 +1,5 @@
 <?php
 
-$request = false;
-
-// send email
-if(!empty($_POST)) {
-	$to      = 'me@wadeshearer.com';
-	$subject = 'Front onsite training request';
-	$message = "Front onsite training request:\n\n";
-	$message .= "Name: " . $_POST['name'] . "\n";
-	$message .= "Company: " . $_POST['company'] . "\n";
-	$message .= "Email: " . $_POST['email'] . "\n";
-	$headers = 'From: noreply@frontutah.com' . "\r\n" .
-	    'X-Mailer: PHP/' . phpversion();
-
-	mail($to, $subject, $message, $headers);
-	header('Location: /onsite#request?request=success');
-}
-
-
 $title = 'Front - The product conference for UX designers and product managers';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
