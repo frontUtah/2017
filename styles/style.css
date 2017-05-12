@@ -2038,6 +2038,13 @@ section.webcams .webcam img {
 section.registration-about h2 {
 	display: none
 }
+section.registration-about .about-registration-about {
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 200;
+	max-width: 954px;
+	margin: 50px auto 80px
+}
 }
 
 @media (max-width:999px) {
