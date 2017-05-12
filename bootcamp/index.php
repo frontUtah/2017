@@ -24,8 +24,16 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		<section class="bootcamp-about">
 			<div class="content">
 				<h2>2 intense days of learning  and practice at 7,000 feet</h2>
-				<p>Join us in the majestic mountains of Utah for an intimate, one-of-a-kind UX and Product Management training experience. Select 6 half and quarter-day workshops, for 2 intense days of learning and practice. No passive education here. This isn’t for the faint of heart. We’ll be working together, at 7,000 feet and atop the greatest snow on earth, in small groups of six, where you’ll be expected to collaborate and engage.</p>
-				<p>Each workshop will be limited to 48 students and taught by internationally recognized industry leaders and some of tech’s most skilled practitioners. Breakfast and lunch are provided each day. And yeah, we certainly expect that you’ll stay an extra day—or two—for some time in on the slopes.</p>
+				<p>Join us in the majestic mountains of Utah for an intimate, one-of-a-kind 
+					UX and Product Management training experience. Select 6 half and quarter-day 
+					workshops, for 2 intense days of learning and practice. No passive education 
+					here. This isn’t for the faint of heart. We’ll be working together, at 7,000 
+					feet and atop the greatest snow on earth, in small groups of six, where you’ll 
+					be expected to collaborate and engage.</p>
+				<p>Each workshop will be limited to 48 students and taught by internationally 
+					recognized industry leaders and some of tech’s most skilled practitioners. 
+					Breakfast and lunch are provided each day. And yeah, we certainly expect that 
+					you’ll stay an extra day—or two—for some time on the slopes.</p>
 			</div>
 			<div class="image">
 				<img src="/images/front-snow-stamp.png" alt="">

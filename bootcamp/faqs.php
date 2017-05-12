@@ -23,7 +23,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Do you offer group pricing?</dt>
-							<dd class="accordion-content answer">We offer group discounts for teams. We want you come learn and practice together. You will need to register all attendees at the same time to receive the discount. Teams of 3-5 will receive 10% off. Teams of 6-7 will receive 15% off. Teams of 8 or more will receive 20% off.</dd>
+							<dd class="accordion-content answer">We offer group discounts for teams. We want you to come learn and practice together. You will need to register all attendees at the same time to receive the discount. Teams of 3-5 will receive 10% off. Teams of 6-7 will receive 15% off. Teams of 8 or more will receive 20% off.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Who should attend Front?</dt>
