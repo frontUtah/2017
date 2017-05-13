@@ -47,7 +47,19 @@ require('includes/header.php');
 	</section>
 	<section class="about">
 		<h2>Building amazing product teams</h2>
-		<p>Creating amazing products requires more than brilliant ideas, meticulously crafted interactions, perfect pixels, and cutting-edge technology—it requires a fanatical focus on users and a commitment to producing something that is both useful and desirable. It requires cross-functional teams that listen, iterate, and learn.<br /><br />Front is the product conference for UX designers and product managers. It's a practitioner’s conference. Attendees come for an education, real world, from-the-trenches case studies, and hands-on training from their peers. It's four days of learning and growth, providing answers to deep organizational questions and insights into how to validate and solve the right problems in the right way.</br ></br ><a href="/about"><em>Learn more about Front's birth and mission</em></a></p> 
+		<p>Creating amazing products requires more than brilliant ideas, 
+			meticulously crafted interactions, perfect pixels, and cutting-edge 
+			technology—it requires a fanatical focus on users and a commitment 
+			to producing something that is both useful and desirable. It 
+			requires cross-functional teams that listen, iterate, and 
+			learn.<br /><br />Front is the product conference for UX designers 
+			and product managers. It's a practitioner’s conference. Attendees 
+			come for an education, real world, from-the-trenches case studies, 
+			and hands-on training from their peers. It's four days of learning 
+			and growth, providing answers to deep organizational questions and 
+			insights into how to validate and solve the right problems in the 
+			right way.</br ></br ><a href="/about"><em>Learn more about Front's 
+			birth and mission</em></a></p> 
 
 	</section>
 	<section class="personal-stories">
