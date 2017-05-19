@@ -99,14 +99,14 @@ $instructors[] = array(
 	'slug' => 'sarahdoody',
 	'first' => 'Sarah',
 	'last' => 'Doody',
-	'title' => 'UX Consultant',
-	'company' => 'Charming Robot',
+	'title' => 'UX Designer + Product Consultant',
+	'company' => 'Founder, The UX Notebook',
 	'discipline' => 'ux',
 	'photo' => 'sarah.jpg',
-	'bio' => "",
-	'twitter' => '',
+	'bio' => 'Sarah Doody is a user experience designer and product consultant based in New York City. She helps teams create products people need and love. She does this through user research, prototyping, and user experience design. Sarah also created her own course, User Research Mastery  to help teams understand their users and make smarter UX decisions. Previously, Sarah created General Assembly’s first 12-week UX immersive program in 2011. Sarah is also the founder of the popular UX newsletter, The UX Notebook . Sarah is available for consulting and speaking worldwide. ',
+	'twitter' => 'sarahdoody',
 	'instagram' => '',
-	'linkedin' => ''
+	'linkedin' => 'https://www.linkedin.com/in/sarahdoody/'
 );
 
 // Wade Shearer
