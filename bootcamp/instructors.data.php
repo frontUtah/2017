@@ -34,10 +34,10 @@ $instructors[] = array(
 	'linkedin' => ''
 );
 
-// Maria Hay
+// Mariah Hay
 $instructors[] = array(
-	'slug' => 'mariahay',
-	'first' => 'Maria',
+	'slug' => 'mariahhay',
+	'first' => 'Mariah',
 	'last' => 'Hay',
 	'title' => 'VP, UX',
 	'company' => 'Pluralsight',
