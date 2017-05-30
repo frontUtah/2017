@@ -88,10 +88,10 @@ $instructors[] = array(
 	'company' => 'Amazon',
 	'discipline' => 'pm',
 	'photo' => 'virgilia.jpg',
-	'bio' => "",
-	'twitter' => '',
+	'bio' => "Virgilia is a product and strategy leader, community builder, and author. Over the last 10 years, she has worked in product management and strategy for tech companies such as Amazon and consulted for Fortune 100 companies in the U.S., Latin America, Middle East, and India on go-to-market strategies, geographic expansion, and M&A.",
+	'twitter' => 'VirgiliaKaur',
 	'instagram' => '',
-	'linkedin' => ''
+	'linkedin' => 'https://www.linkedin.com/in/virgiliakaur/'
 );
 
 // Sarah Doody
