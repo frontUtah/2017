@@ -169,7 +169,7 @@ $instructors[] = array(
 	'linkedin' => ''
 );
 
-// John Cutler
+// Richard Banfield
 $instructors[] = array(
 	'slug' => 'richardbanfield',
 	'first' => 'Richard',
@@ -177,7 +177,7 @@ $instructors[] = array(
 	'title' => 'CEO',
 	'company' => 'Fresh Tilled Soil',
 	'discipline' => 'leadership',
-	'photo' => 'speaker_richardbanfield.jpg',
+	'photo' => 'instructor_richardbanfield.jpg',
 	'bio' => "Richard is a the CEO and co-founder of Fresh Tilled Soil. After completing a degree in Biology, Richard was attracted to the world of web tech and worked his way up the digital food chain, starting with online ad sales at MultiChoice, Africa’s largest TV and Internet media business. He was in the thick of it during the dot-com years, co-founding Acceleration, an international adtech business headquartered in London (now owned by advertising giant WPP).\n\nUnder Richard’s leadership Fresh Tilled Soil has delivered digital product design, product strategy, and workshops to 700+ clients across the world. His colorful life experience includes being an officer in the army and being a dive master on the remote Islamic Republic of the Comoros. Richard is a mentor at several incubators and accelerators as well as Advisor and lecturer at the Startup Institute.\n\nRichard has published three books. His latest is Product Leadership: How Top Product Leaders Launch Great Products and Build Successful Teams.Design Leadership was his second book published by O’Reilly. The first was Design Sprint: A Practical Guidebook for Building Great Digital Products, which he coauthored with CTodd Lombardo and Trace Wax. ",
 	'twitter' => 'RMBanfield',
 	'instagram' => '',
