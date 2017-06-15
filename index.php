@@ -22,7 +22,8 @@ require('includes/header.php');
 				<div href="https://vimeo.com/174038670" class="thumnail video-thumbnail recap-video">
 					<img src="images/conf-scene001.jpg" alt="">
 				</div>
-				<p class="description">A two-day, in-depth series  of from-the-trenches case studies by innovative user experience designers and product managers.</p>
+				<p class="description">A two-day, in-depth series
+ of from-the-trenches case studies by innovative user experience designers and product managers.</p>
 				<p><a href="/conference" class="button">Learn More</a></p>
 			</li>
 			<li>
@@ -101,7 +102,8 @@ require('includes/header.php');
 		</p>
 	</section>
 	<section class="attendee-stats">
-		<p>In 2017, Front Salt Lake City sold out with  <strong>650 attendees from 4 countries and 29 states</strong> across the US. Join us at the Front to share, learn, and be inspired to create amazing products.</p>
+		<p>In 2017, Front Salt Lake City sold out with
+ <strong>650 attendees from 4 countries and 29 states</strong> across the US. Join us at the Front to share, learn, and be inspired to create amazing products.</p>
 	</section>
 </main>
 
