@@ -137,7 +137,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							</dd>
 						</dl>
 					</li>
-					<li class="timeslot two-hours">
+					<li class="timeslot four-hours">
 						<dl>
 							<dt class="time">1:30 PM</dt>
 							<dd class="ux">
@@ -155,27 +155,6 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<dd class="leadership">
 								<h4>Leadership</h4>
 								<p>Advanced</p>
-							</dd>
-						</dl>
-					</li>
-					<li class="timeslot two-hours">
-						<dl>
-							<dt class="time">3:30 AM</dt>
-							<dd class="ux">
-								<h4>Basic</h4>
-								<p>Basic</p>
-							</dd>
-							<dd class="pm">
-								<h4>Product Management</h4>
-								<p>Advanced</p>
-							</dd>
-							<dd class="research">
-								<h4>Research</h4>
-								<p>Intermediate</p>
-							</dd>
-							<dd class="leadership">
-								<h4>Leadership</h4>
-								<p>Intermediate</p>
 							</dd>
 						</dl>
 					</li>

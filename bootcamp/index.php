@@ -14,7 +14,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				<ul>
 					<li>2 days</li>
 					<li>4 tracks</li>
-					<li>24 courses</li>
+					<li>20 courses</li>
 					<li>200+ product designers and managers</li>
 				</ul>
 			</p>
@@ -23,7 +23,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		</section>
 		<section class="bootcamp-about">
 			<div class="content">
-				<h2>2 intense days of learning  and practice at 7,000 feet</h2>
+				<h2>2 intense days of learning
+ and practice at 7,000 feet</h2>
 				<p>Join us in the majestic mountains of Utah for an intimate, one-of-a-kind 
 					UX and Product Management training experience. Select 6 half and quarter-day 
 					workshops, for 2 intense days of learning and practice. No passive education 
