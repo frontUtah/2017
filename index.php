@@ -67,34 +67,34 @@ require('includes/header.php');
 		<h2>Personal stories from innovative teams</h2>
 		<ul class="story-cards">
 			<li>
-				<a href="https://vimeo.com/167029277"><div href="https://vimeo.com/167029277" class="card-image recap-video"><img src="images/front-speaker-sian-townsend.jpg" alt=""></div></a>
-				<h3>Sian Townsend</h3>
-				<p>Jobs to be Done: from Doubter to Believer</p>
+				<a href="https://vimeo.com/222437833"><div href="https://vimeo.com/222437833" class="card-image recap-video"><img src="images/frontslc17/title_danielburka.jpg" alt=""></div></a>
+				<h3>Daniel Burka</h3>
+				<p>The moment of truth for design leadership</p>
 			</li>
 			<li>
-				<a href="https://vimeo.com/167025212"><div href="https://vimeo.com/167025212" class="card-image recap-video"><img src="images/front-speaker-sam-vanessa.jpg" alt=""></div></a>
-				<h3>Sam Goertler &amp; Vanessa Koch</h3>
-				<p>Last things first: A redesign strategy that&hellip;</p>
+				<a href="https://vimeo.com/222459441"><div href="https://vimeo.com/222459441" class="card-image recap-video"><img src="images/frontslc17/title_mariahhay.jpg" alt=""></div></a>
+				<h3>Mariah Hay</h3>
+				<p>Why Everyone and No One is Prepared to Manage Product</p>
 			</li>
 			<li>
-				<a href="https://vimeo.com/167736107"><div href="https://vimeo.com/167736107" class="card-image recap-video"><img src="images/front-speaker-tracey-varnell.jpg" alt=""></div></a>
-				<h3>Tracey Varnell</h3>
-				<p>Collaborative techniques for product leaders</p>
+				<a href="https://vimeo.com/222450170"><div href="https://vimeo.com/222450170" class="card-image recap-video"><img src="images/frontslc17/title_diogenesbrito.jpg" alt=""></div></a>
+				<h3>Diogenes Brito</h3>
+				<p>Design or Die Trying</p>
 			</li>
 			<li>
-				<a href="https://vimeo.com/166885565"><div href="https://vimeo.com/166885565" class="card-image recap-video"><img src="images/front-speaker-bob-baxley.jpg" alt=""></div></a>
-				<h3>Bob Baxley</h3>
-				<p>Designing the machine that designs the designs</p>
+				<a href="https://vimeo.com/223169495"><div href="https://vimeo.com/223169495" class="card-image recap-video"><img src="images/frontslc17/title_vickythomas.jpg" alt=""></div></a>
+				<h3>Vicky Thomas</h3>
+				<p>When and How to use Data Effectively</p>
 			</li>
 			<li>
-				<a href="https://vimeo.com/167004431"><div href="https://vimeo.com/167004431" class="card-image recap-video"><img src="images/front-speaker-keenan-cummings.jpg" alt=""></div></a>
-				<h3>Keenan Cummings</h3>
-				<p>Product vision and storytelling</p>
+				<a href="https://vimeo.com/222456158"><div href="https://vimeo.com/222456158" class="card-image recap-video"><img src="images/frontslc17/title_josh_kendall.jpg" alt=""></div></a>
+				<h3>Josh Penrod & Kendall Hulet</h3>
+				<p>UX+PM=BFFs</p>
 			</li>
 			<li>
-				<a href="https://vimeo.com/167006595"><div href="https://vimeo.com/167006595" class="card-image recap-video"><img src="images/front-speaker-kyle-jacobsen.jpg" alt=""></div></a>
-				<h3>Kyle Jacobson</h3>
-				<p>Where did the Duke Boys go?</p>
+				<a href="https://vimeo.com/223189913"><div href="https://vimeo.com/223189913" class="card-image recap-video"><img src="images/frontslc17/title_teresatorres.jpg" alt=""></div></a>
+				<h3>Teresa Torres</h3>
+				<p>Adopting Continuous Product Discvoery Practices</p>
 			</li>
 		</ul>
 		<p>
