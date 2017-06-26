@@ -5,16 +5,72 @@
  *
  * System supports instructors teaching more than one course.
  */
+ 
+// USER EXPERIENCE
 
-// Kyle Jacobson: Product centric org
+// Sarah Doody
 $courses[] = array(
-	'title' => 'Turning your company into a product centric organization. When you should do it and how to make it happen.',
-	'description' => "We’ve all been there, working for companies where the product team is more of a cog, in a large wheel, rather than the hub. These product groups are typically pushed around by other teams who are looking out for their self-interests rather than the current strategy of the company. As a result, the product group spends time in all the wrong areas rather than focusing on the items which really matter. Eventually your once talented product team stops having fun and they move on to other opportunities.</br></br>Truth be told, sometimes product shouldn’t be the hub of your organization; but I believe that’s more of an exception than the rule. So, when should the product group be the hub? And how can you position your product group to be leaders rather than followers?  In this session, we will discuss the factors which contribute to successful product groups and each attendee will self-assess their own product group. The purpose is to identify opportunities for improvement and develop a plan to make your group successful.",
-	'track' => 'pm',
+	'title' => 'Product Storyboarding: How to leverage the power of story to help you create smarter wireframes',
+	'description' => "Why do so many teams get stuck in the weeds? Why do so many smart teams end up delivering over budget and not on time? It’s because they start to build too soon. They jump right into wireframes and design before they’ve spent enough time establishing their product story. Storyboaring is a critical activity to product development because it forces us to develop a deeper understanding of the people we are designing for. It forces us to establish the context and the characters before we start debating button radius, layout, styles of forms, navigation, and more.<br /><br />In this workshop, you will walk through the process of creating a storyboard and wireframes of various fidelity for a practice product. You will gain the practice and confidence to go back to your team and begin storyboarding so you can create smarter and more effective wireframes.<br /><br />After participating in the workshop, attendees will leave with the following learning objectives:<ul><li>Understand the role of storytelling in UX</li><li>Know how to apply storytelling principles including including storyboarding and character development</li><li>Know how and when to integrate storyboarding into your product development process</li><li>Learn how to evangelize storyboarding throughout your team </li><li>Learn how to apply storytelling principles to help with communication in your team and also when selling ideas and designs to colleagues and clients</li><li>Understand where wireframes fit into the product development process</li><li>Know the various levels of wireframe detail and when to use each</li><li>Gain practical tips for creating wireframes</li><li>Understand how to present wireframes and integrate the storyboard into wireframe reviews</li></ul>",
+	'track' => 'ux',
 	'day' => 1,
 	'slot' => 1,
-	'instructor' => 'kylejacobson',
+	'instructor' => 'sarahdoody',
 	'level' => 'basics'
 );
+
+// Jonathan Shariot
+$courses[] = array(
+	'title' => 'Tragic Design',
+	'description' => "A guide to every day design ethics. Every day we make decisions about how our products will interact with other people. Its our responsibility to make sure these are choices that make the world better and not harm others.  These choices are called “Design Ethics”. In this workshop you will discover the ways our products can negatively impact others and how to implement better processes at your company to avoid harmful design.",
+	'track' => 'ux',
+	'day' => 1,
+	'slot' => 2,
+	'instructor' => 'jonathanshariot',
+	'level' => 'basics'
+);
+
+
+// PRODUCT MANAGEMENT
+
+// John Cutler
+$courses[] = array(
+	'title' => 'Towards Meaningful (and Actionable) Alignment: A Map from Goals, Around Assumptions, Through Tasks, Towards Results',
+	'description' => "Building shared understanding is hard work. Ironically, it is our most passionate team members that complicate the challenge. They crave coherence, a powerful Why, and a flexible environment for solutioning.  How do we get everyone on the \"same page\" without glossing over the nuance, and stifling innovation?<br /><br />In this participatory workshop, you will learn how to collaboratively mind-map goals, the \"why\", constraints, experiments, and learning/success metrics with your team. The approach establishes a common, simple vocabulary that can be applied to any problem/solution space, and can scale up and down depending on the complexity of the challenge. Have your coffee. The activity will be hands on and requires mental dexterity!",
+	'track' => 'pm',
+	'day' => 1,
+	'slot' => 2,
+	'instructor' => 'johncutler',
+	'level' => 'intermediate'
+);
+
+
+// RESEARCH
+
+// Beth Liebert
+$courses[] = array(
+	'title' => 'How to Balance Quantitative vs Qualitative User Research',
+	'description' => "Creating the best product depends on solving real user needs, getting your team bought in, and rounding out the important details to complete the experience of your product.  But what kind of evidence is going to guide you in the right direction- a user study or a chart of key metrics?<br /><br />In this workshop we’ll get some hands-on practice with a spectrum of research techniques used at IDEO, Google, and Apple that you can apply throughout the development cycle, and explore ways to approach quantitative and qualitative user research that brings out the strengths in each methodology. How do you recruit the right people for a study, disseminate your inspiration to the rest of your team, and build in regular checkpoints to make sure you solve the most relevant problems right up to launch and beyond?  How can you use data to discover use cases and preferences that users can’t articulate?  And finally, how can you do it cheaply?  <br /><br />This workshop is a must for anyone looking for tactical ways to balance numbers with user stories, so you can be confident you’re leading your team down the right track.",
+	'track' => 'research',
+	'day' => 2,
+	'slot' => 1,
+	'instructor' => 'bethliebert',
+	'level' => 'advanced'
+);
+
+
+// LEADERSHIP
+
+// Richard Banfield
+$courses[] = array(
+	'title' => 'How Top Product Managers Launch Awesome Products and Build Successful Teams',
+	'description' => "Product leadership is a universal problem for all companies building and supporting products. Organizations can adopt any process, e.g. Agile, Scrum, Waterfall or Lean, but ultimately the process doesn’t lead the team. People lead people, and that’s where it get’s messy. Humans are inherently complicated and multifaceted. There is no generic way to lead all people. In a phrase, leadership, or the lake of it, in product organizations is the leading reason for failure. Hiring the right leaders or nurturing the existing people into positions of leadership is complicated and generally misunderstood. In this workshop we’ll explore the best practices of high performing companies and discuss strategies and tactics to get your team operating at the next level.",
+	'track' => 'leadership',
+	'day' => 1,
+	'slot' => 1,
+	'instructor' => 'richardbanfield',
+	'level' => 'advanced'
+);
+
 
 ?>

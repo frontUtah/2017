@@ -116,7 +116,7 @@ $instructors[] = array(
 	'last' => 'Shearer',
 	'title' => 'VP, Product & Design',
 	'company' => 'ClientSuccess',
-	'discipline' => 'leadership',
+	'discipline' => 'ux',
 	'photo' => 'instructor_wadeshearer.jpg',
 	'bio' => "Wade is currently VP, Product & Design at a startup called ClientSuccess, where we’re building a customer success management platform that helps SaaS companies retain and grow their existing customer base.</br></br>Prior, he served as Director, User Experience at Vivint, where I lead teams of designers, product managers, researchers, and engineers, building innovative mobile, desktop, and embedded software applications for security, home automation, and energy products. He participated in growth that lead to a $2 Billion valuation and acquisition by Blackstone Group and Vivint ranking of 46th on Forbe’s 100 most promising companies for 2013. This work also resulted in the filing of 15 patents related to user experience in home automation and energy management.</br></br>Wade cofounded Front, an annual product design case study conference and bootcamp for product managers and UX designers. He also cofounded Product Hive, a non-profit user group for product managers and designers, with over 2,500 members.",
 	'twitter' => '',
@@ -182,6 +182,36 @@ $instructors[] = array(
 	'twitter' => 'RMBanfield',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/richardbanfield/'
+);
+
+// Beth Liebert
+$instructors[] = array(
+	'slug' => 'bethliebert',
+	'first' => 'Beth',
+	'last' => 'Liebert',
+	'title' => 'Product Manager',
+	'company' => 'Apple',
+	'discipline' => 'research',
+	'photo' => 'instructor_bethliebert.jpg',
+	'bio' => "With roots in Stanford's d.school and IDEO, Beth has focused her Product Management career on bringing user-driven design practices to software development at Google (Analytics, Maps, Search), Apple (Maps Data editing), and small startups (in the data visualization space).  She is a big believer of prototyping, good documentation, terrible puns, and staying grounded with real users.",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/beth-liebert-1a46076/'
+);
+
+// Taylor Palmer
+$instructors[] = array(
+	'slug' => 'taylorpalmer',
+	'first' => 'Taylor',
+	'last' => 'Palmer',
+	'title' => 'Senior UX Designer',
+	'company' => 'Lucid Software',
+	'discipline' => 'UX',
+	'photo' => 'instructor_taylorpalmer.jpg',
+	'bio' => "Taylor is a UX designer for Lucid Software by day and self-taught coder by night. When he has time, he curates uxtools.co and attempts to write interesting blogs. He's an Oreo purist (please, no double-stuff), he listens to weird music, and he recently became a dad.",
+	'twitter' => 'thpalmer75',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/taylor-palmer-6264a171/'
 );
 
 ?>

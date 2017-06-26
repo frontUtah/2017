@@ -140,6 +140,7 @@ summary {
 [hidden], template {
 	display: none
 }
+
 @font-face {
 	font-family: "Proxima Nova";
 	font-weight: 200;
@@ -164,6 +165,7 @@ summary {
 	font-style: normal;
 	src: url(../fonts/proxima_nova_extrabold.otf)
 }
+
 body {
 	margin: 0;
 	font: 400 20px "Proxima Nova", Helvetica, Arial, sans-serif;
@@ -210,11 +212,12 @@ section h2 {
 }
 
 @media (min-width:1000px) {
-section h2 {
-	font-size: 56px;
-	margin-bottom: 56px
+	section h2 {
+		font-size: 56px;
+		margin-bottom: 56px
+	}
 }
-}
+
 .button, button {
 	-webkit-appearance: none;
 	border: none;
@@ -230,12 +233,13 @@ section h2 {
 }
 
 @media (min-width:1000px) {
-.button, button {
-	font-size: 28px;
-	padding: 16px 32px;
-	letter-spacing: .18em
+	.button, button {
+		font-size: 28px;
+		padding: 16px 32px;
+		letter-spacing: .18em
+	}
 }
-}
+
 dd, dt {
 	margin: 0
 }
@@ -305,12 +309,13 @@ dd, dt {
 }
 
 @media (min-width:1000px) {
-.instructor-list {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap
+	.instructor-list {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap
+	}
 }
-}
+
 .instructor {
 	padding-bottom: 56px;
 	max-width: 375px;
@@ -372,27 +377,28 @@ dd, dt {
 }
 
 @media (min-width:1000px) {
-.instructor {
-	width: 200px;
-	margin: 6px 15px
+	.instructor {
+		width: 200px;
+		margin: 6px 15px
+	}
+	.instructor .instructor-photo {
+		margin-bottom: 6px
+	}
+	.instructor .instructor-photo:after {
+		width: 100px
+	}
+	.instructor h4, .instructor p {
+		text-align: left
+	}
+	.instructor h4 {
+		font-size: 20px
+	}
+	.instructor .title {
+		font-size: 14px;
+		line-height: 17px
+	}
 }
-.instructor .instructor-photo {
-	margin-bottom: 6px
-}
-.instructor .instructor-photo:after {
-	width: 100px
-}
-.instructor h4, .instructor p {
-	text-align: left
-}
-.instructor h4 {
-	font-size: 20px
-}
-.instructor .title {
-	font-size: 14px;
-	line-height: 17px
-}
-}
+
 .headers {
 	position: absolute;
 	top: 0;
@@ -466,81 +472,82 @@ main {
 }
 
 @media (min-width:800px) {
-.primary-header {
-	display: flex
-}
-.primary-header a {
-	font-size: 14px;
-	padding: 0 18px;
-	display: block;
-	position: relative;
-	margin: 0
-}
-.primary-header a.active:not(.home):after {
-	background: #FD7C00;
-	height: 2px;
-	width: auto;
-	margin: 0;
-	position: absolute;
-	bottom: 0;
-	left: 18px;
-	right: 18px
-}
-.primary-header .primary-nav {
-	height: auto;
-	overflow: visible;
-	flex: 1
-}
-.primary-header .primary-nav ul {
-	display: flex;
-	margin: 0
-}
-.primary-header .primary-nav ul .order-1 {
-	order: 1
-}
-.primary-header .primary-nav ul .order-2 {
-	order: 2
-}
-.primary-header .primary-nav ul .order-3 {
-	order: 3
-}
-.primary-header .primary-nav ul .order-4 {
-	order: 4
-}
-.primary-header .primary-nav ul .order-5 {
-	order: 5
-}
+	.primary-header {
+		display: flex
+	}
+	.primary-header a {
+		font-size: 14px;
+		padding: 0 18px;
+		display: block;
+		position: relative;
+		margin: 0
+	}
+	.primary-header a.active:not(.home):after {
+		background: #FD7C00;
+		height: 2px;
+		width: auto;
+		margin: 0;
+		position: absolute;
+		bottom: 0;
+		left: 18px;
+		right: 18px
+	}
+	.primary-header .primary-nav {
+		height: auto;
+		overflow: visible;
+		flex: 1
+	}
+	.primary-header .primary-nav ul {
+		display: flex;
+		margin: 0
+	}
+	.primary-header .primary-nav ul .order-1 {
+		order: 1
+	}
+	.primary-header .primary-nav ul .order-2 {
+		order: 2
+	}
+	.primary-header .primary-nav ul .order-3 {
+		order: 3
+	}
+	.primary-header .primary-nav ul .order-4 {
+		order: 4
+	}
+	.primary-header .primary-nav ul .order-5 {
+		order: 5
+	}
 }
 
 @media (min-width:1000px) {
-.primary-header.sticky {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	z-index: 10
-}
-.primary-header a {
-	padding: 0 24px
-}
-.primary-header a.active:not(.home):after {
-	left: 24px;
-	right: 24px
-}
-.primary-header .social-nav {
-	display: block
-}
+	.primary-header.sticky {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 10
+	}
+	.primary-header a {
+		padding: 0 24px
+	}
+	.primary-header a.active:not(.home):after {
+		left: 24px;
+		right: 24px
+	}
+	.primary-header .social-nav {
+		display: block
+	}
 }
 
 @media (min-width:1100px) {
-.primary-header .primary-nav a:not(.home) {
-	padding: 0 37px
+	.primary-header .primary-nav a:not(.home) {
+		padding: 0 37px
+	}
+	.primary-header .primary-nav a:not(.home).active:after {
+		left: 37px;
+		right: 37px
+	}
 }
-.primary-header .primary-nav a:not(.home).active:after {
-	left: 37px;
-	right: 37px
-}
-}
+
 .section-header {
 	background: #474747;
 	color: #FFF
@@ -623,71 +630,72 @@ main {
 }
 
 @media (min-width:1000px) {
-.section-header:not(.sticky) {
-	background: rgba(0,0,0,0)
-}
-.section-header.sticky {
-	top: 50px
-}
-.section-header.sticky .section-nav {
-	padding-top: 8px;
-	padding-bottom: 4px
-}
-.section-header .section-nav {
-	height: auto;
-	overflow: visible;
-	display: flex;
-	align-items: center;
-	padding: 23px 20px
-}
-.section-header .section-nav .section-nav-head {
-	border: none;
-	width: auto;
-	height: auto
-}
-.section-header .section-nav .logo {
-	width: 189px;
-	height: 25px;
-	margin: 0
-}
-.section-header .section-nav ul {
-	flex: 1;
-	display: block;
-	display: flex;
-	justify-content: flex-end
-}
-.section-header .section-nav ul li {
-	padding: 0
-}
-.section-header .section-nav ul li a:not(.button) {
-	padding: 10px 13px
-}
-.section-header .section-nav ul li:last-child .button {
-	padding: 8px 24px;
-	margin-bottom: 0;
-	margin-top: -4px;
-	margin-left: 20px;
-}
-.section-header .section-nav ul li:last-child, .section-header .section-nav ul li:last-child .button, .section-header .section-nav ul li:not(:last-child) {
-	width: auto
-}
-.section-header .menu-toggle {
-	display: none
-}
+	.section-header:not(.sticky) {
+		background: rgba(0,0,0,0)
+	}
+	.section-header.sticky {
+		top: 50px
+	}
+	.section-header.sticky .section-nav {
+		padding-top: 8px;
+		padding-bottom: 4px
+	}
+	.section-header .section-nav {
+		height: auto;
+		overflow: visible;
+		display: flex;
+		align-items: center;
+		padding: 23px 20px
+	}
+	.section-header .section-nav .section-nav-head {
+		border: none;
+		width: auto;
+		height: auto
+	}
+	.section-header .section-nav .logo {
+		width: 189px;
+		height: 25px;
+		margin: 0
+	}
+	.section-header .section-nav ul {
+		flex: 1;
+		display: block;
+		display: flex;
+		justify-content: flex-end
+	}
+	.section-header .section-nav ul li {
+		padding: 0
+	}
+	.section-header .section-nav ul li a:not(.button) {
+		padding: 10px 13px
+	}
+	.section-header .section-nav ul li:last-child .button {
+		padding: 8px 24px;
+		margin-bottom: 0;
+		margin-top: -4px;
+		margin-left: 20px;
+	}
+	.section-header .section-nav ul li:last-child, .section-header .section-nav ul li:last-child .button, .section-header .section-nav ul li:not(:last-child) {
+		width: auto
+	}
+	.section-header .menu-toggle {
+		display: none
+	}
 }
 
 @media (min-width:1350px) {
-.section-header .section-nav {
-	padding: 23px 65px
+	.section-header .section-nav {
+		padding: 23px 65px
+	}
+	.section-header .section-nav .logo {
+		width: 230px;
+		height: 31px
+	}
+	.section-header .section-nav ul li a:not(.button) {
+		padding: 10px 25px;
+	}
 }
-.section-header .section-nav .logo {
-	width: 230px;
-	height: 31px
-}
-.section-header .section-nav ul li a:not(.button) {
-	padding: 10px 25px;
-}
-}
+
 footer {
 	background: #333;
 	color: #FFF;
@@ -722,33 +730,34 @@ footer p {
 }
 
 @media (min-width:800px) {
-footer {
-	padding-top: 83px
-}
-footer .social-nav {
-	transform: scale(1.5);
-	margin-bottom: 20px
-}
-footer .main-footer-nav {
-	margin-bottom: 90px
-}
-footer .main-footer-nav li {
-	display: inline-block
-}
-footer .main-footer-nav a {
-	font-size: 14px;
-	padding: 5px 20px
-}
-.hero {
-	background-size: cover
-}
+	footer {
+		padding-top: 83px
+	}
+	footer .social-nav {
+		transform: scale(1.5);
+		margin-bottom: 20px
+	}
+	footer .main-footer-nav {
+		margin-bottom: 90px
+	}
+	footer .main-footer-nav li {
+		display: inline-block
+	}
+	footer .main-footer-nav a {
+		font-size: 14px;
+		padding: 5px 20px
+	}
+	.hero {
+		background-size: cover
+	}
 }
 
 @media (min-width:1000px) {
-.hero {
-	height: 392px
+	.hero {
+		height: 392px
+	}
 }
-}
+
 .home .hero {
 	padding: 95px 25px 70px;
 	height: 500px
@@ -791,21 +800,22 @@ footer .main-footer-nav a {
 }
 
 @media (min-width:1000px) {
-.home .hero {
-	height: 922px;
-	padding-top: 120px
+	.home .hero {
+		height: 922px;
+		padding-top: 120px
+	}
+	.home .hero .logo {
+		height: 60px
+	}
+	.home .hero p {
+		font-size: 24px;
+		margin: 70px 0 240px
+	}
+	.home .hero h2 {
+		font-size: 80px
+	}
 }
-.home .hero .logo {
-	height: 60px
-}
-.home .hero p {
-	font-size: 24px;
-	margin: 70px 0 240px
-}
-.home .hero h2 {
-	font-size: 80px
-}
-}
+
 .venue .hero {
 	height: 550px;
 	padding: 70px 70px 40px;
@@ -824,28 +834,29 @@ footer .main-footer-nav a {
 }
 
 @media (min-width:1000px) {
-.venue .hero {
-	height: 917px;
-	padding: 70px 140px
+	.venue .hero {
+		height: 917px;
+		padding: 70px 140px
+	}
+	.venue .hero h1 {
+		font-size: 50px;
+		text-align: left
+	}
+	.venue .hero .location {
+		font-size: 24px;
+		font-weight: 700;
+		text-align: left
+	}
+	.venue .hero .olympic-logo {
+		text-align: right;
+		margin-top: 140px;
+		margin-bottom: 230px
+	}
+	.venue .hero .olympic-logo img {
+		width: 273px
+	}
 }
-.venue .hero h1 {
-	font-size: 50px;
-	text-align: left
-}
-.venue .hero .location {
-	font-size: 24px;
-	font-weight: 700;
-	text-align: left
-}
-.venue .hero .olympic-logo {
-	text-align: right;
-	margin-top: 140px;
-	margin-bottom: 230px
-}
-.venue .hero .olympic-logo img {
-	width: 273px
-}
-}
+
 .product-bootcamp .hero {
 	height: 554px;
 	background-image: url(../images/bootcamp-bg.jpg);
@@ -873,52 +884,53 @@ footer .main-footer-nav a {
 }
 
 @media (min-width:1000px) {
-.product-bootcamp .hero {
-	height: 1070px;
-	padding: 200px 130px 50px
-}
-.product-bootcamp .hero h1, .product-bootcamp .hero li, .product-bootcamp .hero p {
-	text-align: left
-}
-.product-bootcamp .hero h1 {
-	font-size: 80px;
-	line-height: 98px
-}
-.product-bootcamp .hero ul li {
-	font-size: 36px;
-	line-height: 44px
-}
-.product-bootcamp .hero .date-location {
-	display: block;
-	font-size: 24px;
-	font-style: italic;
-	margin-bottom: 60px
-}
-.product-bootcamp .hero .button {
-	width: auto
-}
+	.product-bootcamp .hero {
+		height: 1070px;
+		padding: 200px 130px 50px
+	}
+	.product-bootcamp .hero h1, .product-bootcamp .hero li, .product-bootcamp .hero p {
+		text-align: left
+	}
+	.product-bootcamp .hero h1 {
+		font-size: 80px;
+		line-height: 98px
+	}
+	.product-bootcamp .hero ul li {
+		font-size: 36px;
+		line-height: 44px
+	}
+	.product-bootcamp .hero .date-location {
+		display: block;
+		font-size: 24px;
+		font-style: italic;
+		margin-bottom: 60px
+	}
+	.product-bootcamp .hero .button {
+		width: auto
+	}
 }
 
 @media (min-width:1599px) {
-.product-bootcamp .hero {
-	padding-top: 400px
+	.product-bootcamp .hero {
+		padding-top: 400px
+	}
 }
-}
+
 .product-bootcamp-page .hero {
 	background-image: url(../images/bootcamp-bg.jpg);
 	display: none
 }
 
 @media (min-width:1000px) {
-.product-bootcamp-page .hero {
-	display: block;
-	height: 392px
-}
-.product-bootcamp-page .hero h1 {
-	font-size: 56px;
-	color: #FFF;
-	padding-top: 200px
-}
+	.product-bootcamp-page .hero {
+		display: block;
+		height: 392px
+	}
+	.product-bootcamp-page .hero h1 {
+		font-size: 56px;
+		color: #FFF;
+		padding-top: 200px
+	}
 }
 
 
@@ -997,11 +1009,6 @@ footer .main-footer-nav a {
 	}
 }
 
-
-
-
-
-
 .custom-training .hero {
 	background-image: url(../images/custom-training-bg.png);
 	height: 550px;
@@ -1020,19 +1027,20 @@ footer .main-footer-nav a {
 }
 
 @media (min-width:1000px) {
-.custom-training .hero {
-	height: 1070px;
-	text-align: left;
-	padding: 650px 120px 40px
+	.custom-training .hero {
+		height: 1070px;
+		text-align: left;
+		padding: 650px 120px 40px
+	}
+	.custom-training .hero h1 {
+		font-size: 80px
+	}
+	.custom-training .hero p {
+		font-size: 36px;
+		line-height: 44px
+	}
 }
-.custom-training .hero h1 {
-	font-size: 80px
-}
-.custom-training .hero p {
-	font-size: 36px;
-	line-height: 44px
-}
-}
+
 section.spotlight {
 	padding-left: 0;
 	padding-right: 0
@@ -1055,61 +1063,63 @@ section.spotlight .description {
 }
 
 @media (min-width:1150px) {
-section.spotlight {
-	margin-top: -330px;
-	padding-bottom: 152px
+	section.spotlight {
+		margin-top: -330px;
+		padding-bottom: 152px
+	}
+	section.spotlight .date-location, section.spotlight h3 {
+		color: #FFF
+	}
+	section.spotlight .date-location {
+		margin: 8px 0 33px
+	}
+	section.spotlight .description {
+		font-size: 24px;
+		width: 290px;
+		margin-bottom: 77px
+	}
+	section.spotlight ul {
+		display: flex;
+		align-items: stretch
+	}
+	section.spotlight ul li:not(:last-child) {
+		margin-bottom: 0
+	}
+	section.spotlight ul li {
+		flex: 1;
+		padding: 0 10px 74px;
+		position: relative
+	}
+	section.spotlight ul li .button {
+		position: absolute;
+		bottom: 0;
+		width: 290px;
+		left: 50%;
+		margin-left: -145px
+	}
 }
-section.spotlight .date-location, section.spotlight h3 {
-	color: #FFF
-}
-section.spotlight .date-location {
-	margin: 8px 0 33px
-}
-section.spotlight .description {
-	font-size: 24px;
-	width: 290px;
-	margin-bottom: 77px
-}
-section.spotlight ul {
-	display: flex;
-	align-items: stretch
-}
-section.spotlight ul li:not(:last-child) {
-	margin-bottom: 0
-}
-section.spotlight ul li {
-	flex: 1;
-	padding: 0 10px 74px;
-	position: relative
-}
-section.spotlight ul li .button {
-	position: absolute;
-	bottom: 0;
-	width: 290px;
-	left: 50%;
-	margin-left: -145px
-}
-}
+
 section.about {
 	background: #FAFAFA
 }
 
 @media (min-width:800px) {
-section.about {
-	padding: 90px 40px 110px
+	section.about {
+		padding: 90px 40px 110px
+	}
+	section.about h2 {
+		font-size: 56px;
+		line-height: 1em;
+		margin-bottom: 53px
+	}
+	section.about p {
+		font-size: 24px;
+		max-width: 870px;
+		margin: 0 auto;
+		line-height: 35px
+	}
 }
-section.about h2 {
-	font-size: 56px;
-	line-height: 1em;
-	margin-bottom: 53px
-}
-section.about p {
-	font-size: 24px;
-	max-width: 870px;
-	margin: 0 auto;
-	line-height: 35px
-}
-}
+
 section.personal-stories ul {
 	margin-bottom: 70px
 }
@@ -1130,41 +1140,42 @@ section.personal-stories .card-image {
 }
 
 @media (min-width:800px) {
-section.personal-stories {
-	padding: 100px 0 180px
-}
-section.personal-stories h2 {
-	font-size: 56px;
-	line-height: 1em;
-	margin-bottom: 42px
-}
-section.personal-stories h3 {
-	font-size: 20px
-}
-section.personal-stories p {
-	font-size: 14px
-}
-section.personal-stories ul {
-	display: flex;
-	flex-wrap: wrap;
-	margin: 20px 0 55px
-}
-section.personal-stories li {
-	width: 50%;
-	box-sizing: border-box;
-	padding: 1px;
-	margin: 18px 0
-}
-section.personal-stories .card-image {
-	margin: 0
-}
+	section.personal-stories {
+		padding: 100px 0 180px
+	}
+	section.personal-stories h2 {
+		font-size: 56px;
+		line-height: 1em;
+		margin-bottom: 42px
+	}
+	section.personal-stories h3 {
+		font-size: 20px
+	}
+	section.personal-stories p {
+		font-size: 14px
+	}
+	section.personal-stories ul {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 20px 0 55px
+	}
+	section.personal-stories li {
+		width: 50%;
+		box-sizing: border-box;
+		padding: 1px;
+		margin: 18px 0
+	}
+	section.personal-stories .card-image {
+		margin: 0
+	}
 }
 
 @media (min-width:1000px) {
-section.personal-stories li {
-	width: 33.33%
+	section.personal-stories li {
+		width: 33.33%
+	}
 }
-}
+
 section.attendee-stats {
 	background: #006F9E;
 	color: #FFF;
@@ -1173,16 +1184,17 @@ section.attendee-stats {
 }
 
 @media (min-width:800px) {
-section.attendee-stats {
-	padding: 62px 40px
+	section.attendee-stats {
+		padding: 62px 40px
+	}
+	section.attendee-stats p {
+		font-size: 48px;
+		line-height: 1.5em;
+		max-width: 1050px;
+		margin: 1em auto
+	}
 }
-section.attendee-stats p {
-	font-size: 48px;
-	line-height: 1.5em;
-	max-width: 1050px;
-	margin: 1em auto
-}
-}
+
 section.bootcamp-about {
 	padding: 50px 30px;
 	overflow: hidden
@@ -1198,31 +1210,32 @@ section.bootcamp-about .image {
 }
 
 @media (min-width:1100px) {
-section.bootcamp-about {
-	display: flex;
-	text-align: left;
-	padding-top: 120px;
-	padding-bottom: 130px;
-	width: 1066px;
-	margin: 0 auto
+	section.bootcamp-about {
+		display: flex;
+		text-align: left;
+		padding-top: 120px;
+		padding-bottom: 130px;
+		width: 1066px;
+		margin: 0 auto
+	}
+	section.bootcamp-about h2 {
+		font-size: 28px;
+		line-height: 40px
+	}
+	section.bootcamp-about .content {
+		width: 438px
+	}
+	section.bootcamp-about .content p {
+		font-size: 18px;
+		line-height: 28px
+	}
+	section.bootcamp-about .image {
+		margin: 0;
+		flex: 1;
+		padding-left: 80px
+	}
 }
-section.bootcamp-about h2 {
-	font-size: 28px;
-	line-height: 40px
-}
-section.bootcamp-about .content {
-	width: 438px
-}
-section.bootcamp-about .content p {
-	font-size: 18px;
-	line-height: 28px
-}
-section.bootcamp-about .image {
-	margin: 0;
-	flex: 1;
-	padding-left: 80px
-}
-}
+
 section.instructor-preview {
 	padding: 70px 0 30px
 }
@@ -1231,25 +1244,26 @@ section.instructor-preview h2 {
 }
 
 @media (min-width:1000px) {
-section.instructor-preview {
-	padding: 70px 100px
-}
-section.instructor-preview h2 {
-	font-size: 56px
-}
-section.instructors h2 {
-	display: none
-}
+	section.instructor-preview {
+		padding: 70px 100px
+	}
+	section.instructor-preview h2 {
+		font-size: 56px
+	}
+	section.instructors h2 {
+		display: none
+	}
 }
 
 @media (max-width:999px) {
-section.instructors {
-	padding: 70px 0 0
+	section.instructors {
+		padding: 70px 0 0
+	}
+	section.instructors h2 {
+		margin: 20px 0 60px
+	}
 }
-section.instructors h2 {
-	margin: 20px 0 60px
-}
-}
+
 section.individual-instructor .details {
 	padding-bottom: 55px
 }
@@ -1278,71 +1292,82 @@ section.individual-instructor .social-nav {
 section.individual-instructor .instructor {
 	padding-bottom: 0
 }
+	
+section.individual-instructor .instructor-content ul {
+	margin-left: 20px;
+}
+	
+section.individual-instructor .instructor-content li {
+	list-style: disc;
+	margin-bottom: 15px;
+}
 
 @media (max-width:999px) {
-section.individual-instructor {
-	padding: 70px 0 0
-}
-section.individual-instructor h2 {
-	margin: 20px 0 60px
-}
+	section.individual-instructor {
+		padding: 70px 0 0
+	}
+	section.individual-instructor h2 {
+		margin: 20px 0 60px
+	}
 }
 
 @media (min-width:1000px) {
-section.individual-instructor {
-	text-align: left
+	section.individual-instructor {
+		text-align: left
+	}
+	section.individual-instructor h2 {
+		display: none
+	}
+	section.individual-instructor .instructor-profile {
+		display: flex;
+		max-width: 1058px;
+		margin: 0 auto
+	}
+	section.individual-instructor .instructor-profile .details, section.individual-instructor .instructor-profile .instructor-content {
+		flex: 1
+	}
+	section.individual-instructor .social-nav {
+		margin: 60px 0 0 40px
+	}
+	section.individual-instructor .instructor {
+		width: auto;
+		max-width: none
+	}
+	section.individual-instructor .instructor .instructor-photo {
+		margin-bottom: 18px;
+		width:400px;
+	}
+	section.individual-instructor .instructor .instructor-photo:after {
+		width: 140px
+	}
+	section.individual-instructor .instructor h4 {
+		font-size: 28px;
+		margin-bottom: 10px
+	}
+	section.individual-instructor .instructor p {
+		font-size: 18px;
+		line-height: 22px
+	}
+	section.individual-instructor .course-description {
+		margin-bottom: 100px
+	}
+	section.individual-instructor .course-description h3 {
+		font-size: 24px;
+		line-height: 32px
+	}
+	section.individual-instructor .about-instructor h3 {
+		font-size: 18px
+	}
+	section.individual-instructor .instructor-content {
+		padding-top: 0
+	}
+	section.individual-instructor .instructor-content p,
+	section.individual-instructor .instructor-content	 {
+		font-size: 18px;
+		left: 28px
+	}
 }
-section.individual-instructor h2 {
-	display: none
-}
-section.individual-instructor .instructor-profile {
-	display: flex;
-	max-width: 1058px;
-	margin: 0 auto
-}
-section.individual-instructor .instructor-profile .details, section.individual-instructor .instructor-profile .instructor-content {
-	flex: 1
-}
-section.individual-instructor .social-nav {
-	margin: 60px 0 0 40px
-}
-section.individual-instructor .instructor {
-	width: auto;
-	max-width: none
-}
-section.individual-instructor .instructor .instructor-photo {
-	margin-bottom: 18px;
-	width:400px;
-}
-section.individual-instructor .instructor .instructor-photo:after {
-	width: 140px
-}
-section.individual-instructor .instructor h4 {
-	font-size: 28px;
-	margin-bottom: 10px
-}
-section.individual-instructor .instructor p {
-	font-size: 18px;
-	line-height: 22px
-}
-section.individual-instructor .course-description {
-	margin-bottom: 100px
-}
-section.individual-instructor .course-description h3 {
-	font-size: 24px;
-	line-height: 32px
-}
-section.individual-instructor .about-instructor h3 {
-	font-size: 18px
-}
-section.individual-instructor .instructor-content {
-	padding-top: 0
-}
-section.individual-instructor .instructor-content p {
-	font-size: 18px;
-	left: 28px
-}
-}
+
 section.courses .about-courses {
 	padding: 0 25px
 }
@@ -1393,222 +1418,236 @@ section.courses.leadership .course-calendar h3 {
 section.courses.leadership .course-calendar .time {
 	color: #E2B700
 }
+	
+section.courses .course dl .description ul {
+	margin-left: 20px;
+}
+	
+section.courses .course dl .description li {
+	list-style: disc;
+	margin-bottom: 15px;
+}
 
 @media (max-width:999px) {
-section.courses {
-	padding: 70px 0 0
-}
-section.courses h2 {
-	margin: 20px 0 60px
-}
-section.courses .course-track-nav {
-	width: 295px;
-	margin: 90px auto 50px
-}
-section.courses .course-track-nav h4 {
-	text-transform: uppercase;
-	margin-bottom: 30px;
-	font-size: 18px
-}
-section.courses .course-track-nav .track-options {
-	height: 50px;
-	overflow: hidden;
-	border: 1px solid #666;
-	border-radius: 3px;
-	position: relative
-}
-section.courses .course-track-nav .track-options:after {
-	content: '';
-	background: url(../images/icon-sprite.svg) -85px -36px no-repeat;
-	width: 35px;
-	height: 50px;
-	position: absolute;
-	right: 0;
-	top: 0;
-	border-left: 1px solid #666;
-	filter: grayscale(100%)
-}
-section.courses .course-track-nav .track-options:hover {
-	overflow: visible;
-	border: none
-}
-section.courses .course-track-nav .track-options:hover ul {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	z-index: 5;
-	background: #FFF;
-	border: 1px solid #666;
-	border-radius: 3px
-}
-section.courses .course-track-nav .track-options a, section.courses .course-track-nav .track-options span.active {
-	display: block;
-	line-height: 50px;
-	padding: 0 40px 0 20px;
-	text-align: left;
-	text-decoration: none;
-	font-size: 18px;
-	color: #666
-}
-section.courses .course-track-nav .track-options span.active {
-	font-weight: 700
-}
+	section.courses {
+		padding: 70px 0 0
+	}
+	section.courses h2 {
+		margin: 20px 0 60px
+	}
+	section.courses .course-track-nav {
+		width: 295px;
+		margin: 90px auto 50px
+	}
+	section.courses .course-track-nav h4 {
+		text-transform: uppercase;
+		margin-bottom: 30px;
+		font-size: 18px
+	}
+	section.courses .course-track-nav .track-options {
+		height: 50px;
+		overflow: hidden;
+		border: 1px solid #666;
+		border-radius: 3px;
+		position: relative
+	}
+	section.courses .course-track-nav .track-options:after {
+		content: '';
+		background: url(../images/icon-sprite.svg) -85px -36px no-repeat;
+		width: 35px;
+		height: 50px;
+		position: absolute;
+		right: 0;
+		top: 0;
+		border-left: 1px solid #666;
+		filter: grayscale(100%)
+	}
+	section.courses .course-track-nav .track-options:hover {
+		overflow: visible;
+		border: none
+	}
+	section.courses .course-track-nav .track-options:hover ul {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 5;
+		background: #FFF;
+		border: 1px solid #666;
+		border-radius: 3px
+	}
+	section.courses .course-track-nav .track-options a, section.courses .course-track-nav .track-options span.active {
+		display: block;
+		line-height: 50px;
+		padding: 0 40px 0 20px;
+		text-align: left;
+		text-decoration: none;
+		font-size: 18px;
+		color: #666
+	}
+	section.courses .course-track-nav .track-options span.active {
+		font-weight: 700
+	}
 }
 
 @media (min-width:1000px) {
-section.courses {
-	background: #FAFAFA;
-	position: relative;
-	padding-top: 210px;
-	padding-bottom: 275px
+	section.courses {
+		background: #FAFAFA;
+		position: relative;
+		padding-top: 210px;
+		padding-bottom: 275px
+	}
+	section.courses h2 {
+		display: none
+	}
+	section.courses .about-courses {
+		font-size: 18px;
+		line-height: 28px;
+		font-weight: 200;
+		max-width: 954px;
+		margin: 0 auto 95px
+	}
+	section.courses .course-track-nav {
+		height: 135px;
+		background: #FD7C00;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		padding-top: 20px;
+		box-sizing: border-box
+	}
+	section.courses .course-track-nav h4 {
+		color: #FFF;
+		font-size: 12px;
+		text-transform: uppercase
+	}
+	section.courses .course-track-nav ul {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end
+	}
+	section.courses .course-track-nav li {
+		flex: none;
+		padding: 0 20px
+	}
+	section.courses .course-track-nav .order-1 {
+		order: 1
+	}
+	section.courses .course-track-nav .order-2 {
+		order: 2
+	}
+	section.courses .course-track-nav .order-3 {
+		order: 3
+	}
+	section.courses .course-track-nav .order-4 {
+		order: 4
+	}
+	section.courses .course-track-nav a, section.courses .course-track-nav span.active {
+		color: #FFF;
+		text-decoration: none;
+		padding: 8px 27px;
+		font-size: 18px;
+		display: block
+	}
+	section.courses .course-track-nav span.active {
+		font-weight: 700;
+		color: #FD7C00;
+		background: #FAFAFA;
+		border-radius: 4px 4px 0 0
+	}
+	section.courses.ux .course-track-nav {
+		background: #FD7C00
+	}
+	section.courses.ux .course-track-nav span.active {
+		color: #FD7C00
+	}
+	section.courses.pm .course-track-nav {
+		background: #006F9E
+	}
+	section.courses.pm .course-track-nav span.active {
+		color: #006F9E
+	}
+	section.courses.research .course-track-nav {
+		background: #653789
+	}
+	section.courses.research .course-track-nav span.active {
+		color: #653789
+	}
+	section.courses.leadership .course-track-nav {
+		background: #E2B700
+	}
+	section.courses.leadership .course-track-nav span.active {
+		color: #E2B700
+	}
+	section.courses .course-calendar {
+		max-width: 1218px;
+		margin: 0 auto
+	}
+	section.courses .course-date {
+		background: #FFF;
+		margin-bottom: 60px
+	}
+	section.courses .course {
+		padding: 10px
+	}
+	section.courses .course:not(:last-child) {
+		border-bottom: 1px solid rgba(0,0,0,.09)
+	}
+	section.courses .course dl {
+		display: flex
+	}
+	section.courses .course dl .time {
+		text-align: left;
+		font-size: 16px;
+		line-height: inherit;
+		padding: 0 10px 0 40px
+	}
+	section.courses .course dl .time .am-pm {
+		font-size: 12px
+	}
+	section.courses .course dl .description {
+		order: 2;
+		flex: 1;
+		margin: 0
+	}
+	
+	section.courses .course dl .description h4,
+	section.courses .course dl .description p,
+	section.courses .course dl .description {
+		font-size: 16px;
+		line-height: 22px;
+	}
+	
+	section.courses .course dl .instructor {
+		order: 3;
+		display: flex;
+		width: 325px
+	}
+	section.courses .course dl .instructor>div {
+		flex: 1
+	}
+	section.courses .course dl .instructor .instructor-photo {
+		flex: none;
+		width: 125px;
+		margin-right: 25px
+	}
+	section.courses .course dl .instructor .instructor-photo:after {
+		display: none
+	}
+	section.courses .course dl .instructor h4 {
+		font-size: 20px
+	}
+	section.courses .course dl .instructor .title {
+		font-size: 12px;
+		line-height: 17px
+	}
 }
-section.courses h2 {
-	display: none
-}
-section.courses .about-courses {
-	font-size: 18px;
-	line-height: 28px;
-	font-weight: 200;
-	max-width: 954px;
-	margin: 0 auto 95px
-}
-section.courses .course-track-nav {
-	height: 135px;
-	background: #FD7C00;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	padding-top: 20px;
-	box-sizing: border-box
-}
-section.courses .course-track-nav h4 {
-	color: #FFF;
-	font-size: 12px;
-	text-transform: uppercase
-}
-section.courses .course-track-nav ul {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	display: flex;
-	justify-content: center;
-	align-items: flex-end
-}
-section.courses .course-track-nav li {
-	flex: none;
-	padding: 0 20px
-}
-section.courses .course-track-nav .order-1 {
-	order: 1
-}
-section.courses .course-track-nav .order-2 {
-	order: 2
-}
-section.courses .course-track-nav .order-3 {
-	order: 3
-}
-section.courses .course-track-nav .order-4 {
-	order: 4
-}
-section.courses .course-track-nav a, section.courses .course-track-nav span.active {
-	color: #FFF;
-	text-decoration: none;
-	padding: 8px 27px;
-	font-size: 18px;
-	display: block
-}
-section.courses .course-track-nav span.active {
-	font-weight: 700;
-	color: #FD7C00;
-	background: #FAFAFA;
-	border-radius: 4px 4px 0 0
-}
-section.courses.ux .course-track-nav {
-	background: #FD7C00
-}
-section.courses.ux .course-track-nav span.active {
-	color: #FD7C00
-}
-section.courses.pm .course-track-nav {
-	background: #006F9E
-}
-section.courses.pm .course-track-nav span.active {
-	color: #006F9E
-}
-section.courses.research .course-track-nav {
-	background: #653789
-}
-section.courses.research .course-track-nav span.active {
-	color: #653789
-}
-section.courses.leadership .course-track-nav {
-	background: #E2B700
-}
-section.courses.leadership .course-track-nav span.active {
-	color: #E2B700
-}
-section.courses .course-calendar {
-	max-width: 1218px;
-	margin: 0 auto
-}
-section.courses .course-date {
-	background: #FFF;
-	margin-bottom: 60px
-}
-section.courses .course {
-	padding: 10px
-}
-section.courses .course:not(:last-child) {
-	border-bottom: 1px solid rgba(0,0,0,.09)
-}
-section.courses .course dl {
-	display: flex
-}
-section.courses .course dl .time {
-	text-align: left;
-	font-size: 16px;
-	line-height: inherit;
-	padding: 0 10px 0 40px
-}
-section.courses .course dl .time .am-pm {
-	font-size: 12px
-}
-section.courses .course dl .description {
-	order: 2;
-	flex: 1;
-	margin: 0
-}
-section.courses .course dl .description h4, section.courses .course dl .description p {
-	font-size: 16px;
-	line-height: 22px
-}
-section.courses .course dl .instructor {
-	order: 3;
-	display: flex;
-	width: 325px
-}
-section.courses .course dl .instructor>div {
-	flex: 1
-}
-section.courses .course dl .instructor .instructor-photo {
-	flex: none;
-	width: 125px;
-	margin-right: 25px
-}
-section.courses .course dl .instructor .instructor-photo:after {
-	display: none
-}
-section.courses .course dl .instructor h4 {
-	font-size: 20px
-}
-section.courses .course dl .instructor .title {
-	font-size: 12px;
-	line-height: 17px
-}
-}
+
 section.highlight-video {
 	padding: 30px 0
 }
@@ -1617,17 +1656,18 @@ section.highlight-video h2 {
 }
 
 @media (min-width:1200px) {
-section.highlight-video {
-	padding-top: 250px
+	section.highlight-video {
+		padding-top: 250px
+	}
+	section.highlight-video h2 {
+		font-size: 56px;
+		color: #FFF;
+		position: relative;
+		z-index: 1;
+		margin-bottom: -220px
+	}
 }
-section.highlight-video h2 {
-	font-size: 56px;
-	color: #FFF;
-	position: relative;
-	z-index: 1;
-	margin-bottom: -220px
-}
-}
+
 section.training-courses {
 	padding: 70px 0
 }

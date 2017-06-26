@@ -91,7 +91,10 @@ switch($track) {
 					function print_courses($track, $day) {
 						$slots[1] = array('time' => '8:30', 'meridian' => 'AM');
 						$slots[2] = array('time' => '1:30', 'meridian' => 'PM');
-						$slots[3] = array('time' => '3:30', 'meridian' => 'PM');
+						
+						if($day == 1) {
+							$slots[3] = array('time' => '3:30', 'meridian' => 'PM');
+						}
 
 						foreach($slots as $slot => $slot_details) {
 							$course = get_course($track, $day, $slot);
@@ -104,7 +107,16 @@ switch($track) {
 														<dt class="time">' . $slot_details['time'] . ' <span class="am-pm">' . $slot_details['meridian'] . '</span></dt>
 														<dd class="instructor ' . $instructor['discipline'] . '">
 															<div class="instructor-photo">
-																<img src="/images/' . $instructor['photo'] . '" alt="">
+																<img src="/images/';
+																
+								// ensure photo exists
+								if(file_exists($_SERVER['DOCUMENT_ROOT'] . '/images/' . $instructor['photo'])) {
+									echo $instructor['photo'];
+								} else {
+									echo 'instructor_missing.png';
+								}
+								
+								echo '" alt="">
 															</div>
 															<div>
 																<h4>' . $instructor['first'] . ' ' . $instructor['last'] . '</h4>
@@ -115,6 +127,16 @@ switch($track) {
 														<dd class="description">
 															<h4>' . $course['title'] . '</h4>
 															<p>' . $course['description'] . '</p>
+														</dd>
+													</dl>
+												</li>';
+							} else {
+								echo '
+												<li class="course">
+													<dl>
+														<dt class="time">' . $slot_details['time'] . ' <span class="am-pm">' . $slot_details['meridian'] . '</span></dt>
+														<dd class="description">
+															<h4>TBD</h4>
 														</dd>
 													</dl>
 												</li>';
