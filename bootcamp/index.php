@@ -26,7 +26,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				<h2>2 intense days of learning
  and practice at 7,000 feet</h2>
 				<p>Join us in the majestic mountains of Utah for an intimate, one-of-a-kind 
-					UX and Product Management training experience. Select 6 half and quarter-day 
+					UX and Product Management training experience. Select 5 half and quarter-day 
 					workshops, for 2 intense days of learning and practice. No passive education 
 					here. This isn’t for the faint of heart. We’ll be working together, at 7,000 
 					feet and atop the greatest snow on earth, in small groups of six, where you’ll 
