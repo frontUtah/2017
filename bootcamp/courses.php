@@ -151,7 +151,7 @@ switch($track) {
 				</ul>
 			</div>
 			<div class="course-date">
-				<h3>Wednesday, 5 January 2018</h3>
+				<h3>Friday, 5 January 2018</h3>
 				<ul class="days-courses">
 					<?php echo print_courses($uri_parts[2], 2); ?>
 				</ul>
