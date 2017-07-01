@@ -107,7 +107,7 @@ switch($track) {
 														<dt class="time">' . $slot_details['time'] . ' <span class="am-pm">' . $slot_details['meridian'] . '</span></dt>
 														<dd class="instructor ' . $instructor['discipline'] . '">
 															<div class="instructor-photo">
-																<img src="/images/';
+																<a href="/bootcamp/instructor/' . $instructor['slug'] . '"><img src="/images/';
 																
 								// ensure photo exists
 								if(file_exists($_SERVER['DOCUMENT_ROOT'] . '/images/' . $instructor['photo'])) {
@@ -116,12 +116,14 @@ switch($track) {
 									echo 'instructor_missing.png';
 								}
 								
-								echo '" alt="">
+								echo '" alt=""></a>
 															</div>
 															<div>
-																<h4>' . $instructor['first'] . ' ' . $instructor['last'] . '</h4>
-																<p class="title">' . $instructor['title'] . '<br>' . $instructor['company'] . '</p>
-																<p class="experience"><span class="label">' . $course['level'] . '</span></p>
+																<a href="/bootcamp/instructor/' . $instructor['slug'] . '">
+																	<h4>' . $instructor['first'] . ' ' . $instructor['last'] . '</h4>
+																	<p class="title">' . $instructor['title'] . '<br>' . $instructor['company'] . '</p>
+																	<p class="experience"><span class="label">' . $course['level'] . '</span></p>
+																</a>
 															</div>
 														</dd>
 														<dd class="description">
