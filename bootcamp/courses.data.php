@@ -72,5 +72,16 @@ $courses[] = array(
 	'level' => 'advanced'
 );
 
+// Bob Baxley
+$courses[] = array(
+	'title' => 'Your baby\'s ugly: The dark art of design feedback',
+	'description' => "Providing useful, actionable, and insightful design feedback to your team is one of the most important and challenging activities you’ll face as the leader of a creative group. In this two-hour workshop, you’ll learn from direct experience and interaction with other participants how to think more deeply about the design artifacts being presented, how to increase your awareness of body language and other non-verbal dynamics, and how to help your team understand both what is and isn’t right in their work and how to keep moving the work forward. Participants in the workshop are expected to bring printed materials and be ready to  present them to the group in mock feedback sessions.",
+	'track' => 'leadership',
+	'day' => 1,
+	'slot' => 2,
+	'instructor' => 'bobbaxley',
+	'level' => 'basics'
+);
+
 
 ?>
