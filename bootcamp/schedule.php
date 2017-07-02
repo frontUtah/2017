@@ -76,7 +76,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot two-hours">
 						<dl>
-							<dt class="time">3:30 AM</dt>
+							<dt class="time">3:30 PM</dt>
 							<dd class="ux">
 								<h4>UX</h4>
 								<p>Intermediate</p>
