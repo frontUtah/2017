@@ -44,6 +44,17 @@ $courses[] = array(
 	'level' => 'intermediate'
 );
 
+// Kyle Jacobson
+$courses[] = array(
+	'title' => 'Design is nothing without proof: How metrics change that',
+	'description' => "We don’t know if our user experience is working unless we have something to prove it. Metrics are the way product teams demonstrate value and successful companies organize themselves around metrics&mdash;shouldn’t you?<br /><br />Metrics help us determine the how much invest in product. They keep us focused and aligned with company goals. Metrics make your product vision actionable and when used correctly your team will have more influence over the company as a whole.<br /><br />In this session we will identify which metrics we should watch/track and how we can organize ourselves so that we may focus on specific values which align to company goals. Lastly, we’ll discuss how an individual team can take those metric and execute.",
+	'track' => 'pm',
+	'day' => 1,
+	'slot' => 3,
+	'instructor' => 'kylejacobson',
+	'level' => 'intermediate'
+);
+
 
 // RESEARCH
 
