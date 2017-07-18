@@ -94,5 +94,16 @@ $courses[] = array(
 	'level' => 'basics'
 );
 
+// Dan Layer
+$courses[] = array(
+	'title' => 'Finding and Building Executive Presence',
+	'description' => "Presence is key to your ability to influence others and mandatory for entry into the executive ranks. This 2-hour interactive workshop will identify essential aspects of the “it” factor, help you understand the strengths and weaknesses of your own brand, provide you with concrete strategies for improving how others see you, and help you create an ongoing plan to assess and improve your own executive presence.",
+	'track' => 'leadership',
+	'day' => 1,
+	'slot' => 3,
+	'instructor' => 'danlayer',
+	'level' => 'intermediate'
+);
+
 
 ?>
