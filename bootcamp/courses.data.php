@@ -105,5 +105,16 @@ $courses[] = array(
 	'level' => 'intermediate'
 );
 
+// Virgilia Pruthi
+$courses[] = array(
+	'title' => 'Building and Communicating your Product\'s Roadmap',
+	'description' => "You're full of new product ideas, but how do you communicate your vision to your development team, stakeholders, and customers?During this session, we will learn the steps towards determining what should be on the roadmap, actually creating a roadmap, ensuring that the roadmap items map back to key metrics, and managing communication.",
+	'track' => 'pm',
+	'day' => 1,
+	'slot' => 1,
+	'instructor' => 'virgiliapruthi',
+	'level' => 'basics'
+);
+
 
 ?>
