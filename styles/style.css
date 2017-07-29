@@ -798,6 +798,15 @@ footer p {
 .home .hero.image-7 {
 	background-image: url(../images/home-bg-7.jpg)
 }
+.home .hero.image-8 {
+	background-image: url(../images/home-bg-8.jpg)
+}
+.home .hero.image-9 {
+	background-image: url(../images/home-bg-9.jpg)
+}
+.home .hero.image-10 {
+	background-image: url(../images/home-bg-10.jpg)
+}
 
 @media (min-width:1000px) {
 	.home .hero {

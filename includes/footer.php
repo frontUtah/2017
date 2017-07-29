@@ -33,7 +33,7 @@
 	<script src="/scripts/ui.js"></script>
 	<script>
 		$(function() {
-			var imageNumber = Math.floor( Math.random() * 7 ) + 1;
+			var imageNumber = Math.floor( Math.random() * 10 ) + 1;
 			$( '.hero' ).addClass( 'image-' + imageNumber );
 			
 	      $(document).ready(function() {
