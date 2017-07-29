@@ -30,6 +30,17 @@ $courses[] = array(
 	'level' => 'basics'
 );
 
+// Jeff Carter
+$courses[] = array(
+	'title' => 'Bring your app to life with micro interactions',
+	'description' => "For awhile micro interactions have been considered a customer delight element only accessible to designers with great animation skills. In this workshop will help explain the wider scope of micro interactions and how they can help keep context, highlight changes in the UI, give voice to your product, and make your app come to life. We’ll cover how to ideate these ideas through sketching, quickly moving them into wireframes, and some basic animation techniques anyone can do.",
+	'track' => 'ux',
+	'day' => 1,
+	'slot' => 3,
+	'instructor' => 'jeffcarter',
+	'level' => 'intermediate'
+);
+
 
 // PRODUCT MANAGEMENT
 
@@ -53,6 +64,17 @@ $courses[] = array(
 	'slot' => 3,
 	'instructor' => 'kylejacobson',
 	'level' => 'intermediate'
+);
+
+// Virgilia Pruthi
+$courses[] = array(
+	'title' => 'Building and Communicating your Product\'s Roadmap',
+	'description' => "You're full of new product ideas, but how do you communicate your vision to your development team, stakeholders, and customers?During this session, we will learn the steps towards determining what should be on the roadmap, actually creating a roadmap, ensuring that the roadmap items map back to key metrics, and managing communication.",
+	'track' => 'pm',
+	'day' => 1,
+	'slot' => 1,
+	'instructor' => 'virgiliapruthi',
+	'level' => 'basics'
 );
 
 
@@ -105,15 +127,15 @@ $courses[] = array(
 	'level' => 'intermediate'
 );
 
-// Virgilia Pruthi
+// Mariah Hay
 $courses[] = array(
-	'title' => 'Building and Communicating your Product\'s Roadmap',
-	'description' => "You're full of new product ideas, but how do you communicate your vision to your development team, stakeholders, and customers?During this session, we will learn the steps towards determining what should be on the roadmap, actually creating a roadmap, ensuring that the roadmap items map back to key metrics, and managing communication.",
-	'track' => 'pm',
-	'day' => 1,
+	'title' => 'Product Leadership Fundamentals: Find, Develop, and Keep Your Team Healthy',
+	'description' => "You’re an experienced product practitioner who has a love of mentoring and an ambition for leadership but are not sure where to start. To make that shift you need to arm yourself with some tactical skills around building a team, developing a team, and even having the hard conversations needed to keep the team healthy. In this workshop, we will be breaking our time into focusing on these three areas, reviewing tactics and tools, and learning through doing. </br></br>Experience Team Building 101: How to recruit, interview and identify the best person for your team. We will look at strategies for finding amazing applicants, effective ways of interviewing, and things to looks for and consider in selecting a new team member.</br></br>Developing Your Team: Tools to develop your PMs and UX Designers, and create career paths within your organization We will look at defining what career paths exist / should exist in your company, learn to use tools that help us guide a conversation to understand the many dimensions of your team member, and practice ways to select and prioritize actionable things you can work with your team member to improve.</br></br>Conversations: How to manage Product Managers and UX Designers who are dropping the ball. We will talk about one of the hardest and most important parts of leadership, managing team members who are dropping the ball. This is easier said than done. First, we need to understand why the ball is being dropped (system, workload, communication, soft skills, disengagement). If it is a system or workload issue, how do we co-author a solution with the team? If it is a communication or soft skills issue, how do we coach the individual? And if it is a disengagement issue, how do we have the hard conversation with our team member that they must step up or move on.",
+	'track' => 'leadership',
+	'day' => 2,
 	'slot' => 1,
-	'instructor' => 'virgiliapruthi',
-	'level' => 'basics'
+	'instructor' => 'mariahay',
+	'level' => 'intermediate'
 );
 
 

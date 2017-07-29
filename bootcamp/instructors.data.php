@@ -39,11 +39,11 @@ $instructors[] = array(
 	'slug' => 'mariahhay',
 	'first' => 'Mariah',
 	'last' => 'Hay',
-	'title' => 'VP, UX',
+	'title' => 'Vice President of Product',
 	'company' => 'Pluralsight',
 	'discipline' => 'leadership',
 	'photo' => 'frontpc18/instructor_mariahhay.jpg',
-	'bio' => 'Mariah Hay is the VP of User Experience for Pluralsight, an online subscription based education provider for the technology community. As a thought leader in human-centered design and user experience strategy, Mariah enjoys working with teams whose goal is to craft excellence for the end user. Her experience with industrial and interaction design teams serving high-level stakeholders reflects her personal goals of directing business through design excellence from the ground up. Her expertise in implementing human-centered design product practices at the enterprise level stems from over a decade of tenure in the industry including serving as Professor of Design Management at Savannah College of Art and Design, Directing UX for Universal Mind, and serving as Director of User Experience AMC Health. Mariah holds an MFA in Industrial Design from Savannah College of Art and Design.',
+	'bio' => 'Mariah Hay is the VP of Product at Pluralsight, an online subscription based education provider for the technology community. As a thought leader in human-centered design and user experience strategy, Mariah enjoys working with teams whose goal is to craft excellence for the end user. Her experience with industrial and interaction design teams serving high-level stakeholders reflects her personal goals of directing business through design excellence from the ground up. Her expertise in implementing human-centered design product practices at the enterprise level stems from over a decade of tenure in the industry including serving as Professor of Design Management at Savannah College of Art and Design, Directing UX for Universal Mind, and serving as Director of User Experience AMC Health. Mariah holds an MFA in Industrial Design from Savannah College of Art and Design.',
 	'twitter' => '',
 	'instagram' => '',
 	'linkedin' => ''
@@ -212,6 +212,21 @@ $instructors[] = array(
 	'twitter' => 'thpalmer75',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/taylor-palmer-6264a171/'
+);
+
+// Jeff Carter
+$instructors[] = array(
+	'slug' => 'jeffcarter',
+	'first' => 'Jeff',
+	'last' => 'Carter',
+	'title' => 'Director of User Experience',
+	'company' => 'RizePoint',
+	'discipline' => 'ux',
+	'photo' => 'frontpc18/instructor_jeffcarter.jpg',
+	'bio' => "Jeff is Director of User Experience at RizePoint, a mobile and cloud-based software help organizations improve the quality, safety, and sustainability of their products, services, and facilities. RizePoint’s software is used by 5 of the top 8 hospitality brands and 5 of the top 8 food service brands.</br></br>Previously, Jeff has worked as a UX designer at InContact, Workfront, Solution Stream, and the Zeit Company. Is an active member of the design community, is passionate about sketching and specializes in research modeling and prototyping, ideation, user surveying, and branding.</br></br>Jeff earned a BFA in Industrial Design from Brigham Young University and an associates in Graphic Design from Weber State University.",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/jeffcarterux'
 );
 
 ?>
