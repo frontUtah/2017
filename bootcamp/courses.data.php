@@ -134,7 +134,7 @@ $courses[] = array(
 	'track' => 'leadership',
 	'day' => 2,
 	'slot' => 1,
-	'instructor' => 'mariahay',
+	'instructor' => 'mariahhay',
 	'level' => 'intermediate'
 );
 
