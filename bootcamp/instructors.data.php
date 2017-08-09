@@ -199,21 +199,6 @@ $instructors[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/beth-liebert-1a46076/'
 );
 
-// Taylor Palmer
-$instructors[] = array(
-	'slug' => 'taylorpalmer',
-	'first' => 'Taylor',
-	'last' => 'Palmer',
-	'title' => 'Senior UX Designer',
-	'company' => 'Lucid Software',
-	'discipline' => 'ux',
-	'photo' => 'frontpc18/instructor_taylorpalmer.jpg',
-	'bio' => "Taylor is a UX designer for Lucid Software by day and self-taught coder by night. When he has time, he curates uxtools.co and attempts to write interesting blogs. He's an Oreo purist (please, no double-stuff), he listens to weird music, and he recently became a dad.",
-	'twitter' => 'thpalmer75',
-	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/taylor-palmer-6264a171/'
-);
-
 // Jeff Carter
 $instructors[] = array(
 	'slug' => 'jeffcarter',
