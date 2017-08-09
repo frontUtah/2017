@@ -224,7 +224,7 @@ $instructors[] = array(
 	'discipline' => 'pm',
 	'photo' => 'frontpc18/instructor_natebarrett.jpg',
 	'bio' => "Nate is currently VP of Product and Design at Canopy. He’s been in product management and design for 20 years building B2C and B2B products for billion dollar enterprises and broke startups. He’s found his greatest happiness in product is watching product teams succeed in solving hard problems through trial, error and all out passion for easing customer’s pain. Nate enjoys traveling, food, cycling, golf and embarrassing his wife and kids.",
-	'twitter' => '',
+	'twitter' => 'ndbarrett',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/natebarrett'
 );
