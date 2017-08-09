@@ -229,4 +229,34 @@ $instructors[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/jeffcarterux'
 );
 
+// Nate Barrett
+$instructors[] = array(
+	'slug' => 'natebarrett',
+	'first' => 'Nate',
+	'last' => 'Barrett',
+	'title' => 'VP of Product and Design',
+	'company' => 'canopy',
+	'discipline' => 'pm',
+	'photo' => 'frontpc18/instructor_natebarrett.jpg',
+	'bio' => "Nate is currently VP of Product and Design at Canopy. He’s been in product management and design for 20 years building B2C and B2B products for billion dollar enterprises and broke startups. He’s found his greatest happiness in product is watching product teams succeed in solving hard problems through trial, error and all out passion for easing customer’s pain. Nate enjoys traveling, food, cycling, golf and embarrassing his wife and kids.",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/natebarrett'
+);
+
+// Taylor Palmer
+$instructors[] = array(
+	'slug' => 'taylorpalmer',
+	'first' => 'Taylor',
+	'last' => 'Palmer',
+	'title' => 'Senior UX Designer',
+	'company' => 'Lucid Software',
+	'discipline' => 'research',
+	'photo' => 'frontpc18/instructor_taylorpalmer.jpg',
+	'bio' => "Taylor is a UX designer for Lucid Software by day and self-taught coder by night. When he has time, he curates uxtools.co and attempts to write interesting blogs. He's an Oreo purist (please, no double-stuff), he listens to weird music, and he recently became a dad.",
+	'twitter' => 'thpalmer75',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/taylor-palmer-6264a171'
+);
+
 ?>

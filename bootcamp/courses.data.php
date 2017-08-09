@@ -77,6 +77,17 @@ $courses[] = array(
 	'level' => 'basics'
 );
 
+// Nate Barrett
+$courses[] = array(
+	'title' => 'Less talk more value. How to create products and experiences customers want',
+	'description' => "Our role as product builders is to create compelling products and experiences that customers will buy and love. It’s not a simple task. This workshop is for anyone that has been frustrated by endless meetings and  conversations and tanked product launches. It’s for those tired of disappointment with the failure of a good idea.</br></br>Come learn about ways to create a solid value proposition and vision for your product. Get closer to your customers and stop wasting time with wrong ideas that don’t solve the right problems.",
+	'track' => 'pm',
+	'day' => 2,
+	'slot' => 2,
+	'instructor' => 'natebarrett',
+	'level' => 'basics'
+);
+
 
 // RESEARCH
 
@@ -89,6 +100,17 @@ $courses[] = array(
 	'slot' => 1,
 	'instructor' => 'bethliebert',
 	'level' => 'advanced'
+);
+
+// Taylor Palmer
+$courses[] = array(
+	'title' => 'Usability Testing with Prototypes: Make Every Second Count',
+	'description' => "Building prototypes, scheduling interviews, and conducting research can be a big time commitment for a product team. The insights gained, however, are indispensable to a successful user experience. During this session, we’ll talk about how to get every last drop of value from your prototypes and usability tests, including: assembling scripts and prompts, creating successful prototypes, extracting user insights, and bringing knowledge back to the team.",
+	'track' => 'research',
+	'day' => 1,
+	'slot' => 2,
+	'instructor' => 'taylorpalmer',
+	'level' => 'intermediate'
 );
 
 
