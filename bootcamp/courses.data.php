@@ -113,6 +113,17 @@ $courses[] = array(
 	'level' => 'intermediate'
 );
 
+// Andrew Branch
+$courses[] = array(
+	'title' => 'Remote user research as a tool for product discovery',
+	'description' => "User research is fun. Driving, flying, biking or ubering to get to the user research? Less fun. Not to mention a huge time waster. As a firm believer in work-from-homing and the potential productivity boostage it can bring, and possessing an anthropological zeal for exploring my own inner introvert, I would like to share with you the skills, techniques, and tools necessary to make remote user testing as successful as in-person testing. In this workshop you can expect to take actual prototypes (either your own or examples provided) and work to plan, build, and perform both live and self-moderated (on-demand), remote, user testing campaigns. ",
+	'track' => 'research',
+	'day' => 2,
+	'slot' => 1,
+	'instructor' => 'andrewbranch',
+	'level' => 'basics'
+);
+
 
 // LEADERSHIP
 
@@ -158,6 +169,17 @@ $courses[] = array(
 	'slot' => 1,
 	'instructor' => 'mariahhay',
 	'level' => 'intermediate'
+);
+
+// Wade Shearer
+$courses[] = array(
+	'title' => 'Teaching your team to learn',
+	'description' => "Still basking in the glow of last month's Design Sprint? What has your team learned since? Are we not going to see you at church again until Easter? Did the process move the needle? What was the needle? A hypothesis is worthless without clear definition of desired outcomes. Ideation and validation must be the way your team works and learn every day. Discovery shouldn’t be a phase. In this workshop, you'll learn how to identify opportunities and deliver solutions that provide lasting value through continuous discovery and delivery.",
+	'track' => 'leadership',
+	'day' => 2,
+	'slot' => 2,
+	'instructor' => 'wadeshearer',
+	'level' => 'advanced'
 );
 
 
