@@ -127,8 +127,8 @@ $instructors[] = array(
 // Kyle Jacobsen & Josh Tola
 $instructors[] = array(
 	'slug' => 'kylejacobsen',
-	'first' => 'Kyle Jacobson & ',
-	'last' => 'Josh Tolman',
+	'first' => 'Kyle Jacobson & Josh Tolman',
+	'last' => '',
 	'title' => 'Director of Product, Team (Kyle)',
 	'company' => 'Sr. Product Manager, HireVue (Josh)',
 	'discipline' => 'pm',
