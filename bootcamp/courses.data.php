@@ -21,8 +21,8 @@ $courses[] = array(
 
 // Jonathan Shariot
 $courses[] = array(
-	'title' => 'Tragic Design',
-	'description' => "A guide to every day design ethics. Every day we make decisions about how our products will interact with other people. Its our responsibility to make sure these are choices that make the world better and not harm others.  These choices are called “Design Ethics”. In this workshop you will discover the ways our products can negatively impact others and how to implement better processes at your company to avoid harmful design.",
+	'title' => 'A guide to every day design ethics',
+	'description' => "Every day we make decisions about how our products will interact with other people. Its our responsibility to make sure these are choices that make the world better and not harm others.  These choices are called “Design Ethics”. In this workshop you will discover the ways our products can negatively impact others and how to implement better processes at your company to avoid harmful design.",
 	'track' => 'ux',
 	'day' => 1,
 	'slot' => 2,
@@ -38,33 +38,22 @@ $courses[] = array(
 	'day' => 1,
 	'slot' => 3,
 	'instructor' => 'jeffcarter',
-	'level' => 'intermediate'
+	'level' => 'advanced'
+);
+
+// Lauren Gray
+$courses[] = array(
+	'title' => 'On-boarding your user\'s into the core user group',
+	'description' => "As Product people, we design experiences and look at data to help make design decisions... But with so much data, how do we know what metrics to track and if users are using our product as we expect? How can we design experiences that onboard our users into a core user group? What are the right metrics to track? In this workshop we'll go over some best on-boarding practices and deep dive into on-boarding users into a core user group. We'll touch on retention metrics and how to separate users into groups to ensure our products drive the right engagements.",
+	'track' => 'ux',
+	'day' => 2,
+	'slot' => 1,
+	'instructor' => 'laurengray',
+	'level' => 'advanced'
 );
 
 
 // PRODUCT MANAGEMENT
-
-// John Cutler
-$courses[] = array(
-	'title' => 'Towards Meaningful (and Actionable) Alignment: A Map from Goals, Around Assumptions, Through Tasks, Towards Results',
-	'description' => "Building shared understanding is hard work. Ironically, it is our most passionate team members that complicate the challenge. They crave coherence, a powerful Why, and a flexible environment for solutioning.  How do we get everyone on the \"same page\" without glossing over the nuance, and stifling innovation?<br /><br />In this participatory workshop, you will learn how to collaboratively mind-map goals, the \"why\", constraints, experiments, and learning/success metrics with your team. The approach establishes a common, simple vocabulary that can be applied to any problem/solution space, and can scale up and down depending on the complexity of the challenge. Have your coffee. The activity will be hands on and requires mental dexterity!",
-	'track' => 'pm',
-	'day' => 1,
-	'slot' => 2,
-	'instructor' => 'johncutler',
-	'level' => 'intermediate'
-);
-
-// Kyle Jacobson
-$courses[] = array(
-	'title' => 'Design is nothing without proof: How metrics change that',
-	'description' => "We don’t know if our user experience is working unless we have something to prove it. Metrics are the way product teams demonstrate value and successful companies organize themselves around metrics&mdash;shouldn’t you?<br /><br />Metrics help us determine the how much invest in product. They keep us focused and aligned with company goals. Metrics make your product vision actionable and when used correctly your team will have more influence over the company as a whole.<br /><br />In this session we will identify which metrics we should watch/track and how we can organize ourselves so that we may focus on specific values which align to company goals. Lastly, we’ll discuss how an individual team can take those metric and execute.",
-	'track' => 'pm',
-	'day' => 1,
-	'slot' => 3,
-	'instructor' => 'kylejacobson',
-	'level' => 'intermediate'
-);
 
 // Virgilia Pruthi
 $courses[] = array(
@@ -77,6 +66,28 @@ $courses[] = array(
 	'level' => 'basics'
 );
 
+// John Cutler
+$courses[] = array(
+	'title' => 'Towards Meaningful (and Actionable) Alignment: A Map from Goals, Around Assumptions, Through Tasks, Towards Results',
+	'description' => "Building shared understanding is hard work. Ironically, it is our most passionate team members that complicate the challenge. They crave coherence, a powerful Why, and a flexible environment for solutioning.  How do we get everyone on the \"same page\" without glossing over the nuance, and stifling innovation?<br /><br />In this participatory workshop, you will learn how to collaboratively mind-map goals, the \"why\", constraints, experiments, and learning/success metrics with your team. The approach establishes a common, simple vocabulary that can be applied to any problem/solution space, and can scale up and down depending on the complexity of the challenge. Have your coffee. The activity will be hands on and requires mental dexterity!",
+	'track' => 'pm',
+	'day' => 1,
+	'slot' => 2,
+	'instructor' => 'johncutler',
+	'level' => 'basics'
+);
+
+// Kyle Jacobson & Josh Tolman
+$courses[] = array(
+	'title' => 'Design is nothing without proof: How metrics change that',
+	'description' => "We don’t know if our user experience is working unless we have something to prove it. Metrics are the way product teams demonstrate value and successful companies organize themselves around metrics&mdash;shouldn’t you?<br /><br />Metrics help us determine how much to invest in the product. They keep us focused and aligned with company goals. Metrics make your product vision actionable and when used correctly your team will have more influence over the company as a whole.<br /><br />In this session we will identify which metrics we should watch/track and how we can organize ourselves so that we may focus on specific values which align to company goals. Lastly, we’ll discuss how an individual team can take those metric and execute.",
+	'track' => 'pm',
+	'day' => 1,
+	'slot' => 3,
+	'instructor' => 'kylejacobsen',
+	'level' => 'advanced'
+);
+
 // Nate Barrett
 $courses[] = array(
 	'title' => 'Less talk more value. How to create products and experiences customers want',
@@ -85,22 +96,11 @@ $courses[] = array(
 	'day' => 2,
 	'slot' => 2,
 	'instructor' => 'natebarrett',
-	'level' => 'basics'
+	'level' => 'advanced'
 );
 
 
 // RESEARCH
-
-// Beth Liebert
-$courses[] = array(
-	'title' => 'How to Balance Quantitative vs Qualitative User Research',
-	'description' => "Creating the best product depends on solving real user needs, getting your team bought in, and rounding out the important details to complete the experience of your product.  But what kind of evidence is going to guide you in the right direction- a user study or a chart of key metrics?<br /><br />In this workshop we’ll get some hands-on practice with a spectrum of research techniques used at IDEO, Google, and Apple that you can apply throughout the development cycle, and explore ways to approach quantitative and qualitative user research that brings out the strengths in each methodology. How do you recruit the right people for a study, disseminate your inspiration to the rest of your team, and build in regular checkpoints to make sure you solve the most relevant problems right up to launch and beyond?  How can you use data to discover use cases and preferences that users can’t articulate?  And finally, how can you do it cheaply?  <br /><br />This workshop is a must for anyone looking for tactical ways to balance numbers with user stories, so you can be confident you’re leading your team down the right track.",
-	'track' => 'research',
-	'day' => 2,
-	'slot' => 2,
-	'instructor' => 'bethliebert',
-	'level' => 'advanced'
-);
 
 // Taylor Palmer
 $courses[] = array(
@@ -110,7 +110,18 @@ $courses[] = array(
 	'day' => 1,
 	'slot' => 2,
 	'instructor' => 'taylorpalmer',
-	'level' => 'intermediate'
+	'level' => 'basics'
+);
+
+// Amanda Smith
+$courses[] = array(
+	'title' => '',
+	'description' => "",
+	'track' => 'research',
+	'day' => 1,
+	'slot' => 3,
+	'instructor' => 'amandasmith',
+	'level' => 'advanced'
 );
 
 // Andrew Branch
@@ -122,6 +133,17 @@ $courses[] = array(
 	'slot' => 1,
 	'instructor' => 'andrewbranch',
 	'level' => 'basics'
+);
+
+// Beth Liebert
+$courses[] = array(
+	'title' => 'How to Balance Quantitative vs Qualitative User Research',
+	'description' => "Creating the best product depends on solving real user needs, getting your team bought in, and rounding out the important details to complete the experience of your product.  But what kind of evidence is going to guide you in the right direction- a user study or a chart of key metrics?<br /><br />In this workshop we’ll get some hands-on practice with a spectrum of research techniques used at IDEO, Google, and Apple that you can apply throughout the development cycle, and explore ways to approach quantitative and qualitative user research that brings out the strengths in each methodology. How do you recruit the right people for a study, disseminate your inspiration to the rest of your team, and build in regular checkpoints to make sure you solve the most relevant problems right up to launch and beyond?  How can you use data to discover use cases and preferences that users can’t articulate?  And finally, how can you do it cheaply?  <br /><br />This workshop is a must for anyone looking for tactical ways to balance numbers with user stories, so you can be confident you’re leading your team down the right track.",
+	'track' => 'research',
+	'day' => 2,
+	'slot' => 2,
+	'instructor' => 'bethliebert',
+	'level' => 'advanced'
 );
 
 
@@ -157,7 +179,7 @@ $courses[] = array(
 	'day' => 1,
 	'slot' => 3,
 	'instructor' => 'danlawyer',
-	'level' => 'intermediate'
+	'level' => 'basics'
 );
 
 // Mariah Hay
@@ -168,7 +190,7 @@ $courses[] = array(
 	'day' => 2,
 	'slot' => 1,
 	'instructor' => 'mariahhay',
-	'level' => 'intermediate'
+	'level' => 'advanced'
 );
 
 // Wade Shearer

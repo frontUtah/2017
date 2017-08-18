@@ -124,19 +124,19 @@ $instructors[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/wadeshearer'
 );
 
-// Kyle Jacobson
+// Kyle Jacobsen & Josh Tola
 $instructors[] = array(
-	'slug' => 'kylejacobson',
-	'first' => 'Kyle',
-	'last' => 'Jacobson',
-	'title' => 'Director of Product',
-	'company' => 'Teem',
+	'slug' => 'kylejacobsen',
+	'first' => 'Kyle Jacobson & ',
+	'last' => 'Josh Tolman',
+	'title' => 'Director of Product, Team (Kyle)',
+	'company' => 'Sr. Product Manager, HireVue (Josh)',
 	'discipline' => 'pm',
 	'photo' => 'frontpc18/instructor_kylejacobson.jpg',
-	'bio' => 'Kyle’s kids believe he was once a swashbuckling pirate and that he wrestled Alaskan brown bears. Truth is he was never a pirate but he loves spending time wrestling designers and engineers to build product. Kyle has been building B2B enterprise software for over a decade and is currently leading the product group at Teem.',
-	'twitter' => '',
+	'bio' => 'Josh and Kyle have been building enterprise SaaS since the dinosaurs roamed the earth.  Both have been working to make metrics a focus in the daily lives of product teams and together they host the We Need Another Meeting! podcast focused on product management and user experience. For over a decade, Kyle and Josh have both been working with B2B startups helping them enterprise their product experience. Kyle is currently leading the product group at Teem while Josh is irritating everyone at Hirevue.',
+	'twitter' => 'wenampodcast',
 	'instagram' => '',
-	'linkedin' => ''
+	'linkedin' => 'https://www.linkedin.com/in/kylejacobsen/'
 );
 
 // Dan Lawyer
@@ -242,6 +242,36 @@ $instructors[] = array(
 	'twitter' => 'thpalmer75',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/taylor-palmer-6264a171'
+);
+
+// Lauren Gray
+$instructors[] = array(
+	'slug' => 'laurengray',
+	'first' => 'Lauren',
+	'last' => 'Gray',
+	'title' => 'Product Manager',
+	'company' => 'Experticity',
+	'discipline' => 'ux',
+	'photo' => 'frontpc18/instructor_laurengray.jpg',
+	'bio' => "",
+	'twitter' => 'laurengray',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/laurenagray'
+);
+
+// Amanda Smith
+$instructors[] = array(
+	'slug' => 'amandasmith',
+	'first' => 'Amanda',
+	'last' => 'Smith',
+	'title' => 'UX Director',
+	'company' => 'AMC Health',
+	'discipline' => 'research',
+	'photo' => 'frontpc18/instructor_amandasmith.jpg',
+	'bio' => "Life is an experience and through all my experiences beginning in medical school, then design school and on into my career in UX, I finally found my purpose and place. Being able to listen, observe, gain understanding, and empathy for people takes time. There are so many challenges in this world that can be easily solved just by identifying with a person, and with ourselves. Whether the solution is small or great, to create memorable experiences is to create something that will have an impact on peoples lives and the world they live in everyday. My purpose and pursuit in this field is to create solutions and experiences that make a difference in peoples lives. Driven by curiosity, executed through creativity, and held together by collaboration. I am drawn towards meaningful and impactful design-thinking and strategies that work to solve problems and create change. My favorite place is in the space of ambiguity where exploring with my eyes wide open allows me to uncover any and all possibilities.",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/amanda-andi-smith-b13a6230'
 );
 
 ?>
