@@ -102,6 +102,17 @@ $courses[] = array(
 
 // RESEARCH
 
+// Jay Fichialos
+$courses[] = array(
+	'title' => 'Dreams, Rats and Stars: A hands on experience in the product discovery journey',
+	'description' => "What's the difference between meeting expectations and exceeding them? When does vision get in the way of learning what your customers really want. And how do you know what feedback to act on now and what to ignore. Ready to get your hands dirty? Let's dive head long into research tools and techniques that will help you deliver customer delight and business success.",
+	'track' => 'research',
+	'day' => 1,
+	'slot' => 1,
+	'instructor' => 'jayfichialos',
+	'level' => 'basics'
+);
+
 // Taylor Palmer
 $courses[] = array(
 	'title' => 'Usability Testing with Prototypes: Make Every Second Count',

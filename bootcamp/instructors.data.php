@@ -16,7 +16,7 @@ $instructors[] = array(
 	'bio' => 'Jay Fichialos leads the Asurion Design Group, a team tasked with defining the future of insurance and warranty services. He’s passionate about the psychology of Design and builds organizations that are known for using Design Thinking to innovate and inspire change. Prior to joining Asurion he helped build User Experience organizations at Alliance Health, Ancestry and Travelocity.',
 	'twitter' => '',
 	'instagram' => '',
-	'linkedin' => ''
+	'linkedin' => 'https://www.linkedin.com/in/benjamin-jay-fichialos-8a41022/'
 );
 
 // Jonathan Shariot
@@ -31,7 +31,7 @@ $instructors[] = array(
 	'bio' => "Jonathan is currently Sr. Interaction Designer at Intuit. He is passionate about people and wants designers to think more about design ethics. He is co-author of Tragic Design (O'Reilly) which explores the harm bad design can cause and what we can do to prevent ourselves from doing the same. He also loves teaching what he is learning. He co-hosts the Design Review podcast and shares his thoughts as @DesignUXUI on twitter.",
 	'twitter' => '',
 	'instagram' => '',
-	'linkedin' => ''
+	'linkedin' => 'https://www.linkedin.com/in/jonathanshariat/'
 );
 
 // Mariah Hay
@@ -46,7 +46,7 @@ $instructors[] = array(
 	'bio' => 'Mariah Hay is the VP of Product at Pluralsight, an online subscription based education provider for the technology community. As a thought leader in human-centered design and user experience strategy, Mariah enjoys working with teams whose goal is to craft excellence for the end user. Her experience with industrial and interaction design teams serving high-level stakeholders reflects her personal goals of directing business through design excellence from the ground up. Her expertise in implementing human-centered design product practices at the enterprise level stems from over a decade of tenure in the industry including serving as Professor of Design Management at Savannah College of Art and Design, Directing UX for Universal Mind, and serving as Director of User Experience AMC Health. Mariah holds an MFA in Industrial Design from Savannah College of Art and Design.',
 	'twitter' => '',
 	'instagram' => '',
-	'linkedin' => ''
+	'linkedin' => 'https://www.linkedin.com/in/mariahhay/'
 );
 
 // Andrew Branch
