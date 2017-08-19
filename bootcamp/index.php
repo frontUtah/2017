@@ -87,8 +87,8 @@ foreach($instructors as $instructor) {
 					<dl>
 						<dt>UX</dt>
 						<dd class="advanced">Advanced</dd>
-						<dd class="intermediate">Intermediate</dd>
-						<dd class="basic">Basic</dd>
+						<dd class="intermediate">Basics</dd>
+						<!-- dd class="basic">Basic</dd -->
 					</dl>
 					<p>
 						<a href="/bootcamp/courses/ux" class="button">View Courses</a>
@@ -98,8 +98,8 @@ foreach($instructors as $instructor) {
 					<dl>
 						<dt>Product Management</dt>
 						<dd class="advanced">Advanced</dd>
-						<dd class="intermediate">Intermediate</dd>
-						<dd class="basic">Basic</dd>
+						<dd class="intermediate">Basics</dd>
+						<!-- dd class="basic">Basic</dd -->
 					</dl>
 					<p>
 						<a href="/bootcamp/courses/pm" class="button">View Courses</a>
@@ -109,8 +109,8 @@ foreach($instructors as $instructor) {
 					<dl>
 						<dt>Research</dt>
 						<dd class="advanced">Advanced</dd>
-						<dd class="intermediate">Intermediate</dd>
-						<dd class="basic">Basic</dd>
+						<dd class="intermediate">Basics</dd>
+						<!-- dd class="basic">Basic</dd -->
 					</dl>
 					<p>
 						<a href="/bootcamp/courses/research" class="button">View Courses</a>
@@ -120,8 +120,8 @@ foreach($instructors as $instructor) {
 					<dl>
 						<dt>Leadership</dt>
 						<dd class="advanced">Advanced</dd>
-						<dd class="intermediate">Intermediate</dd>
-						<dd class="basic">Basic</dd>
+						<dd class="intermediate">Basics</dd>
+						<!-- dd class="basic">Basic</dd -->
 					</dl>
 					<p>
 						<a href="/bootcamp/courses/leadership" class="button">View Courses</a>
