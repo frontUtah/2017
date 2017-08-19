@@ -43,7 +43,7 @@ $courses[] = array(
 
 // Lauren Gray
 $courses[] = array(
-	'title' => 'On-boarding your user\'s into the core user group',
+	'title' => 'On-boarding your users into the core user group',
 	'description' => "As Product people, we design experiences and look at data to help make design decisions... But with so much data, how do we know what metrics to track and if users are using our product as we expect? How can we design experiences that onboard our users into a core user group? What are the right metrics to track? In this workshop we'll go over some best on-boarding practices and deep dive into on-boarding users into a core user group. We'll touch on retention metrics and how to separate users into groups to ensure our products drive the right engagements.",
 	'track' => 'ux',
 	'day' => 2,
