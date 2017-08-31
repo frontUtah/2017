@@ -75,6 +75,15 @@ foreach($sorted_global_nav as $key => $nav) {
 
 switch($uri_parts[0]) {
 	case 'conference':
+
+		$conference_nav[] = array('link' => 'talks', 'text' => 'Talks', 'class' => '');
+		$conference_nav[] = array('link' => 'schedule', 'text' => 'Schedule', 'class' => '');
+		$conference_nav[] = array('link' => 'speakers', 'text' => 'Speakers', 'class' => '');
+		$conference_nav[] = array('link' => 'venue', 'text' => 'Venue', 'class' => '');
+		$conference_nav[] = array('link' => 'faqs', 'text' => 'FAQs', 'class' => '');
+		$conference_nav[] = array('link' => 'whyattend', 'text' => 'Why attend', 'class' => '');
+		$conference_nav[] = array('link' => 'registration', 'text' => 'Register', 'class' => 'button');
+
 		echo '
 			<header class="section-header">
 				<nav class="section-nav">
@@ -82,8 +91,22 @@ switch($uri_parts[0]) {
 						<h3 class="logo">Front</h3>
 						<button class="menu-toggle"></button>
 					</div>
+					<ul>';
+
+		foreach($conference_nav as $conference_navitem) {
+			echo '<li><a href="/conference/' . $conference_navitem['link'] . '" class="' . $conference_navitem['class'];
+
+			if($uri_parts[1] == $conference_navitem['link']) {
+				echo ' selected';
+			}
+
+			echo '">' . $conference_navitem['text'] . '</a></li>';
+		}
+
+		echo '
+					</ul>
 				</nav>
-			</header>';	
+			</header>';
 		break;
 	case 'bootcamp';
 
@@ -104,14 +127,14 @@ switch($uri_parts[0]) {
 					</div>
 					<ul>';
 
-		foreach($bootcamp_nav as $navitem) {
-			echo '<li><a href="/bootcamp/' . $navitem['link'] . '" class="' . $navitem['class'];
+		foreach($bootcamp_nav as $bootcamp_navitem) {
+			echo '<li><a href="/bootcamp/' . $bootcamp_navitem['link'] . '" class="' . $bootcamp_navitem['class'];
 
-			if($uri_parts[1] == $navitem['link']) {
+			if($uri_parts[1] == $bootcamp_navitem['link']) {
 				echo ' selected';
 			}
 
-			echo '">' . $navitem['text'] . '</a></li>';
+			echo '">' . $bootcamp_navitem['text'] . '</a></li>';
 		}
 
 		echo '

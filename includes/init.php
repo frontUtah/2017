@@ -11,7 +11,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php');
 switch($uri_parts[0]) {
 	case 'conference':
 		require($_SERVER['DOCUMENT_ROOT'] . '/conference/speakers.data.php');
-		require($_SERVER['DOCUMENT_ROOT'] . '/conference/sessions.data.php');
+		require($_SERVER['DOCUMENT_ROOT'] . '/conference/talks.data.php');
 		break;
 	case 'bootcamp';
 		require($_SERVER['DOCUMENT_ROOT'] . '/bootcamp/instructors.data.php');
