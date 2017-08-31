@@ -274,4 +274,19 @@ $instructors[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/amanda-andi-smith-b13a6230'
 );
 
+// Chad Henriech
+$instructors[] = array(
+	'slug' => 'chadhenriech',
+	'first' => 'Chad',
+	'last' => 'Henriech',
+	'title' => 'Vice President of User Experience',
+	'company' => 'Domo',
+	'discipline' => 'ux',
+	'photo' => 'frontpc18/instructor_chadhenriech.jpg',
+	'bio' => "",
+	'twitter' => 'chadheinrich',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/chadheinrich/'
+);
+
 ?>

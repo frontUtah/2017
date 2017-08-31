@@ -52,6 +52,17 @@ $courses[] = array(
 	'level' => 'advanced'
 );
 
+// Chad Henriech
+$courses[] = array(
+	'title' => 'Designing for growth, virality',
+	'description' => "Creating a wildly successful, viral app is seemingly the holy grail of software design. Without a doubt it’s a challenging quest, but upon closer examination, today’s fastest growing apps share common patterns that stack the odds of success in their favor.  </br></br>This workshop will offer a primer the core fundamentals of viral apps, including how to design viral feedback loops, and how to optimize them for greater likelihood of getting traction.</br></br>Participants will walk away with a sound understanding of how to design for product growth and engagement. We’ll learn how to manage growth expectations, structure your team for success, and how to measure it all. We’ll cover tips and tricks to become that design hero that gives your company the best chance at hockey stick product growth.</br></br>Workshop benefits include:<ul><li>How to bring customers to value faster</li><li>Finding the right ways to grow your user base organically</li><li>Measuring the right key indicators</li><li>Learning design hacks to drive participation, sharing, engagement</li><li>Reviewing examples of app design that are conducive to virality (and examples that aren’t)</li></ul>",
+	'track' => 'ux',
+	'day' => 2,
+	'slot' => 2,
+	'instructor' => 'chadhenriech',
+	'level' => 'advanced'
+);
+
 
 // PRODUCT MANAGEMENT
 
