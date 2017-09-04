@@ -17,21 +17,21 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					care of you. Details are helpful though, so we’ve pulled together the 
 					following information to help you be informed and ready. Here are answers 
 					to our most frequently asked questions, so you can have the smoothest 
-					Front Park City experience possible.</p>
+					Front Salt Lake City experience possible.</p>
 				<ul class="faq-categories">
 					<li class="faq-category">
 						<h3>Registration information</h3>
 						<dl class="accordion">
 							<dt class="accordion-title question">What are the ticket pricing details?</dt>
-							<dd class="accordion-content answer">Front Park City full bootcamp passes are $1,099 (25% off) until 31 October 2017. Standard price Front Park City full bootcamp passes are $1,499. This includes all meals, courses, activities, and transportation between the venue and the hotel.</br></br>Full bootcamp passes that also include two day lift passes to Park City Mountain Resort may be purchased for an additional $300.</dd>
+							<dd class="accordion-content answer">Front Salt Lake City full conference passes are $500 (30% off) until 31 October 2017. Standard price Front Salt Lake City Full Conference passes are $700. This includes all meals, courses, and activities.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Do you offer group pricing?</dt>
-							<dd class="accordion-content answer">We offer group discounts for teams. We want you to come learn and practice together. You will need to register all attendees at the same time to receive the discount. Teams of 3-5 will receive 10% off. Teams of 6-7 will receive 15% off. Teams of 8 or more will receive 20% off.</dd>
+							<dd class="accordion-content answer">We offer group discounts for teams. We want you to come learn and practice together. You will need to register all attendees at the same time to receive the discount. Teams of 5-10 will receive 5% off. Teams of 10 or more will receive 10% off.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Who should attend Front?</dt>
-							<dd class="accordion-content answer">Front Park City is designed for product teams. While focused specifically on UX, product management, research, and leadership, anyone involved in product discovery, delivery, is encouraged to attend and will leave with a wealth of insights and skills. The courses cover the range between basic and advanced topics, providing valuable training to both students and seasoned professionals.</dd>
+							<dd class="accordion-content answer">Front Salt Lake City is designed for product teams. While focused specifically on UX, product management, research, and leadership, anyone involved in product discovery, delivery, is encouraged to attend and will leave with a wealth of insights. The talks cover the range between basic and advanced topics, providing valuable inspiration and fresh ideas to both students and seasoned professionals.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">What is the conference cancellation policy?</dt>
@@ -47,13 +47,15 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Where do I pick up my registration badge?</dt>
-							<dd class="accordion-content answer">You can pick-up your badge at the Front Park City Registration Counter, located inside the Quinney Welcome Center Lobby on Thursday, 4 Jan 2018, between 7:30 - 8:30 AM.</dd>
+							<dd class="accordion-content answer">You can pick-up your badge at the Front Salt Lake City Registration Counter, located on the lower level of the Eccles Theater Grand Lobby on Thursday, 31 May 2018, between 7:30 - 9:00 AM.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Is there an age requirement for the event?</dt>
 							<dd class="accordion-content answer">Attendees must be 21 years or older.</dd>
 						</dl>
 					</li>
+					
+					<!--
 					<li class="faq-category">
 						<h3>Hotel and Transportation</h3>
 						<dl class="accordion">
@@ -81,46 +83,17 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<dd class="accordion-content answer">Yes, there is ample free parking at the DoubleTree Hilton.</dd>
 						</dl>
 					</li>
-					<li class="faq-category">
-						<h3>Skiing</h3>
-						<dl class="accordion">
-							<dt class="accordion-title question">When and where is the skiing?</dt>
-							<dd class="accordion-content answer">Full bootcamp passes that also include two day lift passes to Park City Mountain Resort provide unlimited access to Park City Mountain Resort any two days between 2-8 January 2018.</dd>
-						</dl>
-						<dl class="accordion">
-							<dt class="accordion-title question">Will transportation be provided for skiing?</dt>
-							<dd class="accordion-content answer">Park City provides a <a href="http://parkcity.org/departments/transit-bus/routes-schedules">free bus service</a> around town, including stops along Main Street, the hotel, and Park City Mountain Resort.</dd>
-						</dl>
-						<dl class="accordion">
-							<dt class="accordion-title question">If I don’t purchase the combination ski ticket, can I still get a discounted lift pass?</dt>
-							<dd class="accordion-content answer">No, discount lift passes will only be available when purchased in combination with a full bootcamp ticket.</dd>
-						</dl>
-						<dl class="accordion">
-							<dt class="accordion-title question">Is ski rental included?</dt>
-							<dd class="accordion-content answer">No, but we have arranged a discount of 30% off ski and snowboard rentals through <a href="http://www.skirentals.com/front">Breeze Rentals</a>, when purchased online. Their shop is located within Park City Mountain Resort.</dd>
-						</dl>
-						<dl class="accordion">
-							<dt class="accordion-title question">When can I pick up my ski pass?</dt>
-							<dd class="accordion-content answer">You can pick up your ski pass with your badge at the Front Park City Registration Counter, located inside the Quinney Welcome Center Lobby on Thursday, 4 Jan 2018, between 7:30 - 8:30 AM.</dd>
-						</dl>
-						<dl class="accordion">
-							<dt class="accordion-title question">Can I rent skis at Park City Mountain Resort?</dt>
-							<dd class="accordion-content answer">Yes, we have arranged a discount of 30% off ski and snowboard rentals through <a href="http://www.skirentals.com/front">Breeze Rentals</a>, when purchased online. Their shop is located within Park City Mountain Resort.</dd>
-						</dl>
-						<dl class="accordion">
-							<dt class="accordion-title question">Are meals provided during skiing after the conference?</dt>
-							<dd class="accordion-content answer">No, meals are not provided during skiing after the conference.</dd>
-						</dl>
-					</li>
+					-->
+					
 					<li class="faq-category">
 						<h3>Additional conference information</h3>
 						<dl class="accordion">
-							<dt class="accordion-title question">Where do I found out who is teaching?</dt>
-							<dd class="accordion-content answer">Information about who is teaching courses and Front Park City can be found at <a href="/bootcamp/instructors">www.frontutah.com/bootcamp/instructors</a>. To find out when individual instructors will be teaching, visit the courses page at www.frontutah.com/parkcity/courses.</dd>
+							<dt class="accordion-title question">Where do I found out who is speaking?</dt>
+							<dd class="accordion-content answer">Information about who is teaching courses and Front Salt Lake City can be found at <a href="/conference/speakers">www.frontutah.com/conference/speakers</a>. To find out when individual speakers will be speaking, visit the talks page at www.frontutah.com/conference/tals.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">What is the schedule?</dt>
-							<dd class="accordion-content answer">You can find the full bootcamp schedule at <a href="/bootcamp/schedule">www.frontutah.com/bootcamp/schedule</a>.</dd>
+							<dd class="accordion-content answer">You can find the Full Conference schedule at <a href="/conference/schedule">www.frontutah.com/conference/schedule</a>.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">What is the conference attire?</dt>
@@ -132,7 +105,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Are meals included in the cost of registration?</dt>
-							<dd class="accordion-content answer">A Full Bootcamp Pass covers your breakfast, lunch, and break time snacks.</dd>
+							<dd class="accordion-content answer">A Full Conference Pass covers your breakfast and break time snacks. Lunch is not provided.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Are specialty dietary requirements accommodated with the meals at the event?</dt>
@@ -140,11 +113,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Is there parking at or near the conference?</dt>
-							<dd class="accordion-content answer">Yes, there is ample free parking at the Utah Olympic Park.</dd>
+							<dd class="accordion-content answer">Yes, there is ample free parking in the Regent Street Garage behind theater to the East and at the City Creek Center across the street to the North.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">What’s the best way to get to the conference from the Airport.</dt>
-							<dd class="accordion-content answer">The best option is one of the many shuttles. You can also rent a car or request an Uber.</dd>
+							<dd class="accordion-content answer">The best option is the TRAX Light Rail system. The Green Line (704) drops you off one block North of the venue (City Center Station) in 25 minutes.</dd>
 						</dl>
 					</li>
 					<li class="faq-category">
@@ -155,29 +128,29 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">How do I become a Front volunteer?</dt>
-							<dd class="accordion-content answer">To learn more about volunteer opportunities at Front Park City, please contact Andrew Branch at andrew@frontutah.com or (801) 885-9206.</dd>
+							<dd class="accordion-content answer">To learn more about volunteer opportunities at Front Salt Lake City, please contact Andrew Branch at andrew@frontutah.com or (801) 885-9206.</dd>
 						</dl>
 					</li>
 					<li class="faq-category">
-						<h3>Park City weather and attractions</h3>
+						<h3>Salt Lake City weather and attractions</h3>
 						<dl class="accordion">
-							<dt class="accordion-title question">What is the weather like in park City in January?</dt>
-							<dd class="accordion-content answer">January in Park City is beautiful, but cold. The average high temperature is 36° F and it’s usually snowing (19” inches on average). We recommend packing layers and checking www.weather.com before you arrive.</dd>
+							<dt class="accordion-title question">What is the weather like in Salt Lake City at the end May?</dt>
+							<dd class="accordion-content answer">Salt Lake City enjoys plenty of warm weather weather during May. This is one of the rainier months of the year here, but with the dry climate, the amount of rainfall is minimal. In most years, the average daily maximum temperature in May is between 68 and 76 degrees Fahrenheit (20 to 24 degrees Celsius). The minimum temperature usually falls between 45 and 50 °F (7 to 10 °C).</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">What are the local restaurants, attractions, and entertainment in and around the event?</dt>
-							<dd class="accordion-content answer">The Utah Olympic Park sits alone, up on the mountain above Kimball Junction. It is an 11 minute drive to Historic Main Street. Park City has some great destinations for food and fun, especially along Historic Main Street. While the options are too great to list here, we suggest finding more information the city’s official visitors’ website: <a href="https://www.visitparkcity.com">www.visitparkcity.com</a>.</dd>
+							<dd class="accordion-content answer">The Eccles Theater is right in the middle of downtown Salt Lake City. There's a wealth of great destinations for food and fun, especially along Main Street. While the options are too great to list here, we suggest finding more information the city’s official visitors’ website: <a href="https://www.visitsaltlake.com">www.visitsaltlake.com</a>.</dd>
 						</dl>
 						<dl class="accordion">
-							<dt class="accordion-title question">What is the best way to get around Park City?</dt>
-							<dd class="accordion-content answer">A free shuttle will be provided between the venue and the hotel before and after the bootcamp each day. Park City also provide a <a href="http://parkcity.org/departments/transit-bus/routes-schedules">free bus service</a> around town, including several stops along and around Main Street.</dd>
+							<dt class="accordion-title question">What is the best way to get around Salt City?</dt>
+							<dd class="accordion-content answer">The Salt Lake City <a href="http://www.rideuta.com/mc/?page=UTA-Home-TRAX">TRAX light-rail system</a> is the most convenient option for getting around Salt Lake City and is <a href="https://www.rideuta.com/Fares-And-Passes/Free-Fare-Zone">free within the downtown area</a>.</dd>
 						</dl>
 					</li>
 				</ul>
 		</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
-			<p>Reserve your seat now for the premier UX and Product Management training experience. Design your custom training program now. Whether you’re a beginner or seasoned professional, the Front Park City workshop series will take you and your team to the next level in product design and management.</p>
+			<p>Reserve your seat now for the premier UX and Product Management training experience. Design your custom training program now. Whether you’re a beginner or seasoned professional, the Front Salt Lake City workshop series will take you and your team to the next level in product design and management.</p>
 			<p><a href="/bootcamp/registration" class="button">Register</a></p>
 		</section>
 	</main>
