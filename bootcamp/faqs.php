@@ -116,7 +116,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<h3>Additional conference information</h3>
 						<dl class="accordion">
 							<dt class="accordion-title question">Where do I found out who is teaching?</dt>
-							<dd class="accordion-content answer">Information about who is teaching courses and Front Park City can be found at <a href="/bootcamp/instructors">www.frontutah.com/bootcamp/instructors</a>. To find out when individual instructors will be teaching, visit the courses page at www.frontutah.com/parkcity/courses.</dd>
+							<dd class="accordion-content answer">Information about who is teaching courses and Front Park City can be found at <a href="/bootcamp/instructors">www.frontutah.com/bootcamp/instructors</a>. To find out when individual instructors will be teaching, visit the courses page at www.frontutah.com/bootcamp/courses.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">What is the schedule?</dt>
@@ -161,7 +161,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li class="faq-category">
 						<h3>Park City weather and attractions</h3>
 						<dl class="accordion">
-							<dt class="accordion-title question">What is the weather like in park City in January?</dt>
+							<dt class="accordion-title question">What is the weather like in Park City in January?</dt>
 							<dd class="accordion-content answer">January in Park City is beautiful, but cold. The average high temperature is 36° F and it’s usually snowing (19” inches on average). We recommend packing layers and checking www.weather.com before you arrive.</dd>
 						</dl>
 						<dl class="accordion">
