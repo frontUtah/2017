@@ -76,9 +76,9 @@ foreach($sorted_global_nav as $key => $nav) {
 switch($uri_parts[0]) {
 	case 'conference':
 
-		$conference_nav[] = array('link' => 'talks', 'text' => 'Talks', 'class' => '');
+		//$conference_nav[] = array('link' => 'talks', 'text' => 'Talks', 'class' => '');
 		$conference_nav[] = array('link' => 'schedule', 'text' => 'Schedule', 'class' => '');
-		$conference_nav[] = array('link' => 'speakers', 'text' => 'Speakers', 'class' => '');
+		//$conference_nav[] = array('link' => 'speakers', 'text' => 'Speakers', 'class' => '');
 		$conference_nav[] = array('link' => 'venue', 'text' => 'Venue', 'class' => '');
 		$conference_nav[] = array('link' => 'faqs', 'text' => 'FAQs', 'class' => '');
 		$conference_nav[] = array('link' => 'whyattend', 'text' => 'Why attend', 'class' => '');
