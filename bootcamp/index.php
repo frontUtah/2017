@@ -81,7 +81,7 @@ foreach($instructors as $instructor) {
 		</section>
 		<section class="training-courses">
 			<h2>Design your perfect training program</h2>
-			<p>We’ve assembled a diverse group of instructors which have prepared a wide range of basic, intermediate, and advanced courses on user experience design, product management, research, and leadership. Design your custom training program, selecting from this broad curriculum of twenty-four different courses.</p>
+			<p>We’ve assembled a diverse group of instructors which have prepared a wide range of basic and advanced courses on user experience design, product management, research, and leadership. Design your custom training program, selecting from this broad curriculum of twenty different courses.</p>
 			<ul class="course-groups">
 				<li class="course-group ux">
 					<dl>

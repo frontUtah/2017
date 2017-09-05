@@ -59,7 +59,7 @@ $courses[] = array(
 	'track' => 'ux',
 	'day' => 2,
 	'slot' => 2,
-	'instructor' => 'chadhenriech',
+	'instructor' => 'chadheinrich',
 	'level' => 'advanced'
 );
 
@@ -97,6 +97,17 @@ $courses[] = array(
 	'slot' => 3,
 	'instructor' => 'kylejacobsen',
 	'level' => 'advanced'
+);
+
+// Stacia Lott
+$courses[] = array(
+	'title' => 'Product Zen:  Finding the perfect balance between business and customer needs',
+	'description' => "You already know how to build the right product for the customer, but sometimes customer needs don’t seem to translate into the business agenda.  With careful analysis and alignment, you _can_ achieve “product zen” - building the right product for both.</br>In this workshop you will learn to identify core pains of the business and reconcile those with the core pains of your users.  You’ll learn about what questions to ask, tools to calculate product value, and tips to persuade your business stakeholders.",
+	'track' => 'pm',
+	'day' => 2,
+	'slot' => 1,
+	'instructor' => 'stacialott',
+	'level' => 'basics'
 );
 
 // Nate Barrett
