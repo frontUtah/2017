@@ -274,19 +274,34 @@ $instructors[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/amanda-andi-smith-b13a6230'
 );
 
-// Chad Henriech
+// Chad Heinrich
 $instructors[] = array(
-	'slug' => 'chadhenriech',
+	'slug' => 'chadheinrich',
 	'first' => 'Chad',
-	'last' => 'Henriech',
+	'last' => 'Heinrich',
 	'title' => 'Vice President of User Experience',
 	'company' => 'Domo',
 	'discipline' => 'ux',
-	'photo' => 'frontpc18/instructor_chadhenriech.jpg',
-	'bio' => "",
+	'photo' => 'frontpc18/instructor_chadheinrich.jpg',
+	'bio' => "Chad is Vice President of User Experience at Domo, the leader in enterprise business intelligence. Domo optimizes your business by connecting you to the data, people, and expertise you need to improve business results. Chad also currently serves as a mentor at Acceleprise, an extensive network of the best companies, mentors, and investors San Francisco has to offer.</br></br>Prior, Chad served as a product strategy consultant and startup advisor for HeiTech, Global Online Director for BitDefender, Customer Growth leader at Dropbox, and VP of Online Marketing for Box.</br></br>Chad earned a Bachelors of Arts from Brigham Young University, with an emphasis on International Relations and Affairs. He is also a co-organizer and presenter at monthly meetups with the San Francisco Freemium Meetup group where he has coordinated events with Atlassian, Splunk, SurveyMonkey, Yousendit, Prezi, Dell, Mozilla, PayPal, Couchbase, Podio.",
 	'twitter' => 'chadheinrich',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/chadheinrich/'
+);
+
+// Stacia Lott
+$instructors[] = array(
+	'slug' => 'stacialott',
+	'first' => 'Stacia',
+	'last' => 'Lott',
+	'title' => 'Product Manager',
+	'company' => 'Owlet Baby Care',
+	'discipline' => 'pm',
+	'photo' => 'frontpc18/instructor_stacialott.jpg',
+	'bio' => "Stacia is a Product Manager at Owlet Baby Care, where she works alongside a team of passionate parents to bring themselves—and other parents around the globe—peace of mind and assurance by developing a monitor that tracks a baby's breathing and heart rate. Using pulse oximetry (the same technology used in hospitals), the Owlet Smart Sock is designed to send alerts to the Base Station and via Wi-Fi to a smartphone, if a baby were to stop breathing while sleeping.</br></br>Previously, Stacia served as Product Manager at Pluralsight, Adobe, Omniture, and Altiris/Symantec. She earned a degreed in Computer Science and Communication from Utah Valley University. She's mother to three children and holds the unique honor of being a finalist on the Bachelor.",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/stacialott/'
 );
 
 ?>
