@@ -43,16 +43,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot two-hours">
 						<dl>
-							<dt class="time">9:50 AM</dt>
-							<dd class="ux">
-								<h4>Case Study Talk</h4>
-								<p>TBD</p>
-							</dd>
-						</dl>
-					</li>
-					<li class="timeslot two-hours">
-						<dl>
-							<dt class="time">10:30 AM</dt>
+							<dt class="time">9:40 AM</dt>
 							<dd class="ux">
 								<h4>Case Study Talk</h4>
 								<p>TBD</p>
@@ -61,7 +52,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot one-hour">
 						<dl>
-							<dt class="time">11:10 AM</dt>
+							<dt class="time">10:10 AM</dt>
 							<dd class="food">
 								<p>Break (drinks and snacks provided)</p>
 							</dd>
@@ -69,7 +60,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot two-hours">
 						<dl>
-							<dt class="time">11:50 AM</dt>
+							<dt class="time">10:50 AM</dt>
 							<dd class="ux">
 								<h4>Case Study Talk</h4>
 								<p>TBD</p>
@@ -78,16 +69,16 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot two-hours">
 						<dl>
-							<dt class="time">12:30 PM</dt>
+							<dt class="time">11:20 AM</dt>
 							<dd class="ux">
-								<h4>Q&A panel with morning speakers</h4>
+								<h4>Case Study Talk</h4>
 								<p>TBD</p>
 							</dd>
 						</dl>
 					</li>
 					<li class="timeslot one-hour">
 						<dl>
-							<dt class="time">1:00 PM</dt>
+							<dt class="time">11:50 AM</dt>
 							<dd class="food">
 								<p>Lunch break</p>
 							</dd>
@@ -95,10 +86,27 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot two-hours">
 						<dl>
-							<dt class="time">2:30 PM</dt>
+							<dt class="time">1:30 PM</dt>
+							<dd class="ux">
+								<h4>Q&A panel with morning speakers</h4>
+								<p>TBD</p>
+							</dd>
+						</dl>
+					</li>
+					<li class="timeslot two-hours">
+						<dl>
+							<dt class="time">2:00 PM</dt>
 							<dd class="ux">
 								<h4>Case Study Team Talk</h4>
 								<p>TBD</p>
+							</dd>
+						</dl>
+					</li>
+					<li class="timeslot one-hour">
+						<dl>
+							<dt class="time">2:30 AM</dt>
+							<dd class="food">
+								<p>Break (drinks and snacks provided)</p>
 							</dd>
 						</dl>
 					</li>
@@ -122,7 +130,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot one-hour">
 						<dl>
-							<dt class="time">9:00 AM</dt>
+							<dt class="time">4:20 AM</dt>
 							<dd class="food">
 								<p>Day 1 wrap-up</p>
 							</dd>
@@ -137,7 +145,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">7:30 AM</dt>
 							<dd class="food">
-								<p>Hot Breakfast</p>
+								<p>Hot Breakfast and Registration</p>
 							</dd>
 						</dl>
 					</li>
@@ -160,16 +168,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot two-hours">
 						<dl>
-							<dt class="time">9:50 AM</dt>
-							<dd class="ux">
-								<h4>Case Study Talk</h4>
-								<p>TBD</p>
-							</dd>
-						</dl>
-					</li>
-					<li class="timeslot two-hours">
-						<dl>
-							<dt class="time">10:30 AM</dt>
+							<dt class="time">9:40 AM</dt>
 							<dd class="ux">
 								<h4>Case Study Talk</h4>
 								<p>TBD</p>
@@ -178,7 +177,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot one-hour">
 						<dl>
-							<dt class="time">11:10 AM</dt>
+							<dt class="time">10:10 AM</dt>
 							<dd class="food">
 								<p>Break (drinks and snacks provided)</p>
 							</dd>
@@ -186,7 +185,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot two-hours">
 						<dl>
-							<dt class="time">11:50 AM</dt>
+							<dt class="time">10:50 AM</dt>
 							<dd class="ux">
 								<h4>Case Study Talk</h4>
 								<p>TBD</p>
@@ -195,16 +194,16 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot two-hours">
 						<dl>
-							<dt class="time">12:30 PM</dt>
+							<dt class="time">11:20 AM</dt>
 							<dd class="ux">
-								<h4>Q&A panel with morning speakers</h4>
+								<h4>Case Study Talk</h4>
 								<p>TBD</p>
 							</dd>
 						</dl>
 					</li>
 					<li class="timeslot one-hour">
 						<dl>
-							<dt class="time">1:00 PM</dt>
+							<dt class="time">11:50 AM</dt>
 							<dd class="food">
 								<p>Lunch break</p>
 							</dd>
@@ -212,10 +211,27 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot two-hours">
 						<dl>
-							<dt class="time">2:30 PM</dt>
+							<dt class="time">1:30 PM</dt>
+							<dd class="ux">
+								<h4>Q&A panel with morning speakers</h4>
+								<p>TBD</p>
+							</dd>
+						</dl>
+					</li>
+					<li class="timeslot two-hours">
+						<dl>
+							<dt class="time">2:00 PM</dt>
 							<dd class="ux">
 								<h4>Case Study Team Talk</h4>
 								<p>TBD</p>
+							</dd>
+						</dl>
+					</li>
+					<li class="timeslot one-hour">
+						<dl>
+							<dt class="time">2:30 AM</dt>
+							<dd class="food">
+								<p>Break (drinks and snacks provided)</p>
 							</dd>
 						</dl>
 					</li>
@@ -239,7 +255,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot one-hour">
 						<dl>
-							<dt class="time">4:30 PM</dt>
+							<dt class="time">4:20 AM</dt>
 							<dd class="food">
 								<p>Closing remarks</p>
 							</dd>
