@@ -968,17 +968,21 @@ footer p {
 	background-image: url(../images/bootcamp-bg.jpg);
 	display: none
 }
+.product-schedule-front .hero {
+	background-image: url(../images/home-bg-2.jpg);
+	background: center center no-repeat #333;
+}
 .product-why .hero {
 	background-image: url(../images/home-bg-9.jpg);
 	display: none
 }
 
 @media (min-width:1000px) {
-	.product-bootcamp-page .hero {
+	.product-bootcamp-page .hero, .product-schedule-front .hero {
 		display: block;
 		height: 392px
 	}
-	.product-bootcamp-page .hero h1 {
+	.product-bootcamp-page .hero h1, .product-schedule-front .hero h1 {
 		font-size: 56px;
 		color: #FFF;
 		padding-top: 200px
