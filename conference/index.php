@@ -71,8 +71,8 @@ foreach($instructors as $instructor) {
 			<p>Our goal is to provide an environment that allows industry professionals to gather once a year and share the experiences that have helped them build better products and progress individually.</p>
 		</section>
 		<section class="photo-collage">
-			<img src="/images/conf-collage-mobile.jpg" alt="" class="mobile">
-			<img src="/images/collage-front-photos.jpg" alt="" class="desktop">
+			<img src="/images/collage-front-photos-mobile@2x.jpg" alt="" class="mobile">
+			<img src="/images/collage-front-photos-desktop@2x.jpg" alt="" class="desktop">
 		</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>

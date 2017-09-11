@@ -842,7 +842,7 @@ footer p {
 @media (min-width:1000px) {
 	.venue-slc .hero {
 		height: 917px;
-		padding: 70px 140px
+		padding: 600px 140px 70px 140px
 	}
 	.venue-slc .hero h1 {
 		font-size: 50px;
