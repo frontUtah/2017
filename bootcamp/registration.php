@@ -155,11 +155,6 @@ discount (6-7)
 				</li>
 			</ul>
 		</section>
-		<section class="join-us">
-			<h2>Join us at the Front!</h2>
-			<p>Reserve your seat now for the premier UX and Product Management training experience. Design your custom training program now. Whether you’re a beginner or seasoned professional, the Front Park City workshop series will take you and your team to the next level in product design and management.</p>
-			<p><a href="/bootcamp/registration" class="button">Register</a></p>
-		</section>
 	</main>
 
 <?php
