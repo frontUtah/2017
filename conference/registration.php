@@ -55,7 +55,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<dd class="standard">$630</dd>
 				</dl>
 			</div>
-			<p><a target="_blank" href="http://frontparkcity2018.eventbrite.com" class="button">Register</a></p>
+			<p><a target="_blank" href="https://frontsaltlakecity2018.eventbrite.com" class="button">Register</a></p>
 		</section>
 
 		<!--
@@ -105,11 +105,6 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<p><a href="mailto:wade@frontutah.com">wade@frontutah.com</a></p>
 				</li>
 			</ul>
-		</section>
-		<section class="join-us">
-			<h2>Join us at the Front!</h2>
-			<p>Reserve your seat now for the premier UX and Product Management training experience. Design your custom training program now. Whether you’re a beginner or seasoned professional, the Front Park City workshop series will take you and your team to the next level in product design and management.</p>
-			<p><a href="/bootcamp/registration" class="button">Register</a></p>
 		</section>
 	</main>
 
