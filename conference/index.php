@@ -17,7 +17,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</ul>
 			</p>
 			<p class="date-location">31 May - 1 June 2018 • Salt Lake City, Utah</p>
-			<p><a href="/bootcamp/registration" class="button">Register</a></p>
+			<p><a href="/conference/registration" class="button">Register</a></p>
 		</section>
 		<section class="training-courses">
 			<h2>Build better products</h2>

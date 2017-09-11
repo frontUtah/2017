@@ -7,7 +7,7 @@ $title = 'Registration - Front Park City 2018, 4-5 January 2018';
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 ?>
-	<main class="product-bootcamp-page">
+	<main class="product-conference-registration">
 		<section class="hero">
 			<h1>Registration</h1>
 		</section>

@@ -7,7 +7,7 @@ $title = 'FAQs - Front Salt Lake City 2018, 31 May - 1 June 2018';
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 ?>
-	<main class="product-bootcamp-page">
+	<main class="product-conference-faq">
 		<section class="hero">
 			<h1>FAQs</h1>
 		</section>
