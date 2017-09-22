@@ -57,7 +57,7 @@ We believe product management and product design play a central role in the succ
 		</section>
 		<section class="attendant-charts">
 			<h2>Front 2017 attendees</h2>
-			<p class="about-attendant-charts">In 2017, product design teams have gathered in Utah from 4 countries and 29 states across the US. While focused specifically on UX, product management, research, and leadership, anyone involved in product discovery, delivery, is encouraged to attend and will leave with a wealth of insights and skills. The courses cover the range between basic and advanced topics, providing valuable training to both students and seasoned professionals.</p>
+			<p class="about-attendant-charts">In 2017, product design teams gathered in Utah from 4 countries and 29 states across the US for our conference and bootcamp. While focused speci cally on UX, product management, research, and leadership, anyone involved in product discovery, delivery, is encouraged to attend and will leave with a wealth of insights and skills. The conference talks cover the range between basic and advanced topics, providing valuable insights to both students and seasoned professionals.</p>
 			<div class="chart ring-chart">
 				<h4>Attendee by job title</h4>
 				<img src="/images/ring-chart.png" alt="">
@@ -70,7 +70,7 @@ We believe product management and product design play a central role in the succ
 		</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
-			<p>Reserve your seat now for the premier UX and Product Management training experience. Design your custom training program now. Whether you’re a beginner or seasoned professional, the Front Park City workshop series will take you and your team to the next level in product design and management.</p>
+			<p>Each case study talk is presented by internationally recognized industry leaders and some of tech’s most skilled practitioners. Last year’s conference included speakers and UX+PM couples from New York Times, Slack, Vivint, Adobe, Twitter, Pluralsight, and Google. Join us at the Front to share, learn, and be inspired to create amazing products.</p>
 			<p><a href="/conference/registration" class="button">Register</a></p>
 		</section>
 	</main>

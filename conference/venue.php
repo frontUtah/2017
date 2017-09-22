@@ -24,14 +24,14 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		<section class="sports">
 			<h2>In the heart of downtown Salt Lake City</h2>
 			<div class="webcam">
-			<p>The amazing Eccles Theater is in the heart of downtown Salt Lake City. With many comfortable hotels, award winning restaurants, and unique evening activites this location is perfect to experience the city the way that it was meant to be. If you   </p>
+			<p>The amazing Eccles Theater is in the heart of downtown Salt Lake City. With many comfortable hotels, award winning restaurants, and unique evening activities this location is perfect to experience the city the way that it was meant to be. If you   </p>
 		</section>
 		<section class="photo-collage">
 			<img src="/images/eccles_theater_02.jpg" alt="">
 		</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
-			<p>Reserve your seat now for the premier UX and Product Management training experience. Design your custom training program now. Whether you’re a beginner or seasoned professional, the Front Park City workshop series will take you and your team to the next level in product design and management.</p>
+			<p>In 2017, Front Salt Lake City sold out with 650 attendees from 4 countries and 29 states across the US. Join us at the Front to share, learn, and be inspired to create amazing products.</p>
 			<p><a href="/conference/registration" class="button">Register</a></p>
 		</section>
 	</main>

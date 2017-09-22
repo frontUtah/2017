@@ -41,10 +41,7 @@ foreach($instructors as $instructor) {
 		</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
-			<p>Reserve your seat now for the premier UX and Product Management training 
-				experience. Design your custom training program now. Whether you’re a 
-				beginner or seasoned professional, the Front Park City workshop series 
-				will take you and your team to the next level in product design and management.</p>
+			<p>In 2017, Front Salt Lake City sold out with 650 attendees from 4 countries and 29 states across the US. Join us at the Front to share, learn, and be inspired to create amazing products.</p>
 			<p><a href="/conference/registration" class="button">Register</a></p>
 		</section>
 	</main>
