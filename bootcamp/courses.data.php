@@ -124,15 +124,15 @@ $courses[] = array(
 
 // RESEARCH
 
-// Jay Fichialos
+// Beth Liebert
 $courses[] = array(
-	'title' => 'Dreams, Rats and Stars: A hands on experience in the product discovery journey',
-	'description' => "What's the difference between meeting expectations and exceeding them? When does vision get in the way of learning what your customers really want. And how do you know what feedback to act on now and what to ignore. Ready to get your hands dirty? Let's dive head long into research tools and techniques that will help you deliver customer delight and business success.",
+	'title' => 'How to Balance Quantitative vs Qualitative User Research',
+	'description' => "Creating the best product depends on solving real user needs, getting your team bought in, and rounding out the important details to complete the experience of your product.  But what kind of evidence is going to guide you in the right direction- a user study or a chart of key metrics?<br /><br />In this workshop we’ll get some hands-on practice with a spectrum of research techniques used at IDEO, Google, and Apple that you can apply throughout the development cycle, and explore ways to approach quantitative and qualitative user research that brings out the strengths in each methodology. How do you recruit the right people for a study, disseminate your inspiration to the rest of your team, and build in regular checkpoints to make sure you solve the most relevant problems right up to launch and beyond?  How can you use data to discover use cases and preferences that users can’t articulate?  And finally, how can you do it cheaply?  <br /><br />This workshop is a must for anyone looking for tactical ways to balance numbers with user stories, so you can be confident you’re leading your team down the right track.",
 	'track' => 'research',
 	'day' => 1,
 	'slot' => 1,
-	'instructor' => 'jayfichialos',
-	'level' => 'basics'
+	'instructor' => 'bethliebert',
+	'level' => 'advanced'
 );
 
 // Taylor Palmer
@@ -159,8 +159,8 @@ $courses[] = array(
 
 // Andrew Branch
 $courses[] = array(
-	'title' => 'Remote user research as a tool for product discovery',
-	'description' => "User research is fun. Driving, flying, biking or ubering to get to the user research? Less fun. Not to mention a huge time waster. As a firm believer in work-from-homing and the potential productivity boostage it can bring, and possessing an anthropological zeal for exploring my own inner introvert, I would like to share with you the skills, techniques, and tools necessary to make remote user testing as successful as in-person testing. In this workshop you can expect to take actual prototypes (either your own or examples provided) and work to plan, build, and perform both live and self-moderated (on-demand), remote, user testing campaigns. ",
+	'title' => 'Lean user testing: Support continuous discovery with new, efficient, and powerful methods',
+	'description' => "Does your organization treat user testing like it’s a big deal? Is it something you spend weeks planning for and days executing? Do you then spend hours analyzing and disturbing verbose reports spelling-out your conclusions, using your most persuasive writing? Do you get pats on the backs and hi-fives when you’re done, and then settle back to your “regular” design or product management activities until you decide to do it all again in a quarter or two? Or do you do none of those things, because you think this is how user testing is done and it’s just too expensive? If so, you are thinking about user testing wrong. Also, you should attend my workshop.<br /><br />My workshop will focus on how to make user testing simple, fast, consistent, and powerful. It’s possible to support continuous discovery with efficient testing, while not sacrificing powerful learning. We’ll discuss and practice using the tools and techniques which will make all of this possible, with a special emphasis on remote user testing.",
 	'track' => 'research',
 	'day' => 2,
 	'slot' => 1,
@@ -168,15 +168,15 @@ $courses[] = array(
 	'level' => 'basics'
 );
 
-// Beth Liebert
+// Jay Fichialos
 $courses[] = array(
-	'title' => 'How to Balance Quantitative vs Qualitative User Research',
-	'description' => "Creating the best product depends on solving real user needs, getting your team bought in, and rounding out the important details to complete the experience of your product.  But what kind of evidence is going to guide you in the right direction- a user study or a chart of key metrics?<br /><br />In this workshop we’ll get some hands-on practice with a spectrum of research techniques used at IDEO, Google, and Apple that you can apply throughout the development cycle, and explore ways to approach quantitative and qualitative user research that brings out the strengths in each methodology. How do you recruit the right people for a study, disseminate your inspiration to the rest of your team, and build in regular checkpoints to make sure you solve the most relevant problems right up to launch and beyond?  How can you use data to discover use cases and preferences that users can’t articulate?  And finally, how can you do it cheaply?  <br /><br />This workshop is a must for anyone looking for tactical ways to balance numbers with user stories, so you can be confident you’re leading your team down the right track.",
+	'title' => 'Dreams, Rats and Stars: A hands on experience in the product discovery journey',
+	'description' => "What's the difference between meeting expectations and exceeding them? When does vision get in the way of learning what your customers really want. And how do you know what feedback to act on now and what to ignore. Ready to get your hands dirty? Let's dive head long into research tools and techniques that will help you deliver customer delight and business success.",
 	'track' => 'research',
 	'day' => 2,
 	'slot' => 2,
-	'instructor' => 'bethliebert',
-	'level' => 'advanced'
+	'instructor' => 'jayfichialos',
+	'level' => 'basics'
 );
 
 
