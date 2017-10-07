@@ -184,19 +184,19 @@ $instructors[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/richardbanfield/'
 );
 
-// Beth Liebert
+// Lori Eich
 $instructors[] = array(
-	'slug' => 'bethliebert',
-	'first' => 'Beth',
-	'last' => 'Liebert',
-	'title' => 'Product Manager',
-	'company' => 'Apple',
+	'slug' => 'lorieich',
+	'first' => 'Lori',
+	'last' => 'Eich',
+	'title' => 'Senior Product Manager',
+	'company' => 'Civis Analytics',
 	'discipline' => 'research',
-	'photo' => 'frontpc18/instructor_bethliebert.jpg',
-	'bio' => "With roots in Stanford's d.school and IDEO, Beth has focused her Product Management career on bringing user-driven design practices to software development at Google (Analytics, Maps, Search), Apple (Maps Data editing), and small startups (in the data visualization space).  She is a big believer of prototyping, good documentation, terrible puns, and staying grounded with real users.",
+	'photo' => 'frontpc18/instructor_lorieich.jpg',
+	'bio' => "Lori Eich is a senior product manager at Civis Analytics, where she works with engineers to build the Civis Data Science Platform. Lori’s background is in software engineering, derivatives trading, environmental consulting, and competitive fringe sports. She holds an SM and SB in Earth, atmospheric, and planetary sciences from the Massachusetts Institute of Technology.",
 	'twitter' => '',
 	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/beth-liebert-1a46076/'
+	'linkedin' => 'https://www.linkedin.com/in/lori-eich-7a796b20/'
 );
 
 // Jeff Carter
