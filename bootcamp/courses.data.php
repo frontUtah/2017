@@ -124,10 +124,10 @@ $courses[] = array(
 
 // RESEARCH
 
-// Beth Liebert
+// Lori Eich
 $courses[] = array(
-	'title' => 'How to Balance Quantitative vs Qualitative User Research',
-	'description' => "Creating the best product depends on solving real user needs, getting your team bought in, and rounding out the important details to complete the experience of your product.  But what kind of evidence is going to guide you in the right direction- a user study or a chart of key metrics?<br /><br />In this workshop we’ll get some hands-on practice with a spectrum of research techniques used at IDEO, Google, and Apple that you can apply throughout the development cycle, and explore ways to approach quantitative and qualitative user research that brings out the strengths in each methodology. How do you recruit the right people for a study, disseminate your inspiration to the rest of your team, and build in regular checkpoints to make sure you solve the most relevant problems right up to launch and beyond?  How can you use data to discover use cases and preferences that users can’t articulate?  And finally, how can you do it cheaply?  <br /><br />This workshop is a must for anyone looking for tactical ways to balance numbers with user stories, so you can be confident you’re leading your team down the right track.",
+	'title' => 'Continuing learning after launch',
+	'description' => "Choices made during the early stages of your product launch can make or break the future of your product. You've done your user research, you've tested and validated your prototype, and you're ready to launch your MVP. How do you validate your product decisions while you're still building your user base? How do you know how to prioritize and plan for the future development of your product when your usage data is limited?<br /><br />In this workshop, we'll combine early-stage objective analytics with qualitative user research to accelerate learning in the early stages of the product life cycle. You will get practice choosing appropriate metrics, understanding your usage data, and conducting interviews with early users. We'll talk about how to align your metrics with your organization's goals as well as how to generate buy-in and enthusiasm throughout the early launch stages of your product to increase your chances of success.",
 	'track' => 'research',
 	'day' => 1,
 	'slot' => 1,
