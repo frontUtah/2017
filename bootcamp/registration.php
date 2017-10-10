@@ -80,7 +80,7 @@ discount (6-7)
 
 		<section class="accomodations">
 			<h2>Skiing</h2>
-			<p class="about-accomodations">Turn this two-day bootcamp into a four day vacation. Go ahead and submit that expense report guilt-free. With the combination full bootcamp ticket, you also get unlimited access to Park City Mountai resort, any 2 days between 2-8 January 2018. We've also negotiated 30% off ski and snowboard rentals through a shop located within the resort.</p>
+			<p class="about-accomodations">Turn this two-day bootcamp into a four day vacation. Go ahead and submit that expense report guilt-free. With the combination full bootcamp ticket, you also get unlimited access to Park City Mountain resort, any 2 days between 2-8 January 2018. We've also negotiated 30% off ski and snowboard rentals through a shop located within the resort.</p>
 			<div class="hotel">
 				<div class="hotel-info">
 					<h3>Park City Mountain Resort</h3>
