@@ -19,11 +19,11 @@ $instructors[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/benjamin-jay-fichialos-8a41022/'
 );
 
-// Jonathan Shariot
+// Jonathan Shariat
 $instructors[] = array(
-	'slug' => 'jonathanshariot',
+	'slug' => 'jonathanshariat',
 	'first' => 'Jonathan',
-	'last' => 'Shariot',
+	'last' => 'Shariat',
 	'title' => 'Sr. Interaction Designer',
 	'company' => 'Intuit',
 	'discipline' => 'ux',

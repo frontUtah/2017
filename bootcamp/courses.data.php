@@ -19,14 +19,14 @@ $courses[] = array(
 	'level' => 'basics'
 );
 
-// Jonathan Shariot
+// Jonathan Shariat
 $courses[] = array(
 	'title' => 'A guide to every day design ethics',
 	'description' => "Every day we make decisions about how our products will interact with other people. Its our responsibility to make sure these are choices that make the world better and not harm others.  These choices are called “Design Ethics”. In this workshop you will discover the ways our products can negatively impact others and how to implement better processes at your company to avoid harmful design.",
 	'track' => 'ux',
 	'day' => 1,
 	'slot' => 2,
-	'instructor' => 'jonathanshariot',
+	'instructor' => 'jonathanshariat',
 	'level' => 'basics'
 );
 
