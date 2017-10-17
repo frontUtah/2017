@@ -157,26 +157,26 @@ $courses[] = array(
 	'level' => 'advanced'
 );
 
-// Andrew Branch
-$courses[] = array(
-	'title' => 'Lean user testing: Support continuous discovery with new, efficient, and powerful methods',
-	'description' => "Does your organization treat user testing like it’s a big deal? Is it something you spend weeks planning for and days executing? Do you then spend hours analyzing and disturbing verbose reports spelling-out your conclusions, using your most persuasive writing? Do you get pats on the backs and hi-fives when you’re done, and then settle back to your “regular” design or product management activities until you decide to do it all again in a quarter or two? Or do you do none of those things, because you think this is how user testing is done and it’s just too expensive? If so, you are thinking about user testing wrong. Also, you should attend my workshop.<br /><br />My workshop will focus on how to make user testing simple, fast, consistent, and powerful. It’s possible to support continuous discovery with efficient testing, while not sacrificing powerful learning. We’ll discuss and practice using the tools and techniques which will make all of this possible, with a special emphasis on remote user testing.",
-	'track' => 'research',
-	'day' => 2,
-	'slot' => 1,
-	'instructor' => 'andrewbranch',
-	'level' => 'basics'
-);
-
 // Lori Eich
 $courses[] = array(
 	'title' => 'Continuing learning after launch',
 	'description' => "Choices made during the early stages of your product launch can make or break the future of your product. You've done your user research, you've tested and validated your prototype, and you're ready to launch your MVP. How do you validate your product decisions while you're still building your user base? How do you know how to prioritize and plan for the future development of your product when your usage data is limited?<br /><br />In this workshop, we'll combine early-stage objective analytics with qualitative user research to accelerate learning in the early stages of the product life cycle. You will get practice choosing appropriate metrics, understanding your usage data, and conducting interviews with early users. We'll talk about how to align your metrics with your organization's goals as well as how to generate buy-in and enthusiasm throughout the early launch stages of your product to increase your chances of success.",
 	'track' => 'research',
 	'day' => 2,
-	'slot' => 2,
+	'slot' => 1,
 	'instructor' => 'lorieich',
 	'level' => 'advanced'
+);
+
+// Andrew Branch
+$courses[] = array(
+	'title' => 'Lean user testing: Support continuous discovery with new, efficient, and powerful methods',
+	'description' => "Does your organization treat user testing like it’s a big deal? Is it something you spend weeks planning for and days executing? Do you then spend hours analyzing and disturbing verbose reports spelling-out your conclusions, using your most persuasive writing? Do you get pats on the backs and hi-fives when you’re done, and then settle back to your “regular” design or product management activities until you decide to do it all again in a quarter or two? Or do you do none of those things, because you think this is how user testing is done and it’s just too expensive? If so, you are thinking about user testing wrong. Also, you should attend my workshop.<br /><br />My workshop will focus on how to make user testing simple, fast, consistent, and powerful. It’s possible to support continuous discovery with efficient testing, while not sacrificing powerful learning. We’ll discuss and practice using the tools and techniques which will make all of this possible, with a special emphasis on remote user testing.",
+	'track' => 'research',
+	'day' => 2,
+	'slot' => 2,
+	'instructor' => 'andrewbranch',
+	'level' => 'basics'
 );
 
 
