@@ -124,15 +124,15 @@ $courses[] = array(
 
 // RESEARCH
 
-// Lori Eich
+// Jay Fichialos
 $courses[] = array(
-	'title' => 'Continuing learning after launch',
-	'description' => "Choices made during the early stages of your product launch can make or break the future of your product. You've done your user research, you've tested and validated your prototype, and you're ready to launch your MVP. How do you validate your product decisions while you're still building your user base? How do you know how to prioritize and plan for the future development of your product when your usage data is limited?<br /><br />In this workshop, we'll combine early-stage objective analytics with qualitative user research to accelerate learning in the early stages of the product life cycle. You will get practice choosing appropriate metrics, understanding your usage data, and conducting interviews with early users. We'll talk about how to align your metrics with your organization's goals as well as how to generate buy-in and enthusiasm throughout the early launch stages of your product to increase your chances of success.",
+	'title' => 'Dreams, Rats and Stars: A hands on experience in the product discovery journey',
+	'description' => "What's the difference between meeting expectations and exceeding them? When does vision get in the way of learning what your customers really want. And how do you know what feedback to act on now and what to ignore. Ready to get your hands dirty? Let's dive head long into research tools and techniques that will help you deliver customer delight and business success.",
 	'track' => 'research',
 	'day' => 1,
 	'slot' => 1,
-	'instructor' => 'lorieich',
-	'level' => 'advanced'
+	'instructor' => 'jayfichialos',
+	'level' => 'basics'
 );
 
 // Taylor Palmer
@@ -168,15 +168,15 @@ $courses[] = array(
 	'level' => 'basics'
 );
 
-// Jay Fichialos
+// Lori Eich
 $courses[] = array(
-	'title' => 'Dreams, Rats and Stars: A hands on experience in the product discovery journey',
-	'description' => "What's the difference between meeting expectations and exceeding them? When does vision get in the way of learning what your customers really want. And how do you know what feedback to act on now and what to ignore. Ready to get your hands dirty? Let's dive head long into research tools and techniques that will help you deliver customer delight and business success.",
+	'title' => 'Continuing learning after launch',
+	'description' => "Choices made during the early stages of your product launch can make or break the future of your product. You've done your user research, you've tested and validated your prototype, and you're ready to launch your MVP. How do you validate your product decisions while you're still building your user base? How do you know how to prioritize and plan for the future development of your product when your usage data is limited?<br /><br />In this workshop, we'll combine early-stage objective analytics with qualitative user research to accelerate learning in the early stages of the product life cycle. You will get practice choosing appropriate metrics, understanding your usage data, and conducting interviews with early users. We'll talk about how to align your metrics with your organization's goals as well as how to generate buy-in and enthusiasm throughout the early launch stages of your product to increase your chances of success.",
 	'track' => 'research',
 	'day' => 2,
 	'slot' => 2,
-	'instructor' => 'jayfichialos',
-	'level' => 'basics'
+	'instructor' => 'lorieich',
+	'level' => 'advanced'
 );
 
 
