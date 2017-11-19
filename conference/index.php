@@ -69,11 +69,22 @@ foreach($instructors as $instructor) {
 				<img src="/images/home-bg-7.jpg" alt="">
 			</div>
 		</section>
+		
 		<section class="training-courses">
 			<h2>Learn, Connect, and Share</h2>
 			<p>We believe product management and product design play a central role in the success of a company. We believe we need better, smarter people to lead product. We believe in human relationships and learning from each other through examples. We believe in kindness, generosity, transparency and a willingness to share. We've created a mix of topics, some practical, others aspirational/inspirational, some aimed at more junior folks, some at the mid-level, some at leadership.</p>
 			<p>Our goal is to provide an environment that allows industry professionals to gather once a year and share the experiences that have helped them build better products and progress individually.</p>
 		</section>
+		
+		<section class="sponsors">
+			<h2>Sponsors</h2>
+			<a href="http://www.workfront.com"><img id="premier" src="/images/sponsors/workfront.svg" /></a>
+			<ul class="second_tier">
+			  <li class="second_tier_sponsor"><a href="http://www.balsamiq.com"><img src="/images/sponsors/balsamiq.svg" /></a></li>
+			  <li class="second_tier_sponsor"><a href="http://www.pluralsight.com"><img src="/images/sponsors/pluralsight.svg" /></a></li>
+			</ul>
+		</section>
+		
 		<section class="photo-collage">
 			<img src="/images/collage-front-photos-mobile@2x.jpg" alt="" class="mobile">
 			<img src="/images/collage-front-photos-desktop@2x.jpg" alt="" class="desktop">

@@ -1857,6 +1857,45 @@ section.photo-collage .desktop {
 	margin: auto;
 }
 
+
+/* ==================== SPONSORS ==================== */
+
+section.sponsors {
+	padding: 70px 0
+}
+section.sponsors h2 {
+	margin-bottom: 90px;
+	padding: 0 31px
+}
+
+section.sponsors #premier {
+	width: 400px;
+}
+
+section.sponsors .second_tier {
+  padding: 0;
+  margin: 40px 0 0 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+section.sponsors .second_tier .second_tier_sponsor {
+  width: 200px;
+  height: 75px;
+  margin: 30px 60px;
+}
+
+
+/* ==================== PHOTO COLLAGE ==================== */
+
 @media (min-width:1000px) {
 section.photo-collage {
 	padding: 58px 0 0

@@ -17,7 +17,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</ul>
 			</p>
 			<p class="date-location">4-5 Jan 2018 • Park City, Utah</p>
-			<a href="http://www.workfront.com"><img id="broughtoyouby" src="/images/frontpc18/broughttoyouby_pendo.png" /></a>
+			<a href="http://www.pendo.io"><img id="broughtoyouby" src="/images/frontpc18/broughttoyouby_pendo.png" /></a>
 			<p><a href="/bootcamp/registration" class="button">Register</a></p>
 		</section>
 		<section class="bootcamp-about">
@@ -128,6 +128,15 @@ foreach($instructors as $instructor) {
 				</li>
 			</ul>
 		</section>
+		
+		<section class="sponsors">
+			<h2>Sponsors</h2>
+			<a href="http://www.pendo.io"><img id="premier" src="/images/sponsors/pendo.svg" /></a>
+			<ul class="second_tier">
+			  <li class="second_tier_sponsor"><a href="http://www.workfront.com"><img src="/images/sponsors/workfront.svg" /></a></li>
+			</ul>
+		</section>
+			
 		<section class="photo-collage">
 			<img src="/images/conf-collage-mobile.jpg" alt="" class="mobile">
 			<img src="/images/conf-collage-desktop.jpg" alt="" class="desktop">
