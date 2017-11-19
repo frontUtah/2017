@@ -12,13 +12,12 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<h1>UX &amp; Product Management Bootcamp</h1>
 			<p>
 				<ul>
-					<li>2 days</li>
-					<li>4 tracks</li>
-					<li>20 courses</li>
+					<li>2 days • 4 tracks • 20 courses</li>
 					<li>200+ product designers and managers</li>
 				</ul>
 			</p>
 			<p class="date-location">4-5 Jan 2018 • Park City, Utah</p>
+			<a href="http://www.workfront.com"><img id="broughtoyouby" src="/images/frontpc18/broughttoyouby_pendo.png" /></a>
 			<p><a href="/bootcamp/registration" class="button">Register</a></p>
 		</section>
 		<section class="bootcamp-about">

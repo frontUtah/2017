@@ -930,6 +930,9 @@ footer p {
 .product-bootcamp .hero .button {
 	width: 220px
 }
+.product-bootcamp .hero #broughtoyouby {
+	width: 220px;
+}
 
 @media (min-width:1000px) {
 	.product-bootcamp .hero {
@@ -955,6 +958,10 @@ footer p {
 	}
 	.product-bootcamp .hero .button {
 		width: auto
+	}
+	.product-bootcamp .hero #broughtoyouby {
+		width: 292px;
+		float: right;
 	}
 }
 

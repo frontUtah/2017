@@ -12,11 +12,12 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<h1>UX &amp; Product Management Case Study Conference</h1>
 			<p>
 				<ul>
-					<li>2 days • 14 talks • 2 panels</li>
+					<li>2 days • 14 talks • 2 interactive Q&A panels</li>
 					<li>1000+ product designers and managers</li>
 				</ul>
 			</p>
 			<p class="date-location">31 May - 1 June 2018 • Salt Lake City, Utah</p>
+			<a href="http://www.workfront.com"><img id="broughtoyouby" src="/images/frontslc18/broughttoyouby_workfront.png" /></a>
 			<p><a href="/conference/registration" class="button">Register</a></p>
 		</section>
 		<section class="training-courses">
