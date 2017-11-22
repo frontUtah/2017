@@ -14,7 +14,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		<section class="body short">
 			<h2>Inspiration and training</h2>
 			<p>Front is brought to you by Andrew Branch, Ben Peck, and Wade Shearer, experienced designers and product managers, 
-				and cofounders of Product Hive (originally called the Product Design Association), now bosting over 2,500 members. 
+				and cofounders of Product Hive (originally called the Product Design Association), now boasting over 3,000 members. 
 				After years of hosting meetups, lunches, and workshops, we learned that there is a hunger for training and advanced 
 				topics. People want to hear from their peers. They want to see what other teams are working on and struggling with 
 				and how they have overcome those challenges. They’re looking for more than a motivational speaker or a party—they 
@@ -44,7 +44,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				North-central Utah, that stretches along the Wasatch Mountain Range. 
 				The Wasatch Range stretches from the Idaho border, south through 
 				central Utah and is the western edge of the greater Rocky Mountains. 
-				For us, Front is also the fore-front of technology and innovation and 
+				For us, Front is also the forefront of technology and innovation and 
 				product experience—the part you touch, hear, or interact with.
 			<p>Join us at the Front to share, learn, and be inspired to create amazing products.</p>
 		</section>
