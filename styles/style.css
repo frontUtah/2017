@@ -1869,7 +1869,8 @@ section.sponsors h2 {
 }
 
 section.sponsors #premier {
-	width: 350px;
+	width: 80%;
+	max-width: 350px;
 }
 
 section.sponsors .second_tier {
@@ -1891,12 +1892,6 @@ section.sponsors .second_tier .second_tier_sponsor {
   width: 200px;
   height: 75px;
   margin: 30px 60px;
-}
-
-@media (max-width:375px) {
-	section.sponsors #premier {
-		max-width: 80%;
-	}
 }
 
 
