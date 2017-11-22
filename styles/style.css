@@ -1893,6 +1893,12 @@ section.sponsors .second_tier .second_tier_sponsor {
   margin: 30px 60px;
 }
 
+@media (max-width:375px) {
+	section.sponsors #premier {
+		max-width: 80%;
+	}
+}
+
 
 /* ==================== PHOTO COLLAGE ==================== */
 
