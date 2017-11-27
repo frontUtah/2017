@@ -75,13 +75,6 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			-->
 			
 			<div class="prices">
-				<dl class="pricing-types">
-					<dt><div></div></dt>
-					<dd class="early">
-						Standard pricing
-						<small>Starting 1 November 2017</small>
-					</dd>
-				</dl>
 				<dl class="full">
 					<dt><div>Full Bootcamp</div></dt>
 					<dd class="early">$1,499</dd>
