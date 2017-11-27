@@ -20,58 +20,77 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<div class="prices">
 				<dl class="pricing-types">
 					<dt><div></div></dt>
+					
+					<!--
 					<dd class="early">
 						Early bird pricing
 						<small>25% off until 31 October 2017</small>
 					</dd>
+					-->
+					
 					<dd class="standard">
 						Standard pricing
 						<small>Starting 1 November 2017</small>
 					</dd>
 				</dl>
 				<dl class="full">
-					<dt><div>Full
- Bootcamp</div></dt>
+					<dt><div>Full Bootcamp</div></dt>
+					
+					<!--
 					<dd class="early">$1,099</dd>
+					-->
+					
 					<dd class="standard">$1,499</dd>
 				</dl>
 				<dl class="full-plus-lift">
-					<dt><div>Full Bootcamp + 2 day lift pass to Park
-City Mountain Resort</div></dt>
+					<dt><div>Full Bootcamp + 2 day lift pass to Park City Mountain Resort</div></dt>
+					
+					<!--
 					<dd class="early">$1,399</dd>
+					-->
+					
 					<dd class="standard">$1,799</dd>
 				</dl>
 				<dl>
 					<dt>
 						<div>
-							Group
- discount (3-5)
+							Group discount (3-5)
 							<small>10% off per ticket</small>
 						</div>
 					</dt>
+					
+					<!--
 					<dd class="early">$989</dd>
+					-->
+					
 					<dd class="standard">$1,299</dd>
 				</dl>
 				<dl>
 					<dt>
 						<div>
-							Group
-discount (6-7)
+							Group discount (6-7)
 							<small>15% off per ticket</small>
 						</div>
 					</dt>
+					
+					<!--
 					<dd class="early">$939</dd>
+					-->
+					
 					<dd class="standard">$1,229</dd>
 				</dl>
 				<dl>
 					<dt>
 						<div>
-							Group
- discount (8+)
+							Group discount (8+)
 							<small>20% off per ticket</small>
 						</div>
 					</dt>
+					
+					<!--
 					<dd class="early">$879</dd>
+					-->
+					
 					<dd class="standard">$1,159</dd>
 				</dl>
 			</div>
