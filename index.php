@@ -32,7 +32,7 @@ require('includes/header.php');
 				<div href="https://vimeo.com/216410956" class="thumnail video-thumbnail recap-video">
 					<img src="images/conf-scene002.jpg" alt="">
 				</div>
-				<p class="description">A two-day, hands-on training bootcamp to learn how to create amazing products and work like the teams.</p>
+				<p class="description">A two-day, hands-on training bootcamp to learn how to create amazing products and work like the teams you hear from at Front.</p>
 				<p><a href="/bootcamp" class="button">Learn More</a></p>
 			</li>
 			<li>
