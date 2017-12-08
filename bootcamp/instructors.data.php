@@ -239,7 +239,7 @@ $instructors[] = array(
 	'discipline' => 'research',
 	'photo' => 'frontpc18/instructor_taylorpalmer.jpg',
 	'bio' => "Taylor is a Sr. UX Designer and manager at Lucid Software and works full-time on their flagship product, Lucidchart. He’s spent his last few years helping Lucid redesign their product from the ground up through user interviews, data-informed research, and a robust pattern library. While in school, Taylor worked as a frontend developer and has maintained many of those skills as a UX designer. He’s probably tried more UX tools than you’d care to know, and likes to maintain his side project uxtools.co on nights and weekends. He enjoys the rush of bringing a static idea to life.",
-	'twitter' => 'thpalmer75',
+	'twitter' => '_taylorpalmer',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/taylor-palmer-6264a171'
 );
