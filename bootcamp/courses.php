@@ -93,7 +93,7 @@ switch($track) {
 						$slots[2] = array('time' => '1:30', 'meridian' => 'PM');
 						
 						if($day == 1) {
-							$slots[3] = array('time' => '3:30', 'meridian' => 'PM');
+							$slots[3] = array('time' => '3:45', 'meridian' => 'PM');
 						}
 
 						foreach($slots as $slot => $slot_details) {
