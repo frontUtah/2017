@@ -289,19 +289,19 @@ $instructors[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/chadheinrich/'
 );
 
-// Stacia Lott
+// Elaine Chao
 $instructors[] = array(
-	'slug' => 'stacialott',
-	'first' => 'Stacia',
-	'last' => 'Lott',
+	'slug' => 'elainechao',
+	'first' => 'Elaine',
+	'last' => 'Chao',
 	'title' => 'Product Manager',
-	'company' => 'Owlet Baby Care',
+	'company' => 'Adobe',
 	'discipline' => 'pm',
-	'photo' => 'frontpc18/instructor_stacialott.jpg',
-	'bio' => "Stacia is a Product Manager at Owlet Baby Care, where she works alongside a team of passionate parents to bring themselves—and other parents around the globe—peace of mind and assurance by developing a monitor that tracks a baby's breathing and heart rate. Using pulse oximetry (the same technology used in hospitals), the Owlet Smart Sock is designed to send alerts to the Base Station and via Wi-Fi to a smartphone, if a baby were to stop breathing while sleeping.</br></br>Previously, Stacia served as Product Manager at Pluralsight, Adobe, Omniture, and Altiris/Symantec. She earned a degreed in Computer Science and Communication from Utah Valley University. She's mother to three children and holds the unique honor of being a finalist on the Bachelor.",
-	'twitter' => '',
+	'photo' => 'frontpc18/instructor_elainechao.jpg',
+	'bio' => "Elaine Chao is a product manager at Adobe Systems, currently working on Adobe XD. In her 12-year tenure at Adobe, she's worked as an engineer on a variety of products geared toward designers and web producers, including Dreamweaver, Edge Animate, and Creative Cloud Extract. Elaine is also a martial arts instructor, musician, writer, volunteerism advocate, and an Adobe Founders Award winner. You can find her online tweeting and blogging on Medium as @elainecchao.",
+	'twitter' => 'elainecchao',
 	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/stacialott/'
+	'linkedin' => 'https://www.linkedin.com/in/elaine-chao-41a5531/'
 );
 
 ?>

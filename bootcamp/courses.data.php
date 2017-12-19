@@ -99,14 +99,14 @@ $courses[] = array(
 	'level' => 'advanced'
 );
 
-// Stacia Lott
+// Elaine Chao
 $courses[] = array(
 	'title' => 'Product Zen:  Finding the perfect balance between business and customer needs',
-	'description' => "You already know how to build the right product for the customer, but sometimes customer needs don’t seem to translate into the business agenda.  With careful analysis and alignment, you _can_ achieve “product zen” - building the right product for both.</br>In this workshop you will learn to identify core pains of the business and reconcile those with the core pains of your users.  You’ll learn about what questions to ask, tools to calculate product value, and tips to persuade your business stakeholders.",
+	'description' => "How do you make sure your product actually meets the needs of your users? How do you figure out what goes onto your product roadmap after your first (or fortieth) release? Customer listening brings you to the point of understanding your customer’s pain points and the market opportunities that come as a result. In this workshop, we’ll review interview techniques, survey design, and cohort analysis to get tangible qualitative information to influence your roadmap.",
 	'track' => 'pm',
 	'day' => 2,
 	'slot' => 1,
-	'instructor' => 'stacialott',
+	'instructor' => 'elainechao',
 	'level' => 'basics'
 );
 
