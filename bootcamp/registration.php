@@ -49,7 +49,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</div>
 					</dt>
 					<dd class="early">$989</dd>
-					<dd class="standard">$1,299</dd>
+					<dd class="standard">$1,349</dd>
 				</dl>
 				<dl>
 					<dt>
@@ -59,7 +59,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</div>
 					</dt>
 					<dd class="early">$939</dd>
-					<dd class="standard">$1,229</dd>
+					<dd class="standard">$1,279</dd>
 				</dl>
 				<dl>
 					<dt>
@@ -69,7 +69,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</div>
 					</dt>
 					<dd class="early">$879</dd>
-					<dd class="standard">$1,159</dd>
+					<dd class="standard">$1,199</dd>
 				</dl>
 			</div>
 			-->
@@ -90,7 +90,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<small>10% off per ticket</small>
 						</div>
 					</dt>
-					<dd class="early">$1,299</dd>
+					<dd class="early">$1,349</dd>
 				</dl>
 				<dl>
 					<dt>
@@ -99,7 +99,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<small>15% off per ticket</small>
 						</div>
 					</dt>
-					<dd class="early">$1,229</dd>
+					<dd class="early">$1,279</dd>
 				</dl>
 				<dl>
 					<dt>
@@ -108,7 +108,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<small>20% off per ticket</small>
 						</div>
 					</dt>
-					<dd class="early">$1,159</dd>
+					<dd class="early">$1,199</dd>
 				</dl>
 			</div>
 			
