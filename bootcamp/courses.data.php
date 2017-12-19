@@ -101,7 +101,7 @@ $courses[] = array(
 
 // Elaine Chao
 $courses[] = array(
-	'title' => 'Product Zen:  Finding the perfect balance between business and customer needs',
+	'title' => 'Better Listening, Better Products',
 	'description' => "How do you make sure your product actually meets the needs of your users? How do you figure out what goes onto your product roadmap after your first (or fortieth) release? Customer listening brings you to the point of understanding your customer’s pain points and the market opportunities that come as a result. In this workshop, we’ll review interview techniques, survey design, and cohort analysis to get tangible qualitative information to influence your roadmap.",
 	'track' => 'pm',
 	'day' => 2,
