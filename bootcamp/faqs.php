@@ -77,8 +77,17 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<dd class="accordion-content answer">Yes, a complimentary shuttle will be provided from the DoubleTree Hilton and the venue at the beginning and end of the conference each day.</dd>
 						</dl>
 						<dl class="accordion">
+							<dt class="accordion-title question">What's the best way to get to the hotel and venue?</dt>
+							<dd class="accordion-content answer">If you are flying in, you can rent a car, use a shuttle, or take an Uber to get to the hotel or venue. There are several shuttle operators (<a href="http://www.allresort.com/">All Resorts Express</a> and <a href="http://www.parkcitytransportation.com/">Park City Transportation</a>) that run shared vans from the Salt Lake City airport to Park City and back for about $75 round trip. Uber and Lyft cost somewhere between $35 and $50 each way. Renting a car is the most cost effective option.
+</dd>
+						</dl>
+						<dl class="accordion">
 							<dt class="accordion-title question">Is there parking at or near the host hotel?</dt>
 							<dd class="accordion-content answer">Yes, there is ample free parking at the DoubleTree Hilton.</dd>
+						</dl>
+						<dl class="accordion">
+							<dt class="accordion-title question">Is there parking at or near the Olympic Park?</dt>
+							<dd class="accordion-content answer">Yes, there is ample free parking at Utah Olympic Park.</dd>
 						</dl>
 					</li>
 					<li class="faq-category">
