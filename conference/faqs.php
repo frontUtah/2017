@@ -55,35 +55,29 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 					</li>
 					
-					<!--
 					<li class="faq-category">
 						<h3>Hotel and Transportation</h3>
 						<dl class="accordion">
 							<dt class="accordion-title question">How do I book lodging? Is there a discount and what is the deadline?</dt>
-							<dd class="accordion-content answer">We have acquired a discounted nightly rate of $229/night + tax for a king bed and $249/night + tax for two queens, at the DoubleTree by Hilton Park City. The rate is available for stays between 1-9 January 2018. The deadline for booking lodging at the discounted rate is 1 December 2018. We encourage you to register early as it is ski season and the hotel will likely sell out before that date. Book your room online or by calling 855-537-5305 and asking for the “Front” (BL8) group discount. Free transportation between the venue and this hotel will be provided.</dd>
+							<dd class="accordion-content answer">We have acquired a discounted nightly rate of $179/night + tax for a single king or two queens beds, at the Salt Lake City Marriott City Center. The rate is available for stays between 20 May - 5 June 2018. The deadline for booking lodging at the discounted rate is 9 May 2018. We encourage you to register early as it the hotel will likely sell out before that date. Book your room online or by calling 855-537-5305 and asking for the “Front” group discount. The hotel is a block and a half (5 minute walk) from the theater.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Are there other hotels recommended?</dt>
-							<dd class="accordion-content answer">We highly recommend the DoubleTree by Hilton, as free transportation between the venue and that hotel will be provided. It is also at the foot of historic Main Street, where there is ample nightlife, entertainment, and dining options. That said, the Hyatt Place Park City and Holiday Inn Express Hotel & Suites Park City are closer to the venue and are also good options. Park City also has many timeshare and condominiums for rent that you can find by searching your favorite travel site for details and pricing.</dd>
+							<dd class="accordion-content answer">We highly recommend the Salt Lake City Marriott City Center, as we have arranged a discounted rate and because of the proximity to the venue. That said, the Salt Lake Marriott Downtown at City Creek, Hotel Monaco, Hilton Salt Lake City Center are also close to the venue and are also good options.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Can I cancel my hotel reservation if I am unable to attend?</dt>
 							<dd class="accordion-content answer">A Deposit equal to two (2) night’s stay is required to hold each individual’s reservation, with final payment due thirty (30) days prior to arrival. Reservations made within thirty (30) days of arrival will be required to be paid in full at time of booking. Such deposit shall serve to confirm the reservation for the date(s) indicated. This deposit is refundable if notice of cancellation is received at least thirty (30) days prior to arrival and a cancellation number is obtained. All deposits shall be charged at the time the reservation is made. No refunds for late arrivals, early departures or down grades.</dd>
 						</dl>
 						<dl class="accordion">
-							<dt class="accordion-title question">What forms of payment are accepted at Double Tree Hilton?</dt>
+							<dt class="accordion-title question">What forms of payment are accepted at Salt Lake City Marriott City Center?</dt>
 							<dd class="accordion-content answer">American dollars, American Express, Mastercard and Visa are all accepted forms of payment.</dd>
 						</dl>
 						<dl class="accordion">
-							<dt class="accordion-title question">Is there a shuttle to and from Front?</dt>
-							<dd class="accordion-content answer">Yes, a complimentary shuttle will be provided from the DoubleTree Hilton and the venue at the beginning and end of the conference each day.</dd>
-						</dl>
-						<dl class="accordion">
 							<dt class="accordion-title question">Is there parking at or near the host hotel?</dt>
-							<dd class="accordion-content answer">Yes, there is ample free parking at the DoubleTree Hilton.</dd>
+							<dd class="accordion-content answer">Yes, on-site parking for $4/hour or $17/day and valet parking for $22/day.</dd>
 						</dl>
 					</li>
-					-->
 					
 					<li class="faq-category">
 						<h3>Additional conference information</h3>
