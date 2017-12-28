@@ -54,7 +54,7 @@ switch($track) {
 
 		<nav class="course-track-nav">
 			<h4>Select Your Track</h4>
-			<div class="track-options">
+			<div class="track-options" onclick="">
 				<ul>
 					<!--Mobile Order: Actual Order. Desktop Order: Class Names. Bless you Flexbox-->
 
