@@ -1174,7 +1174,7 @@ footer p {
 }
 
 @media (max-width:999px) {
-	.hero {
+	.product-bootcamp-page .hero {
 		display: none;
 	}
 }
