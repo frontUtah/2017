@@ -901,37 +901,56 @@ footer p {
 }
 
 
+/*********** SECTION LANDING PAGES ************/
+
 .product-bootcamp .hero {
-	height: 554px;
+	height: auto;
 	background-image: url(../images/bootcamp-bg.jpg);
 	padding: 100px 40px 50px
 }
+
 .product-casestudy .hero {
 	background-image: url(../images/home-bg-10.jpg);
 }
+
 .product-bootcamp .hero h1 {
 	color: #FFF;
 	font-size: 30px;
 	line-height: 37px;
 	max-width: 1000px;
 }
+
 .product-bootcamp .hero ul {
 	margin-bottom: 60px
 }
+
 .product-bootcamp .hero ul li {
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 22px;
 	padding: 6px
 }
+
 .product-bootcamp .hero .date-location {
-	display: none
+	font-style: italic;
+	opacity: .7;
 }
+
 .product-bootcamp .hero .button {
 	width: 220px
 }
+
 .product-bootcamp .hero #broughtoyouby {
 	width: 220px;
+}
+
+.product-bootcamp .hero .date-location {
+	font-size: 14px;
+	margin-bottom: 50px;
+}
+
+.product-bootcamp .hero ul {
+	margin-bottom: 20px
 }
 
 @media (min-width:1000px) {
@@ -953,7 +972,6 @@ footer p {
 	.product-bootcamp .hero .date-location {
 		display: block;
 		font-size: 24px;
-		font-style: italic;
 		margin-bottom: 60px
 	}
 	.product-bootcamp .hero .button {
@@ -962,6 +980,15 @@ footer p {
 	.product-bootcamp .hero #broughtoyouby {
 		width: 292px;
 		float: right;
+	}
+	.product-bootcamp-page .hero, .product-schedule-front .hero, .product-conference-registration .hero, .product-conference-faq .hero {
+		display: block;
+		height: 392px
+	}
+	.product-bootcamp-page .hero h1, .product-schedule-front .hero h1, .product-conference-registration .hero h1, .product-conference-faq .hero h1 {
+		font-size: 56px;
+		color: #FFF;
+		padding-top: 200px
 	}
 }
 
@@ -991,19 +1018,6 @@ footer p {
 	background-image: url(../images/home-bg-9.jpg);
 	display: none
 }
-
-@media (min-width:1000px) {
-	.product-bootcamp-page .hero, .product-schedule-front .hero, .product-conference-registration .hero, .product-conference-faq .hero {
-		display: block;
-		height: 392px
-	}
-	.product-bootcamp-page .hero h1, .product-schedule-front .hero h1, .product-conference-registration .hero h1, .product-conference-faq .hero h1 {
-		font-size: 56px;
-		color: #FFF;
-		padding-top: 200px
-	}
-}
-
 
 
 
