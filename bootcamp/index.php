@@ -74,10 +74,8 @@ foreach($instructors as $instructor) {
 		</section>
 		<section class="highlight-video">
 			<h2>2017 Highlights</h2>
-			<div>
-				<a href="https://vimeo.com/216410956" class="thumnail video-thumbnail recap-video">
-					<img src="/images/ski-thumb.jpg" alt="">
-				</a>
+			<div href="https://vimeo.com/216410956" class="thumbnail video-thumbnail recap-video">
+				<img src="/images/ski-thumb.jpg" alt="">
 			</div>
 		</section>
 		<section class="training-courses">
