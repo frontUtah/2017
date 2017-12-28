@@ -7,7 +7,7 @@ $title = 'Venue - Front Salt Lake City 2018, 31 May - 1 June 2018';
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 ?>
-	<main class="venue-slc">
+	<main class="secondary venue-slc">
 		<section class="hero">
 			<p class="olympic-logo">&nbsp;</p>
 			<h1>Eccles Theater</h1>

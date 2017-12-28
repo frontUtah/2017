@@ -7,7 +7,7 @@ $title = 'Schedule - Front Salt Lake City 2018, 31 May - 1 June 2018';
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 ?>
-	<main class="product-schedule-front">
+	<main class="secondary product-schedule-front">
 		<section class="hero">
 			<h1>Schedule</h1>
 		</section>

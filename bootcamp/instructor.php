@@ -10,7 +10,7 @@ $title = $instructor['first'] . ' ' . $instructor['last'] . ' - Front Park City 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 ?>
-	<main class="product-bootcamp-page">
+	<main class="secondary product-bootcamp-page">
 		<section class="hero">
 			<h1>Instructors</h1>
 		</section>

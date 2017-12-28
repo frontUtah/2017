@@ -7,7 +7,7 @@ $title = 'Venue - Front Park City 2018, 4-5 January 2018';
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 ?>
-	<main class="venue">
+	<main class="secondary venue">
 		<section class="hero">
 			<p class="olympic-logo"><img src="/images/olympic-logo.png" alt=""></p>
 			<h1>Utah Olympic Sports Park</h1>

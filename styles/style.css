@@ -1173,12 +1173,6 @@ footer p {
 	}
 }
 
-@media (max-width:999px) {
-	.product-bootcamp-page .hero {
-		display: none;
-	}
-}
-
 .product-bootcamp-page .hero {
 	background-image: url(../images/bootcamp-bg.jpg);
 }
@@ -1205,7 +1199,16 @@ footer p {
 
 
 
-/* ARTICLE PAGE */
+/* SECONDARY PAGE (subs of section; generally, anything besides home, section landing, and article pages) */
+
+@media (max-width:999px) {
+	.secondary:not(.venue) .hero {
+		display: none;
+	}
+}
+
+
+/* ARTICLE PAGE (like terms and conditions) */
 
 .article-page .hero {
 	background-image: url(../images/article-bg.png);

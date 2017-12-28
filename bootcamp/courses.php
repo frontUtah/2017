@@ -24,7 +24,7 @@ $tabs[] = array('link' => 'leadership', 'text' => 'Leadership');
 
 ?>
 
-<main class="product-bootcamp-page">
+<main class="secondary product-bootcamp-page">
 	<section class="hero">
 		<h1>Courses</h1>
 	</section>

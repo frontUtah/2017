@@ -7,7 +7,7 @@ $title = 'Why attend - Front Park City 2018, 4-5 January 2018';
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 ?>
-	<main class="product-bootcamp-page">
+	<main class="secondary product-bootcamp-page">
 		<section class="hero">
 			<h1>Why Attend</h1>
 		</section>
