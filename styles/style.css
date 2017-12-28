@@ -1898,20 +1898,28 @@ section.sponsors .second_tier .second_tier_sponsor {
 /* ==================== PHOTO COLLAGE ==================== */
 
 @media (min-width:1000px) {
-section.photo-collage {
-	padding: 58px 0 0
+	section.photo-collage {
+		padding: 58px 0 0
+	}
+	section.photo-collage .desktop {
+		display: block
+	}
+	section.photo-collage .mobile {
+		display: none
+	}
 }
-section.photo-collage .desktop {
-	display: block
-}
-section.photo-collage .mobile {
-	display: none
-}
-}
+
 section.schedule-breakdown .timeline {
 	text-align: left
 }
-
+section.schedule-breakdown .timeline dd p {
+	margin: 10px 0;
+	line-height: 18px;
+}
+section.schedule-breakdown .timeline dd a {
+	text-decoration: none;
+}
+	
 @media (max-width:999px) {
 	section.schedule-breakdown {
 		padding: 70px 0 0
@@ -1935,14 +1943,12 @@ section.schedule-breakdown .timeline {
 		padding: 14px 45px
 	}
 	section.schedule-breakdown .timeline .time, section.schedule-breakdown .timeline dd p {
-		font-size: 18px
+		font-size: 18px;
+		margin: 5px 0;
 	}
 	section.schedule-breakdown .timeline dd {
 		color: #B2B2B2;
 		position: relative
-	}
-	section.schedule-breakdown .timeline dd p {
-		margin-top: 0
 	}
 	section.schedule-breakdown .timeline dd h4 {
 		font-size: 24px;
@@ -1992,14 +1998,14 @@ section.schedule-breakdown .timeline {
 		text-align: left;
 		font-weight: 700;
 		color: #333;
-		margin: 0 0 10px 150px
+		margin: 0 0 10px 140px
 	}
 	section.schedule-breakdown .schedule-day {
 		max-width: 1120px;
 		margin: 0 auto
 	}
 	section.schedule-breakdown .schedule-day:not(:last-child) {
-		margin-bottom: 120px
+		margin-bottom: 60px
 	}
 	section.schedule-breakdown .timeline li {
 		display: flex;
@@ -2032,15 +2038,17 @@ section.schedule-breakdown .timeline {
 		margin: 10px;
 		box-sizing: border-box
 	}
+	section.schedule-breakdown .timeline dd a {
+		color: white;
+	}
 	section.schedule-breakdown .timeline dd h4 {
 		font-size: 18px;
 		line-height: 14px;
 		font-weight: 700;
-		color: #FFF
+		color: #FFF;
 	}
 	section.schedule-breakdown .timeline dd p {
 		font-size: 14px;
-		margin: 0
 	}
 	section.schedule-breakdown .timeline dd.food {
 		padding: 10px 20px
@@ -2056,6 +2064,25 @@ section.schedule-breakdown .timeline {
 	}
 	section.schedule-breakdown .timeline dd.leadership {
 		background: #E2B700
+	}
+	section.schedule-breakdown .timeline .category dd {
+		background: none;
+	}
+	section.schedule-breakdown .timeline .category dd.ux,
+	section.schedule-breakdown .timeline .category dd.ux h4 {
+		color: #FD7C00;
+	}
+	section.schedule-breakdown .timeline .category dd.pm,
+	section.schedule-breakdown .timeline .category dd.pm h4 {
+		color: #006F9E;
+	}
+	section.schedule-breakdown .timeline .category dd.research,
+	section.schedule-breakdown .timeline .category dd.research h4 {
+		color: #653789;
+	}
+	section.schedule-breakdown .timeline .category dd.leadership,
+	section.schedule-breakdown .timeline .category dd.leadership h4 {
+		color: #E2B700;
 	}
 }
 
