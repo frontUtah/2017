@@ -1,139 +1,176 @@
-/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */button, hr, input {
+button, hr, input {
 	overflow: visible
 }
+
 img, legend {
 	max-width: 100%
 }
+
 audio, canvas, progress, video {
 	display: inline-block
 }
+
 progress, sub, sup {
 	vertical-align: baseline
 }
+
 [type=checkbox], [type=radio], legend {
 	box-sizing: border-box;
 	padding: 0
 }
+
 html {
 	font-family: sans-serif;
 	line-height: 1.15;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%
 }
+
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section {
 	display: block
 }
+
 h1 {
 	font-size: 2em
 }
+
 figure {
 	margin: 1em 40px
 }
+
 hr {
 	box-sizing: content-box;
 	height: 0
 }
+
 code, kbd, pre, samp {
 	font-family: monospace, monospace;
 	font-size: 1em
 }
+
 a {
 	background-color: transparent;
 	-webkit-text-decoration-skip: objects;
 	color: #FD7C00
 }
+
 a:active, a:hover {
 	outline-width: 0
 }
+
 abbr[title] {
 	border-bottom: none;
 	text-decoration: underline;
 	text-decoration: underline dotted
 }
+
 .button, .instructor a, .primary-header a, button, footer .main-footer-nav a {
 	text-decoration: none
 }
+
 dfn {
 	font-style: italic
 }
+
 mark {
 	background-color: #ff0;
 	color: #000
 }
+
 small {
 	font-size: 80%
 }
+
 sub, sup {
 	font-size: 75%;
 	line-height: 0;
 	position: relative
 }
+
 sub {
 	bottom: -.25em
 }
+
 sup {
 	top: -.5em
 }
+
 audio:not([controls]) {
 	display: none;
 	height: 0
 }
+
 img {
 	border-style: none
 }
+
 svg:not(:root) {
 	overflow: hidden
 }
+
 button, input, optgroup, select, textarea {
 	font-family: sans-serif;
 	font-size: 100%;
 	line-height: 1.15;
 	margin: 0
 }
+
 button, select {
 	text-transform: none
 }
+
 [type=reset], [type=submit], button, html [type=button] {
 	-webkit-appearance: button
 }
+
 [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner, button::-moz-focus-inner {
-border-style:none;
-padding:0
+	border-style:none;
+	padding:0
 }
+
 [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring, button:-moz-focusring {
-outline:ButtonText dotted 1px
+	outline:ButtonText dotted 1px
 }
+
 fieldset {
 	border: 1px solid silver;
 	margin: 0 2px;
 	padding: .35em .625em .75em
 }
+
 legend {
 	color: inherit;
 	display: table;
 	white-space: normal
 }
+
 textarea {
 	overflow: auto
 }
+
 [type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
-height:auto
+	height:auto
 }
+
 [type=search] {
 	-webkit-appearance: textfield;
 	outline-offset: -2px
 }
+
 .button, .input input, button {
 	outline: 0;
 	box-sizing: border-box
 }
+
 [type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
--webkit-appearance:none
+	-webkit-appearance:none
 }
+
 ::-webkit-file-upload-button {
--webkit-appearance:button;
-font:inherit
+	-webkit-appearance:button;
+	font:inherit
 }
+
 summary {
 	display: list-item
 }
@@ -173,39 +210,48 @@ body {
 	color: #333;
 	text-align: center
 }
+
 b, strong {
 	font-weight: 700
 }
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
 	font-weight: 200;
 	margin: 0;
 	color: #666
 }
+
 h1.accent, h2.accent, h3.accent, h4.accent, h5.accent, h6.accent {
 	color: #FD7C00
 }
+
 h1.logo, h2.logo, h3.logo, h4.logo, h5.logo, h6.logo {
 	text-indent: -9999px;
 	background: url(../images/logo.svg) no-repeat;
 	background-size: contain
 }
+
 .button, .label, button {
 	color: #FFF;
 	background: #FD7C00;
 	text-transform: uppercase
 }
+
 a:hover {
 	opacity: .75
 }
+
 li, ol, ul {
 	list-style: none;
 	margin: 0;
 	padding: 0
 }
+
 section {
 	padding: 70px 40px
 }
+
 section h2 {
 	font-size: 30px;
 	line-height: 37px
@@ -243,17 +289,20 @@ section h2 {
 dd, dt {
 	margin: 0
 }
+
 .label {
 	font-weight: 700;
 	font-size: 12px;
 	border-radius: 14px;
 	padding: 6px 20px
 }
+
 .accordion .accordion-title {
 	cursor: pointer;
 	padding-left: 20px;
 	position: relative
 }
+
 .accordion .accordion-title:before {
 	content: '';
 	display: inline-block;
@@ -265,20 +314,25 @@ dd, dt {
 	top: .5em;
 	left: 0
 }
+
 .accordion:not(.open) .accordion-title:before {
 	transform: rotate(-90deg);
 	left: 2px
 }
+
 .accordion .accordion-content {
 	display: none
 }
+
 .accordion.open .accordion-content {
 	display: block;
 	padding-left: 20px
 }
+
 .input {
 	margin-bottom: 20px
 }
+
 .input label {
 	display: block;
 	font-size: 18px;
@@ -286,16 +340,19 @@ dd, dt {
 	color: #666;
 	margin-bottom: 7px
 }
+
 .input input {
 	width: 100%;
 	border-radius: 3px;
 	padding: 12px 10px;
 	border: 1px solid #999
 }
+
 .video-thumbnail {
 	cursor: pointer;
 	position: relative
 }
+
 .video-thumbnail:before {
 	content: '';
 	display: inline-block;
@@ -321,11 +378,13 @@ dd, dt {
 	max-width: 375px;
 	margin: 0 auto
 }
+
 .instructor .instructor-photo {
 	position: relative;
 	overflow: hidden;
 	margin-bottom: 17px
 }
+
 .instructor .instructor-photo:after {
 	content: '';
 	width: 140px;
@@ -336,44 +395,56 @@ dd, dt {
 	right: -70px;
 	transform: rotate(45deg)
 }
+
 .instructor .instructor-photo img {
 	display: block
 }
+
 .primary-header a, .social-nav li, .social-nav li a {
 	display: inline-block
 }
+
 .instructor h4 {
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 24px;
 	margin: 10px 0 3px 0;
 }
+
 .instructor .title {
 	font-size: 18px;
 	line-height: 22px;
 	margin: 0
 }
+
 .instructor.pm .instructor-photo:after, .instructor.pm .label {
 	background: #006F9E
 }
+
 .instructor.pm .title, .instructor.pm h4 {
 	color: #006F9E
 }
+
 .instructor.ux .instructor-photo:after, .instructor.ux .label {
 	background: #FD7C00
 }
+
 .instructor.ux .title, .instructor.ux h4 {
 	color: #FD7C00
 }
+
 .instructor.research .instructor-photo:after, .instructor.research .label {
 	background: #653789
 }
+
 .instructor.research .title, .instructor.research h4 {
 	color: #653789
 }
+
 .instructor.leadership .instructor-photo:after, .instructor.leadership .label {
 	background: #E2B700
 }
+
 .instructor.leadership .title, .instructor.leadership h4 {
 	color: #E2B700
 }
@@ -383,18 +454,23 @@ dd, dt {
 		width: 200px;
 		margin: 6px 15px
 	}
+
 	.instructor .instructor-photo {
 		margin-bottom: 6px
 	}
+
 	.instructor .instructor-photo:after {
 		width: 100px
 	}
+
 	.instructor h4, .instructor p {
 		text-align: left
 	}
+
 	.instructor h4 {
 		font-size: 20px
 	}
+
 	.instructor .title {
 		font-size: 14px;
 		line-height: 17px
@@ -408,27 +484,34 @@ dd, dt {
 	right: 0;
 	z-index: 10
 }
+
 main {
 	margin-top: 50px
 }
+
 .social-nav li a {
 	text-indent: -9999px;
 	width: 40px;
 	height: 50px
 }
+
 .social-nav li .twitter {
 	background: url(../images/icon-sprite.svg) -200px 7px no-repeat
 }
+
 .social-nav li .linkedin {
 	background: url(../images/icon-sprite.svg) -200px -39px no-repeat
 }
+
 .social-nav li .instagram {
 	background: url(../images/icon-sprite.svg) -240px 7px no-repeat
 }
+
 .primary-header {
 	background: #333;
 	color: #B2B2B2
 }
+
 .primary-header a {
 	color: #B2B2B2;
 	text-transform: uppercase;
@@ -439,16 +522,19 @@ main {
 	margin-bottom: 9px
 	text-decoration: none;
 }
+
 .primary-header a.home {
 	text-indent: -9999px;
 	background: url(../images/icon-sprite.svg) -115px 9px no-repeat;
 	width: 50px;
 	height: 50px
 }
+
 .primary-header a.active:not(.home) {
 	color: #FD7C00;
 	font-weight: 700
 }
+
 .primary-header a.active:not(.home):after {
 	content: '';
 	background: url(../images/icon-sprite.svg) -96px -57px no-repeat;
@@ -459,16 +545,20 @@ main {
 	margin-top: -5px;
 	vertical-align: middle
 }
+
 .primary-header .primary-nav {
 	height: 50px;
 	overflow: hidden
 }
+
 .primary-header .primary-nav.open {
 	height: auto
 }
+
 .primary-header .primary-nav ul {
 	margin-bottom: 36px
 }
+
 .primary-header .social-nav {
 	display: none
 }
@@ -477,6 +567,7 @@ main {
 	.primary-header {
 		display: flex
 	}
+
 	.primary-header a {
 		font-size: 14px;
 		padding: 0 18px;
@@ -484,6 +575,7 @@ main {
 		position: relative;
 		margin: 0
 	}
+
 	.primary-header a.active:not(.home):after {
 		background: #FD7C00;
 		height: 2px;
@@ -494,27 +586,34 @@ main {
 		left: 18px;
 		right: 18px
 	}
+
 	.primary-header .primary-nav {
 		height: auto;
 		overflow: visible;
 		flex: 1
 	}
+
 	.primary-header .primary-nav ul {
 		display: flex;
 		margin: 0
 	}
+
 	.primary-header .primary-nav ul .order-1 {
 		order: 1
 	}
+
 	.primary-header .primary-nav ul .order-2 {
 		order: 2
 	}
+
 	.primary-header .primary-nav ul .order-3 {
 		order: 3
 	}
+
 	.primary-header .primary-nav ul .order-4 {
 		order: 4
 	}
+
 	.primary-header .primary-nav ul .order-5 {
 		order: 5
 	}
@@ -528,13 +627,16 @@ main {
 		right: 0;
 		z-index: 10
 	}
+
 	.primary-header a {
 		padding: 0 24px
 	}
+
 	.primary-header a.active:not(.home):after {
 		left: 24px;
 		right: 24px
 	}
+
 	.primary-header .social-nav {
 		display: block
 	}
@@ -554,6 +656,7 @@ main {
 	background: #474747;
 	color: #FFF
 }
+
 .section-header.sticky {
 	position: fixed;
 	top: 0;
@@ -561,20 +664,24 @@ main {
 	right: 0;
 	z-index: 10
 }
+
 .section-header .section-nav {
 	height: 50px;
 	overflow: hidden
 }
+
 .section-header .section-nav .section-nav-head {
 	display: flex;
 	border-bottom: 1px solid #666;
 	height: 50px
 }
+
 .section-header .section-nav .section-nav-head h3 {
 	flex: 1;
 	color: #FFF;
 	margin: 12px 16px 16px 16px;
 }
+
 .section-header .section-nav .menu-toggle {
 	background: 0 0;
 	color: #B2B2B2;
@@ -583,6 +690,7 @@ main {
 	line-height: 50px;
 	letter-spacing: normal
 }
+
 .section-header .section-nav .menu-toggle:before {
 	content: '|||';
 	display: inline-block;
@@ -591,37 +699,46 @@ main {
 	font-size: 26px;
 	color: #FFF
 }
+
 .section-header .section-nav.open {
 	height: auto
 }
+
 .section-header .section-nav.open .menu-toggle:before {
 	content: '\D7';
 	font-weight: 200;
 	font-size: 35px
 }
+
 .section-header .section-nav ul {
 	display: flex;
 	flex-wrap: wrap;
 	padding: 12px 20px
 }
+
 .section-header .section-nav ul li {
 	padding: 20px;
 	box-sizing: border-box
 }
+
 .section-header .section-nav ul li a {
 	font-size: 18px;
 	text-decoration: none
 }
+
 .section-header .section-nav ul li:not(:last-child) {
 	width: 50%;
 	text-align: left
 }
+
 .section-header .section-nav ul li:not(:last-child) a {
 	color: #FFF
 }
+
 .section-header .section-nav ul li:last-child {
 	width: 100%
 }
+
 .section-header .section-nav ul li:last-child .button {
 	background: #FFF;
 	color: #474747;
@@ -635,13 +752,16 @@ main {
 	.section-header:not(.sticky) {
 		background: rgba(0,0,0,0)
 	}
+
 	.section-header.sticky {
 		top: 50px
 	}
+
 	.section-header.sticky .section-nav {
 		padding-top: 8px;
 		padding-bottom: 4px
 	}
+
 	.section-header .section-nav {
 		height: auto;
 		overflow: visible;
@@ -649,37 +769,45 @@ main {
 		align-items: center;
 		padding: 23px 20px
 	}
+
 	.section-header .section-nav .section-nav-head {
 		border: none;
 		width: auto;
 		height: auto
 	}
+
 	.section-header .section-nav .logo {
 		width: 189px;
 		height: 25px;
 		margin: 0
 	}
+
 	.section-header .section-nav ul {
 		flex: 1;
 		display: block;
 		display: flex;
 		justify-content: flex-end
 	}
+
 	.section-header .section-nav ul li {
 		padding: 0
 	}
+
 	.section-header .section-nav ul li a:not(.button) {
 		padding: 10px 13px
 	}
+
 	.section-header .section-nav ul li:last-child .button {
 		padding: 8px 24px;
 		margin-bottom: 0;
 		margin-top: -4px;
 		margin-left: 20px;
 	}
+
 	.section-header .section-nav ul li:last-child, .section-header .section-nav ul li:last-child .button, .section-header .section-nav ul li:not(:last-child) {
 		width: auto
 	}
+
 	.section-header .menu-toggle {
 		display: none
 	}
@@ -689,10 +817,12 @@ main {
 	.section-header .section-nav {
 		padding: 23px 65px
 	}
+
 	.section-header .section-nav .logo {
 		width: 230px;
 		height: 31px
 	}
+
 	.section-header .section-nav ul li a:not(.button) {
 		padding: 10px 25px;
 	}
@@ -703,26 +833,32 @@ footer {
 	color: #FFF;
 	padding: 45px 40px 60px
 }
+
 footer .social-nav {
 	width: 200px;
 	margin: 0 auto
 }
+
 footer .logo, footer .main-footer-nav {
 	margin-bottom: 60px
 }
+
 footer .logo {
 	background-position: center;
 	height: 33px
 }
+
 footer .main-footer-nav a {
 	font-size: 17px;
 	color: #FFF;
 	display: inline-block;
 	padding: 5px
 }
+
 footer p {
 	font-size: 12px
 }
+
 .hero {
 	height: 0;
 	box-sizing: border-box;
@@ -735,20 +871,25 @@ footer p {
 	footer {
 		padding-top: 83px
 	}
+
 	footer .social-nav {
 		transform: scale(1.5);
 		margin-bottom: 20px
 	}
+
 	footer .main-footer-nav {
 		margin-bottom: 90px
 	}
+
 	footer .main-footer-nav li {
 		display: inline-block
 	}
+
 	footer .main-footer-nav a {
 		font-size: 14px;
 		padding: 5px 20px
 	}
+
 	.hero {
 		background-size: cover
 	}
@@ -764,48 +905,61 @@ footer p {
 	padding: 95px 25px 70px;
 	height: 500px
 }
+
 .home .hero .logo {
 	background-position: center;
 	height: 33px
 }
+
 .home .hero h2 {
 	color: #FFF;
 	font-weight: 800;
 	font-size: 40px
 }
+
 .home .hero p {
 	font-size: 30px;
 	font-weight: 200;
 	margin: 42px 0 102px;
 	line-height: 37px
 }
+
 .home .hero.image-1 {
 	background-image: url(../images/home-bg-1.jpg)
 }
+
 .home .hero.image-2 {
 	background-image: url(../images/home-bg-2.jpg)
 }
+
 .home .hero.image-3 {
 	background-image: url(../images/home-bg-3.jpg)
 }
+
 .home .hero.image-4 {
 	background-image: url(../images/home-bg-4.jpg)
 }
+
 .home .hero.image-5 {
 	background-image: url(../images/home-bg-5.jpg)
 }
+
 .home .hero.image-6 {
 	background-image: url(../images/home-bg-6.jpg)
 }
+
 .home .hero.image-7 {
 	background-image: url(../images/home-bg-7.jpg)
 }
+
 .home .hero.image-8 {
 	background-image: url(../images/home-bg-8.jpg)
 }
+
 .home .hero.image-9 {
 	background-image: url(../images/home-bg-9.jpg)
 }
+
 .home .hero.image-10 {
 	background-image: url(../images/home-bg-10.jpg)
 }
@@ -815,13 +969,16 @@ footer p {
 		height: 922px;
 		padding-top: 120px
 	}
+
 	.home .hero .logo {
 		height: 60px
 	}
+
 	.home .hero p {
 		font-size: 24px;
 		margin: 70px 0 240px
 	}
+
 	.home .hero h2 {
 		font-size: 80px
 	}
@@ -833,6 +990,7 @@ footer p {
 	padding: 70px 70px 40px;
 	background-image: url(../images/eccles_front_1.jpg)
 }
+
 .venue-slc .hero h1 {
 	font-size: 30px;
 	font-weight: 200;
@@ -844,15 +1002,18 @@ footer p {
 		height: 917px;
 		padding: 600px 140px 70px 140px
 	}
+
 	.venue-slc .hero h1 {
 		font-size: 50px;
 		text-align: left
 	}
+
 	.venue-slc .hero .location {
 		font-size: 24px;
 		font-weight: 700;
 		text-align: left
 	}
+
 	.venue-slc .hero .olympic-logo img {
 		width: 273px
 	}
@@ -864,12 +1025,15 @@ footer p {
 	padding: 70px 70px 40px;
 	background-image: url(../images/venue-bg.jpg)
 }
+
 .venue .hero .olympic-logo {
 	margin-bottom: 155px
 }
+
 .venue .hero .olympic-logo img {
 	width: 128px
 }
+
 .venue .hero h1 {
 	font-size: 30px;
 	font-weight: 200;
@@ -881,20 +1045,24 @@ footer p {
 		height: 917px;
 		padding: 70px 140px
 	}
+
 	.venue .hero h1 {
 		font-size: 50px;
 		text-align: left
 	}
+
 	.venue .hero .location {
 		font-size: 24px;
 		font-weight: 700;
 		text-align: left
 	}
+
 	.venue .hero .olympic-logo {
 		text-align: right;
 		margin-top: 140px;
 		margin-bottom: 230px
 	}
+
 	.venue .hero .olympic-logo img {
 		width: 273px
 	}
@@ -958,9 +1126,11 @@ footer p {
 		height: 1070px;
 		padding: 200px 130px 50px
 	}
+
 	.product-bootcamp .hero h1, .product-bootcamp .hero li, .product-bootcamp .hero p {
 		text-align: left
 	}
+
 	.product-bootcamp .hero h1 {
 		font-size: 80px;
 		line-height: 98px
@@ -969,22 +1139,27 @@ footer p {
 		font-size: 36px;
 		line-height: 44px
 	}
+
 	.product-bootcamp .hero .date-location {
 		display: block;
 		font-size: 24px;
 		margin-bottom: 60px
 	}
+
 	.product-bootcamp .hero .button {
 		width: auto
 	}
+
 	.product-bootcamp .hero #broughtoyouby {
 		width: 292px;
 		float: right;
 	}
+
 	.product-bootcamp-page .hero, .product-schedule-front .hero, .product-conference-registration .hero, .product-conference-faq .hero {
 		display: block;
 		height: 392px
 	}
+
 	.product-bootcamp-page .hero h1, .product-schedule-front .hero h1, .product-conference-registration .hero h1, .product-conference-faq .hero h1 {
 		font-size: 56px;
 		color: #FFF;
@@ -1007,18 +1182,22 @@ footer p {
 .product-bootcamp-page .hero {
 	background-image: url(../images/bootcamp-bg.jpg);
 }
+
 .product-schedule-front .hero {
 	background-image: url(../images/home-bg-2.jpg);
 	background-position: center center;
 }
 
+
 .product-conference-registration .hero {
 	background-image: url(../images/home-bg-7.jpg);
 	background-position: center center;
 }
+
 .product-conference-faq .hero {
 	background-image: url(../images/home-bg-8.jpg);
 }
+
 .product-why .hero {
 	background-image: url(../images/home-bg-9.jpg);
 }
@@ -1038,6 +1217,7 @@ footer p {
 		display: block;
 		height: 392px
 	}
+
 	.article-page .hero h1 {
 		font-size: 56px;
 		color: #FFF;
@@ -1087,9 +1267,11 @@ footer p {
 	section.body {
 		padding-top: 40px;
 	}
+
 	section.body h2 {
 		margin: 0px
 	}
+
 	section.body h4 {
 		font-size: 24px;
 		line-height: 29px;
@@ -1103,12 +1285,14 @@ footer p {
 	height: 550px;
 	padding-top: 310px
 }
+
 .custom-training .hero h1 {
 	color: #FFF;
 	font-size: 30px;
 	line-height: 37px;
 	margin-bottom: 30px
 }
+
 .custom-training .hero p {
 	font-size: 18px;
 	line-height: 22px;
@@ -1121,9 +1305,11 @@ footer p {
 		text-align: left;
 		padding: 650px 120px 40px
 	}
+
 	.custom-training .hero h1 {
 		font-size: 80px
 	}
+
 	.custom-training .hero p {
 		font-size: 36px;
 		line-height: 44px
@@ -1134,17 +1320,21 @@ section.spotlight {
 	padding-left: 0;
 	padding-right: 0
 }
+
 section.spotlight li:not(:last-child) {
 	margin-bottom: 80px
 }
+
 section.spotlight h3 {
 	font-size: 24px;
 	font-weight: 700
 }
+
 section.spotlight .date-location {
 	font-size: 18px;
 	margin-top: 0
 }
+
 section.spotlight .description {
 	max-width: 400px;
 	margin: 20px auto 45px;
@@ -1156,29 +1346,36 @@ section.spotlight .description {
 		margin-top: -330px;
 		padding-bottom: 152px
 	}
+
 	section.spotlight .date-location, section.spotlight h3 {
 		color: #FFF
 	}
+
 	section.spotlight .date-location {
 		margin: 8px 0 33px
 	}
+
 	section.spotlight .description {
 		font-size: 24px;
 		width: 290px;
 		margin-bottom: 77px
 	}
+
 	section.spotlight ul {
 		display: flex;
 		align-items: stretch
 	}
+
 	section.spotlight ul li:not(:last-child) {
 		margin-bottom: 0
 	}
+
 	section.spotlight ul li {
 		flex: 1;
 		padding: 0 10px 74px;
 		position: relative
 	}
+
 	section.spotlight ul li .button {
 		position: absolute;
 		bottom: 0;
@@ -1196,11 +1393,13 @@ section.about {
 	section.about {
 		padding: 90px 40px 110px
 	}
+
 	section.about h2 {
 		font-size: 56px;
 		line-height: 1em;
 		margin-bottom: 53px
 	}
+
 	section.about p {
 		font-size: 24px;
 		max-width: 870px;
@@ -1212,18 +1411,22 @@ section.about {
 section.personal-stories ul {
 	margin-bottom: 70px
 }
+
 section.personal-stories li {
 	margin: 40px 0
 }
+
 section.personal-stories h3 {
 	font-size: 24px;
 	font-weight: 700
 }
+
 section.personal-stories p {
 	font-size: 18px;
 	line-height: 22px;
 	margin-top: 0
 }
+
 section.personal-stories .card-image {
 	margin: 0 -40px
 }
@@ -1232,28 +1435,34 @@ section.personal-stories .card-image {
 	section.personal-stories {
 		padding: 100px 0 180px
 	}
+
 	section.personal-stories h2 {
 		font-size: 56px;
 		line-height: 1em;
 		margin-bottom: 42px
 	}
+
 	section.personal-stories h3 {
 		font-size: 20px
 	}
+
 	section.personal-stories p {
 		font-size: 14px
 	}
+
 	section.personal-stories ul {
 		display: flex;
 		flex-wrap: wrap;
 		margin: 20px 0 55px
 	}
+
 	section.personal-stories li {
 		width: 50%;
 		box-sizing: border-box;
 		padding: 1px;
 		margin: 18px 0
 	}
+
 	section.personal-stories .card-image {
 		margin: 0
 	}
@@ -1276,6 +1485,7 @@ section.attendee-stats {
 	section.attendee-stats {
 		padding: 62px 40px
 	}
+
 	section.attendee-stats p {
 		font-size: 48px;
 		line-height: 1.5em;
@@ -1287,9 +1497,11 @@ section.attendee-stats {
 section.bootcamp-about h2 {
 	margin-bottom: 36px
 }
+
 section.bootcamp-about p {
 	line-height: 32px
 }
+
 section.bootcamp-about .image {
 	margin: 52px -42px 0
 }
@@ -1303,17 +1515,21 @@ section.bootcamp-about .image {
 		width: 1066px;
 		margin: 0 auto
 	}
+
 	section.bootcamp-about h2 {
 		font-size: 28px;
 		line-height: 40px
 	}
+
 	section.bootcamp-about .content {
 		width: 438px
 	}
+
 	section.bootcamp-about .content p {
 		font-size: 18px;
 		line-height: 28px
 	}
+
 	section.bootcamp-about .image {
 		margin: 0;
 		flex: 1;
@@ -1324,6 +1540,7 @@ section.bootcamp-about .image {
 section.instructor-preview {
 	padding: 70px 0 30px
 }
+
 section.instructor-preview h2 {
 	margin-bottom: 55px
 }
@@ -1332,9 +1549,11 @@ section.instructor-preview h2 {
 	section.instructor-preview {
 		padding: 70px 100px
 	}
+
 	section.instructor-preview h2 {
 		font-size: 56px
 	}
+
 	section.instructors h2 {
 		display: none
 	}
@@ -1344,6 +1563,7 @@ section.instructor-preview h2 {
 	section.instructors {
 		padding: 70px 0 0
 	}
+
 	section.instructors h2 {
 		margin: 20px 0 60px
 	}
@@ -1352,28 +1572,34 @@ section.instructor-preview h2 {
 section.individual-instructor .details {
 	padding-bottom: 55px
 }
+
 section.individual-instructor .instructor-content {
 	text-align: left;
 	padding: 27px
 }
+
 section.individual-instructor .instructor-content h3 {
 	font-size: 20px;
 	font-weight: 700;
 	line-height: 32px;
 	color: #333
 }
+
 section.individual-instructor .instructor-content .about-instructor {
 	font-style: italic
 }
+
 section.individual-instructor .instructor-content p {
 	line-height: 28px
 }
+
 section.individual-instructor .social-nav {
 	filter: invert(100%);
 	transform: scale(1.5);
 	width: 200px;
 	margin: 0 auto
 }
+
 section.individual-instructor .instructor {
 	padding-bottom: 0
 }
@@ -1391,6 +1617,7 @@ section.individual-instructor .instructor-content li {
 	section.individual-instructor {
 		padding: 70px 0 0
 	}
+
 	section.individual-instructor h2 {
 		margin: 20px 0 60px
 	}
@@ -1400,52 +1627,66 @@ section.individual-instructor .instructor-content li {
 	section.individual-instructor {
 		text-align: left
 	}
+
 	section.individual-instructor h2 {
 		display: none
 	}
+
 	section.individual-instructor .instructor-profile {
 		display: flex;
 		max-width: 1058px;
 		margin: 0 auto
 	}
+
 	section.individual-instructor .instructor-profile .details, section.individual-instructor .instructor-profile .instructor-content {
 		flex: 1
 	}
+
 	section.individual-instructor .social-nav {
 		margin: 60px 0 0 40px
 	}
+
 	section.individual-instructor .instructor {
 		width: auto;
 		max-width: none
 	}
+
 	section.individual-instructor .instructor .instructor-photo {
 		margin-bottom: 18px;
 		width:400px;
 	}
+
 	section.individual-instructor .instructor .instructor-photo:after {
 		width: 140px
 	}
+
 	section.individual-instructor .instructor h4 {
 		font-size: 28px;
 		margin-bottom: 10px
 	}
+
 	section.individual-instructor .instructor p {
 		font-size: 18px;
 		line-height: 22px
 	}
+
 	section.individual-instructor .course-description {
 		margin-bottom: 100px
 	}
+
 	section.individual-instructor .course-description h3 {
 		font-size: 24px;
 		line-height: 32px
 	}
+
 	section.individual-instructor .about-instructor h3 {
 		font-size: 18px
 	}
+
 	section.individual-instructor .instructor-content {
 		padding-top: 0
 	}
+
 	section.individual-instructor .instructor-content p,
 	section.individual-instructor .instructor-content	 {
 		font-size: 18px;
@@ -1456,50 +1697,63 @@ section.individual-instructor .instructor-content li {
 section.courses .about-courses {
 	padding: 0 25px
 }
+
 section.courses .course-calendar h3 {
 	background: #FD7C00;
 	color: #FFF;
 	font-size: 24px;
 	line-height: 60px
 }
+
 section.courses .course-calendar .time {
 	font-size: 24px;
 	line-height: 70px;
 	color: #FD7C00
 }
+
 section.courses .course-calendar .time .am-pm {
 	opacity: .6
 }
+
 section.courses .course-calendar .description {
 	text-align: left;
 	padding: 0 25px;
 	margin-bottom: 50px
 }
+
 section.courses .course-calendar .description h4 {
 	font-weight: 700;
 	color: #333
 }
+
 section.courses.ux .course-calendar h3 {
 	background: #FD7C00
 }
+
 section.courses.ux .course-calendar .time {
 	color: #FD7C00
 }
+
 section.courses.pm .course-calendar h3 {
 	background: #006F9E
 }
+
 section.courses.pm .course-calendar .time {
 	color: #006F9E
 }
+
 section.courses.research .course-calendar h3 {
 	background: #653789
 }
+
 section.courses.research .course-calendar .time {
 	color: #653789
 }
+
 section.courses.leadership .course-calendar h3 {
 	background: #E2B700
 }
+
 section.courses.leadership .course-calendar .time {
 	color: #E2B700
 }
@@ -1517,18 +1771,22 @@ section.courses .course dl .description li {
 	section.courses {
 		padding: 70px 0 0
 	}
+
 	section.courses h2 {
 		margin: 20px 0 60px
 	}
+
 	section.courses .course-track-nav {
 		width: 295px;
 		margin: 90px auto 50px
 	}
+
 	section.courses .course-track-nav h4 {
 		text-transform: uppercase;
 		margin-bottom: 30px;
 		font-size: 18px
 	}
+
 	section.courses .course-track-nav .track-options {
 		height: 50px;
 		overflow: hidden;
@@ -1536,6 +1794,7 @@ section.courses .course dl .description li {
 		border-radius: 3px;
 		position: relative
 	}
+
 	section.courses .course-track-nav .track-options:after {
 		content: '';
 		background: url(../images/icon-sprite.svg) -85px -36px no-repeat;
@@ -1547,10 +1806,12 @@ section.courses .course dl .description li {
 		border-left: 1px solid #666;
 		filter: grayscale(100%)
 	}
+
 	section.courses .course-track-nav .track-options:hover {
 		overflow: visible;
 		border: none
 	}
+
 	section.courses .course-track-nav .track-options:hover ul {
 		position: absolute;
 		top: 0;
@@ -1561,6 +1822,7 @@ section.courses .course dl .description li {
 		border: 1px solid #666;
 		border-radius: 3px
 	}
+
 	section.courses .course-track-nav .track-options a, section.courses .course-track-nav .track-options span.active {
 		display: block;
 		line-height: 50px;
@@ -1570,6 +1832,7 @@ section.courses .course dl .description li {
 		font-size: 18px;
 		color: #666
 	}
+
 	section.courses .course-track-nav .track-options span.active {
 		font-weight: 700
 	}
@@ -1582,9 +1845,11 @@ section.courses .course dl .description li {
 		padding-top: 210px;
 		padding-bottom: 275px
 	}
+
 	section.courses h2 {
 		display: none
 	}
+
 	section.courses .about-courses {
 		font-size: 18px;
 		line-height: 28px;
@@ -1592,6 +1857,7 @@ section.courses .course dl .description li {
 		max-width: 954px;
 		margin: 0 auto 95px
 	}
+
 	section.courses .course-track-nav {
 		height: 135px;
 		background: #FD7C00;
@@ -1602,11 +1868,13 @@ section.courses .course dl .description li {
 		padding-top: 20px;
 		box-sizing: border-box
 	}
+
 	section.courses .course-track-nav h4 {
 		color: #FFF;
 		font-size: 12px;
 		text-transform: uppercase
 	}
+
 	section.courses .course-track-nav ul {
 		position: absolute;
 		bottom: 0;
@@ -1616,22 +1884,28 @@ section.courses .course dl .description li {
 		justify-content: center;
 		align-items: flex-end
 	}
+
 	section.courses .course-track-nav li {
 		flex: none;
 		padding: 0 20px
 	}
+
 	section.courses .course-track-nav .order-1 {
 		order: 1
 	}
+
 	section.courses .course-track-nav .order-2 {
 		order: 2
 	}
+
 	section.courses .course-track-nav .order-3 {
 		order: 3
 	}
+
 	section.courses .course-track-nav .order-4 {
 		order: 4
 	}
+
 	section.courses .course-track-nav a, section.courses .course-track-nav span.active {
 		color: #FFF;
 		text-decoration: none;
@@ -1639,62 +1913,79 @@ section.courses .course dl .description li {
 		font-size: 18px;
 		display: block
 	}
+
 	section.courses .course-track-nav span.active {
 		font-weight: 700;
 		color: #FD7C00;
 		background: #FAFAFA;
 		border-radius: 4px 4px 0 0
 	}
+
 	section.courses.ux .course-track-nav {
 		background: #FD7C00
 	}
+
 	section.courses.ux .course-track-nav span.active {
 		color: #FD7C00
 	}
+
 	section.courses.pm .course-track-nav {
 		background: #006F9E
 	}
+
 	section.courses.pm .course-track-nav span.active {
 		color: #006F9E
 	}
+
 	section.courses.research .course-track-nav {
 		background: #653789
 	}
+
 	section.courses.research .course-track-nav span.active {
 		color: #653789
 	}
+
 	section.courses.leadership .course-track-nav {
 		background: #E2B700
 	}
+
 	section.courses.leadership .course-track-nav span.active {
 		color: #E2B700
 	}
+
 	section.courses .course-calendar {
 		max-width: 1218px;
 		margin: 0 auto
 	}
+
 	section.courses .course-date {
 		background: #FFF;
 		margin-bottom: 60px
 	}
+
 	section.courses .course {
 		padding: 10px
 	}
+
 	section.courses .course:not(:last-child) {
 		border-bottom: 1px solid rgba(0,0,0,.09)
 	}
+
 	section.courses .course dl {
 		display: flex
 	}
+
 	section.courses .course dl .time {
 		text-align: left;
 		font-size: 16px;
 		line-height: inherit;
 		padding: 0 10px 0 40px
 	}
+
 	section.courses .course dl .time .am-pm {
 		font-size: 12px
 	}
+
 	section.courses .course dl .description {
 		order: 2;
 		flex: 1;
@@ -1713,20 +2004,25 @@ section.courses .course dl .description li {
 		display: flex;
 		width: 325px
 	}
+
 	section.courses .course dl .instructor>div {
 		flex: 1
 	}
+
 	section.courses .course dl .instructor .instructor-photo {
 		flex: none;
 		width: 125px;
 		margin-right: 25px
 	}
+
 	section.courses .course dl .instructor .instructor-photo:after {
 		display: none
 	}
+
 	section.courses .course dl .instructor h4 {
 		font-size: 20px
 	}
+
 	section.courses .course dl .instructor .title {
 		font-size: 12px;
 		line-height: 17px
@@ -1736,6 +2032,7 @@ section.courses .course dl .description li {
 section.highlight-video {
 	padding: 30px 0
 }
+
 section.highlight-video h2 {
 	margin-bottom: 50px
 }
@@ -1744,6 +2041,7 @@ section.highlight-video h2 {
 	section.highlight-video {
 		padding-top: 250px
 	}
+
 	section.highlight-video h2 {
 		font-size: 56px;
 		color: #FFF;
@@ -1756,120 +2054,150 @@ section.highlight-video h2 {
 section.training-courses {
 	padding: 70px 0
 }
+
 section.training-courses h2 {
 	margin-bottom: 28px;
 	padding: 0 31px
 }
+
 section.training-courses>p {
 	padding: 0 31px;
 	margin-bottom: 70px
 }
+
 section.training-courses .course-groups {
 	color: #FFF
 }
+
 section.training-courses .course-groups .course-group {
 	margin-bottom: 44px
 }
+
 section.training-courses .course-groups dl {
 	margin: 0
 }
+
 section.training-courses .course-groups dt {
 	font-weight: 700;
 	font-size: 24px;
 	padding: 19px 10px
 }
+
 section.training-courses .course-groups dd {
 	margin: 0;
 	font-size: 18px;
 	padding: 10px
 }
+
 section.training-courses .course-groups dd.advanced {
 	background: rgba(255,255,255,.1)
 }
+
 section.training-courses .course-groups dd.intermediate {
 	background: rgba(255,255,255,.2)
 }
+
 section.training-courses .course-groups dd.basic {
 	background: rgba(255,255,255,.3)
 }
+
 section.training-courses .course-groups p {
 	margin: 0;
 	padding: 36px 0
 }
+
 section.training-courses .course-groups .button {
 	background: #FFF;
 	font-style: italic;
 	margin: 0
 }
+
 section.training-courses .course-groups .pm {
 	background: #006F9E
 }
+
 section.training-courses .course-groups .pm .button {
 	color: #006F9E
 }
+
 section.training-courses .course-groups .ux {
 	background: #FD7C00
 }
+
 section.training-courses .course-groups .ux .button {
 	color: #FD7C00
 }
+
 section.training-courses .course-groups .research {
 	background: #653789
 }
+
 section.training-courses .course-groups .research .button {
 	color: #653789
 }
+
 section.training-courses .course-groups .leadership {
 	background: #E2B700
 }
+
 section.training-courses .course-groups .leadership .button {
 	color: #E2B700
 }
 
 @media (min-width:1000px) {
-section.training-courses {
-	padding: 120px 40px
-}
-section.training-courses h2 {
-	font-size: 56px;
-	margin-bottom: 66px
-}
-section.training-courses>p {
-	font-size: 18px;
-	line-height: 28px;
-	max-width: 954px;
-	margin: 0 auto 30px
-}
-section.training-courses .course-groups {
-	display: flex;
-	justify-content: center
-}
-section.training-courses .course-groups .course-group {
-	width: 235px;
-	margin: 10px
-}
-section.training-courses .course-groups dt {
-	font-size: 18px;
-	padding: 11px 10px
-}
-section.training-courses .course-groups dd {
-	font-size: 14px;
-	padding: 5px 10px
-}
-section.training-courses .course-groups p {
-	padding: 30px 0
-}
-section.training-courses .course-groups .button {
-	font-size: 14px;
-	padding: 12px 25px
-}
+	section.training-courses {
+		padding: 120px 40px
+	}
+
+	section.training-courses h2 {
+		font-size: 56px;
+		margin-bottom: 66px
+	}
+
+	section.training-courses>p {
+		font-size: 18px;
+		line-height: 28px;
+		max-width: 954px;
+		margin: 0 auto 30px
+	}
+
+	section.training-courses .course-groups {
+		display: flex;
+		justify-content: center
+	}
+
+	section.training-courses .course-groups .course-group {
+		width: 235px;
+		margin: 10px
+	}
+
+	section.training-courses .course-groups dt {
+		font-size: 18px;
+		padding: 11px 10px
+	}
+
+	section.training-courses .course-groups dd {
+		font-size: 14px;
+		padding: 5px 10px
+	}
+
+	section.training-courses .course-groups p {
+		padding: 30px 0
+	}
+
+	section.training-courses .course-groups .button {
+		font-size: 14px;
+		padding: 12px 25px
+	}
 }
 .custom-training section.training-courses {
 	background: #FAFAFA
 }
+
 section.photo-collage {
 	padding: 17px 0
 }
+
 section.photo-collage .desktop {
 	display: none;
 	margin: auto;
@@ -1919,9 +2247,11 @@ section.sponsors .second_tier .second_tier_sponsor {
 	section.photo-collage {
 		padding: 58px 0 0
 	}
+
 	section.photo-collage .desktop {
 		display: block
 	}
+
 	section.photo-collage .mobile {
 		display: none
 	}
@@ -1930,10 +2260,12 @@ section.sponsors .second_tier .second_tier_sponsor {
 section.schedule-breakdown .timeline {
 	text-align: left
 }
+
 section.schedule-breakdown .timeline dd p {
 	margin: 10px 0;
 	line-height: 18px;
 }
+
 section.schedule-breakdown .timeline dd a {
 	text-decoration: none;
 }
@@ -1942,36 +2274,45 @@ section.schedule-breakdown .timeline dd a {
 	section.schedule-breakdown {
 		padding: 70px 0 0
 	}
+
 	section.schedule-breakdown h2 {
 		margin: 20px 0 60px
 	}
+
 	section.schedule-breakdown h3 {
 		font-size: 24px;
 		font-weight: 700;
 		color: #333;
 		margin-bottom: 50px
 	}
+
 	section.schedule-breakdown .schedule-day {
 		margin-bottom: 80px
 	}
+
 	section.schedule-breakdown .timeline dl {
 		margin: 0
 	}
+
 	section.schedule-breakdown .timeline dd, section.schedule-breakdown .timeline dt {
 		padding: 14px 45px
 	}
+
 	section.schedule-breakdown .timeline .time, section.schedule-breakdown .timeline dd p {
 		font-size: 18px;
 		margin: 5px 0;
 	}
+
 	section.schedule-breakdown .timeline dd {
 		color: #B2B2B2;
 		position: relative
 	}
+
 	section.schedule-breakdown .timeline dd h4 {
 		font-size: 24px;
 		font-weight: 700
 	}
+
 	section.schedule-breakdown .timeline dd:after {
 		content: '';
 		width: 5px;
@@ -1981,27 +2322,35 @@ section.schedule-breakdown .timeline dd a {
 		bottom: 0;
 		left: 0
 	}
+
 	section.schedule-breakdown .timeline dd.ux h4, section.schedule-breakdown .timeline dd.ux p {
 		color: #FD7C00
 	}
+
 	section.schedule-breakdown .timeline dd.ux:after {
 		background: #FD7C00
 	}
+
 	section.schedule-breakdown .timeline dd.pm h4, section.schedule-breakdown .timeline dd.pm p {
 		color: #006F9E
 	}
+
 	section.schedule-breakdown .timeline dd.pm:after {
 		background: #006F9E
 	}
+
 	section.schedule-breakdown .timeline dd.research h4, section.schedule-breakdown .timeline dd.research p {
 		color: #653789
 	}
+
 	section.schedule-breakdown .timeline dd.research:after {
 		background: #653789
 	}
+
 	section.schedule-breakdown .timeline dd.leadership h4, section.schedule-breakdown .timeline dd.leadership p {
 		color: #E2B700
 	}
+
 	section.schedule-breakdown .timeline dd.leadership:after {
 		background: #E2B700
 	}
@@ -2011,6 +2360,7 @@ section.schedule-breakdown .timeline dd a {
 	section.schedule-breakdown h2 {
 		display: none
 	}
+
 	section.schedule-breakdown h3 {
 		font-size: 18px;
 		text-align: left;
@@ -2018,28 +2368,35 @@ section.schedule-breakdown .timeline dd a {
 		color: #333;
 		margin: 0 0 10px 140px
 	}
+
 	section.schedule-breakdown .schedule-day {
 		max-width: 1120px;
 		margin: 0 auto
 	}
+
 	section.schedule-breakdown .schedule-day:not(:last-child) {
 		margin-bottom: 60px
 	}
+
 	section.schedule-breakdown .timeline li {
 		display: flex;
 		flex-direction: column
 	}
+
 	section.schedule-breakdown .timeline .two-hours {
 		height: 115px
 	}
+
 	section.schedule-breakdown .timeline .four-hours {
 		height: 210px
 	}
+
 	section.schedule-breakdown .timeline dl {
 		display: flex;
 		margin: 0;
 		flex: 1
 	}
+
 	section.schedule-breakdown .timeline .time {
 		flex: none;
 		width: 80px;
@@ -2047,6 +2404,7 @@ section.schedule-breakdown .timeline dd a {
 		text-align: right;
 		padding: 10px 25px
 	}
+
 	section.schedule-breakdown .timeline dd {
 		flex: 1;
 		border-radius: 4px;
@@ -2056,48 +2414,61 @@ section.schedule-breakdown .timeline dd a {
 		margin: 10px;
 		box-sizing: border-box
 	}
+
 	section.schedule-breakdown .timeline dd a {
 		color: white;
 	}
+
 	section.schedule-breakdown .timeline dd h4 {
 		font-size: 18px;
 		line-height: 14px;
 		font-weight: 700;
 		color: #FFF;
 	}
+
 	section.schedule-breakdown .timeline dd p {
 		font-size: 14px;
 	}
+
 	section.schedule-breakdown .timeline dd.food {
 		padding: 10px 20px
 	}
+
 	section.schedule-breakdown .timeline dd.ux {
 		background: #FD7C00
 	}
+
 	section.schedule-breakdown .timeline dd.pm {
 		background: #006F9E
 	}
+
 	section.schedule-breakdown .timeline dd.research {
 		background: #653789
 	}
+
 	section.schedule-breakdown .timeline dd.leadership {
 		background: #E2B700
 	}
+
 	section.schedule-breakdown .timeline .category dd {
 		background: none;
 	}
+
 	section.schedule-breakdown .timeline .category dd.ux,
 	section.schedule-breakdown .timeline .category dd.ux h4 {
 		color: #FD7C00;
 	}
+
 	section.schedule-breakdown .timeline .category dd.pm,
 	section.schedule-breakdown .timeline .category dd.pm h4 {
 		color: #006F9E;
 	}
+
 	section.schedule-breakdown .timeline .category dd.research,
 	section.schedule-breakdown .timeline .category dd.research h4 {
 		color: #653789;
 	}
+
 	section.schedule-breakdown .timeline .category dd.leadership,
 	section.schedule-breakdown .timeline .category dd.leadership h4 {
 		color: #E2B700;
@@ -2107,12 +2478,15 @@ section.schedule-breakdown .timeline dd a {
 section.join-us {
 	padding: 70px 30px
 }
+
 section.join-us h2 {
 	margin-bottom: 36px
 }
+
 section.join-us p {
 	line-height: 32px
 }
+
 section.join-us .button {
 	margin-top: 40px
 }
@@ -2121,10 +2495,12 @@ section.join-us .button {
 	section.join-us {
 		padding: 150px 30px 240px
 	}
+
 	section.join-us h2 {
 		font-size: 56px;
 		margin-bottom: 56px
 	}
+
 	section.join-us p {
 		font-size: 18px;
 		line-height: 28px;
@@ -2136,6 +2512,7 @@ section.join-us .button {
 section.sports {
 	padding: 50px 31px
 }
+
 section.sports h2 {
 	margin-bottom: 37px
 }
@@ -2146,34 +2523,42 @@ section.sports h2 {
 		margin: 80px auto 0;
 		width: 250px
 	}
+
 	section.sports .sports-list li {
 		height: 90px
 	}
+
 	section.sports .sports-list img {
 		display: inline-block;
 		width: 60px;
 		vertical-align: middle;
 		margin-right: 20px
 	}
+
 	section.sports .sports-list span {
 		vertical-align: middle
 	}
+
 	section.sports .sports-list .nordic-combined img {
 		width: 54px;
 		height: 51px
 	}
+
 	section.sports .sports-list .ski-jumping img {
 		width: 48px;
 		height: 50px
 	}
+
 	section.sports .sports-list .luge img {
 		width: 48px;
 		height: 40px
 	}
+
 	section.sports .sports-list .skeleton img {
 		width: 55px;
 		height: 33px
 	}
+
 	section.sports .sports-list .bobsleigh img {
 		width: 56px;
 		height: 36px
@@ -2184,9 +2569,11 @@ section.sports h2 {
 	section.sports {
 		padding: 120px 50px
 	}
+
 	section.sports h2 {
 		font-size: 56px
 	}
+
 	section.sports p {
 		font-size: 18px;
 		line-height: 28px;
@@ -2194,18 +2581,22 @@ section.sports h2 {
 		max-width: 954px;
 		margin: 50px auto
 	}
+
 	section.sports .sports-list {
 		display: flex;
 		max-width: 1350px;
 		margin: 110px auto 0
 	}
+
 	section.sports .sports-list li {
 		flex: 1;
 		text-align: center
 	}
+
 	section.sports .sports-list li img {
 		margin: 0 auto 35px
 	}
+
 	section.sports .sports-list li img, section.sports .sports-list li span {
 		display: block
 	}
@@ -2214,6 +2605,7 @@ section.sports h2 {
 section.webcams {
 	padding: 40px 0 110px
 }
+
 section.webcams h2 {
 	margin-bottom: 25px
 }
@@ -2222,18 +2614,22 @@ section.webcams h2 {
 	section.webcams {
 		padding: 110px 0
 	}
+
 	section.webcams h2 {
 		font-size: 56px;
 		margin-bottom: 70px
 	}
+
 	section.webcams .webcam img {
 		display: inline-block;
 		padding: 20px;
 		width: 40%
 	}
+
 	section.registration-about h2 {
 		display: none
 	}
+
 	section.registration-about .about-registration-about {
 		font-size: 18px;
 		line-height: 28px;
@@ -2247,6 +2643,7 @@ section.webcams h2 {
 	section.registration-about {
 		padding: 70px 31px 0
 	}
+
 	section.registration-about h2 {
 		margin: 20px 0 60px
 	}
@@ -2255,9 +2652,11 @@ section.webcams h2 {
 section.pricing .early {
 	color: #FD7C00
 }
+
 section.pricing .full .early {
 	color: #006F9E
 }
+
 section.pricing .full-plus-lift .early {
 	color: #653789
 }
@@ -2266,21 +2665,26 @@ section.pricing .full-plus-lift .early {
 	section.pricing {
 		padding: 70px 0
 	}
+
 	section.pricing .prices {
 		margin-bottom: 100px
 	}
+
 	section.pricing .prices dl:not(:last-child) {
 		border-bottom: 1px solid rgba(0,0,0,.09);
 		margin: 0;
 		padding: 30px 60px
 	}
+
 	section.pricing .prices dd, section.pricing .prices dt {
 		font-size: 24px;
 		font-weight: 700
 	}
+
 	section.pricing .prices dt {
 		color: #666
 	}
+
 	section.pricing .prices dt small {
 		font-weight: 200;
 		color: #999;
@@ -2288,21 +2692,26 @@ section.pricing .full-plus-lift .early {
 		display: block;
 		font-size: 24px
 	}
+
 	section.pricing .prices .early {
 		font-size: 36px;
 		margin: 30px 0
 	}
+
 	section.pricing .prices .standard {
 		color: #B2B2B2;
 		text-decoration: line-through
 	}
+
 	section.pricing .prices .pricing-types .early {
 		font-size: 24px;
 		margin: 0
 	}
+
 	section.pricing .prices .pricing-types .standard {
 		display: none
 	}
+
 	section.pricing .prices .pricing-types small {
 		color: #999;
 		font-weight: 400;
@@ -2316,20 +2725,24 @@ section.pricing .full-plus-lift .early {
 	section.pricing {
 		background: #FAFAFA
 	}
+
 	section.pricing .prices {
 		display: flex;
 		max-width: 1218px;
 		background: #FFF;
 		margin: 0 auto 60px
 	}
+
 	section.pricing .prices dl {
 		flex: 1;
 		margin: 0
 	}
+
 	section.pricing .prices dd, section.pricing .prices dt {
 		font-size: 16px;
 		line-height: 22px
 	}
+
 	section.pricing .prices dt {
 		height: 94px;
 		color: #FFF;
@@ -2340,42 +2753,53 @@ section.pricing .full-plus-lift .early {
 		padding: 15px 0;
 		box-sizing: border-box
 	}
+
 	section.pricing .prices dt div {
 		flex: none
 	}
+
 	section.pricing .prices dd {
 		height: 90px;
 		padding: 20px;
 		box-sizing: border-box
 	}
+
 	section.pricing .prices dd:not(:last-child) {
 		border-bottom: 1px solid rgba(0,0,0,.09)
 	}
+
 	section.pricing .prices dl:not(:last-child) dd {
 		border-right: 1px solid rgba(0,0,0,.09)
 	}
+
 	section.pricing .prices dl:not(.pricing-types) dd {
 		font-size: 36px;
 		line-height: 50px;
 		font-weight: 700
 	}
+
 	section.pricing .prices dl:not(.pricing-types) dd.standard {
 		color: #B2B2B2
 	}
+
 	section.pricing .prices .pricing-types {
 		flex: 1.3
 	}
+
 	section.pricing .prices .pricing-types dd {
 		text-align: left;
 		font-weight: 700
 	}
+
 	section.pricing .prices .pricing-types dd small {
 		color: #999;
 		font-weight: 200
 	}
+
 	section.pricing .prices .pricing-types .standard {
 		color: #999
 	}
+
 	section.pricing .prices small {
 		font-size: 16px;
 		font-style: italic;
@@ -2387,9 +2811,11 @@ section.pricing .full-plus-lift .early {
 section.accomodations {
 	padding: 20px 31px
 }
+
 section.accomodations .hotel {
 	margin-top: 100px
 }
+
 section.accomodations .hotel h3 {
 	font-size: 24px;
 	line-height: 36px;
@@ -2397,19 +2823,23 @@ section.accomodations .hotel h3 {
 	margin: 0 auto 20px;
 	width: 250px
 }
+
 section.accomodations .hotel p {
 	font-size: 18px;
 	line-height: 32px
 }
+
 section.accomodations .hotel ul {
 	margin-top: 37px;
 	margin-bottom: 52px
 }
+
 section.accomodations .hotel li {
 	text-align: left;
 	font-size: 18px;
 	margin-bottom: 10px
 }
+
 section.accomodations .hotel li:before {
 	content: '';
 	display: inline-block;
@@ -2419,13 +2849,16 @@ section.accomodations .hotel li:before {
 	vertical-align: middle;
 	margin-right: 10px
 }
+
 section.attendant-charts, section.contact-us {
 	background: #FAFAFA
 }
+
 section.accomodations .hotel .hotel-info p {
 	margin: 0;
 	font-weight: 200
 }
+
 section.accomodations .hotel .book-hotel .button {
 	margin-top: 17px
 }
@@ -2434,10 +2867,12 @@ section.accomodations .hotel .book-hotel .button {
 	section.accomodations {
 		padding: 140px 40px
 	}
+
 	section.accomodations.following {
 		padding: 140px 40px;
 		padding-top: 0px;
 	}
+
 	section.accomodations .about-accomodations {
 		font-weight: 200;
 		font-size: 18px;
@@ -2445,34 +2880,42 @@ section.accomodations .hotel .book-hotel .button {
 		max-width: 956px;
 		margin: 0 auto
 	}
+
 	section.accomodations .hotel {
 		display: flex;
 		max-width: 1000px;
 		margin: 100px auto 0
 	}
+
 	section.accomodations .hotel h3 {
 		width: auto;
 		font-size: 28px;
 		font-weight: 200
 	}
+
 	section.accomodations .hotel .hotel-info {
 		text-align: left;
 		flex: 2
 	}
+
 	section.accomodations .hotel ul {
 		display: flex;
 		flex-wrap: wrap
 	}
+
 	section.accomodations .hotel ul li {
 		width: 50%
 	}
+
 	section.accomodations .hotel .book-hotel {
 		flex: 1
 	}
+
 	section.accomodations .hotel .book-hotel p {
 		width: 320px;
 		margin: inherit auto
 	}
+
 	section.accomodations .hotel .book-hotel .button {
 		font-size: 18px;
 		padding: 10px 30px;
@@ -2483,18 +2926,22 @@ section.accomodations .hotel .book-hotel .button {
 section.contact-us {
 	padding: 50px 31px
 }
+
 section.contact-us h2 {
 	margin-bottom: 50px
 }
+
 section.contact-us li {
 	font-size: 18px;
 	margin-bottom: 35px
 }
+
 section.contact-us li p:first-child {
 	font-weight: 700;
 	margin-bottom: -10px;
 	color: #666
 }
+
 section.contact-us li a {
 	color: #006F9E;
 	text-decoration: none
@@ -2504,11 +2951,13 @@ section.contact-us li a {
 	section.contact-us {
 		padding: 110px 40px 90px
 	}
+
 	section.contact-us ul {
 		display: flex;
 		max-width: 1000px;
 		margin: 0 auto
 	}
+
 	section.contact-us li {
 		flex: 1
 	}
@@ -2517,24 +2966,30 @@ section.contact-us li a {
 section.faqs {
 	color: #666
 }
+
 section.faqs .faq-category {
 	text-align: left;
 	margin-bottom: 50px
 }
+
 section.faqs .faq-category dl:not(:last-child) {
 	border-bottom: 1px solid rgba(0,0,0,.09)
 }
+
 section.faqs .faq-category .question {
 	font-size: 24px;
 	line-height: 34px;
 	margin-bottom: 15px
 }
+
 section.faqs .faq-category .answer {
 	margin-bottom: 15px
 }
+
 section.faqs .about-faqs {
 	margin-bottom: 80px
 }
+
 section.faqs h3 {
 	font-size: 24px;
 	line-height: 36px;
@@ -2548,48 +3003,56 @@ section.faqs h3 {
 }
 
 @media (min-width:1000px) {
-section.faqs h2 {
-	display: none
-}
-section.faqs h3 {
-	font-size: 28px;
-	line-height: 34px;
-	font-weight: 200;
-	margin-bottom: 30px
-}
-section.faqs .about-faqs, section.faqs .faq-category .question {
-	font-size: 18px;
-	line-height: 28px
-}
-section.faqs .about-faqs {
-	font-weight: 200;
-	max-width: 954px;
-	margin: 50px auto
-}
-section.faqs .faq-categories {
-	max-width: 1100px;
-	margin: 0 auto;
-	display: flex;
-	flex-wrap: wrap
-}
-section.faqs .faq-category {
-	box-sizing: border-box;
-	width: 50%;
-	padding: 10px 60px
-}
-section.faqs .faq-category .answer {
-	font-size: 14px;
-	line-height: 22px
-}
+	section.faqs h2 {
+		display: none
+	}
+
+	section.faqs h3 {
+		font-size: 28px;
+		line-height: 34px;
+		font-weight: 200;
+		margin-bottom: 30px
+	}
+
+	section.faqs .about-faqs, section.faqs .faq-category .question {
+		font-size: 18px;
+		line-height: 28px
+	}
+
+	section.faqs .about-faqs {
+		font-weight: 200;
+		max-width: 954px;
+		margin: 50px auto
+	}
+
+	section.faqs .faq-categories {
+		max-width: 1100px;
+		margin: 0 auto;
+		display: flex;
+		flex-wrap: wrap
+	}
+
+	section.faqs .faq-category {
+		box-sizing: border-box;
+		width: 50%;
+		padding: 10px 60px
+	}
+
+	section.faqs .faq-category .answer {
+		font-size: 14px;
+		line-height: 22px
+	}
 }
 
 @media (max-width:999px) {
 	section.reasons-why {
 		padding: 70px 0 0
 	}
+
 	section.reasons-why h2 {
 		margin: 20px 0 60px
 	}
+
 	section.reasons-why h4 {
 		font-size: 24px;
 		line-height: 29px;
@@ -2597,12 +3060,15 @@ section.faqs .faq-category .answer {
 		padding: 0 31px;
 		margin-top: 10px
 	}
+
 	section.reasons-why p {
 		padding: 0 31px
 	}
+
 	section.reasons-why .about-reasons-why {
 		margin-bottom: 80px
 	}
+
 	section.reasons-why li {
 		margin-bottom: 50px
 	}
@@ -2612,9 +3078,11 @@ section.faqs .faq-category .answer {
 	section.reasons-why {
 		padding: 45px 40px
 	}
+
 	section.reasons-why h2 {
 		display: none
 	}
+
 	section.reasons-why .about-reasons-why {
 		font-size: 18px;
 		line-height: 28px;
@@ -2622,23 +3090,27 @@ section.faqs .faq-category .answer {
 		max-width: 954px;
 		margin: 50px auto 80px
 	}
+
 	section.reasons-why ul {
 		display: flex;
 		flex-wrap: wrap;
 		max-width: 1100px;
 		margin: 0 auto
 	}
+
 	section.reasons-why li {
 		width: 33.33%;
 		padding: 0 20px 50px;
 		text-align: left;
 		box-sizing: border-box
 	}
+
 	section.reasons-why li p {
 		font-size: 18px;
 		line-height: 24px;
 		margin-top: 5px
 	}
+
 	section.reasons-why h4 {
 		font-weight: 700;
 		font-size: 18px
@@ -2650,6 +3122,7 @@ section.attendant-charts h4 {
 	font-weight: 700;
 	margin: 40px 0
 }
+
 section.attendant-charts .footnote {
 	font-size: 18px;
 	font-weight: 200;
@@ -2661,6 +3134,7 @@ section.attendant-charts .footnote {
 	section.attendant-charts {
 		padding: 150px 40px 118px
 	}
+
 	section.attendant-charts .about-attendant-charts {
 		font-size: 18px;
 		line-height: 28px;
@@ -2668,12 +3142,15 @@ section.attendant-charts .footnote {
 		max-width: 954px;
 		margin: 50px auto 80px
 	}
+
 	section.attendant-charts .ring-chart {
 		margin-bottom: 150px
 	}
+
 	section.custom-training-about {
 		padding: 120px 40px
 	}
+
 	section.custom-training-about p {
 		font-size: 24px;
 		line-height: 35px;
@@ -2685,10 +3162,12 @@ section.attendant-charts .footnote {
 section.request-form h2 {
 	margin-bottom: 60px
 }
+
 section.request-form form {
 	width: 295px;
 	margin: 0 auto
 }
+
 section.request-form form button {
 	margin-top: 40px;
 	width: 100%
