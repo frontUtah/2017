@@ -998,9 +998,14 @@ footer p {
 	}
 }
 
+@media (max-width:999px) {
+	.hero {
+		display: none;
+	}
+}
+
 .product-bootcamp-page .hero {
 	background-image: url(../images/bootcamp-bg.jpg);
-	display: none
 }
 .product-schedule-front .hero {
 	background-image: url(../images/home-bg-2.jpg);
@@ -1016,7 +1021,6 @@ footer p {
 }
 .product-why .hero {
 	background-image: url(../images/home-bg-9.jpg);
-	display: none
 }
 
 
