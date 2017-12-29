@@ -57,7 +57,7 @@ We believe product management and product design play a central role in the succ
 		</section>
 		<section class="attendant-charts">
 			<h2>Front 2017 attendees</h2>
-			<p class="about-attendant-charts">In 2017, product design teams gathered in Utah from 4 countries and 29 states across the US for our conference and bootcamp. While focused speci cally on UX, product management, research, and leadership, anyone involved in product discovery, delivery, is encouraged to attend and will leave with a wealth of insights and skills. The conference talks cover the range between basic and advanced topics, providing valuable insights to both students and seasoned professionals.</p>
+			<p class="about-attendant-charts">In 2017, product design teams gathered in Utah from 4 countries and 29 states across the US for our conference and bootcamp. While focused specically on UX, product management, research, and leadership, anyone involved in product discovery, delivery, is encouraged to attend and will leave with a wealth of insights and skills. The conference talks cover the range between basic and advanced topics, providing valuable insights to both students and seasoned professionals.</p>
 			<div class="chart ring-chart">
 				<h4>Attendee by job title</h4>
 				<img src="/images/ring-chart.png" alt="">
