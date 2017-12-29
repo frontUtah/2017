@@ -6,6 +6,10 @@ img, legend {
 	max-width: 100%
 }
 
+img.full {
+	width: 100%;
+}
+
 audio, canvas, progress, video {
 	display: inline-block
 }
@@ -2177,15 +2181,6 @@ section.training-courses .course-groups .leadership .button {
 	background: #FAFAFA
 }
 
-section.photo-collage {
-	padding: 17px 0
-}
-
-section.photo-collage .desktop {
-	display: none;
-	margin: auto;
-}
-
 
 /* ==================== SPONSORS ==================== */
 
@@ -2225,6 +2220,15 @@ section.sponsors .second_tier .second_tier_sponsor {
 
 
 /* ==================== PHOTO COLLAGE ==================== */
+
+section.photo-collage {
+	padding: 17px 0
+}
+
+section.photo-collage .desktop {
+	display: none;
+	margin: auto;
+}
 
 @media (min-width:1000px) {
 	section.photo-collage {

@@ -19,7 +19,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<p>The George S. and Dolores Doré Eccles Theater is an exciting new performing arts center on Main Street in the heart of downtown Salt Lake City. Designed by world-renowned architect Cesar Pelli, of Pelli-Clarke-Pelli Architects, the theater, featuring a grand six-story lobby with dramatic retractable glass walls, is a beacon of light and energy on Main Street.</p>
 		</section>
 		<section class="photo-collage">
-			<img src="/images/slc-scene.jpg" alt="">
+			<img class="full" src="/images/slc-scene.jpg" alt="">
 		</section>
 		<section class="sports">
 			<h2>In the heart of downtown Salt Lake City</h2>
@@ -27,7 +27,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<p>The amazing Eccles Theater is in the heart of downtown Salt Lake City. With many comfortable hotels, award winning restaurants, and unique evening activities this location is perfect to experience the city the way that it was meant to be. If you   </p>
 		</section>
 		<section class="photo-collage">
-			<img src="/images/eccles_theater_02.jpg" alt="">
+			<img class="full" src="/images/eccles_theater_02.jpg" alt="">
 		</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>

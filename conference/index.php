@@ -66,7 +66,7 @@ foreach($instructors as $instructor) {
 		<section class="highlight-video">
 			<h2>2017 Highlights</h2>
 			<div href="https://www.youtube.com/watch?v=Qqxmgf5WDjE" class="thumnail video-thumbnail recap-video">
-				<img src="/images/home-bg-7.jpg" alt="">
+				<img class="full" src="/images/home-bg-7.jpg" alt="">
 			</div>
 		</section>
 		

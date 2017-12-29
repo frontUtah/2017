@@ -75,7 +75,7 @@ foreach($instructors as $instructor) {
 		<section class="highlight-video">
 			<h2>2017 Highlights</h2>
 			<div href="https://vimeo.com/216410956" class="thumbnail video-thumbnail recap-video">
-				<img src="/images/ski-thumb.jpg" alt="">
+				<img class="full" src="/images/ski-thumb.jpg" alt="">
 			</div>
 		</section>
 		<section class="training-courses">
@@ -138,8 +138,8 @@ foreach($instructors as $instructor) {
 		</section>
 			
 		<section class="photo-collage">
-			<img src="/images/conf-collage-mobile.jpg" alt="" class="mobile">
-			<img src="/images/conf-collage-desktop.jpg" alt="" class="desktop">
+			<img src="/images/conf-collage-mobile.jpg" alt="" class="full mobile">
+			<img src="/images/conf-collage-desktop.jpg" alt="" class="full desktop">
 		</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>

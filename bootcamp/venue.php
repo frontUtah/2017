@@ -40,7 +40,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			</ul>
 		</section>
 		<section class="photo-collage">
-			<a href="https://www.google.com/maps/place/Utah+Olympic+Park/@40.7117551,-111.5640269,17z/data=!3m1!4b1!4m5!3m4!1s0x87526c05262e49bf:0x8b0dbbb05bf05584!8m2!3d40.7117551!4d-111.5618382"><img src="/images/venue-map.jpg" alt=""></a>
+			<a href="https://www.google.com/maps/place/Utah+Olympic+Park/@40.7117551,-111.5640269,17z/data=!3m1!4b1!4m5!3m4!1s0x87526c05262e49bf:0x8b0dbbb05bf05584!8m2!3d40.7117551!4d-111.5618382"><img class="full" src="/images/venue-map.jpg" alt=""></a>
 		</section>
 		<section class="sports">
 			<h2>Location, location, location</h2>
@@ -49,7 +49,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<p><strong>Utah Olympic Park</strong><br />3419 Olympic Parkway<br />Park City, UT 84098</a></p>
 		</section>
 		<section class="photo-collage">
-			<img src="/images/Plaza_QWC_Legacy.jpg" alt="">
+			<img class="full" src="/images/Plaza_QWC_Legacy.jpg" alt="">
 		</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
