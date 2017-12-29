@@ -62,18 +62,30 @@ switch($track) {
 
 					// build tabs
 
+					$t = '';
+
 					foreach($tabs as $key => $tab) {
-						echo '<li class="order-' . ($key + 1)  . '">';
+						$ti = '';
+						
+						$ti .= '<li class="order-' . ($key + 1)  . '">';
 
 						if($tab['link'] == $track) {
-							echo '<span class="active">' . $tab['text'] . '</span>';
+							$ti .= '<span class="active">' . $tab['text'] . '</span>';
 						} else {
-							echo '<a href="/bootcamp/courses/' . $tab['link'] . '">' . $tab['text'] . '</a>';
+							$ti .= '<a href="/bootcamp/courses/' . $tab['link'] . '">' . $tab['text'] . '</a>';
 						}
 
-						echo '</li>';
-						echo "\n";
+						$ti .= '</li>';
+						$ti .= "\n";
+					
+						if($tab['link'] == $track) {
+							$t = $ti . $t;
+						} else {
+							$t .= $ti;
+						}
 					}
+					
+					echo $t;
 
 					?>
 
