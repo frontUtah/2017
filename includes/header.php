@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="/styles/magnific-popup.css">
 	
 	<link rel="apple-touch-icon" href="/images/apple-touch-icon.png" type="image/png" />
-	<link rel='mask-icon' href='/images/mask-icon.svg' color='orange'>
+	<link rel="mask-icon" href="/images/mask-icon.svg" color="gray" />
 	<link rel="shortcut icon" href="/images/favicon.ico" />
 </head>
 <body>
