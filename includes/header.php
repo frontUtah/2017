@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="/styles/style.css">
 	<link rel="stylesheet" href="/styles/magnific-popup.css">
 	
-	<link rel="apple-touch-icon" href="/images/apple-touch-icon" />
+	<link rel="apple-touch-icon" href="/images/apple-touch-icon.png" type="image/png" />
 	<link rel="shortcut icon" href="/images/favicon.ico" />
 </head>
 <body>
