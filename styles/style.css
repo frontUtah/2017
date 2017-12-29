@@ -985,53 +985,12 @@ footer p {
 }
 
 
-.venue-slc .hero {
-	height: 550px;
-	padding: 70px 70px 40px;
-	background-image: url(../images/eccles_front_1.jpg)
-}
 
-.venue-slc .hero h1 {
-	font-size: 30px;
-	font-weight: 200;
-	color: #FFF
-}
-
-@media (min-width:1000px) {
-	.venue-slc .hero {
-		height: 917px;
-		padding: 600px 140px 70px 140px
-	}
-
-	.venue-slc .hero h1 {
-		font-size: 50px;
-		text-align: left
-	}
-
-	.venue-slc .hero .location {
-		font-size: 24px;
-		font-weight: 700;
-		text-align: left
-	}
-
-	.venue-slc .hero .olympic-logo img {
-		width: 273px
-	}
-
-}
+/*********** VENUE ************/
 
 .venue .hero {
 	height: 550px;
 	padding: 70px 70px 40px;
-	background-image: url(../images/venue-bg.jpg)
-}
-
-.venue .hero .olympic-logo {
-	margin-bottom: 155px
-}
-
-.venue .hero .olympic-logo img {
-	width: 128px
 }
 
 .venue .hero h1 {
@@ -1057,16 +1016,37 @@ footer p {
 		text-align: left
 	}
 
-	.venue .hero .olympic-logo {
+	.venue-bootcamp .hero .olympic-logo {
 		text-align: right;
 		margin-top: 140px;
 		margin-bottom: 230px
 	}
 
-	.venue .hero .olympic-logo img {
+	.venue-bootcamp .hero .olympic-logo img {
 		width: 273px
 	}
+	
+	.venue-conference .hero {
+		padding: 600px 140px 70px 140px
+	}
 }
+
+.venue-conference .hero {
+	background-image: url(../images/eccles_front_1.jpg);
+}
+
+.venue-bootcamp .hero {
+	background-image: url(../images/venue-bg.jpg);
+}
+
+.venue-bootcamp .hero .olympic-logo {
+	margin-bottom: 155px
+}
+
+.venue-bootcamp .hero .olympic-logo img {
+	width: 128px
+}
+
 
 
 /*********** SECTION LANDING PAGES ************/
