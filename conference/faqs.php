@@ -23,7 +23,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<h3>Registration information</h3>
 						<dl class="accordion">
 							<dt class="accordion-title question">What are the ticket pricing details?</dt>
-							<dd class="accordion-content answer">Front Salt Lake City full conference passes are $500 (30% off) until 31 October 2017. Standard price Front Salt Lake City Full Conference passes are $700. This includes all meals, courses, and activities.</dd>
+							<dd class="accordion-content answer">Front Salt Lake City full conference passes are $500 (30% off) until 31 March 2018. Standard price Front Salt Lake City Full Conference passes are $700. This includes all meals, courses, and activities.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Do you offer group pricing?</dt>
