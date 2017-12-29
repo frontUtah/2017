@@ -52,25 +52,25 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li class="timeslot four-hours">
 						<dl>
 							<dt class="time">8:30 AM</dt>
-							<dd class="ux course">
+							<dd class="ux course" onclick="">
 								<a href="/bootcamp/instructor/sarahdoody">
 									<h4>Sarah Doody</h4>
 									<p>Product storyboarding</p>
 								</a>
 							</dd>
-							<dd class="pm course">
+							<dd class="pm course" onclick="">
 								<a href="/bootcamp/instructor/virgiliapruthi">
 									<h4>Virgilia Pruthi</h4>
 									<p>Building and communicating roadmaps</p>
 								</a>
 							</dd>
-							<dd class="research course">
+							<dd class="research course" onclick="">
 								<a href="/bootcamp/instructor/jayfichialos">
 									<h4>Jay Fichialos</h4>
 									<p>Product discovery</p>
 								</a>
 							</dd>
-							<dd class="leadership course">
+							<dd class="leadership course" onclick="">
 								<a href="/bootcamp/instructor/richardbanfield">
 									<h4>Richard Banfield</h4>
 									<p>Best practices of high performing teams</p>
@@ -89,25 +89,25 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li class="timeslot two-hours">
 						<dl>
 							<dt class="time">1:30 PM</dt>
-							<dd class="ux course">
+							<dd class="ux course" onclick="">
 								<a href="/bootcamp/instructor/jonathanshariat">
 									<h4>Jonathan S.</h4>
 									<p>Design ethics</p>
 								</a>
 							</dd>
-							<dd class="pm course">
+							<dd class="pm course" onclick="">
 								<a href="/bootcamp/instructor/johncutler">
 									<h4>John Cutler</h4>
 									<p>Alignment through mapping</p>
 								</a>
 							</dd>
-							<dd class="research course">
+							<dd class="research course" onclick="">
 								<a href="/bootcamp/instructor/taylorpalmer">
 									<h4>Taylor Palmer</h4>
 									<p>Usability testing with prototypes</p>
 								</a>
 							</dd>
-							<dd class="leadership course">
+							<dd class="leadership course" onclick="">
 								<a href="/bootcamp/instructor/bobbaxley">
 									<h4>Bob Baxley</h4>
 									<p>Design feedback</p>
@@ -118,25 +118,25 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li class="timeslot two-hours">
 						<dl>
 							<dt class="time">3:45 PM</dt>
-							<dd class="ux course">
+							<dd class="ux course" onclick="">
 								<a href="/bootcamp/instructor/jeffcarter">
 									<h4>Jeff Carter</h4>
 									<p>Micro interactions</p>
 								</a>
 							</dd>
-							<dd class="pm course">
+							<dd class="pm course" onclick="">
 								<a href="/bootcamp/instructor/kylejacobsen">
 									<h4>Kyle & Josh</h4>
 									<p>Metrics</p>
 								</a>
 							</dd>
-							<dd class="research course">
+							<dd class="research course" onclick="">
 								<a href="/bootcamp/instructor/amandasmith">
 									<h4>Amanda Smith</h4>
 									<p>Growing a UX department</p>
 								</a>
 							</dd>
-							<dd class="leadership course">
+							<dd class="leadership course" onclick="">
 								<a href="/bootcamp/instructor/danlawyer">
 									<h4>Dan Lawyer</h4>
 									<p>Finding & building executive presence</p>
@@ -160,25 +160,25 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li class="timeslot four-hours">
 						<dl>
 							<dt class="time">8:30 AM</dt>
-							<dd class="ux course">
+							<dd class="ux course" onclick="">
 								<a href="/bootcamp/instructor/laurengray">
 									<h4>Lauren Gray</h4>
 									<p>On-boarding</p>
 								</a>
 							</dd>
-							<dd class="pm course">
+							<dd class="pm course" onclick="">
 								<a href="/bootcamp/instructor/elainechao">
 									<h4>Elaine Chao</h4>
 									<p>Better listening, better products</p>
 								</a>
 							</dd>
-							<dd class="research course">
+							<dd class="research course" onclick="">
 								<a href="/bootcamp/instructor/lorieich">
 									<h4>Lori Eich</h4>
 									<p>Early stage quant and qual validation</p>
 								</a>
 							</dd>
-							<dd class="leadership course">
+							<dd class="leadership course" onclick="">
 								<a href="/bootcamp/instructor/mariahhay">
 									<h4>Mariah Hay</h4>
 									<p>Product leadership fundamentals</p>
@@ -197,25 +197,25 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li class="timeslot four-hours">
 						<dl>
 							<dt class="time">1:30 PM</dt>
-							<dd class="ux course">
+							<dd class="ux course" onclick="">
 								<a href="/bootcamp/instructor/chadheinrich">
 									<h4>Chad Heinrich</h4>
 									<p>Designing for growth, virality</p>
 								</a>
 							</dd>
-							<dd class="pm course">
+							<dd class="pm course" onclick="">
 								<a href="/bootcamp/instructor/natebarrett">
 									<h4>Nate Barrett</h4>
 									<p>Value proposition and vision</p>
 								</a>
 							</dd>
-							<dd class="research course">
+							<dd class="research course" onclick="">
 								<a href="/bootcamp/instructor/andrewbranch">
 									<h4>Andrew Branch</h4>
 									<p>Lean user testing</p>
 								</a>
 							</dd>
-							<dd class="leadership course">
+							<dd class="leadership course" onclick="">
 								<a href="/bootcamp/instructor/wadeshearer">
 									<h4>Wade Shearer</h4>
 									<p>Teaching your team to learn</p>
