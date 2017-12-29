@@ -2402,6 +2402,11 @@ section.schedule-breakdown .timeline dd a {
 		box-sizing: border-box
 	}
 
+	section.schedule-breakdown .timeline dd.course:hover {
+		opacity: .75;
+		cursor: pointer;
+	}
+
 	section.schedule-breakdown .timeline dd a {
 		color: white;
 	}

@@ -13,6 +13,7 @@ frontConf.ui = (function() {
 		$body.on( 'click', '.primary-nav .active', togglePrimaryMenu );
 		$body.on( 'click', '.section-nav .menu-toggle', toggleSectionMenu );
 		$body.on( 'click', '.accordion-title', toggleAccordion );
+		$body.on( 'click', '.schedule-breakdown .timeline dd.course', clickableScheduleBlock );
 
 		if ( $body.find( '.section-header' ).length ) {
 			$win.on( 'scroll', toggleStickyHeaders );
@@ -66,6 +67,10 @@ frontConf.ui = (function() {
 				$primaryHeader.removeClass( 'sticky' );
 			}
 		};
+	}
+	
+	var clickableScheduleBlock = function(event) {
+		window.location = $(this).children('a').attr('href');
 	}
 
 	return {
