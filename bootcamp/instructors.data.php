@@ -194,7 +194,7 @@ $instructors[] = array(
 	'discipline' => 'research',
 	'photo' => 'frontpc18/instructor_lorieich.jpg',
 	'bio' => "Lori Eich is a senior product manager at Civis Analytics, where she works with engineers to build the Civis Data Science Platform. Lori’s background is in software engineering, derivatives trading, environmental consulting, and competitive fringe sports. She holds an SM and SB in Earth, atmospheric, and planetary sciences from the Massachusetts Institute of Technology.",
-	'twitter' => '',
+	'twitter' => 'TheBestEich',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/lori-eich-7a796b20/'
 );
