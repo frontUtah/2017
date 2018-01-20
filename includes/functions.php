@@ -46,17 +46,17 @@ function get_speaker($slug) {
 	}
 }
 
-// get sessions by speaker
-function get_sessions($speaker) {
-	global $sessions;
+// get talks by speaker
+function get_talks($speaker) {
+	global $talks;
 
-	foreach($sessions as $session) {
-		if($session['speaker'] == $speaker || is_array($session['speaker']) && in_array($speaker, $session['speaker'])) {
-			$these_sessions[] = $session;
+	foreach($talks as $talk) {
+		if($talk['speaker'] == $speaker || is_array($talk['speaker']) && in_array($speaker, $talk['speaker'])) {
+			$these_talks[] = $talk;
 		}
 	}
 
-	return $these_sessions;
+	return $these_talks;
 }
 
 ?>

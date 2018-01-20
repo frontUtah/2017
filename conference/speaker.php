@@ -2,28 +2,28 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$instructor = get_instructor($uri_parts[2]);
-$courses = get_courses($instructor['slug']);
+$speaker = get_speaker($uri_parts[2]);
+$talks = get_talks($speaker['slug']);
 
-$title = $instructor['first'] . ' ' . $instructor['last'] . ' - Front Salt Lake City 2018, 31 May - 1 June 2018';
+$title = $speaker['first'] . ' ' . $speaker['last'] . ' - Front Salt Lake City 2018, 31 May - 1 June 2018';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 ?>
 	<main class="secondary product-bootcamp-page">
 		<section class="hero">
-			<h1>Instructors</h1>
+			<h1>Speakers</h1>
 		</section>
 		<section class="individual-instructor">
-			<h2 class="">Instructors</h2>
+			<h2 class="">Speakers</h2>
 			<div class="instructor-profile">
 				<div class="details">
-					<div class="instructor <?php echo strtolower($instructor['discipline']); ?>">
+					<div class="instructor <?php echo strtolower($speaker['discipline']); ?>">
 						<div class="instructor-photo">
-							<img src="/images/<?php echo $instructor['photo']; ?>" alt="">
+							<img src="/images/<?php echo $speaker['photo']; ?>" alt="">
 						</div>
-						<h4><?php echo $instructor['first'] . ' ' . $instructor['last'] ?></h4>
-						<p class="title"><?php echo $instructor['title']; ?><br><?php echo $instructor['company']; ?></p>
+						<h4><?php echo $speaker['first'] . ' ' . $speaker['last'] ?></h4>
+						<p class="title"><?php echo $speaker['title']; ?><br><?php echo $speaker['company']; ?></p>
 					</div>
 					<nav class="social-nav">
 						<ul>
@@ -31,18 +31,18 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<?php
 
 							// twitter
-							if(!empty($instructor['twitter'])) {
-								echo '<li><a class="twitter" href="https://twitter.com/' . $instructor['twitter'] . '">Twitter</a></li>';
+							if(!empty($speaker['twitter'])) {
+								echo '<li><a class="twitter" href="https://twitter.com/' . $speaker['twitter'] . '">Twitter</a></li>';
 							}
 
 							// linkedin
-							if(!empty($instructor['linkedin'])) {
-								echo '<li><a class="linkedin" href="' . $instructor['linkedin'] . '">LinkedIn</a></li>';
+							if(!empty($speaker['linkedin'])) {
+								echo '<li><a class="linkedin" href="' . $speaker['linkedin'] . '">LinkedIn</a></li>';
 							}
 
 							// instagram
-							if(!empty($instructor['instagram'])) {
-								echo '<li><a class="instagram" href="https://www.instagram.com/' . $instructor['instagram'] . '/">Instagram</a></li>';
+							if(!empty($speaker['instagram'])) {
+								echo '<li><a class="instagram" href="https://www.instagram.com/' . $speaker['instagram'] . '/">Instagram</a></li>';
 							}
 
 							?>
@@ -55,8 +55,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 						<?php
 
-						if(count($courses) > 0) {
-							foreach($courses as $course) {
+						if(count($talks) > 0) {
+							foreach($talks as $course) {
 								echo '<h3>' . $course['title'] . '</h3>';
 								echo '<p>' . $course['description'] . '</p>';
 							}
@@ -65,8 +65,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						?>
 					</div>
 					<div class="about-instructor">
-						<h3>About <?php echo $instructor['first'] ?></h3>
-						<p><?php echo $instructor['bio'] ?></p>
+						<h3>About <?php echo $speaker['first'] ?></h3>
+						<p><?php echo $speaker['bio'] ?></p>
 					</div>
 				</div>
 			</div>

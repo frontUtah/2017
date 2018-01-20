@@ -2,34 +2,34 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Instructors - Front Salt Lake City 2018, 31 May - 1 June 2018';
+$title = 'Speakers - Front Salt Lake City 2018, 31 May - 1 June 2018';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 ?>
 	<main class="secondary product-bootcamp-page">
 		<section class="hero">
-			<h1>Instructors</h1>
+			<h1>Speakers</h1>
 		</section>
 		<section class="instructors">
-			<h2 class="">Instructors</h2>
+			<h2 class="">Speakers</h2>
 			<ul class="instructor-list">
 
 <?php
 
 // randomize list
-shuffle($instructors);
+shuffle($speakers);
 
 // spit them out
-foreach($instructors as $instructor) {
-	echo '<li class="instructor ' . $instructor['discipline'] . '">
-					<a href="/bootcamp/instructor/' . $instructor['slug'] . '">
+foreach($speakers as $speaker) {
+	echo '<li class="instructor ' . $speaker['discipline'] . '">
+					<!--a href="/conference/speaker/' . $speaker['slug'] . '"-->
 						<div class="instructor-photo">
-							<img src="/images/' . $instructor['photo'] . '" alt="">
+							<img src="/images/' . $speaker['photo'] . '" alt="">
 						</div>
-						<h4>' . $instructor['first'] . ' ' . $instructor['last'] . '</h4>
-						<p class="title">' . $instructor['title'] . '<br>' . $instructor['company'] . '</p>
-					</a>
+						<h4>' . $speaker['first'] . ' ' . $speaker['last'] . '</h4>
+						<p class="title">' . $speaker['title'] . '<br>' . $speaker['company'] . '</p>
+					<!--/a-->
 				</li>';
 
 }
@@ -37,7 +37,7 @@ foreach($instructors as $instructor) {
 ?>
 
 			</ul>
-			<p><em>+ 2 more instructors to be announced soon!</em></p>
+			<p><em>+ 7 more speakers to be announced soon!</em></p>
 		</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>

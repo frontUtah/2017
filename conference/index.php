@@ -17,7 +17,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</ul>
 			</p>
 			<p class="date-location">31 May - 1 June 2018 • Salt Lake City, Utah</p>
-			<a href="http://www.workfront.com"><img id="broughtoyouby" src="/images/frontslc18/broughttoyouby_workfront.png" /></a>
+			<a href="http://www.workfront.com"><img id="broughtoyouby" src="/images/frontconference18/broughttoyouby_workfront.png" /></a>
 			<p><a href="/conference/registration" class="button">Register</a></p>
 		</section>
 		<section class="training-courses">
@@ -25,41 +25,39 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<p>Join us this Spring, in Salt Lake City, for two full days of dedicated time away from your desk, learning better ways to work together with your team and be inspired to grow your career in UX or Product Management. Together with over 1,000 other professionals, you’ll learn from extremely talented people influencing the organizations they work for and changing the way our industry looks at digital products and the way people use them.</p>
 			<p>Creating amazing products requires more than brilliant ideas, meticulously crafted interactions, and cutting-edge technology—it requires a fanatical focus on users and a commitment to producing something that is both useful and desirable. It requires cross-functional teams that listen, iterate, and learn.</p>
 		</section>
-		<!--
 		<section class="instructor-preview">
-			<h2>Instructors</h2>
+			<h2>Speakers</h2>
 			<ul class="instructor-list">
 
 <?php
-/*
+
 // randomize list
-shuffle($instructors);
+shuffle($speakers);
 
 // grab first six
-$instructors = array_slice($instructors, 0, 6);
+$speakers = array_slice($speakers, 0, 6);
 
 // spit them out
-foreach($instructors as $instructor) {
+foreach($speakers as $instructor) {
 	echo '<li class="instructor ' . $instructor['discipline'] . '">
-					<a href="/bootcamp/instructor/' . $instructor['slug'] . '">
+					<!--a href="/conference/speaker/' . $instructor['slug'] . '"-->
 						<div class="instructor-photo">
 							<img src="/images/' . $instructor['photo'] . '" alt="">
 						</div>
 						<h4>' . $instructor['first'] . ' ' . $instructor['last'] . '</h4>
 						<p class="title">' . $instructor['title'] . '<br>' . $instructor['company'] . '</p>
-					</a>
+					<!--/a-->
 				</li>';
 
 }
-*/
+
 ?>
 
 			</ul>
 			<p>
-				<a href="/bootcamp/instructors" class="button">View All</a>
+				<a href="/conference/speakers" class="button">View All</a>
 			</p>
 		</section>
-		-->
 		
 <a name="highlights"></a>
 		
