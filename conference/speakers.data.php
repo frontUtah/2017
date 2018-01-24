@@ -169,4 +169,19 @@ $speakers[] = array(
 	'linkedin' => ''
 );
 
+// Ximena Vengoechea
+$speakers[] = array(
+	'slug' => 'ximenavengoechea',
+	'first' => 'Ximena',
+	'last' => 'Vengoechea',
+	'title' => 'Research Manager',
+	'company' => 'Pinterest',
+	'discipline' => 'research',
+	'photo' => 'frontconference18/speaker_ximenavengoechea.jpg',
+	'bio' => '',
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => ''
+);
+
 ?>
