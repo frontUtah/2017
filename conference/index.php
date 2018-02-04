@@ -40,13 +40,13 @@ $speakers = array_slice($speakers, 0, 6);
 // spit them out
 foreach($speakers as $instructor) {
 	echo '<li class="instructor ' . $instructor['discipline'] . '">
-					<!--a href="/conference/speaker/' . $instructor['slug'] . '"-->
+					<a href="/conference/speaker/' . $instructor['slug'] . '">
 						<div class="instructor-photo">
 							<img src="/images/' . $instructor['photo'] . '" alt="">
 						</div>
 						<h4>' . $instructor['first'] . ' ' . $instructor['last'] . '</h4>
 						<p class="title">' . $instructor['title'] . '<br>' . $instructor['company'] . '</p>
-					<!--/a-->
+					</a>
 				</li>';
 
 }
