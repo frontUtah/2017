@@ -32,17 +32,17 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 							// twitter
 							if(!empty($speaker['twitter'])) {
-								echo '<li><a class="twitter" href="https://twitter.com/' . $speaker['twitter'] . '">Twitter</a></li>';
+								echo '<li><a class="twitter" target="_blank" href="https://twitter.com/' . $speaker['twitter'] . '">Twitter</a></li>';
 							}
 
 							// linkedin
 							if(!empty($speaker['linkedin'])) {
-								echo '<li><a class="linkedin" href="' . $speaker['linkedin'] . '">LinkedIn</a></li>';
+								echo '<li><a class="linkedin" target="_blank" href="' . $speaker['linkedin'] . '">LinkedIn</a></li>';
 							}
 
 							// instagram
 							if(!empty($speaker['instagram'])) {
-								echo '<li><a class="instagram" href="https://www.instagram.com/' . $speaker['instagram'] . '/">Instagram</a></li>';
+								echo '<li><a class="instagram" target="_blank" href="https://www.instagram.com/' . $speaker['instagram'] . '/">Instagram</a></li>';
 							}
 
 							?>
