@@ -1139,12 +1139,12 @@ footer p {
 		float: right;
 	}
 
-	.product-bootcamp-page .hero, .product-schedule-front .hero, .product-conference-registration .hero, .product-conference-faq .hero {
+	.product-bootcamp-page .hero, .product-schedule-front .hero, .product-conference-registration .hero, .product-conference-faq .hero, .product-speakers-front .hero {
 		display: block;
 		height: 392px
 	}
 
-	.product-bootcamp-page .hero h1, .product-schedule-front .hero h1, .product-conference-registration .hero h1, .product-conference-faq .hero h1 {
+	.product-bootcamp-page .hero h1, .product-schedule-front .hero h1, .product-conference-registration .hero h1, .product-conference-faq .hero h1, .product-speakers-front .hero h1 {
 		font-size: 56px;
 		color: #FFF;
 		padding-top: 200px
@@ -1165,7 +1165,10 @@ footer p {
 	background-image: url(../images/home-bg-2.jpg);
 	background-position: center center;
 }
-
+.product-speakers-front .hero {
+	background-image: url(../images/home-bg-7.jpg);
+	background-position: center center;
+}
 
 .product-conference-registration .hero {
 	background-image: url(../images/home-bg-7.jpg);
