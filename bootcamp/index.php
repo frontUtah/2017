@@ -16,31 +16,26 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li>200+ product designers and managers</li>
 				</ul>
 			</p>
-			<p class="date-location">4-5 Jan 2018 • Park City, Utah</p>
-			<a href="http://www.pendo.io"><img id="broughtoyouby" src="/images/frontpc18/broughttoyouby_pendo.png" /></a>
+			<p class="date-location">8-9 November 2018 • Salt Lake City, Utah</p>
+			<!--<a href="http://www.pendo.io"><img id="broughtoyouby" src="/images/frontpc18/broughttoyouby_pendo.png" /></a>-->
 			<p><a href="/bootcamp/registration" class="button">Register</a></p>
 		</section>
-		<section class="bootcamp-about">
-			<div class="content">
-				<h2>2 intense days of learning
- and practice at 7,000 feet</h2>
-				<p>Join us in the majestic mountains of Utah for an intimate, one-of-a-kind 
+		<section class="training-courses">
+				<h2>2 intense days of learning and practice</h2>
+				<p>Join us in foothills of the majestic mountains of Utah for an intimate, one-of-a-kind 
 					UX and Product Management training experience. Select 5 half and quarter-day 
 					workshops, for 2 intense days of learning and practice. No passive education 
-					here. This isn’t for the faint of heart. We’ll be working together, at 7,000 
-					feet and atop the greatest snow on earth, in small groups of six, where you’ll 
-					be expected to collaborate and engage.</p>
+					here. This isn’t for the faint of heart. We’ll be working together in the shadows 
+					of the Rocky Mountains, in small groups of six, where you’ll be expected 
+					to collaborate and engage.</p>
 				<p>Each workshop will be limited to 48 students and taught by internationally 
 					recognized industry leaders and some of tech’s most skilled practitioners. 
 					Breakfast and lunch are provided each day. And yeah, we certainly expect that 
-					you’ll stay an extra day—or two—for some time on the slopes.</p>
-			</div>
-			<div class="image">
-				<img src="/images/front-snow-stamp.png" alt="">
-			</div>
+					you’ll stay an extra day—or two—for some time world famous hiking and mountain biking.</p>
+
 		</section>
 		<section class="instructor-preview">
-			<h2>Instructors</h2>
+			<h2>Past instructors</h2>
 			<ul class="instructor-list">
 
 <?php
@@ -54,13 +49,13 @@ $instructors = array_slice($instructors, 0, 6);
 // spit them out
 foreach($instructors as $instructor) {
 	echo '<li class="instructor ' . $instructor['discipline'] . '">
-					<a href="/bootcamp/instructor/' . $instructor['slug'] . '">
+					<!--<a href="/bootcamp/instructor/' . $instructor['slug'] . '">-->
 						<div class="instructor-photo">
 							<img src="/images/' . $instructor['photo'] . '" alt="">
 						</div>
 						<h4>' . $instructor['first'] . ' ' . $instructor['last'] . '</h4>
 						<p class="title">' . $instructor['title'] . '<br>' . $instructor['company'] . '</p>
-					</a>
+					<!--</a>-->
 				</li>';
 
 }
@@ -68,9 +63,11 @@ foreach($instructors as $instructor) {
 ?>
 
 			</ul>
+			<!--
 			<p>
 				<a href="/bootcamp/instructors" class="button">View All</a>
 			</p>
+			-->
 		</section>
 		<section class="highlight-video">
 			<h2>2017 Highlights</h2>
@@ -143,7 +140,7 @@ foreach($instructors as $instructor) {
 		</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
-			<p>Reserve your seat now for the premier UX and Product Management training experience. Design your custom training program now. Whether you’re a beginner or seasoned professional, the Front Park City workshop series will take you and your team to the next level in product design and management.</p>
+			<p>Reserve your seat now for the premier UX and Product Management training experience. Design your custom training program now. Whether you’re a beginner or seasoned professional, the Front UX & Product Management Bootcamp will take you and your team to the next level in product design and management.</p>
 			<p><a href="/bootcamp/registration" class="button">Register</a></p>
 		</section>
 	</main>

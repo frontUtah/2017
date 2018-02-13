@@ -1183,6 +1183,34 @@ footer p {
 	background-image: url(../images/home-bg-9.jpg);
 }
 
+.bootcamp-courses .hero {
+	background-image: url(../images/article-bg-2.jpg);	
+}
+
+.bootcamp-schedule .hero {
+	background-image: url(../images/article-bg-3.jpg);	
+}
+
+.bootcamp-instructors .hero {
+	background-image: url(../images/article-bg-9.jpg);	
+}
+
+.bootcamp-venue .hero {
+	background-image: url(../images/article-bg-5.jpg);	
+}
+
+.bootcamp-faqs .hero {
+	background-image: url(../images/article-bg-6.jpg);	
+}
+
+.bootcamp-why .hero {
+	background-image: url(../images/article-bg-7.jpg);	
+}
+
+.bootcamp-registration .hero {
+	background-image: url(../images/article-bg-8.jpg);	
+}
+
 
 
 

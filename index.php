@@ -28,7 +28,7 @@ require('includes/header.php');
 			</li>
 			<li>
 				<h3>Product Bootcamp</h3>
-				<p class="date-location">Park City, 4-5 January 2018</p>
+				<p class="date-location">Salt Lake City, 8-9 November 2018</p>
 				<div href="https://vimeo.com/216410956" class="thumnail video-thumbnail recap-video">
 					<img src="images/conf-scene002.jpg" alt="">
 				</div>

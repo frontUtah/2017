@@ -24,7 +24,7 @@ $tabs[] = array('link' => 'leadership', 'text' => 'Leadership');
 
 ?>
 
-<main class="secondary product-bootcamp-page">
+<main class="secondary product-bootcamp-page bootcamp-courses">
 	<section class="hero">
 		<h1>Courses</h1>
 	</section>
@@ -174,7 +174,7 @@ switch($track) {
 	</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
-			<p>Reserve your seat now for the premier UX and Product Management training experience. Design your custom training program now. Whether you’re a beginner or seasoned professional, the Front Park City workshop series will take you and your team to the next level in product design and management.</p>
+			<p>Reserve your seat now for the premier UX and Product Management training experience. Design your custom training program now. Whether you’re a beginner or seasoned professional, the Front UX & Product Management Bootcamp will take you and your team to the next level in product design and management.</p>
 			<p><a href="/bootcamp/registration" class="button">Register</a></p>
 		</section>
 </main>

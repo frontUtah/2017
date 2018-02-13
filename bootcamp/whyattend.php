@@ -7,15 +7,14 @@ $title = 'Why attend - Front Park City 2018, 4-5 January 2018';
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 ?>
-	<main class="secondary product-bootcamp-page">
+	<main class="secondary product-bootcamp-page bootcamp-why">
 		<section class="hero">
 			<h1>Why Attend</h1>
 		</section>
 		<section class="reasons-why">
 			<h2>Why Attend</h2>
-			<p class="about-reasons-why">You’ve sat through the keynotes, listened to the podcasts, and read the books. Now what? Where do you begin? You’re motivated and inspired, but what if your organization isn’t or what if you’re building a new team? How do you begin? Front Park City is a two-day bootcamp, specifically designed as an intimate, intensive, one-of-a-kind, hands-on UX and Product Management training experience where you will  experience and practice the techniques and methods that will accelerate the efficiency and accuracy and your organization’s product discovery and delivery. It also happens to be held in the majestic mountains of Utah, blanketed with the greatest snow on earth.
-
-It’s time to demand more than a workshop, bolted onto a conference as a supplemental day of content. Come, join us at the Front, where you’ll work side-by-side with some of the industry’s best and brightest. Design a custom training program to jump-starting your career or take it to the next level.
+			<p class="about-reasons-why">You’ve sat through the keynotes, listened to the podcasts, and read the books. Now what? Where do you begin? You’re motivated and inspired, but what if your organization isn’t or what if you’re building a new team? How do you begin? Front UX & Product Management a two-day workshop series, specifically designed as an intimate, intensive, one-of-a-kind, hands-on training experience where you will  experience and practice the techniques and methods that will accelerate the efficiency and accuracy and your organization’s product discovery and delivery. It also happens to be held in the foothills of the majestic mountains of Utah.<br /><br />
+				It’s time to demand more than a workshop, bolted onto a conference as a supplemental day of content. Come, join us at the Front, where you’ll work side-by-side with some of the industry’s best and brightest. Design a custom training program to jump-starting your career or take it to the next level.
 </p>
 			<ul class="reasons-why-list">
 				<li>
@@ -25,8 +24,8 @@ It’s time to demand more than a workshop, bolted onto a conference as a supple
 				</li>
 				<li>
 					<img src="/images/conf-scene005.jpg" alt="">
-					<h4>Greatest snow on earth</h4>
-					<p>Don’t just get away from your desk, get out of the city. Stay through the weekend riding on pure Utah powder.</p>
+					<h4>The greatest great outdoors</h4>
+					<p>Don’t just get away from your desk, get out of the city. Stay through the weekend hiking our national parks and biking some single-track.</p>
 				</li>
 				<li>
 					<img src="/images/conf-scene006.jpg" alt="">
@@ -46,7 +45,7 @@ It’s time to demand more than a workshop, bolted onto a conference as a supple
 				<li>
 					<img src="/images/conf-scene009.jpg" alt="">
 					<h4>Networking and fun</h4>
-					<p>Historic Park City, skiing, food, and friends—you’ll leave after two days with a wealth of memories and new, professional connections.</p>
+					<p>Historic Salt Lake City, hiking, food, and friends&mdash;you’ll leave after two days with a wealth of memories and new, professional connections.</p>
 				</li>
 			</ul>
 		</section>
@@ -65,7 +64,7 @@ It’s time to demand more than a workshop, bolted onto a conference as a supple
 		</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
-			<p>Reserve your seat now for the premier UX and Product Management training experience. Design your custom training program now. Whether you’re a beginner or seasoned professional, the Front Park City workshop series will take you and your team to the next level in product design and management.</p>
+			<p>Reserve your seat now for the premier UX and Product Management training experience. Design your custom training program now. Whether you’re a beginner or seasoned professional, the Front UX & Product Management Bootcamp will take you and your team to the next level in product design and management.</p>
 			<p><a href="/bootcamp/registration" class="button">Register</a></p>
 		</section>
 	</main>
