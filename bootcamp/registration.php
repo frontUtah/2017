@@ -107,7 +107,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			</div>
 			-->
 			
-			<p><a target="_blank" href="http://frontparkcity2018.eventbrite.com" class="button">Register</a></p>
+			<p><a target="_blank" href="https://frontbootcampnov2018.eventbrite.com" class="button">Register</a></p>
 		</section>
 
 		<section class="accomodations">
