@@ -88,8 +88,8 @@ $talks[] = array(
 
 // Tim Van Damme
 $talks[] = array(
-	'title' => '',
-	'description' => "",
+	'title' => 'Designers Designing for Designers',
+	'description' => "Josh and Tim talk about the daily struggles that come with designing a tool aimed at product builders. Learn how Abstract evolved over time, and about the thousands of decisions that led to what you see today.",
 	'track' => 'ux',
 	'day' => 2,
 	'slot' => 1,
@@ -168,8 +168,8 @@ $talks[] = array(
 
 // Josh Brewer
 $talks[] = array(
-	'title' => '',
-	'description' => "",
+	'title' => 'Designers Designing for Designers',
+	'description' => "Josh and Tim talk about the daily struggles that come with designing a tool aimed at product builders. Learn how Abstract evolved over time, and about the thousands of decisions that led to what you see today.",
 	'track' => 'pm',
 	'day' => 2,
 	'slot' => 2,
