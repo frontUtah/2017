@@ -126,6 +126,7 @@ foreach($instructors as $instructor) {
 			</ul>
 		</section>
 		
+		<!--
 		<section class="sponsors">
 			<h2>Sponsors</h2>
 			<a href="http://www.pendo.io"><img id="premier" src="/images/sponsors/pendo.svg" /></a>
@@ -133,6 +134,7 @@ foreach($instructors as $instructor) {
 			  <li class="second_tier_sponsor"><a href="http://www.workfront.com"><img src="/images/sponsors/workfront.svg" /></a></li>
 			</ul>
 		</section>
+		-->
 			
 		<section class="photo-collage">
 			<img src="/images/conf-collage-mobile.jpg" alt="" class="full mobile">
