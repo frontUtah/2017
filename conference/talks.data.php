@@ -15,7 +15,7 @@ $talks[] = array(
 	'track' => 'ux',
 	'day' => 1,
 	'slot' => 1,
-	'instructor' => 'cameronmoll',
+	'speaker' => 'cameronmoll',
 	'level' => 'basics'
 );
 
@@ -26,7 +26,7 @@ $talks[] = array(
 	'track' => 'ux',
 	'day' => 1,
 	'slot' => 2,
-	'instructor' => 'jennyarden',
+	'speaker' => 'jennyarden',
 	'level' => 'basics'
 );
 
@@ -37,7 +37,7 @@ $talks[] = array(
 	'track' => 'ux',
 	'day' => 1,
 	'slot' => 3,
-	'instructor' => 'frankyoo',
+	'speaker' => 'frankyoo',
 	'level' => 'advanced'
 );
 
@@ -49,7 +49,7 @@ $talks[] = array(
 	'track' => 'ux',
 	'day' => 2,
 	'slot' => 1,
-	'instructor' => 'benpeck',
+	'speaker' => 'benpeck',
 	'level' => 'advanced'
 );
 
@@ -60,7 +60,7 @@ $talks[] = array(
 	'track' => 'ux',
 	'day' => 2,
 	'slot' => 1,
-	'instructor' => 'adriennegajownik',
+	'speaker' => 'adriennegajownik',
 	'level' => 'advanced'
 );
 
@@ -71,7 +71,7 @@ $talks[] = array(
 	'track' => 'ux',
 	'day' => 2,
 	'slot' => 1,
-	'instructor' => 'stephenolmstead',
+	'speaker' => 'stephenolmstead',
 	'level' => 'advanced'
 );
 
@@ -82,7 +82,7 @@ $talks[] = array(
 	'track' => 'ux',
 	'day' => 2,
 	'slot' => 1,
-	'instructor' => 'eliwoolery',
+	'speaker' => 'eliwoolery',
 	'level' => 'advanced'
 );
 
@@ -93,7 +93,7 @@ $talks[] = array(
 	'track' => 'ux',
 	'day' => 2,
 	'slot' => 1,
-	'instructor' => 'timvandamme',
+	'speaker' => 'timvandamme',
 	'level' => 'advanced'
 );
 
@@ -104,7 +104,7 @@ $talks[] = array(
 	'track' => 'ux',
 	'day' => 2,
 	'slot' => 2,
-	'instructor' => 'chrismayfield',
+	'speaker' => 'chrismayfield',
 	'level' => 'advanced'
 );
 
@@ -118,7 +118,7 @@ $talks[] = array(
 	'track' => 'ux',
 	'day' => 2,
 	'slot' => 2,
-	'instructor' => 'amandarichardson',
+	'speaker' => 'amandarichardson',
 	'level' => 'advanced'
 );
 
@@ -129,7 +129,7 @@ $talks[] = array(
 	'track' => 'pm',
 	'day' => 1,
 	'slot' => 1,
-	'instructor' => 'natebarrett',
+	'speaker' => 'natebarrett',
 	'level' => 'basics'
 );
 
@@ -140,7 +140,7 @@ $talks[] = array(
 	'track' => 'pm',
 	'day' => 1,
 	'slot' => 2,
-	'instructor' => 'ciarapeter',
+	'speaker' => 'ciarapeter',
 	'level' => 'basics'
 );
 
@@ -151,7 +151,7 @@ $talks[] = array(
 	'track' => 'pm',
 	'day' => 1,
 	'slot' => 3,
-	'instructor' => 'andimoore',
+	'speaker' => 'andimoore',
 	'level' => 'advanced'
 );
 
@@ -162,7 +162,7 @@ $talks[] = array(
 	'track' => 'pm',
 	'day' => 2,
 	'slot' => 2,
-	'instructor' => 'natebarrett',
+	'speaker' => 'natebarrett',
 	'level' => 'advanced'
 );
 
@@ -173,7 +173,7 @@ $talks[] = array(
 	'track' => 'pm',
 	'day' => 2,
 	'slot' => 2,
-	'instructor' => 'joshbrewer',
+	'speaker' => 'joshbrewer',
 	'level' => 'advanced'
 );
 
@@ -184,7 +184,7 @@ $talks[] = array(
 	'track' => 'pm',
 	'day' => 2,
 	'slot' => 2,
-	'instructor' => 'bhavikashah',
+	'speaker' => 'bhavikashah',
 	'level' => 'advanced'
 );
 
@@ -200,7 +200,7 @@ $talks[] = array(
 	'track' => 'research',
 	'day' => 1,
 	'slot' => 1,
-	'instructor' => 'aryelcianflone',
+	'speaker' => 'aryelcianflone',
 	'level' => 'basics'
 );
 
@@ -211,7 +211,7 @@ $talks[] = array(
 	'track' => 'research',
 	'day' => 1,
 	'slot' => 2,
-	'instructor' => 'raynawiles',
+	'speaker' => 'raynawiles',
 	'level' => 'basics'
 );
 
