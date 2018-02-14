@@ -43,7 +43,8 @@ $speakers[] = array(
 	'company' => 'Lyft',
 	'discipline' => 'ux',
 	'photo' => 'frontconference18/speaker_frankyoo.jpg',
-	'bio' => 'Frank Yoo is the Head of Product Design at Lyft where he’s focused on building experiences that connect people through transportation and community. He specializes in design process and execution; product strategy; and priority/resource management.</br></br>With prior posts at LinkedIn and Yahoo!, his experience is rooted in user-centered design, consumer internet, and marketplaces. He’s a dad, a husband, and principle frisbee chucker for the family Boston Terrier, Arial.',
+	'bio' => 'Frank Yoo is Director of Design at Lyft, where he’s leading teams focused on the core passenger and self-driving experiences. As an early employee, he is a member of the small team that built the first version of Lyft. </br></br>With prior posts at LinkedIn and Yahoo!, Frank’s experience is anchored in user-centered design, consumer content, social networking, and now transportation and marketplaces. Beyond the workplace, he’s a husband, a dad to two happy and hilarious girls, and the family Boston terrier’s best friend / ball throwing machine.
+',
 	'twitter' => 'frankyoo',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/frankyoo/'
@@ -139,6 +140,21 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/brianlcrofts/'
 );
 
+// Adrienne Gajownik
+$speakers[] = array(
+	'slug' => 'adriennegajownik',
+	'first' => 'Adrienne',
+	'last' => 'Gajownik',
+	'title' => 'Product Designer',
+	'company' => 'Pendo',
+	'discipline' => 'ux',
+	'photo' => 'frontconference18/speaker_adriennegajownik.jpg',
+	'bio' => '',
+	'twitter' => 'minceandtype',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/adrienne-gajownik-4557342/'
+);
+
 // Stephen Olmstead
 $speakers[] = array(
 	'slug' => 'stephenolmstead',
@@ -223,7 +239,8 @@ $speakers[] = array(
 	'company' => 'Pluralsight',
 	'discipline' => 'pm',
 	'photo' => 'frontconference18/speaker_bhavikashah.jpg',
-	'bio' => 'Bhavika a curious and resourceful product manager at Pluralsight, a global leader in online learning for professionals. With a penchant for user-centered design and research, she spends her days listening to customers, gleaning insights from quantitative and qualitative data and informing product development decisions. She loves understanding why someone uses a product and then ideating on how that experience can be improved.</br></br>Prior to her transition into product roles at Pluralsight, she held client-facing roles at Smarterer and General Electric. At Smarterer, she managed the deployment of several enterprise projects and tackled various cross-functional projects aligned with business priorities. During three plus years at General Electric in its Commercial Leadership Program and an account manager role, she developed skills in sales and account management, project management and process improvement.',
+	'bio' => 'Bhavika is a product manager at Pluralsight where she works on the Pluralsight IQ product. She loves building products that help people learn technology more effectively and using data to build a personalized learning experience. Leveraging her experiences as both a product analyst and user researcher, she enjoys blending quantitative and qualitative methods to inform product decisions. </br></br>Prior to her product roles at Pluralsight, Bhavika held client-facing roles at Smarterer (acquired by Pluralsight) and General Electric, after completing the GE Commercial Leadership Program. Bhavika holds a Bachelors of Science in Biomedical Engineering from Worcester Polytechnic Institute.
+',
 	'twitter' => 'bhavikabshah',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/bhavikabshah/'
@@ -238,25 +255,26 @@ $speakers[] = array(
 	'company' => 'OneMarket',
 	'discipline' => 'research',
 	'photo' => 'frontconference18/speaker_raynawiles.jpg',
-	'bio' => 'Rayna partners with OneMarket leadership + production teams to visually synthesize and articulate research insights, business opportunities, team processes, and product directions.</br></br>Previously at Frog Design she led teams through the design process by empowering them to make the right decisions with empathy and understanding. She also created clarifying, approachable, and robust digital offerings with multi-disciplined teams. As well as coupled research with design to find needs, generate ideas, and build stories. She is also a proud alumni of Stanford University',
+	'bio' => 'Rayna is a designer-research by trade and facilitator at heart. She currently advises the leadership and production teams of the OneMarket retail network, providing visual synthesis, process development, and strategic experience design. </br></br>She previously led groups at the San Francisco offices of frog Design & Westfield Labs. Her multi-disciplinary teams uncover needs and drive product strategy using an empathy driven design research process. She is a proud alumna of Stanford University and currently resides in Salt Lake City.
+',
 	'twitter' => '',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/rayna-wiles-50370a6/'
 );
 
-// Ximena Vengoechea
+// Aryel Cianflone
 $speakers[] = array(
-	'slug' => 'ximenavengoechea',
-	'first' => 'Ximena',
-	'last' => 'Vengoechea',
-	'title' => 'Research Manager',
-	'company' => 'Pinterest',
+	'slug' => 'aryelcianflone',
+	'first' => 'Aryel',
+	'last' => 'Cianflone',
+	'title' => 'UX Researcher',
+	'company' => 'LinkedIn',
 	'discipline' => 'research',
-	'photo' => 'frontconference18/speaker_ximenavengoechea.jpg',
-	'bio' => 'Ximena Vengoechea is a design researcher, writer, and illustrator whose work on personal and professional development has been published in Inc., Newsweek, and the Huffington Post. She currently works at Pinterest as a qualitative researcher.',
-	'twitter' => 'xsvengoechea',
+	'photo' => 'frontconference18/speaker_aryelcianflone.jpg',
+	'bio' => 'Aryel is a UX researcher and the founder of Mixed Methods, a podcast, community, and publication interested in the hows and whys of design research. She is currently working at LinkedIn, bringing a member perspective to enterprise products.',
+	'twitter' => 'AryelCianflone',
 	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/ximenavengoechea/'
+	'linkedin' => 'https://www.linkedin.com/in/aryelcianflone/'
 );
 
 ?>
