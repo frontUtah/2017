@@ -162,7 +162,7 @@ $talks[] = array(
 	'track' => 'pm',
 	'day' => 2,
 	'slot' => 2,
-	'speaker' => 'natebarrett',
+	'speaker' => 'briancrofts',
 	'level' => 'advanced'
 );
 
