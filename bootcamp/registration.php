@@ -27,7 +27,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</dd>
 					<dd class="standard">
 						Standard pricing
-						<small>Starting 1 September 2017</small>
+						<small>Starting 1 September 2018</small>
 					</dd>
 				</dl>
 				<dl class="full">
