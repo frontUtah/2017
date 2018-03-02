@@ -116,7 +116,7 @@ switch($uri_parts[0]) {
 
 		//$bootcamp_nav[] = array('link' => 'courses', 'text' => 'Courses', 'class' => '');
 		$bootcamp_nav[] = array('link' => 'schedule', 'text' => 'Schedule', 'class' => '');
-		$bootcamp_nav[] = array('link' => 'instructors', 'text' => 'Instructors', 'class' => '');
+		//$bootcamp_nav[] = array('link' => 'instructors', 'text' => 'Instructors', 'class' => '');
 		$bootcamp_nav[] = array('link' => 'venue', 'text' => 'Venue', 'class' => '');
 		$bootcamp_nav[] = array('link' => 'faqs', 'text' => 'FAQs', 'class' => '');
 		$bootcamp_nav[] = array('link' => 'whyattend', 'text' => 'Why attend', 'class' => '');

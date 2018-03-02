@@ -1,4 +1,6 @@
 <?php
+	
+header('location: /bootcamp');
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
@@ -9,10 +11,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 ?>
 	<main class="secondary product-bootcamp-page bootcamp-instructors">
 		<section class="hero">
-			<h1>Past instructors</h1>
+			<h1>Instructors</h1>
 		</section>
 		<section class="instructors">
-			<h2 class="">Past instructors</h2>
+			<h2 class="">Instructors</h2>
 			<ul class="instructor-list">
 
 <?php
