@@ -2,7 +2,7 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Front Park City 2018 - UX & Product Management Bootcamp';
+$title = 'Front UX & Product Management Bootcamp, 8-9 November 2018';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 

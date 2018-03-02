@@ -1,8 +1,10 @@
 <?php
+	
+header('location: /bootcamp');
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Courses - Front Park City 2018, 4-5 January 2018';
+$title = 'Courses - Front UX & Product Management Bootcamp, 8-9 November 2018';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
@@ -95,7 +97,7 @@ switch($track) {
 
 		<div class="course-calendar">
 			<div class="course-date">
-				<h3>Thursday, 4 January 2018</h3>
+				<h3>Thursday, 8 November 2018</h3>
 				<ul class="days-courses">
 
 					<?php
@@ -165,7 +167,7 @@ switch($track) {
 				</ul>
 			</div>
 			<div class="course-date">
-				<h3>Friday, 5 January 2018</h3>
+				<h3>Friday, 9 November 2018</h3>
 				<ul class="days-courses">
 					<?php echo print_courses($uri_parts[2], 2); ?>
 				</ul>
