@@ -76,10 +76,15 @@ foreach($speakers as $instructor) {
 		
 		<section class="sponsors">
 			<h2>Sponsors</h2>
-			<a href="http://www.workfront.com"><img id="premier" src="/images/sponsors/workfront.svg" /></a>
+			<a href="http://www.workfront.com" target="_blank"><img id="premier" src="/images/sponsors/workfront.svg" /></a>
 			<ul class="second_tier">
-			  <li class="second_tier_sponsor"><a href="http://www.balsamiq.com"><img src="/images/sponsors/balsamiq.svg" /></a></li>
-			  <li class="second_tier_sponsor"><a href="http://www.pluralsight.com"><img src="/images/sponsors/pluralsight.svg" /></a></li>
+			  <li class="second_tier_sponsor"><a href="http://www.pluralsight.com" target="_blank"><img src="/images/sponsors/pluralsight.svg" /></a></li>
+			  <li class="second_tier_sponsor"><a href="http://www.jane.com" target="_blank"><img src="/images/sponsors/jane.svg" /></a></li>
+			  <li class="second_tier_sponsor"><a href="http://www.pendo.io" target="_blank"><img src="/images/sponsors/pendo.svg" /></a></li>
+			  <li class="second_tier_sponsor"><a href="http://www.podium.com" target="_blank"><img src="/images/sponsors/podium.svg" /></a></li>
+			  <li class="second_tier_sponsor"><a href="http://www.domo.com" target="_blank"><img src="/images/sponsors/domo.svg" style="max-width: 70px;" /></a></li>
+			  <li class="second_tier_sponsor"><a href="http://www.underbelly.is" target="_blank"><img src="/images/sponsors/underbelly.svg" /></a></li>
+			  <li class="second_tier_sponsor"><a href="http://www.balsamiq.com" target="_blank"><img src="/images/sponsors/balsamiq.svg" /></a></li>
 			</ul>
 		</section>
 		
