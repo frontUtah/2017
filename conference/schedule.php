@@ -36,8 +36,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">9:10 AM</dt>
 							<dd class="ux">
-								<h4>Case Study Talk</h4>
-								<p>TBD</p>
+								<h4>Surviving a Redesign</h4>
+								<p>Frank Yoo from Lyft</p>
 							</dd>
 						</dl>
 					</li>
@@ -45,8 +45,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">9:40 AM</dt>
 							<dd class="ux">
-								<h4>Case Study Talk</h4>
-								<p>TBD</p>
+								<h4>Sticky Business - Building Consumer Grade Experiences for the Enterprise</h4>
+								<p>Ciara Peter from Box</p>
 							</dd>
 						</dl>
 					</li>
@@ -62,8 +62,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">10:50 AM</dt>
 							<dd class="ux">
-								<h4>Case Study Talk</h4>
-								<p>TBD</p>
+								<h4>How to Speed Up Research</h4>
+								<p>Aryel Cianflone from LinkedIn</p>
 							</dd>
 						</dl>
 					</li>
@@ -71,8 +71,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">11:20 AM</dt>
 							<dd class="ux">
-								<h4>Case Study Talk</h4>
-								<p>TBD</p>
+								<h4>Designing for Trust</h4>
+								<p>Jenny Arden from Airbnb</p>
 							</dd>
 						</dl>
 					</li>
@@ -89,7 +89,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<dt class="time">1:30 PM</dt>
 							<dd class="ux">
 								<h4>Q&A panel with morning speakers</h4>
-								<p>TBD</p>
+								<p>Frank Yoo, Ciara Peter, Aryel Cianflone, and Jenny Arden</p>
 							</dd>
 						</dl>
 					</li>
@@ -97,8 +97,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">2:00 PM</dt>
 							<dd class="ux">
-								<h4>Case Study Team Talk</h4>
-								<p>TBD</p>
+								<h4>Principles and Practice</h4>
+								<p>Stephen Olmstead and Eli Woolery from InVision</p>
 							</dd>
 						</dl>
 					</li>
@@ -114,8 +114,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">3:10 PM</dt>
 							<dd class="ux">
-								<h4>Case Study Team Talk</h4>
-								<p>TBD</p>
+								<h4>How to survive as a designer or PM in the era of the algorithm.</h4>
+								<p>Chris Mayfield & Bhavika Shah from Pluralsight</p>
 							</dd>
 						</dl>
 					</li>
@@ -123,8 +123,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">3:50 PM</dt>
 							<dd class="ux">
-								<h4>Case Study Talk</h4>
-								<p>TBD</p>
+								<h4>Motivating product teams through a culture of autonomy</h4>
+								<p>Nate Barrett from Canopy</p>
 							</dd>
 						</dl>
 					</li>
@@ -161,8 +161,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">9:10 AM</dt>
 							<dd class="ux">
-								<h4>Case Study Talk</h4>
-								<p>TBD</p>
+								<h4>Getting Data Right, A Case Study in How We Did It Wrong at HotelTonight</h4>
+								<p>Amanda Richardson from HotelTonight</p>
 							</dd>
 						</dl>
 					</li>
@@ -170,8 +170,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">9:40 AM</dt>
 							<dd class="ux">
-								<h4>Case Study Talk</h4>
-								<p>TBD</p>
+								<h4>When We Align</h4>
+								<p>Cameron Moll from Facebook</p>
 							</dd>
 						</dl>
 					</li>
@@ -187,8 +187,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">10:50 AM</dt>
 							<dd class="ux">
-								<h4>Case Study Talk</h4>
-								<p>TBD</p>
+								<h4>Researching as a Facilitator</h4>
+								<p>Rayna Wiles prevously Frog</p>
 							</dd>
 						</dl>
 					</li>
@@ -196,8 +196,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">11:20 AM</dt>
 							<dd class="ux">
-								<h4>Case Study Talk</h4>
-								<p>TBD</p>
+								<h4>Making the leap to IoT</h4>
+								<p>Andi Moore from Vivint</p>
 							</dd>
 						</dl>
 					</li>
@@ -214,7 +214,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<dt class="time">1:30 PM</dt>
 							<dd class="ux">
 								<h4>Q&A panel with morning speakers</h4>
-								<p>TBD</p>
+								<p>Amanda Richardson, Cameron Moll, Rayna Wiles, and Andi Moore</p>
 							</dd>
 						</dl>
 					</li>
@@ -222,8 +222,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">2:00 PM</dt>
 							<dd class="ux">
-								<h4>Case Study Team Talk</h4>
-								<p>TBD</p>
+								<h4>Designers Designing for Designers</h4>
+								<p>Josh Brewer & Tim Van Damme from Abstract</p>
 							</dd>
 						</dl>
 					</li>
@@ -239,8 +239,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">3:10 PM</dt>
 							<dd class="ux">
-								<h4>Case Study Team Talk</h4>
-								<p>TBD</p>
+								<h4>The Modern Product Team</h4>
+								<p>Brian Crofts & Adrienne Gajownik from Pendo</p>
 							</dd>
 						</dl>
 					</li>
@@ -248,8 +248,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">3:50 PM</dt>
 							<dd class="ux">
-								<h4>Case Study Talk</h4>
-								<p>TBD</p>
+								<h4>Strong Opinions Loosely Held, Design Rules vs Guidelines</h4>
+								<p>Ben Peck from Jane.com</p>
 							</dd>
 						</dl>
 					</li>
