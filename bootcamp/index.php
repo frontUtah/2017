@@ -69,6 +69,7 @@ foreach($instructors as $instructor) {
 			</p>
 			-->
 		</section>
+		<a name="highlight_video" />
 		<section class="highlight-video">
 			<h2>January 2018 Highlights</h2>
 			<div href="https://www.youtube.com/watch?v=rTLIYQVHa90" class="thumbnail video-thumbnail recap-video">
