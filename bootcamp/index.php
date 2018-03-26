@@ -70,9 +70,9 @@ foreach($instructors as $instructor) {
 			-->
 		</section>
 		<section class="highlight-video">
-			<h2>2017 Highlights</h2>
-			<div href="https://vimeo.com/216410956" class="thumbnail video-thumbnail recap-video">
-				<img class="full" src="/images/ski-thumb.jpg" alt="">
+			<h2>January 2018 Highlights</h2>
+			<div href="https://www.youtube.com/watch?v=rTLIYQVHa90" class="thumbnail video-thumbnail recap-video">
+				<img class="full" src="/images/frontbootcamp18/uolp.jpg" alt="">
 			</div>
 		</section>
 		<section class="training-courses">

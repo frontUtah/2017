@@ -29,7 +29,7 @@ require('includes/header.php');
 			<li>
 				<h3>Product Bootcamp</h3>
 				<p class="date-location">Salt Lake City, 8-9 November 2018</p>
-				<div href="https://vimeo.com/216410956" class="thumnail video-thumbnail recap-video">
+				<div href="https://www.youtube.com/watch?v=rTLIYQVHa90" class="thumnail video-thumbnail recap-video">
 					<img src="images/conf-scene002.jpg" alt="">
 				</div>
 				<p class="description">A two-day, hands-on training bootcamp to learn how to create amazing products and work like the teams you hear from at Front.</p>
