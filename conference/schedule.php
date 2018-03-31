@@ -20,7 +20,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">7:30 AM</dt>
 							<dd class="food">
-								<p>Hot Breakfast and Registration</p>
+								<p>Hot breakfast and registration</p>
 							</dd>
 						</dl>
 					</li>
@@ -36,7 +36,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">9:10 AM</dt>
 							<dd class="ux">
-								<h4>Surviving a Redesign</h4>
+								<h4>Surviving a redesign</h4>
 								<p>Frank Yoo from Lyft</p>
 							</dd>
 						</dl>
@@ -45,7 +45,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">9:40 AM</dt>
 							<dd class="ux">
-								<h4>Sticky Business - Building Consumer Grade Experiences for the Enterprise</h4>
+								<h4>Sticky business - Building consumer grade experiences for the enterprise</h4>
 								<p>Ciara Peter from Box</p>
 							</dd>
 						</dl>
@@ -62,7 +62,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">10:50 AM</dt>
 							<dd class="ux">
-								<h4>How to Speed Up Research</h4>
+								<h4>How to speed up research</h4>
 								<p>Aryel Cianflone from LinkedIn</p>
 							</dd>
 						</dl>
@@ -71,7 +71,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">11:20 AM</dt>
 							<dd class="ux">
-								<h4>Designing for Trust</h4>
+								<h4>Designing for trust</h4>
 								<p>Jenny Arden from Airbnb</p>
 							</dd>
 						</dl>
@@ -97,7 +97,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">2:00 PM</dt>
 							<dd class="ux">
-								<h4>Principles and Practice</h4>
+								<h4>Principles and practice</h4>
 								<p>Stephen Olmstead and Eli Woolery from InVision</p>
 							</dd>
 						</dl>
@@ -145,7 +145,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">7:30 AM</dt>
 							<dd class="food">
-								<p>Hot Breakfast and Registration</p>
+								<p>Hot Breakfast and registration</p>
 							</dd>
 						</dl>
 					</li>
@@ -161,7 +161,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">9:10 AM</dt>
 							<dd class="ux">
-								<h4>Getting Data Right, A Case Study in How We Did It Wrong at HotelTonight</h4>
+								<h4>Getting data right, A case study in how we did it wrong at HotelTonight</h4>
 								<p>Amanda Richardson from HotelTonight</p>
 							</dd>
 						</dl>
@@ -170,7 +170,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">9:40 AM</dt>
 							<dd class="ux">
-								<h4>When We Align</h4>
+								<h4>When we align</h4>
 								<p>Cameron Moll from Facebook</p>
 							</dd>
 						</dl>
@@ -187,7 +187,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">10:50 AM</dt>
 							<dd class="ux">
-								<h4>Researching as a Facilitator</h4>
+								<h4>Researching as a facilitator</h4>
 								<p>Rayna Wiles prevously Frog</p>
 							</dd>
 						</dl>
@@ -222,7 +222,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">2:00 PM</dt>
 							<dd class="ux">
-								<h4>Designers Designing for Designers</h4>
+								<h4>Designers designing for designers</h4>
 								<p>Josh Brewer & Tim Van Damme from Abstract</p>
 							</dd>
 						</dl>
@@ -239,7 +239,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">3:10 PM</dt>
 							<dd class="ux">
-								<h4>The Modern Product Team</h4>
+								<h4>The modern product team</h4>
 								<p>Brian Crofts & Adrienne Gajownik from Pendo</p>
 							</dd>
 						</dl>
@@ -248,7 +248,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">3:50 PM</dt>
 							<dd class="ux">
-								<h4>Strong Opinions Loosely Held, Design Rules vs Guidelines</h4>
+								<h4>Strong opinions loosely held, design rules vs guidelines</h4>
 								<p>Ben Peck from Jane.com</p>
 							</dd>
 						</dl>
