@@ -20,7 +20,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">7:30 AM</dt>
 							<dd class="food">
-								<p>Hot breakfast and registration</p>
+								<p>Hot breakfast & registration</p>
 							</dd>
 						</dl>
 					</li>
