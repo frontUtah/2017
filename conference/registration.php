@@ -15,8 +15,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<h2>Registration</h2>
 			<p class="about-registration-about">Front Salt Lake City 2018 returns to downtown at the Eccles Theater. While this spacious and stunning venue provides additional seating, capacity will still be limited. Don’t procrastinate. Front has sold out every year. You don’t want to miss this. This will be the biggest, most engaging, and comprehensive conference yet. Join us for incredible insights, inspiration, and fun.</p>
 		</section>
+		
 		<section class="pricing">
 			<h2>Pricing</h2>
+			
+			<!--
 			<div class="prices">
 				<dl class="pricing-types">
 					<dt><div></div></dt>
@@ -55,6 +58,33 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<dd class="standard">$630</dd>
 				</dl>
 			</div>
+			-->
+			
+			<div class="prices">
+				<dl class="full">
+					<dt><div>Full Conference</div></dt>
+					<dd class="early">$700</dd>
+				</dl>
+				<dl>
+					<dt>
+						<div>
+							Group discount (5-9)
+							<small>5% off per ticket</small>
+						</div>
+					</dt>
+					<dd class="early">$665</dd>
+				</dl>
+				<dl>
+					<dt>
+						<div>
+							Group discount (10+)
+							<small>10% off per ticket</small>
+						</div>
+					</dt>
+					<dd class="early">$630</dd>
+				</dl>
+			</div>
+			
 			<p><a target="_blank" href="https://frontsaltlakecity2018.eventbrite.com" class="button">Register</a></p>
 		</section>
 
