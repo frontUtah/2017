@@ -17,21 +17,25 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					care of you. Details are helpful though, so we’ve pulled together the 
 					following information to help you be informed and ready. Here are answers 
 					to our most frequently asked questions, so you can have the smoothest 
-					Front Salt Lake City experience possible.</p>
+					Front Conference experience possible.</p>
 				<ul class="faq-categories">
 					<li class="faq-category">
 						<h3>Registration information</h3>
 						<dl class="accordion">
 							<dt class="accordion-title question">What are the ticket pricing details?</dt>
-							<dd class="accordion-content answer">Front Salt Lake City full conference passes are $500 (30% off) until 31 March 2018. Standard price Front Salt Lake City Full Conference passes are $700. This includes all meals, courses, and activities.</dd>
+							<dd class="accordion-content answer">Front UX & Product Management Case Study Conference full conference passes are $500 (30% off) until 31 March 2018. Standard price Front UX & Product Management Case Study Conference full conference passes are $700. This includes all meals, courses, and activities.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Do you offer group pricing?</dt>
 							<dd class="accordion-content answer">We offer group discounts for teams. We want you to come learn and practice together. You will need to register all attendees at the same time to receive the discount. Teams of 5-10 will receive 5% off. Teams of 10 or more will receive 10% off.</dd>
 						</dl>
 						<dl class="accordion">
+							<dt class="accordion-title question">May I pay by invoice?</dt>
+							<dd class="accordion-content answer">We're sorry, but we only accept payment by debit or credit card.</dd>
+						</dl>
+						<dl class="accordion">
 							<dt class="accordion-title question">Who should attend Front?</dt>
-							<dd class="accordion-content answer">Front Salt Lake City is designed for product teams. While focused specifically on UX, product management, research, and leadership, anyone involved in product discovery, delivery, is encouraged to attend and will leave with a wealth of insights. The talks cover the range between basic and advanced topics, providing valuable inspiration and fresh ideas to both students and seasoned professionals.</dd>
+							<dd class="accordion-content answer">Front UX & Product Management Case Study Conference is designed for product teams. While focused specifically on UX, Product Management, research, and leadership, anyone involved in digital product discovery and delivery is encouraged to attend and will leave with a wealth of insights. The talks cover a range between basic and advanced topics, providing valuable inspiration and fresh ideas to both students and seasoned professionals.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">What is the conference cancellation policy?</dt>
@@ -47,7 +51,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Where do I pick up my registration badge?</dt>
-							<dd class="accordion-content answer">You can pick-up your badge at the Front Salt Lake City Registration Counter, located on the lower level of the Eccles Theater Grand Lobby on Thursday, 31 May 2018, between 7:30 - 9:00 AM.</dd>
+							<dd class="accordion-content answer">You can pick-up your badge at the registration desk, located on the lower level of the Eccles Theater Grand Lobby on Thursday, 31 May 2018, between 7:30 - 9:00 AM.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Is there an age requirement for the event?</dt>
@@ -59,11 +63,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<h3>Hotel and Transportation</h3>
 						<dl class="accordion">
 							<dt class="accordion-title question">How do I book lodging? Is there a discount and what is the deadline?</dt>
-							<dd class="accordion-content answer">We have acquired a discounted nightly rate of $179/night + tax for a single king or two queens beds, at the Salt Lake City Marriott City Center. The rate is available for stays between 30 May - 2 June 2018. The deadline for booking lodging at the discounted rate is 9 May 2018. We encourage you to register early as it the hotel will likely sell out before that date. Book your room online or by calling 855-537-5305 and asking for the “Front” group discount. The hotel is a block and a half (5 minute walk) from the theater.</dd>
+							<dd class="accordion-content answer">We have acquired a discounted nightly rate of $179/night + tax for a single king or two queens beds, at the <a href="http://www.marriott.com/hotels/travel/slccc-salt-lake-city-marriott-city-center/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2">Salt Lake City Marriott City Center</a>. The rate is available for stays between 30 May - 2 June 2018. The deadline for booking lodging at the discounted rate is 9 May 2018. We encourage you to register early as it the hotel will likely sell out before that date. Book your room online or by calling 801. 961.8700 and asking for the “Front” group discount. The hotel is a block and a half (5 minute walk) from the theater.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Are there other hotels recommended?</dt>
-							<dd class="accordion-content answer">We highly recommend the Salt Lake City Marriott City Center, as we have arranged a discounted rate and because of the proximity to the venue. That said, the Salt Lake Marriott Downtown at City Creek, Hotel Monaco, Hilton Salt Lake City Center are also close to the venue and are also good options.</dd>
+							<dd class="accordion-content answer">We highly recommend the <a href="http://www.marriott.com/hotels/travel/slccc-salt-lake-city-marriott-city-center/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2">Salt Lake City Marriott City Center</a>, as we have arranged a discounted rate and because of the proximity to the venue. That said, the Salt Lake Marriott Downtown at City Creek, Hotel Monaco, Hilton Salt Lake City Center are also close to the venue and are also good options.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Can I cancel my hotel reservation if I am unable to attend?</dt>
@@ -79,7 +83,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Is there parking at or near the theater?</dt>
-							<dd class="accordion-content answer">The Regent Street Garage will be the preferred parking location for the Eccles Theater, but there are several other parking options nearby. If you choose to park at the Regent Street Garage (55 East 200 South) you may access Regent Street between 100 and 200 South between State and Main Street, or via Orpheum Avenue from State Street. Secondarily, we recommend Gallivan Center and City Creek Shopping Center.</dd>
+							<dd class="accordion-content answer">The <a href="https://goo.gl/maps/svRcRjnuXtL2">Regent Street Garage</a> is the preferred parking location for the Eccles Theater, but there are several other parking options nearby. If you choose to park at the Regent Street Garage (55 East 200 South) you may access Regent Street between 100 and 200 South between State and Main Street, or via Orpheum Avenue from State Street. Secondarily, we recommend Gallivan Center and City Creek Shopping Center.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">What's the best way to get to the hotel and venue?</dt>
@@ -91,7 +95,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<h3>Additional conference information</h3>
 						<dl class="accordion">
 							<dt class="accordion-title question">Where do I found out who is speaking?</dt>
-							<dd class="accordion-content answer">Information about who is teaching courses and Front Salt Lake City can be found at <a href="/conference/speakers">www.frontutah.com/conference/speakers</a>. To find out when individual speakers will be speaking, visit the talks page at www.frontutah.com/conference/tals.</dd>
+							<dd class="accordion-content answer">Information about who is teaching courses and Front Salt Lake City can be found at <a href="/conference/speakers">www.frontutah.com/conference/speakers</a>. To find out when individual speakers will be speaking, visit the talks page at <a href="/conference/talks">www.frontutah.com/conference/talks</a>.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">What is the schedule?</dt>
@@ -112,16 +116,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl class="accordion">
 							<dt class="accordion-title question">Are specialty dietary requirements accommodated with the meals at the event?</dt>
 							<dd class="accordion-content answer">Vegetarian options will be provided during each meal.</dd>
-						</dl>
-						<dl class="accordion">
-							<dt class="accordion-title question">Is there parking at or near the conference?</dt>
-							<dd class="accordion-content answer">Yes, there is ample free parking in the Regent Street Garage behind theater to the East and at the City Creek Center across the street to the North.</dd>
-						</dl>
-						<dl class="accordion">
-							<dt class="accordion-title question">What’s the best way to get to the conference from the Airport.</dt>
-							<dd class="accordion-content answer">The best option is the TRAX Light Rail system. The Green Line (704) drops you off one block North of the venue (City Center Station) in 25 minutes.</dd>
-						</dl>
-					</li>
+						</dl>					</li>
 					<li class="faq-category">
 						<h3>Sponsors and volunteering</h3>
 						<dl class="accordion">
