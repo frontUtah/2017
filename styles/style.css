@@ -2287,10 +2287,6 @@ section.schedule-breakdown .timeline dd p {
 section.schedule-breakdown .timeline dd a {
 	text-decoration: none;
 }
-
-section.schedule-breakdown .timeline h4 {
-	text-transform: capitalize;
-}
 	
 @media (max-width:999px) {
 	section.schedule-breakdown {
