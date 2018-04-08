@@ -51,19 +51,19 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</nav>
 				</div>
 				<div class="instructor-content">
-					<div class="course-description">
+					<?php
 
-						<?php
-
-						if(count($talks) > 0) {
-							foreach($talks as $course) {
-								echo '<h3>' . $course['title'] . '</h3>';
-								echo '<p>' . $course['description'] . '</p>';
-							}
+					if(count($talks) > 0) {
+						foreach($talks as $course) {
+							echo '
+								<div class="course-description">
+									<h3>' . $course['title'] . '</h3>
+									<p>' . $course['description'] . '</p>
+								</div>';
 						}
+					}
 
-						?>
-					</div>
+					?>
 					<div class="about-instructor">
 						<h3>About <?php echo $speaker['first'] ?></h3>
 						<p><?php echo $speaker['bio'] ?></p>

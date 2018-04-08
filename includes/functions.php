@@ -59,4 +59,15 @@ function get_talks($speaker) {
 	return $these_talks;
 }
 
+// get talk by slot
+function get_talk($day, $slot) {
+	global $talks;
+
+	foreach($talks as $talk) {
+		if($talk['day'] == $day && $talk['slot'] == $slot) {
+			return $talk;
+		}
+	}
+}
+
 ?>

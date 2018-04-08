@@ -1688,10 +1688,6 @@ section.individual-instructor .instructor-content li {
 		line-height: 22px
 	}
 
-	section.individual-instructor .course-description {
-		margin-bottom: 100px
-	}
-
 	section.individual-instructor .course-description h3 {
 		font-size: 24px;
 		line-height: 32px
@@ -1711,6 +1707,10 @@ section.individual-instructor .instructor-content li {
 		left: 28px
 	}
 }
+
+	section.individual-instructor .course-description {
+		margin-bottom: 50px
+	}
 
 section.courses .about-courses {
 	padding: 0 25px
@@ -1863,6 +1863,10 @@ section.courses .course dl .description li {
 		padding-top: 210px;
 		padding-bottom: 275px
 	}
+	
+	section.courses.notabs {
+		padding-top: 80px;
+	}
 
 	section.courses h2 {
 		display: none
@@ -1990,7 +1994,7 @@ section.courses .course dl .description li {
 	}
 
 	section.courses .course dl {
-		display: flex
+		display: flex;
 	}
 
 	section.courses .course dl .time {
@@ -2017,14 +2021,19 @@ section.courses .course dl .description li {
 		line-height: 22px;
 	}
 	
-	section.courses .course dl .instructor {
+	section.courses .course dl .instructors {
 		order: 3;
 		display: flex;
-		width: 325px
+		flex-direction: column;
+		align-items: flex-start;
+		width: 325px;
 	}
-
-	section.courses .course dl .instructor>div {
-		flex: 1
+	
+	section.courses .course dl .instructor {
+		display: flex;
+		width: 325px;
+		flex-direction: row;
+		padding-bottom: 20px;
 	}
 
 	section.courses .course dl .instructor .instructor-photo {
@@ -2034,14 +2043,17 @@ section.courses .course dl .description li {
 	}
 
 	section.courses .course dl .instructor .instructor-photo:after {
-		display: none
+		bottom: -80px;
+		right: -80px;
 	}
 
 	section.courses .course dl .instructor h4 {
+		flex: none;
 		font-size: 20px
 	}
 
 	section.courses .course dl .instructor .title {
+		flex: none;
 		font-size: 12px;
 		line-height: 17px
 	}

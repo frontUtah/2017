@@ -12,8 +12,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 	<section class="hero">
 		<h1>Talks</h1>
 	</section>
-	<section class="courses <?php echo $track; ?>">
+	<section class="courses notabs">
 		<h2 class="">Talks</h2>
+		
 		<div class="course-calendar">
 			<div class="course-date">
 				<h3>Thursday, 31 May 2018</h3>
@@ -21,65 +22,82 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 					<?php
 
-					function print_courses($track, $day) {
-						$slots[1] = array('time' => '8:30', 'meridian' => 'AM');
-						$slots[2] = array('time' => '1:30', 'meridian' => 'PM');
-						
-						if($day == 1) {
-							$slots[3] = array('time' => '3:30', 'meridian' => 'PM');
-						}
+					function print_courses($day) {
+						$slots[1] = array('time' => '9:10', 'meridian' => 'AM');
+						$slots[2] = array('time' => '9:40', 'meridian' => 'AM');
+						$slots[3] = array('time' => '10:50', 'meridian' => 'AM');
+						$slots[4] = array('time' => '11:20', 'meridian' => 'AM');
+						$slots[5] = array('time' => '1:30', 'meridian' => 'PM');
+						$slots[6] = array('time' => '2:00', 'meridian' => 'PM');
+						$slots[7] = array('time' => '3:10', 'meridian' => 'PM');
+						$slots[8] = array('time' => '3:50', 'meridian' => 'PM');
 
 						foreach($slots as $slot => $slot_details) {
-							$course = get_course($track, $day, $slot);
-							$instructor = get_instructor($course['instructor']);
+							$talk = get_talk($day, $slot);
 
-							if(!empty($course)) {
+							if(!empty($talk)) {
 								echo '
-												<li class="course">
-													<dl>
-														<dt class="time">' . $slot_details['time'] . ' <span class="am-pm">' . $slot_details['meridian'] . '</span></dt>
-														<dd class="instructor ' . $instructor['discipline'] . '">
-															<div class="instructor-photo">
-																<a href="/bootcamp/instructor/' . $instructor['slug'] . '"><img src="/images/';
-																
-								// ensure photo exists
-								if(file_exists($_SERVER['DOCUMENT_ROOT'] . '/images/' . $instructor['photo'])) {
-									echo $instructor['photo'];
-								} else {
-									echo 'instructor_missing.png';
+									<li class="course">
+										<dl>
+											<dt class="time">' . $slot_details['time'] . ' <span class="am-pm">' . $slot_details['meridian'] . '</span></dt>
+											<dd class="instructors">';
+									
+								// ensure speaker is an array
+								if(!is_array($talk['speaker'])) {
+									$talk['speaker'] = array($talk['speaker']);
 								}
-								
-								echo '" alt=""></a>
-															</div>
-															<div>
-																<a href="/bootcamp/instructor/' . $instructor['slug'] . '">
-																	<h4>' . $instructor['first'] . ' ' . $instructor['last'] . '</h4>
-																	<p class="title">' . $instructor['title'] . '<br>' . $instructor['company'] . '</p>
-																	<p class="experience"><span class="label">' . $course['level'] . '</span></p>
-																</a>
-															</div>
-														</dd>
-														<dd class="description">
-															<h4>' . $course['title'] . '</h4>
-															<p>' . $course['description'] . '</p>
-														</dd>
-													</dl>
-												</li>';
+							
+								if(count($talk['speaker']) < 13) {
+									foreach($talk['speaker'] as $position => $this_speaker) {
+										// get speaker details
+										$speaker = get_speaker($this_speaker);
+											
+										echo '<div class="instructor ' . $speaker['discipline'] . '">
+												<div class="instructor-photo">
+													<a href="/conference/speaker/' . $speaker['slug'] . '"><img src="/images/';
+																		
+										// ensure photo exists
+										if(file_exists($_SERVER['DOCUMENT_ROOT'] . '/images/' . $speaker['photo'])) {
+											echo $speaker['photo'];
+										} else {
+											echo 'instructor_missing.png';
+										}
+										
+										echo '" alt="' . $speaker['first'] . ' ' . $speaker['last'] . '"></a>
+														</div>
+														<div>
+															<a href="/conference/speaker/' . $speaker['slug'] . '">
+																<h4>' . $speaker['first'] . ' ' . $speaker['last'] . '</h4>
+																<p class="title">' . $speaker['title'] . '<br>' . $speaker['company'] . '</p>
+															</a>
+														</div>
+													</div>';
+									}
+								}
+											
+								echo '
+										</dd>
+											<dd class="description">
+												<h4>' . $talk['title'] . '</h4>
+												<p>' . $talk['description'] . '</p>
+											</dd>
+										</dl>
+									</li>';
 							} else {
 								echo '
-												<li class="course">
-													<dl>
-														<dt class="time">' . $slot_details['time'] . ' <span class="am-pm">' . $slot_details['meridian'] . '</span></dt>
-														<dd class="description">
-															<h4>TBD</h4>
-														</dd>
-													</dl>
-												</li>';
+									<li class="course">
+										<dl>
+											<dt class="time">' . $slot_details['time'] . ' <span class="am-pm">' . $slot_details['meridian'] . '</span></dt>
+											<dd class="description">
+												<h4>TBD</h4>
+											</dd>
+										</dl>
+									</li>';
 							}
 						}
 					}
 
-					echo print_courses($uri_parts[2], 1);
+					echo print_courses(1);
 
 					?>
 
@@ -88,7 +106,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<div class="course-date">
 				<h3>Friday, 1 June 2018</h3>
 				<ul class="days-courses">
-					<?php echo print_courses($uri_parts[2], 2); ?>
+					<?php echo print_courses(2); ?>
 				</ul>
 			</div>
 		</div>
