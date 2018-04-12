@@ -130,7 +130,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot one-hour">
 						<dl>
-							<dt class="time">4:20 AM</dt>
+							<dt class="time">4:20 PM</dt>
 							<dd class="food">
 								<p>Day 1 wrap-up</p>
 							</dd>
@@ -255,7 +255,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot one-hour">
 						<dl>
-							<dt class="time">4:20 AM</dt>
+							<dt class="time">4:20 PM</dt>
 							<dd class="food">
 								<p>Closing remarks</p>
 							</dd>
