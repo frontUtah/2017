@@ -47,7 +47,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Where do I pick up my registration badge?</dt>
-							<dd class="accordion-content answer">You can pick-up your badge at the Front UX & Product Management registration desk, located in main lobby on Thursday, 8 NOve 2018, between 7:30 - 8:30 AM.</dd>
+							<dd class="accordion-content answer">You can pick-up your badge at the Front UX & Product Management registration desk, located in main lobby on Thursday, 8 November 2018, between 7:30 - 8:30 AM.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Is there an age requirement for the event?</dt>
@@ -99,7 +99,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<h3>Additional conference information</h3>
 						<dl class="accordion">
 							<dt class="accordion-title question">Where do I found out who is teaching?</dt>
-							<dd class="accordion-content answer">Information about who is teaching courses and Front UX & Product Management Bootcamp can be found at <a href="/bootcamp/instructors">www.frontutah.com/bootcamp/instructors</a>. To find out when individual instructors will be teaching, visit the courses page at www.frontutah.com/bootcamp/courses.</dd>
+							<dd class="accordion-content answer">Information about who is teaching courses and Front UX & Product Management Bootcamp can be found at <a href="/bootcamp/instructors">www.frontutah.com/bootcamp/instructors</a>. To find out when individual instructors will be teaching, visit the courses page at <a href="/bootcamp/courses">www.frontutah.com/bootcamp/courses</a>.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">What is the schedule?</dt>
@@ -120,10 +120,6 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl class="accordion">
 							<dt class="accordion-title question">Are specialty dietary requirements accommodated with the meals at the event?</dt>
 							<dd class="accordion-content answer">Vegetarian options will be provided during each meal.</dd>
-						</dl>
-						<dl class="accordion">
-							<dt class="accordion-title question">Is there parking at Viridian Event Center?</dt>
-							<dd class="accordion-content answer">Yes, there is ample free parking to the South of Viridian Event Center.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">What’s the best way to get to the conference from the Airport.</dt>
@@ -149,7 +145,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">What are the local restaurants, attractions, and entertainment in and around the event?</dt>
-							<dd class="accordion-content answer">The Viridian Event Center is in a suburb of Salt Lake City. While surrounded by restaurants, traditional, walkable, city nightlife is 15 miles to the North in downtown.Salt Lake City has many great destinations for food and fun. While the options are too great to list here, we suggest finding more information the city’s official visitors’ website: <a href="https://www.visitsaltlake.com">www.visitsaltlake.com</a>.</dd>
+							<dd class="accordion-content answer">The Viridian Event Center is in a suburb of Salt Lake City. While surrounded by restaurants, traditional, walkable, city nightlife is 15 miles to the North in downtown. Salt Lake City has many great destinations for food and fun. While the options are too great to list here, we suggest finding more information the city’s official visitors’ website: <a href="https://www.visitsaltlake.com">www.visitsaltlake.com</a>.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">What is the best way to get around Salt Lake City?</dt>
