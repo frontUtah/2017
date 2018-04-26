@@ -20,7 +20,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">7:30 AM</dt>
 							<dd class="food">
-								<p>Hot breakfast and registration</p>
+								<p>Breakfast and registration</p>
 							</dd>
 						</dl>
 					</li>
@@ -54,7 +54,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">10:10 AM</dt>
 							<dd class="food">
-								<p>Break (drinks and snacks provided)</p>
+								<p>Break (drinks and snacks)</p>
 							</dd>
 						</dl>
 					</li>
@@ -80,7 +80,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">11:50 AM</dt>
 							<dd class="food">
-								<p>Lunch break</p>
+								<p>Lunch</p>
 							</dd>
 						</dl>
 					</li>
@@ -106,7 +106,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">2:30 AM</dt>
 							<dd class="food">
-								<p>Break (drinks and snacks provided)</p>
+								<p>Break (drinks and snacks)</p>
 							</dd>
 						</dl>
 					</li>
@@ -145,7 +145,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">7:30 AM</dt>
 							<dd class="food">
-								<p>Hot Breakfast and registration</p>
+								<p>Breakfast and registration</p>
 							</dd>
 						</dl>
 					</li>
@@ -179,7 +179,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">10:10 AM</dt>
 							<dd class="food">
-								<p>Break (drinks and snacks provided)</p>
+								<p>Break (drinks and snacks)</p>
 							</dd>
 						</dl>
 					</li>
@@ -188,7 +188,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<dt class="time">10:50 AM</dt>
 							<dd class="ux">
 								<h4>Researching as a facilitator</h4>
-								<p>Rayna Wiles prevously Frog</p>
+								<p>Rayna Wiles previously Frog</p>
 							</dd>
 						</dl>
 					</li>
@@ -205,7 +205,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">11:50 AM</dt>
 							<dd class="food">
-								<p>Lunch break</p>
+								<p>Lunch</p>
 							</dd>
 						</dl>
 					</li>
@@ -231,7 +231,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">2:30 AM</dt>
 							<dd class="food">
-								<p>Break (drinks and snacks provided)</p>
+								<p>Break (drinks and snacks)</p>
 							</dd>
 						</dl>
 					</li>
