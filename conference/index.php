@@ -90,6 +90,7 @@ foreach($speakers as $instructor) {
 			  <li class="second_tier_sponsor"><a href="https://jobs.progleasing.com/" target="_blank"><img src="/images/sponsors/progressive.svg" /></a></li>
 			  <li class="second_tier_sponsor"><a href="https://www.split.io/" target="_blank"><img src="/images/sponsors/split.svg" /></a></li>
 			  <li class="second_tier_sponsor"><a href="https://www.ancestry.com" target="_blank"><img src="/images/sponsors/ancestry.svg" /></a></li>
+			  <li class="second_tier_sponsor"><a href="https://www.kroger.com" target="_blank"><img src="/images/sponsors/kroger.svg" /></a></li>
 			</ul>
 		</section>
 		
