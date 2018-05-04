@@ -44,7 +44,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li class="timeslot two-hours">
 						<dl>
 							<dt class="time">9:40 AM</dt>
-							<dd class="ux">
+							<dd class="pm">
 								<h4>Sticky business - Building consumer grade experiences for the enterprise</h4>
 								<p>Ciara Peter from Box</p>
 							</dd>
@@ -61,7 +61,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li class="timeslot two-hours">
 						<dl>
 							<dt class="time">10:50 AM</dt>
-							<dd class="ux">
+							<dd class="research">
 								<h4>How to speed up research</h4>
 								<p>Aryel Cianflone from LinkedIn</p>
 							</dd>
@@ -87,7 +87,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li class="timeslot two-hours">
 						<dl>
 							<dt class="time">1:30 PM</dt>
-							<dd class="ux">
+							<dd class="leadership">
 								<h4>Q&A panel with morning speakers</h4>
 								<p>Frank Yoo, Ciara Peter, Aryel Cianflone, and Jenny Arden</p>
 							</dd>
@@ -96,7 +96,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li class="timeslot two-hours">
 						<dl>
 							<dt class="time">2:00 PM</dt>
-							<dd class="ux">
+							<dd class="leadership">
 								<h4>Principles and practice</h4>
 								<p>Stephen Olmstead and Eli Woolery from InVision</p>
 							</dd>
@@ -113,7 +113,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li class="timeslot two-hours">
 						<dl>
 							<dt class="time">3:10 PM</dt>
-							<dd class="ux">
+							<dd class="leadership">
 								<h4>How to survive as a designer or PM in the era of the algorithm.</h4>
 								<p>Chris Mayfield & Bhavika Shah from Pluralsight</p>
 							</dd>
@@ -122,7 +122,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li class="timeslot two-hours">
 						<dl>
 							<dt class="time">3:50 PM</dt>
-							<dd class="ux">
+							<dd class="pm">
 								<h4>Motivating product teams through a culture of autonomy</h4>
 								<p>Nate Barrett from Canopy</p>
 							</dd>
@@ -160,7 +160,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li class="timeslot two-hours">
 						<dl>
 							<dt class="time">9:10 AM</dt>
-							<dd class="ux">
+							<dd class="pm">
 								<h4>Getting data right, A case study in how we did it wrong at HotelTonight</h4>
 								<p>Amanda Richardson from HotelTonight</p>
 							</dd>
@@ -186,7 +186,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li class="timeslot two-hours">
 						<dl>
 							<dt class="time">10:50 AM</dt>
-							<dd class="ux">
+							<dd class="research">
 								<h4>Researching as a facilitator</h4>
 								<p>Rayna Wiles previously Frog</p>
 							</dd>
@@ -195,7 +195,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li class="timeslot two-hours">
 						<dl>
 							<dt class="time">11:20 AM</dt>
-							<dd class="ux">
+							<dd class="pm">
 								<h4>Making the leap to IoT</h4>
 								<p>Andi Moore from Vivint</p>
 							</dd>
@@ -212,7 +212,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li class="timeslot two-hours">
 						<dl>
 							<dt class="time">1:30 PM</dt>
-							<dd class="ux">
+							<dd class="leadership">
 								<h4>Q&A panel with morning speakers</h4>
 								<p>Amanda Richardson, Cameron Moll, Rayna Wiles, and Andi Moore</p>
 							</dd>
@@ -221,7 +221,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li class="timeslot two-hours">
 						<dl>
 							<dt class="time">2:00 PM</dt>
-							<dd class="ux">
+							<dd class="leadership">
 								<h4>Designers designing for designers</h4>
 								<p>Josh Brewer & Tim Van Damme from Abstract</p>
 							</dd>
@@ -238,7 +238,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li class="timeslot two-hours">
 						<dl>
 							<dt class="time">3:10 PM</dt>
-							<dd class="ux">
+							<dd class="leadership">
 								<h4>The modern product team</h4>
 								<p>Brian Crofts & Adrienne Gajownik from Pendo</p>
 							</dd>
