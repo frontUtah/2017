@@ -36,8 +36,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">9:10 AM</dt>
 							<dd class="ux">
-								<h4>Surviving a redesign</h4>
-								<p>Frank Yoo from Lyft</p>
+								<h4>The challenge of designing for everyone</h4>
+								<p>Benjamin Evans from Airbnb</p>
 							</dd>
 						</dl>
 					</li>
@@ -71,8 +71,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">11:20 AM</dt>
 							<dd class="ux">
-								<h4>Designing for trust</h4>
-								<p>Jenny Arden from Airbnb</p>
+								<h4>Designing with Intuition</h4>
+								<p>Vicki Tan from Headspace</p>
 							</dd>
 						</dl>
 					</li>

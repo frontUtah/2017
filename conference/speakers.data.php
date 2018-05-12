@@ -19,35 +19,34 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/cameronmoll/'
 );
 
-// Jenny Arden
+// Benjamin Evans
 $speakers[] = array(
-	'slug' => 'jennyarden',
-	'first' => 'Jenny',
-	'last' => 'Arden',
-	'title' => 'UX Design Manager',
+	'slug' => 'benjaminevans',
+	'first' => 'Benjamin',
+	'last' => 'Evans',
+	'title' => 'Design Lead',
 	'company' => 'Airbnb',
 	'discipline' => 'ux',
-	'photo' => 'frontconference18/speaker_jennyarden.jpg',
-	'bio' => 'Jenny Arden manages a large portion of the design team at Airbnb in San Francisco where she focuses on how the company can help hosts be successful entrepreneurs. In her role she oversees teams that address some of the most difficult aspects of the share economy including regulation, anti-discrimination, and building a trusting community among strangers. She’s also an advocate for women in tech and provides leadership and guidance for companies and groups interested in creating a workplace that supports a diverse team.</br></br>Previously, Jenny worked at Google as the Design Lead for the Self Driving Car Project (now known as Waymo). During her time at Google she also worked on YouTube for TV and she lead design and strategy for Google Mobile Search launching some of Google’s first mobile web experiences. Prior to Google she worked at IDEO, Razorfish, JPMorgan and Goldman Sachs. Jenny graduated from the Rhode Island School of Design with a degree in Graphic Design and Brown University with a degree Physics. Later she attended Harvard Business School.',
-	'twitter' => 'jarden',
+	'photo' => 'frontconference18/speaker_benjaminevans.jpg',
+	'bio' => 'Benjamin Evans leads design for Airbnb’s Anti-Discrimination team - a cross-functional group of designers, engineers, researchers and data scientists focused on ensuring that all hosts and guests have equal access to amazing experiences. ',
+	'twitter' => 'benjamineevans',
 	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/jennyarden/'
+	'linkedin' => 'https://www.linkedin.com/in/benjaminearlevans/'
 );
 
-// Frank Yoo
+// Vicki Tan
 $speakers[] = array(
-	'slug' => 'frankyoo',
-	'first' => 'Frank',
-	'last' => 'Yoo',
-	'title' => 'Head of Product Design',
-	'company' => 'Lyft',
+	'slug' => 'vickitan',
+	'first' => 'Vicki',
+	'last' => 'Tan',
+	'title' => 'Product Designer',
+	'company' => 'Headspace',
 	'discipline' => 'ux',
-	'photo' => 'frontconference18/speaker_frankyoo.jpg',
-	'bio' => 'Frank Yoo is Director of Design at Lyft, where he’s leading teams focused on the core passenger and self-driving experiences. As an early employee, he is a member of the small team that built the first version of Lyft. </br></br>With prior posts at LinkedIn and Yahoo!, Frank’s experience is anchored in user-centered design, consumer content, social networking, and now transportation and marketplaces. Beyond the workplace, he’s a husband, a dad to two happy and hilarious girls, and the family Boston terrier’s best friend / ball throwing machine.
-',
-	'twitter' => 'frankyoo',
+	'photo' => 'frontconference18/speaker_vickitan.jpg',
+	'bio' => 'Vicki is a Product Designer at Headspace, creating experiences to guide new users towards a healthy meditation practice. Previously, she was at Lyft, optimizing the passenger ride experience, and at Google, designing tools for reducing bias and predicting outcomes. Prior to Google, Vicki was at Stanford School of Medicine coordinating research studies in Pediatric Oncology. She holds a degree in Behavioral Psychology from the University of California, San Diego.',
+	'twitter' => 'vickiheart',
 	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/frankyoo/'
+	'linkedin' => 'https://www.linkedin.com/in/vickitan/'
 );
 
 // Ben Peck

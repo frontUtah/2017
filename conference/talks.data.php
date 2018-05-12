@@ -6,13 +6,13 @@
  * System supports instructors teaching more than one course.
  */
 
-// Frank Yoo
+// Vicki Tan
 $talks[] = array(
-	'title' => 'Surviving a redesign',
-	'description' => "A redesign always sounds like an exciting challenge. At some point we’ve all wanted to wipe the slate clean to improve our product, fix all the bugs and broken windows in one sweep, and reimagine the experience overall. But what are the costs? Frank will share some personal stories that highlight the ups and downs and some key lessons from the trenches.",
+	'title' => 'Designing with Intuition',
+	'description' => "It’s become standard to lean on quantitative, experiment-driven design, especially when decisions must be made quickly and with very little time and resources. But this method often only reveals surface-level themes and not much about your users’ true intentions. In this onboarding case study, Vicki will walk you through how we learned to design using intuition, blending science and design research to create a solution that met our users’ needs.",
 	'day' => 1,
 	'slot' => 1,
-	'speaker' => 'frankyoo'
+	'speaker' => 'vickitan'
 );
 
 // Ciara Peter
@@ -33,13 +33,13 @@ $talks[] = array(
 	'speaker' => 'aryelcianflone'
 );
 
-// Jenny Arden
+// Benjamin Evans
 $talks[] = array(
-	'title' => 'Designing for trust',
-	'description' => '<em>Description coming soon.</em>',
+	'title' => 'The challenge of designing for everyone',
+	'description' => 'Can design be used to solve discrimination? In this talk, Benjamin shines a light on the hurdles, setbacks, and failures that his team at Airbnb has encountered as they try to build experiences that reduce bias, increase empathy, and help us all see that we are more alike than we are different.',
 	'day' => 1,
 	'slot' => 4,
-	'speaker' => 'jennyarden'
+	'speaker' => 'benjaminevans'
 );
 
 // Day one speaker panel
