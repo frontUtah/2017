@@ -6,13 +6,13 @@
  * System supports instructors teaching more than one course.
  */
 
-// Vicki Tan
+// Benjamin Evans
 $talks[] = array(
-	'title' => 'Designing with Intuition',
-	'description' => "It’s become standard to lean on quantitative, experiment-driven design, especially when decisions must be made quickly and with very little time and resources. But this method often only reveals surface-level themes and not much about your users’ true intentions. In this onboarding case study, Vicki will walk you through how we learned to design using intuition, blending science and design research to create a solution that met our users’ needs.",
+	'title' => 'The challenge of designing for everyone',
+	'description' => 'Can design be used to solve discrimination? In this talk, Benjamin shines a light on the hurdles, setbacks, and failures that his team at Airbnb has encountered as they try to build experiences that reduce bias, increase empathy, and help us all see that we are more alike than we are different.',
 	'day' => 1,
 	'slot' => 1,
-	'speaker' => 'vickitan'
+	'speaker' => 'benjaminevans'
 );
 
 // Ciara Peter
@@ -33,13 +33,13 @@ $talks[] = array(
 	'speaker' => 'aryelcianflone'
 );
 
-// Benjamin Evans
+// Vicki Tan
 $talks[] = array(
-	'title' => 'The challenge of designing for everyone',
-	'description' => 'Can design be used to solve discrimination? In this talk, Benjamin shines a light on the hurdles, setbacks, and failures that his team at Airbnb has encountered as they try to build experiences that reduce bias, increase empathy, and help us all see that we are more alike than we are different.',
+	'title' => 'Designing with Intuition',
+	'description' => "It’s become standard to lean on quantitative, experiment-driven design, especially when decisions must be made quickly and with very little time and resources. But this method often only reveals surface-level themes and not much about your users’ true intentions. In this onboarding case study, Vicki will walk you through how we learned to design using intuition, blending science and design research to create a solution that met our users’ needs.",
 	'day' => 1,
 	'slot' => 4,
-	'speaker' => 'benjaminevans'
+	'speaker' => 'vickitan'
 );
 
 // Day one speaker panel
@@ -48,7 +48,7 @@ $talks[] = array(
 	'description' => 'The morning speakers will return to the stage for an interactive discussion with the audience.',
 	'day' => 1,
 	'slot' => 5,
-	'speaker' => array('frankyoo', 'ciarapeter', 'aryelcianflone', 'jennyarden')
+	'speaker' => array('vickitan', 'ciarapeter', 'aryelcianflone', 'benjaminevans')
 );
 
 // Stephen Olmstead & Eli Woolery
