@@ -106,7 +106,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">2:30 PM</dt>
 							<dd class="food">
-								<p>Break (drinks and snacks)</p>
+								<p>Break (coffee)</p>
 							</dd>
 						</dl>
 					</li>
@@ -229,9 +229,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot one-hour">
 						<dl>
-							<dt class="time">2:30 AM</dt>
+							<dt class="time">2:30 PM</dt>
 							<dd class="food">
-								<p>Break (drinks and snacks)</p>
+								<p>Break (coffee)</p>
 							</dd>
 						</dl>
 					</li>
