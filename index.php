@@ -94,7 +94,7 @@ require('includes/header.php');
 			<li>
 				<a href="https://vimeo.com/223189913"><div href="https://vimeo.com/223189913" class="card-image recap-video"><img src="images/frontslc17/title_teresatorres.jpg" alt=""></div></a>
 				<h3>Teresa Torres</h3>
-				<p>Adopting Continuous Product Discvoery Practices</p>
+				<p>Adopting Continuous Product Discovery Practices</p>
 			</li>
 		</ul>
 		<p>
