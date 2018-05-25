@@ -10,7 +10,7 @@ $title = $speaker['first'] . ' ' . $speaker['last'] . ' - Front UX & Product Man
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 ?>
-	<main class="secondary product-bootcamp-page">
+	<main class="secondary product-workshops-page">
 		<section class="hero">
 			<h1>Speakers</h1>
 		</section>

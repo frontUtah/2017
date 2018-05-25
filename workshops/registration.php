@@ -2,18 +2,18 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Registration - Front UX & Product Management Bootcamp, 8-9 November 2018';
+$title = 'Registration - Front UX & Product Management Workshop Series, 8-9 November 2018';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 ?>
-	<main class="secondary product-bootcamp-page bootcamp-registration">
+	<main class="secondary product-workshops-page workshops-registration">
 		<section class="hero">
 			<h1>Registration</h1>
 		</section>
 		<section class="registration-about">
 			<h2>Registration</h2>
-			<p class="about-registration-about">Seating is limited, but the value isn’t. Don’t procrastinate. You don’t want to miss this. Front UX & Product Management Bootcamp returns this November with more instructors, gourmet catered food, and a beautiful venue, this time in the center of Salt Lake Valley. We’ve discounted prices and are continuing our awesome group discounts so your entire team can attend.</p>
+			<p class="about-registration-about">Seating is limited, but the value isn’t. Don’t procrastinate. You don’t want to miss this. Front UX & Product Management Workshop Series returns this November with more instructors, gourmet catered food, and a beautiful venue, this time in the center of Salt Lake Valley. We’ve discounted prices and are continuing our awesome group discounts so your entire team can attend.</p>
 		</section>
 		<section class="pricing">
 			<h2>Pricing</h2>
@@ -31,7 +31,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</dd>
 				</dl>
 				<dl class="full">
-					<dt><div>Full Bootcamp</div></dt>
+					<dt><div>Full Workshop Series</div></dt>
 					<dd class="early">$899</dd>
 					<dd class="standard">$1,199</dd>
 				</dl>
@@ -70,11 +70,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<!--
 			<div class="prices">
 				<dl class="full">
-					<dt><div>Full Bootcamp</div></dt>
+					<dt><div>Full Workshop Series</div></dt>
 					<dd class="early">$1,499</dd>
 				</dl>
 				<dl class="full-plus-lift">
-					<dt><div>Full Bootcamp + 2 day lift pass to Park City Mountain Resort</div></dt>
+					<dt><div>Full Workshop Series + 2 day lift pass to Park City Mountain Resort</div></dt>
 					<dd class="early">$1,799</dd>
 				</dl>
 				<dl>
@@ -107,7 +107,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			</div>
 			-->
 			
-			<p><a target="_blank" href="https://frontbootcampnov2018.eventbrite.com" class="button">Register</a></p>
+			<p><a target="_blank" href="https://frontworkshopsnov2018.eventbrite.com" class="button">Register</a></p>
 		</section>
 
 		<section class="accomodations">

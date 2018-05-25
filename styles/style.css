@@ -1020,13 +1020,13 @@ footer p {
 		text-align: left
 	}
 
-	.venue-bootcamp .hero .olympic-logo {
+	.venue-workshops .hero .olympic-logo {
 		text-align: right;
 		margin-top: 140px;
 		margin-bottom: 230px
 	}
 
-	.venue-bootcamp .hero .olympic-logo img {
+	.venue-workshops .hero .olympic-logo img {
 		width: 273px
 	}
 	
@@ -1039,15 +1039,15 @@ footer p {
 	background-image: url(../images/eccles_front_1.jpg);
 }
 
-.venue-bootcamp .hero {
+.venue-workshops .hero {
 	background-image: url(../images/venue-bg.jpg);
 }
 
-.venue-bootcamp .hero .olympic-logo {
+.venue-workshops .hero .olympic-logo {
 	margin-bottom: 155px
 }
 
-.venue-bootcamp .hero .olympic-logo img {
+.venue-workshops .hero .olympic-logo img {
 	width: 128px
 }
 
@@ -1055,9 +1055,9 @@ footer p {
 
 /*********** SECTION LANDING PAGES ************/
 
-.product-bootcamp .hero {
+.product-workshops .hero {
 	height: auto;
-	background-image: url(../images/bootcamp-bg.jpg);
+	background-image: url(../images/workshops-bg.jpg);
 	padding: 100px 40px 50px
 }
 
@@ -1065,86 +1065,86 @@ footer p {
 	background-image: url(../images/home-bg-10.jpg);
 }
 
-.product-bootcamp .hero h1 {
+.product-workshops .hero h1 {
 	color: #FFF;
 	font-size: 30px;
 	line-height: 37px;
 	max-width: 1000px;
 }
 
-.product-bootcamp .hero ul {
+.product-workshops .hero ul {
 	margin-bottom: 60px
 }
 
-.product-bootcamp .hero ul li {
+.product-workshops .hero ul li {
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 22px;
 	padding: 6px
 }
 
-.product-bootcamp .hero .date-location {
+.product-workshops .hero .date-location {
 	font-style: italic;
 	opacity: .7;
 }
 
-.product-bootcamp .hero .button {
+.product-workshops .hero .button {
 	width: 220px
 }
 
-.product-bootcamp .hero #broughtoyouby {
+.product-workshops .hero #broughtoyouby {
 	width: 220px;
 }
 
-.product-bootcamp .hero .date-location {
+.product-workshops .hero .date-location {
 	font-size: 14px;
 	margin-bottom: 50px;
 }
 
-.product-bootcamp .hero ul {
+.product-workshops .hero ul {
 	margin-bottom: 20px
 }
 
 @media (min-width:1000px) {
-	.product-bootcamp .hero {
+	.product-workshops .hero {
 		height: 1070px;
 		padding: 200px 130px 50px
 	}
 
-	.product-bootcamp .hero h1, .product-bootcamp .hero li, .product-bootcamp .hero p {
+	.product-workshops .hero h1, .product-workshops .hero li, .product-workshops .hero p {
 		text-align: left
 	}
 
-	.product-bootcamp .hero h1 {
+	.product-workshops .hero h1 {
 		font-size: 80px;
 		line-height: 98px
 	}
-	.product-bootcamp .hero ul li {
+	.product-workshops .hero ul li {
 		font-size: 36px;
 		line-height: 44px
 	}
 
-	.product-bootcamp .hero .date-location {
+	.product-workshops .hero .date-location {
 		display: block;
 		font-size: 24px;
 		margin-bottom: 60px
 	}
 
-	.product-bootcamp .hero .button {
+	.product-workshops .hero .button {
 		width: auto
 	}
 
-	.product-bootcamp .hero #broughtoyouby {
+	.product-workshops .hero #broughtoyouby {
 		width: 292px;
 		float: right;
 	}
 
-	.product-bootcamp-page .hero, .product-schedule-front .hero, .product-conference-registration .hero, .product-conference-faq .hero, .product-speakers-front .hero {
+	.product-workshops-page .hero, .product-schedule-front .hero, .product-conference-registration .hero, .product-conference-faq .hero, .product-speakers-front .hero {
 		display: block;
 		height: 392px
 	}
 
-	.product-bootcamp-page .hero h1, .product-schedule-front .hero h1, .product-conference-registration .hero h1, .product-conference-faq .hero h1, .product-speakers-front .hero h1 {
+	.product-workshops-page .hero h1, .product-schedule-front .hero h1, .product-conference-registration .hero h1, .product-conference-faq .hero h1, .product-speakers-front .hero h1 {
 		font-size: 56px;
 		color: #FFF;
 		padding-top: 200px
@@ -1152,13 +1152,13 @@ footer p {
 }
 
 @media (min-width:1599px) {
-	.product-bootcamp .hero  {
+	.product-workshops .hero  {
 		padding-top: 400px
 	}
 }
 
-.product-bootcamp-page .hero {
-	background-image: url(../images/bootcamp-bg.jpg);
+.product-workshops-page .hero {
+	background-image: url(../images/workshops-bg.jpg);
 }
 
 .product-schedule-front .hero {
@@ -1183,31 +1183,31 @@ footer p {
 	background-image: url(../images/home-bg-9.jpg);
 }
 
-.bootcamp-courses .hero {
+.workshops-courses .hero {
 	background-image: url(../images/article-bg-2.jpg);	
 }
 
-.bootcamp-schedule .hero {
+.workshops-schedule .hero {
 	background-image: url(../images/article-bg-3.jpg);	
 }
 
-.bootcamp-instructors .hero {
+.workshops-instructors .hero {
 	background-image: url(../images/article-bg-9.jpg);	
 }
 
-.bootcamp-venue .hero {
+.workshops-venue .hero {
 	background-image: url(../images/article-bg-5.jpg);	
 }
 
-.bootcamp-faqs .hero {
+.workshops-faqs .hero {
 	background-image: url(../images/article-bg-6.jpg);	
 }
 
-.bootcamp-why .hero {
+.workshops-why .hero {
 	background-image: url(../images/article-bg-7.jpg);	
 }
 
-.bootcamp-registration .hero {
+.workshops-registration .hero {
 	background-image: url(../images/article-bg-8.jpg);	
 }
 
@@ -1512,20 +1512,20 @@ section.attendee-stats {
 	}
 }
 
-section.bootcamp-about h2 {
+section.workshops-about h2 {
 	margin-bottom: 36px
 }
 
-section.bootcamp-about p {
+section.workshops-about p {
 	line-height: 32px
 }
 
-section.bootcamp-about .image {
+section.workshops-about .image {
 	margin: 52px -42px 0
 }
 
 @media (min-width:1100px) {
-	section.bootcamp-about {
+	section.workshops-about {
 		display: flex;
 		text-align: left;
 		padding-top: 120px;
@@ -1534,21 +1534,21 @@ section.bootcamp-about .image {
 		margin: 0 auto
 	}
 
-	section.bootcamp-about h2 {
+	section.workshops-about h2 {
 		font-size: 28px;
 		line-height: 40px
 	}
 
-	section.bootcamp-about .content {
+	section.workshops-about .content {
 		width: 438px
 	}
 
-	section.bootcamp-about .content p {
+	section.workshops-about .content p {
 		font-size: 18px;
 		line-height: 28px
 	}
 
-	section.bootcamp-about .image {
+	section.workshops-about .image {
 		margin: 0;
 		flex: 1;
 		padding-left: 80px

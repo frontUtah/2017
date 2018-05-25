@@ -28,7 +28,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			
 
 
-			<h4>Guide for instructors (bootcamp)</h4>
+			<h4>Guide for instructors (workshop series)</h4>
 			
 			<p><em>TL;DR - It’s a workshop. Attendees should work.</em></p>
 			

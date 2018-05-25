@@ -1,17 +1,17 @@
 <?php
 	
-header('location: /bootcamp');
+header('location: /workshops');
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Courses - Front UX & Product Management Bootcamp, 8-9 November 2018';
+$title = 'Courses - Front UX & Product Management Workshop Series, 8-9 November 2018';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 // if no tab requested, redirect to the first
 if(empty($uri_parts[2])) {
 	$string = '<script type="text/javascript">';
-    $string .= 'window.location = "http://' . $_SERVER['HTTP_HOST'] . '/bootcamp/courses/ux' . '"';
+    $string .= 'window.location = "http://' . $_SERVER['HTTP_HOST'] . '/workshops/courses/ux' . '"';
     $string .= '</script>';
     echo $string;
 	die;
@@ -26,7 +26,7 @@ $tabs[] = array('link' => 'leadership', 'text' => 'Leadership');
 
 ?>
 
-<main class="secondary product-bootcamp-page bootcamp-courses">
+<main class="secondary product-workshops-page workshops-courses">
 	<section class="hero">
 		<h1>Courses</h1>
 	</section>
@@ -74,7 +74,7 @@ switch($track) {
 						if($tab['link'] == $track) {
 							$ti .= '<span class="active">' . $tab['text'] . '</span>';
 						} else {
-							$ti .= '<a href="/bootcamp/courses/' . $tab['link'] . '">' . $tab['text'] . '</a>';
+							$ti .= '<a href="/workshops/courses/' . $tab['link'] . '">' . $tab['text'] . '</a>';
 						}
 
 						$ti .= '</li>';
@@ -121,7 +121,7 @@ switch($track) {
 														<dt class="time">' . $slot_details['time'] . ' <span class="am-pm">' . $slot_details['meridian'] . '</span></dt>
 														<dd class="instructor ' . $instructor['discipline'] . '">
 															<div class="instructor-photo">
-																<a href="/bootcamp/instructor/' . $instructor['slug'] . '"><img src="/images/';
+																<a href="/workshops/instructor/' . $instructor['slug'] . '"><img src="/images/';
 																
 								// ensure photo exists
 								if(file_exists($_SERVER['DOCUMENT_ROOT'] . '/images/' . $instructor['photo'])) {
@@ -133,7 +133,7 @@ switch($track) {
 								echo '" alt=""></a>
 															</div>
 															<div>
-																<a href="/bootcamp/instructor/' . $instructor['slug'] . '">
+																<a href="/workshops/instructor/' . $instructor['slug'] . '">
 																	<h4>' . $instructor['first'] . ' ' . $instructor['last'] . '</h4>
 																	<p class="title">' . $instructor['title'] . '<br>' . $instructor['company'] . '</p>
 																	<p class="experience"><span class="label">' . $course['level'] . '</span></p>
@@ -176,8 +176,8 @@ switch($track) {
 	</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
-			<p>Reserve your seat now for the premier UX and Product Management training experience. Design your custom training program now. Whether you’re a beginner or seasoned professional, the Front UX & Product Management Bootcamp will take you and your team to the next level in product design and management.</p>
-			<p><a href="/bootcamp/registration" class="button">Register</a></p>
+			<p>Reserve your seat now for the premier UX and Product Management training experience. Design your custom training program now. Whether you’re a beginner or seasoned professional, the Front UX & Product Management Workshop Series will take you and your team to the next level in product design and management.</p>
+			<p><a href="/workshops/registration" class="button">Register</a></p>
 		</section>
 </main>
 

@@ -21,7 +21,7 @@
 
 $global_nav[1] = array('subsite' => 'landing', 'link' => '/', 'text' => 'Home', 'class' => 'home');
 $global_nav[2] = array('subsite' => 'conference', 'link' => '/conference', 'text' => 'Case Study Conference', 'class' => 'case-study');
-$global_nav[3] = array('subsite' => 'bootcamp', 'link' => '/bootcamp', 'text' => 'Product Bootcamp', 'class' => 'bootcamp');
+$global_nav[3] = array('subsite' => 'workshops', 'link' => '/workshops', 'text' => 'Workshop Series', 'class' => 'workshops');
 $global_nav[4] = array('subsite' => 'onsite', 'link' => '/onsite', 'text' => 'Custom Onsite Training', 'class' => 'custom-training');
 $global_nav[5] = array('subsite' => 'magazine', 'link' => 'https://medium.com/front-conference', 'text' => 'Blog', 'class' => 'magazine', 'target' => '_blank');
 
@@ -32,7 +32,7 @@ switch($uri_parts[0]) {
 	case 'conference':
 		$global_nav_order = array(2,3,4,5,1);
 		break;
-	case 'bootcamp';
+	case 'workshops';
 		$global_nav_order = array(3,2,4,5,1);
 		break;
 	case 'onsite';
@@ -112,15 +112,15 @@ switch($uri_parts[0]) {
 				</nav>
 			</header>';
 		break;
-	case 'bootcamp';
+	case 'workshops';
 
-		//$bootcamp_nav[] = array('link' => 'courses', 'text' => 'Courses', 'class' => '');
-		//$bootcamp_nav[] = array('link' => 'instructors', 'text' => 'Instructors', 'class' => '');
-		$bootcamp_nav[] = array('link' => 'venue', 'text' => 'Venue', 'class' => '');
-		$bootcamp_nav[] = array('link' => 'schedule', 'text' => 'Schedule', 'class' => '');
-		$bootcamp_nav[] = array('link' => 'faqs', 'text' => 'FAQs', 'class' => '');
-		$bootcamp_nav[] = array('link' => 'whyattend', 'text' => 'Why attend', 'class' => '');
-		$bootcamp_nav[] = array('link' => 'registration', 'text' => 'Register', 'class' => 'button');
+		//$workshops_nav[] = array('link' => 'courses', 'text' => 'Courses', 'class' => '');
+		//$workshops_nav[] = array('link' => 'instructors', 'text' => 'Instructors', 'class' => '');
+		$workshops_nav[] = array('link' => 'venue', 'text' => 'Venue', 'class' => '');
+		$workshops_nav[] = array('link' => 'schedule', 'text' => 'Schedule', 'class' => '');
+		$workshops_nav[] = array('link' => 'faqs', 'text' => 'FAQs', 'class' => '');
+		$workshops_nav[] = array('link' => 'whyattend', 'text' => 'Why attend', 'class' => '');
+		$workshops_nav[] = array('link' => 'registration', 'text' => 'Register', 'class' => 'button');
 
 		echo '
 			<header class="section-header">
@@ -131,14 +131,14 @@ switch($uri_parts[0]) {
 					</div>
 					<ul>';
 
-		foreach($bootcamp_nav as $bootcamp_navitem) {
-			echo '<li><a href="/bootcamp/' . $bootcamp_navitem['link'] . '" class="' . $bootcamp_navitem['class'];
+		foreach($workshops_nav as $workshops_navitem) {
+			echo '<li><a href="/workshops/' . $workshops_navitem['link'] . '" class="' . $workshops_navitem['class'];
 
-			if($uri_parts[1] == $bootcamp_navitem['link']) {
+			if($uri_parts[1] == $workshops_navitem['link']) {
 				echo ' selected';
 			}
 
-			echo '">' . $bootcamp_navitem['text'] . '</a></li>';
+			echo '">' . $workshops_navitem['text'] . '</a></li>';
 		}
 
 		echo '

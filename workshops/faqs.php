@@ -2,12 +2,12 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'FAQs - Front UX & Product Management Bootcamp, 8-9 November 2018';
+$title = 'FAQs - Front UX & Product Management Workshop Series, 8-9 November 2018';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 ?>
-	<main class="secondary product-bootcamp-page bootcamp-faqs">
+	<main class="secondary product-workshops-page workshops-faqs">
 		<section class="hero">
 			<h1>FAQs</h1>
 		</section>
@@ -23,7 +23,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<h3>Registration information</h3>
 						<dl class="accordion">
 							<dt class="accordion-title question">What are the ticket pricing details?</dt>
-							<dd class="accordion-content answer">Front UX & Product Management Bootcamp "Full Bootcamp" passes are $899 (25% off) until 31 August 2018. Standard price Front UX & Product Management Bootcamp passes are $1,199. This includes all meals, courses, and activities.</dd>
+							<dd class="accordion-content answer">Front UX & Product Management Workshop Series "Full Workshop SEries" passes are $899 (25% off) until 31 August 2018. Standard price Front UX & Product Management Workshop Series passes are $1,199. This includes all meals, courses, and activities.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Do you offer group pricing?</dt>
@@ -31,7 +31,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Who should attend Front?</dt>
-							<dd class="accordion-content answer">Front UX & Product Management Bootcamp is designed for product teams. While focused specifically on UX, product management, research, and leadership, anyone involved in product discovery, delivery, is encouraged to attend and will leave with a wealth of insights and skills. The courses cover the range between basic and advanced topics, providing valuable training to both students and seasoned professionals.</dd>
+							<dd class="accordion-content answer">Front UX & Product Management Workshop Series is designed for product teams. While focused specifically on UX, product management, research, and leadership, anyone involved in product discovery, delivery, is encouraged to attend and will leave with a wealth of insights and skills. The courses cover the range between basic and advanced topics, providing valuable training to both students and seasoned professionals.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">What is the conference cancellation policy?</dt>
@@ -99,11 +99,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<h3>Additional conference information</h3>
 						<dl class="accordion">
 							<dt class="accordion-title question">Where do I found out who is teaching?</dt>
-							<dd class="accordion-content answer">Information about who is teaching courses and Front UX & Product Management Bootcamp can be found at <a href="/bootcamp/instructors">www.frontutah.com/bootcamp/instructors</a>. To find out when individual instructors will be teaching, visit the courses page at <a href="/bootcamp/courses">www.frontutah.com/bootcamp/courses</a>.</dd>
+							<dd class="accordion-content answer">Information about who is teaching courses and Front UX & Product Management Workshop Series can be found at <a href="/workshops/instructors">www.frontutah.com/workshops/instructors</a>. To find out when individual instructors will be teaching, visit the courses page at <a href="/workshops/courses">www.frontutah.com/workshops/courses</a>.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">What is the schedule?</dt>
-							<dd class="accordion-content answer">You can find the full bootcamp schedule at <a href="/bootcamp/schedule">www.frontutah.com/bootcamp/schedule</a>.</dd>
+							<dd class="accordion-content answer">You can find the full workshop series schedule at <a href="/workshops/schedule">www.frontutah.com/workshops/schedule</a>.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">What is the conference attire?</dt>
@@ -115,7 +115,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Are meals included in the cost of registration?</dt>
-							<dd class="accordion-content answer">A Full Bootcamp Pass covers your breakfast, lunch, and break time snacks.</dd>
+							<dd class="accordion-content answer">A Full Workshop Series Pass covers your breakfast, lunch, and break time snacks.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Are specialty dietary requirements accommodated with the meals at the event?</dt>
@@ -134,7 +134,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">How do I become a Front volunteer?</dt>
-							<dd class="accordion-content answer">To learn more about volunteer opportunities at Front UX & Product Management Bootcamp, please contact Andrew Branch at andrew@frontutah.com or (801) 885-9206.</dd>
+							<dd class="accordion-content answer">To learn more about volunteer opportunities at Front UX & Product Management Workshop Series, please contact Andrew Branch at andrew@frontutah.com or (801) 885-9206.</dd>
 						</dl>
 					</li>
 					<li class="faq-category">
@@ -156,8 +156,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
-			<p>Reserve your seat now for the premier UX and Product Management training experience. Design your custom training program now. Whether you’re a beginner or seasoned professional, the Front UX & Product Management Bootcamp will take you and your team to the next level in product design and management.</p>
-			<p><a href="/bootcamp/registration" class="button">Register</a></p>
+			<p>Reserve your seat now for the premier UX and Product Management training experience. Design your custom training program now. Whether you’re a beginner or seasoned professional, the Front UX & Product Management Workshop Series will take you and your team to the next level in product design and management.</p>
+			<p><a href="/workshops/registration" class="button">Register</a></p>
 		</section>
 	</main>
 

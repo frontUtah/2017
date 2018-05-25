@@ -7,7 +7,7 @@ $title = 'Front UX & Product Management Case Study Conference';
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 ?>
-	<main class="product-bootcamp product-casestudy">
+	<main class="product-workshops product-casestudy">
 		<section class="hero">
 			<h1>UX &amp; Product Management Case Study Conference</h1>
 			<p>

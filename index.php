@@ -22,18 +22,18 @@ require('includes/header.php');
 				<div href="https://www.youtube.com/watch?v=Qqxmgf5WDjE" class="thumnail video-thumbnail recap-video">
 					<img src="images/conf-scene001.jpg" alt="">
 				</div>
-				<p class="description">A two-day, in-depth series
+				<p class="description">A 2 day, in-depth series
  of from-the-trenches case studies by innovative user experience designers and product managers.</p>
 				<p><a href="/conference" class="button">Learn More</a></p>
 			</li>
 			<li>
-				<h3>Product Bootcamp</h3>
+				<h3>Workshop Series</h3>
 				<p class="date-location">Salt Lake City, 8-9 November 2018</p>
 				<div href="https://www.youtube.com/watch?v=rTLIYQVHa90" class="thumnail video-thumbnail recap-video">
 					<img src="images/conf-scene002.jpg" alt="">
 				</div>
-				<p class="description">A two-day, hands-on training bootcamp to learn how to create amazing products and work like the teams you hear from at Front.</p>
-				<p><a href="/bootcamp" class="button">Learn More</a></p>
+				<p class="description">A 2 day, hands-on, intensive workshop series to learn how to create amazing products and work like the teams you hear from at Front.</p>
+				<p><a href="/workshops" class="button">Learn More</a></p>
 			</li>
 			<li>
 				<h3>Custom Onsite Training</h3>

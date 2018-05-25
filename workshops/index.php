@@ -2,14 +2,14 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Front UX & Product Management Bootcamp, 8-9 November 2018';
+$title = 'Front UX & Product Management Workshop Series, 8-9 November 2018';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 ?>
-	<main class="product-bootcamp">
+	<main class="product-workshops">
 		<section class="hero">
-			<h1>UX &amp; Product Management Bootcamp</h1>
+			<h1>UX &amp; Product Management Workshop Series</h1>
 			<p>
 				<ul>
 					<li>2 days • 4 tracks • 20 courses</li>
@@ -18,7 +18,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			</p>
 			<p class="date-location">8-9 November 2018 • Salt Lake City, Utah</p>
 			<!--<a href="http://www.pendo.io"><img id="broughtoyouby" src="/images/frontpc18/broughttoyouby_pendo.png" /></a>-->
-			<p><a href="/bootcamp/registration" class="button">Register</a></p>
+			<p><a href="/workshops/registration" class="button">Register</a></p>
 		</section>
 		<section class="training-courses">
 				<h2>2 intense days of learning and practice</h2>
@@ -49,7 +49,7 @@ $instructors = array_slice($instructors, 0, 6);
 // spit them out
 foreach($instructors as $instructor) {
 	echo '<li class="instructor ' . $instructor['discipline'] . '">
-					<!--<a href="/bootcamp/instructor/' . $instructor['slug'] . '">-->
+					<!--<a href="/workshops/instructor/' . $instructor['slug'] . '">-->
 						<div class="instructor-photo">
 							<img src="/images/' . $instructor['photo'] . '" alt="">
 						</div>
@@ -65,7 +65,7 @@ foreach($instructors as $instructor) {
 			</ul>
 			<!--
 			<p>
-				<a href="/bootcamp/instructors" class="button">View All</a>
+				<a href="/workshops/instructors" class="button">View All</a>
 			</p>
 			-->
 		</section>
@@ -73,7 +73,7 @@ foreach($instructors as $instructor) {
 		<section class="highlight-video">
 			<h2>January 2018 Highlights</h2>
 			<div href="https://www.youtube.com/watch?v=rTLIYQVHa90" class="thumbnail video-thumbnail recap-video">
-				<img class="full" src="/images/frontbootcamp18/uolp.jpg" alt="">
+				<img class="full" src="/images/frontworkshops18/uolp.jpg" alt="">
 			</div>
 		</section>
 		<section class="training-courses">
@@ -88,7 +88,7 @@ foreach($instructors as $instructor) {
 						<!-- dd class="basic">Basic</dd -->
 					</dl>
 					<p>
-						<a href="/bootcamp/courses/ux" class="button">View Courses</a>
+						<a href="/workshops/courses/ux" class="button">View Courses</a>
 					</p>
 				</li>
 				<li class="course-group pm">
@@ -99,7 +99,7 @@ foreach($instructors as $instructor) {
 						<!-- dd class="basic">Basic</dd -->
 					</dl>
 					<p>
-						<a href="/bootcamp/courses/pm" class="button">View Courses</a>
+						<a href="/workshops/courses/pm" class="button">View Courses</a>
 					</p>
 				</li>
 				<li class="course-group research">
@@ -110,7 +110,7 @@ foreach($instructors as $instructor) {
 						<!-- dd class="basic">Basic</dd -->
 					</dl>
 					<p>
-						<a href="/bootcamp/courses/research" class="button">View Courses</a>
+						<a href="/workshops/courses/research" class="button">View Courses</a>
 					</p>
 				</li>
 				<li class="course-group leadership">
@@ -121,7 +121,7 @@ foreach($instructors as $instructor) {
 						<!-- dd class="basic">Basic</dd -->
 					</dl>
 					<p>
-						<a href="/bootcamp/courses/leadership" class="button">View Courses</a>
+						<a href="/workshops/courses/leadership" class="button">View Courses</a>
 					</p>
 				</li>
 			</ul>
@@ -143,8 +143,8 @@ foreach($instructors as $instructor) {
 		</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
-			<p>Reserve your seat now for the premier UX and Product Management training experience. Design your custom training program now. Whether you’re a beginner or seasoned professional, the Front UX & Product Management Bootcamp will take you and your team to the next level in product design and management.</p>
-			<p><a href="/bootcamp/registration" class="button">Register</a></p>
+			<p>Reserve your seat now for the premier UX and Product Management training experience. Design your custom training program now. Whether you’re a beginner or seasoned professional, the Front UX & Product Management Workshops Series will take you and your team to the next level in product design and management.</p>
+			<p><a href="/workshops/registration" class="button">Register</a></p>
 		</section>
 	</main>
 

@@ -5,12 +5,12 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 $instructor = get_instructor($uri_parts[2]);
 $courses = get_courses($instructor['slug']);
 
-$title = $instructor['first'] . ' ' . $instructor['last'] . ' - Front UX & Product Management Bootcamp, 8-9 November 2018';
+$title = $instructor['first'] . ' ' . $instructor['last'] . ' - Front UX & Product Management Workshop Series, 8-9 November 2018';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 ?>
-	<main class="secondary product-bootcamp-page">
+	<main class="secondary product-workshops-page">
 		<section class="hero">
 			<h1>Instructors</h1>
 		</section>
@@ -73,8 +73,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
-			<p>Reserve your seat now for the premier UX and Product Management training experience. Design your custom training program now. Whether you’re a beginner or seasoned professional, the Front UX & Product Management Bootcamp will take you and your team to the next level in product design and management.</p>
-			<p><a href="/bootcamp/registration" class="button">Register</a></p>
+			<p>Reserve your seat now for the premier UX and Product Management training experience. Design your custom training program now. Whether you’re a beginner or seasoned professional, the Front UX & Product Management Workshop Series will take you and your team to the next level in product design and management.</p>
+			<p><a href="/workshops/registration" class="button">Register</a></p>
 		</section>
 	</main>
 

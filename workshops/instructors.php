@@ -1,15 +1,15 @@
 <?php
 	
-header('location: /bootcamp');
+header('location: /workshops');
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Instructors - Front UX & Product Management Bootcamp, 8-9 November 2018';
+$title = 'Instructors - Front UX & Product Management Workshop Series, 8-9 November 2018';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 ?>
-	<main class="secondary product-bootcamp-page bootcamp-instructors">
+	<main class="secondary product-workshops-page workshops-instructors">
 		<section class="hero">
 			<h1>Instructors</h1>
 		</section>
@@ -25,7 +25,7 @@ shuffle($instructors);
 // spit them out
 foreach($instructors as $instructor) {
 	echo '<li class="instructor ' . $instructor['discipline'] . '">
-					<!--<a href="/bootcamp/instructor/' . $instructor['slug'] . '">-->
+					<!--<a href="/workshops/instructor/' . $instructor['slug'] . '">-->
 						<div class="instructor-photo">
 							<img src="/images/' . $instructor['photo'] . '" alt="">
 						</div>
@@ -47,7 +47,7 @@ foreach($instructors as $instructor) {
 				experience. Design your custom training program now. Whether you’re a 
 				beginner or seasoned professional, the Front Park City workshop series 
 				will take you and your team to the next level in product design and management.</p>
-			<p><a href="/bootcamp/registration" class="button">Register</a></p>
+			<p><a href="/workshops/registration" class="button">Register</a></p>
 		</section>
 	</main>
 

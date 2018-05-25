@@ -2,12 +2,12 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Why attend - Front UX & Product Management Bootcamp, 8-9 November 2018';
+$title = 'Why attend - Front UX & Product Management Workshop Series, 8-9 November 2018';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 ?>
-	<main class="secondary product-bootcamp-page bootcamp-why">
+	<main class="secondary product-workshops-page workshops-why">
 		<section class="hero">
 			<h1>Why Attend</h1>
 		</section>
@@ -30,7 +30,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				<li>
 					<img src="/images/conf-scene006.jpg" alt="">
 					<h4>Two intense days of learning</h4>
-					<p>Our bootcamp consists of six, deep workshops where you’ll learn and practice methods and techniques crucial to building game-changing products.</p>
+					<p>Our workshop series consists of five hands-on, intensive workshops where you’ll learn and practice methods and techniques crucial to building game-changing products.</p>
 				</li>
 				<li>
 					<img src="/images/conf-scene007.jpg" alt="">
@@ -64,8 +64,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
-			<p>Reserve your seat now for the premier UX and Product Management training experience. Design your custom training program now. Whether you’re a beginner or seasoned professional, the Front UX & Product Management Bootcamp will take you and your team to the next level in product design and management.</p>
-			<p><a href="/bootcamp/registration" class="button">Register</a></p>
+			<p>Reserve your seat now for the premier UX and Product Management training experience. Design your custom training program now. Whether you’re a beginner or seasoned professional, the Front UX & Product Management Workshop Series will take you and your team to the next level in product design and management.</p>
+			<p><a href="/workshops/registration" class="button">Register</a></p>
 		</section>
 	</main>
 

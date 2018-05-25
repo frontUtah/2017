@@ -8,7 +8,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 ?>
 
-<main class="secondary product-bootcamp-page">
+<main class="secondary product-workshops-page">
 	<section class="hero">
 		<h1>Talks</h1>
 	</section>

@@ -13,9 +13,9 @@ switch($uri_parts[0]) {
 		require($_SERVER['DOCUMENT_ROOT'] . '/conference/speakers.data.php');
 		require($_SERVER['DOCUMENT_ROOT'] . '/conference/talks.data.php');
 		break;
-	case 'bootcamp';
-		require($_SERVER['DOCUMENT_ROOT'] . '/bootcamp/instructors.data.php');
-		require($_SERVER['DOCUMENT_ROOT'] . '/bootcamp/courses.data.php');
+	case 'workshops';
+		require($_SERVER['DOCUMENT_ROOT'] . '/workshops/instructors.data.php');
+		require($_SERVER['DOCUMENT_ROOT'] . '/workshops/courses.data.php');
 		break;
 }
 

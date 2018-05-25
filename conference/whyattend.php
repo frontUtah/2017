@@ -7,7 +7,7 @@ $title = 'Why attend - Front UX & Product Management Case Study Conference, 31 M
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 ?>
-	<main class="secondary product-bootcamp-page product-why">
+	<main class="secondary product-workshops-page product-why">
 		<section class="hero">
 			<h1>Why Attend</h1>
 		</section>
@@ -57,7 +57,7 @@ We believe product management and product design play a central role in the succ
 		</section>
 		<section class="attendant-charts">
 			<h2>Front 2017 attendees</h2>
-			<p class="about-attendant-charts">In 2017, product design teams gathered in Utah from 4 countries and 29 states across the US for our conference and bootcamp. While focused specically on UX, product management, research, and leadership, anyone involved in product discovery, delivery, is encouraged to attend and will leave with a wealth of insights and skills. The conference talks cover the range between basic and advanced topics, providing valuable insights to both students and seasoned professionals.</p>
+			<p class="about-attendant-charts">In 2017, product design teams gathered in Utah from 4 countries and 29 states across the US for our conference and workshop series. While focused specifically on UX, product management, research, and leadership, anyone involved in product discovery, delivery, is encouraged to attend and will leave with a wealth of insights and skills. The conference talks cover the range between basic and advanced topics, providing valuable insights to both students and seasoned professionals.</p>
 			<div class="chart ring-chart">
 				<h4>Attendee by job title</h4>
 				<img src="/images/ring-chart.png" alt="">
