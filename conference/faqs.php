@@ -55,7 +55,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Is there an age requirement for the event?</dt>
-							<dd class="accordion-content answer">Attendees must be 21 years or older.</dd>
+							<dd class="accordion-content answer">No, the environment and content is suitable for anyone of any age.</dd>
 						</dl>
 					</li>
 					
