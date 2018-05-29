@@ -25,8 +25,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				<p>Join us in foothills of the majestic mountains of Utah for an intimate, one-of-a-kind 
 					UX and Product Management training experience. Select 5 half and quarter-day 
 					workshops, for 2 intense days of learning and practice. No passive education 
-					here. This isn’t for the faint of heart. We’ll be working together in the shadows 
-					of the Rocky Mountains, in small groups of six, where you’ll be expected 
+					here. This isn’t for the faint of heart. We’ll be working together in small groups of six, where you’ll be expected 
 					to collaborate and engage.</p>
 				<p>Each workshop will be limited to 48 students and taught by internationally 
 					recognized industry leaders and some of tech’s most skilled practitioners. 
