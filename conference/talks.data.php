@@ -35,7 +35,7 @@ $talks[] = array(
 
 // Vicki Tan
 $talks[] = array(
-	'title' => 'Designing with Intuition',
+	'title' => 'The secrets data won\'t tell you',
 	'description' => "It’s become standard to lean on quantitative, experiment-driven design, especially when decisions must be made quickly and with very little time and resources. But this method often only reveals surface-level themes and not much about your users’ true intentions. In this onboarding case study, Vicki will walk you through how we learned to design using intuition, blending science and design research to create a solution that met our users’ needs.",
 	'day' => 1,
 	'slot' => 4,
