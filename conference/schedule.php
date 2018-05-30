@@ -89,7 +89,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<dt class="time">1:30 PM</dt>
 							<dd class="leadership">
 								<h4>Q&A panel with morning speakers</h4>
-								<p>Frank Yoo, Ciara Peter, Aryel Cianflone, and Jenny Arden</p>
+								<p>Benjamin Evans, Ciara Peter, Aryel Cianflone, and Vicki Tan</p>
 							</dd>
 						</dl>
 					</li>
