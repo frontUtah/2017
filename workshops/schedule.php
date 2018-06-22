@@ -49,6 +49,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">8:30 AM</dt>
 							<dd class="ux course" onclick="">
+								<p>Joel Beukelman</p>
+								<p>Practical Prototyping for Qualitative Research</p>
 							</dd>
 							<dd class="pm course" onclick="">
 							</dd>
