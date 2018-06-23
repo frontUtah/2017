@@ -49,7 +49,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">8:30 AM</dt>
 							<dd class="ux course" onclick="">
-								<p>Joel Beukelman</p>
+								<p><strong>Joel Beukelman</strong></p>
 								<p>Practical Prototyping for Qualitative Research</p>
 							</dd>
 							<dd class="pm course" onclick="">
@@ -57,6 +57,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<dd class="research course" onclick="">
 							</dd>
 							<dd class="leadership course" onclick="">
+							<p>Amanda Smith</p>
+							<p><em>AMC Health</em></p>
+							<p>UX and The Power of One</p>
 							</dd>
 						</dl>
 					</li>
@@ -74,8 +77,12 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<dd class="ux course" onclick="">
 							</dd>
 							<dd class="pm course" onclick="">
+							<p><em>Black McClary</em></p>
+							<p><em>Instructure</em></p>
 							</dd>
 							<dd class="research course" onclick="">
+							<p><strong>Christi Wruck</strong></p>
+							<p><em>Instructure</em></p>
 							</dd>
 							<dd class="leadership course" onclick="">
 							</dd>
@@ -87,10 +94,14 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<dd class="ux course" onclick="">
 							</dd>
 							<dd class="pm course" onclick="">
+							<p><strong>Vicki Thomas</strong></p>
+							<p><em>Vivint Smart Home</em></p>
 							</dd>
 							<dd class="research course" onclick="">
 							</dd>
 							<dd class="leadership course" onclick="">
+							<p><strong>Thor Ernstsson</strong></p>
+							<p><em>Alpha</em></p>
 							</dd>
 						</dl>
 					</li>
@@ -111,10 +122,17 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">8:30 AM</dt>
 							<dd class="ux course" onclick="">
+							<p><strong>Drew Bridewell</strong></p>
+							<p><em>Invision</em></p>
+							<p>The building, scaling, and evolution of a Design System</p>
 							</dd>
 							<dd class="pm course" onclick="">
+							<p><strong>Jeff Patton</strong></p>
+							<p><em>Jeff Patton and Associates</em></p>
 							</dd>
 							<dd class="research course" onclick="">
+							<p><strong>Danyel Rio Printz</strong></p>
+							<p><em>Google</em></p>
 							</dd>
 							<dd class="leadership course" onclick="">
 							</dd>
@@ -136,6 +154,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<dd class="pm course" onclick="">
 							</dd>
 							<dd class="research course" onclick="">
+							<p><strong>Sarah Doody</strong></p>
 							</dd>
 							<dd class="leadership course" onclick="">
 							</dd>
