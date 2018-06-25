@@ -128,7 +128,6 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<dt class="time">8:30 AM</dt>
 							<dd class="ux course" onclick="">
 							<p><strong>Drew Bridewell</strong></p>
-							<p><em>Invision</em></p>
 							<p>The building, scaling, and evolution of a Design System</p>
 							</dd>
 							<dd class="pm course" onclick="">
