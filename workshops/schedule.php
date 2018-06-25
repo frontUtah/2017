@@ -53,16 +53,14 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 								<p>Practical Prototyping for Qualitative Research</p>
 							</dd>
 							<dd class="pm course" onclick="">
-							<p>Barron Caster</p>
+							<p><strong>Barron Caster</strong></p>
 							<p>The 3x Conversion Playbook: Step-by-step instructions for Product Managers to increase customers and fuel their business.</p>
 							</dd>
 							<dd class="research course" onclick="">
-							<p>Amanda Smith</p>
+							<p><strong>Amanda Smith</strong></p>
 							<p>UX and The Power of One</p>
 							</dd>
 							<dd class="leadership course" onclick="">
-							<p>Amanda Smith</p>
-							<p>UX and The Power of One</p>
 							</dd>
 						</dl>
 					</li>
@@ -78,11 +76,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">1:30 PM</dt>
 							<dd class="ux course" onclick="">
-							<p>Ben Peck</p>
+							<p><strong>Ben Peck</strong></p>
 							<p>Design Criques done right.</p>
 							</dd>
 							<dd class="pm course" onclick="">
-							<p><em>Black McClary</em></p>
+							<p><strong>Black McClary</strong></p>
 							<p>Journey Mapping for PMs: Why building a journey map will help you build the right thing, on time. </p>
 							</dd>
 							<dd class="research course" onclick="">
@@ -96,7 +94,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">3:45 PM</dt>
 							<dd class="ux course" onclick="">
-							<p>Matt Bryan</p>
+							<p><strong>Matt Bryan</strong></p>
 							<p>Scaling Fidelity</p>
 							</dd>
 							<dd class="pm course" onclick="">
@@ -104,7 +102,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<p>Teamwork Makes the Dream Work: How to effectively work together over the course of your project to ship great software products.</p>
 							</dd>
 							<dd class="research course" onclick="">
-							<p>Jeff Potter</p>
+							<p><strong>Jeff Potter</strong></p>
 							</dd>
 							<dd class="leadership course" onclick="">
 							<p><strong>Thor Ernstsson</strong></p>
