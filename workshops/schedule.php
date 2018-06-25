@@ -81,7 +81,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							</dd>
 							<dd class="pm course" onclick="">
 							<p><strong>Black McClary</strong></p>
-							<p>Journey Mapping for PMs: Why building a journey map will help you build the right thing, on time. </p>
+							<p>Journey Mapping for PMs</p>
 							</dd>
 							<dd class="research course" onclick="">
 							<p><strong>Christi Wruck</strong></p>
@@ -99,7 +99,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							</dd>
 							<dd class="pm course" onclick="">
 							<p><strong>Vicky Thomas</strong></p>
-							<p>Teamwork Makes the Dream Work: How to effectively work together over the course of your project to ship great software products.</p>
+							<p>Teamwork Makes the Dream Work</p>
 							</dd>
 							<dd class="research course" onclick="">
 							<p><strong>Jeff Potter</strong></p>
