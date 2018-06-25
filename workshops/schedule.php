@@ -53,12 +53,15 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 								<p>Practical Prototyping for Qualitative Research</p>
 							</dd>
 							<dd class="pm course" onclick="">
+							<p>Barron Caster</p>
+							<p>The 3x Conversion Playbook: Step-by-step instructions for Product Managers to increase customers and fuel their business.</p>
 							</dd>
 							<dd class="research course" onclick="">
+							<p>Amanda Smith</p>
+							<p>UX and The Power of One</p>
 							</dd>
 							<dd class="leadership course" onclick="">
 							<p>Amanda Smith</p>
-							<p><em>AMC Health</em></p>
 							<p>UX and The Power of One</p>
 							</dd>
 						</dl>
@@ -75,14 +78,15 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">1:30 PM</dt>
 							<dd class="ux course" onclick="">
+							<p>Ben Peck</p>
+							<p>Design Criques done right.</p>
 							</dd>
 							<dd class="pm course" onclick="">
 							<p><em>Black McClary</em></p>
-							<p><em>Instructure</em></p>
+							<p>Journey Mapping for PMs: Why building a journey map will help you build the right thing, on time. </p>
 							</dd>
 							<dd class="research course" onclick="">
 							<p><strong>Christi Wruck</strong></p>
-							<p><em>Instructure</em></p>
 							</dd>
 							<dd class="leadership course" onclick="">
 							</dd>
@@ -92,16 +96,19 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">3:45 PM</dt>
 							<dd class="ux course" onclick="">
+							<p>Matt Bryan</p>
+							<p>Scaling Fidelity</p>
 							</dd>
 							<dd class="pm course" onclick="">
-							<p><strong>Vicki Thomas</strong></p>
-							<p><em>Vivint Smart Home</em></p>
+							<p><strong>Vicky Thomas</strong></p>
+							<p>Teamwork Makes the Dream Work: How to effectively work together over the course of your project to ship great software products.</p>
 							</dd>
 							<dd class="research course" onclick="">
+							<p>Jeff Potter</p>
 							</dd>
 							<dd class="leadership course" onclick="">
 							<p><strong>Thor Ernstsson</strong></p>
-							<p><em>Alpha</em></p>
+							<p>How to cut through red tape to run experiments</p>
 							</dd>
 						</dl>
 					</li>
@@ -128,11 +135,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							</dd>
 							<dd class="pm course" onclick="">
 							<p><strong>Jeff Patton</strong></p>
-							<p><em>Jeff Patton and Associates</em></p>
 							</dd>
 							<dd class="research course" onclick="">
 							<p><strong>Danyel Rio Printz</strong></p>
-							<p><em>Google</em></p>
 							</dd>
 							<dd class="leadership course" onclick="">
 							</dd>
