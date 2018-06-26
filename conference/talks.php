@@ -2,7 +2,7 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Talks - Front UX & Product Management Case Study Conference, 31 May - 1 June 2018';
+$title = 'Talks - Front UX & Product Management Case Study Conference, 6-7 June 2019';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
@@ -17,7 +17,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		
 		<div class="course-calendar">
 			<div class="course-date">
-				<h3>Thursday, 31 May 2018</h3>
+				<h3>Thursday, 31 May 2019</h3>
 				<ul class="days-courses">
 
 					<?php
@@ -104,7 +104,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</ul>
 			</div>
 			<div class="course-date">
-				<h3>Friday, 1 June 2018</h3>
+				<h3>Friday, 1 June 2019</h3>
 				<ul class="days-courses">
 					<?php echo print_courses(2); ?>
 				</ul>

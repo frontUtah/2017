@@ -2,7 +2,7 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Front UX & Product Management Case Study Conference, 31 May - 1 June 2018';
+$title = 'Front UX & Product Management Case Study Conference, 6-7 June 2019';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
@@ -16,7 +16,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li>1000+ product designers and managers</li>
 				</ul>
 			</p>
-			<p class="date-location">31 May - 1 June 2018 • Salt Lake City, Utah</p>
+			<p class="date-location">6-7 June 2019 • Salt Lake City, Utah</p>
 			<a href="http://www.workfront.com"><img id="broughtoyouby" src="/images/frontconference18/broughttoyouby_workfront.png" /></a>
 			<p><a href="/conference/registration" class="button">Register</a></p>
 		</section>

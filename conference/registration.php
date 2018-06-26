@@ -2,7 +2,7 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Registration - Front UX & Product Management Case Study Conference, 31 May - 1 June 2018';
+$title = 'Registration - Front UX & Product Management Case Study Conference, 6-7 June 2019';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
@@ -13,23 +13,22 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		</section>
 		<section class="registration-about">
 			<h2>Registration</h2>
-			<p class="about-registration-about">Front Salt Lake City 2018 returns to downtown at the Eccles Theater. While this spacious and stunning venue provides additional seating, capacity will still be limited. Don’t procrastinate. Front has sold out every year. You don’t want to miss this. This will be the biggest, most engaging, and comprehensive conference yet. Join us for incredible insights, inspiration, and fun.</p>
+			<p class="about-registration-about">Front UX & Product Management Case Study Conference returns in 2019 to the spacious and stunning Eccles Theater in downtown Salt Lake City. You don’t want to miss this. Take advantage of early bird pricing and our great discounts to bring your entire team. This will be the biggest, most engaging, and comprehensive conference yet. Join us for incredible insights, inspiration, and fun.</p>
 		</section>
 		
 		<section class="pricing">
 			<h2>Pricing</h2>
 			
-			<!--
 			<div class="prices">
 				<dl class="pricing-types">
 					<dt><div></div></dt>
 					<dd class="early">
 						Early bird pricing
-						<small>30% off until 31 March 2018</small>
+						<small>30% off until 31 March 2019</small>
 					</dd>
 					<dd class="standard">
 						Standard pricing
-						<small>Starting 1 April 2018</small>
+						<small>Starting 1 April 2019</small>
 					</dd>
 				</dl>
 				<dl class="full">
@@ -58,8 +57,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<dd class="standard">$630</dd>
 				</dl>
 			</div>
-			-->
 			
+			<!--
 			<div class="prices">
 				<dl class="full">
 					<dt><div>Full Conference</div></dt>
@@ -84,14 +83,15 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<dd class="early">$630</dd>
 				</dl>
 			</div>
+			-->
 			
-			<p><a target="_blank" href="https://frontconference2018.eventbrite.com" class="button">Register</a></p>
+			<p><a target="_blank" href="https://frontconference2019.eventbrite.com" class="button">Register</a></p>
 		</section>
 
 
 		<section class="accomodations">
 			<h2>Hotel</h2>
-			<p class="about-accomodations">We have acquired a discounted nightly rate of $179/night + tax for a single king bed or two queens, at Salt Lake City Marriott City Center. We encourage you to register early as these rates are only guaranteed until 9 May 2018. Book your room online or by calling 888.236.2427 and asking for the “Front” group discount. The hotel is a block and a half (5 minute walk) from the theater.</p>
+			<p class="about-accomodations">We have acquired a discounted nightly rate of $179/night + tax for a single king bed or two queens, at Salt Lake City Marriott City Center. We encourage you to register early as these rates are only guaranteed until 9 May 2019. Book your room online or by calling 888.236.2427 and asking for the “Front” group discount. The hotel is a block and a half (5 minute walk) from the theater.</p>
 			<div class="hotel">
 				<div class="hotel-info">
 					<h3>Salt Lake City Marriott City Center</h3>
