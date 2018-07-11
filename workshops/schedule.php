@@ -53,8 +53,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 								<p>Practical Prototyping for Qualitative Research</p>
 							</dd>
 							<dd class="pm course" onclick="">
-							<p><strong>Barron Caster</strong></p>
-							<p>The 3x Conversion Playbook: Step-by-step instructions for Product Managers to increase customers and fuel their business.</p>
+								<p><strong>Barron Caster</strong></p>
+								<p>The 3x Conversion Playbook: Step-by-step instructions for Product Managers to increase customers and fuel their business.</p>
 							</dd>
 							<dd class="research course" onclick="">
 								<p><strong>Amanda Smith</strong></p>
@@ -78,17 +78,19 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">1:30 PM</dt>
 							<dd class="ux course" onclick="">
-							<p><strong>Ben Peck</strong></p>
-							<p>Design Criques done right.</p>
+								<p><strong>Ben Peck</strong></p>
+								<p>Design Criques done right.</p>
 							</dd>
 							<dd class="pm course" onclick="">
-							<p><strong>Black McClary</strong></p>
-							<p>Journey Mapping for PMs</p>
+								<p><strong>Black McClary</strong></p>
+								<p>Journey Mapping for PMs</p>
 							</dd>
 							<dd class="research course" onclick="">
-							<p><strong>Sarah Doody</strong></p>
+								<p><strong>Sarah Doody</strong></p>
+								<p>Practical User Research</p>
 							</dd>
 							<dd class="leadership course" onclick="">
+								<p><strong>TBA</strong></p>
 							</dd>
 						</dl>
 					</li>
@@ -96,20 +98,20 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">3:45 PM</dt>
 							<dd class="ux course" onclick="">
-							<p><strong>Matt Bryan</strong></p>
-							<p>Scaling Fidelity</p>
+								<p><strong>Matt Bryan</strong></p>
+								<p>Scaling Fidelity</p>
 							</dd>
 							<dd class="pm course" onclick="">
-							<p><strong>Jaekob Chenina</strong></p>
-							<p>AI products that customers love</p>
+								<p><strong>Jaekob Chenina</strong></p>
+								<p>AI products that customers love</p>
 							</dd>
 							<dd class="research course" onclick="">
-							<p><strong>Jeff Potter</strong></p>
-							<p>Voices of the data</p>
+								<p><strong>Jeff Potter</strong></p>
+								<p>Voices of the data</p>
 							</dd>
 							<dd class="leadership course" onclick="">
-							<p><strong>Thor Ernstsson</strong></p>
-							<p>How to cut through red tape to run experiments</p>
+								<p><strong>Thor Ernstsson</strong></p>
+								<p>How to cut through red tape to run experiments</p>
 							</dd>
 						</dl>
 					</li>
@@ -130,16 +132,18 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">8:30 AM</dt>
 							<dd class="ux course" onclick="">
-							<p><strong>Drew Bridewell</strong></p>
-							<p>The building, scaling, and evolution of a Design System</p>
+								<p><strong>Drew Bridewell</strong></p>
+								<p>The building, scaling, and evolution of a Design System</p>
 							</dd>
 							<dd class="pm course" onclick="">
-							<p><strong>Jeff Patton</strong></p>
+								<p><strong>Jeff Patton</strong></p>
+								<p>User Story Mapping</p>
 							</dd>
 							<dd class="research course" onclick="">
-							<p><strong>Danyel Rio Printz</strong></p>
+								<p><strong>Danyel Rio Printz</strong></p>
 							</dd>
 							<dd class="leadership course" onclick="">
+								<p><strong>TBA</strong></p>
 							</dd>
 						</dl>
 					</li>
@@ -155,17 +159,18 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">1:30 PM</dt>
 							<dd class="ux course" onclick="">
+								<p><strong>TBA</strong></p>
 							</dd>
 							<dd class="pm course" onclick="">
-								<dd class="pm course" onclick="">
-									<p><strong>Vicky Thomas</strong></p>
-									<p>Teamwork Makes the Dream Work</p>
-								</dd>
+								<p><strong>Vicky Thomas</strong></p>
+								<p>Teamwork Makes the Dream Work</p>
 							</dd>
 							<dd class="research course" onclick="">
-							<p><strong>Sarah Doody</strong></p>
+								<p><strong>Rayna Wiles</strong></p>
+								<p>Researching as a facilitator</p>
 							</dd>
 							<dd class="leadership course" onclick="">
+								<p><strong>TBA</strong></p>
 							</dd>
 						</dl>
 					</li>
