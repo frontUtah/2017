@@ -57,10 +57,12 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<p>The 3x Conversion Playbook: Step-by-step instructions for Product Managers to increase customers and fuel their business.</p>
 							</dd>
 							<dd class="research course" onclick="">
-							<p><strong>Amanda Smith</strong></p>
-							<p>UX and The Power of One</p>
+								<p><strong>Amanda Smith</strong></p>
+								<p>UX and The Power of One</p>
 							</dd>
 							<dd class="leadership course" onclick="">
+								<p><strong>Gibbson Biddle</strong></p>
+								<p>How to Become a World-Class Product Leader</p>
 							</dd>
 						</dl>
 					</li>
@@ -84,7 +86,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<p>Journey Mapping for PMs</p>
 							</dd>
 							<dd class="research course" onclick="">
-							<p><strong>Christi Wruck</strong></p>
+							<p><strong>Sarah Doody</strong></p>
 							</dd>
 							<dd class="leadership course" onclick="">
 							</dd>
@@ -98,11 +100,12 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<p>Scaling Fidelity</p>
 							</dd>
 							<dd class="pm course" onclick="">
-							<p><strong>Vicky Thomas</strong></p>
-							<p>Teamwork Makes the Dream Work</p>
+							<p><strong>Jaekob Chenina</strong></p>
+							<p>AI products that customers love</p>
 							</dd>
 							<dd class="research course" onclick="">
 							<p><strong>Jeff Potter</strong></p>
+							<p>Voices of the data</p>
 							</dd>
 							<dd class="leadership course" onclick="">
 							<p><strong>Thor Ernstsson</strong></p>
@@ -154,6 +157,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<dd class="ux course" onclick="">
 							</dd>
 							<dd class="pm course" onclick="">
+								<dd class="pm course" onclick="">
+									<p><strong>Vicky Thomas</strong></p>
+									<p>Teamwork Makes the Dream Work</p>
+								</dd>
 							</dd>
 							<dd class="research course" onclick="">
 							<p><strong>Sarah Doody</strong></p>
