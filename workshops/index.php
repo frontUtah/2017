@@ -34,7 +34,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 		</section>
 		<section class="instructor-preview">
-			<h2>Past instructors</h2>
+			<h2>Instructors</h2>
 			<ul class="instructor-list">
 
 <?php

@@ -4,94 +4,139 @@
  * Use '</br></br>' to separate paragraphs
  */
 
-// Jay Fichialos
+// Drew Bridewell
 $instructors[] = array(
-	'slug' => 'jayfichialos',
-	'first' => 'Jay',
-	'last' => 'Fichialos',
-	'title' => 'Senior Director, Asurion Design Group',
-	'company' => 'Asurion',
-	'discipline' => 'research',
-	'photo' => 'frontpc18/instructor_jayfichialos.jpg',
-	'bio' => 'Jay Fichialos leads the Asurion Design Group, a team tasked with defining the future of insurance and warranty services. He’s passionate about the psychology of Design and builds organizations that are known for using Design Thinking to innovate and inspire change. Prior to joining Asurion he helped build User Experience organizations at Alliance Health, Ancestry and Travelocity.',
-	'twitter' => '',
-	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/benjamin-jay-fichialos-8a41022/'
-);
-
-// Jonathan Shariat
-$instructors[] = array(
-	'slug' => 'jonathanshariat',
-	'first' => 'Jonathan',
-	'last' => 'Shariat',
-	'title' => 'Sr. Interaction Designer',
-	'company' => 'Intuit',
+	'slug' => 'drewbridewell',
+	'first' => 'Drew',
+	'last' => 'Bridewell',
+	'title' => 'Design Specialist',
+	'company' => 'InVision',
 	'discipline' => 'ux',
-	'photo' => 'frontpc18/instructor_jonathonshariot.jpg',
-	'bio' => "Jonathan is currently Sr. Interaction Designer at Intuit. He is passionate about people and wants designers to think more about design ethics. He is co-author of Tragic Design (O'Reilly) which explores the harm bad design can cause and what we can do to prevent ourselves from doing the same. He also loves teaching what he is learning. He co-hosts the Design Review podcast and shares his thoughts as @DesignUXUI on twitter.",
+	'photo' => 'frontworkshops18/speaker_drewbridewell.jpg',
+	'bio' => 'Drew collaborates, consults, and shares insights with companies across the world who are looking for best practices around tools, collaboration, and building design systems.</br></br>His goal is to empower designers, teams, and organizations across the world to build the worlds best digital experiences!</br></br>Drew also focuses on the people, the practice of User Experience Design, and the InVision platform.</br></br>Previously Drew was a design manager and lead designer at LinkedIn, where he focused on Learning Solutions like Lynda.com and LinkedIn Learning.</br></br>He also teaches UX on Lynda.com and LinkedIn Learning through his weekly series Practical UX Weekly.',
+	'twitter' => 'abridewell',
+	'instagram' => 'abridewell/',
+	'linkedin' => 'https://www.linkedin.com/in/abridewell/'
+);
+
+// Ben Peck
+$instructors[] = array(
+	'slug' => 'benpeck',
+	'first' => 'Ben',
+	'last' => 'Peck',
+	'title' => 'Cofounder',
+	'company' => 'Front',
+	'discipline' => 'ux',
+	'photo' => 'frontworkshops18/speaker_benpeck.jpg',
+	'bio' => "Ben comes from over a decade of design experience working with software companies that have partnered with brands such as Nike, The North Face, Oakley, Under Armour, and Sonos. Ben is focused on designing software and products to significantly impact the user experience needs in both consumer and enterprise industries. Ben is also the cofounder of the Front Conference, a product design and management conference held in Utah which is on it 4rd year, as well as the Director of Product Hive with over 3,000+ product designers and product managers.",
+	'twitter' => 'benpeck',
+	'instagram' => 'benpeck',
+	'linkedin' => 'https://www.linkedin.com/in/bpeck/'
+);
+
+// Joel Beukelman
+$instructors[] = array(
+	'slug' => 'joelbeukelman',
+	'first' => 'Joel',
+	'last' => 'Beukelman',
+	'title' => 'Sr. Interaction Designer',
+	'company' => 'Google',
+	'discipline' => 'ux',
+	'photo' => 'frontworkshops18/speaker_joelbeukelman.jpg',
+	'bio' => 'Joel is a Southern California native working as a Senior Interaction Designer on Chrome at Google. Over the past 7 years, he has had the opportunity to contribute to variety of products/apps from early-stage startups to global applications. Prior to Google (Chrome & Android), Joel helped start Design Inc. as the Head of Design, worked on mobile apps and the launch of Netflix Originals, as well as a number of other startups. Outside of his love for design and tech, Joel spends his free time enjoying being a family man, getting tattoos, listening all things punk/metal, and documenting life/work on YouTube.',
+	'twitter' => '_bklmn',
+	'instagram' => 'bklmn',
+	'linkedin' => 'https://www.linkedin.com/in/joelbeukelman/'
+);
+
+// Matt Bryan
+$instructors[] = array(
+	'slug' => 'mattbryan',
+	'first' => 'Matt',
+	'last' => 'Bryan',
+	'title' => 'UX Design Manager',
+	'company' => 'Workfront',
+	'discipline' => 'ux',
+	'photo' => 'frontworkshops18/speaker_mattbryan.jpg',
+	'bio' => "Coming Soon",
 	'twitter' => '',
 	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/jonathanshariat/'
+	'linkedin' => 'https://www.linkedin.com/in/mattbryandesign'
 );
 
-// Mariah Hay
+// Vicky Thomas
 $instructors[] = array(
-	'slug' => 'mariahhay',
-	'first' => 'Mariah',
-	'last' => 'Hay',
-	'title' => 'Vice President of Product',
-	'company' => 'Pluralsight',
-	'discipline' => 'leadership',
-	'photo' => 'frontpc18/instructor_mariahhay.jpg',
-	'bio' => 'Mariah Hay is the VP of Product at Pluralsight, an online subscription based education provider for the technology community. As a thought leader in human-centered design and user experience strategy, Mariah enjoys working with teams whose goal is to craft excellence for the end user. Her experience with industrial and interaction design teams serving high-level stakeholders reflects her personal goals of directing business through design excellence from the ground up. Her expertise in implementing human-centered design product practices at the enterprise level stems from over a decade of tenure in the industry including serving as Professor of Design Management at Savannah College of Art and Design, Directing UX for Universal Mind, and serving as Director of User Experience AMC Health. Mariah holds an MFA in Industrial Design from Savannah College of Art and Design.',
-	'twitter' => '',
-	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/mariahhay/'
-);
-
-// Andrew Branch
-$instructors[] = array(
-	'slug' => 'andrewbranch',
-	'first' => 'Andrew',
-	'last' => 'Branch',
-	'title' => 'Product Designer',
-	'company' => 'Rev.com',
-	'discipline' => 'research',
-	'photo' => 'frontpc18/instructor_andrewbranch.jpg',
-	'bio' => "Andrew is a product designer, educator, and community organizer. He graduated from Brigham Young University with a BA in Anthropology and still considers himself an observer of people and an ethnographer. He enjoys putting into practice formal ethnographic techniques in his user-centered research.</br></br>Andrew worked for ten years at Rain where he enjoyed many roles, including: engineer, project manager, and Director of UX. He later worked as a Director of UX at HireVue and currently works as a Product Designer at Rev.com.</br></br>Andrew's deep love for working with startup software companies can only be rivaled by his love for the design community. Andrew has helped create and manage several communities, including Product Design Association and Front Conference. He loves mentorship and has enjoyed helping many students of design find lasting careers in product and UX.",
-	'twitter' => 'andrewbranch',
-	'instagram' => 'andrewbranch',
-	'linkedin' => 'https://www.linkedin.com/in/branchandrew'
-);
-
-// Bob Baxley
-$instructors[] = array(
-	'slug' => 'bobbaxley',
-	'first' => 'Bob',
-	'last' => 'Baxley',
+	'slug' => 'vickythomas',
+	'first' => 'Vicky',
+	'last' => 'Thomas',
 	'title' => 'Design Executive',
 	'company' => 'Formerly with Pinterest, Apple, & Yahoo!',
 	'discipline' => 'leadership',
-	'photo' => 'frontpc18/instructor_bobbaxley.jpg',
-	'bio' => 'Bob Baxley is a design executive who lives and works in Silicon Valley. He most recently served as the Head of Product Design at Pinterest where he built, led, and managed a multifaceted design team responsible for both the consumer and business facing elements of Pinterest. Prior to that, Bob spent eight years leading design for the Apple Online Store and various in-store applications for Apple Retail. Bob also worked as Director of Design for Yahoo! Search where he built and led the team that designed Yahoo! Answers and other search-centric properties. A published author and public speaker, Bob holds a B.A. in History and a B.S in Radio/Television/Film from the University of Texas at Austin as well as a Master of Liberal Arts from Stanford University.',
-	'twitter' => '',
+	'photo' => 'frontworkshops18/speaker_vickythomas.jpg',
+	'bio' => 'Vicky Thomas is the Director of Product Management for Vivint Smart Home’s mobile apps. At Vivint, Vicky leads product teams to envision and build the next generation of smart home experiences, leveraging software, hardware, AI, voice, and conversational interfaces. Prior to joining Vivint, Vicky served as Lead Product Manager at Lucid Software, makers of top-ranked productivity apps Lucidchart and Lucidpress, and as a Product Manager at Adobe on Adobe Analytics. She is passionate about building world-class product teams and bringing new ideas to life.</br></br>Vicky holds an S.B. in Aerospace Engineering from MIT, with a certificate in Advanced Engineering Leadership from the Gordon-MIT Engineering Leadership Program. She has received numerous awards for her industry and community impact, including a 2015 Women Tech Award from the Women Tech Council, and a spot on Utah Business Magazines 2017 30 Women to Watch list. In her free time, Vicky enjoys backpacking with her husband and dog, playing soccer, backcountry skiing, and flying single-engine aircraft.',
+	'twitter' => '__vickyt',
 	'instagram' => '',
-	'linkedin' => ''
+	'linkedin' => 'https://www.linkedin.com/in/vicky-thomas-2b6a259/'
 );
 
-// Virgilia Pruthi
+// Blake McClary
 $instructors[] = array(
-	'slug' => 'virgiliapruthi',
-	'first' => 'Virgilia',
-	'last' => 'Pruthi',
-	'title' => 'Product Management & Strategy Leader',
-	'company' => 'Amazon',
+	'slug' => 'blakemcclary',
+	'first' => 'Blake',
+	'last' => 'McClary',
+	'title' => 'Sr. Product Manager',
+	'company' => 'Instructure',
 	'discipline' => 'pm',
-	'photo' => 'frontpc18/instructor_virgiliapruthi.jpg',
-	'bio' => "Virgilia is a product and strategy leader, community builder, and author. Over the last 10 years, she has worked in product management and strategy for tech companies such as Amazon and consulted for Fortune 100 companies in the U.S., Latin America, Middle East, and India on go-to-market strategies, geographic expansion, and M&A.",
-	'twitter' => 'VirgiliaKaur',
+	'photo' => 'frontworkshops18/speaker_blakemcclary.jpg',
+	'bio' => "Blake is a product manager at Instructure, a publicly held ed-tech company in Utah. Outside of work he enjoys cycling, eating and working on side projects with friends.",
+	'twitter' => 'BlakeMcClary',
 	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/virgiliakaur/'
+	'linkedin' => 'https://www.linkedin.com/in/blakemcclary/'
+);
+
+// Jeff Patton
+$instructors[] = array(
+	'slug' => 'jeffpatton',
+	'first' => 'Jeff',
+	'last' => 'Patton',
+	'title' => 'Consultant',
+	'company' => 'Jeff Patton Associates',
+	'discipline' => 'pm',
+	'photo' => 'frontworkshops18/speaker_jeffpatton.jpg',
+	'bio' => "Jeff Patton helps companies adopt a way of working that’s focused on building great products, not just building stuff faster. Jeff blends a mixture of Agile thinking, Lean and Lean Startup Thinking, and UX Design and Design Thinking to end up with a holistic product-centric way of working. Jeff is author of the bestselling O’Reilly book User Story Mapping which describes a simple holistic approach to using stories in Agile development without losing sight of the big picture. You can learn more about Jeff at: jpattonassociates.com.",
+	'twitter' => 'jeffpatton',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/productdesigncoach/'
+);
+
+// Barron Caster
+$instructors[] = array(
+	'slug' => 'barroncaster',
+	'first' => 'Barron',
+	'last' => 'Caster',
+	'title' => 'Director of Growth',
+	'company' => 'Rev.com',
+	'discipline' => 'pm',
+	'photo' => 'frontworkshops18/speaker_barroncaster.jpg',
+	'bio' => "Coming Soon",
+	'twitter' => 'BarronCaster',
+	'instagram' => 'Barron is the Director of Growth at Rev.com, where he has the pleasure of working alongside Andy Branch (Front co-founder). Over the past couple of years, he has built a world-class growth team that acquires customers at scale. In a previous life, he worked as a VC at General Catalyst and an operator at Zenefits. In his spare time, Barron writes about Growth and management, as well as advises and invests in early-stage companies. He is also pursuing a walking handstand in the next 12 months, although little progress has been made.',
+	'linkedin' => 'https://www.linkedin.com/in/barroncaster/'
+);
+
+// Jaekob Chenina
+$instructors[] = array(
+	'slug' => 'jaekobchenina',
+	'first' => 'Jaekob',
+	'last' => 'Chenina',
+	'title' => 'Product Manager',
+	'company' => 'Adobe',
+	'discipline' => 'pm',
+	'photo' => 'frontworkshops18/speaker_jaekobchenina.jpg',
+	'bio' => "Jaekob is leading AI innovation at Adobe Analytics, the heart of Adobe’s next-gen digital experience cloud. Over the last five years Jaekob has worked in startup, non-profit, and enterprise environments. In each case, Jaekob sought out and led projects that were disrupting the status quo. His passion for trailblazing opportunities married with his background in AI led him to focus his career on building Intelligent Products. When not at work, Jaekob enjoys spending time with his Russian/Ukrainian wife Galina and their three children. He and his family have a passion for all forms of exploration from ice-fishing to genealogy.",
+	'twitter' => 'chenina10',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/jchenina/'
 );
 
 // Sarah Doody
@@ -101,162 +146,12 @@ $instructors[] = array(
 	'last' => 'Doody',
 	'title' => 'UX Designer + Product Consultant',
 	'company' => 'Founder, The UX Notebook',
-	'discipline' => 'ux',
+	'discipline' => 'research',
 	'photo' => 'frontpc18/instructor_sarahdoody.jpg',
 	'bio' => 'Sarah Doody is a user experience designer and product consultant based in New York City. She helps teams create products people need and love. She does this through user research, prototyping, and user experience design. Sarah also created her own course, User Research Mastery  to help teams understand their users and make smarter UX decisions. Previously, Sarah created General Assembly’s first 12-week UX immersive program in 2011. Sarah is also the founder of the popular UX newsletter, The UX Notebook . Sarah is available for consulting and speaking worldwide. ',
 	'twitter' => 'sarahdoody',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/sarahdoody/'
-);
-
-// Wade Shearer
-$instructors[] = array(
-	'slug' => 'wadeshearer',
-	'first' => 'Wade',
-	'last' => 'Shearer',
-	'title' => 'Vice President of User Experience',
-	'company' => 'Workfront',
-	'discipline' => 'leadership',
-	'photo' => 'frontpc18/instructor_wadeshearer.jpg',
-	'bio' => "Wade is Vice President of User Experience at Workfront, where they’re making business work better—unleashing team’s value by helping them focus on the right work, doing their best work, and working faster than ever before.<br /><br />Prior, he lead product discovery, design, and validation as Vice President of Product & Design at ClientSuccess, a SaaS startup building a customer success management platform that helps SaaS companies retain and grow their existing customer base. As the initial member of the executive team, he lead the startup from ground zero to daily usage by SaaS teams around the world.<br /><br />Proceeding that, he served as Director of User Experience at Vivint, where he lead teams of designers, product managers, researchers, and engineers, building innovative mobile, desktop, and embedded software applications for security, home automation, and energy products. He participated in growth that lead to a $2 Billion valuation and acquisition by Blackstone Group and Vivint ranking 46th on Forbe’s 100 most promising companies for 2013. This work also resulted in the filing of 15 patents related to user experience in home automation and energy management.<br /><br />Wade cofounded Front, an annual UX & Product Management Case Study Conference and Workshop Series for product managers and UX designers. He also cofounded Product Hive, a non-profit user group for product managers and designers, with over 3,000 members.",
-	'twitter' => '',
-	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/wadeshearer'
-);
-
-// Kyle Jacobsen & Josh Tola
-$instructors[] = array(
-	'slug' => 'kylejacobsen',
-	'first' => 'Kyle Jacobsen & Josh Tolman',
-	'last' => '',
-	'title' => 'Director of Product, Teem (Kyle)',
-	'company' => 'Sr. Product Manager, HireVue (Josh)',
-	'discipline' => 'pm',
-	'photo' => 'frontpc18/instructor_kylejacobson.jpg',
-	'bio' => 'Josh and Kyle have been building enterprise SaaS since the dinosaurs roamed the earth.  Both have been working to make metrics a focus in the daily lives of product teams and together they host the We Need Another Meeting! podcast focused on product management and user experience. For over a decade, Kyle and Josh have both been working with B2B startups helping them enterprise their product experience. Kyle is currently leading the product group at Teem while Josh is irritating everyone at Hirevue.',
-	'twitter' => 'wenampodcast',
-	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/kylejacobsen/'
-);
-
-// Dan Lawyer
-$instructors[] = array(
-	'slug' => 'danlawyer',
-	'first' => 'Dan',
-	'last' => 'Lawyer',
-	'title' => 'Vice President, Vertical Lead',
-	'company' => 'Vivint Smart Home',
-	'discipline' => 'leadership',
-	'photo' => 'frontpc18/instructor_danlawyer.jpg',
-	'bio' => 'Dan oversees the Ancestry.com product teams. Lawyer is an expert in business strategy, execution, and product management. He has more than 25 years of experience delivering solutions across social, web, mobile, SaaS, and traditional software environments in both business and consumer focused markets. Dan loves the fast pace and creativity required to grow and lead the product team for a company experiencing hyper-growth as it surpasses $1B in annual revenues. Prior to joining Ancestry, Dan headed up business and product operations for Adobe’s Analytics and Social businesses.',
-	'twitter' => '',
-	'instagram' => '',
-	'linkedin' => ''
-);
-
-// John Cutler
-$instructors[] = array(
-	'slug' => 'johncutler',
-	'first' => 'John',
-	'last' => 'Cutler',
-	'title' => 'Product Manager',
-	'company' => 'Zendesk',
-	'discipline' => 'pm',
-	'photo' => 'frontpc18/instructor_johncutler.jpg',
-	'bio' => "John Cutler is keenly focused on user experience and evidence-driven product development.  He mixes and matches various methodologies — jobs-to-be-done, Lean UX, Lean Startup, customer development, and design thinking — to help teams deliver lasting outcomes for their customers.</br></br>John is currently Senior Product Manager for Search and Relevance at Zendesk. As a former UX researcher at AppFolio, a product manager at Pendo.io, AdKeeper and RichFX, a startup founder, and a product team coach, John has a perspective that spans individual roles, domains, and products. His viral enthusiasm has been heard through speaking engagements at Agile 2015, Heart of Agile Philadelphia (2016), and various ProductCamps (Vancouver, Los Angeles, Raleigh NC) and MeetUps (Santa Barbara, Los Angeles, New York).</br></br>Mixing in some less-than-typical experiences — driving rickshaws in NYC, and touring the US with “five other weird creative people in a van playing music” — John blogs prolifically about collaboration, product development, diversity, UX research, lean startup, and user experience.",
-	'twitter' => '',
-	'instagram' => '',
-	'linkedin' => ''
-);
-
-// Richard Banfield
-$instructors[] = array(
-	'slug' => 'richardbanfield',
-	'first' => 'Richard',
-	'last' => 'Banfield',
-	'title' => 'CEO',
-	'company' => 'Fresh Tilled Soil',
-	'discipline' => 'leadership',
-	'photo' => 'frontpc18/instructor_richardbanfield.jpg',
-	'bio' => "Richard is a the CEO and co-founder of Fresh Tilled Soil. After completing a degree in Biology, Richard was attracted to the world of web tech and worked his way up the digital food chain, starting with online ad sales at MultiChoice, Africa’s largest TV and Internet media business. He was in the thick of it during the dot-com years, co-founding Acceleration, an international adtech business headquartered in London (now owned by advertising giant WPP).<br><br>Under Richard’s leadership Fresh Tilled Soil has delivered digital product design, product strategy, and workshops to 700+ clients across the world. His colorful life experience includes being an officer in the army and being a dive master on the remote Islamic Republic of the Comoros. Richard is a mentor at several incubators and accelerators as well as Advisor and lecturer at the Startup Institute.<br><br>Richard has published three books. His latest is Product Leadership: How Top Product Leaders Launch Great Products and Build Successful Teams. Design Leadership was his second book published by O’Reilly. The first was Design Sprint: A Practical Guidebook for Building Great Digital Products, which he coauthored with CTodd Lombardo and Trace Wax. ",
-	'twitter' => 'RMBanfield',
-	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/richardbanfield/'
-);
-
-// Lori Eich
-$instructors[] = array(
-	'slug' => 'lorieich',
-	'first' => 'Lori',
-	'last' => 'Eich',
-	'title' => 'Senior Product Manager',
-	'company' => 'Civis Analytics',
-	'discipline' => 'research',
-	'photo' => 'frontpc18/instructor_lorieich.jpg',
-	'bio' => "Lori Eich is a senior product manager at Civis Analytics, where she works with engineers to build the Civis Data Science Platform. Lori’s background is in software engineering, derivatives trading, environmental consulting, and competitive fringe sports. She holds an SM and SB in Earth, atmospheric, and planetary sciences from the Massachusetts Institute of Technology.",
-	'twitter' => 'TheBestEich',
-	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/lori-eich-7a796b20/'
-);
-
-// Jeff Carter
-$instructors[] = array(
-	'slug' => 'jeffcarter',
-	'first' => 'Jeff',
-	'last' => 'Carter',
-	'title' => 'Director of User Experience',
-	'company' => 'RizePoint',
-	'discipline' => 'ux',
-	'photo' => 'frontpc18/instructor_jeffcarter.jpg',
-	'bio' => "Jeff is Director of User Experience at RizePoint, a mobile and cloud-based software help organizations improve the quality, safety, and sustainability of their products, services, and facilities. RizePoint’s software is used by 5 of the top 8 hospitality brands and 5 of the top 8 food service brands.</br></br>Previously, Jeff has worked as a UX designer at InContact, Workfront, Solution Stream, and the Zeit Company. He is an active member of the design community, is passionate about sketching, and specializes in research modeling and prototyping, ideation, user surveying, and branding.</br></br>Jeff earned a BFA in Industrial Design from Brigham Young University and an associates in Graphic Design from Weber State University.",
-	'twitter' => '',
-	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/jeffcarterux'
-);
-
-// Nate Barrett
-$instructors[] = array(
-	'slug' => 'natebarrett',
-	'first' => 'Nate',
-	'last' => 'Barrett',
-	'title' => 'VP of Product and Design',
-	'company' => 'Canopy',
-	'discipline' => 'pm',
-	'photo' => 'frontpc18/instructor_natebarrett.jpg',
-	'bio' => "Nate is currently VP of Product and Design at Canopy. He’s been in product management and design for 20 years building B2C and B2B products for billion dollar enterprises and broke startups. He’s found his greatest happiness in product is watching product teams succeed in solving hard problems through trial, error and all out passion for easing customer’s pain. Nate enjoys traveling, food, cycling, golf and embarrassing his wife and kids.",
-	'twitter' => 'ndbarrett',
-	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/natebarrett'
-);
-
-// Taylor Palmer
-$instructors[] = array(
-	'slug' => 'taylorpalmer',
-	'first' => 'Taylor',
-	'last' => 'Palmer',
-	'title' => 'Senior UX Designer',
-	'company' => 'Lucid Software',
-	'discipline' => 'research',
-	'photo' => 'frontpc18/instructor_taylorpalmer.jpg',
-	'bio' => "Taylor is a Sr. UX Designer and manager at Lucid Software and works full-time on their flagship product, Lucidchart. He’s spent his last few years helping Lucid redesign their product from the ground up through user interviews, data-informed research, and a robust pattern library. While in school, Taylor worked as a frontend developer and has maintained many of those skills as a UX designer. He’s probably tried more UX tools than you’d care to know, and likes to maintain his side project uxtools.co on nights and weekends. He enjoys the rush of bringing a static idea to life.",
-	'twitter' => '_taylorpalmer',
-	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/taylor-palmer-6264a171'
-);
-
-// Lauren Gray
-$instructors[] = array(
-	'slug' => 'laurengray',
-	'first' => 'Lauren',
-	'last' => 'Gray',
-	'title' => 'Product Manager',
-	'company' => 'Experticity',
-	'discipline' => 'ux',
-	'photo' => 'frontpc18/instructor_laurengray.jpg',
-	'bio' => "Lauren's passion is product. She's been working in the web world for over a decade. She believes great products are the culmination of research, data, testing, design and development. Currently as product manager at Experticity she has the opportunity to take point on all of these avenues.</br></br>She pulls from experience ranging from owning her own business, working at agencies, retail sites and in SASS. Lauren has a background in design and spent many years as a UX designer until recently moving over to product management.",
-	'twitter' => 'laurengray',
-	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/laurenagray'
 );
 
 // Amanda Smith
@@ -274,34 +169,125 @@ $instructors[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/amanda-andi-smith-b13a6230'
 );
 
-// Chad Heinrich
+// Rayna Wiles
 $instructors[] = array(
-	'slug' => 'chadheinrich',
-	'first' => 'Chad',
-	'last' => 'Heinrich',
-	'title' => 'Vice President of User Experience',
-	'company' => 'Domo',
-	'discipline' => 'ux',
-	'photo' => 'frontpc18/instructor_chadheinrich.jpg',
-	'bio' => "Chad is Vice President of User Experience at Domo, the leader in enterprise business intelligence. Domo optimizes your business by connecting you to the data, people, and expertise you need to improve business results. Chad also currently serves as a mentor at Acceleprise, an extensive network of the best companies, mentors, and investors San Francisco has to offer.</br></br>Prior, Chad served as a product strategy consultant and startup advisor for HeiTech, Global Online Director for BitDefender, Customer Growth leader at Dropbox, and VP of Online Marketing for Box.</br></br>Chad earned a Bachelors of Arts from Brigham Young University, with an emphasis on International Relations and Affairs. He is also a co-organizer and presenter at monthly meetups with the San Francisco Freemium Meetup group where he has coordinated events with Atlassian, Splunk, SurveyMonkey, Yousendit, Prezi, Dell, Mozilla, PayPal, Couchbase, Podio.",
-	'twitter' => 'chadheinrich',
+	'slug' => 'raynawiles',
+	'first' => 'Rayna',
+	'last' => 'Wiles',
+	'title' => 'Consultant',
+	'company' => 'Independent',
+	'discipline' => 'research',
+	'photo' => 'frontworkshops18/speaker_raynawiles.jpg',
+	'bio' => 'Coming Soon',
+	'twitter' => '',
 	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/chadheinrich/'
+	'linkedin' => 'https://www.linkedin.com/in/rayna-wiles-50370a6/'
 );
 
-// Elaine Chao
+// Jeff Potter
 $instructors[] = array(
-	'slug' => 'elainechao',
-	'first' => 'Elaine',
-	'last' => 'Chao',
-	'title' => 'Product Manager',
-	'company' => 'Adobe',
-	'discipline' => 'pm',
-	'photo' => 'frontpc18/instructor_elainechao.jpg',
-	'bio' => "Elaine Chao is a product manager at Adobe Systems, currently working on Adobe XD. In her 12-year tenure at Adobe, she's worked as an engineer on a variety of products geared toward designers and web producers, including Dreamweaver, Edge Animate, and Creative Cloud Extract. Elaine is also a martial arts instructor, musician, writer, volunteerism advocate, and an Adobe Founders Award winner. You can find her online tweeting and blogging on Medium as @elainecchao.",
-	'twitter' => 'elainecchao',
+	'slug' => 'jeffpotter',
+	'first' => 'Jeff',
+	'last' => 'Potter',
+	'title' => 'Director of Analytics',
+	'company' => 'Jane',
+	'discipline' => 'research',
+	'photo' => 'frontworkshops18/speaker_jeffpotter.jpg',
+	'bio' => 'Coming Soon',
+	'twitter' => 'jpotts18',
 	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/elaine-chao-41a5531/'
+	'linkedin' => 'https://www.linkedin.com/in/jpotts18/'
 );
+
+// Danyel Rios Printz
+$instructors[] = array(
+	'slug' => 'danyelriosprintz',
+	'first' => 'Danyel',
+	'last' => 'Rios Printz',
+	'title' => 'Sr. User Experience Researcher',
+	'company' => 'Google',
+	'discipline' => 'research',
+	'photo' => 'frontworkshops18/speaker_danyelriosprintz.jpg',
+	'bio' => "Coming Soon",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/danyelrios/'
+);
+
+// Thor Ernstsson
+$instructors[] = array(
+	'slug' => 'thorernstsson',
+	'first' => 'Thor',
+	'last' => 'Ernstsson',
+	'title' => 'CEO',
+	'company' => 'Alpha',
+	'discipline' => 'leadership',
+	'photo' => 'frontworkshops18/speaker_thorernstsson.jpg',
+	'bio' => "Coming Soon",
+	'twitter' => 'ThorErnstsson',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/thorernstsson/'
+);
+
+// Gibson Biddle
+$instructors[] = array(
+	'slug' => 'gibsonbiddle',
+	'first' => 'Gibson',
+	'last' => 'Biddle',
+	'title' => 'Product Advisor',
+	'company' => 'Previously Chegg and Netflix',
+	'discipline' => 'leadership',
+	'photo' => 'frontworkshops18/speaker_gibsonbiddle.jpg',
+	'bio' => "As the former VP of Product at Netflix, Chief Product Officer at Chegg, SVP Product at The Learning Company, and a Producer at Electronic Arts, I have lots of experience building world-class products, teams, and companies.</br></br>Today, I take on three day/week Executive-In-Residence product roles and I am an adviser to consumer tech product leaders in San Francisco, Boston, NYC, and Salt Lake City.  I also teach a graduate-level entrepreneurship course at Stanford.",
+	'twitter' => 'gibsonbiddle',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/gibsonbiddle/'
+);
+
+// Kendall Hulet
+$instructors[] = array(
+	'slug' => 'kendallhulet',
+	'first' => 'Kendall',
+	'last' => 'Hulet',
+	'title' => 'CEO',
+	'company' => 'Cake',
+	'discipline' => 'leadership',
+	'photo' => 'frontworkshops18/speaker_kendallhulet.jpg',
+	'bio' => "Coming Soon",
+	'twitter' => 'khulet',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/kendallhulet'
+);
+
+// Nick Slogget
+$instructors[] = array(
+	'slug' => 'nickslogget',
+	'first' => 'Nick',
+	'last' => 'Slogget',
+	'title' => 'Consulting Engineer',
+	'company' => 'Apple',
+	'discipline' => 'leadership',
+	'photo' => 'frontworkshops18/speaker_nickslogget.jpg',
+	'bio' => "Coming Soon",
+	'twitter' => 'nicksloggett',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/nicksloggett'
+);
+
+// Joshua Taylor
+$instructors[] = array(
+	'slug' => 'joshuataylor',
+	'first' => 'Joshua',
+	'last' => 'Taylor',
+	'title' => 'Director of Design',
+	'company' => 'Credit Karma',
+	'discipline' => 'leadership',
+	'photo' => 'frontworkshops18/speaker_joshuataylor.jpg',
+	'bio' => "Coming Soon",
+	'twitter' => '_taylorpalmer',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/joshuantaylor'
+);
+
 
 ?>
