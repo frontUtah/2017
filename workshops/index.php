@@ -48,13 +48,13 @@ $instructors = array_slice($instructors, 0, 6);
 // spit them out
 foreach($instructors as $instructor) {
 	echo '<li class="instructor ' . $instructor['discipline'] . '">
-					<!--<a href="/workshops/instructor/' . $instructor['slug'] . '">-->
+					<a href="/workshops/instructor/' . $instructor['slug'] . '">
 						<div class="instructor-photo">
 							<img src="/images/' . $instructor['photo'] . '" alt="">
 						</div>
 						<h4>' . $instructor['first'] . ' ' . $instructor['last'] . '</h4>
 						<p class="title">' . $instructor['title'] . '<br>' . $instructor['company'] . '</p>
-					<!--</a>-->
+					</a>
 				</li>';
 
 }
