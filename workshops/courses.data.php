@@ -8,234 +8,238 @@
  
 // USER EXPERIENCE
 
-// Sarah Doody
+// Joel Beukelman
 $courses[] = array(
-	'title' => 'Product Storyboarding: How to leverage the power of story to help you create smarter wireframes',
-	'description' => "Why do so many teams get stuck in the weeds? Why do so many smart teams end up delivering over budget and not on time? It’s because they start to build too soon. They jump right into wireframes and design before they’ve spent enough time establishing their product story. Storyboaring is a critical activity to product development because it forces us to develop a deeper understanding of the people we are designing for. It forces us to establish the context and the characters before we start debating button radius, layout, styles of forms, navigation, and more.<br /><br />In this workshop, you will walk through the process of creating a storyboard and wireframes of various fidelity for a practice product. You will gain the practice and confidence to go back to your team and begin storyboarding so you can create smarter and more effective wireframes.<br /><br />After participating in the workshop, attendees will leave with the following learning objectives:<ul><li>Understand the role of storytelling in UX</li><li>Know how to apply storytelling principles including storyboarding and character development</li><li>Know how and when to integrate storyboarding into your product development process</li><li>Learn how to evangelize storyboarding throughout your team </li><li>Learn how to apply storytelling principles to help with communication in your team and also when selling ideas and designs to colleagues and clients</li><li>Understand where wireframes fit into the product development process</li><li>Know the various levels of wireframe detail and when to use each</li><li>Gain practical tips for creating wireframes</li><li>Understand how to present wireframes and integrate the storyboard into wireframe reviews</li></ul>",
+	'title' => 'Practical Prototyping for Qualitative Research',
+	'description' => "Joel will review some career examples from Netflix and Google and how he quickly created prototypes for research, with no code. He will walk through simple, practical, and effective ways to create simple prototypes in order to get conduct qualitative and usability research.<ul><li>Learn how to take an existing design, create an animated prototype, and script a qualitative study script/plan</li><li>Intro overview of proper qualitative study methods and practices</li><li>Learn what design tools are best used for a variety of prototypes</li></ul>",
 	'track' => 'ux',
 	'day' => 1,
 	'slot' => 1,
-	'instructor' => 'sarahdoody',
-	'level' => 'basics'
+	'instructor' => 'joelbeukelman',
+	'level' => 'advanced'
 );
 
-// Jonathan Shariat
+// Ben Peck
 $courses[] = array(
-	'title' => 'A guide to every day design ethics',
-	'description' => "Every day we make decisions about how our products will interact with other people. Its our responsibility to make sure these are choices that make the world better and not harm others.  These choices are called “Design Ethics”. In this workshop you will discover the ways our products can negatively impact others and how to implement better processes at your company to avoid harmful design.",
+	'title' => 'Design Critiques Done Right',
+	'description' => "Coming Soon",
 	'track' => 'ux',
 	'day' => 1,
 	'slot' => 2,
-	'instructor' => 'jonathanshariat',
+	'instructor' => 'benpeck',
 	'level' => 'basics'
 );
 
-// Jeff Carter
+// Matt Bryan
 $courses[] = array(
-	'title' => 'Bring your app to life with micro interactions',
-	'description' => "For a while micro interactions have been considered a customer delight element only accessible to designers with great animation skills. In this workshop we will help explain the wider scope of micro interactions and how they can help keep context, highlight changes in the UI, give voice to your product, and make your app come to life. We’ll cover how to ideate these ideas through sketching, quickly moving them into wireframes, and some basic animation techniques anyone can do.",
+	'title' => 'Scaling Fidelity',
+	'description' => "Knowing when to use different levels of fidelity is just as important as knowing how to use them. We'll cover the design fidelity gamut, from word lists to animated prototypes, and demonstrate why designing and communicating at a strictly relevant level of detail is becoming a mandatory skill for high performance product teams. ",
 	'track' => 'ux',
 	'day' => 1,
 	'slot' => 3,
-	'instructor' => 'jeffcarter',
-	'level' => 'advanced'
+	'instructor' => 'mattbryan',
+	'level' => 'basics'
 );
 
-// Lauren Gray
+// Drew Bridewell
 $courses[] = array(
-	'title' => 'On-boarding your users into the core user group',
-	'description' => "As Product people, we design experiences and look at data to help make design decisions... But with so much data, how do we know what metrics to track and if users are using our product as we expect? How can we design experiences that onboard our users into a core user group? What are the right metrics to track? In this workshop we'll go over some best on-boarding practices and deep dive into on-boarding users into a core user group. We'll touch on retention metrics and how to separate users into groups to ensure our products drive the right engagements.",
+	'title' => 'The building, scaling, and evolution of a Design System',
+	'description' => "Product design over the last years has taken a substantial leap forward in progress. We now have multiple tools to choose from for executing our solutions, along with a collection of new responsibilities that each one of us needs to adapt to stay current.</br></br>This wave of new challenges is not just for designers, but also for businesses and organizations. Companies are expected to move fast, innovate, all while maintaining a high level of quality, empathy for the end user with a cherry on top, and this is the new normal.</br></br>To meet these demands, teams from across the world are gravitating to a compelling solution; we call them Design Systems.",
 	'track' => 'ux',
 	'day' => 2,
 	'slot' => 1,
-	'instructor' => 'laurengray',
+	'instructor' => 'drewbridewell',
 	'level' => 'advanced'
 );
 
-// Chad Henriech
+// Kris Praries
 $courses[] = array(
-	'title' => 'Designing for growth, virality',
-	'description' => "Creating a wildly successful, viral app is seemingly the holy grail of software design. Without a doubt it’s a challenging quest, but upon closer examination, today’s fastest growing apps share common patterns that stack the odds of success in their favor.  </br></br>This workshop will offer a primer on the core fundamentals of viral apps, including how to design viral feedback loops, and how to optimize them for greater likelihood of getting traction.</br></br>Participants will walk away with a sound understanding of how to design for product growth and engagement. We’ll learn how to manage growth expectations, structure your team for success, and how to measure it all. We’ll cover tips and tricks to become that design hero that gives your company the best chance at hockey stick product growth.</br></br>Workshop benefits include:<ul><li>How to bring customers to value faster</li><li>Finding the right ways to grow your user base organically</li><li>Measuring the right key indicators</li><li>Learning design hacks to drive participation, sharing, engagement</li><li>Reviewing examples of app design that are conducive to virality (and examples that aren’t)</li></ul>",
+	'title' => 'TBA',
+	'description' => "TBA",
 	'track' => 'ux',
 	'day' => 2,
 	'slot' => 2,
-	'instructor' => 'chadheinrich',
+	'instructor' => '',
 	'level' => 'advanced'
 );
 
 
-// PRODUCT MANAGEMENT
 
-// Virgilia Pruthi
+// PRODUCT MANGEMENT
+
+// Barron Caster
 $courses[] = array(
-	'title' => 'Building and Communicating your Product\'s Roadmap',
-	'description' => "You're full of new product ideas, but how do you communicate your vision to your development team, stakeholders, and customers? During this session, we will learn the steps towards determining what should be on the roadmap, actually creating a roadmap, ensuring that the roadmap items map back to key metrics, and managing communication.",
+	'title' => 'The 3x Conversion Playbook: Step-by-step instructions for Product Managers to increase customers and fuel their business.',
+	'description' => "Coming Soon",
 	'track' => 'pm',
 	'day' => 1,
 	'slot' => 1,
-	'instructor' => 'virgiliapruthi',
-	'level' => 'basics'
+	'instructor' => 'barroncaster',
+	'level' => 'advanced'
 );
 
-// John Cutler
+// Blake McClary
 $courses[] = array(
-	'title' => 'Towards Meaningful (and Actionable) Alignment: A Map from Goals, Around Assumptions, Through Tasks, Towards Results',
-	'description' => "Building shared understanding is hard work. Ironically, it is our most passionate team members that complicate the challenge. They crave coherence, a powerful Why, and a flexible environment for solutioning.  How do we get everyone on the \"same page\" without glossing over the nuance, and stifling innovation?<br /><br />In this participatory workshop, you will learn how to collaboratively mind-map goals, the \"why\", constraints, experiments, and learning/success metrics with your team. The approach establishes a common, simple vocabulary that can be applied to any problem/solution space, and can scale up and down depending on the complexity of the challenge. Have your coffee. The activity will be hands on and requires mental dexterity!",
+	'title' => 'Journey Mapping for PMs: Why building a journey map will help you build the right thing, on time. ',
+	'description' => "How often do you, the PM, build journey maps? The answer for me used to be basically never. In this workshop we’ll practice building them and talk about how they can help you build the right thing and ship on time. ",
 	'track' => 'pm',
 	'day' => 1,
 	'slot' => 2,
-	'instructor' => 'johncutler',
+	'instructor' => 'blakemcclary',
 	'level' => 'basics'
 );
 
-// Kyle Jacobson & Josh Tolman
+// Jaekob Chenina
 $courses[] = array(
-	'title' => 'Design is nothing without proof: How metrics change that',
-	'description' => "We don’t know if our user experience is working unless we have something to prove it. Metrics are the way product teams demonstrate value and successful companies organize themselves around metrics&mdash;shouldn’t you?<br /><br />Metrics help us determine how much to invest in the product. They keep us focused and aligned with company goals. Metrics make your product vision actionable and when used correctly your team will have more influence over the company as a whole.<br /><br />In this session we will identify which metrics we should watch/track and how we can organize ourselves so that we may focus on specific values which align to company goals. Lastly, we’ll discuss how an individual team can take those metric and execute.",
+	'title' => 'How to Create Intelligent Products',
+	'description' => "According to Gartner “AI Technologies will be in almost every new software product by 2020”. With this explosion of AI products, many will fail. However, there are common trends that are emerging among the intelligent products that are succeeding. So what is it, that makes an AI product that customers love? In this workshop, you will deep dive on the most relevant concepts across various disciplines that help answer this question.</br></br>You will learn:<ul><li>Analytics for AI products</li><li>Machine Learning for AI products</li><li>UX for AI Products</li><li>Common Use Cases for AI Products</li><li>Discovering AI Product Opportunities</li></ul>You will also learn how to embed AI into your software development methodology and design and effective AI product team. Through exercises, case-studies and lessons learned, this workshop will empower your product team with an actionable path to incorporate AI in an impactful way into your business.",
 	'track' => 'pm',
 	'day' => 1,
 	'slot' => 3,
-	'instructor' => 'kylejacobsen',
-	'level' => 'advanced'
+	'instructor' => 'jaekobchenina',
+	'level' => 'basics'
 );
 
-// Elaine Chao
+// Jeff Patton
 $courses[] = array(
-	'title' => 'Better Listening, Better Products',
-	'description' => "How do you make sure your product actually meets the needs of your users? How do you figure out what goes onto your product roadmap after your first (or fortieth) release? Customer listening brings you to the point of understanding your customer’s pain points and the market opportunities that come as a result. In this workshop, we’ll review interview techniques, survey design, and cohort analysis to get tangible qualitative information to influence your roadmap.",
+	'title' => 'TBA',
+	'description' => "TBA",
 	'track' => 'pm',
 	'day' => 2,
 	'slot' => 1,
-	'instructor' => 'elainechao',
-	'level' => 'basics'
+	'instructor' => 'jeffpatton',
+	'level' => 'advanced'
 );
 
-// Nate Barrett
+// Vicky Thomas
 $courses[] = array(
-	'title' => 'Less talk more value. How to create products and experiences customers want',
-	'description' => "Our role as product builders is to create compelling products and experiences that customers will buy and love. It’s not a simple task. This workshop is for anyone that has been frustrated by endless meetings and  conversations and tanked product launches. It’s for those tired of disappointment with the failure of a good idea.</br></br>Come learn about ways to create a solid value proposition and vision for your product. Get closer to your customers and stop wasting time with wrong ideas that don’t solve the right problems.",
+	'title' => 'Teamwork Makes the Dream Work: How to effectively work together over the course of your project to ship great software products',
+	'description' => "World-class product teams are greater than the sum of their parts—but how does that happen? Sometimes you’re lucky, and if you put a cross-functional team into a small room, they spit out magic. More often, though, product teams struggle to work together effectively, spending more time bumping into each other than actually building product. PMs, UX designers, and executives all try to drive definition, engineering isn’t brought in early enough, and QA sees a story for the first time when they test it.</br></br>In this workshop, Vicky will share methods and models of working together that have transformed her teams at Adobe, Lucid Software, and Vivint Smart Home. As a participant, you’ll get hands-on practice writing OKRs, crafting the perfect one-pager, navigating the project cycle from wireframes to defined JIRA tickets, breaking down dev work for estimation, and building roadmaps that work. You’ll leave the session with tools and templates that you can implement right away, and an understanding of how to build the single most important capability of any product team.",
 	'track' => 'pm',
 	'day' => 2,
 	'slot' => 2,
-	'instructor' => 'natebarrett',
-	'level' => 'advanced'
-);
-
-
-// RESEARCH
-
-// Jay Fichialos
-$courses[] = array(
-	'title' => 'Dreams, Rats and Stars: A hands on experience in the product discovery journey',
-	'description' => "What's the difference between meeting expectations and exceeding them? When does vision get in the way of learning what your customers really want. And how do you know what feedback to act on now and what to ignore. Ready to get your hands dirty? Let's dive head long into research tools and techniques that will help you deliver customer delight and business success.",
-	'track' => 'research',
-	'day' => 1,
-	'slot' => 1,
-	'instructor' => 'jayfichialos',
+	'instructor' => 'vickythomas',
 	'level' => 'basics'
 );
 
-// Taylor Palmer
-$courses[] = array(
-	'title' => 'Usability Testing with Prototypes: Make Every Second Count',
-	'description' => "Building prototypes, scheduling interviews, and conducting research can be a big time commitment for a product team. The insights gained, however, are indispensable to a successful user experience. During this session, we’ll talk about how to get every last drop of value from your prototypes and usability tests, including: assembling scripts and prompts, creating successful prototypes, extracting user insights, and bringing knowledge back to the team.",
-	'track' => 'research',
-	'day' => 1,
-	'slot' => 2,
-	'instructor' => 'taylorpalmer',
-	'level' => 'basics'
-);
 
-// Amanda Smith
-$courses[] = array(
-	'title' => 'UX & The Power of One ',
-	'description' => "This workshop is a structured session to review an experience that supports the growth of a UX department within an organization through qualitative validation. This approach demonstrates an approach that can build a department into a holistic Experience Design Team that can support across many divisions within a company",
-	'track' => 'research',
-	'day' => 1,
-	'slot' => 3,
-	'instructor' => 'amandasmith',
-	'level' => 'advanced'
-);
-
-// Lori Eich
-$courses[] = array(
-	'title' => 'Continuing learning after launch',
-	'description' => "Choices made during the early stages of your product launch can make or break the future of your product. You've done your user research, you've tested and validated your prototype, and you're ready to launch your MVP. How do you validate your product decisions while you're still building your user base? How do you know how to prioritize and plan for the future development of your product when your usage data is limited?<br /><br />In this workshop, we'll combine early-stage objective analytics with qualitative user research to accelerate learning in the early stages of the product life cycle. You will get practice choosing appropriate metrics, understanding your usage data, and conducting interviews with early users. We'll talk about how to align your metrics with your organization's goals as well as how to generate buy-in and enthusiasm throughout the early launch stages of your product to increase your chances of success.",
-	'track' => 'research',
-	'day' => 2,
-	'slot' => 1,
-	'instructor' => 'lorieich',
-	'level' => 'advanced'
-);
-
-// Andrew Branch
-$courses[] = array(
-	'title' => 'Lean user testing: Support continuous discovery with new, efficient, and powerful methods',
-	'description' => "Does your organization treat user testing like it’s a big deal? Is it something you spend weeks planning for and days executing? Do you then spend hours analyzing and disturbing verbose reports spelling-out your conclusions, using your most persuasive writing? Do you get pats on the backs and hi-fives when you’re done, and then settle back to your “regular” design or product management activities until you decide to do it all again in a quarter or two? Or do you do none of those things, because you think this is how user testing is done and it’s just too expensive? If so, you are thinking about user testing wrong. Also, you should attend my workshop.<br /><br />My workshop will focus on how to make user testing simple, fast, consistent, and powerful. It’s possible to support continuous discovery with efficient testing, while not sacrificing powerful learning. We’ll discuss and practice using the tools and techniques which will make all of this possible, with a special emphasis on remote user testing.",
-	'track' => 'research',
-	'day' => 2,
-	'slot' => 2,
-	'instructor' => 'andrewbranch',
-	'level' => 'basics'
-);
 
 
 // LEADERSHIP
 
-// Richard Banfield
+// Gibson Biddle
 $courses[] = array(
-	'title' => 'How Top Product Managers Launch Awesome Products and Build Successful Teams',
-	'description' => "Product leadership is a universal problem for all companies building and supporting products. Organizations can adopt any process, e.g. Agile, Scrum, Waterfall or Lean, but ultimately the process doesn’t lead the team. People lead people, and that’s where it get’s messy. Humans are inherently complicated and multifaceted. There is no generic way to lead all people. In a phrase, leadership, or the lack of it, in product organizations is the leading reason for failure. Hiring the right leaders or nurturing the existing people into positions of leadership is complicated and generally misunderstood. In this workshop we’ll explore the best practices of high performing companies and discuss strategies and tactics to get your team operating at the next level.",
+	'title' => 'How to Become a World-Class Product Leader',
+	'description' => "How to build world-class teams, products, brands, companies, and industries",
 	'track' => 'leadership',
 	'day' => 1,
 	'slot' => 1,
-	'instructor' => 'richardbanfield',
+	'instructor' => 'gibsonbiddle',
 	'level' => 'advanced'
 );
 
-// Bob Baxley
+// Joshua Taylor
 $courses[] = array(
-	'title' => 'Your baby\'s ugly: The dark art of design feedback',
-	'description' => "Providing useful, actionable, and insightful design feedback to your team is one of the most important and challenging activities you’ll face as the leader of a creative group. In this two-hour workshop, you’ll learn from direct experience and interaction with other participants how to think more deeply about the design artifacts being presented, how to increase your awareness of body language and other non-verbal dynamics, and how to help your team understand both what is and isn’t right in their work and how to keep moving the work forward. Participants in the workshop are expected to bring printed materials and be ready to  present them to the group in mock feedback sessions.",
+	'title' => 'TBA',
+	'description' => "TBA",
 	'track' => 'leadership',
 	'day' => 1,
 	'slot' => 2,
-	'instructor' => 'bobbaxley',
+	'instructor' => 'joshuataylor',
 	'level' => 'basics'
 );
 
-// Dan Layer
+// Thor Ernstsson
 $courses[] = array(
-	'title' => 'Finding and Building Executive Presence',
-	'description' => "Presence is key to your ability to influence others and mandatory for entry into the executive ranks. This 2-hour interactive workshop will identify essential aspects of the “it” factor, help you understand the strengths and weaknesses of your own brand, provide you with concrete strategies for improving how others see you, and help you create an ongoing plan to assess and improve your own executive presence.",
+	'title' => 'How to cut through red tape to run experiments',
+	'description' => "Thor Ernstsson is the CEO and Founder of Alpha, the on-demand insights platform enabling teams to make data-driven decisions about users, products, and new markets. He has been a product leader for more than a decade, enabling some of the fastest-growing organizations to be experiment-driven.</br></br>In this workshop, he'll outline all the barriers and red tape that get in the way of teams trying to build great products. Whether it's corporate antibodies, industry regulations, or hard-to-reach audiences, Thor will provide best practices for running experiments and making data-driven decisions.</br></br>There will be various exercises to help you with formulating hypotheses, setting up experiments, generating actionable insights, iterating, and making informed, high-impact decisions. Thor will even use Alpha to generate data in real-time.",
 	'track' => 'leadership',
 	'day' => 1,
 	'slot' => 3,
-	'instructor' => 'danlawyer',
-	'level' => 'basics'
+	'instructor' => 'thorernstsson',
+	'level' => 'advanced'
 );
 
-// Mariah Hay
+// Nick Sloggett
 $courses[] = array(
-	'title' => 'Product Leadership Fundamentals: Find, Develop, and Keep Your Team Healthy',
-	'description' => "You’re an experienced product practitioner who has a love of mentoring and an ambition for leadership but are not sure where to start. To make that shift you need to arm yourself with some tactical skills around building a team, developing a team, and even having the hard conversations needed to keep the team healthy. In this workshop, we will be breaking our time into focusing on these three areas, reviewing tactics and tools, and learning through doing. </br></br>Experience Team Building 101: How to recruit, interview and identify the best person for your team. We will look at strategies for finding amazing applicants, effective ways of interviewing, and things to looks for and consider in selecting a new team member.</br></br>Developing Your Team: Tools to develop your PMs and UX Designers, and create career paths within your organization We will look at defining what career paths exist / should exist in your company, learn to use tools that help us guide a conversation to understand the many dimensions of your team member, and practice ways to select and prioritize actionable things you can work with your team member to improve.</br></br>Conversations: How to manage Product Managers and UX Designers who are dropping the ball. We will talk about one of the hardest and most important parts of leadership, managing team members who are dropping the ball. This is easier said than done. First, we need to understand why the ball is being dropped (system, workload, communication, soft skills, disengagement). If it is a system or workload issue, how do we co-author a solution with the team? If it is a communication or soft skills issue, how do we coach the individual? And if it is a disengagement issue, how do we have the hard conversation with our team member that they must step up or move on.",
+	'title' => 'TBA',
+	'description' => "TBA",
 	'track' => 'leadership',
 	'day' => 2,
 	'slot' => 1,
-	'instructor' => 'mariahhay',
+	'instructor' => 'nicksloggett',
 	'level' => 'advanced'
 );
 
-// Wade Shearer
+// Kendall Hulet
 $courses[] = array(
-	'title' => 'Teaching your team to learn',
-	'description' => "Still basking in the glow of last month's Design Sprint? What has your team learned since? Are we not going to see you at church again until Easter? Did the process move the needle? What was the needle? A hypothesis is worthless without clear definition of desired outcomes. Ideation and validation must be the way your team works and learn every day. Discovery shouldn’t be a phase. In this workshop, you'll learn how to identify opportunities and deliver solutions that provide lasting value through continuous discovery and delivery.",
+	'title' => 'Lessons in Leadership',
+	'description' => "Kendall will lead a discussion and interactive workshop on lessons in leadership, ranging from the lessons learned by great leaders throughout history to the practical lessons he and other members of the workshop have experienced personally. Kendall's experience at a large corporation as well as a startup provide insights that can span different stages of business, growth and organizational structure. Come prepared to learn, share and participate in activities designed to bring leadership practices to life.",
 	'track' => 'leadership',
 	'day' => 2,
 	'slot' => 2,
-	'instructor' => 'wadeshearer',
+	'instructor' => 'kendallhulet',
 	'level' => 'advanced'
 );
 
+
+
+
+// RESEARCH
+
+// Amanda Smith
+$courses[] = array(
+	'title' => 'UX & The Power of One',
+	'description' => "This workshop is a structured session to review an experience that supports the growth of a UX department within an organization through qualitative validation. This approach demonstrates an approach that can build a department into a holistic Experience Design Team that can support across many divisions within a company",
+	'track' => 'research',
+	'day' => 1,
+	'slot' => 1,
+	'instructor' => 'amandasmith',
+	'level' => 'basics'
+);
+
+// Sarah Doody
+$courses[] = array(
+	'title' => 'A Culture of Curiosity: How to Creating a Cadence and Culture of Research On Your Team ',
+	'description' => "Teams talk about doing research, but don’t actually DO it until it becomes a “crisis moment” –– a launch doesn’t go as planned, a stakeholder demands it, or users reject a new feature. And then … research to the rescue!!</br></br>Everyone gets excited, the research is done, there’s a nice research findings presentation and some of the insights are integrated into the product. And then two weeks later, it’s as though the research never happened.</br></br>Too often research is a one-hit wonder. To make smart product decisions, you team must immerse themselves in research throughout the entire product development process.</br></br>Creating a consistent cadence of research helps equip your team to always be informed with the most recent insights they need to design the right solution, so you can avoid launching features people don’t use and the weeks of “re-work” that normally follow a flawed.</br></br>In order to create a cadence of research, it must be a part of your culture. And that can’t just be the job of someone with “UX Researcher” in their job title.</br></br>In this workshop, you will learn how everyone on a product team can contribute to creating a culture of research, the types of research you can do each quarter, how to conduct smart usability tests, and what you can do to evangelize research on your team. ",
+	'track' => 'research',
+	'day' => 1,
+	'slot' => 2,
+	'instructor' => 'sarahdoody',
+	'level' => 'basics'
+);
+
+// Jeff Potter
+$courses[] = array(
+	'title' => 'Voice of the Data',
+	'description' => "How can we use data to keep us grounded in a sea of shifting priorities and plans? How do we make sure we keep track of the customer while still building scalable internal processes? How do we focus on profit without destroying our people?</br></br>We will investigate the different voices in the data and apply tools and frameworks that can help you build amazing eexperiences. Will investigate the voice of the business, process, customer, and even some of the voices in our heads that make even smart people do dumb things. ",
+	'track' => 'research',
+	'day' => 1,
+	'slot' => 3,
+	'instructor' => 'jeffpotter',
+	'level' => 'advanced'
+);
+
+// Danyel Rios Printz
+$courses[] = array(
+	'title' => 'TBA',
+	'description' => "TBA",
+	'track' => 'research',
+	'day' => 2,
+	'slot' => 1,
+	'instructor' => 'danyelriosprintz',
+	'level' => 'advanced'
+);
+
+// Rayna Wiles
+$courses[] = array(
+	'title' => 'Researching as a facilitator',
+	'description' => "A discussion about my principles for qualitative design research with suggestions for using them throughout product development.",
+	'track' => 'research',
+	'day' => 2,
+	'slot' => 2,
+	'instructor' => 'raynawiles',
+	'level' => 'advanced'
+);
 
 ?>

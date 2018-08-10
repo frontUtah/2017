@@ -1,6 +1,6 @@
 <?php
 	
-header('location: /workshops');
+//header('location: /workshops');
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 

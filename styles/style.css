@@ -2039,7 +2039,8 @@ section.courses .course dl .description li {
 	section.courses .course dl .instructor .instructor-photo {
 		flex: none;
 		width: 125px;
-		margin-right: 25px
+		margin-right: 25px;
+		height: 125px;
 	}
 
 	section.courses .course dl .instructor .instructor-photo:after {
