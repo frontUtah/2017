@@ -59,7 +59,7 @@ $courses[] = array(
 	'track' => 'ux',
 	'day' => 2,
 	'slot' => 2,
-	'instructor' => '',
+	'instructor' => 'krisparies',
 	'level' => 'advanced'
 );
 
@@ -70,7 +70,7 @@ $courses[] = array(
 // Barron Caster
 $courses[] = array(
 	'title' => 'The 3x Conversion Playbook: Step-by-step instructions for Product Managers to increase customers and fuel their business.',
-	'description' => "Coming Soon",
+	'description' => "Most PMs focus on building high-quality features. This workshop will demonstrate why that isn't enough in today's world of competitive products, and it will show you how to appeal to people through Growth and conversion principles.</br></br>During the workshop, you will learn through actual examples about how to improve conversion and take the growth mindset back to your product organizations.",
 	'track' => 'pm',
 	'day' => 1,
 	'slot' => 1,

@@ -64,6 +64,21 @@ $instructors[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/mattbryandesign'
 );
 
+// Kris Paries
+$instructors[] = array(
+	'slug' => 'krisparies',
+	'first' => 'Kris',
+	'last' => 'Paries',
+	'title' => 'Senior UX Designer - Emerging Initiatives',
+	'company' => 'Adobe',
+	'discipline' => 'ux',
+	'photo' => 'frontworkshops18/speaker_krisparies.jpg',
+	'bio' => "Kris Paries is a Senior Experience Designer at Adobe working on data privacy, analytics, educational initiatives, and the future of intelligent agents. He is currently an adjunct professor at the University of Utah's Multi-Disciplinary Design Program and writes for Adobe's Thinking Design by Adobe (https://medium.com/thinking-design) Medium publication.",
+	'twitter' => 'kriskanuk',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/krisparies/'
+);
+
 // Vicky Thomas
 $instructors[] = array(
 	'slug' => 'vickythomas',
