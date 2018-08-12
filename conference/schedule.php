@@ -9,10 +9,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 ?>
 	<main class="secondary product-schedule-front">
 		<section class="hero">
-			<h1>Schedule</h1>
+			<h1>2018 schedule</h1>
 		</section>
 		<section class="schedule-breakdown">
-			<h2>Schedule</h2>
+			<h2>2018 schedule</h2>
 			<div class="schedule-day">
 				<h3>Thursday, 31 May 2018</h3>
 				<ol class="timeline">

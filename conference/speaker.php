@@ -12,10 +12,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 ?>
 	<main class="secondary product-workshops-page">
 		<section class="hero">
-			<h1>Speakers</h1>
+			<h1>2018 speakers</h1>
 		</section>
 		<section class="individual-instructor">
-			<h2 class="">Speakers</h2>
+			<h2 class="">2018 speakers</h2>
 			<div class="instructor-profile">
 				<div class="details">
 					<div class="instructor <?php echo strtolower($speaker['discipline']); ?>">
