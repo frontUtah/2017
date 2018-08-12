@@ -18,7 +18,7 @@ require('includes/header.php');
 		<ul>
 			<li>
 				<h3>Case Study Conference</h3>
-				<p class="date-location">Salt Lake City, 31 May - 1 June 2018</p>
+				<p class="date-location">Salt Lake City, 6-7 June 2019</p>
 				<div href="https://www.youtube.com/watch?v=Qqxmgf5WDjE" class="thumnail video-thumbnail recap-video">
 					<img src="images/conf-scene001.jpg" alt="">
 				</div>
@@ -102,8 +102,10 @@ require('includes/header.php');
 		</p>
 	</section>
 	<section class="attendee-stats">
-		<p>In 2017, Front Salt Lake City sold out with
- <strong>650 attendees from 4 countries and 29 states</strong> across the US. Join us at the Front to share, learn, and be inspired to create amazing products.</p>
+		<p>In it's 5th year, Front is a sell-out event, with a 
+			<strong>1,000 annual attendees from 5 countries and 31 states</strong> 
+			across the US. Join us at the Front to share, learn, and be inspired 
+			to create amazing products.</p>
 	</section>
 </main>
 
