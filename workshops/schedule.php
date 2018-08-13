@@ -48,7 +48,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li class="timeslot four-hours">
 						<dl>
 							<dt class="time">8:30 AM</dt>
-							<dd class="ux course" onclick="">
+							<dd class="ux course" onclick="https://www.frontutah.com/workshops/instructor/joelbeukelman">
 								<p><strong>Joel Beukelman</strong></p>
 								<p>Practical Prototyping for Qualitative Research</p>
 							</dd>

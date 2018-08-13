@@ -111,35 +111,35 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		</section>
 
 		<section class="accomodations">
-			<h2>Hotel</h2>
+			<h2>Hotel</h2>			
 			
-			<p class="about-accomodations">We are in the process of negotiated discount rates at a hotel near the venue and downtown.</p>
-			
-			<!--
-			
-			<p class="about-accomodations">We have acquired a discounted nightly rate of $229/night + tax for a king bed and $249/night + tax for two queens, at the DoubleTree by Hilton Park City. We encourage you to register early as it is ski seasons and the hotel will likely sell out before that date. Book your room online or by calling 855-537-5305 and asking for the “Front” group discount. Free transportation between the hotel and venue will be provided.</p>
+			<p class="about-accomodations">We have acquired a discounted nightly rate of $129/night + tax for a king bed and $139/night + tax for two queens, at the Staybridge only six minutes from the venue. Book your room online or by calling 801-871-0871 and asking for the “Front Utah” group discount. Free transportation between the hotel and venue will be provided.</p>
 			<div class="hotel">
 				<div class="hotel-info">
-					<h3>DoubleTree Hilton, Park City, Utah</h3>
-					<p>1800 Park Avenue, Park City, Utah, 84060, USA<p>
-					<p>Front desk: 435.649.7000</p>
-					<p>Reservations: 855.537.5305</p>
+					<h3>Staybride, Midvale, Utah</h3>
+					<p>747 Blue Vista Ln, Midvale, UT 84047<p>
+					<p>Reservations: 801-871-0871</p>
 					<ul>
 						<li>King or double queen beds</li>
-						<li>Breakfast and lunch included</li>
-						<li>Complimentary fitness center</li>
-						<li>Heated outdoor pool</li>
-						<li>Smoke-free rooms</li>
-						<li>Recently renovated</li>
-						<li>Free wifi</li>
+						<li>Complimentary hot breakfast buffet</li>
+						<li>Complimentary hot breakfast buffet</li>
+						<li>All rooms fully equipped kitchens</li>
+						<li>Complimentary guest laundry</li>
+						<li>Fantastic fitness center open 24/7</li>
+						<li>Hot tub, heated pool year-round</li>
+						<li>BBQ grills, fire tables and fire bowls</li>
+						<li>Business Center open 24/7</li>
+						<li>Complimentary high speed wifi</li>
+						<li>Complimentary Shuttle Service</li>
+						<li>Trax Station adjacent to Staybridge</li>
+						<li>Pet friendly</li>
 					</ul>
 				</div>
 				<div class="book-hotel">
-					<p>Act quickly to get the conference discount rate of <strong>$229/night</strong> (15% off).</p>
-					<p><a target="_blank" href="http://group.doubletree.com/Front-Utah" class="button">Book Now</a></p>
+					<p>Act quickly to get the conference discount rate of <strong>$129/night</strong> (13% off).</p>
+					<p><a target="_blank" href="https://www.staybridge.com/redirect?path=hd&brandCode=SB&localeCode=en&regionCode=1&hotelCode=SLCMV&_PMID=99801505&GPC=FRT&viewfullsite=true" class="button">Book Now</a></p>
 				</div>
 			</div>
-			-->
 			
 		</section>
 		
