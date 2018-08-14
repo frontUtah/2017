@@ -200,7 +200,7 @@ $courses[] = array(
 
 // Sarah Doody
 $courses[] = array(
-	'title' => 'A Culture of Curiosity: How to Creating a Cadence and Culture of Research On Your Team ',
+	'title' => 'A Culture of Curiosity: How to Create a Cadence and Culture of Research On Your Team ',
 	'description' => "Teams talk about doing research, but don’t actually DO it until it becomes a “crisis moment” –– a launch doesn’t go as planned, a stakeholder demands it, or users reject a new feature. And then … research to the rescue!!</br></br>Everyone gets excited, the research is done, there’s a nice research findings presentation and some of the insights are integrated into the product. And then two weeks later, it’s as though the research never happened.</br></br>Too often research is a one-hit wonder. To make smart product decisions, you team must immerse themselves in research throughout the entire product development process.</br></br>Creating a consistent cadence of research helps equip your team to always be informed with the most recent insights they need to design the right solution, so you can avoid launching features people don’t use and the weeks of “re-work” that normally follow a flawed.</br></br>In order to create a cadence of research, it must be a part of your culture. And that can’t just be the job of someone with “UX Researcher” in their job title.</br></br>In this workshop, you will learn how everyone on a product team can contribute to creating a culture of research, the types of research you can do each quarter, how to conduct smart usability tests, and what you can do to evangelize research on your team. ",
 	'track' => 'research',
 	'day' => 1,
