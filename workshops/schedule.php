@@ -48,21 +48,29 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li class="timeslot four-hours">
 						<dl>
 							<dt class="time">8:30 AM</dt>
-							<dd class="ux course" onclick="https://www.frontutah.com/workshops/instructor/joelbeukelman">
-								<p><strong>Joel Beukelman</strong></p>
-								<p>Practical Prototyping for Qualitative Research</p>
+							<dd class="ux course" onclick="">
+								<a href="https://www.frontutah.com/workshops/instructor/joelbeukelman">
+									<p><strong>Joel Beukelman</strong></p>
+									<p>Practical Prototyping for Qualitative Research</p>
+								</a>
 							</dd>
 							<dd class="pm course" onclick="">
-								<p><strong>Barron Caster</strong></p>
-								<p>The 3x Conversion Playbook: Step-by-step instructions for Product Managers to increase customers and fuel their business.</p>
+								<a href="https://www.frontutah.com/workshops/instructor/barroncaster">
+									<p><strong>Barron Caster</strong></p>
+									<p>The 3x Conversion Playbook: Step-by-step instructions for Product Managers to increase customers and fuel their business.</p>
+								</a>
 							</dd>
 							<dd class="research course" onclick="">
-								<p><strong>Amanda Smith</strong></p>
-								<p>UX and The Power of One</p>
+								<a href="https://www.frontutah.com/workshops/instructor/amandasmith">
+									<p><strong>Amanda Smith</strong></p>
+									<p>UX and The Power of One</p>
+								</a>	
 							</dd>
 							<dd class="leadership course" onclick="">
-								<p><strong>Gibbson Biddle</strong></p>
-								<p>How to Become a World-Class Product Leader</p>
+								<a href="https://www.frontutah.com/workshops/instructor/gibsonbiddle">
+									<p><strong>Gibson Biddle</strong></p>
+									<p>How to Become a World-Class Product Leader</p>
+								</a>
 							</dd>
 						</dl>
 					</li>
@@ -78,16 +86,22 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">1:30 PM</dt>
 							<dd class="ux course" onclick="">
-								<p><strong>Ben Peck</strong></p>
-								<p>Design Criques done right.</p>
+								<a href="https://www.frontutah.com/workshops/instructor/benpeck">
+									<p><strong>Ben Peck</strong></p>
+									<p>Design Criques done right.</p>
+								</a>
 							</dd>
 							<dd class="pm course" onclick="">
-								<p><strong>Black McClary</strong></p>
-								<p>Journey Mapping for PMs</p>
+								<a href="https://www.frontutah.com/workshops/instructor/blakemcclary">
+									<p><strong>Blake McClary</strong></p>
+									<p>Journey Mapping for PMs</p>
+								</a>
 							</dd>
 							<dd class="research course" onclick="">
-								<p><strong>Sarah Doody</strong></p>
-								<p>Practical User Research</p>
+								<a href="https://www.frontutah.com/workshops/instructor/sarahdoody">
+									<p><strong>Sarah Doody</strong></p>
+									<p>Practical User Research</p>
+								</a>
 							</dd>
 							<dd class="leadership course" onclick="">
 								<p><strong>TBA</strong></p>
@@ -98,20 +112,28 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">3:45 PM</dt>
 							<dd class="ux course" onclick="">
-								<p><strong>Matt Bryan</strong></p>
-								<p>Scaling Fidelity</p>
+								<a href="https://www.frontutah.com/workshops/instructor/mattbryan">
+									<p><strong>Matt Bryan</strong></p>
+									<p>Scaling Fidelity</p>
+								</a>
 							</dd>
 							<dd class="pm course" onclick="">
-								<p><strong>Jaekob Chenina</strong></p>
-								<p>AI products that customers love</p>
+								<a href="https://www.frontutah.com/workshops/instructor/jaekobchenina">
+									<p><strong>Jaekob Chenina</strong></p>
+									<p>AI products that customers love</p>
+								</a>
 							</dd>
 							<dd class="research course" onclick="">
-								<p><strong>Jeff Potter</strong></p>
-								<p>Voices of the data</p>
+								<a href="https://www.frontutah.com/workshops/instructor/jeffpotter">
+									<p><strong>Jeff Potter</strong></p>
+									<p>Voices of the data</p>
+								</a>
 							</dd>
 							<dd class="leadership course" onclick="">
-								<p><strong>Thor Ernstsson</strong></p>
-								<p>How to cut through red tape to run experiments</p>
+								<a href="https://www.frontutah.com/workshops/instructor/thorernstsson">
+									<p><strong>Thor Ernstsson</strong></p>
+									<p>How to cut through red tape to run experiments</p>
+								</a>
 							</dd>
 						</dl>
 					</li>
@@ -132,15 +154,22 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">8:30 AM</dt>
 							<dd class="ux course" onclick="">
-								<p><strong>Drew Bridewell</strong></p>
-								<p>The building, scaling, and evolution of a Design System</p>
+								<a href="https://www.frontutah.com/workshops/instructor/drewbridewell">
+									<p><strong>Drew Bridewell</strong></p>
+									<p>The building, scaling, and evolution of a Design System</p>
+								</a>
 							</dd>
 							<dd class="pm course" onclick="">
-								<p><strong>Jeff Patton</strong></p>
-								<p>User Story Mapping</p>
+								<a href="https://www.frontutah.com/workshops/instructor/jeffpatton">
+									<p><strong>Jeff Patton</strong></p>
+									<p>User Story Mapping</p>
+								</a>
 							</dd>
 							<dd class="research course" onclick="">
-								<p><strong>Danyel Rio Printz</strong></p>
+								<a href="https://www.frontutah.com/workshops/instructor/joelbeukelman">
+									<p><strong>Danyel Rio Printz</strong></p>
+									<p>Uncovering insights while maintaining your sanity</p>
+								</a>
 							</dd>
 							<dd class="leadership course" onclick="">
 								<p><strong>TBA</strong></p>
@@ -162,12 +191,16 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 								<p><strong>TBA</strong></p>
 							</dd>
 							<dd class="pm course" onclick="">
-								<p><strong>Vicky Thomas</strong></p>
-								<p>Teamwork Makes the Dream Work</p>
+								<a href="https://www.frontutah.com/workshops/instructor/vickythomas">
+									<p><strong>Vicky Thomas</strong></p>
+									<p>Teamwork Makes the Dream Work</p>
+								</a>
 							</dd>
 							<dd class="research course" onclick="">
-								<p><strong>Rayna Wiles</strong></p>
-								<p>Researching as a facilitator</p>
+								<a href="https://www.frontutah.com/workshops/instructor/raynawiles">
+									<p><strong>Rayna Wiles</strong></p>
+									<p>Researching as a facilitator</p>
+								</a>
 							</dd>
 							<dd class="leadership course" onclick="">
 								<p><strong>TBA</strong></p>
