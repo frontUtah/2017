@@ -22,7 +22,7 @@ $courses[] = array(
 // Ben Peck
 $courses[] = array(
 	'title' => 'Design Critiques Done Right',
-	'description' => "Coming Soon",
+	'description' => "Showing our work at all different levels is a core part of being a designer. Running a critique with your team that’s effective and helpful all around for everyone isn’t an easy task when it comes to pushing everyone to be better but also being respectful. Come learn ways that you can improve these processes and make these gatherings enjoyable and exciting again. ",
 	'track' => 'ux',
 	'day' => 1,
 	'slot' => 2,
