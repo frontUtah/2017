@@ -31,7 +31,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
-			<p>In 2017, Front Salt Lake City sold out with 650 attendees from 4 countries and 29 states across the US. Join us at the Front to share, learn, and be inspired to create amazing products.</p>
+		<p>In it's 5th year, Front is a sell-out event, with a 
+			<strong>1,000 annual attendees from 5 countries and 31 states</strong> 
+			across the US. Join us at the Front to share, learn, and be inspired 
+			to create amazing products.</p>
 			<p><a href="/conference/registration" class="button">Register</a></p>
 		</section>
 	</main>

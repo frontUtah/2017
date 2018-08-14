@@ -88,7 +88,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<p><a target="_blank" href="https://frontconference2019.eventbrite.com" class="button">Register</a></p>
 		</section>
 
-
+		<!--
 		<section class="accomodations">
 			<h2>Hotel</h2>
 			<p class="about-accomodations">We have acquired a discounted nightly rate of $179/night + tax for a single king bed or two queens, at Salt Lake City Marriott City Center. We encourage you to register early as these rates are only guaranteed until 9 May 2019. Book your room online or by calling 888.236.2427 and asking for the “Front” group discount. The hotel is a block and a half (5 minute walk) from the theater.</p>
@@ -114,6 +114,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</div>
 			</div>
 		</section>
+		-->
 
 		
 		<section class="contact-us">

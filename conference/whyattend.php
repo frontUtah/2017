@@ -56,17 +56,17 @@ We believe product management and product design play a central role in the succ
 			</ul>
 		</section>
 		<section class="attendant-charts">
-			<h2>Front 2017 attendees</h2>
-			<p class="about-attendant-charts">In 2017, product design teams gathered in Utah from 4 countries and 29 states across the US for our conference and workshop series. While focused specifically on UX, product management, research, and leadership, anyone involved in product discovery, delivery, is encouraged to attend and will leave with a wealth of insights and skills. The conference talks cover the range between basic and advanced topics, providing valuable insights to both students and seasoned professionals.</p>
+			<h2>Front 2018 attendees</h2>
+			<p class="about-attendant-charts">In it's 5th year, the Front UX & Product Management Case Study Conference and Workshop Series are sell-out events, with a 1,000 annual attendees from 5 countries and 31 states across the US. While focused specifically on UX, product management, research, and leadership, anyone involved in product discovery, delivery, is encouraged to attend and will leave with a wealth of insights and skills. The conference talks cover the range between basic and advanced topics, providing valuable insights to both students and seasoned professionals.</p>
 			<div class="chart ring-chart">
 				<h4>Attendee by job title</h4>
-				<img src="/images/ring-chart.png" alt="">
+				<img style="max-width: 80%" src="/images/ring-chart.png" alt="">
 			</div>
 			<div class="chart state-map">
 				<h4>Attendee by location</h4>
-				<img src="/images/state-map.png" alt="">
+				<img style="max-width: 80%" src="/images/state-map.png" alt="">
 			</div>
-			<p class="footnote">Including Australia, Tokyo, and Peru!</p>
+			<p class="footnote">Including Canada, Great Britain, Brazil, Indian, Sweden, Australia, Tokyo, and Peru!</p>
 		</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>

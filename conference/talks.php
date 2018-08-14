@@ -10,14 +10,14 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 <main class="secondary product-workshops-page">
 	<section class="hero">
-		<h1>Talks</h1>
+		<h1>2018 talks</h1>
 	</section>
 	<section class="courses notabs">
-		<h2 class="">Talks</h2>
+		<h2 class="">2018 talks</h2>
 		
 		<div class="course-calendar">
 			<div class="course-date">
-				<h3>Thursday, 31 May 2019</h3>
+				<h3>Thursday, 31 May 2018</h3>
 				<ul class="days-courses">
 
 					<?php
@@ -104,7 +104,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</ul>
 			</div>
 			<div class="course-date">
-				<h3>Friday, 1 June 2019</h3>
+				<h3>Friday, 1 June 2018</h3>
 				<ul class="days-courses">
 					<?php echo print_courses(2); ?>
 				</ul>
@@ -113,7 +113,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 	</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
-			<p>In 2017, Front Salt Lake City sold out with 650 attendees from 4 countries and 29 states across the US. Join us at the Front to share, learn, and be inspired to create amazing products.</p>
+			<p>In it's 5th year, Front is a sell-out event, with a 
+				<strong>1,000 annual attendees from 5 countries and 31 states</strong> 
+				across the US. Join us at the Front to share, learn, and be inspired 
+				to create amazing products.</p>
 			<p><a href="/conference/registration" class="button">Register</a></p>
 		</section>
 </main>
