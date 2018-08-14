@@ -166,7 +166,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 								</a>
 							</dd>
 							<dd class="research course" onclick="">
-								<a href="https://www.frontutah.com/workshops/instructor/danyelriospritz">
+								<a href="https://www.frontutah.com/workshops/instructor/danyelriosprintz">
 									<p><strong>Danyel Rios Printz</strong></p>
 									<p>Uncovering insights while maintaining your sanity</p>
 								</a>
