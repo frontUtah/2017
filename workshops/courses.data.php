@@ -222,8 +222,8 @@ $courses[] = array(
 
 // Danyel Rios Printz
 $courses[] = array(
-	'title' => 'TBA',
-	'description' => "TBA",
+	'title' => 'Qualitative Interviewing: Uncovering insights while maintaining your sanity',
+	'description' => "Grounded in ethnographic field methods, critical medical anthropology, human centered design, and design thinking, Danyel Rios Printz & Becca Danna share their methods for uncovering valuable insights while preventing burnout in this workshop on Qualitative Interview Methods. Learn from things that have worked and things that didn’t go quite so well from their combined 18 years of experience in research. Participants will have the opportunity to participate in discussions and exercises on empathy, physical and psychological safety; and, of course, practice those interviewing methodologies both in the classroom and outside with real humans!",
 	'track' => 'research',
 	'day' => 2,
 	'slot' => 1,
