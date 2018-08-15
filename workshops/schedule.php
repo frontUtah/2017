@@ -104,7 +104,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 								</a>
 							</dd>
 							<dd class="leadership course" onclick="">
-								<p><strong>TBA</strong></p>
+								<a href="https://www.frontutah.com/workshops/instructor/joshuataylor">
+									<p><strong>Joshua Taylor</strong></p>
+									<p>Coming Soon</p>
+								</a>
 							</dd>
 						</dl>
 					</li>
@@ -172,7 +175,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 								</a>
 							</dd>
 							<dd class="leadership course" onclick="">
-								<p><strong>TBA</strong></p>
+								<a href="https://www.frontutah.com/workshops/instructor/nicksloggett">
+									<p><strong>Nick Sloggett</strong></p>
+									<p>Coming Soon</p>
+								</a>
 							</dd>
 						</dl>
 					</li>
@@ -203,7 +209,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 								</a>
 							</dd>
 							<dd class="leadership course" onclick="">
-								<p><strong>TBA</strong></p>
+								<a href="https://www.frontutah.com/workshops/instructor/kendallhulet">
+									<p><strong>Kendall Hulet</strong></p>
+									<p>Lessons in Leadership</p>
+								</a>
 							</dd>
 						</dl>
 					</li>
