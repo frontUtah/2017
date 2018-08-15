@@ -253,7 +253,8 @@ $instructors[] = array(
 	'company' => 'Previously Chegg and Netflix',
 	'discipline' => 'leadership',
 	'photo' => 'frontworkshops18/speaker_gibsonbiddle.jpg',
-	'bio' => "As the former VP of Product at Netflix, Chief Product Officer at Chegg, SVP Product at The Learning Company, and a Producer at Electronic Arts, I have lots of experience building world-class products, teams, and companies.</br></br>Today, I take on three day/week Executive-In-Residence product roles and I am an adviser to consumer tech product leaders in San Francisco, Boston, NYC, and Salt Lake City.  I also teach a graduate-level entrepreneurship course at Stanford.",
+	'bio' => "Gibson Biddle teaches graduate-level entrepreneurship and product management courses at Stanford and Dartmouth is an adviser to a half-dozen Silicon Valley startups and gives product leadership talks and workshops all around the world.</br></br>Gib began his career as a producer at Electronic Arts, then sold his first startup, Creative Wonders, to The Learning Company (TLC).  He helped TLC, an educational software company to grow, then sold the company to Mattel for $3.5B. In 2005, Gib joined Netflix as VP of Product and in 2007, launched the video streaming service that 130M know and love today.</br></br>In 2010, Gib joined his next startup, Chegg. Today, Chegg helps students save $500 million each year by enabling students to rent textbooks instead of buying them.  In 2012, Gib launched Chegg Study, a monthly homework help service that millions of students use each year to save time, save money, and get smarter.  Chegg went public in 2013 and now has a market cap of $3.5B.
+",
 	'twitter' => 'gibsonbiddle',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/gibsonbiddle/'

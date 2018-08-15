@@ -102,8 +102,8 @@ $courses[] = array(
 
 // Jeff Patton
 $courses[] = array(
-	'title' => 'TBA',
-	'description' => "TBA",
+	'title' => 'User story mapping',
+	'description' => "Ideal Agile development teams build small valuable chunks of functionality. But, that’s easier said than done. Not all products or features are small and breaking them down into small buildable parts is challenging. And, even when you do, how do the people building those small parts not lose sight of the big picture? Story mapping is a simple practice for telling the story of a whole product or feature starting by telling the stories of the users who’ll use it. In this fast paced workshop you’ll learn the concepts of story mapping by building a map collaboratively with others. You’ll learn advanced techniques for slicing a map to find small viable product releases, and then how to build your product using smaller stories without losing sight of the big picture.",
 	'track' => 'pm',
 	'day' => 2,
 	'slot' => 1,
