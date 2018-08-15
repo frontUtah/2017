@@ -130,7 +130,8 @@ $courses[] = array(
 // Gibson Biddle
 $courses[] = array(
 	'title' => 'How to Become a World-Class Product Leader',
-	'description' => "How to build world-class teams, products, brands, companies, and industries",
+	'description' => "In this workshop, Gib describes his hypothesis-driven approach to career advancement -- what he calls “career hacking.”  This workshop describes:<ul><li>the technical skills of a product leader</li><li>the functional leadership skills required as you advance your career</li><li>how to define, experiment, and measure “career hypotheses”</li><li>how to  identify your “superpowers” as a product leader, then</li><li>how to isolate the skills you’ll need to develop to advance your career.</li></ul>Gib will also dive deep into a few areas of product management and leadership.  He’ll illustrate:<ul><li>how to use the GLEe, DHM and GEM models to form a cogent product strategy</li><li>how to embrace consumer science to make “wicked hard” product decisions, and finally</li><li>how to develop the leadership skills you’ll need to communicate an inspired vision of the future.</li></ul>Gib’s workshops are highly interactive with a great mix of presentation, mini-cases, and introspection, all of which work together to help you to jumpstart your career.
+",
 	'track' => 'leadership',
 	'day' => 1,
 	'slot' => 1,
