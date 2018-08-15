@@ -194,7 +194,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">1:30 PM</dt>
 							<dd class="ux course" onclick="">
-								<p><strong>TBA</strong></p>
+								<a href="https://www.frontutah.com/workshops/instructor/krisparies">
+									<p><strong>Kris Paries</strong></p>
+									<p>Coming Soon</p>
+								</a>
 							</dd>
 							<dd class="pm course" onclick="">
 								<a href="https://www.frontutah.com/workshops/instructor/vickythomas">
