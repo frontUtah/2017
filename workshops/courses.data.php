@@ -54,8 +54,8 @@ $courses[] = array(
 
 // Kris Praries
 $courses[] = array(
-	'title' => 'TBA',
-	'description' => "TBA",
+	'title' => 'Deputizing with Design: A Murder Mystery',
+	'description' => "We'll experience together how Adobe Design has begun to deputize members of the non-design team and business units into design champions and leaders within Product Management, Engineering, Marketing, and Senior Leadership. We'll also put those principles into practice to build something together. ",
 	'track' => 'ux',
 	'day' => 2,
 	'slot' => 2,
