@@ -2,7 +2,7 @@
 
 // send email
 if(!empty($_POST)) {
-	$to      = 'me@wadeshearer.com';
+	$to      = 'ben@frontutah.com';
 	$subject = 'Front onsite training request';
 	$message = "Front onsite training request:\n\n";
 	$message .= "Name: " . $_POST['name'] . "\n";
