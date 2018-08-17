@@ -57,7 +57,7 @@ We believe product management and product design play a central role in the succ
 		</section>
 		<section class="attendant-charts">
 			<h2>Front 2018 attendees</h2>
-			<p class="about-attendant-charts">In it's 5th year, the Front UX & Product Management Case Study Conference and Workshop Series are sell-out events, with a 1,000 annual attendees from 5 countries and 31 states across the US. While focused specifically on UX, product management, research, and leadership, anyone involved in product discovery, delivery, is encouraged to attend and will leave with a wealth of insights and skills. The conference talks cover the range between basic and advanced topics, providing valuable insights to both students and seasoned professionals.</p>
+			<p class="about-attendant-charts">In it's 5th year, the Front UX & Product Management Case Study Conference and Workshop Series are sell-out events, with 1,000 annual attendees from 5 countries and 31 states across the US. While focused specifically on UX, product management, research, and leadership, anyone involved in product discovery, delivery, is encouraged to attend and will leave with a wealth of insights and skills. The conference talks cover the range between basic and advanced topics, providing valuable insights to both students and seasoned professionals.</p>
 			<div class="chart ring-chart">
 				<h4>Attendee by job title</h4>
 				<img style="max-width: 80%" src="/images/ring-chart.png" alt="">
