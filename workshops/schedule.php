@@ -192,7 +192,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot four-hours">
 						<dl>
-							<dt class="time">1:30 PM</dt>
+							<dt class="time">1:30 PM - 4:30 PM</dt>
 							<dd class="ux course" onclick="">
 								<a href="https://www.frontutah.com/workshops/instructor/krisparies">
 									<p><strong>Kris Paries</strong></p>

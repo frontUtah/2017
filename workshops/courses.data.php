@@ -213,7 +213,7 @@ $courses[] = array(
 // Jeff Potter
 $courses[] = array(
 	'title' => 'Voice of the Data',
-	'description' => "How can we use data to keep us grounded in a sea of shifting priorities and plans? How do we make sure we keep track of the customer while still building scalable internal processes? How do we focus on profit without destroying our people?</br></br>We will investigate the different voices in the data and apply tools and frameworks that can help you build amazing eexperiences. Will investigate the voice of the business, process, customer, and even some of the voices in our heads that make even smart people do dumb things. ",
+	'description' => "How can we use data to keep us grounded in a sea of shifting priorities and plans? How do we make sure we keep track of the customer while still building scalable internal processes? How do we focus on profit without destroying our people?</br></br>We will investigate the different voices in the data and apply tools and frameworks that can help you build amazing experiences. Will investigate the voice of the business, process, customer, and even some of the voices in our heads that make even smart people do dumb things. ",
 	'track' => 'research',
 	'day' => 1,
 	'slot' => 3,
