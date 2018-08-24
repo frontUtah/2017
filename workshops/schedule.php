@@ -49,25 +49,25 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">8:30 AM</dt>
 							<dd class="ux course" onclick="">
-								<a href="https://www.frontutah.com/workshops/instructor/joelbeukelman">
+								<a href="/workshops/instructor/joelbeukelman">
 									<p><strong>Joel Beukelman</strong></p>
 									<p>Practical Prototyping for Qualitative Research</p>
 								</a>
 							</dd>
 							<dd class="pm course" onclick="">
-								<a href="https://www.frontutah.com/workshops/instructor/barroncaster">
+								<a href="/workshops/instructor/barroncaster">
 									<p><strong>Barron Caster</strong></p>
 									<p>The 3x Conversion Playbook: Step-by-step instructions for Product Managers to increase customers and fuel their business.</p>
 								</a>
 							</dd>
 							<dd class="research course" onclick="">
-								<a href="https://www.frontutah.com/workshops/instructor/amandasmith">
+								<a href="/workshops/instructor/amandasmith">
 									<p><strong>Amanda Smith</strong></p>
 									<p>UX and The Power of One</p>
 								</a>	
 							</dd>
 							<dd class="leadership course" onclick="">
-								<a href="https://www.frontutah.com/workshops/instructor/gibsonbiddle">
+								<a href="/workshops/instructor/gibsonbiddle">
 									<p><strong>Gibson Biddle</strong></p>
 									<p>How to Become a World-Class Product Leader</p>
 								</a>
@@ -86,25 +86,25 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">1:30 PM</dt>
 							<dd class="ux course" onclick="">
-								<a href="https://www.frontutah.com/workshops/instructor/benpeck">
+								<a href="/workshops/instructor/benpeck">
 									<p><strong>Ben Peck</strong></p>
 									<p>Design Criques done right.</p>
 								</a>
 							</dd>
 							<dd class="pm course" onclick="">
-								<a href="https://www.frontutah.com/workshops/instructor/blakemcclary">
+								<a href="/workshops/instructor/blakemcclary">
 									<p><strong>Blake McClary</strong></p>
 									<p>Journey Mapping for PMs</p>
 								</a>
 							</dd>
 							<dd class="research course" onclick="">
-								<a href="https://www.frontutah.com/workshops/instructor/sarahdoody">
+								<a href="/workshops/instructor/sarahdoody">
 									<p><strong>Sarah Doody</strong></p>
 									<p>Practical User Research</p>
 								</a>
 							</dd>
 							<dd class="leadership course" onclick="">
-								<a href="https://www.frontutah.com/workshops/instructor/joshuataylor">
+								<a href="/workshops/instructor/joshuataylor">
 									<p><strong>Joshua Taylor</strong></p>
 									<p>Coming Soon</p>
 								</a>
@@ -115,28 +115,36 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">3:45 PM</dt>
 							<dd class="ux course" onclick="">
-								<a href="https://www.frontutah.com/workshops/instructor/mattbryan">
+								<a href="/workshops/instructor/mattbryan">
 									<p><strong>Matt Bryan</strong></p>
 									<p>Scaling Fidelity</p>
 								</a>
 							</dd>
 							<dd class="pm course" onclick="">
-								<a href="https://www.frontutah.com/workshops/instructor/jaekobchenina">
+								<a href="/workshops/instructor/jaekobchenina">
 									<p><strong>Jaekob Chenina</strong></p>
 									<p>AI products that customers love</p>
 								</a>
 							</dd>
 							<dd class="research course" onclick="">
-								<a href="https://www.frontutah.com/workshops/instructor/jeffpotter">
+								<a href="/workshops/instructor/jeffpotter">
 									<p><strong>Jeff Potter</strong></p>
 									<p>Voices of the data</p>
 								</a>
 							</dd>
 							<dd class="leadership course" onclick="">
-								<a href="https://www.frontutah.com/workshops/instructor/thorernstsson">
+								<a href="/workshops/instructor/thorernstsson">
 									<p><strong>Thor Ernstsson</strong></p>
 									<p>How to cut through red tape to run experiments</p>
 								</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="timeslot one-hour">
+						<dl>
+							<dt class="time">5:30 PM</dt>
+							<dd class="food">
+								<p>Networking and unofficial after-party planning</p>
 							</dd>
 						</dl>
 					</li>
@@ -157,25 +165,25 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">8:30 AM</dt>
 							<dd class="ux course" onclick="">
-								<a href="https://www.frontutah.com/workshops/instructor/drewbridewell">
+								<a href="/workshops/instructor/drewbridewell">
 									<p><strong>Drew Bridewell</strong></p>
 									<p>The building, scaling, and evolution of a Design System</p>
 								</a>
 							</dd>
 							<dd class="pm course" onclick="">
-								<a href="https://www.frontutah.com/workshops/instructor/jeffpatton">
+								<a href="/workshops/instructor/jeffpatton">
 									<p><strong>Jeff Patton</strong></p>
 									<p>User Story Mapping</p>
 								</a>
 							</dd>
 							<dd class="research course" onclick="">
-								<a href="https://www.frontutah.com/workshops/instructor/danyelriosprintz">
+								<a href="/workshops/instructor/danyelriosprintz">
 									<p><strong>Danyel Rios Printz</strong></p>
 									<p>Uncovering insights while maintaining your sanity</p>
 								</a>
 							</dd>
 							<dd class="leadership course" onclick="">
-								<a href="https://www.frontutah.com/workshops/instructor/nicksloggett">
+								<a href="/workshops/instructor/nicksloggett">
 									<p><strong>Nick Sloggett</strong></p>
 									<p>Coming Soon</p>
 								</a>
@@ -192,30 +200,38 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot four-hours">
 						<dl>
-							<dt class="time">1:30 PM - 4:30 PM</dt>
+							<dt class="time">1:30 PM</dt>
 							<dd class="ux course" onclick="">
-								<a href="https://www.frontutah.com/workshops/instructor/krisparies">
+								<a href="/workshops/instructor/krisparies">
 									<p><strong>Kris Paries</strong></p>
 									<p>Coming Soon</p>
 								</a>
 							</dd>
 							<dd class="pm course" onclick="">
-								<a href="https://www.frontutah.com/workshops/instructor/vickythomas">
+								<a href="/workshops/instructor/vickythomas">
 									<p><strong>Vicky Thomas</strong></p>
 									<p>Teamwork Makes the Dream Work</p>
 								</a>
 							</dd>
 							<dd class="research course" onclick="">
-								<a href="https://www.frontutah.com/workshops/instructor/raynawiles">
+								<a href="/workshops/instructor/raynawiles">
 									<p><strong>Rayna Wiles</strong></p>
 									<p>Researching as a facilitator</p>
 								</a>
 							</dd>
 							<dd class="leadership course" onclick="">
-								<a href="https://www.frontutah.com/workshops/instructor/kendallhulet">
+								<a href="/workshops/instructor/kendallhulet">
 									<p><strong>Kendall Hulet</strong></p>
 									<p>Lessons in Leadership</p>
 								</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="timeslot one-hour">
+						<dl>
+							<dt class="time">5:30 PM</dt>
+							<dd class="food">
+								<p>Hi-fives and goodbyes</p>
 							</dd>
 						</dl>
 					</li>

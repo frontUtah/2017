@@ -1693,6 +1693,10 @@ section.individual-instructor .instructor-content li {
 		line-height: 32px
 	}
 
+	section.individual-instructor .course-description h4 {
+		margin-top: 10px;
+	}
+
 	section.individual-instructor .about-instructor h3 {
 		font-size: 18px
 	}

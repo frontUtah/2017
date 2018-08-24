@@ -55,7 +55,7 @@ switch($track) {
 			</p>
 
 		<nav class="course-track-nav">
-			<h4>Select Your Track</h4>
+			<h4>Select a track, or mix it up</h4>
 			<div class="track-options" onclick="">
 				<ul>
 					<!--Mobile Order: Actual Order. Desktop Order: Class Names. Bless you Flexbox-->
@@ -103,12 +103,7 @@ switch($track) {
 					<?php
 
 					function print_courses($track, $day) {
-						$slots[1] = array('time' => '8:30', 'meridian' => 'AM');
-						$slots[2] = array('time' => '1:30', 'meridian' => 'PM');
-						
-						if($day == 1) {
-							$slots[3] = array('time' => '3:45', 'meridian' => 'PM');
-						}
+						$slots = get_slots($day);
 
 						foreach($slots as $slot => $slot_details) {
 							$course = get_course($track, $day, $slot);

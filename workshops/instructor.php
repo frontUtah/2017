@@ -9,74 +9,78 @@ $title = $instructor['first'] . ' ' . $instructor['last'] . ' - Front UX & Produ
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
+
+
 ?>
-	<main class="secondary product-workshops-page">
-		<section class="hero">
-			<h1>Instructors</h1>
-		</section>
-		<section class="individual-instructor">
-			<h2 class="">Instructors</h2>
-			<div class="instructor-profile">
-				<div class="details">
-					<div class="instructor <?php echo strtolower($instructor['discipline']); ?>">
-						<div class="instructor-photo">
-							<img src="/images/<?php echo $instructor['photo']; ?>" alt="">
-						</div>
-						<h4><?php echo $instructor['first'] . ' ' . $instructor['last'] ?></h4>
-						<p class="title"><?php echo $instructor['title']; ?><br><?php echo $instructor['company']; ?></p>
+
+<main class="secondary product-workshops-page">
+	<section class="hero">
+		<h1>Instructors</h1>
+	</section>
+	<section class="individual-instructor">
+		<h2 class="">Instructors</h2>
+		<div class="instructor-profile">
+			<div class="details">
+				<div class="instructor <?php echo strtolower($instructor['discipline']); ?>">
+					<div class="instructor-photo">
+						<img src="/images/<?php echo $instructor['photo']; ?>" alt="">
 					</div>
-					<nav class="social-nav">
-						<ul>
-
-							<?php
-
-							// twitter
-							if(!empty($instructor['twitter'])) {
-								echo '<li><a class="twitter" href="https://twitter.com/' . $instructor['twitter'] . '">Twitter</a></li>';
-							}
-
-							// linkedin
-							if(!empty($instructor['linkedin'])) {
-								echo '<li><a class="linkedin" href="' . $instructor['linkedin'] . '">LinkedIn</a></li>';
-							}
-
-							// instagram
-							if(!empty($instructor['instagram'])) {
-								echo '<li><a class="instagram" href="https://www.instagram.com/' . $instructor['instagram'] . '/">Instagram</a></li>';
-							}
-
-							?>
-							
-						</ul>
-					</nav>
+					<h4><?php echo $instructor['first'] . ' ' . $instructor['last'] ?></h4>
+					<p class="title"><?php echo $instructor['title']; ?><br><?php echo $instructor['company']; ?></p>
 				</div>
-				<div class="instructor-content">
-					<div class="course-description">
+				<nav class="social-nav">
+					<ul>
 
 						<?php
 
-						if(count($courses) > 0) {
-							foreach($courses as $course) {
-								echo '<h3>' . $course['title'] . '</h3>';
-								echo '<p>' . $course['description'] . '</p>';
-							}
+						// twitter
+						if(!empty($instructor['twitter'])) {
+							echo '<li><a class="twitter" href="https://twitter.com/' . $instructor['twitter'] . '">Twitter</a></li>';
+						}
+
+						// linkedin
+						if(!empty($instructor['linkedin'])) {
+							echo '<li><a class="linkedin" href="' . $instructor['linkedin'] . '">LinkedIn</a></li>';
+						}
+
+						// instagram
+						if(!empty($instructor['instagram'])) {
+							echo '<li><a class="instagram" href="https://www.instagram.com/' . $instructor['instagram'] . '/">Instagram</a></li>';
 						}
 
 						?>
-					</div>
-					<div class="about-instructor">
-						<h3>About <?php echo $instructor['first'] ?></h3>
-						<p><?php echo $instructor['bio'] ?></p>
-					</div>
+						
+					</ul>
+				</nav>
+			</div>
+			<div class="instructor-content">
+				<div class="course-description">
+
+					<?php
+
+					if(count($courses) > 0) {
+						foreach($courses as $course) {
+							echo '<h3>' . $course['title'] . '</h3>';
+							echo '<h4>' . get_day($course['day']) . ', at ' . get_time($course['day'], $course['slot']) . '</h4>';
+							echo '<p>' . $course['description'] . '</p>';
+						}
+					}
+
+					?>
+				</div>
+				<div class="about-instructor">
+					<h3>About <?php echo $instructor['first'] ?></h3>
+					<p><?php echo $instructor['bio'] ?></p>
 				</div>
 			</div>
-		</section>
-		<section class="join-us">
-			<h2>Join us at the Front!</h2>
-			<p>Reserve your seat now for the premier UX and Product Management training experience. Design your custom training program now. Whether you’re a beginner or seasoned professional, the Front UX & Product Management Workshop Series will take you and your team to the next level in product design and management.</p>
-			<p><a href="/workshops/registration" class="button">Register</a></p>
-		</section>
-	</main>
+		</div>
+	</section>
+	<section class="join-us">
+		<h2>Join us at the Front!</h2>
+		<p>Reserve your seat now for the premier UX and Product Management training experience. Design your custom training program now. Whether you’re a beginner or seasoned professional, the Front UX & Product Management Workshop Series will take you and your team to the next level in product design and management.</p>
+		<p><a href="/workshops/registration" class="button">Register</a></p>
+	</section>
+</main>
 
 <?php
 

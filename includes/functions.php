@@ -70,4 +70,31 @@ function get_talk($day, $slot) {
 	}
 }
 
+// get time slots
+function get_timeslots($day) {	
+	$slots[1] = array('time' => '8:30', 'meridian' => 'AM');
+	$slots[2] = array('time' => '1:30', 'meridian' => 'PM');
+	
+	if($day == 1) {
+		$slots[3] = array('time' => '3:45', 'meridian' => 'PM');
+	}
+	
+	return $slots;
+}
+
+// get time slot
+function get_time($day, $slot) {
+	$slots = get_timeslots($day);
+	return $slots[$slot]['time'] . ' ' . $slots[$slot]['meridian'];
+}
+
+// get day
+function get_day($day) {
+	if($day == 1) {
+		return 'Thursday, 8 November 2018';
+	} else {
+		return 'Friday, 9 November 2018';
+	}
+}
+
 ?>
