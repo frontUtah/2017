@@ -103,7 +103,7 @@ switch($track) {
 					<?php
 
 					function print_courses($track, $day) {
-						$slots = get_slots($day);
+						$slots = get_timeslots($day);
 
 						foreach($slots as $slot => $slot_details) {
 							$course = get_course($track, $day, $slot);
