@@ -163,8 +163,8 @@ $courses[] = array(
 
 // Nick Sloggett
 $courses[] = array(
-	'title' => 'TBA',
-	'description' => "TBA",
+	'title' => 'What Got Us Here Won’t Get Us There',
+	'description' => "In this workshop, Nick will explore his wins, losses, lessons learned, and the framework that guides you to lead relationally - no matter your title or company. Expect to engage in discussion, activities, exploration around the enneagram, extreme ownership, relational empathy, organizational discourse, and true servant-minded leadership.",
 	'track' => 'leadership',
 	'day' => 2,
 	'slot' => 1,
