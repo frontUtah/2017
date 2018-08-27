@@ -2445,9 +2445,9 @@ section.schedule-breakdown .timeline dd a {
 		border-radius: 4px;
 		background: #B2B2B2;
 		color: #FFF;
-		padding: 20px;
+		padding: 10px 20px;
 		margin: 10px;
-		box-sizing: border-box
+		box-sizing: border-box;
 	}
 
 	section.schedule-breakdown .timeline dd.course:hover {

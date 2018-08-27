@@ -97,4 +97,13 @@ function get_day($day) {
 	}
 }
 
+// truncate
+function truncate_string($string, $length) {
+	if(strlen($string) > $length) {
+		return rtrim(mb_strimwidth($string, 0, $length)) . '&hellip;';
+	} else {
+		return $string;
+	}
+}
+
 ?>
