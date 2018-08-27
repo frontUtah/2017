@@ -185,7 +185,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<dd class="leadership course" onclick="">
 								<a href="/workshops/instructor/nicksloggett">
 									<p><strong>Nick Sloggett</strong></p>
-									<p>Coming Soon</p>
+									<p>What Got Us Here Won’t Get Us There</p>
 								</a>
 							</dd>
 						</dl>
