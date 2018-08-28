@@ -17,7 +17,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</ul>
 			</p>
 			<p class="date-location">6-7 June 2019 • Salt Lake City, Utah</p>
-			<a href="http://www.workfront.com"><img id="broughtoyouby" src="/images/frontconference18/broughttoyouby_workfront.png" /></a>
+			<!--<a href="http://www.workfront.com"><img id="broughtoyouby" src="/images/frontconference18/broughttoyouby_workfront.png" /></a>-->
 			<p><a href="/conference/registration" class="button">Register</a></p>
 		</section>
 		<section class="training-courses">
@@ -77,8 +77,11 @@ foreach($speakers as $instructor) {
 		
 		<section class="sponsors">
 			<h2>Sponsors</h2>
-			<a href="http://www.workfront.com" target="_blank"><img id="premier" src="/images/sponsors/workfront.svg" /></a>
+			<!--<a href="http://www.workfront.com" target="_blank"><img id="premier" src="/images/sponsors/workfront.svg" /></a>-->
+			<a href="http://www.pluralsight.com" target="_blank"><img id="premier" src="/images/sponsors/pluralsight.svg" /></a>
 			<ul class="second_tier">
+				<li class="second_tier_sponsor"><a href="http://www.balsamiq.com" target="_blank"><img src="/images/sponsors/balsamiq.svg" /></a></li>
+			  <!--
 			  <li class="second_tier_sponsor"><a href="http://www.pluralsight.com" target="_blank"><img src="/images/sponsors/pluralsight.svg" /></a></li>
 			  <li class="second_tier_sponsor"><a href="http://www.jane.com" target="_blank"><img src="/images/sponsors/jane.svg" /></a></li>
 			  <li class="second_tier_sponsor"><a href="http://www.pendo.io" target="_blank"><img src="/images/sponsors/pendo.svg" /></a></li>
@@ -87,11 +90,11 @@ foreach($speakers as $instructor) {
 			  <li class="second_tier_sponsor"><a href="http://www.underbelly.is" target="_blank"><img src="/images/sponsors/underbelly.svg" /></a></li>
 			  <li class="second_tier_sponsor"><a href="http://www.invisionapp.com" target="_blank"><img src="/images/sponsors/invision.svg" /></a></li>
 			  <li class="second_tier_sponsor"><a href="http://www.rev.com" target="_blank"><img src="/images/sponsors/rev.svg" /></a></li>
-			  <li class="second_tier_sponsor"><a href="http://www.balsamiq.com" target="_blank"><img src="/images/sponsors/balsamiq.svg" /></a></li>
 			  <li class="second_tier_sponsor"><a href="https://jobs.progleasing.com/" target="_blank"><img src="/images/sponsors/progressive.svg" /></a></li>
 			  <li class="second_tier_sponsor"><a href="https://www.split.io/" target="_blank"><img src="/images/sponsors/split.svg" /></a></li>
 			  <li class="second_tier_sponsor"><a href="https://www.ancestry.com" target="_blank"><img src="/images/sponsors/ancestry.svg" /></a></li>
 			  <li class="second_tier_sponsor"><a href="https://www.kroger.com" target="_blank"><img src="/images/sponsors/kroger.svg" /></a></li>
+			-->
 			</ul>
 		</section>
 		
