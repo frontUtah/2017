@@ -82,7 +82,7 @@ require('includes/header.php');
 				<p>When we align</p>
 			</li>
 			<li>
-				<a href="https://www.youtube.com/watch?v=SW-h5UcjLIE"><div href="https://www.youtube.com/watch?v=SW-h5UcjLIE" class="card-image recap-video"><img src="images/frontconference18/cover_rayna_wiles.jpg" alt=""></div></a>
+				<a href="https://www.youtube.com/watch?v=xOlXgrL8m2M"><div href="https://www.youtube.com/watch?v=xOlXgrL8m2M" class="card-image recap-video"><img src="images/frontconference18/cover_rayna_wiles.jpg" alt=""></div></a>
 				<h3>Rayna Wiles</h3>
 				<p>Researching as a facilitator</p>
 			</li>
