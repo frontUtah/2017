@@ -67,38 +67,38 @@ require('includes/header.php');
 		<h2>Personal stories from innovative teams</h2>
 		<ul class="story-cards">
 			<li>
-				<a href="https://vimeo.com/222437833"><div href="https://vimeo.com/222437833" class="card-image recap-video"><img src="images/frontslc17/title_danielburka.jpg" alt=""></div></a>
-				<h3>Daniel Burka</h3>
-				<p>The moment of truth for design leadership</p>
+				<a href="https://www.youtube.com/watch?v=mV0lp5cJpBo"><div href="https://www.youtube.com/watch?v=mV0lp5cJpBo" class="card-image recap-video"><img src="images/frontconference18/cover_benjamin_evans.jpg" alt=""></div></a>
+				<h3>Benjamin Evans</h3>
+				<p>The challenge of designing for everyone</p>
 			</li>
 			<li>
-				<a href="https://vimeo.com/222459441"><div href="https://vimeo.com/222459441" class="card-image recap-video"><img src="images/frontslc17/title_mariahhay.jpg" alt=""></div></a>
-				<h3>Mariah Hay</h3>
-				<p>Why Everyone and No One is Prepared to Manage Product</p>
+				<a href="https://www.youtube.com/watch?v=RkLQ2D1Jg9E"><div href="https://www.youtube.com/watch?v=RkLQ2D1Jg9E" class="card-image recap-video"><img src="images/frontconference18/cover_vicki_tan.jpg" alt=""></div></a>
+				<h3>Vicki Tan</h3>
+				<p>Designing with Intuition</p>
 			</li>
 			<li>
-				<a href="https://vimeo.com/222450170"><div href="https://vimeo.com/222450170" class="card-image recap-video"><img src="images/frontslc17/title_diogenesbrito.jpg" alt=""></div></a>
-				<h3>Diogenes Brito</h3>
-				<p>Design or Die Trying</p>
+				<a href="https://www.youtube.com/watch?v=QkOzNF492xY"><div href="https://www.youtube.com/watch?v=QkOzNF492xY" class="card-image recap-video"><img src="images/frontconference18/cover_cameron_moll.jpg" alt=""></div></a>
+				<h3>Cameron Moll</h3>
+				<p>When we align</p>
 			</li>
 			<li>
-				<a href="https://vimeo.com/223169495"><div href="https://vimeo.com/223169495" class="card-image recap-video"><img src="images/frontslc17/title_vickythomas.jpg" alt=""></div></a>
-				<h3>Vicky Thomas</h3>
-				<p>When and How to use Data Effectively</p>
+				<a href="https://www.youtube.com/watch?v=SW-h5UcjLIE"><div href="https://www.youtube.com/watch?v=SW-h5UcjLIE" class="card-image recap-video"><img src="images/frontconference18/cover_rayna_wiles.jpg" alt=""></div></a>
+				<h3>Rayna Wiles</h3>
+				<p>Researching as a facilitator</p>
 			</li>
 			<li>
-				<a href="https://vimeo.com/222456158"><div href="https://vimeo.com/222456158" class="card-image recap-video"><img src="images/frontslc17/title_josh_kendall.jpg" alt=""></div></a>
-				<h3>Josh Penrod & Kendall Hulet</h3>
-				<p>UX+PM=BFFs</p>
+				<a href="https://www.youtube.com/watch?v=gCLahVvDFPY"><div href="https://www.youtube.com/watch?v=gCLahVvDFPY" class="card-image recap-video"><img src="images/frontconference18/cover_chris_bhavika.jpg" alt=""></div></a>
+				<h3>Chris Mayfield & Bhavika Shah</h3>
+				<p>How to survive as a designer or PM in the era of the algorithm</p>
 			</li>
 			<li>
-				<a href="https://vimeo.com/223189913"><div href="https://vimeo.com/223189913" class="card-image recap-video"><img src="images/frontslc17/title_teresatorres.jpg" alt=""></div></a>
-				<h3>Teresa Torres</h3>
-				<p>Adopting Continuous Product Discovery Practices</p>
+				<a href="https://www.youtube.com/watch?v=SW-h5UcjLIE"><div href="https://www.youtube.com/watch?v=SW-h5UcjLIE" class="card-image recap-video"><img src="images/frontconference18/cover_amanda_richardson.jpg" alt=""></div></a>
+				<h3>Amanda Richardson</h3>
+				<p>Getting data right, A case study in how we did it wrong</p>
 			</li>
 		</ul>
 		<p>
-			<a href="https://vimeo.com/frontutah" class="button">Watch More</a>
+			<a href="https://www.youtube.com/channel/UCmqg-Iz_YVnKW72DDbGmTEQ" class="button">Watch More</a>
 		</p>
 	</section>
 	<section class="attendee-stats">
