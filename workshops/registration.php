@@ -116,7 +116,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<p class="about-accomodations">We have acquired a discounted nightly rate of $129/night + tax for a king bed and $139/night + tax for two queens, at the Staybridge only six minutes from the venue. Book your room online or by calling 801-871-0871 and asking for the “Front Utah” group discount. Free transportation between the hotel and venue will be provided.</p>
 			<div class="hotel">
 				<div class="hotel-info">
-					<h3>Staybride, Midvale, Utah</h3>
+					<h3>Staybridge, Midvale, Utah</h3>
 					<p>747 Blue Vista Ln, Midvale, UT 84047<p>
 					<p>Reservations: 801-871-0871</p>
 					<ul>
