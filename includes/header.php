@@ -4,6 +4,23 @@
 	<meta charset="UTF-8">
 	<title><?php echo $title; ?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Twitter Card data -->
+	<meta name="twitter:card" content="Front is the product conference for UX designers and product managers. It's a practitioner’s conference. Attendees come for an education, real world, from-the-trenches case studies, and hands-on training from their peers. It's four days of learning and growth, providing answers to deep organizational questions and insights into how to validate and solve the right problems in the right way.">
+	<meta name="twitter:site" content="@front">
+	<meta name="twitter:title" content="<?php echo $title; ?>">
+
+	<!-- Twitter Summary card images must be at least 120x120px -->
+	<meta name="twitter:image" content="https://www.frontutah.com/images/social-card-workshops.jpg">
+
+	<!-- Open Graph data -->
+	<meta property="og:title" content="Front - The product conference for UX designers and product managers" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="http://www.frontutah.com/" />
+	<meta property="og:image" content="https://www.frontutah.com/images/social-card-workshops.jpg" />
+	<meta property="og:description" content="Front is the product conference for UX designers and product managers. It's a practitioner’s conference. Attendees come for an education, real world, from-the-trenches case studies, and hands-on training from their peers. It's four days of learning and growth, providing answers to deep organizational questions and insights into how to validate and solve the right problems in the right way." /> 
+	<meta property="og:site_name" content="Front Conference" />
+
 	<link rel="stylesheet" href="/styles/style.css">
 	<link rel="stylesheet" href="/styles/magnific-popup.css">
 	
