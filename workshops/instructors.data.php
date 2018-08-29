@@ -275,12 +275,12 @@ $instructors[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/kendallhulet'
 );
 
-// Nick Slogget
+// Nick Sloggett
 $instructors[] = array(
 	'slug' => 'nicksloggett',
 	'first' => 'Nick',
-	'last' => 'Slogget',
-	'title' => 'Consulting Engineer',
+	'last' => 'Sloggett',
+	'title' => 'Practice Design Lead',
 	'company' => 'Formerly Uber',
 	'discipline' => 'leadership',
 	'photo' => 'frontworkshops18/speaker_nicksloggett.jpg',
