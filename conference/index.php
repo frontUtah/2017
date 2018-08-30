@@ -17,7 +17,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</ul>
 			</p>
 			<p class="date-location">6-7 June 2019 • Salt Lake City, Utah</p>
-			<!--<a href="http://www.workfront.com"><img id="broughtoyouby" src="/images/frontconference18/broughttoyouby_workfront.png" /></a>-->
+			<a href="http://www.pluralsight.com"><img id="broughtoyouby" src="/images/frontworkshops18/premeir-sponsor.png" /></a>
 			<p><a href="/conference/registration" class="button">Register</a></p>
 		</section>
 		<section class="training-courses">
