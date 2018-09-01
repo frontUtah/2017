@@ -18,6 +18,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		<section class="pricing">
 			<h2>Pricing</h2>
 			
+			<!-- EARLY BIRD -->
+			<!--
 			<div class="prices">
 				<dl class="pricing-types">
 					<dt><div></div></dt>
@@ -66,16 +68,13 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<dd class="standard">$960</dd>
 				</dl>
 			</div>
+			-->
 			
-			<!--
+			<!-- STANDARD -->
 			<div class="prices">
 				<dl class="full">
 					<dt><div>Full Workshop Series</div></dt>
-					<dd class="early">$1,499</dd>
-				</dl>
-				<dl class="full-plus-lift">
-					<dt><div>Full Workshop Series + 2 day lift pass to Park City Mountain Resort</div></dt>
-					<dd class="early">$1,799</dd>
+					<dd class="early">$1,199</dd>
 				</dl>
 				<dl>
 					<dt>
@@ -84,7 +83,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<small>10% off per ticket</small>
 						</div>
 					</dt>
-					<dd class="early">$1,349</dd>
+					<dd class="early">$1,080</dd>
 				</dl>
 				<dl>
 					<dt>
@@ -93,7 +92,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<small>15% off per ticket</small>
 						</div>
 					</dt>
-					<dd class="early">$1,279</dd>
+					<dd class="early">$1,020</dd>
 				</dl>
 				<dl>
 					<dt>
@@ -102,10 +101,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<small>20% off per ticket</small>
 						</div>
 					</dt>
-					<dd class="early">$1,199</dd>
+					<dd class="early">$960</dd>
 				</dl>
 			</div>
-			-->
 			
 			<p><a target="_blank" href="https://frontworkshops2018.eventbrite.com" class="button">Register</a></p>
 		</section>
