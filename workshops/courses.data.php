@@ -38,7 +38,7 @@ $courses[] = array(
 	'day' => 1,
 	'slot' => 3,
 	'instructor' => 'mattbryan',
-	'level' => 'basics'
+	'level' => 'intermediate'
 );
 
 // Drew Bridewell
@@ -119,7 +119,7 @@ $courses[] = array(
 	'day' => 2,
 	'slot' => 2,
 	'instructor' => 'vickythomas',
-	'level' => 'basics'
+	'level' => 'intermediate'
 );
 
 
@@ -141,13 +141,13 @@ $courses[] = array(
 
 // Joshua Taylor
 $courses[] = array(
-	'title' => 'TBA',
-	'description' => "TBA",
+	'title' => 'Building teams with the enneagram',
+	'description' => "We’ll explore how different personality types deal with different projects, stressful situations, and interpersonal relationships. This workshop will help you understand how to get people on the right projects and teams, how to build customized career plans, and how managers can ensure every employee is their happiest and best self at work.",
 	'track' => 'leadership',
 	'day' => 1,
 	'slot' => 2,
 	'instructor' => 'joshuataylor',
-	'level' => 'basics'
+	'level' => 'intermediate'
 );
 
 // Thor Ernstsson
