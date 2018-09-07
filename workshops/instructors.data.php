@@ -229,6 +229,21 @@ $instructors[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/danyelrios/'
 );
 
+// Becca Danna
+$instructors[] = array(
+	'slug' => 'beccadanna',
+	'first' => 'Becca',
+	'last' => 'Danna',
+	'title' => 'User Experience Researcher',
+	'company' => 'Google',
+	'discipline' => 'research',
+	'photo' => 'frontworkshops18/speaker_becca_danna.jpg',
+	'bio' => "Becca is a designer and researcher dedicated to infusing human-centered practices into product strategy. She is currently a User Experience Researcher at Google working on products that help users contact and connect with people in their lives. Prior to joining Google, Becca lead a multi-disciplinary UX team at IBM focusing on building machine learning data visualizations and analytics based reporting solutions for Enterprise customers. </br></br>Becca has an Industrial Design background from The University of the Arts in Philadelphia. She currently lives in San Francisco where she enjoys hiking, yoga, and walking along the Bay. ",
+	'twitter' => 'https://twitter.com/beccadanna',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/rebecca-danna-673a7615/'
+);
+
 // Thor Ernstsson
 $instructors[] = array(
 	'slug' => 'thorernstsson',
