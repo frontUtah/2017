@@ -191,7 +191,7 @@ $courses[] = array(
 // Amanda Smith
 $courses[] = array(
 	'title' => 'UX & The Power of One',
-	'description' => "This workshop is a structured session to review an experience that supports the growth of a UX department within an organization through qualitative validation. This approach demonstrates an approach that can build a department into a holistic Experience Design Team that can support across many divisions within a company",
+	'description' => "This workshop is a structured session to review an experience that supports the growth of a UX department within an organization through quantitative validation. This approach demonstrates an approach that can build a department into a holistic Experience Design Team that can support across many divisions within a company",
 	'track' => 'research',
 	'day' => 1,
 	'slot' => 1,
