@@ -133,7 +133,7 @@ $instructors[] = array(
 	'company' => 'Rev.com',
 	'discipline' => 'pm',
 	'photo' => 'frontworkshops18/speaker_barroncaster.jpg',
-	'bio' => "Coming Soon",
+	'bio' => "Barron is the Director of Growth at Rev.com, where he has the pleasure of working alongside Andy Branch (Front co-founder). Over the past couple of years, he's built a world-class growth team that acquires customers at scale. In a previous life, he worked as a VC at General Catalyst and an operator at Zenefits. In his spare time, Barron writes about Growth and management, as well as advises and invests in early-stage companies. He is also pursuing a walking handstand in the next 12 months, although little progress has been made.",
 	'twitter' => 'BarronCaster',
 	'instagram' => 'Barron is the Director of Growth at Rev.com, where he has the pleasure of working alongside Andy Branch (Front co-founder). Over the past couple of years, he has built a world-class growth team that acquires customers at scale. In a previous life, he worked as a VC at General Catalyst and an operator at Zenefits. In his spare time, Barron writes about Growth and management, as well as advises and invests in early-stage companies. He is also pursuing a walking handstand in the next 12 months, although little progress has been made.',
 	'linkedin' => 'https://www.linkedin.com/in/barroncaster/'
@@ -227,6 +227,21 @@ $instructors[] = array(
 	'twitter' => '',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/danyelrios/'
+);
+
+// Becca Danna
+$instructors[] = array(
+	'slug' => 'beccadanna',
+	'first' => 'Becca',
+	'last' => 'Danna',
+	'title' => 'User Experience Researcher',
+	'company' => 'Google',
+	'discipline' => 'research',
+	'photo' => 'frontworkshops18/speaker_becca_danna.jpg',
+	'bio' => "Becca is a designer and researcher dedicated to infusing human-centered practices into product strategy. She is currently a User Experience Researcher at Google working on products that help users contact and connect with people in their lives. Prior to joining Google, Becca lead a multi-disciplinary UX team at IBM focusing on building machine learning data visualizations and analytics based reporting solutions for Enterprise customers. </br></br>Becca has an Industrial Design background from The University of the Arts in Philadelphia. She currently lives in San Francisco where she enjoys hiking, yoga, and walking along the Bay. ",
+	'twitter' => 'https://twitter.com/beccadanna',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/rebecca-danna-673a7615/'
 );
 
 // Thor Ernstsson
