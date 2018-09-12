@@ -315,7 +315,7 @@ $instructors[] = array(
 	'discipline' => 'leadership',
 	'photo' => 'frontworkshops18/speaker_joshuataylor.jpg',
 	'bio' => "Coming Soon",
-	'twitter' => '_taylorpalmer',
+	'twitter' => 'joshuantaylor',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/joshuantaylor'
 );
