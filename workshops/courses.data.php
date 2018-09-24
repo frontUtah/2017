@@ -138,14 +138,14 @@ $courses[] = array(
 	'level' => 'advanced'
 );
 
-// Joshua Taylor
+// Laura Hahn
 $courses[] = array(
-	'title' => 'Building teams with the enneagram',
-	'description' => "We’ll explore how different personality types deal with different projects, stressful situations, and interpersonal relationships. This workshop will help you understand how to get people on the right projects and teams, how to build customized career plans, and how managers can ensure every employee is their happiest and best self at work.",
+	'title' => 'Build Your Internal Network',
+	'description' => "Take a user-centric approach to building, maintaining, and leveraging your network within your organization. In this workshop, you’ll participate in hands-on activities to:<ul><li>Map your organization to identify gaps and blind spots</li><li>Pinpoint opportunities for relationship development</li> <li>Adapt an open-ended interview script to help define shared organizational challenges and goals</li><li>Apply these methods to a common case study</li></ul>By the end of the session, you should come away with a plan for how to extend and strategically tap into your internal network.",
 	'track' => 'leadership',
 	'day' => 1,
 	'slot' => 2,
-	'instructor' => 'joshuataylor',
+	'instructor' => 'laurahahn',
 	'level' => 'intermediate'
 );
 
@@ -234,7 +234,7 @@ $courses[] = array(
 // Rayna Wiles
 $courses[] = array(
 	'title' => 'Researching as a facilitator',
-	'description' => "A discussion about my principles for qualitative design research with suggestions for using them throughout product development.",
+	'description' => "Great research happens when you know why you're doing it and what you're getting out of it. You can lead stellar interviews, but if your findings can't be translated into actions your efforts will lie fallow.<br><br>This workshop focuses on the entire arc of a qualitative research effort. It will cover how to identify a need for research, what questions to ask to refine your goals, how to design activities, run sessions, synthesize findings, and apply them to your team's next steps.",
 	'track' => 'research',
 	'day' => 2,
 	'slot' => 2,

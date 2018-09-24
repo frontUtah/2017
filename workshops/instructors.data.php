@@ -193,7 +193,7 @@ $instructors[] = array(
 	'company' => 'Independent',
 	'discipline' => 'research',
 	'photo' => 'frontworkshops18/speaker_raynawiles.jpg',
-	'bio' => 'Rayna is a designer-research by trade and facilitator at heart. She currently advises the leadership and production teams of the OneMarket retail network, providing visual synthesis, process development, and strategic experience design. </br></br>She previously led groups at the San Francisco offices of frog Design & Westfield Labs. Her multi-disciplinary teams uncover needs and drive product strategy using an empathy driven design research process. She is a proud alumna of Stanford University and currently resides in Salt Lake City.',
+	'bio' => 'Rayna is a designer-researcher by trade and facilitator at heart. As co-founder of the studio This That & the Other Thing, she advises leadership and production teams, providing visual synthesis, process development, and strategic experience design.<br><br>She previously led groups at the San Francisco offices of frog Design & Westfield Labs. Her multi-disciplinary teams uncover needs and drive product strategy using an empathy driven design research process. She is a proud alumna of Stanford University and currently resides in Salt Lake City.',
 	'twitter' => '',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/rayna-wiles-50370a6/'
@@ -305,19 +305,19 @@ $instructors[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/nicksloggett'
 );
 
-// Joshua Taylor
+// Laura Hahn
 $instructors[] = array(
-	'slug' => 'joshuataylor',
-	'first' => 'Joshua',
-	'last' => 'Taylor',
-	'title' => 'Director of Design',
-	'company' => 'Credit Karma',
+	'slug' => 'laurahahn',
+	'first' => 'Laura',
+	'last' => 'Hahn',
+	'title' => 'Head of Design',
+	'company' => 'Priceline.com',
 	'discipline' => 'leadership',
-	'photo' => 'frontworkshops18/speaker_joshuataylor.jpg',
-	'bio' => "Josh is a design leader and innovator. He’s built teams of various sizes and is passionate about building teams where designers do their best work and ship world changing digital products.</br></br>He’s currently a Sr. Director of Product Design at Credit Karma where he leads multiple projects that are changing how Americans approach their finances. Previously, he worked as a contract designer for helping companies launch their first product, and spent 4 years at Evernote.</br></br>He’s also the host of The Not Craft Podcast where he talks to designers about the soft skills that we need to be great designers inside our organizations.</br></br>When he’s not designing, Josh gets excited about pottery and architecture, and weekends working in the yard or going to the beach with his family.",
-	'twitter' => 'joshuantaylor',
+	'photo' => 'frontworkshops18/speaker_laurahahn.jpg',
+	'bio' => "Laura is Head of Design at Priceline where she manages a team that works on flexible information architecture, modular design systems, and compelling customer experiences. She previously worked both in-house and as a consultant for companies in various industries including e-commerce, publishing, ad tech, supply chain logistics, and enterprise resource management. She’s keenly interested in the intersection between product design processes and organizational dynamics.",
+	'twitter' => 'lauradhahn',
 	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/joshuantaylor'
+	'linkedin' => 'https://www.linkedin.com/in/lauradhahn/'
 );
 
 
