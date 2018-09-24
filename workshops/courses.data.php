@@ -140,7 +140,7 @@ $courses[] = array(
 
 // Laura Hahn
 $courses[] = array(
-	'title' => 'Build Your Internal Network',
+	'title' => 'The Value of Building an Internal Network',
 	'description' => "Take a user-centric approach to building, maintaining, and leveraging your network within your organization. In this workshop, you’ll participate in hands-on activities to:<ul><li>Map your organization to identify gaps and blind spots</li><li>Pinpoint opportunities for relationship development</li> <li>Adapt an open-ended interview script to help define shared organizational challenges and goals</li><li>Apply these methods to a common case study</li></ul>By the end of the session, you should come away with a plan for how to extend and strategically tap into your internal network.",
 	'track' => 'leadership',
 	'day' => 1,
