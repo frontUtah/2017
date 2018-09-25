@@ -58,8 +58,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<h3>Hotel and Transportation</h3>
 						<dl class="accordion">
 							<dt class="accordion-title question">How do I book lodging? Is there a discount and what is the deadline?</dt>
-							<dd class="accordion-content answer">We are in the process of negotiated discount rates at a hotel near the venue and downtown.</dd>
-							<!-- dd class="accordion-content answer">We have acquired a discounted nightly rate of $229/night + tax for a king bed and $249/night + tax for two queens, at the DoubleTree by Hilton Park City. The rate is available for stays between 1-9 January 2018. The deadline for booking lodging at the discounted rate is 1 December 2018. We encourage you to register early as it is ski season and the hotel will likely sell out before that date. Book your room online or by calling 855-537-5305 and asking for the “Front” (BL8) group discount. Free transportation between the venue and this hotel will be provided.</dd-->
+							<!--<dd class="accordion-content answer">We are in the process of negotiated discount rates at a hotel near the venue and downtown.</dd> -->
+							<dd class="accordion-content answer">We have acquired a discounted nightly rate of $129/night + tax for a king bed and $139/night + tax for two queens, at the Staybridge only six minutes from the venue. Book your room online or by calling 801-871-0871 and asking for the “Front Utah” group discount. Free transportation between the hotel and venue will be provided.</dd>
 						</dl>
 						
 						<!--
