@@ -76,16 +76,16 @@ $global_nav[6] = array('subsite' => 'newsletter', 'link' => 'https://frontutah.u
 
 switch($uri_parts[0]) {
 	case 'conference':
-		$global_nav_order = array(2,3,4,5,6,1);
+		$global_nav_order = array(2,3,4,5,1);
 		break;
 	case 'workshops';
-		$global_nav_order = array(3,2,4,5,6,1);
+		$global_nav_order = array(3,2,4,5,1);
 		break;
 	case 'onsite';
-		$global_nav_order = array(4,2,3,5,6,1);
+		$global_nav_order = array(4,2,3,5,1);
 		break;
 	default:
-		$global_nav_order = array(1,2,3,4,5,6);
+		$global_nav_order = array(1,2,3,4,5);
 }
 
 
