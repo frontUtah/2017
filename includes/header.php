@@ -40,6 +40,12 @@
 	  'https://connect.facebook.net/en_US/fbevents.js');
 	  fbq('init', '279063112700042');
 	  fbq('track', 'PageView');
+	  fbq('track', 'CompleteRegistration');
+	  fbq('track', 'AddPaymentInfo');
+	  fbq('track', 'Purchase');
+	  fbq('track', 'Lead');
+	  fbq('track', 'AddToCart');
+	  fbq('track', 'ViewContent');
 	</script>
 	<noscript><img height="1" width="1" style="display:none"
 	  src="https://www.facebook.com/tr?id=279063112700042&ev=PageView&noscript=1"
@@ -61,6 +67,9 @@ $global_nav[2] = array('subsite' => 'conference', 'link' => '/conference', 'text
 $global_nav[3] = array('subsite' => 'workshops', 'link' => '/workshops', 'text' => 'Workshop Series', 'class' => 'workshops');
 $global_nav[4] = array('subsite' => 'onsite', 'link' => '/onsite', 'text' => 'Custom Onsite Training', 'class' => 'custom-training');
 $global_nav[5] = array('subsite' => 'magazine', 'link' => 'https://medium.com/front-conference', 'text' => 'Blog', 'class' => 'magazine', 'target' => '_blank');
+$global_nav[6] = array('subsite' => 'newsletter', 'link' => 'https://frontutah.us2.list-manage.com/subscribe?u=5a9bade195be7c98130573919&id=e8d567ca7f', 'text' => 'Newsletter', 'class' => 'newsletter', 'target' => '_blank');
+
+
 
 
 // Mobile Order: Actual Order. Desktop Order: Class Names. Bless you Flexbox)
