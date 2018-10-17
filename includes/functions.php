@@ -11,6 +11,30 @@ function get_instructor($slug) {
 	}
 }
 
+// get onsites by consultant
+function get_onsites($consultant) {
+	global $onsites;
+
+	foreach($onsites as $onsite) {
+		if($onsite['consultant'] == $consultant) {
+			$these_onsites[] = $onsite;
+		}
+	}
+
+	return $these_onsites;
+}
+
+// get onsites by track
+function get_onstites($workshop, $slot) {
+	global $onsites;
+
+	foreach($onsites as $onsite) {
+		if($onsite['workshop'] == $workshop && $onsite['slot'] == $slot) {
+			return $onsite;
+		}
+	}
+}
+
 // get courses by instructor
 function get_courses($instructor) {
 	global $courses;

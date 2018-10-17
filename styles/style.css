@@ -279,14 +279,14 @@ section h2 {
 	font: 700 20px "Proxima Nova", Helvetica, Arial, sans-serif;
 	text-align: center;
 	margin-bottom: 10px;
-	letter-spacing: .22em
+	letter-spacing: .18em
 }
 
 @media (min-width:1000px) {
 	.button, button {
 		font-size: 28px;
 		padding: 16px 32px;
-		letter-spacing: .18em
+		letter-spacing: .10em
 	}
 }
 
@@ -1321,7 +1321,7 @@ footer p {
 	.custom-training .hero {
 		height: 1070px;
 		text-align: left;
-		padding: 650px 120px 40px
+		padding: 450px 120px 40px
 	}
 
 	.custom-training .hero h1 {
