@@ -17,10 +17,6 @@ switch($uri_parts[0]) {
 		require($_SERVER['DOCUMENT_ROOT'] . '/workshops/instructors.data.php');
 		require($_SERVER['DOCUMENT_ROOT'] . '/workshops/courses.data.php');
 		break;
-	case 'onsite';
-		require($_SERVER['DOCUMENT_ROOT'] . '/onsite/consultants.data.php');
-		require($_SERVER['DOCUMENT_ROOT'] . '/onsite/onsites.data.php');
-		break;
 }
 
 ?>
