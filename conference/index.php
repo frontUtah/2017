@@ -81,6 +81,7 @@ foreach($speakers as $instructor) {
 			<a href="http://www.pluralsight.com" target="_blank"><img id="premier" src="/images/sponsors/pluralsight.svg" /></a>
 			<ul class="second_tier">
 				<li class="second_tier_sponsor"><a href="http://www.balsamiq.com" target="_blank"><img src="/images/sponsors/balsamiq.svg" /></a></li>
+				<li class="second_tier_sponsor"><a href="http://www.underbelly.is" target="_blank"><img src="/images/sponsors/underbelly.svg" /></a></li>
 			  <!--
 			  <li class="second_tier_sponsor"><a href="http://www.pluralsight.com" target="_blank"><img src="/images/sponsors/pluralsight.svg" /></a></li>
 			  <li class="second_tier_sponsor"><a href="http://www.jane.com" target="_blank"><img src="/images/sponsors/jane.svg" /></a></li>
