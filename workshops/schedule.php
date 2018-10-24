@@ -69,7 +69,7 @@ function print_schedulerow($day, $slot) {
 						<dl>
 							<dt class="time">7:30 AM</dt>
 							<dd class="food">
-								<p>Hot Breakfast and Registration</p>
+								<p>Registration and hot breakfast</p>
 							</dd>
 						</dl>
 					</li>
@@ -107,7 +107,7 @@ function print_schedulerow($day, $slot) {
 						<dl>
 							<dt class="time">7:30 AM</dt>
 							<dd class="food">
-								<p>Hot Breakfast and Registration</p>
+								<p>Hot breakfast</p>
 							</dd>
 						</dl>
 					</li>
@@ -172,7 +172,7 @@ function print_schedulerow($day, $slot) {
 						<dl>
 							<dt class="time">7:30 AM</dt>
 							<dd class="food">
-								<p>Hot Breakfast and Registration</p>
+								<p>Hot Breakfast and registration</p>
 							</dd>
 						</dl>
 					</li>
@@ -280,7 +280,7 @@ function print_schedulerow($day, $slot) {
 						<dl>
 							<dt class="time">7:30 AM</dt>
 							<dd class="food">
-								<p>Hot Breakfast and Registration</p>
+								<p>Hot breakfast</p>
 							</dd>
 						</dl>
 					</li>
