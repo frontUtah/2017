@@ -1,5 +1,5 @@
 <?php
 
-header('location: https://join.slack.com/t/frontutah/shared_invite/enQtMzYzNzc0MDk5ODc0LTA1NWZjODdkYWU3ZDZlOWI4YzZkMjFkYTc4OGIzNDA3MzMyMTA2YWUyMmRhNDJkMzU5NmFmZTNkNDlkNmNlYWQ');	
+header('location: https://join.slack.com/t/frontutah/shared_invite/enQtNDcwMTcwOTk5MjA3LTIwNjg1Y2ZkZTIyNmY4Nzk3MWE5MWNkOGUxMTdiOGNhYTI5Y2U4NDRhMzM0MTUxYzZlZmI4YmZlM2NjNjY2ZWI');	
 	
 ?>
