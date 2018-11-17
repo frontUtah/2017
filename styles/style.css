@@ -279,14 +279,14 @@ section h2 {
 	font: 700 20px "Proxima Nova", Helvetica, Arial, sans-serif;
 	text-align: center;
 	margin-bottom: 10px;
-	letter-spacing: .22em
+	letter-spacing: .12em
 }
 
 @media (min-width:1000px) {
 	.button, button {
 		font-size: 28px;
 		padding: 16px 32px;
-		letter-spacing: .18em
+		letter-spacing: .12em
 	}
 }
 
@@ -929,43 +929,43 @@ footer p {
 }
 
 .home .hero.image-1 {
-	background-image: url(../images/home-bg-1.jpg)
+	background-image: url(../images/home-bg/home-bg-raynawiles.jpg)
 }
 
 .home .hero.image-2 {
-	background-image: url(../images/home-bg-2.jpg)
+	background-image: url(../images/home-bg/home-bg-amandarichardson.jpg)
 }
 
 .home .hero.image-3 {
-	background-image: url(../images/home-bg-3.jpg)
+	background-image: url(../images/home-bg/home-bg-cameronmoll.jpg)
 }
 
 .home .hero.image-4 {
-	background-image: url(../images/home-bg-4.jpg)
+	background-image: url(../images/home-bg/home-bg-vickitan.jpg)
 }
 
 .home .hero.image-5 {
-	background-image: url(../images/home-bg-5.jpg)
+	background-image: url(../images/home-bg/home-bg-bhavika-chris.jpg)
 }
 
 .home .hero.image-6 {
-	background-image: url(../images/home-bg-6.jpg)
+	background-image: url(../images/home-bg/home-bg-panel.jpg)
 }
 
 .home .hero.image-7 {
-	background-image: url(../images/home-bg-7.jpg)
+	background-image: url(../images/home-bg/home-bg-aryelcianflone.jpg)
 }
 
 .home .hero.image-8 {
-	background-image: url(../images/home-bg-8.jpg)
+	background-image: url(../images/home-bg/home-bg-attendees-1.jpg)
 }
 
 .home .hero.image-9 {
-	background-image: url(../images/home-bg-9.jpg)
+	background-image: url(../images/home-bg/home-bg-attendees-2.jpg)
 }
 
 .home .hero.image-10 {
-	background-image: url(../images/home-bg-10.jpg)
+	background-image: url(../images/home-bg/home-bg-attendees-3.jpg)
 }
 
 @media (min-width:1000px) {
@@ -1057,12 +1057,12 @@ footer p {
 
 .product-workshops .hero {
 	height: auto;
-	background-image: url(../images/workshops-bg.jpg);
+	background-image: url(../images/home-bg/home-bg-workshops.jpg);
 	padding: 100px 40px 50px
 }
 
 .product-casestudy .hero {
-	background-image: url(../images/home-bg-10.jpg);
+	background-image: url(../images/home-bg/home-bg-cameronmoll.jpg);
 }
 
 .product-workshops .hero h1 {
@@ -1159,10 +1159,11 @@ footer p {
 
 .product-workshops-page .hero {
 	background-image: url(../images/workshops-bg.jpg);
+	background-position: center center;
 }
 
 .product-schedule-front .hero {
-	background-image: url(../images/home-bg-2.jpg);
+	background-image: url(../images/home-bg/home-bg-panel.jpg);
 	background-position: center center;
 }
 .product-speakers-front .hero {
@@ -1176,11 +1177,11 @@ footer p {
 }
 
 .product-conference-faq .hero {
-	background-image: url(../images/home-bg-8.jpg);
+	background-image: url(../images/home-bg/home-bg-attendees-1.jpg);
 }
 
 .product-why .hero {
-	background-image: url(../images/home-bg-9.jpg);
+	background-image: url(../images/home-bg/home-bg-attendees-2.jpg);
 }
 
 .workshops-courses .hero {
@@ -1319,9 +1320,9 @@ footer p {
 
 @media (min-width:1000px) {
 	.custom-training .hero {
-		height: 1070px;
+		height: 670px;
 		text-align: left;
-		padding: 650px 120px 40px
+		padding: 400px 120px 40px
 	}
 
 	.custom-training .hero h1 {
