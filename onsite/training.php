@@ -3,12 +3,12 @@
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
 
-// get consultant information
-$consultant = get_consultant($uri_parts[2]);
-$trainings = get_trainings_by_instructor($uri_parts[2]);
+// get training information
+$training = get_training($uri_parts[2]);
+$consultant = get_consultant($training['instructor']);
 
-// redirect if instructor doesn't exist
-if(is_null($consultant)) {
+// redirect if training doesn't exist
+if(is_null($training)) {
 	header('location: http://' . $_SERVER['SERVER_NAME'] . '/onsite');
 	exit();
 }
@@ -36,7 +36,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<div class="instructor-photo">
 						<img src="/images/<?php echo $consultant['photo']; ?>" alt="">
 					</div>
-					<h4><?php echo $consultant['first'] . ' ' . $consultant['last'] ?></h4>
+					<h4><a href="/onsite/consultant/<?php echo $consultant['slug']; ?>"><?php echo $consultant['first'] . ' ' . $consultant['last'] ?></a></h4>
 					<p class="title"><?php echo $consultant['title']; ?><br><?php echo $consultant['company']; ?></p>
 					<div class="about-instructor" style="margin-top: 50px;">
 						<h3>About <?php echo $consultant['first'] ?></h3>
@@ -71,15 +71,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				<div class="course-description">
 					<?php
 
-					if(count($trainings) > 0) {
-						foreach($trainings as $slug => $their_trainings) {
-								echo '<h3><a href="/onsite/training/' . $their_trainings['slug'] . '">' . $their_trainings['title'] . '</a></h3>';
-								echo '<p><strong>Size:</strong> ' . $their_trainings['capacity'] . ' &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Length:</strong> ' . $their_trainings['length'] . ' &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Price:</strong> $' . $their_trainings['price'] . '</p>';
-								echo '<p>' . $their_trainings['description'] . '</p>';
-								echo '<p><a href="mailto:ben@benpeck.com?subject=Front Onsite Training Request: ' . $their_trainings['title'] . '" class="button button-small">Contact Us To Book</a></p>';
-								
-						}
-					}
+					echo '<h3>' . $training['title'] . '</h3>';
+					echo '<p><strong>Size:</strong> 10 - 50 &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Length:</strong> One Day &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Price:</strong> $' . $training['price'] . '</p>';
+					echo '<p>' . $training['description'] . '</p>';
+					echo '<p><a href="mailto:ben@benpeck.com?subject=Front Onsite Training Request: ' . $training['title'] . '" class="button button-small">Contact Us To Book</a></p>';
 
 					?>
 				</div>

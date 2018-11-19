@@ -70,12 +70,23 @@ function get_talk($day, $slot) {
 	}
 }
 
-// get trainings (default by subject)
-function get_trainings($subject) {
+// get individual training
+function get_training($slug) {
+	global $trainings;
+	
+	foreach($trainings as $training) {
+		if($training['slug'] == $slug) {
+			return $training;
+		}
+	}
+}
+
+// get trainings
+function get_trainings($category) {
 	global $trainings;
 
 	foreach($trainings as $training) {
-		if($training['subject'] == $subject) {
+		if(in_array($category, $training['categories'])) {
 			$these_trainings[$training['instructor']][] = $training;
 		}
 	}

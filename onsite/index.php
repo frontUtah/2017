@@ -11,8 +11,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 <?php
 	
-function print_trainings($subject) {
-	$trainings = get_trainings($subject);
+function print_trainings($category) {
+	$trainings = get_trainings($category);
 	
 	echo '
 						<ul class="days-courses">';
@@ -24,7 +24,7 @@ function print_trainings($subject) {
 			echo '
 							<li class="course">
 								<dl>
-									<dd class="instructor ' . $subject . '">
+									<dd class="instructor ' . $category . '">
 										<div class="instructor-photo">
 											<a href="/onsite/consultant/' . $consultant['slug'] . '"><img src="/images/';
 																	
@@ -49,8 +49,8 @@ function print_trainings($subject) {
 									
 									foreach($their_trainings as $training) {
 										echo '									
-											<h4>' . $training['title'] . '</h4>
-											<p><strong>Size:</strong> 10 - 50 &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Length:</strong> One Day &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Price:</strong> $' . $training['price'] . '</p>
+											<h4><a href="/onsite/training/' . $training['slug'] . '">' . $training['title'] . '</a></h4>
+											<p><strong>Size:</strong> ' . $training['capacity'] . ' &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Length:</strong> ' . $training['length'] . ' &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Price:</strong> $' . $training['price'] . '</p>
 											<p>' . $training['description'] . '</p>';
 									}
 									
@@ -79,22 +79,22 @@ function print_trainings($subject) {
 		<div class="course-calendar">
 			
 			<div class="course-date theme-ux">
-				<h3>UX Trainings</h3>
+				<h3>UX training</h3>
 					<?php print_trainings('ux'); ?>
 			</div>
 			
 			<div class="course-date theme-pm">
-				<h3>Product Management Trainings</h3>
+				<h3>Product Management training</h3>
 					<?php print_trainings('pm'); ?>
 			</div>
 			
 			<div class="course-date theme-research">
-				<h3>Research Trainings</h3>
+				<h3>Research training</h3>
 					<?php print_trainings('research'); ?>
 			</div>
 			
 			<div class="course-date theme-leadership">
-				<h3>Leadership Trainings</h3>
+				<h3>Leadership training</h3>
 					<?php print_trainings('leadership'); ?>
 			</div>
 		</div>
