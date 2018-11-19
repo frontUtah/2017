@@ -2,14 +2,17 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$consultant = get_consultant($uri_parts[2]);
 
+// get consultant information
+$consultant = get_consultant($uri_parts[2]);
+$trainings = get_trainings_by_instructor($uri_parts[2]);
 
 // redirect if instructor doesn't exist
 if(is_null($consultant)) {
 	header('location: http://' . $_SERVER['SERVER_NAME'] . '/onsite');
 	exit();
 }
+
 
 $title = 'Front - Custom onsite UX & Product Management training';
 
