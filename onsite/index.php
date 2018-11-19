@@ -67,7 +67,7 @@ function print_trainings($subject) {
 									echo '" alt=""></a>
 										</div>
 										<div>
-											<a href="#">
+											<a href="/onsite/consultant/' . $consultant['slug'] . '">
 												<h4>' . $consultant['first'] . ' ' . $consultant['last'] . '</h4>
 												<p class="title">' . $consultant['title'] . '<br>' . $consultant['company'] . '</p>
 												<a href="/onsite/consultant/' . $consultant['slug'] . '" class="button button-small">Learn More</a>
