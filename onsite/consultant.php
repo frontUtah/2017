@@ -2,10 +2,10 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$instructor = get_instructor($uri_parts[2]);
+$consultant = get_consultant($uri_parts[2]);
 
 // redirect if instructor doesn't exist
-if(is_null($instructor)) {
+if(is_null($consultant)) {
 	header('location: http://' . $_SERVER['SERVER_NAME'] . '/onsite');
 	exit();
 }
