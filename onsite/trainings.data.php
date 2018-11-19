@@ -11,15 +11,6 @@
 
 // USER EXPERIENCE WORKSHOPS -----------------------------
 
-// Andrew Branch
-$trainings[] = array(
-	'instructor' => 'andrewbranch',
-	'subject' => 'ux',
-	'title' => 'Principles of UX/UI design',
-	'description' => "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.",
-	'price' => '7,000'
-);
-
 // Ben Peck
 $trainings[] = array(
 	'instructor' => 'benpeck',
@@ -47,6 +38,24 @@ $trainings[] = array(
 	'price' => '7,000'
 );
 
+// Peter Merholz
+$trainings[] = array(
+	'instructor' => 'petermerholz',
+	'subject' => 'ux',
+	'title' => 'Design Your Design Organization',
+	'description' => "As your design organization grows, and becomes more complex, strains and pains emerge. Designers are spread too thin and don’t feel good about the quality of their work. How best to work within cross-functional teams is unclear. Retention suffers as designers feel ineffective and their career growth isn’t being given sufficient attention. Recruiting and hiring practices aren’t filling roles quickly enough, leaving gaps throughout the organization. Design leaders can’t devote their energy to creative leadership as operational challenges take precedence. The user experience has lost cohesion as more and more isolated teams contribute to it. <br><br>This workshop provides a framework for shaping your design organization, and a roadmap for how it can grow over time. We will explore different organizational models for design teams, and how they relate to their cross-functional peers. We’ll look at key matters of skills, process, and design leadership to ensure that the team is only delivering high-quality output. We will discuss the stages of evolution for a design organization, and when it makes sense to bring in certain roles and practices, such as UX Research and Design Operations. And we will dig into matters of professional development and people management, with a focus on making team members feel supported not just in their work but their careers." ,
+	'price' => '13,000'
+);
+
+// Peter Merholz
+$trainings[] = array(
+	'instructor' => 'petermerholz',
+	'subject' => 'ux',
+	'title' => 'Coach, Diplomat, Champion, Architect: The Complete Design Leader',
+	'description' => "With the rapid growth of design inside companies, there's been a concomitant need for design leadership. But design leadership and management (at scale) is new, and many design leaders are not equipped to take on the challenge. The struggle figuring out how to get the most out of their teams, collaborate with peers, and work with executives. They often revert to the skills that allowed them to succeed as designers, unaware that those practices are not going to help them succeed in their new role.<br><br>This workshop, which is run more like a facilitated conversation, Peter walks your design, research, and content leaders through a framework for practicing leadership, drawing on four archetypes:<ul><li>Coach, managing down to get the most out of their team</li><li>Diplomat, managing across to create successful collaborations with non-design peers</li><li>Champion, managing up to productively engage executives and other stakeholders</li><li>Architect, leveraging themselves through creating systems and structures that enable scale</li></ul>" ,
+	'price' => '13,000'
+);
+
 // Sarah Doody
 $trainings[] = array(
 	'instructor' => 'sarahdoody',
@@ -64,6 +73,15 @@ $trainings[] = array(
 	'subject' => 'pm',
 	'title' => 'Testing & Validating / Minimum Viable Product',
 	'description' => "You have a big product idea that you are convinced will disrupt your market. You’re convinced, but you need to convince external or internal investors. Learn about the proven method I’ve used to test and validate products used by millions. Learn the steps for building the MVP and testing that the product will not only fit the market need, but also solve jobs to be done, has the right scope and is priced right. Also learn best practices for finding the right people to contact that will help you validate the idea. " ,
+	'price' => '7,000'
+);
+
+// Nate Barrett
+$trainings[] = array(
+	'instructor' => 'natebarrett',
+	'subject' => 'pm',
+	'title' => 'Soft Skills are Hard Skills',
+	'description' => "Though you can’t measure soft skills the way you can hard skills, that doesn’t make them any less important. They aren’t learned in a formal education setting. They are learned by conscious practice and effort. Learn about these skills through stories of success and failure and why these skills are so important to a product builder." ,
 	'price' => '7,000'
 );
 
@@ -114,6 +132,24 @@ $trainings[] = array(
 	'price' => '7,000'
 );
 
+// Peter Merholz
+$trainings[] = array(
+	'instructor' => 'petermerholz',
+	'subject' => 'research',
+	'title' => 'Design Your Design Organization',
+	'description' => "As your design organization grows, and becomes more complex, strains and pains emerge. Designers are spread too thin and don’t feel good about the quality of their work. How best to work within cross-functional teams is unclear. Retention suffers as designers feel ineffective and their career growth isn’t being given sufficient attention. Recruiting and hiring practices aren’t filling roles quickly enough, leaving gaps throughout the organization. Design leaders can’t devote their energy to creative leadership as operational challenges take precedence. The user experience has lost cohesion as more and more isolated teams contribute to it. <br><br>This workshop provides a framework for shaping your design organization, and a roadmap for how it can grow over time. We will explore different organizational models for design teams, and how they relate to their cross-functional peers. We’ll look at key matters of skills, process, and design leadership to ensure that the team is only delivering high-quality output. We will discuss the stages of evolution for a design organization, and when it makes sense to bring in certain roles and practices, such as UX Research and Design Operations. And we will dig into matters of professional development and people management, with a focus on making team members feel supported not just in their work but their careers." ,
+	'price' => '13,000'
+);
+
+// Peter Merholz
+$trainings[] = array(
+	'instructor' => 'petermerholz',
+	'subject' => 'research',
+	'title' => 'Coach, Diplomat, Champion, Architect: The Complete Design Leader',
+	'description' => "With the rapid growth of design inside companies, there's been a concomitant need for design leadership. But design leadership and management (at scale) is new, and many design leaders are not equipped to take on the challenge. The struggle figuring out how to get the most out of their teams, collaborate with peers, and work with executives. They often revert to the skills that allowed them to succeed as designers, unaware that those practices are not going to help them succeed in their new role.<br><br>This workshop, which is run more like a facilitated conversation, Peter walks your design, research, and content leaders through a framework for practicing leadership, drawing on four archetypes:<ul><li>Coach, managing down to get the most out of their team</li><li>Diplomat, managing across to create successful collaborations with non-design peers</li><li>Champion, managing up to productively engage executives and other stakeholders</li><li>Architect, leveraging themselves through creating systems and structures that enable scale</li></ul>" ,
+	'price' => '13,000'
+);
+
 // Sarah Doody
 $trainings[] = array(
 	'instructor' => 'sarahdoody',
@@ -151,6 +187,33 @@ $trainings[] = array(
 	'title' => 'Motivating Product Teams Through a Culture of Aligned Autonomy',
 	'description' => "Product builders are driven by understanding and experiencing customer pain and building experiences to ease and remove that pain. We know our customers better than anyone in our organization. Unfortunately, many organizations have leadership that gets in the way with too much process and hierarchy. Learn how a culture of autonomy flips traditional organizational thinking on its head with a focus on product outcomes, servant leadership and bottom up thinking." ,
 	'price' => '7,000'
+);
+
+// Nate Barrett
+$trainings[] = array(
+	'instructor' => 'natebarrett',
+	'subject' => 'leadership',
+	'title' => 'Soft Skills are Hard Skills',
+	'description' => "Though you can’t measure soft skills the way you can hard skills, that doesn’t make them any less important. They aren’t learned in a formal education setting. They are learned by conscious practice and effort. Learn about these skills through stories of success and failure and why these skills are so important to a product builder." ,
+	'price' => '7,000'
+);
+
+// Peter Merholz
+$trainings[] = array(
+	'instructor' => 'petermerholz',
+	'subject' => 'leadership',
+	'title' => 'Design Your Design Organization',
+	'description' => "As your design organization grows, and becomes more complex, strains and pains emerge. Designers are spread too thin and don’t feel good about the quality of their work. How best to work within cross-functional teams is unclear. Retention suffers as designers feel ineffective and their career growth isn’t being given sufficient attention. Recruiting and hiring practices aren’t filling roles quickly enough, leaving gaps throughout the organization. Design leaders can’t devote their energy to creative leadership as operational challenges take precedence. The user experience has lost cohesion as more and more isolated teams contribute to it. <br><br>This workshop provides a framework for shaping your design organization, and a roadmap for how it can grow over time. We will explore different organizational models for design teams, and how they relate to their cross-functional peers. We’ll look at key matters of skills, process, and design leadership to ensure that the team is only delivering high-quality output. We will discuss the stages of evolution for a design organization, and when it makes sense to bring in certain roles and practices, such as UX Research and Design Operations. And we will dig into matters of professional development and people management, with a focus on making team members feel supported not just in their work but their careers." ,
+	'price' => '13,000'
+);
+
+// Peter Merholz
+$trainings[] = array(
+	'instructor' => 'petermerholz',
+	'subject' => 'leadership',
+	'title' => 'Coach, Diplomat, Champion, Architect: The Complete Design Leader',
+	'description' => "With the rapid growth of design inside companies, there's been a concomitant need for design leadership. But design leadership and management (at scale) is new, and many design leaders are not equipped to take on the challenge. The struggle figuring out how to get the most out of their teams, collaborate with peers, and work with executives. They often revert to the skills that allowed them to succeed as designers, unaware that those practices are not going to help them succeed in their new role.<br><br>This workshop, which is run more like a facilitated conversation, Peter walks your design, research, and content leaders through a framework for practicing leadership, drawing on four archetypes:<ul><li>Coach, managing down to get the most out of their team</li><li>Diplomat, managing across to create successful collaborations with non-design peers</li><li>Champion, managing up to productively engage executives and other stakeholders</li><li>Architect, leveraging themselves through creating systems and structures that enable scale</li></ul>" ,
+	'price' => '13,000'
 );
 
 

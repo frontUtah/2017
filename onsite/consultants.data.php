@@ -95,6 +95,22 @@ $consultants[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/natebarrett/'
 );
 
+
+// Peter Merholz
+$consultants[] = array(
+	'slug' => 'petermerholz',
+	'first' => 'Peter',
+	'last' => 'Merholz',
+	'title' => 'VP, Head of Design',
+	'company' => 'Formerly Capitol One',
+	'discipline' => 'pm',
+	'photo' => 'frontworkshops18/speaker_petermerholz.jpg',
+	'bio' => 'Peter Merholz is a product management and design executive. Most notable for founding pioneering UX company Adaptive Path, he is currently leading product design at Jawbone. He believes there is no such thing as "UX Design."',
+	'twitter' => 'peterme',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/peter-merholz-ba013/'
+);
+
 // Sarah Doody
 $consultants[] = array(
 	'slug' => 'sarahdoody',

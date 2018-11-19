@@ -50,8 +50,8 @@ function print_trainings($subject) {
 									foreach($their_trainings as $training) {
 										echo '									
 											<h4>' . $training['title'] . '</h4>
-											<p>' . $training['description'] . '</p>
-											<p>Price: $' . $training['price'] . '</p>';
+											<p><strong>Size:</strong> 10 - 50 &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Length:</strong> One Day &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Price:</strong> $' . $training['price'] . '</p>
+											<p>' . $training['description'] . '</p>';
 									}
 									
 									echo '

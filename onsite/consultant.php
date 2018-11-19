@@ -64,6 +64,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							?>						
 						</ul>
 					</nav>
+
 				</div>
 			</div>
 			<div class="instructor-content">
@@ -72,9 +73,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 					if(count($trainings) > 0) {
 						foreach($trainings as $slug => $their_trainings) {
-								echo '<h4>' . $their_trainings['title'] . '</h4>';
+								echo '<h3>' . $their_trainings['title'] . '</h3>';
+								echo '<p><strong>Size:</strong> 10 - 50 &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Length:</strong> One Day &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Price:</strong> $' . $their_trainings['price'] . '</p>';
 								echo '<p>' . $their_trainings['description'] . '</p>';
-								echo '<p>Price: $' . $their_trainings['price'] . '</p>';
+								echo '<p><a href="mailto:ben@benpeck.com?subject=Front Onsite Training Request: ' . $their_trainings['title'] . '" class="button button-small">Contact Us To Book</a></p>';
+								
 						}
 					}
 

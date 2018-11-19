@@ -384,15 +384,19 @@ dd, dt {
 .theme-pm .title { color: #006F9E !important; }
 .theme-pm .button-small { background-color: #006F9E; }
 
-.theme-ux { background-color: #FD7C00; }
+.theme-ux { }
+.theme-ux h3 { background-color: #FD7C00 !important; }
+.theme-ux h4 { color: #FD7C00 !important; }
+.theme-ux .title { color: #FD7C00 !important; }
+.theme-ux .button-small { background-color: #FD7C00; }
 
-.theme-research { background-color: #653789; }
+.theme-research { }
 .theme-research h3 { background-color: #653789 !important; }
 .theme-research h4 { color: #653789 !important; }
 .theme-research .title { color: #653789 !important; }
 .theme-research .button-small { background-color: #653789; }
 
-.theme-leadership { background-color: #FFD01D; }
+.theme-leadership { }
 .theme-leadership h3 { background-color: #FFD01D !important; }
 .theme-leadership h4 { color: #FFD01D !important; }
 .theme-leadership .title { color: #FFD01D !important; }
