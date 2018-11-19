@@ -4,6 +4,22 @@
  * Use '</br></br>' to separate paragraphs
  */
 
+
+// Andrew Branch
+$consultants[] = array(
+	'slug' => 'andrewbranch',
+	'first' => 'Andrew',
+	'last' => 'Branch',
+	'title' => 'Director, Product Design',
+	'company' => 'Rev.com',
+	'discipline' => 'ux',
+	'photo' => 'frontpc18/instructor_andrewbranch.jpg',
+	'bio' => 'Joel is a Southern California native working as a Senior Interaction Designer on Chrome at Google. Over the past 7 years, he has had the opportunity to contribute to variety of products/apps from early-stage startups to global applications. Prior to Google (Chrome & Android), Joel helped start Design Inc. as the Head of Design, worked on mobile apps and the launch of Netflix Originals, as well as a number of other startups. Outside of his love for design and tech, Joel spends his free time enjoying being a family man, getting tattoos, listening all things punk/metal, and documenting life/work on YouTube.',
+	'twitter' => '_bklmn',
+	'instagram' => 'bklmn',
+	'linkedin' => 'https://www.linkedin.com/in/joelbeukelman/'
+);
+
 // Ben Peck
 $consultants[] = array(
 	'slug' => 'benpeck',
@@ -19,49 +35,19 @@ $consultants[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/bpeck/'
 );
 
-// Andrew Branch
+// Garth Braithwaite
 $consultants[] = array(
-	'slug' => 'joelbeukelman',
-	'first' => 'Joel',
-	'last' => 'Beukelman',
-	'title' => 'Sr. Interaction Designer',
-	'company' => 'Google',
-	'discipline' => 'ux',
-	'photo' => 'frontworkshops18/speaker_joelbeukelman.jpg',
-	'bio' => 'Joel is a Southern California native working as a Senior Interaction Designer on Chrome at Google. Over the past 7 years, he has had the opportunity to contribute to variety of products/apps from early-stage startups to global applications. Prior to Google (Chrome & Android), Joel helped start Design Inc. as the Head of Design, worked on mobile apps and the launch of Netflix Originals, as well as a number of other startups. Outside of his love for design and tech, Joel spends his free time enjoying being a family man, getting tattoos, listening all things punk/metal, and documenting life/work on YouTube.',
-	'twitter' => '_bklmn',
-	'instagram' => 'bklmn',
-	'linkedin' => 'https://www.linkedin.com/in/joelbeukelman/'
-);
-
-// Vicky Thomas
-$consultants[] = array(
-	'slug' => 'vickythomas',
-	'first' => 'Vicky',
-	'last' => 'Thomas',
-	'title' => 'Director Product Management',
-	'company' => 'Vivint',
-	'discipline' => 'pm',
-	'photo' => 'frontworkshops18/speaker_vickythomas.jpg',
-	'bio' => 'Vicky Thomas is the Director of Product Management for Vivint Smart Home’s mobile apps. At Vivint, Vicky leads product teams to envision and build the next generation of smart home experiences, leveraging software, hardware, AI, voice, and conversational interfaces. Prior to joining Vivint, Vicky served as Lead Product Manager at Lucid Software, makers of top-ranked productivity apps Lucidchart and Lucidpress, and as a Product Manager at Adobe on Adobe Analytics. She is passionate about building world-class product teams and bringing new ideas to life.</br></br>Vicky holds an S.B. in Aerospace Engineering from MIT, with a certificate in Advanced Engineering Leadership from the Gordon-MIT Engineering Leadership Program. She has received numerous awards for her industry and community impact, including a 2015 Women Tech Award from the Women Tech Council, and a spot on Utah Business Magazines 2017 30 Women to Watch list. In her free time, Vicky enjoys backpacking with her husband and dog, playing soccer, backcountry skiing, and flying single-engine aircraft.',
-	'twitter' => '__vickyt',
+	'slug' => 'garthbraithwaite',
+	'first' => 'Garth',
+	'last' => 'Braithwaite',
+	'title' => 'Senior Computer Scientist',
+	'company' => 'Adobe',
+	'discipline' => 'leadership',
+	'photo' => 'frontpc18/instructor_garthbraithwaite.jpg',
+	'bio' => "Front End Developer and User Experience Designer at Adobe working on developing and maintaining Adobe's internal design system.",
+	'twitter' => 'gibsonbiddle',
 	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/vicky-thomas-2b6a259/'
-);
-
-// Sarah Doody
-$consultants[] = array(
-	'slug' => 'sarahdoody',
-	'first' => 'Sarah',
-	'last' => 'Doody',
-	'title' => 'UX Designer + Product Consultant',
-	'company' => 'Founder, The UX Notebook',
-	'discipline' => 'research',
-	'photo' => 'frontpc18/instructor_sarahdoody.jpg',
-	'bio' => 'Sarah Doody is a user experience designer and product consultant based in New York City. She helps teams create products people need and love. She does this through user research, prototyping, and user experience design. Sarah also created her own course, User Research Mastery  to help teams understand their users and make smarter UX decisions. Previously, Sarah created General Assembly’s first 12-week UX immersive program in 2011. Sarah is also the founder of the popular UX newsletter, The UX Notebook . Sarah is available for consulting and speaking worldwide. ',
-	'twitter' => 'sarahdoody',
-	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/sarahdoody/'
+	'linkedin' => 'https://www.linkedin.com/in/gibsonbiddle/'
 );
 
 // Gibson Biddle
@@ -77,6 +63,66 @@ $consultants[] = array(
 	'twitter' => 'gibsonbiddle',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/gibsonbiddle/'
+);
+
+// Joel Beukelman
+$consultants[] = array(
+	'slug' => 'joelbeukelman',
+	'first' => 'Joel',
+	'last' => 'Beukelman',
+	'title' => 'Sr. Interaction Designer',
+	'company' => 'Google',
+	'discipline' => 'ux',
+	'photo' => 'frontpc18/instructor_andrewbranch.jpg',
+	'bio' => 'Joel is a Southern California native working as a Senior Interaction Designer on Chrome at Google. Over the past 7 years, he has had the opportunity to contribute to variety of products/apps from early-stage startups to global applications. Prior to Google (Chrome & Android), Joel helped start Design Inc. as the Head of Design, worked on mobile apps and the launch of Netflix Originals, as well as a number of other startups. Outside of his love for design and tech, Joel spends his free time enjoying being a family man, getting tattoos, listening all things punk/metal, and documenting life/work on YouTube.',
+	'twitter' => '_bklmn',
+	'instagram' => 'bklmn',
+	'linkedin' => 'https://www.linkedin.com/in/joelbeukelman/'
+);
+
+// Nate Barrett
+$consultants[] = array(
+	'slug' => 'natebarrett',
+	'first' => 'Nate',
+	'last' => 'Barrett',
+	'title' => 'VP Product & Design',
+	'company' => 'Canopy',
+	'discipline' => 'pm',
+	'photo' => 'frontconference18/speaker_natebarrett.jpg',
+	'bio' => 'Nate is currently VP of Product and Design at Canopy.  He’s been in product management and design for 20 years building B2C and B2B products for billion dollar enterprises and broke startups. He’s found his greatest happiness in product is watching product teams succeed in solving hard problems through trial, error and all out passion for easing customer’s pain. Nate enjoys traveling, food, cycling, golf and embarrassing his wife and kids. ',
+	'twitter' => 'ndbarrett',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/natebarrett/'
+);
+
+// Sarah Doody
+$consultants[] = array(
+	'slug' => 'sarahdoody',
+	'first' => 'Sarah',
+	'last' => 'Doody',
+	'title' => 'UX + Product Consultant',
+	'company' => 'Founder, The UX Notebook',
+	'discipline' => 'research',
+	'photo' => 'frontpc18/instructor_sarahdoody.jpg',
+	'bio' => 'Sarah Doody is a user experience designer and product consultant based in New York City. She helps teams create products people need and love. She does this through user research, prototyping, and user experience design. Sarah also created her own course, User Research Mastery  to help teams understand their users and make smarter UX decisions. Previously, Sarah created General Assembly’s first 12-week UX immersive program in 2011. Sarah is also the founder of the popular UX newsletter, The UX Notebook . Sarah is available for consulting and speaking worldwide. ',
+	'twitter' => 'sarahdoody',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/sarahdoody/'
+);
+
+// Vicky Thomas
+$consultants[] = array(
+	'slug' => 'vickythomas',
+	'first' => 'Vicky',
+	'last' => 'Thomas',
+	'title' => 'Director Product Management',
+	'company' => 'Vivint',
+	'discipline' => 'pm',
+	'photo' => 'frontworkshops18/speaker_vickythomas.jpg',
+	'bio' => 'Vicky Thomas is the Director of Product Management for Vivint Smart Home’s mobile apps. At Vivint, Vicky leads product teams to envision and build the next generation of smart home experiences, leveraging software, hardware, AI, voice, and conversational interfaces. Prior to joining Vivint, Vicky served as Lead Product Manager at Lucid Software, makers of top-ranked productivity apps Lucidchart and Lucidpress, and as a Product Manager at Adobe on Adobe Analytics. She is passionate about building world-class product teams and bringing new ideas to life.</br></br>Vicky holds an S.B. in Aerospace Engineering from MIT, with a certificate in Advanced Engineering Leadership from the Gordon-MIT Engineering Leadership Program. She has received numerous awards for her industry and community impact, including a 2015 Women Tech Award from the Women Tech Council, and a spot on Utah Business Magazines 2017 30 Women to Watch list. In her free time, Vicky enjoys backpacking with her husband and dog, playing soccer, backcountry skiing, and flying single-engine aircraft.',
+	'twitter' => '__vickyt',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/vicky-thomas-2b6a259/'
 );
 
 ?>

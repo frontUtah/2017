@@ -8,35 +8,6 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 ?>
 
-<style type="text/css">
-	.description h4:not(:first-child) {padding-top: 20px; border-top: 1px solid rgba(0,0,0,.09);}
-
-	.button-small {
-		font-size: 12px;
-	    padding: 10px 20px;
-	    letter-spacing: .18em;
-	    margin-top: 18px;
-	}
-	.theme-pm {  }
-	.theme-pm h3 { background-color: #006F9E !important; }
-	.theme-pm h4 { color: #006F9E !important; }
-	.theme-pm .title { color: #006F9E !important; }
-	.theme-pm .button-small { background-color: #006F9E; }
-
-	.theme-ux { background-color: #FD7C00; }
-
-	.theme-research { background-color: #653789; }
-	.theme-research h3 { background-color: #653789 !important; }
-	.theme-research h4 { color: #653789 !important; }
-	.theme-research .title { color: #653789 !important; }
-	.theme-research .button-small { background-color: #653789; }
-
-	.theme-leadership { background-color: #FFD01D; }
-	.theme-leadership h3 { background-color: #FFD01D !important; }
-	.theme-leadership h4 { color: #FFD01D !important; }
-	.theme-leadership .title { color: #FFD01D !important; }
-	.theme-leadership .button-small { background-color: #FFD01D; }
-</style>
 
 <?php
 	
