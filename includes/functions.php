@@ -70,6 +70,32 @@ function get_talk($day, $slot) {
 	}
 }
 
+// get trainings by subject
+function get_trainings($subject) {
+	global $trainings;
+
+	foreach($trainings as $training) {
+		// this track?
+		if($training['subject'] == $subject) {
+			// group by instructor
+			$these_trainings[$training['instructor']][] = $training;
+		}
+	}
+	
+	return $these_trainings;
+}
+
+// get consultant
+function get_consultant($slug) {
+	global $consultants;
+
+	foreach($consultants as $consultant) {
+		if($consultant['slug'] == $slug) {
+			return $consultant;
+		}
+	}
+}
+
 // get time slots
 function get_timeslots($day) {	
 	$slots[1] = array('time' => '8:30', 'meridian' => 'AM');
