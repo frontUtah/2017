@@ -16,8 +16,6 @@ $title = $instructor['first'] . ' ' . $instructor['last'] . ' - Front UX & Produ
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
-
-
 ?>
 
 <main class="secondary product-workshops-page">

@@ -2,6 +2,14 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
+$instructor = get_instructor($uri_parts[2]);
+
+// redirect if instructor doesn't exist
+if(is_null($instructor)) {
+	header('location: http://' . $_SERVER['SERVER_NAME'] . '/onsite');
+	exit();
+}
+
 $title = 'Front - Custom onsite UX & Product Management training';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');

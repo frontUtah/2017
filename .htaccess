@@ -30,6 +30,7 @@ RewriteRule (.*) https://%{SERVER_NAME}/$1 [R,L]
 # pretty URLs
 RewriteRule ^workshops/courses/(.*)$ workshops/courses.php [NC,L]
 RewriteRule ^workshops/instructor/(.*)$ workshops/instructor.php [NC,L]
+RewriteRule ^onsite/consultant/(.*)$ workshops/consultant.php [NC,L]
 RewriteRule ^conference/speaker/(.*)$ conference/speaker.php [NC,L]
 
 # remove trailing slash for non-existant directories
