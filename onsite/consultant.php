@@ -75,6 +75,20 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						foreach($trainings as $slug => $their_trainings) {
 								echo '<h3><a href="/onsite/training/' . $their_trainings['slug'] . '">' . $their_trainings['title'] . '</a></h3>';
 								echo '<p><strong>Size:</strong> ' . $their_trainings['capacity'] . ' &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Length:</strong> ' . $their_trainings['length'] . ' &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Price:</strong> $' . $their_trainings['price'] . '</p>';
+								
+								echo '<p><strong>Subjects:</strong> ';
+			
+								$count = count($their_trainings['subjects']);
+								foreach($their_trainings['subjects'] as $key => $subject) {
+									echo training_subject($subject);
+			
+									if($key < $count - 1) {
+										echo ', ';
+									}
+								}
+			
+								echo '</p>';								
+
 								echo '<p>' . $their_trainings['description'] . '</p>';
 								echo '<p><a href="mailto:ben@benpeck.com?subject=Front Onsite Training Request: ' . $their_trainings['title'] . '" class="button button-small">Contact Us To Book</a></p>';
 								

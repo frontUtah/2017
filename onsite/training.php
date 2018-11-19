@@ -72,7 +72,23 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<?php
 
 					echo '<h3>' . $training['title'] . '</h3>';
-					echo '<p><strong>Size:</strong> 10 - 50 &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Length:</strong> One Day &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Price:</strong> $' . $training['price'] . '</p>';
+					echo '<p><strong>Size:</strong> ' . $training['capacity'] . ' &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Length:</strong> ' . $training['length'] . ' &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Price:</strong> $' . $training['price'] . '</p>';
+
+
+					echo '<p><strong>Subjects:</strong> ';
+
+					$count = count($training['subjects']);
+					foreach($training['subjects'] as $key => $subject) {
+						echo training_subject($subject);
+
+						if($key < $count - 1) {
+							echo ', ';
+						}
+					}
+
+					echo '</p>';
+
+
 					echo '<p>' . $training['description'] . '</p>';
 					echo '<p><a href="mailto:ben@benpeck.com?subject=Front Onsite Training Request: ' . $training['title'] . '" class="button button-small">Contact Us To Book</a></p>';
 

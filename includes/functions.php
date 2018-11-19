@@ -82,11 +82,11 @@ function get_training($slug) {
 }
 
 // get trainings
-function get_trainings($category) {
+function get_trainings($subject) {
 	global $trainings;
 
 	foreach($trainings as $training) {
-		if(in_array($category, $training['categories'])) {
+		if(in_array($subject, $training['subjects'])) {
 			$these_trainings[$training['instructor']][] = $training;
 		}
 	}
@@ -105,6 +105,20 @@ function get_trainings_by_instructor($instructor) {
 	}
 	
 	return $these_trainings;
+}
+
+// return training subject
+function training_subject($category) {
+	switch($category) {
+		case 'ux':
+			return 'User Experience';
+		case 'pm':
+			return 'Product Management';
+		case 'research':
+			return 'Research';
+		case 'leadership':
+			return 'Leadership';
+	}
 }
 
 // get consultant
