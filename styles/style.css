@@ -1360,6 +1360,10 @@ footer p {
 	font-weight: 700
 }
 
+.bookTrainingForm {
+	display: none;
+}
+
 @media (min-width:1000px) {
 	.custom-training .hero {
 		height: 670px;
