@@ -90,7 +90,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 
 					echo '<p>' . $training['description'] . '</p>';
-					echo '<p><a class="bookTrainingButton button button-small">Contact Us To Book</a></p>';
+					echo '<p><a class="bookTrainingButton_buttton button button-small">Contact Us To Book</a></p>';
 					
 					echo '
 						<div class="bookTrainingForm">
