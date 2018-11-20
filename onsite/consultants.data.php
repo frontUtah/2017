@@ -2,6 +2,7 @@
 
 /*
  * Use '</br></br>' to separate paragraphs
+ * Slug must be unique.
  */
 
 
@@ -14,7 +15,7 @@ $consultants[] = array(
 	'company' => 'Rev.com',
 	'discipline' => 'research',
 	'photo' => 'frontpc18/instructor_andrewbranch.jpg',
-	'bio' => 'Joel is a Southern California native working as a Senior Interaction Designer on Chrome at Google. Over the past 7 years, he has had the opportunity to contribute to variety of products/apps from early-stage startups to global applications. Prior to Google (Chrome & Android), Joel helped start Design Inc. as the Head of Design, worked on mobile apps and the launch of Netflix Originals, as well as a number of other startups. Outside of his love for design and tech, Joel spends his free time enjoying being a family man, getting tattoos, listening all things punk/metal, and documenting life/work on YouTube.',
+	'bio' => "Andrew is a product designer, educator, and community organizer. He graduated from Brigham Young University with a BA in Anthropology and still considers himself an observer of people and an ethnographer. He enjoys putting into practice formal ethnographic techniques in his user-centered research.</br></br>Andrew worked for ten years at Rain where he enjoyed many roles, including: engineer, project manager, and Director of UX. He later worked as a Director of UX at HireVue and currently works as a Product Designer at Rev.com.</br></br>Andrew's deep love for working with startup software companies can only be rivaled by his love for the design community. Andrew has helped create and manage several communities, including Product Design Association and Front Conference. He loves mentorship and has enjoyed helping many students of design find lasting careers in product and UX.",
 	'twitter' => 'andrewbranch',
 	'instagram' => 'denae_andrew',
 	'linkedin' => 'https://www.linkedin.com/in/branchandrew/'
@@ -33,6 +34,21 @@ $consultants[] = array(
 	'twitter' => 'benpeck',
 	'instagram' => 'benpeck',
 	'linkedin' => 'https://www.linkedin.com/in/bpeck/'
+);
+
+// Wade Shearer
+$consultants[] = array(
+	'slug' => 'wadeshearer',
+	'first' => 'Wade',
+	'last' => 'Shearer',
+	'title' => 'VP, User Experience',
+	'company' => 'Workfront',
+	'discipline' => 'leaderhip',
+	'photo' => 'headshots/wadeshearer.jpg',
+	'bio' => "Wade is Vice President of User Experience at Workfront, where they’re making business work better—unleashing team’s value by helping them focus on the right work and doing their best work.</br></br>Prior, he lead product discovery, design, and validation as Vice President of Product & Design at ClientSuccess, a SaaS customer success management platform that helps companies retain and grow their existing customer base. As the initial member of the executive team, he lead the startup from ground zero to over 100 customers and 1.4 Million in ARR.</br></br>Proceeding that, he served as Director of User Experience at Vivint, where he lead teams of designers, product managers, researchers, and engineers, building innovative mobile, desktop, and embedded software applications for security, home automation, and energy products. He participated in growth that lead to a $2 Billion valuation and acquisition by Blackstone Group and Vivint ranking 46th on Forbe’s 100 most promising companies for 2013. This work also resulted in the filing of 15 patents related to user experience in home automation and energy management.</br></br>Wade cofounded Front, an annual product design case study conference and bootcamp for product managers and UX designers. He also cofounded Product Hive, a non-profit user group for product managers and designers, with over 4,000 members.",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/wadeshearer/'
 );
 
 // Garth Braithwaite

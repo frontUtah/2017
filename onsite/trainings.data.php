@@ -197,6 +197,17 @@ $trainings[] = array(
 
 // LEADERSHIP WORKSHOPS -----------------------------
 
+// Wade Shearer
+$trainings[] = array(
+	'slug' => 'teaching-your-team-to-learn',
+	'instructor' => 'wadeshearer',
+	'subjects' => array('leadership'),
+	'title' => 'Teaching your team to learn',
+	'description' => "Still basking in the glow of last month's Design Sprint? What has your team learned since? Are we not going to see you at church again until Easter? Did the process move the needle? What was the needle? A hypothesis is worthless without clear definition of desired outcomes. Ideation and validation must be the way your team works and learn every day. Discovery shouldn’t be a phase. In this workshop, you'll learn how to identify opportunities and deliver solutions that provide lasting value through continuous discovery and delivery.",
+	'price' => '10,000',
+	'capacity' => '10-50',
+	'length' => '1 day'
+);
 
 // Gibson Biddle
 $trainings[] = array(
