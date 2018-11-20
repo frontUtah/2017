@@ -87,12 +87,12 @@ function print_trainings($category) {
 				<h3>Product Management training</h3>
 					<?php print_trainings('pm'); ?>
 			</div>
-			
+			<!--
 			<div class="course-date theme-research">
 				<h3>Research training</h3>
-					<?php print_trainings('research'); ?>
+					<?php //print_trainings('research'); ?>
 			</div>
-			
+			-->
 			<div class="course-date theme-leadership">
 				<h3>Leadership training</h3>
 					<?php print_trainings('leadership'); ?>
