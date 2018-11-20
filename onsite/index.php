@@ -75,7 +75,7 @@ function print_trainings($category) {
 		<p>Let us to bring Front to you. Tell us about your organization's needs and we'll find a training solution to meet them.</p>
 	</section>
 	<section class="courses" style="padding-top: 70px;	">
-		<p class="about-courses">With years of experience running public workshops, we're curating a catalog of the very best for your team. Pick from dozens of trainings that have helped hundreds of companies looking to tackling their product management, design, research, and leadership challenges.</p>
+		<p class="about-courses">With years of experience running public workshops, we're curating a catalog of the very best for your team. Pick from dozens of trainings that have helped hundreds of companies looking to tackle their product management, design, research, and leadership challenges.</p>
 		<div class="course-calendar">
 			
 			<div class="course-date theme-ux">
