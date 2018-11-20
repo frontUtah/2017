@@ -51,7 +51,7 @@ function print_trainings($category) {
 										echo '									
 											<h4><a href="/onsite/training/' . $training['slug'] . '">' . $training['title'] . ' &nbsp;&nbsp; &xrarr;</a></h4>
 											<p><strong>Size:</strong> ' . $training['capacity'] . ' &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Length:</strong> ' . $training['length'] . ' &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Price:</strong> $' . $training['price'] . '</p>
-											<p>' . $training['description'] . '</p>';
+											<p>' . $training['summary'] . '</p>';
 									}
 									
 									echo '
