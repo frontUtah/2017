@@ -99,25 +99,6 @@ function print_trainings($category) {
 			</div>
 		</div>
 	</section>
-	<!--
-	<section class="request-form">
-		<form action="/onsite/request#success" method="post">
-			<div class="input">
-				<label for="name">Name</label>
-				<input type="text" id="name" name="name">
-			</div>
-			<div class="input">
-				<label for="company">Company</label>
-				<input type="text" id="company" name="company">
-			</div>
-			<div class="input">
-				<label for="email">Email</label>
-				<input type="text" id="email" name="email">
-			</div>
-			<button type="submit" name="submit">Submit</button>
-		</form>
-	</section>
-	-->
 </main>
 
 <?php
