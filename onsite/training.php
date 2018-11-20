@@ -104,8 +104,16 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 									<input type="text" id="company" name="company">
 								</div>
 								<div class="input">
+									<label for="email">Location</label>
+									<input type="text" id="location" name="location">
+								</div>
+								<div class="input">
 									<label for="email">Email</label>
 									<input type="text" id="email" name="email">
+								</div>
+								<div class="input">
+									<label for="email">Tell us about your team and goals</label>
+									<textarea id="message" name="message"></textarea>
 								</div>
 								<button type="submit" name="submit" class="button button-small">Submit</button>
 								<input type="hidden" name="training" value="' . $training['title'] . '" />

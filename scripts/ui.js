@@ -98,13 +98,16 @@ frontConf.ui = (function() {
 
 		// encode form elements for submission
 		var form_data = $(this).serialize();
+		
+		// get submitter's name
+		var name = $(this).find("#name").val();
 
 		// ajax post		
 		$.post(post_url, form_data, function(response) {
 			//$("#server-results").html(response);
 			
 			// replace form with thank-you message
-			$('#' + form_id).parent().empty().append('<p>Thanks, ' + form_data.name + '. We\'ll be in touch shortly to schedule your custom training.</p>');
+			$('#' + form_id).parent().empty().append('<p>Thanks, ' + name + '. We\'ll be in touch shortly to schedule your custom training.</p>');
 		});
 	}
 
