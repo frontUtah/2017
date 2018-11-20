@@ -90,8 +90,28 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 
 					echo '<p>' . $training['description'] . '</p>';
-					echo '<p><a href="mailto:ben@benpeck.com?subject=Front Onsite Training Request: ' . $training['title'] . '" class="button button-small">Contact Us To Book</a></p>';
-
+					echo '<p><a class="bookTrainingButton button button-small">Contact Us To Book</a></p>';
+					
+					echo '
+						<div class="bookTrainingForm">
+							<form action="/onsite/book.php" method="post" class="bookTrainingForm_form" id="bookTrainingForm_' . $training['slug'] . '">
+								<div class="input">
+									<label for="name">Name</label>
+									<input type="text" id="name" name="name">
+								</div>
+								<div class="input">
+									<label for="company">Company</label>
+									<input type="text" id="company" name="company">
+								</div>
+								<div class="input">
+									<label for="email">Email</label>
+									<input type="text" id="email" name="email">
+								</div>
+								<button type="submit" name="submit" class="button button-small">Submit</button>
+								<input type="hidden" name="training" value="' . $training['title'] . '" />
+								<input type="hidden" name="consultant" value="' . $consultant['first'] . ' ' . $consultant['last'] . '" />
+							</form>
+						</div>';
 					?>
 				</div>
 			</div>
