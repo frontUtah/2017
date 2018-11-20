@@ -7,23 +7,23 @@ frontConf.ui = (function() {
 	var sectionHeaderBreakpoint = 1000;
 
 	var init = function() {
-		$win  = $( window );
-		$body = $( 'body' );
+		$win  = $(window);
+		$body = $('body');
 
-		$body.on( 'click', '.primary-nav .active', togglePrimaryMenu );
-		$body.on( 'click', '.section-nav .menu-toggle', toggleSectionMenu );
-		$body.on( 'click', '.accordion-title', toggleAccordion );
-		$body.on( 'click touchstart', '.schedule-breakdown .timeline dd.course', clickableScheduleBlock );
-		$body.on( 'click', '.bookTrainingButton', toggleBookTrainingForm );		
-		$body.on( 'submit', '.bookTrainingForm_form', submitBookTrainingForm );		
+		$body.on('click', '.primary-nav .active', togglePrimaryMenu);
+		$body.on('click', '.section-nav .menu-toggle', toggleSectionMenu);
+		$body.on('click', '.accordion-title', toggleAccordion);
+		$body.on('click touchstart', '.schedule-breakdown .timeline dd.course', clickableScheduleBlock);
+		$body.on('click', '.bookTrainingButton_buttton', toggleBookTrainingForm);
+		$body.on('submit', '.bookTrainingForm_form', submitBookTrainingForm);		
 
-		if ( $body.find( '.section-header' ).length ) {
-			$win.on( 'scroll', toggleStickyHeaders );
+		if ($body.find('.section-header').length) {
+			$win.on('scroll', toggleStickyHeaders);
 		}
 	};
 
-	var togglePrimaryMenu = function( event ) {
-		var $menu = $( this ).parents( '.primary-nav' );
+	var togglePrimaryMenu = function(event) {
+		var $menu = $(this).parents('.primary-nav');
 
 		$( '.section-nav' ).removeClass( 'open' );
 
@@ -76,12 +76,14 @@ frontConf.ui = (function() {
 	}
 	
 	var toggleBookTrainingForm = function(event) {		
-		// clean up by hiding all forms and showing all buttons
-		$('.bookTrainingForm').hide();
-		$('.bookTrainingButton').show();
+		// reset other incomplete forms
+		$('.bookTrainingForm_form').parents('.course-description').each(function() {
+			$(this).children('.bookTrainingForm').hide();
+			$(this).children('.bookTrainingButton').show();
+		});
 		
 		// hide this training button
-		$(this).hide();
+		$(this).parent().hide();
 		
 		// show this training form
 		$(this).parent().next().show();
@@ -104,10 +106,8 @@ frontConf.ui = (function() {
 
 		// ajax post		
 		$.post(post_url, form_data, function(response) {
-			//$("#server-results").html(response);
-			
 			// replace form with thank-you message
-			$('#' + form_id).parent().empty().append('<p>Thanks, ' + name + '. We\'ll be in touch shortly to schedule your custom training.</p>');
+			$('#' + form_id).parent().empty().append('<p class="bookTrainningConfirmation">Thanks, ' + name + '. We\'ll be in touch shortly to schedule your custom training.</p>');
 		});
 	}
 

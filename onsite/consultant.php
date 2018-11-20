@@ -21,7 +21,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 ?>
 
 <style type="text/css">
-	.course-description h3:not(:first-child) {padding-top: 20px; border-top: 1px solid rgba(0,0,0,.09);}
+	.course-description:not(:first-child) h3 {padding-top: 20px; border-top: 1px solid rgba(0,0,0,.09);}
 </style>
 
 <main class="secondary product-workshops-page">
@@ -68,61 +68,62 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</div>
 			</div>
 			<div class="instructor-content theme-<?php echo strtolower($consultant['discipline']); ?>">
-				<div class="course-description">
-					<?php
+				<?php
 
-					if(count($trainings) > 0) {
-						foreach($trainings as $slug => $training) {
-								echo '<h3><a href="/onsite/training/' . $training['slug'] . '">' . $training['title'] . ' &nbsp;&nbsp; &xrarr;</a></h3>';
-								echo '<p><strong>Size:</strong> ' . $training['capacity'] . ' &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Length:</strong> ' . $training['length'] . ' &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Price:</strong> $' . $training['price'] . '</p>';
-								
-								echo '<p><strong>Subjects:</strong> ';
-			
-								$count = count($training['subjects']);
-								foreach($training['subjects'] as $key => $subject) {
-									echo training_subject($subject);
-			
-									if($key < $count - 1) {
-										echo ', ';
-									}
+				if(count($trainings) > 0) {
+					foreach($trainings as $slug => $training) {
+						echo '<div class="course-description">';
+							echo '<h3><a href="/onsite/training/' . $training['slug'] . '">' . $training['title'] . ' &nbsp;&nbsp; &xrarr;</a></h3>';
+							echo '<p><strong>Size:</strong> ' . $training['capacity'] . ' &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Length:</strong> ' . $training['length'] . ' &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Price:</strong> $' . $training['price'] . '</p>';
+							
+							echo '<p><strong>Subjects:</strong> ';
+		
+							$count = count($training['subjects']);
+							foreach($training['subjects'] as $key => $subject) {
+								echo training_subject($subject);
+		
+								if($key < $count - 1) {
+									echo ', ';
 								}
-			
-								echo '</p>';								
+							}
+		
+							echo '</p>';								
 
-								echo '<p>' . $training['description'] . '</p>';
-								echo '<p><a class="bookTrainingButton button button-small">Contact Us To Book</a></p>';
+							echo '<p>' . $training['description'] . '</p>';
+							echo '<p class="bookTrainingButton"><a class="bookTrainingButton_buttton button button-small">Contact us to book</a></p>';
+							
+							echo '
+								<div class="bookTrainingForm">
+									<form action="/onsite/book.php" method="post" class="bookTrainingForm_form" id="bookTrainingForm_' . $training['slug'] . '">
+										<div class="input">
+											<label for="name">Name</label>
+											<input type="text" id="name" name="name">
+										</div>
+										<div class="input">
+											<label for="company">Company</label>
+											<input type="text" id="company" name="company">
+										</div>
+										<div class="input">
+											<label for="email">Email</label>
+											<input type="text" id="email" name="email">
+										</div>
+										<div class="input">
+											<label for="email">Tell us about your team and goals</label>
+											<textarea id="message" name="message"></textarea>
+										</div>
+										<div class="input">
+											<button type="submit" name="submit" class="button button-small">Submit</button>
+										</div>
+										<input type="hidden" name="training" value="' . $training['title'] . '" />
+										<input type="hidden" name="consultant" value="' . $consultant['first'] . ' ' . $consultant['last'] . '" />
+									</form>
+								</div>';
 								
-								echo '
-									<div class="bookTrainingForm">
-										<form action="/onsite/book.php" method="post" class="bookTrainingForm_form" id="bookTrainingForm_' . $training['slug'] . '">
-											<div class="input">
-												<label for="name">Name</label>
-												<input type="text" id="name" name="name">
-											</div>
-											<div class="input">
-												<label for="company">Company</label>
-												<input type="text" id="company" name="company">
-											</div>
-											<div class="input">
-												<label for="email">Email</label>
-												<input type="text" id="email" name="email">
-											</div>
-											<div class="input">
-												<label for="email">Tell us about your team and goals</label>
-												<textarea id="message" name="message"></textarea>
-											</div>
-											<div class="input">
-												<button type="submit" name="submit" class="button button-small">Submit</button>
-											</div>
-											<input type="hidden" name="training" value="' . $training['title'] . '" />
-											<input type="hidden" name="consultant" value="' . $consultant['first'] . ' ' . $consultant['last'] . '" />
-										</form>
-									</div>';
-						}
+						echo '</div>';
 					}
+				}
 
-					?>
-				</div>
+				?>
 			</div>
 		</div>
 	</section>
