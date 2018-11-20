@@ -67,8 +67,8 @@ $trainings[] = array(
 	'title' => 'Coach, Diplomat, Champion, Architect: The Complete Design Leader',
 	'description' => "With the rapid growth of design inside companies, there's been a concomitant need for design leadership. But design leadership and management (at scale) is new, and many design leaders are not equipped to take on the challenge. The struggle figuring out how to get the most out of their teams, collaborate with peers, and work with executives. They often revert to the skills that allowed them to succeed as designers, unaware that those practices are not going to help them succeed in their new role.<br><br>This workshop, which is run more like a facilitated conversation, Peter walks your design, research, and content leaders through a framework for practicing leadership, drawing on four archetypes:<ul><li>Coach, managing down to get the most out of their team</li><li>Diplomat, managing across to create successful collaborations with non-design peers</li><li>Champion, managing up to productively engage executives and other stakeholders</li><li>Architect, leveraging themselves through creating systems and structures that enable scale</li></ul>" ,
 	'price' => '13,000',
-	'capacity' => '10-50',
-	'length' => '1 day'
+	'capacity' => '5-15',
+	'length' => 'half day'
 );
 
 // Sarah Doody
@@ -84,6 +84,18 @@ $trainings[] = array(
 );
 
 // PRODUCT MANAGEMENT WORKSHOPS -----------------------------
+
+// Jaekob Chenina
+$trainings[] = array(
+	'slug' => 'how-to-create-intelligent-products',
+	'instructor' => 'jaekobchenina',
+	'subjects' => array('pm'),
+	'title' => 'How to Create Intelligent Products',
+	'description' => "According to Gartner “AI Technologies will be in almost every new software product by 2020”. With this explosion of AI products, many will fail. However, there are common trends that are emerging among the intelligent products that are succeeding. So what is it, that makes an AI product that customers love? In this workshop, you will deep dive on the most relevant concepts across various disciplines that help answer this question.</br></br>You will learn:<ul><li>Analytics for AI products</li><li>Machine Learning for AI products</li><li>UX for AI Products</li><li>Common Use Cases for AI Products</li><li>Discovering AI Product Opportunities</li></ul>You will also learn how to embed AI into your software development methodology and design an effective AI product team. Through exercises, case-studies and lessons learned, this workshop will empower your product team with an actionable path to incorporate AI in an impactful way into your business." ,
+	'price' => '7,000',
+	'capacity' => '10-50',
+	'length' => '1 day'
+);
 
 // Nate Barrett
 $trainings[] = array(
@@ -141,7 +153,7 @@ $trainings[] = array(
 	'title' => 'Creating Product Vision from Scratch',
 	'description' => "So you need a product vision...now what? This workshop is all about creating product vision and strategy from the ground up. We'll talk about the different components of an effective product vision and strategy, and how to create them. You'll leave the workshop with a gameplan to create these things for your team in 2 weeks or less." ,
 	'price' => '9,750',
-	'capacity' => '10-50',
+	'capacity' => '5-30',
 	'length' => '1 day'
 );
 
@@ -231,6 +243,18 @@ $trainings[] = array(
 	'description' => "Have you ever been told that you need to be more strategic, or that you need to work on your executive presence? What does that even mean? These skills can be elusive for early-career PMs, but they're totally learnable. In this workshop, we'll break down what it takes to be good at these things, and even get some hands-on practice developing them.<br><br>This workshop is perfect for high-potential junior PMs (or any early-career employee) who need a little bit of polish to prepare them for their next roles." ,
 	'price' => '7,000',
 	'capacity' => '10-50',
+	'length' => '1 day'
+);
+
+// Vicky Thomas
+$trainings[] = array(
+	'slug' => 'tactics-for-creating-high-performance-culture',
+	'instructor' => 'vickythomas',
+	'subjects' => array('leadership'),
+	'title' => 'Tactics for Creating High-performance Culture',
+	'description' => "Every team can be high-performing...some of them just need to be unlocked. In this workshop, you'll learn the most important elements of high-performing teams, and how to help your team get there. Vicky will share specific examples that have worked (and not worked) as she's created high-performing cultures at Adobe, Lucid Software, and Vivint Smart Home. Topics include psychological safety, diversity & inclusion, and being a multiplier." ,
+	'price' => '7,000',
+	'capacity' => '10-30',
 	'length' => '1 day'
 );
 

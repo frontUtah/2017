@@ -15,9 +15,9 @@ $consultants[] = array(
 	'discipline' => 'research',
 	'photo' => 'frontpc18/instructor_andrewbranch.jpg',
 	'bio' => 'Joel is a Southern California native working as a Senior Interaction Designer on Chrome at Google. Over the past 7 years, he has had the opportunity to contribute to variety of products/apps from early-stage startups to global applications. Prior to Google (Chrome & Android), Joel helped start Design Inc. as the Head of Design, worked on mobile apps and the launch of Netflix Originals, as well as a number of other startups. Outside of his love for design and tech, Joel spends his free time enjoying being a family man, getting tattoos, listening all things punk/metal, and documenting life/work on YouTube.',
-	'twitter' => '_bklmn',
-	'instagram' => 'bklmn',
-	'linkedin' => 'https://www.linkedin.com/in/joelbeukelman/'
+	'twitter' => 'andrewbranch',
+	'instagram' => 'denae_andrew',
+	'linkedin' => 'https://www.linkedin.com/in/branchandrew/'
 );
 
 // Ben Peck
@@ -45,9 +45,9 @@ $consultants[] = array(
 	'discipline' => 'leadership',
 	'photo' => 'frontpc18/instructor_garthbraithwaite.jpg',
 	'bio' => "Front End Developer and User Experience Designer at Adobe working on developing and maintaining Adobe's internal design system.",
-	'twitter' => 'gibsonbiddle',
+	'twitter' => 'GarthDB',
 	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/gibsonbiddle/'
+	'linkedin' => 'https://www.linkedin.com/in/garthdb/'
 );
 
 // Gibson Biddle
@@ -63,6 +63,21 @@ $consultants[] = array(
 	'twitter' => 'gibsonbiddle',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/gibsonbiddle/'
+);
+
+// Jaekob Chenina
+$consultants[] = array(
+	'slug' => 'jaekobchenina',
+	'first' => 'Jaekob',
+	'last' => 'Chenina',
+	'title' => 'Product Manager',
+	'company' => 'Adobe',
+	'discipline' => 'pm',
+	'photo' => 'frontworkshops18/speaker_jaekobchenina.jpg',
+	'bio' => 'Jaekob is leading AI innovation at Adobe Analytics, the heart of Adobe’s next-gen digital experience cloud. Over the last five years Jaekob has worked in startup, non-profit, and enterprise environments. In each case, Jaekob sought out and led projects that were disrupting the status quo. His passion for trailblazing opportunities married with his background in AI led him to focus his career on building Intelligent Products. When not at work, Jaekob enjoys spending time with his Russian/Ukrainian wife Galina and their three children. He and his family have a passion for all forms of exploration from ice-fishing to genealogy.',
+	'twitter' => 'chenina10',
+	'instagram' => 'bklmn',
+	'linkedin' => 'https://www.linkedin.com/in/jchenina/'
 );
 
 // Joel Beukelman
