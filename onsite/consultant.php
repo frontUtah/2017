@@ -111,7 +111,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 												<label for="email">Tell us about your team and goals</label>
 												<textarea id="message" name="message"></textarea>
 											</div>
-											<button type="submit" name="submit" class="button button-small">Submit</button>
+											<div class="input">
+												<button type="submit" name="submit" class="button button-small">Submit</button>
+											</div>
 											<input type="hidden" name="training" value="' . $training['title'] . '" />
 											<input type="hidden" name="consultant" value="' . $consultant['first'] . ' ' . $consultant['last'] . '" />
 										</form>
