@@ -14,7 +14,7 @@ frontConf.ui = (function() {
 		$body.on('click', '.section-nav .menu-toggle', toggleSectionMenu);
 		$body.on('click', '.accordion-title', toggleAccordion);
 		$body.on('click touchstart', '.schedule-breakdown .timeline dd.course', clickableScheduleBlock);
-		$body.on('click', '.bookTrainingButton_buttton', toggleBookTrainingForm);
+		$body.on('click touchstart', '.bookTrainingButton_buttton', toggleBookTrainingForm);
 		$body.on('submit', '.bookTrainingForm_form', submitBookTrainingForm);		
 
 		if ($body.find('.section-header').length) {
