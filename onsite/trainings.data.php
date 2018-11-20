@@ -11,6 +11,18 @@
 
 // USER EXPERIENCE WORKSHOPS -----------------------------
 
+// Andrew Branch
+$trainings[] = array(
+	'slug' => 'continuous-user-research',
+	'instructor' => 'andrewbranch',
+	'subjects' => array('ux', 'pm'),
+	'title' => 'Continuous User Research',
+	'description' => "Most product teams are doing user research, but they still aren't doing it often enough, when they do it it takes too long, and it is more expensive than it needs to be. This workshop will help change that. Andrew will help you learn how you can build tests and get results in hours intstead of days or weeks and how to build a continuous testing strategy at your organization.",
+	'price' => '7,000',
+	'capacity' => '10-50',
+	'length' => '1 day'
+);
+
 // Ben Peck
 $trainings[] = array(
 	'slug' => 'design-critique-done-right',
@@ -54,7 +66,7 @@ $trainings[] = array(
 $trainings[] = array(
 	'slug' => 'design-your-design-organization',
 	'instructor' => 'petermerholz',
-	'subjects' => array('ux', 'research', 'leadership'),
+	'subjects' => array('ux', 'leadership'),
 	'title' => 'Design Your Design Organization',
 	'summary' => "As your design organization grows, and becomes more complex, strains and pains emerge. Designers are spread too thin and don’t feel good about the quality of their work. How best to work within cross-functional teams is unclear. Retention suffers as designers feel ineffective and their career growth isn’t being given sufficient attention. Recruiting and hiring practices aren’t filling roles quickly enough, leaving gaps throughout the organization. Design leaders can’t devote their energy to creative leadership as operational challenges take precedence. The user experience has lost cohesion as more and more isolated teams contribute to it.",
 	'description' => "As your design organization grows, and becomes more complex, strains and pains emerge. Designers are spread too thin and don’t feel good about the quality of their work. How best to work within cross-functional teams is unclear. Retention suffers as designers feel ineffective and their career growth isn’t being given sufficient attention. Recruiting and hiring practices aren’t filling roles quickly enough, leaving gaps throughout the organization. Design leaders can’t devote their energy to creative leadership as operational challenges take precedence. The user experience has lost cohesion as more and more isolated teams contribute to it. <br><br>This workshop provides a framework for shaping your design organization, and a roadmap for how it can grow over time. We will explore different organizational models for design teams, and how they relate to their cross-functional peers. We’ll look at key matters of skills, process, and design leadership to ensure that the team is only delivering high-quality output. We will discuss the stages of evolution for a design organization, and when it makes sense to bring in certain roles and practices, such as UX Research and Design Operations. And we will dig into matters of professional development and people management, with a focus on making team members feel supported not just in their work but their careers." ,
@@ -67,7 +79,7 @@ $trainings[] = array(
 $trainings[] = array(
 	'slug' => 'coach-diplomat-champion-architect-the-complete-design-leader',
 	'instructor' => 'petermerholz',
-	'subjects' => array('ux', 'research', 'leadership'),
+	'subjects' => array('ux', 'leadership'),
 	'title' => 'Coach, Diplomat, Champion, Architect: The Complete Design Leader',
 	'summary' => "With the rapid growth of design inside companies, there's been a concomitant need for design leadership. But design leadership and management (at scale) is new, and many design leaders are not equipped to take on the challenge. The struggle figuring out how to get the most out of their teams, collaborate with peers, and work with executives. They often revert to the skills that allowed them to succeed as designers, unaware that those practices are not going to help them succeed in their new role.",
 	'description' => "With the rapid growth of design inside companies, there's been a concomitant need for design leadership. But design leadership and management (at scale) is new, and many design leaders are not equipped to take on the challenge. The struggle figuring out how to get the most out of their teams, collaborate with peers, and work with executives. They often revert to the skills that allowed them to succeed as designers, unaware that those practices are not going to help them succeed in their new role.<br><br>This workshop, which is run more like a facilitated conversation, Peter walks your design, research, and content leaders through a framework for practicing leadership, drawing on four archetypes:<ul><li>Coach, managing down to get the most out of their team</li><li>Diplomat, managing across to create successful collaborations with non-design peers</li><li>Champion, managing up to productively engage executives and other stakeholders</li><li>Architect, leveraging themselves through creating systems and structures that enable scale</li></ul>" ,
@@ -89,7 +101,17 @@ $trainings[] = array(
 	'length' => '1 day'
 );
 
-// PRODUCT MANAGEMENT WORKSHOPS -----------------------------
+// Sarah Doody
+$trainings[] = array(
+	'slug' => 'validate-your-product-idea',
+	'instructor' => 'sarahdoody',
+	'subjects' => array('ux', 'pm'),
+	'title' => 'Validate Your Product Idea',
+	'description' => "Most products fail because the team didn't build the wrong product in the first place. How does this happen? It’s because we race to the “build” phase and focus all our energy on the product. If you truly want to create an awesome product, you have to understand the people your product will serve.<br><br>The best competitive advantage you can have is to understand your people, your audience, your potential customers better than everyone else. Your audience will guide you to the exact product you should create and how you should market it. And when you create a product based on research, you can even get people to pay for it before it's even built. <br><br>This working will help teams learn how to:<ul><li>Do fast, affordable, and insightful use research to gather the information you need to build an effective product or service</li><li>Analyze user research findings to identify a tangible solution for the problems that your audience has</li><li>Walk through a simple step-by-step demo for building a high converting landing page</li><li>How to identify the specific product to build initially, your MVP, and not build something too complicated as your first version</li><li>Leverage email to build trust with your early prospects and keep them engaged while you build that MVP or first features.</li></ul>" ,
+	'price' => '7,000',
+	'capacity' => '10-50',
+	'length' => '1 day'
+);
 
 // Jaekob Chenina
 $trainings[] = array(
