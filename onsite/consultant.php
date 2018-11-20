@@ -72,14 +72,14 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<?php
 
 					if(count($trainings) > 0) {
-						foreach($trainings as $slug => $their_trainings) {
-								echo '<h3><a href="/onsite/training/' . $their_trainings['slug'] . '">' . $their_trainings['title'] . ' &nbsp;&nbsp; &xrarr;</a></h3>';
-								echo '<p><strong>Size:</strong> ' . $their_trainings['capacity'] . ' &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Length:</strong> ' . $their_trainings['length'] . ' &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Price:</strong> $' . $their_trainings['price'] . '</p>';
+						foreach($trainings as $slug => $training) {
+								echo '<h3><a href="/onsite/training/' . $training['slug'] . '">' . $training['title'] . ' &nbsp;&nbsp; &xrarr;</a></h3>';
+								echo '<p><strong>Size:</strong> ' . $training['capacity'] . ' &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Length:</strong> ' . $training['length'] . ' &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Price:</strong> $' . $training['price'] . '</p>';
 								
 								echo '<p><strong>Subjects:</strong> ';
 			
-								$count = count($their_trainings['subjects']);
-								foreach($their_trainings['subjects'] as $key => $subject) {
+								$count = count($training['subjects']);
+								foreach($training['subjects'] as $key => $subject) {
 									echo training_subject($subject);
 			
 									if($key < $count - 1) {
@@ -89,12 +89,12 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			
 								echo '</p>';								
 
-								echo '<p>' . $their_trainings['description'] . '</p>';
+								echo '<p>' . $training['description'] . '</p>';
 								echo '<p><a class="bookTrainingButton button button-small">Contact Us To Book</a></p>';
 								
 								echo '
 									<div class="bookTrainingForm">
-										<form action="/onsite/book.php" method="post" class="bookTrainingForm_form" id="bookTrainingForm_' . $their_trainings['slug'] . '">
+										<form action="/onsite/book.php" method="post" class="bookTrainingForm_form" id="bookTrainingForm_' . $training['slug'] . '">
 											<div class="input">
 												<label for="name">Name</label>
 												<input type="text" id="name" name="name">
@@ -108,7 +108,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 												<input type="text" id="email" name="email">
 											</div>
 											<button type="submit" name="submit" class="button button-small">Submit</button>
-											<input type="hidden" name="training" value="' . $their_trainings['title'] . '" />
+											<input type="hidden" name="training" value="' . $training['title'] . '" />
 											<input type="hidden" name="consultant" value="' . $consultant['first'] . ' ' . $consultant['last'] . '" />
 										</form>
 									</div>';
