@@ -388,12 +388,12 @@ dd, dt {
 	margin: -36px 0 0 -36px
 }
 
-.theme-pm {  }
-.theme-pm h3 { background-color: #006F9E !important; }
-.instructor-content.theme-pm h3, .instructor-content.theme-pm h3 a { background-color: transparent !important; color: #006F9E !important; }
-.theme-pm h4, .theme-pm h4 a { color: #006F9E !important; }
-.theme-pm .title { color: #006F9E !important; }
-.theme-pm .button-small { background-color: #006F9E; }
+.theme-product-management {  }
+.theme-product-management h3 { background-color: #006F9E !important; }
+.instructor-content.theme-product-management h3, .instructor-content.theme-product-management h3 a { background-color: transparent !important; color: #006F9E !important; }
+.theme-product-management h4, .theme-product-management h4 a { color: #006F9E !important; }
+.theme-product-management .title { color: #006F9E !important; }
+.theme-product-management .button-small { background-color: #006F9E; }
 
 .theme-ux { }
 .theme-ux h3 { background-color: #FD7C00 !important; }
@@ -468,11 +468,11 @@ dd, dt {
 	margin: 0
 }
 
-.instructor.pm .instructor-photo:after, .instructor.pm .label {
+.instructor.product-management .instructor-photo:after, .instructor.product-management .label {
 	background: #006F9E
 }
 
-.instructor.pm .title, .instructor.pm h4, .instructor.pm a {
+.instructor.product-management .title, .instructor.product-management h4, .instructor.product-management a {
 	color: #006F9E
 }
 
@@ -1815,11 +1815,11 @@ section.courses.ux .course-calendar .time {
 	color: #FD7C00
 }
 
-section.courses.pm .course-calendar h3 {
+section.courses.product-management .course-calendar h3 {
 	background: #006F9E
 }
 
-section.courses.pm .course-calendar .time {
+section.courses.product-management .course-calendar .time {
 	color: #006F9E
 }
 
@@ -2014,11 +2014,11 @@ section.courses .course dl .description li {
 		color: #FD7C00
 	}
 
-	section.courses.pm .course-track-nav {
+	section.courses.product-management .course-track-nav {
 		background: #006F9E
 	}
 
-	section.courses.pm .course-track-nav span.active {
+	section.courses.product-management .course-track-nav span.active {
 		color: #006F9E
 	}
 
@@ -2210,11 +2210,11 @@ section.training-courses .course-groups .button {
 	margin: 0
 }
 
-section.training-courses .course-groups .pm {
+section.training-courses .course-groups .product-management {
 	background: #006F9E
 }
 
-section.training-courses .course-groups .pm .button {
+section.training-courses .course-groups .product-management .button {
 	color: #006F9E
 }
 
@@ -2429,11 +2429,11 @@ section.schedule-breakdown .timeline dd a {
 		background: #FD7C00
 	}
 
-	section.schedule-breakdown .timeline dd.pm h4, section.schedule-breakdown .timeline dd.pm p {
+	section.schedule-breakdown .timeline dd.product-management h4, section.schedule-breakdown .timeline dd.product-management p {
 		color: #006F9E
 	}
 
-	section.schedule-breakdown .timeline dd.pm:after {
+	section.schedule-breakdown .timeline dd.product-management:after {
 		background: #006F9E
 	}
 
@@ -2541,7 +2541,7 @@ section.schedule-breakdown .timeline dd a {
 		background: #FD7C00
 	}
 
-	section.schedule-breakdown .timeline dd.pm {
+	section.schedule-breakdown .timeline dd.product-management {
 		background: #006F9E
 	}
 
@@ -2562,8 +2562,8 @@ section.schedule-breakdown .timeline dd a {
 		color: #FD7C00;
 	}
 
-	section.schedule-breakdown .timeline .category dd.pm,
-	section.schedule-breakdown .timeline .category dd.pm h4 {
+	section.schedule-breakdown .timeline .category dd.product-management,
+	section.schedule-breakdown .timeline .category dd.product-management h4 {
 		color: #006F9E;
 	}
 

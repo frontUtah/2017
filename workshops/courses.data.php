@@ -44,7 +44,9 @@ $courses[] = array(
 // Drew Bridewell
 $courses[] = array(
 	'title' => 'The building, scaling, and evolution of a Design System',
-	'description' => "Product design over the last years has taken a substantial leap forward in progress. We now have multiple tools to choose from for executing our solutions, along with a collection of new responsibilities that each one of us needs to adapt to stay current.</br></br>In this Workshop, join Drew Bridewell, Senior Design Specialist from InVision, as he shares a wave of packaged up fresh design system content that you’ve never seen before.  He’ll walk you through how you can elevate your thinking around design systems, as well as the practice that goes into successfully implementing one. </br></br>During the workshop Drew will provide take-home worksheets that can help you throughout the creation and governance process of building systems. He’ll finish by providing you the best-in-class habits to nurture your systems over time.",
+	'description' => "Product design over the last years has taken a substantial leap forward in progress. We now have multiple tools to choose from for executing our solutions, along with a collection of new responsibilities that each one of us needs to adapt to stay current.</br></br>In this Workshop, join Drew Bridewell, Senior Design Specialist from InVision, as he shares a wave of packaged up fresh design system content that you’ve never seen before.
+
+He’ll walk you through how you can elevate your thinking around design systems, as well as the practice that goes into successfully implementing one. </br></br>During the workshop Drew will provide take-home worksheets that can help you throughout the creation and governance process of building systems. He’ll finish by providing you the best-in-class habits to nurture your systems over time.",
 	'track' => 'ux',
 	'day' => 2,
 	'slot' => 1,
@@ -71,7 +73,7 @@ $courses[] = array(
 $courses[] = array(
 	'title' => 'The 3x Conversion Playbook: Step-by-step instructions for Product Managers to increase customers and fuel their business.',
 	'description' => "Most PMs focus on building high-quality features. This workshop will demonstrate why that isn't enough in today's world of competitive products, and it will show you how to appeal to people through Growth and conversion principles.</br></br>During the workshop, you will learn through actual examples about how to improve conversion and take the growth mindset back to your product organizations.",
-	'track' => 'pm',
+	'track' => 'product-management',
 	'day' => 1,
 	'slot' => 1,
 	'instructor' => 'barroncaster',
@@ -82,7 +84,7 @@ $courses[] = array(
 $courses[] = array(
 	'title' => 'Journey Mapping for PMs: Why building a journey map will help you build the right thing, on time. ',
 	'description' => "How often do you, the PM, build journey maps? The answer for me used to be basically never. In this workshop we’ll practice building them and talk about how they can help you build the right thing and ship on time. ",
-	'track' => 'pm',
+	'track' => 'product-management',
 	'day' => 1,
 	'slot' => 2,
 	'instructor' => 'blakemcclary',
@@ -93,7 +95,7 @@ $courses[] = array(
 $courses[] = array(
 	'title' => 'How to Create Intelligent Products',
 	'description' => "According to Gartner “AI Technologies will be in almost every new software product by 2020”. With this explosion of AI products, many will fail. However, there are common trends that are emerging among the intelligent products that are succeeding. So what is it, that makes an AI product that customers love? In this workshop, you will deep dive on the most relevant concepts across various disciplines that help answer this question.</br></br>You will learn:<ul><li>Analytics for AI products</li><li>Machine Learning for AI products</li><li>UX for AI Products</li><li>Common Use Cases for AI Products</li><li>Discovering AI Product Opportunities</li></ul>You will also learn how to embed AI into your software development methodology and design an effective AI product team. Through exercises, case-studies and lessons learned, this workshop will empower your product team with an actionable path to incorporate AI in an impactful way into your business.",
-	'track' => 'pm',
+	'track' => 'product-management',
 	'day' => 1,
 	'slot' => 3,
 	'instructor' => 'jaekobchenina',
@@ -104,7 +106,7 @@ $courses[] = array(
 $courses[] = array(
 	'title' => 'User story mapping',
 	'description' => "Ideal Agile development teams build small valuable chunks of functionality. But, that’s easier said than done. Not all products or features are small and breaking them down into small buildable parts is challenging. And, even when you do, how do the people building those small parts not lose sight of the big picture? Story mapping is a simple practice for telling the story of a whole product or feature starting by telling the stories of the users who’ll use it. In this fast paced workshop you’ll learn the concepts of story mapping by building a map collaboratively with others. You’ll learn advanced techniques for slicing a map to find small viable product releases, and then how to build your product using smaller stories without losing sight of the big picture.",
-	'track' => 'pm',
+	'track' => 'product-management',
 	'day' => 2,
 	'slot' => 1,
 	'instructor' => 'jeffpatton',
@@ -115,7 +117,7 @@ $courses[] = array(
 $courses[] = array(
 	'title' => 'Teamwork Makes the Dream Work: How to effectively work together over the course of your project to ship great software products',
 	'description' => "World-class product teams are greater than the sum of their parts—but how does that happen? Sometimes you’re lucky, and if you put a cross-functional team into a small room, they spit out magic. More often, though, product teams struggle to work together effectively, spending more time bumping into each other than actually building product. PMs, UX designers, and executives all try to drive definition, engineering isn’t brought in early enough, and QA sees a story for the first time when they test it.</br></br>In this workshop, Vicky will share methods and models of working together that have transformed her teams at Adobe, Lucid Software, and Vivint Smart Home. As a participant, you’ll get hands-on practice writing OKRs, crafting the perfect one-pager, navigating the project cycle from wireframes to defined JIRA tickets, breaking down dev work for estimation, and building roadmaps that work. You’ll leave the session with tools and templates that you can implement right away, and an understanding of how to build the single most important capability of any product team.",
-	'track' => 'pm',
+	'track' => 'product-management',
 	'day' => 2,
 	'slot' => 2,
 	'instructor' => 'vickythomas',

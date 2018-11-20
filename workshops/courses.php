@@ -20,7 +20,7 @@ if(empty($uri_parts[2])) {
 $track = $uri_parts[2];
 
 $tabs[] = array('link' => 'ux', 'text' => 'UX');
-$tabs[] = array('link' => 'pm', 'text' => 'Product Management');
+$tabs[] = array('link' => 'product-management', 'text' => 'Product Management');
 $tabs[] = array('link' => 'research', 'text' => 'Research');
 $tabs[] = array('link' => 'leadership', 'text' => 'Leadership');
 

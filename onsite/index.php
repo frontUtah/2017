@@ -6,6 +6,21 @@ $title = 'Front UX & Product Management Custom Onsite Training';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
+$subject = $_GET['subject'];
+
+// if no tab requested, redirect to the first
+if(empty($subject)) {
+	$string = '<script type="text/javascript">';
+    $string .= 'window.location = "http://' . $_SERVER['HTTP_HOST'] . '/onsite/ux' . '"';
+    $string .= '</script>';
+    echo $string;
+	die;
+}
+
+$tabs[] = array('link' => 'ux', 'text' => 'UX');
+$tabs[] = array('link' => 'product-management', 'text' => 'Product Management');
+$tabs[] = array('link' => 'leadership', 'text' => 'Leadership');
+
 ?>
 
 
@@ -74,28 +89,55 @@ function print_trainings($category) {
 		<h1>Onsite training</h1>
 		<p>Let us to bring Front to you. Tell us about your organization's needs and we'll find a training solution to meet them.</p>
 	</section>
-	<section class="courses" style="padding-top: 70px;	">
+	<section class="courses <?php echo $subject; ?>">
+		<h2 class="">Custom training for your team</h2>
 		<p class="about-courses">With years of experience running public workshops, we're curating a catalog of the very best for your team. Pick from dozens of trainings that have helped hundreds of companies looking to tackle their product management, design, research, and leadership challenges.</p>
+
+		<nav class="course-track-nav">
+			<h4>Browse by subject</h4>
+			<div class="track-options" onclick="">
+				<ul>
+					<!--Mobile Order: Actual Order. Desktop Order: Class Names. Bless you Flexbox-->
+
+					<?php
+
+					// build tabs
+
+					$t = '';
+
+					foreach($tabs as $key => $tab) {
+						$ti = '';
+						
+						$ti .= '<li class="order-' . ($key + 1)  . '">';
+
+						if($tab['link'] == $subject) {
+							$ti .= '<span class="active">' . $tab['text'] . '</span>';
+						} else {
+							$ti .= '<a href="/onsite/' . $tab['link'] . '">' . $tab['text'] . '</a>';
+						}
+
+						$ti .= '</li>';
+						$ti .= "\n";
+					
+						if($tab['link'] == $subject) {
+							$t = $ti . $t;
+						} else {
+							$t .= $ti;
+						}
+					}
+					
+					echo $t;
+
+					?>
+
+				</ul>
+			</div>
+		</nav>
+
 		<div class="course-calendar">
-			
-			<div class="course-date theme-ux">
-				<h3>UX training</h3>
-					<?php print_trainings('ux'); ?>
-			</div>
-			
-			<div class="course-date theme-pm">
-				<h3>Product Management training</h3>
-					<?php print_trainings('pm'); ?>
-			</div>
-			<!--
-			<div class="course-date theme-research">
-				<h3>Research training</h3>
-					<?php //print_trainings('research'); ?>
-			</div>
-			-->
-			<div class="course-date theme-leadership">
-				<h3>Leadership training</h3>
-					<?php print_trainings('leadership'); ?>
+			<div class="course-date theme-<?php echo $subject; ?>">
+				<h3><?php echo ucfirst($subject); ?> training</h3>
+					<?php print_trainings($subject); ?>
 			</div>
 		</div>
 	</section>
