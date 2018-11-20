@@ -2084,6 +2084,7 @@ section.courses .course dl .description li {
 		width: 325px;
 		flex-direction: row;
 		padding-bottom: 20px;
+		text-align: left;
 	}
 
 	section.courses .course dl .instructor .instructor-photo {
