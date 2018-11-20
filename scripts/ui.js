@@ -14,6 +14,8 @@ frontConf.ui = (function() {
 		$body.on( 'click', '.section-nav .menu-toggle', toggleSectionMenu );
 		$body.on( 'click', '.accordion-title', toggleAccordion );
 		$body.on( 'click touchstart', '.schedule-breakdown .timeline dd.course', clickableScheduleBlock );
+		$body.on( 'click', '.bookTrainingButton', toggleBookTrainingForm );		
+		$body.on( 'submit', '.bookTrainingForm_form', submitBookTrainingForm );		
 
 		if ( $body.find( '.section-header' ).length ) {
 			$win.on( 'scroll', toggleStickyHeaders );
@@ -71,6 +73,39 @@ frontConf.ui = (function() {
 	
 	var clickableScheduleBlock = function(event) {
 		window.location = $(this).children('a').attr('href');
+	}
+	
+	var toggleBookTrainingForm = function(event) {		
+		// clean up by hiding all forms and showing all buttons
+		$('.bookTrainingForm').hide();
+		$('.bookTrainingButton').show();
+		
+		// hide this training button
+		$(this).hide();
+		
+		// show this training form
+		$(this).parent().next().show();
+	}
+	
+	var submitBookTrainingForm = function(event) {
+		var form_id = $(this).attr('id');
+		
+		// prevent default action (form from submitting traditionally)
+		event.preventDefault();
+		
+		// get form action url
+		var post_url = $(this).attr("action"); 
+
+		// encode form elements for submission
+		var form_data = $(this).serialize();
+
+		// ajax post		
+		$.post(post_url, form_data, function(response) {
+			//$("#server-results").html(response);
+			
+			// replace form with thank-you message
+			$('#' + form_id).parent().empty().append('<p>Thanks, ' + form_data.name + '. We\'ll be in touch shortly to schedule your custom training.</p>');
+		});
 	}
 
 	return {

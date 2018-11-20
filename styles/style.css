@@ -1364,6 +1364,13 @@ footer p {
 	display: none;
 }
 
+.bookTrainingForm p {
+	font-style: italic;
+	padding: 20px;
+	background: #FAFAFA;
+	border-radius: 3px;
+}
+
 @media (min-width:1000px) {
 	.custom-training .hero {
 		height: 670px;
