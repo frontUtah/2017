@@ -111,6 +111,21 @@ $consultants[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/joelbeukelman/'
 );
 
+// Mariah Hay
+$consultants[] = array(
+	'slug' => 'mariahhay',
+	'first' => 'Mariah',
+	'last' => 'Hay',
+	'title' => 'VP, Product',
+	'company' => 'Pluralsight',
+	'discipline' => 'product-management',
+	'photo' => 'frontpc18/instructor_mariahhay.jpg',
+	'bio' => 'Mariah Hay is the VP of User Experience for Pluralsight, an online subscription based education provider for the technology community. As a thought leader in human-centered design and user experience strategy, Mariah enjoys working with teams whose goal is to craft excellence for the end user. Her experience with industrial and interaction design teams serving high-level stakeholders reflects her personal goals of directing business through design excellence from the ground up. Her expertise in implementing human-centered design product practices at the enterprise level stems from over a decade of tenure in the industry including serving as Professor of Design Management at Savannah College of Art and Design, Directing UX for Universal Mind, and serving as Director of User Experience AMC Health. Mariah holds an MFA in Industrial Design from Savannah College of Art and Design.',
+	'twitter' => 'mariahhay',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/mariahhay/'
+);
+
 // Nate Barrett
 $consultants[] = array(
 	'slug' => 'natebarrett',

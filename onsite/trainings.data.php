@@ -9,8 +9,6 @@
  */
  
 
-// USER EXPERIENCE WORKSHOPS -----------------------------
-
 // Andrew Branch
 $trainings[] = array(
 	'slug' => 'continuous-user-research',
@@ -50,14 +48,14 @@ $trainings[] = array(
 	'length' => '1 day'
 );
 
-// Garth Braithwaite
+// Jaekob Chenina
 $trainings[] = array(
-	'slug' => 'how-to-establish-and-maintain-a-design-system',
-	'instructor' => 'garthbraithwaite',
-	'subjects' => array('ux'),
-	'title' => 'How to Establish and Maintain a Design System',
-	'summary' => "As teams and products grow it can become complicated to maintain consistency across all properties, additionally, there is often a duplication of initial work for each product starting from scratch. By establishing and maintaining a company-wide design language and design system implementation, teams are better equipped to ensure consistency, reduce duplication of work, and improve overall design and code quality.",
-	'description' => "As teams and products grow it can become complicated to maintain consistency across all properties, additionally, there is often a duplication of initial work for each product starting from scratch. By establishing and maintaining a company-wide design language and design system implementation, teams are better equipped to ensure consistency, reduce duplication of work, and improve overall design and code quality.<br><br.In this workshop, you will get hands-on experience with initial ideation and planning of a design system, as well as designing initial tokens, components, assets, and usage guidelines. Along the way, we'll discuss common pitfalls and pain points associated with organizing a design system and establishing it throughout a company.",
+	'slug' => 'how-to-create-intelligent-products',
+	'instructor' => 'jaekobchenina',
+	'subjects' => array('pm'),
+	'title' => 'How to Create Intelligent Products',
+	'summary' => "According to Gartner “AI Technologies will be in almost every new software product by 2020”. With this explosion of AI products, many will fail. However, there are common trends that are emerging among the intelligent products that are succeeding. So what is it, that makes an AI product that customers love? In this workshop, you will deep dive on the most relevant concepts across various disciplines that help answer this question.",
+	'description' => "According to Gartner “AI Technologies will be in almost every new software product by 2020”. With this explosion of AI products, many will fail. However, there are common trends that are emerging among the intelligent products that are succeeding. So what is it, that makes an AI product that customers love? In this workshop, you will deep dive on the most relevant concepts across various disciplines that help answer this question.</br></br>You will learn:<ul><li>Analytics for AI products</li><li>Machine Learning for AI products</li><li>UX for AI Products</li><li>Common Use Cases for AI Products</li><li>Discovering AI Product Opportunities</li></ul>You will also learn how to embed AI into your software development methodology and design an effective AI product team. Through exercises, case-studies and lessons learned, this workshop will empower your product team with an actionable path to incorporate AI in an impactful way into your business." ,
 	'price' => '7,000',
 	'capacity' => '10-50',
 	'length' => '1 day'
@@ -89,41 +87,54 @@ $trainings[] = array(
 	'length' => 'half day'
 );
 
-// Sarah Doody
+// Garth Braithwaite
 $trainings[] = array(
-	'slug' => 'storyboarding-in-product-development',
-	'instructor' => 'sarahdoody',
+	'slug' => 'how-to-establish-and-maintain-a-design-system',
+	'instructor' => 'garthbraithwaite',
 	'subjects' => array('ux'),
-	'title' => 'Storyboarding in Product Development',
-	'summary' => "Why do so many teams fail to launch products on time? Why do budgets quickly creep beyond initial projections? Why do so many products launch and then, customers fail to adopt the product or feature? It’s because too often, teams jump right into designing and building before they establish their product story –– the deep understanding of how the product fits into people’s lives. Storyboarding is a critical activity to product development because it forces us to develop a deeper understanding of the people we are designing for. It forces us to establish the context, characters, and a clear language which creates an anchor that can ground the team and keep the focus on people.",
-	'description' => "Why do so many teams fail to launch products on time? Why do budgets quickly creep beyond initial projections? Why do so many products launch and then, customers fail to adopt the product or feature? <br><br>It’s because too often, teams jump right into designing and building before they establish their product story –– the deep understanding of how the product fits into people’s lives. <br><br>Teams often let the weeds of the product details distract them from considering the user as a person. Discussion about people is quickly overshadowed by pixels and code. <br><br>Storyboarding is a critical activity to product development because it forces us to develop a deeper understanding of the people we are designing for. It forces us to establish the context, characters, and a clear language which creates an anchor that can ground the team and keep the focus on people." ,
+	'title' => 'How to Establish and Maintain a Design System',
+	'summary' => "As teams and products grow it can become complicated to maintain consistency across all properties, additionally, there is often a duplication of initial work for each product starting from scratch. By establishing and maintaining a company-wide design language and design system implementation, teams are better equipped to ensure consistency, reduce duplication of work, and improve overall design and code quality.",
+	'description' => "As teams and products grow it can become complicated to maintain consistency across all properties, additionally, there is often a duplication of initial work for each product starting from scratch. By establishing and maintaining a company-wide design language and design system implementation, teams are better equipped to ensure consistency, reduce duplication of work, and improve overall design and code quality.<br><br.In this workshop, you will get hands-on experience with initial ideation and planning of a design system, as well as designing initial tokens, components, assets, and usage guidelines. Along the way, we'll discuss common pitfalls and pain points associated with organizing a design system and establishing it throughout a company.",
 	'price' => '7,000',
 	'capacity' => '10-50',
 	'length' => '1 day'
 );
 
-// Sarah Doody
+// Gibson Biddle
 $trainings[] = array(
-	'slug' => 'validate-your-product-idea',
-	'instructor' => 'sarahdoody',
-	'subjects' => array('ux', 'product-management'),
-	'title' => 'Validate Your Product Idea',
-	'summary' => "Most products fail because the team didn't build the wrong product in the first place. How does this happen? It’s because we race to the “build” phase and focus all our energy on the product. If you truly want to create an awesome product, you have to understand the people your product will serve. The best competitive advantage you can have is to understand your people, your audience, your potential customers better than everyone else. Your audience will guide you to the exact product you should create and how you should market it. And when you create a product based on research, you can even get people to pay for it before it's even built. ",
-	'description' => "Most products fail because the team didn't build the wrong product in the first place. How does this happen? It’s because we race to the “build” phase and focus all our energy on the product. If you truly want to create an awesome product, you have to understand the people your product will serve.<br><br>The best competitive advantage you can have is to understand your people, your audience, your potential customers better than everyone else. Your audience will guide you to the exact product you should create and how you should market it. And when you create a product based on research, you can even get people to pay for it before it's even built. <br><br>This working will help teams learn how to:<ul><li>Do fast, affordable, and insightful use research to gather the information you need to build an effective product or service</li><li>Analyze user research findings to identify a tangible solution for the problems that your audience has</li><li>Walk through a simple step-by-step demo for building a high converting landing page</li><li>How to identify the specific product to build initially, your MVP, and not build something too complicated as your first version</li><li>Leverage email to build trust with your early prospects and keep them engaged while you build that MVP or first features.</li></ul>" ,
-	'price' => '7,000',
+	'slug' => 'hacking-your-product-leader-career',
+	'instructor' => 'gibsonbiddle',
+	'subjects' => array('leadership'),
+	'title' => 'Hacking Your Product Leader Career',
+	'summary' => "In this workshop, Gib describes his hypothesis-driven approach to career advancement -- what he calls “career hacking.” This workshop describes the technical skills of a product leader, the functional leadership skills required as you advance your career, how to define, experiment, and measure \"career hypotheses,\" how to identify your \"superpowers\" as a product leader, then how to isolate the skills you’ll need to develop to advance your career.",
+	'description' => "In this workshop, Gib describes his hypothesis-driven approach to career advancement -- what he calls “career hacking.”  This workshop describes:<ul><li>the technical skills of a product leader</li><li>the functional leadership skills required as you advance your career</li><li>how to define, experiment, and measure “career hypotheses”<li>how to  identify your “superpowers” as a product leader, then</li><li>how to isolate the skills you’ll need to develop to advance your career.</li></ul><br>Gib will also dive deep into a few areas of product management and leadership.  He’ll illustrate:<br><br><ul><li>how to use the GLEe, DHM and GEM models to form a cogent product strategy</li><li>how to embrace consumer science to make “wicked hard” product decisions, and finally</li><li>how to develop the leadership skills you’ll need to communicate an inspired vision of the future.</li></ul><br>Gib’s workshops are highly interactive with a great mix of presentation, mini-cases, and introspection, all of which work together to jumpstart your career." ,
+	'price' => '13,000',
 	'capacity' => '10-50',
 	'length' => '1 day'
 );
 
-// Jaekob Chenina
+// Gibson Biddle
 $trainings[] = array(
-	'slug' => 'how-to-create-intelligent-products',
-	'instructor' => 'jaekobchenina',
-	'subjects' => array('product-management'),
-	'title' => 'How to Create Intelligent Products',
-	'summary' => "According to Gartner “AI Technologies will be in almost every new software product by 2020”. With this explosion of AI products, many will fail. However, there are common trends that are emerging among the intelligent products that are succeeding. So what is it, that makes an AI product that customers love? In this workshop, you will deep dive on the most relevant concepts across various disciplines that help answer this question.",
-	'description' => "According to Gartner “AI Technologies will be in almost every new software product by 2020”. With this explosion of AI products, many will fail. However, there are common trends that are emerging among the intelligent products that are succeeding. So what is it, that makes an AI product that customers love? In this workshop, you will deep dive on the most relevant concepts across various disciplines that help answer this question.</br></br>You will learn:<ul><li>Analytics for AI products</li><li>Machine Learning for AI products</li><li>UX for AI Products</li><li>Common Use Cases for AI Products</li><li>Discovering AI Product Opportunities</li></ul>You will also learn how to embed AI into your software development methodology and design an effective AI product team. Through exercises, case-studies and lessons learned, this workshop will empower your product team with an actionable path to incorporate AI in an impactful way into your business." ,
-	'price' => '7,000',
+	'slug' => 'product-strategy-workshop',
+	'instructor' => 'gibsonbiddle',
+	'subjects' => array('leadership'),
+	'title' => 'Product Strategy Workshop',
+	'summary' => "This workshop focuses on helping product leaders and product-focused CEOs develop their company’s overall product strategy, and to define the product strategy for each “pod” or “swimming lane” within larger product organizations. The workshop has a highly interactive, step-by-step approach which introduces different tools, models, and frameworks, followed by the application of these ideas to each participant’s product.",
+	'description' => "This workshop focuses on helping product leaders and product-focused CEOs develop their company’s overall product strategy, and to define the product strategy for each “pod” or “swimming lane” within larger product organizations.<br><br>The workshop has a highly interactive, step-by-step approach which introduces different tools, models, and frameworks, followed by the application of these ideas to each participant’s product. In the workshop, Gib Introduces four models:<ul><li>The GLEe model, describing what you will “Get big on,” how you will “Lead from there,” then eventually, “Expand to dent the universe.”</li><li>The DHM model, defining your hypotheses, or product strategies, for how you will “Delight customers, in Hard-to-copy, Margin-enhancing ways.”</li><li>A framework for defining metrics that measure both customer and shareholder value.</li><li>The GEM model, clarifying how you will prioritize Growth, Engagement, and Monetization.</li></ul>At the end of the workshop, Gib will show how these models work together to define a four-quarter, rolling product roadmap that pulls together product strategies, metrics, and tactics. The workshop ends with highly interactive case studies, demonstrating how Gib utilized quarterly product strategy meetings at both Netflix and Chegg to put a strategy into action, or as he puts it, “make wicked hard decisions about people, product, and the business." ,
+	'price' => '13,000',
+	'capacity' => '10-50',
+	'length' => '1 day'
+);
+
+// Mariah Hay
+$trainings[] = array(
+	'slug' => 'product-leadership-fundamentals-find-develop-and-keep-your-team-healthy',
+	'instructor' => 'mariahhay',
+	'subjects' => array('pm','leadership'),
+	'title' => 'Product Leadership Fundamentals: Find, Develop, and Keep Your Team Healthy',
+	'summary' => "You’re an experienced product practitioner who has a love of mentoring and an ambition for leadership but are not sure where to start. To make that shift you need to arm yourself with some tactical skills around building a team, developing a team, and even having the hard conversations needed to keep the team healthy. In this training, we will be breaking our time into focusing on these three areas, reviewing tactics and tools, and learning through doing.",
+	'description' => "You’re an experienced product practitioner who has a love of mentoring and an ambition for leadership but are not sure where to start. To make that shift you need to arm yourself with some tactical skills around building a team, developing a team, and even having the hard conversations needed to keep the team healthy. In this workshop, we will be breaking our time into focusing on these three areas, reviewing tactics and tools, and learning through doing. <br><br>Experience Team Building 101: How to recruit, interview and identify the best person for your team. We will look at strategies for finding amazing applicants, effective ways of interviewing, and things to looks for and consider in selecting a new team member.<br><br>Developing Your Team: Tools to develop your PMs and UX Designers, and create career paths within your organization We will look at defining what career paths exist / should exist in your company, learn to use tools that help us guide a conversation to understand the many dimensions of your team member, and practice ways to select and prioritize actionable things you can work with your team member to improve.<br><br>Conversations: How to manage Product Managers and UX Designers who are dropping the ball. We will talk about one of the hardest and most important parts of leadership, managing team members who are dropping the ball. This is easier said than done. First, we need to understand why the ball is being dropped (system, workload, communication, soft skills, disengagement). If it is a system or workload issue, how do we co-author a solution with the team? If it is a communication or soft skills issue, how do we coach the individual? And if it is a disengagement issue, how do we have the hard conversation with our team member that they must step up or move on." ,
+	'price' => '9,750',
 	'capacity' => '10-50',
 	'length' => '1 day'
 );
@@ -149,6 +160,58 @@ $trainings[] = array(
 	'title' => 'Soft Skills are Hard Skills',
 	'summary' => "Though you can’t measure soft skills the way you can hard skills, that doesn’t make them any less important. They aren’t learned in a formal education setting. They are learned by conscious practice and effort. Learn about these skills through stories of success and failure and why these skills are so important to a product builder.",
 	'description' => "Though you can’t measure soft skills the way you can hard skills, that doesn’t make them any less important. They aren’t learned in a formal education setting. They are learned by conscious practice and effort. Learn about these skills through stories of success and failure and why these skills are so important to a product builder." ,
+	'price' => '7,000',
+	'capacity' => '10-50',
+	'length' => '1 day'
+);
+
+// Nate Barrett
+$trainings[] = array(
+	'slug' => 'motivating-product-teams-through-a-culture-of-aligned-autonomy',
+	'instructor' => 'natebarrett',
+	'subjects' => array('leadership'),
+	'title' => 'Motivating Product Teams Through a Culture of Aligned Autonomy',
+	'summary' => "Product builders are driven by understanding and experiencing customer pain and building experiences to ease and remove that pain. We know our customers better than anyone in our organization. Unfortunately, many organizations have leadership that gets in the way with too much process and hierarchy. Learn how a culture of autonomy flips traditional organizational thinking on its head with a focus on product outcomes, servant leadership and bottom up thinking.",
+	'description' => "Product builders are driven by understanding and experiencing customer pain and building experiences to ease and remove that pain. We know our customers better than anyone in our organization. Unfortunately, many organizations have leadership that gets in the way with too much process and hierarchy. Learn how a culture of autonomy flips traditional organizational thinking on its head with a focus on product outcomes, servant leadership and bottom up thinking." ,
+	'price' => '7,000',
+	'capacity' => '10-50',
+	'length' => '1 day'
+);
+
+// Sarah Doody
+$trainings[] = array(
+	'slug' => 'validate-your-product-idea',
+	'instructor' => 'sarahdoody',
+	'subjects' => array('research'),
+	'title' => 'Validate Your Product Idea',
+	'summary' => "Most products fail because the team didn't build the wrong product in the first place. How does this happen? It’s because we race to the “build” phase and focus all our energy on the product. If you truly want to create an awesome product, you have to understand the people your product will serve. The best competitive advantage you can have is to understand your people, your audience, your potential customers better than everyone else. Your audience will guide you to the exact product you should create and how you should market it. And when you create a product based on research, you can even get people to pay for it before it's even built. ",
+	'description' => "Most products fail because the team didn't build the wrong product in the first place. How does this happen? It’s because we race to the “build” phase and focus all our energy on the product. If you truly want to create an awesome product, you have to understand the people your product will serve.<br><br>The best competitive advantage you can have is to understand your people, your audience, your potential customers better than everyone else. Your audience will guide you to the exact product you should create and how you should market it. And when you create a product based on research, you can even get people to pay for it before it's even built. <br><br>This working will help teams learn how to:<ul><li>Do fast, affordable, and insightful use research to gather the information you need to build an effective product or service</li><li>Analyze user research findings to identify a tangible solution for the problems that your audience has</li><li>Walk through a simple step-by-step demo for building a high converting landing page</li><li>How to identify the specific product to build initially, your MVP, and not build something too complicated as your first version</li><li>Leverage email to build trust with your early prospects and keep them engaged while you build that MVP or first features.</li></ul>" ,
+	'price' => '7,000',
+	'capacity' => '10-50',
+	'length' => '1 day'
+);
+
+// Sarah Doody
+$trainings[] = array(
+	'slug' => 'storyboarding-in-product-development',
+	'instructor' => 'sarahdoody',
+	'subjects' => array('ux'),
+	'title' => 'Storyboarding in Product Development',
+	'summary' => "Why do so many teams fail to launch products on time? Why do budgets quickly creep beyond initial projections? Why do so many products launch and then, customers fail to adopt the product or feature? It’s because too often, teams jump right into designing and building before they establish their product story –– the deep understanding of how the product fits into people’s lives. Storyboarding is a critical activity to product development because it forces us to develop a deeper understanding of the people we are designing for. It forces us to establish the context, characters, and a clear language which creates an anchor that can ground the team and keep the focus on people.",
+	'description' => "Why do so many teams fail to launch products on time? Why do budgets quickly creep beyond initial projections? Why do so many products launch and then, customers fail to adopt the product or feature? <br><br>It’s because too often, teams jump right into designing and building before they establish their product story –– the deep understanding of how the product fits into people’s lives. <br><br>Teams often let the weeds of the product details distract them from considering the user as a person. Discussion about people is quickly overshadowed by pixels and code. <br><br>Storyboarding is a critical activity to product development because it forces us to develop a deeper understanding of the people we are designing for. It forces us to establish the context, characters, and a clear language which creates an anchor that can ground the team and keep the focus on people." ,
+	'price' => '7,000',
+	'capacity' => '10-50',
+	'length' => '1 day'
+);
+
+// Sarah Doody
+$trainings[] = array(
+	'slug' => 'validate-your-product-idea',
+	'instructor' => 'sarahdoody',
+	'subjects' => array('ux', 'pm'),
+	'title' => 'Validate Your Product Idea',
+	'summary' => "Most products fail because the team didn't build the wrong product in the first place. How does this happen? It’s because we race to the “build” phase and focus all our energy on the product. If you truly want to create an awesome product, you have to understand the people your product will serve. The best competitive advantage you can have is to understand your people, your audience, your potential customers better than everyone else. Your audience will guide you to the exact product you should create and how you should market it. And when you create a product based on research, you can even get people to pay for it before it's even built. ",
+	'description' => "Most products fail because the team didn't build the wrong product in the first place. How does this happen? It’s because we race to the “build” phase and focus all our energy on the product. If you truly want to create an awesome product, you have to understand the people your product will serve.<br><br>The best competitive advantage you can have is to understand your people, your audience, your potential customers better than everyone else. Your audience will guide you to the exact product you should create and how you should market it. And when you create a product based on research, you can even get people to pay for it before it's even built. <br><br>This working will help teams learn how to:<ul><li>Do fast, affordable, and insightful use research to gather the information you need to build an effective product or service</li><li>Analyze user research findings to identify a tangible solution for the problems that your audience has</li><li>Walk through a simple step-by-step demo for building a high converting landing page</li><li>How to identify the specific product to build initially, your MVP, and not build something too complicated as your first version</li><li>Leverage email to build trust with your early prospects and keep them engaged while you build that MVP or first features.</li></ul>" ,
 	'price' => '7,000',
 	'capacity' => '10-50',
 	'length' => '1 day'
@@ -307,6 +370,19 @@ $trainings[] = array(
 	'description' => "Every team can be high-performing...some of them just need to be unlocked. In this workshop, you'll learn the most important elements of high-performing teams, and how to help your team get there. Vicky will share specific examples that have worked (and not worked) as she's created high-performing cultures at Adobe, Lucid Software, and Vivint Smart Home. Topics include psychological safety, diversity & inclusion, and being a multiplier." ,
 	'price' => '7,000',
 	'capacity' => '10-30',
+	'length' => '1 day'
+);
+
+// Wade Shearer
+$trainings[] = array(
+	'slug' => 'teaching-your-team-to-learn',
+	'instructor' => 'wadeshearer',
+	'subjects' => array('leadership', 'pm'),
+	'title' => 'Teaching your team to learn',
+	'summary' => "Still basking in the glow of last month's Design Sprint? What has your team learned since? Are we not going to see you at church again until Easter? Did the process move the needle? What was the needle? A hypothesis is worthless without clear definition of desired outcomes. Ideation and validation must be the way your team works and learn every day. Discovery shouldn’t be a phase. In this workshop, you'll learn how to identify opportunities and deliver solutions that provide lasting value through continuous discovery and delivery.",
+	'description' => "Still basking in the glow of last month's Design Sprint? What has your team learned since? Are we not going to see you at church again until Easter? Did the process move the needle? What was the needle? A hypothesis is worthless without clear definition of desired outcomes. Ideation and validation must be the way your team works and learn every day. Discovery shouldn’t be a phase. In this workshop, you'll learn how to identify opportunities and deliver solutions that provide lasting value through continuous discovery and delivery.",
+	'price' => '13,000',
+	'capacity' => '10-50',
 	'length' => '1 day'
 );
 
