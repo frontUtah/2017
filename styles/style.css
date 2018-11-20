@@ -38,6 +38,10 @@ h1 {
 	font-size: 2em
 }
 
+h3 a, h4 a {
+	text-decoration: none;
+}
+
 figure {
 	margin: 1em 40px
 }
@@ -380,25 +384,29 @@ dd, dt {
 
 .theme-pm {  }
 .theme-pm h3 { background-color: #006F9E !important; }
-.theme-pm h4 { color: #006F9E !important; }
+.instructor-content.theme-pm h3, .instructor-content.theme-pm h3 a { background-color: transparent !important; color: #006F9E !important; }
+.theme-pm h4, .theme-pm h4 a { color: #006F9E !important; }
 .theme-pm .title { color: #006F9E !important; }
 .theme-pm .button-small { background-color: #006F9E; }
 
 .theme-ux { }
 .theme-ux h3 { background-color: #FD7C00 !important; }
-.theme-ux h4 { color: #FD7C00 !important; }
+.instructor-content.theme-ux h3, .instructor-content.theme-ux h3 a { background-color: transparent !important; color: #FD7C00 !important; }
+.theme-ux h4, .theme-ux h4 a { color: #FD7C00 !important; }
 .theme-ux .title { color: #FD7C00 !important; }
 .theme-ux .button-small { background-color: #FD7C00; }
 
 .theme-research { }
 .theme-research h3 { background-color: #653789 !important; }
-.theme-research h4 { color: #653789 !important; }
+.instructor-content.theme-research h3, .instructor-content.theme-research h3 a { background-color: transparent !important; color: #653789 !important; }
+.theme-research h4, .theme-research h4 a { color: #653789 !important; }
 .theme-research .title { color: #653789 !important; }
 .theme-research .button-small { background-color: #653789; }
 
 .theme-leadership { }
 .theme-leadership h3 { background-color: #FFD01D !important; }
-.theme-leadership h4 { color: #FFD01D !important; }
+.instructor-content.theme-leadership h3, .instructor-content.theme-leadership h3 a { background-color: transparent !important; color: #FFD01D !important; }
+.theme-leadership h4, .theme-leadership h4 a { color: #FFD01D !important; }
 .theme-leadership .title { color: #FFD01D !important; }
 .theme-leadership .button-small { background-color: #FFD01D; }
 
@@ -458,7 +466,7 @@ dd, dt {
 	background: #006F9E
 }
 
-.instructor.pm .title, .instructor.pm h4 {
+.instructor.pm .title, .instructor.pm h4, .instructor.pm a {
 	color: #006F9E
 }
 
@@ -466,7 +474,7 @@ dd, dt {
 	background: #FD7C00
 }
 
-.instructor.ux .title, .instructor.ux h4 {
+.instructor.ux .title, .instructor.ux h4, .instructor.ux a {
 	color: #FD7C00
 }
 
@@ -474,7 +482,7 @@ dd, dt {
 	background: #653789
 }
 
-.instructor.research .title, .instructor.research h4 {
+.instructor.research .title, .instructor.research h4, .instructor.research a {
 	color: #653789
 }
 
@@ -482,7 +490,7 @@ dd, dt {
 	background: #E2B700
 }
 
-.instructor.leadership .title, .instructor.leadership h4 {
+.instructor.leadership .title, .instructor.leadership h4, .instructor.leadership a {
 	color: #E2B700
 }
 

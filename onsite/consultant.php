@@ -32,7 +32,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		<h2 class="">Consultants</h2>
 		<div class="instructor-profile">
 			<div class="details">
-				<div class="instructor ux">
+				<div class="instructor <?php echo strtolower($consultant['discipline']); ?>">
 					<div class="instructor-photo">
 						<img src="/images/<?php echo $consultant['photo']; ?>" alt="">
 					</div>
@@ -67,13 +67,13 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 				</div>
 			</div>
-			<div class="instructor-content">
+			<div class="instructor-content theme-<?php echo strtolower($consultant['discipline']); ?>">
 				<div class="course-description">
 					<?php
 
 					if(count($trainings) > 0) {
 						foreach($trainings as $slug => $their_trainings) {
-								echo '<h3><a href="/onsite/training/' . $their_trainings['slug'] . '">' . $their_trainings['title'] . '</a></h3>';
+								echo '<h3><a href="/onsite/training/' . $their_trainings['slug'] . '">' . $their_trainings['title'] . ' &nbsp;&nbsp; &xrarr;</a></h3>';
 								echo '<p><strong>Size:</strong> ' . $their_trainings['capacity'] . ' &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Length:</strong> ' . $their_trainings['length'] . ' &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Price:</strong> $' . $their_trainings['price'] . '</p>';
 								
 								echo '<p><strong>Subjects:</strong> ';

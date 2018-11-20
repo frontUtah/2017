@@ -32,7 +32,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		<h2 class="">Consultants</h2>
 		<div class="instructor-profile">
 			<div class="details">
-				<div class="instructor ux">
+				<div class="instructor <?php echo strtolower($consultant['discipline']); ?>">
 					<div class="instructor-photo">
 						<img src="/images/<?php echo $consultant['photo']; ?>" alt="">
 					</div>
@@ -67,7 +67,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 				</div>
 			</div>
-			<div class="instructor-content">
+			<div class="instructor-content theme-<?php echo strtolower($consultant['discipline']); ?>">
 				<div class="course-description">
 					<?php
 

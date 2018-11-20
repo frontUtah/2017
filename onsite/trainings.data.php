@@ -15,7 +15,7 @@
 $trainings[] = array(
 	'slug' => 'design-critique-done-right',
 	'instructor' => 'benpeck',
-	'subjects' => array('ux', 'pm', 'research', 'leadership'),
+	'subjects' => array('ux'),
 	'title' => 'Design Critiques Done Right',
 	'description' => "Showing our work at all different levels is a core part of being a designer. Running a critique with your team that’s effective and helpful all around for everyone isn’t an easy task when it comes to pushing everyone to be better but also being respectful. Come learn ways that you can improve these processes and make these gatherings enjoyable and exciting again. ",
 	'price' => '7,000',
@@ -27,7 +27,7 @@ $trainings[] = array(
 $trainings[] = array(
 	'slug' => 'revolution-vs-evolution',
 	'instructor' => 'benpeck',
-	'subjects' => array('ux'),
+	'subjects' => array('ux', 'pm'),
 	'title' => 'Revolution vs Evolution',
 	'description' => "Balancing the needs of the users, business, team and yourself is certainly a challenge. As designers we’re naturally wired to defend and create for the needs of the user. Business…wants to stay in business, and Development…wants to build amazing forward thinking technology while not drowning in its own debt. Lets talk about how we can build amazing products without coming to a stalemate with every conversation.",
 	'price' => '7,000',
@@ -37,7 +37,7 @@ $trainings[] = array(
 
 // Garth Braithwaite
 $trainings[] = array(
-	'slug' => 'something-unique-and-seo-friendly',
+	'slug' => 'how-to-establish-and-maintain-a-design-system',
 	'instructor' => 'garthbraithwaite',
 	'subjects' => array('ux'),
 	'title' => 'How to Establish and Maintain a Design System',
@@ -49,9 +49,9 @@ $trainings[] = array(
 
 // Peter Merholz
 $trainings[] = array(
-	'slug' => 'something-unique-and-seo-friendly',
+	'slug' => 'design-your-design-organization',
 	'instructor' => 'petermerholz',
-	'subjects' => array('ux'),
+	'subjects' => array('ux', 'research', 'leadership'),
 	'title' => 'Design Your Design Organization',
 	'description' => "As your design organization grows, and becomes more complex, strains and pains emerge. Designers are spread too thin and don’t feel good about the quality of their work. How best to work within cross-functional teams is unclear. Retention suffers as designers feel ineffective and their career growth isn’t being given sufficient attention. Recruiting and hiring practices aren’t filling roles quickly enough, leaving gaps throughout the organization. Design leaders can’t devote their energy to creative leadership as operational challenges take precedence. The user experience has lost cohesion as more and more isolated teams contribute to it. <br><br>This workshop provides a framework for shaping your design organization, and a roadmap for how it can grow over time. We will explore different organizational models for design teams, and how they relate to their cross-functional peers. We’ll look at key matters of skills, process, and design leadership to ensure that the team is only delivering high-quality output. We will discuss the stages of evolution for a design organization, and when it makes sense to bring in certain roles and practices, such as UX Research and Design Operations. And we will dig into matters of professional development and people management, with a focus on making team members feel supported not just in their work but their careers." ,
 	'price' => '13,000',
@@ -61,9 +61,9 @@ $trainings[] = array(
 
 // Peter Merholz
 $trainings[] = array(
-	'slug' => 'something-unique-and-seo-friendly',
+	'slug' => 'coach-diplomat-champion-architect-the-complete-design-leader',
 	'instructor' => 'petermerholz',
-	'subjects' => array('ux'),
+	'subjects' => array('ux', 'research', 'leadership'),
 	'title' => 'Coach, Diplomat, Champion, Architect: The Complete Design Leader',
 	'description' => "With the rapid growth of design inside companies, there's been a concomitant need for design leadership. But design leadership and management (at scale) is new, and many design leaders are not equipped to take on the challenge. The struggle figuring out how to get the most out of their teams, collaborate with peers, and work with executives. They often revert to the skills that allowed them to succeed as designers, unaware that those practices are not going to help them succeed in their new role.<br><br>This workshop, which is run more like a facilitated conversation, Peter walks your design, research, and content leaders through a framework for practicing leadership, drawing on four archetypes:<ul><li>Coach, managing down to get the most out of their team</li><li>Diplomat, managing across to create successful collaborations with non-design peers</li><li>Champion, managing up to productively engage executives and other stakeholders</li><li>Architect, leveraging themselves through creating systems and structures that enable scale</li></ul>" ,
 	'price' => '13,000',
@@ -73,7 +73,7 @@ $trainings[] = array(
 
 // Sarah Doody
 $trainings[] = array(
-	'slug' => 'something-unique-and-seo-friendly',
+	'slug' => 'storyboarding-in-product-development',
 	'instructor' => 'sarahdoody',
 	'subjects' => array('ux'),
 	'title' => 'Storyboarding in Product Development',
@@ -87,7 +87,7 @@ $trainings[] = array(
 
 // Nate Barrett
 $trainings[] = array(
-	'slug' => 'something-unique-and-seo-friendly',
+	'slug' => 'testing-validating-minimum-viable-product',
 	'instructor' => 'natebarrett',
 	'subjects' => array('pm'),
 	'title' => 'Testing & Validating / Minimum Viable Product',
@@ -99,9 +99,9 @@ $trainings[] = array(
 
 // Nate Barrett
 $trainings[] = array(
-	'slug' => 'something-unique-and-seo-friendly',
+	'slug' => 'soft-skills-are-hard-skills',
 	'instructor' => 'natebarrett',
-	'subjects' => array('pm'),
+	'subjects' => array('pm', 'leadership'),
 	'title' => 'Soft Skills are Hard Skills',
 	'description' => "Though you can’t measure soft skills the way you can hard skills, that doesn’t make them any less important. They aren’t learned in a formal education setting. They are learned by conscious practice and effort. Learn about these skills through stories of success and failure and why these skills are so important to a product builder." ,
 	'price' => '7,000',
@@ -111,7 +111,7 @@ $trainings[] = array(
 
 // Vicky Thomas
 $trainings[] = array(
-	'slug' => 'something-unique-and-seo-friendly',
+	'slug' => 'teamwork-makes-the-dream-work',
 	'instructor' => 'vickythomas',
 	'subjects' => array('pm'),
 	'title' => 'Teamwork Makes the Dream Work',
@@ -123,7 +123,7 @@ $trainings[] = array(
 
 // Vicky Thomas
 $trainings[] = array(
-	'slug' => 'something-unique-and-seo-friendly',
+	'slug' => 'demistifying-jobs-to-be-done',
 	'instructor' => 'vickythomas',
 	'subjects' => array('pm'),
 	'title' => 'Demistifying Jobs to Be Done',
@@ -135,7 +135,7 @@ $trainings[] = array(
 
 // Vicky Thomas
 $trainings[] = array(
-	'slug' => 'something-unique-and-seo-friendly',
+	'slug' => 'creating-product-vision-from-scratch',
 	'instructor' => 'vickythomas',
 	'subjects' => array('pm'),
 	'title' => 'Creating Product Vision from Scratch',
@@ -147,9 +147,9 @@ $trainings[] = array(
 
 // Vicky Thomas
 $trainings[] = array(
-	'slug' => 'something-unique-and-seo-friendly',
+	'slug' => 'outcome-driven-roadmapping',
 	'instructor' => 'vickythomas',
-	'subjects' => array('pm'),
+	'subjects' => array('pm', 'leadership'),
 	'title' => 'Outcome-driven Roadmapping',
 	'description' => "What do OKRs, Roadmaps, and Resource Planning have in common? They're all necessary, but mostly hated, practices in modern product teams. In this workshop, we'll learn how to use these tools together to create compelling plans for your team that garner support and resources from executives without sacrificing your team's agile autonomy." ,
 	'price' => '7,000',
@@ -161,7 +161,7 @@ $trainings[] = array(
 
 // Andrew Branch
 $trainings[] = array(
-	'slug' => 'something-unique-and-seo-friendly',
+	'slug' => 'continuous-user-research',
 	'instructor' => 'andrewbranch',
 	'subjects' => array('research'),
 	'title' => 'Continuous User Research',
@@ -171,33 +171,9 @@ $trainings[] = array(
 	'length' => '1 day'
 );
 
-// Peter Merholz
-$trainings[] = array(
-	'slug' => 'something-unique-and-seo-friendly',
-	'instructor' => 'petermerholz',
-	'subjects' => array('research'),
-	'title' => 'Design Your Design Organization',
-	'description' => "As your design organization grows, and becomes more complex, strains and pains emerge. Designers are spread too thin and don’t feel good about the quality of their work. How best to work within cross-functional teams is unclear. Retention suffers as designers feel ineffective and their career growth isn’t being given sufficient attention. Recruiting and hiring practices aren’t filling roles quickly enough, leaving gaps throughout the organization. Design leaders can’t devote their energy to creative leadership as operational challenges take precedence. The user experience has lost cohesion as more and more isolated teams contribute to it. <br><br>This workshop provides a framework for shaping your design organization, and a roadmap for how it can grow over time. We will explore different organizational models for design teams, and how they relate to their cross-functional peers. We’ll look at key matters of skills, process, and design leadership to ensure that the team is only delivering high-quality output. We will discuss the stages of evolution for a design organization, and when it makes sense to bring in certain roles and practices, such as UX Research and Design Operations. And we will dig into matters of professional development and people management, with a focus on making team members feel supported not just in their work but their careers." ,
-	'price' => '13,000',
-	'capacity' => '10-50',
-	'length' => '1 day'
-);
-
-// Peter Merholz
-$trainings[] = array(
-	'slug' => 'something-unique-and-seo-friendly',
-	'instructor' => 'petermerholz',
-	'subjects' => array('research'),
-	'title' => 'Coach, Diplomat, Champion, Architect: The Complete Design Leader',
-	'description' => "With the rapid growth of design inside companies, there's been a concomitant need for design leadership. But design leadership and management (at scale) is new, and many design leaders are not equipped to take on the challenge. The struggle figuring out how to get the most out of their teams, collaborate with peers, and work with executives. They often revert to the skills that allowed them to succeed as designers, unaware that those practices are not going to help them succeed in their new role.<br><br>This workshop, which is run more like a facilitated conversation, Peter walks your design, research, and content leaders through a framework for practicing leadership, drawing on four archetypes:<ul><li>Coach, managing down to get the most out of their team</li><li>Diplomat, managing across to create successful collaborations with non-design peers</li><li>Champion, managing up to productively engage executives and other stakeholders</li><li>Architect, leveraging themselves through creating systems and structures that enable scale</li></ul>" ,
-	'price' => '13,000',
-	'capacity' => '10-50',
-	'length' => '1 day'
-);
-
 // Sarah Doody
 $trainings[] = array(
-	'slug' => 'something-unique-and-seo-friendly',
+	'slug' => 'validate-your-product-idea',
 	'instructor' => 'sarahdoody',
 	'subjects' => array('research'),
 	'title' => 'Validate Your Product Idea',
@@ -212,7 +188,7 @@ $trainings[] = array(
 
 // Gibson Biddle
 $trainings[] = array(
-	'slug' => 'something-unique-and-seo-friendly',
+	'slug' => 'hacking-your-product-leader-career',
 	'instructor' => 'gibsonbiddle',
 	'subjects' => array('leadership'),
 	'title' => 'Hacking Your Product Leader Career',
@@ -224,7 +200,7 @@ $trainings[] = array(
 
 // Gibson Biddle
 $trainings[] = array(
-	'slug' => 'something-unique-and-seo-friendly',
+	'slug' => 'product-strategy-workshop',
 	'instructor' => 'gibsonbiddle',
 	'subjects' => array('leadership'),
 	'title' => 'Product Strategy Workshop',
@@ -236,7 +212,7 @@ $trainings[] = array(
 
 // Nate Barrett
 $trainings[] = array(
-	'slug' => 'something-unique-and-seo-friendly',
+	'slug' => 'motivating-product-teams-through-a-culture-of-aligned-autonomy',
 	'instructor' => 'natebarrett',
 	'subjects' => array('leadership'),
 	'title' => 'Motivating Product Teams Through a Culture of Aligned Autonomy',
@@ -246,58 +222,9 @@ $trainings[] = array(
 	'length' => '1 day'
 );
 
-// Nate Barrett
-$trainings[] = array(
-	'slug' => 'something-unique-and-seo-friendly',
-	'instructor' => 'natebarrett',
-	'subjects' => array('leadership'),
-	'title' => 'Soft Skills are Hard Skills',
-	'description' => "Though you can’t measure soft skills the way you can hard skills, that doesn’t make them any less important. They aren’t learned in a formal education setting. They are learned by conscious practice and effort. Learn about these skills through stories of success and failure and why these skills are so important to a product builder." ,
-	'price' => '7,000',
-	'capacity' => '10-50',
-	'length' => '1 day'
-);
-
-// Peter Merholz
-$trainings[] = array(
-	'slug' => 'something-unique-and-seo-friendly',
-	'instructor' => 'petermerholz',
-	'subjects' => array('leadership'),
-	'title' => 'Design Your Design Organization',
-	'description' => "As your design organization grows, and becomes more complex, strains and pains emerge. Designers are spread too thin and don’t feel good about the quality of their work. How best to work within cross-functional teams is unclear. Retention suffers as designers feel ineffective and their career growth isn’t being given sufficient attention. Recruiting and hiring practices aren’t filling roles quickly enough, leaving gaps throughout the organization. Design leaders can’t devote their energy to creative leadership as operational challenges take precedence. The user experience has lost cohesion as more and more isolated teams contribute to it. <br><br>This workshop provides a framework for shaping your design organization, and a roadmap for how it can grow over time. We will explore different organizational models for design teams, and how they relate to their cross-functional peers. We’ll look at key matters of skills, process, and design leadership to ensure that the team is only delivering high-quality output. We will discuss the stages of evolution for a design organization, and when it makes sense to bring in certain roles and practices, such as UX Research and Design Operations. And we will dig into matters of professional development and people management, with a focus on making team members feel supported not just in their work but their careers." ,
-	'price' => '13,000',
-	'capacity' => '10-50',
-	'length' => '1 day'
-);
-
-// Peter Merholz
-$trainings[] = array(
-	'slug' => 'something-unique-and-seo-friendly',
-	'instructor' => 'petermerholz',
-	'subjects' => array('leadership'),
-	'title' => 'Coach, Diplomat, Champion, Architect: The Complete Design Leader',
-	'description' => "With the rapid growth of design inside companies, there's been a concomitant need for design leadership. But design leadership and management (at scale) is new, and many design leaders are not equipped to take on the challenge. The struggle figuring out how to get the most out of their teams, collaborate with peers, and work with executives. They often revert to the skills that allowed them to succeed as designers, unaware that those practices are not going to help them succeed in their new role.<br><br>This workshop, which is run more like a facilitated conversation, Peter walks your design, research, and content leaders through a framework for practicing leadership, drawing on four archetypes:<ul><li>Coach, managing down to get the most out of their team</li><li>Diplomat, managing across to create successful collaborations with non-design peers</li><li>Champion, managing up to productively engage executives and other stakeholders</li><li>Architect, leveraging themselves through creating systems and structures that enable scale</li></ul>" ,
-	'price' => '13,000',
-	'capacity' => '10-50',
-	'length' => '1 day'
-);
-
-
 // Vicky Thomas
 $trainings[] = array(
-	'slug' => 'something-unique-and-seo-friendly',
-	'instructor' => 'vickythomas',
-	'subjects' => array('leadership'),
-	'title' => 'Outcome-driven Roadmapping',
-	'description' => "What do OKRs, Roadmaps, and Resource Planning have in common? They're all necessary, but mostly hated, practices in modern product teams. In this workshop, we'll learn how to use these tools together to create compelling plans for your team that garner support and resources from executives without sacrificing your team's agile autonomy." ,
-	'price' => '7,000',
-	'capacity' => '10-50',
-	'length' => '1 day'
-);
-
-// Vicky Thomas
-$trainings[] = array(
-	'slug' => 'something-unique-and-seo-friendly',
+	'slug' => 'developing-executive-presence',
 	'instructor' => 'vickythomas',
 	'subjects' => array('leadership'),
 	'title' => 'Developing Executive Presence',

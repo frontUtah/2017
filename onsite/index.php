@@ -49,7 +49,7 @@ function print_trainings($category) {
 									
 									foreach($their_trainings as $training) {
 										echo '									
-											<h4><a href="/onsite/training/' . $training['slug'] . '">' . $training['title'] . '</a></h4>
+											<h4><a href="/onsite/training/' . $training['slug'] . '">' . $training['title'] . ' &nbsp;&nbsp; &xrarr;</a></h4>
 											<p><strong>Size:</strong> ' . $training['capacity'] . ' &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Length:</strong> ' . $training['length'] . ' &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Price:</strong> $' . $training['price'] . '</p>
 											<p>' . $training['description'] . '</p>';
 									}
