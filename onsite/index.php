@@ -7,7 +7,7 @@ $title = 'Front UX & Product Management Custom Onsite Training';
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 ?>
-	<main class="product-workshops">
+	<main class="product-workshops product-onsite">
 		<section class="hero">
 			<h1>UX &amp; Product Management Custom Onsite Training</h1>
 			<p>

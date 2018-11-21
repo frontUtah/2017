@@ -1112,6 +1112,10 @@ footer p {
 	background-image: url(../images/home-bg/home-bg-cameronmoll.jpg);
 }
 
+.product-onsite .hero {
+	background-image: url(../images/custom-training-bg.png);
+}
+
 .product-workshops .hero h1 {
 	color: #FFF;
 	font-size: 30px;
@@ -1344,25 +1348,6 @@ footer p {
 		font-weight: 700;
 		margin-top: 10px
 	}
-}
-
-.custom-training .hero {
-	background-image: url(../images/custom-training-bg.png);
-	height: 550px;
-	padding-top: 310px
-}
-
-.custom-training .hero h1 {
-	color: #FFF;
-	font-size: 30px;
-	line-height: 37px;
-	margin-bottom: 30px
-}
-
-.custom-training .hero p {
-	font-size: 18px;
-	line-height: 22px;
-	font-weight: 700
 }
 
 .bookTrainingForm {
