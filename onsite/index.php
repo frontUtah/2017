@@ -111,7 +111,7 @@ foreach($consultants as $consultant) {
 			
 		<section class="photo-collage">
 			<img src="/images/conf-collage-mobile.jpg" alt="" class="full mobile">
-			<img src="/images/conf-collage-desktop.jpg" alt="" class="full desktop">
+			<img src="/images/onsite-front-photos-desktop.jpg" alt="" class="full desktop">
 		</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
