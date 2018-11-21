@@ -2,14 +2,14 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Catalog - Front UX & Product Management Onsite Training';
+$title = 'Trainings - Front UX & Product Management Onsite Training';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 // if no tab requested, redirect to the first
 if(empty($uri_parts[2])) {
 	$string = '<script type="text/javascript">';
-    $string .= 'window.location = "http://' . $_SERVER['HTTP_HOST'] . '/onsite/catalog/ux' . '"';
+    $string .= 'window.location = "http://' . $_SERVER['HTTP_HOST'] . '/onsite/trainings/ux' . '"';
     $string .= '</script>';
     echo $string;
 	die;
@@ -25,10 +25,10 @@ $tabs[] = array('link' => 'leadership', 'text' => 'Leadership');
 
 <main class="secondary product-workshops-page workshops-courses">
 	<section class="hero">
-		<h1>Catalog</h1>
+		<h1>Trainings</h1>
 	</section>
 	<section class="courses <?php echo $subject; ?>">
-		<h2 class="">Catalog</h2>
+		<h2 class="">Trainings</h2>
 		<p class="about-courses">With years of experience running public workshops, 
 			we're curating a catalog of the very best for your team. Pick from dozens 
 			of trainings that have helped hundreds of companies looking to tackle their 
@@ -54,7 +54,7 @@ $tabs[] = array('link' => 'leadership', 'text' => 'Leadership');
 						if($tab['link'] == $subject) {
 							$ti .= '<span class="active">' . $tab['text'] . '</span>';
 						} else {
-							$ti .= '<a href="/onsite/catalog/' . $tab['link'] . '">' . $tab['text'] . '</a>';
+							$ti .= '<a href="/onsite/trainings/' . $tab['link'] . '">' . $tab['text'] . '</a>';
 						}
 
 						$ti .= '</li>';

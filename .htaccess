@@ -31,7 +31,7 @@ RewriteRule (.*) https://%{SERVER_NAME}/$1 [R,L]
 RewriteRule ^conference/speaker/(.*)$ conference/speaker.php [NC,L]
 RewriteRule ^workshops/courses/(.*)$ workshops/courses.php [NC,L]
 RewriteRule ^workshops/instructor/(.*)$ workshops/instructor.php [NC,L]
-RewriteRule ^onsite/catalog/(.*)$ onsite/catalog.php [NC,L]
+RewriteRule ^onsite/trainings/(.*)$ onsite/trainings.php [NC,L]
 RewriteRule ^onsite/training/(.*)$ onsite/training.php [NC,L]
 RewriteRule ^onsite/consultant/(.*)$ onsite/consultant.php [NC,L]
 

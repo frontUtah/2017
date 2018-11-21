@@ -193,7 +193,7 @@ switch($uri_parts[0]) {
 		break;
 	case 'onsite';
 
-		$onsite_nav[] = array('link' => 'catalog', 'text' => 'Catalog', 'class' => '');
+		$onsite_nav[] = array('link' => 'trainings', 'text' => 'Trainings', 'class' => '');
 		$onsite_nav[] = array('link' => 'consultants', 'text' => 'Consultants', 'class' => '');
 		$onsite_nav[] = array('link' => 'catalog', 'text' => 'Book training', 'class' => 'button');
 
