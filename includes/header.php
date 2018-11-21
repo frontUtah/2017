@@ -71,7 +71,6 @@ $global_nav[6] = array('subsite' => 'newsletter', 'link' => 'https://frontutah.u
 
 
 
-
 // Mobile Order: Actual Order. Desktop Order: Class Names. Bless you Flexbox)
 
 switch($uri_parts[0]) {
@@ -185,6 +184,36 @@ switch($uri_parts[0]) {
 			}
 
 			echo '">' . $workshops_navitem['text'] . '</a></li>';
+		}
+
+		echo '
+					</ul>
+				</nav>
+			</header>';
+		break;
+	case 'onsite';
+
+		$onsite_nav[] = array('link' => 'catalog', 'text' => 'Catalog', 'class' => '');
+		$onsite_nav[] = array('link' => 'consultants', 'text' => 'Consultants', 'class' => '');
+		$onsite_nav[] = array('link' => 'catalog', 'text' => 'Book training', 'class' => 'button');
+
+		echo '
+			<header class="section-header">
+				<nav class="section-nav">
+					<div class="section-nav-head">
+						<h3 class="logo">Front</h3>
+						<button class="menu-toggle"></button>
+					</div>
+					<ul>';
+
+		foreach($onsite_nav as $onsite_navitem) {
+			echo '<li><a href="/onsite/' . $onsite_navitem['link'] . '" class="' . $onsite_navitem['class'];
+
+			if($uri_parts[1] == $onsite_navitem['link']) {
+				echo ' selected';
+			}
+
+			echo '">' . $onsite_navitem['text'] . '</a></li>';
 		}
 
 		echo '

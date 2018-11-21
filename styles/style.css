@@ -782,7 +782,7 @@ main {
 	text-align: left
 }
 
-.section-header .section-nav ul li:not(:last-child) a {
+.section-header .section-nav ul li a {
 	color: #FFF
 }
 

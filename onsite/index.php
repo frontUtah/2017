@@ -6,142 +6,119 @@ $title = 'Front UX & Product Management Custom Onsite Training';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
-$subject = $_GET['subject'];
-
-// if no tab requested, redirect to the first
-if(empty($subject)) {
-	$string = '<script type="text/javascript">';
-    $string .= 'window.location = "http://' . $_SERVER['HTTP_HOST'] . '/onsite/ux' . '"';
-    $string .= '</script>';
-    echo $string;
-	die;
-}
-
-$tabs[] = array('link' => 'ux', 'text' => 'UX');
-$tabs[] = array('link' => 'product-management', 'text' => 'Product Management');
-$tabs[] = array('link' => 'leadership', 'text' => 'Leadership');
-
 ?>
+	<main class="product-workshops">
+		<section class="hero">
+			<h1>UX &amp; Product Management Custom Onsite Training</h1>
+			<p>
+				<ul>
+					<li>3 subjects • Dozens of trainings • any time or location</li>
+					<li>12+ top industry consultants</li>
+				</ul>
+			</p>
+			<p class="date-location">Name your date and we bring Front to you</p>
+			<p><a href="/onsite/trainings" class="button">Book now</a></p>
+		</section>
+		<section class="training-courses">
+				<h2>Full-day, custom workshops</h2>
+				<p>Let us to bring Front to you. With years of experience running public 
+					workshops, we're curating a catalog of the very best for your team. 
+					Pick from dozens of trainings that have helped hundreds of companies 
+					looking to tackle their product management, design, research, and 
+					leadership challenges.</p>
+				<p>Each workshop can be customized and tailored to the specific needs of your 
+					team. Whether it's a small or large group, remote or in-person, our 
+					catalog of industry-leading trainers and coaches will teach, train, 
+					and inspire.</p>
 
+		</section>
+		<section class="instructor-preview">
+			<h2>Consultants</h2>
+			<ul class="instructor-list">
 
 <?php
-	
-function print_trainings($category) {
-	$trainings = get_trainings($category);
-	
-	echo '
-						<ul class="days-courses">';
-	
-	if(count($trainings) > 0) {
-		foreach($trainings as $slug => $their_trainings) {
-			$consultant = get_consultant($slug);
-			
-			echo '
-							<li class="course">
-								<dl>
-									<dd class="instructor ' . $category . '">
-										<div class="instructor-photo">
-											<a href="/onsite/consultant/' . $consultant['slug'] . '"><img src="/images/';
-																	
-									// ensure photo exists
-									if(file_exists($_SERVER['DOCUMENT_ROOT'] . '/images/' . $consultant['photo'])) {
-										echo $consultant['photo'];
-									} else {
-										echo 'instructor_missing.png';
-									}
-									
-									echo '" alt=""></a>
-										</div>
-										<div>
-											<a href="/onsite/consultant/' . $consultant['slug'] . '">
-												<h4>' . $consultant['first'] . ' ' . $consultant['last'] . '</h4>
-												<p class="title">' . $consultant['title'] . '<br>' . $consultant['company'] . '</p>
-												<a href="/onsite/consultant/' . $consultant['slug'] . '" class="button button-small">Learn More</a>
-											</a>
-										</div>
-									</dd>
-									<dd class="description">';
-									
-									foreach($their_trainings as $training) {
-										echo '									
-											<h4><a href="/onsite/training/' . $training['slug'] . '">' . $training['title'] . ' &nbsp;&nbsp; &xrarr;</a></h4>
-											<p><strong>Size:</strong> ' . $training['capacity'] . ' &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Length:</strong> ' . $training['length'] . ' &nbsp;&nbsp;•&nbsp;&nbsp; <strong>Price:</strong> $' . $training['price'] . '</p>
-											<p>' . $training['summary'] . '</p>';
-									}
-									
-									echo '
-									</dd>
-								</dl>
-							</li>';
-		}
-	} else {
-		echo '			
-							<li class="course"><em>No trainings available at this time.</em></li>';
-	}
-	
-	echo '</ul>';
+
+// randomize list
+shuffle($consultants);
+
+// grab first six
+$consultants = array_slice($consultants, 0, 6);
+
+// spit them out
+foreach($consultants as $consultant) {
+	echo '<li class="instructor ' . $consultant['discipline'] . '">
+					<a href="/onsite/conultant/' . $consultant['slug'] . '">
+						<div class="instructor-photo">
+							<img src="/images/' . $consultant['photo'] . '" alt="">
+						</div>
+						<h4>' . $consultant['first'] . ' ' . $consultant['last'] . '</h4>
+						<p class="title">' . $consultant['title'] . '<br>' . $consultant['company'] . '</p>
+					</a>
+				</li>';
+
 }
-	
+
 ?>
 
-<main class="custom-training">
-	<section class="hero">
-		<h1>Onsite training</h1>
-		<p>Let us to bring Front to you. Tell us about your organization's needs and we'll find a training solution to meet them.</p>
-	</section>
-	<section class="courses <?php echo $subject; ?>">
-		<h2 class="">Custom training for your team</h2>
-		<p class="about-courses">With years of experience running public workshops, we're curating a catalog of the very best for your team. Pick from dozens of trainings that have helped hundreds of companies looking to tackle their product management, design, research, and leadership challenges.</p>
+			</ul>
+			<p>
+				<a href="/onsite/catalog" class="button">View All</a>
+			</p>
+		</section>
 
-		<nav class="course-track-nav">
-			<h4>Browse by subject</h4>
-			<div class="track-options" onclick="">
-				<ul>
-					<!--Mobile Order: Actual Order. Desktop Order: Class Names. Bless you Flexbox-->
-
-					<?php
-
-					// build tabs
-
-					$t = '';
-
-					foreach($tabs as $key => $tab) {
-						$ti = '';
-						
-						$ti .= '<li class="order-' . ($key + 1)  . '">';
-
-						if($tab['link'] == $subject) {
-							$ti .= '<span class="active">' . $tab['text'] . '</span>';
-						} else {
-							$ti .= '<a href="/onsite/' . $tab['link'] . '">' . $tab['text'] . '</a>';
-						}
-
-						$ti .= '</li>';
-						$ti .= "\n";
-					
-						if($tab['link'] == $subject) {
-							$t = $ti . $t;
-						} else {
-							$t .= $ti;
-						}
-					}
-					
-					echo $t;
-
-					?>
-
-				</ul>
-			</div>
-		</nav>
-
-		<div class="course-calendar">
-			<div class="course-date theme-<?php echo $subject; ?>">
-				<h3><?php echo ucfirst($subject); ?> training</h3>
-					<?php print_trainings($subject); ?>
-			</div>
-		</div>
-	</section>
-</main>
+		<section class="training-courses">
+			<h2>Design your perfect training program</h2>
+			<p>We’ve assembled a diverse group of consultants which have prepared a wide 
+				range of basic and advanced courses on user experience design, product 
+				management, research, and leadership. Design your custom training program, 
+				selecting from this broad catalog of trainings.</p>
+			<ul class="course-groups">
+				<li class="course-group ux">
+					<dl>
+						<dt>UX</dt>
+						<dd class="advanced">Advanced</dd>
+						<dd class="intermediate">Basics</dd>
+						<!-- dd class="basic">Basic</dd -->
+					</dl>
+					<p>
+						<a href="/onsite/catalog/ux" class="button">View training</a>
+					</p>
+				</li>
+				<li class="course-group product-management">
+					<dl>
+						<dt>Product Management</dt>
+						<dd class="advanced">Advanced</dd>
+						<dd class="intermediate">Basics</dd>
+						<!-- dd class="basic">Basic</dd -->
+					</dl>
+					<p>
+						<a href="/onsite/catalog/product-management" class="button">View training</a>
+					</p>
+				</li>
+				<li class="course-group leadership">
+					<dl>
+						<dt>Leadership</dt>
+						<dd class="advanced">Advanced</dd>
+						<dd class="intermediate">Basics</dd>
+						<!-- dd class="basic">Basic</dd -->
+					</dl>
+					<p>
+						<a href="/onsite/catalog/leadership" class="button">View training</a>
+					</p>
+				</li>
+			</ul>
+		</section>
+			
+		<section class="photo-collage">
+			<img src="/images/conf-collage-mobile.jpg" alt="" class="full mobile">
+			<img src="/images/conf-collage-desktop.jpg" alt="" class="full desktop">
+		</section>
+		<section class="join-us">
+			<h2>Join us at the Front!</h2>
+			<p>Reserve your seat now for the premier UX and Product Management training experience. Design your custom training program now. Whether you’re a beginner or seasoned professional, the Front UX & Product Management Workshops Series will take you and your team to the next level in product design and management.</p>
+			<p><a href="/workshops/registration" class="button">Register</a></p>
+		</section>
+	</main>
 
 <?php
 

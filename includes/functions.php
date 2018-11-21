@@ -108,14 +108,12 @@ function get_trainings_by_instructor($instructor) {
 }
 
 // return training subject
-function training_subject($category) {
-	switch($category) {
+function training_subject($subject) {
+	switch($subject) {
 		case 'ux':
 			return 'User Experience';
-		case 'pm':
+		case 'product-management':
 			return 'Product Management';
-		case 'research':
-			return 'Research';
 		case 'leadership':
 			return 'Leadership';
 	}
