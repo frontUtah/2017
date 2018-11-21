@@ -62,7 +62,7 @@ foreach($consultants as $consultant) {
 
 			</ul>
 			<p>
-				<a href="/onsite/catalog" class="button">View All</a>
+				<a href="/onsite/consultants" class="button">View All</a>
 			</p>
 		</section>
 
