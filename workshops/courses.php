@@ -1,6 +1,4 @@
 <?php
-	
-//header('location: /workshops');
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
@@ -15,14 +13,30 @@ if(empty($uri_parts[2])) {
     $string .= '</script>';
     echo $string;
 	die;
+} else {
+	$track = $uri_parts[2];
 }
 
-$track = $uri_parts[2];
+$tabs[] = array('link' => 'a', 'text' => 'Track A');
+$tabs[] = array('link' => 'b', 'text' => 'Track B');
+$tabs[] = array('link' => 'c', 'text' => 'Track C');
+$tabs[] = array('link' => 'd', 'text' => 'Track D');
 
-$tabs[] = array('link' => 'ux', 'text' => 'UX');
-$tabs[] = array('link' => 'product-management', 'text' => 'Product Management');
-$tabs[] = array('link' => 'research', 'text' => 'Research');
-$tabs[] = array('link' => 'leadership', 'text' => 'Leadership');
+// temporary: translate track code to class
+switch($track) {
+	case 'a':
+		$track_class = 'ux';
+		break;
+	case 'b':
+		$track_class = 'product-management';
+		break;
+	case 'c':
+		$track_class = 'research';
+		break;
+	case 'd':
+		$track_class = 'leadership';
+		break;
+}
 
 ?>
 
@@ -30,32 +44,31 @@ $tabs[] = array('link' => 'leadership', 'text' => 'Leadership');
 	<section class="hero">
 		<h1>Courses</h1>
 	</section>
-	<section class="courses <?php echo $track; ?>">
+	<section class="courses <?php echo $track_class; ?>">
 		<h2 class="">Courses</h2>
 		<p class="about-courses">
-
-<?php
-
-switch($track) {
-	case 'ux':
-		echo 'User experience is everyone’s responsibility, but someone needs to own it. Every team needs an advocate with a keen eye and deep empathy. Learn how to harness the power of your team from these product design experts and evangelists.';
-		break;
-	case 'pm':
-		echo 'Achieving greatness through influence. It’s a little like herding cats. Product Managers help their teams ship the right products to their users. These experienced leaders will share how they are innovating through continuous discovery and validation.';
-		break;
-	case 'research':
-		echo 'The cross-functional team is crucial for effective product design. Delightful, user-focused products only come from organizations that listen, iterate, and learn at every level. Learn about collaboration and culture from other members of the team.';
-		break;
-	case 'leadership':
-		echo 'Regardless of your place in the product team, strong leadership is a requirement for improving process and ultimately, the ability to deliver products and experiences which matter. ';
-		break;
-}
-
-?>
-			</p>
+			<?php
+			
+			switch($track) {
+				case 'ux':
+					echo 'User experience is everyone’s responsibility, but someone needs to own it. Every team needs an advocate with a keen eye and deep empathy. Learn how to harness the power of your team from these product design experts and evangelists.';
+					break;
+				case 'product-management':
+					echo 'Achieving greatness through influence. It’s a little like herding cats. Product Managers help their teams ship the right products to their users. These experienced leaders will share how they are innovating through continuous discovery and validation.';
+					break;
+				case 'research':
+					echo 'The cross-functional team is crucial for effective product design. Delightful, user-focused products only come from organizations that listen, iterate, and learn at every level. Learn about collaboration and culture from other members of the team.';
+					break;
+				case 'leadership':
+					echo 'Regardless of your place in the product team, strong leadership is a requirement for improving process and ultimately, the ability to deliver products and experiences which matter. ';
+					break;
+			}
+			
+			?>
+		</p>
 
 		<nav class="course-track-nav">
-			<h4>Select a track, or mix it up</h4>
+			<h4>Browse by track</h4>
 			<div class="track-options" onclick="">
 				<ul>
 					<!--Mobile Order: Actual Order. Desktop Order: Class Names. Bless you Flexbox-->

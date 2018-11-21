@@ -78,62 +78,13 @@ foreach($instructors as $instructor) {
 				<a href="/workshops/instructors" class="button">View All</a>
 			</p>
 		</section>
+		
 		<a name="highlight_video"></a>
 		<section class="highlight-video">
 			<h2>January 2018 Highlights</h2>
 			<div href="https://www.youtube.com/watch?v=rTLIYQVHa90" class="thumbnail video-thumbnail recap-video">
 				<img class="full" src="/images/frontworkshops18/uolp.jpg" alt="">
 			</div>
-		</section>
-		<section class="training-courses">
-			<h2>Design your perfect training program</h2>
-			<p>We’ve assembled a diverse group of instructors which have prepared a wide range of basic and advanced courses on user experience design, product management, research, and leadership. Design your custom training program, selecting from this broad curriculum of twenty different courses.</p>
-			<ul class="course-groups">
-				<li class="course-group ux">
-					<dl>
-						<dt>UX</dt>
-						<dd class="advanced">Advanced</dd>
-						<dd class="intermediate">Basics</dd>
-						<!-- dd class="basic">Basic</dd -->
-					</dl>
-					<p>
-						<a href="/workshops/courses/ux" class="button">View Courses</a>
-					</p>
-				</li>
-				<li class="course-group pm">
-					<dl>
-						<dt>Product Management</dt>
-						<dd class="advanced">Advanced</dd>
-						<dd class="intermediate">Basics</dd>
-						<!-- dd class="basic">Basic</dd -->
-					</dl>
-					<p>
-						<a href="/workshops/courses/pm" class="button">View Courses</a>
-					</p>
-				</li>
-				<li class="course-group research">
-					<dl>
-						<dt>Research</dt>
-						<dd class="advanced">Advanced</dd>
-						<dd class="intermediate">Basics</dd>
-						<!-- dd class="basic">Basic</dd -->
-					</dl>
-					<p>
-						<a href="/workshops/courses/research" class="button">View Courses</a>
-					</p>
-				</li>
-				<li class="course-group leadership">
-					<dl>
-						<dt>Leadership</dt>
-						<dd class="advanced">Advanced</dd>
-						<dd class="intermediate">Basics</dd>
-						<!-- dd class="basic">Basic</dd -->
-					</dl>
-					<p>
-						<a href="/workshops/courses/leadership" class="button">View Courses</a>
-					</p>
-				</li>
-			</ul>
 		</section>
 		
 		<section class="sponsors">
