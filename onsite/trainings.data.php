@@ -180,19 +180,6 @@ $trainings[] = array(
 
 // Sarah Doody
 $trainings[] = array(
-	'slug' => 'validate-your-product-idea',
-	'instructor' => 'sarahdoody',
-	'subjects' => array('research'),
-	'title' => 'Validate Your Product Idea',
-	'summary' => "Most products fail because the team didn't build the wrong product in the first place. How does this happen? It’s because we race to the “build” phase and focus all our energy on the product. If you truly want to create an awesome product, you have to understand the people your product will serve. The best competitive advantage you can have is to understand your people, your audience, your potential customers better than everyone else. Your audience will guide you to the exact product you should create and how you should market it. And when you create a product based on research, you can even get people to pay for it before it's even built. ",
-	'description' => "Most products fail because the team didn't build the wrong product in the first place. How does this happen? It’s because we race to the “build” phase and focus all our energy on the product. If you truly want to create an awesome product, you have to understand the people your product will serve.<br><br>The best competitive advantage you can have is to understand your people, your audience, your potential customers better than everyone else. Your audience will guide you to the exact product you should create and how you should market it. And when you create a product based on research, you can even get people to pay for it before it's even built. <br><br>This working will help teams learn how to:<ul><li>Do fast, affordable, and insightful use research to gather the information you need to build an effective product or service</li><li>Analyze user research findings to identify a tangible solution for the problems that your audience has</li><li>Walk through a simple step-by-step demo for building a high converting landing page</li><li>How to identify the specific product to build initially, your MVP, and not build something too complicated as your first version</li><li>Leverage email to build trust with your early prospects and keep them engaged while you build that MVP or first features.</li></ul>" ,
-	'price' => '7,000',
-	'capacity' => '10-50',
-	'length' => '1 day'
-);
-
-// Sarah Doody
-$trainings[] = array(
 	'slug' => 'storyboarding-in-product-development',
 	'instructor' => 'sarahdoody',
 	'subjects' => array('ux'),
@@ -269,32 +256,6 @@ $trainings[] = array(
 	'length' => '1 day'
 );
 
-// Andrew Branch
-$trainings[] = array(
-	'slug' => 'continuous-user-research',
-	'instructor' => 'andrewbranch',
-	'subjects' => array('research'),
-	'title' => 'Continuous User Research',
-	'summary' => "Most product teams are doing user research, but they still aren't doing it often enough, when they do it it takes too long, and it is more expensive than it needs to be. This workshop will help change that. Andrew will help you learn how you can build tests and get results in hours intstead of days or weeks and how to build a continuous testing strategy at your organization.",
-	'description' => "Most product teams are doing user research, but they still aren't doing it often enough, when they do it it takes too long, and it is more expensive than it needs to be. This workshop will help change that. Andrew will help you learn how you can build tests and get results in hours intstead of days or weeks and how to build a continuous testing strategy at your organization.",
-	'price' => '7,000',
-	'capacity' => '10-50',
-	'length' => '1 day'
-);
-
-// Sarah Doody
-$trainings[] = array(
-	'slug' => 'validate-your-product-idea',
-	'instructor' => 'sarahdoody',
-	'subjects' => array('research'),
-	'title' => 'Validate Your Product Idea',
-	'summary' => "Most products fail because the team didn't build the wrong product in the first place. How does this happen? It’s because we race to the “build” phase and focus all our energy on the product. If you truly want to create an awesome product, you have to understand the people your product will serve. The best competitive advantage you can have is to understand your people, your audience, your potential customers better than everyone else. Your audience will guide you to the exact product you should create and how you should market it. And when you create a product based on research, you can even get people to pay for it before it's even built. ",
-	'description' => "Most products fail because the team didn't build the wrong product in the first place. How does this happen? It’s because we race to the “build” phase and focus all our energy on the product. If you truly want to create an awesome product, you have to understand the people your product will serve.<br><br>The best competitive advantage you can have is to understand your people, your audience, your potential customers better than everyone else. Your audience will guide you to the exact product you should create and how you should market it. And when you create a product based on research, you can even get people to pay for it before it's even built. <br><br>This working will help teams learn how to:<ul><li>Do fast, affordable, and insightful use research to gather the information you need to build an effective product or service</li><li>Analyze user research findings to identify a tangible solution for the problems that your audience has</li><li>Walk through a simple step-by-step demo for building a high converting landing page</li><li>How to identify the specific product to build initially, your MVP, and not build something too complicated as your first version</li><li>Leverage email to build trust with your early prospects and keep them engaged while you build that MVP or first features.</li></ul>" ,
-	'price' => '7,000',
-	'capacity' => '10-50',
-	'length' => '1 day'
-);
-
 // Wade Shearer
 $trainings[] = array(
 	'slug' => 'teaching-your-team-to-learn',
@@ -304,45 +265,6 @@ $trainings[] = array(
 	'summary' => "Still basking in the glow of last month's Design Sprint? What has your team learned since? Are we not going to see you at church again until Easter? Did the process move the needle? What was the needle? A hypothesis is worthless without clear definition of desired outcomes. Ideation and validation must be the way your team works and learn every day. Discovery shouldn’t be a phase. In this workshop, you'll learn how to identify opportunities and deliver solutions that provide lasting value through continuous discovery and delivery.",
 	'description' => "Still basking in the glow of last month's Design Sprint? What has your team learned since? Are we not going to see you at church again until Easter? Did the process move the needle? What was the needle? A hypothesis is worthless without clear definition of desired outcomes. Ideation and validation must be the way your team works and learn every day. Discovery shouldn’t be a phase. In this workshop, you'll learn how to identify opportunities and deliver solutions that provide lasting value through continuous discovery and delivery.",
 	'price' => '13,000',
-	'capacity' => '10-50',
-	'length' => '1 day'
-);
-
-// Gibson Biddle
-$trainings[] = array(
-	'slug' => 'hacking-your-product-leader-career',
-	'instructor' => 'gibsonbiddle',
-	'subjects' => array('leadership'),
-	'title' => 'Hacking Your Product Leader Career',
-	'summary' => "In this workshop, Gib describes his hypothesis-driven approach to career advancement -- what he calls “career hacking.” This workshop describes the technical skills of a product leader, the functional leadership skills required as you advance your career, how to define, experiment, and measure \"career hypotheses,\" how to identify your \"superpowers\" as a product leader, then how to isolate the skills you’ll need to develop to advance your career.",
-	'description' => "In this workshop, Gib describes his hypothesis-driven approach to career advancement -- what he calls “career hacking.”  This workshop describes:<ul><li>the technical skills of a product leader</li><li>the functional leadership skills required as you advance your career</li><li>how to define, experiment, and measure “career hypotheses”<li>how to  identify your “superpowers” as a product leader, then</li><li>how to isolate the skills you’ll need to develop to advance your career.</li></ul><br>Gib will also dive deep into a few areas of product management and leadership.  He’ll illustrate:<br><br><ul><li>how to use the GLEe, DHM and GEM models to form a cogent product strategy</li><li>how to embrace consumer science to make “wicked hard” product decisions, and finally</li><li>how to develop the leadership skills you’ll need to communicate an inspired vision of the future.</li></ul><br>Gib’s workshops are highly interactive with a great mix of presentation, mini-cases, and introspection, all of which work together to jumpstart your career." ,
-	'price' => '13,000',
-	'capacity' => '10-50',
-	'length' => '1 day'
-);
-
-// Gibson Biddle
-$trainings[] = array(
-	'slug' => 'product-strategy-workshop',
-	'instructor' => 'gibsonbiddle',
-	'subjects' => array('leadership'),
-	'title' => 'Product Strategy Workshop',
-	'summary' => "This workshop focuses on helping product leaders and product-focused CEOs develop their company’s overall product strategy, and to define the product strategy for each “pod” or “swimming lane” within larger product organizations. The workshop has a highly interactive, step-by-step approach which introduces different tools, models, and frameworks, followed by the application of these ideas to each participant’s product.",
-	'description' => "This workshop focuses on helping product leaders and product-focused CEOs develop their company’s overall product strategy, and to define the product strategy for each “pod” or “swimming lane” within larger product organizations.<br><br>The workshop has a highly interactive, step-by-step approach which introduces different tools, models, and frameworks, followed by the application of these ideas to each participant’s product. In the workshop, Gib Introduces four models:<ul><li>The GLEe model, describing what you will “Get big on,” how you will “Lead from there,” then eventually, “Expand to dent the universe.”</li><li>The DHM model, defining your hypotheses, or product strategies, for how you will “Delight customers, in Hard-to-copy, Margin-enhancing ways.”</li><li>A framework for defining metrics that measure both customer and shareholder value.</li><li>The GEM model, clarifying how you will prioritize Growth, Engagement, and Monetization.</li></ul>At the end of the workshop, Gib will show how these models work together to define a four-quarter, rolling product roadmap that pulls together product strategies, metrics, and tactics. The workshop ends with highly interactive case studies, demonstrating how Gib utilized quarterly product strategy meetings at both Netflix and Chegg to put a strategy into action, or as he puts it, “make wicked hard decisions about people, product, and the business." ,
-	'price' => '13,000',
-	'capacity' => '10-50',
-	'length' => '1 day'
-);
-
-// Nate Barrett
-$trainings[] = array(
-	'slug' => 'motivating-product-teams-through-a-culture-of-aligned-autonomy',
-	'instructor' => 'natebarrett',
-	'subjects' => array('leadership'),
-	'title' => 'Motivating Product Teams Through a Culture of Aligned Autonomy',
-	'summary' => "Product builders are driven by understanding and experiencing customer pain and building experiences to ease and remove that pain. We know our customers better than anyone in our organization. Unfortunately, many organizations have leadership that gets in the way with too much process and hierarchy. Learn how a culture of autonomy flips traditional organizational thinking on its head with a focus on product outcomes, servant leadership and bottom up thinking.",
-	'description' => "Product builders are driven by understanding and experiencing customer pain and building experiences to ease and remove that pain. We know our customers better than anyone in our organization. Unfortunately, many organizations have leadership that gets in the way with too much process and hierarchy. Learn how a culture of autonomy flips traditional organizational thinking on its head with a focus on product outcomes, servant leadership and bottom up thinking." ,
-	'price' => '7,000',
 	'capacity' => '10-50',
 	'length' => '1 day'
 );
@@ -370,19 +292,6 @@ $trainings[] = array(
 	'description' => "Every team can be high-performing...some of them just need to be unlocked. In this workshop, you'll learn the most important elements of high-performing teams, and how to help your team get there. Vicky will share specific examples that have worked (and not worked) as she's created high-performing cultures at Adobe, Lucid Software, and Vivint Smart Home. Topics include psychological safety, diversity & inclusion, and being a multiplier." ,
 	'price' => '7,000',
 	'capacity' => '10-30',
-	'length' => '1 day'
-);
-
-// Wade Shearer
-$trainings[] = array(
-	'slug' => 'teaching-your-team-to-learn',
-	'instructor' => 'wadeshearer',
-	'subjects' => array('leadership', 'pm'),
-	'title' => 'Teaching your team to learn',
-	'summary' => "Still basking in the glow of last month's Design Sprint? What has your team learned since? Are we not going to see you at church again until Easter? Did the process move the needle? What was the needle? A hypothesis is worthless without clear definition of desired outcomes. Ideation and validation must be the way your team works and learn every day. Discovery shouldn’t be a phase. In this workshop, you'll learn how to identify opportunities and deliver solutions that provide lasting value through continuous discovery and delivery.",
-	'description' => "Still basking in the glow of last month's Design Sprint? What has your team learned since? Are we not going to see you at church again until Easter? Did the process move the needle? What was the needle? A hypothesis is worthless without clear definition of desired outcomes. Ideation and validation must be the way your team works and learn every day. Discovery shouldn’t be a phase. In this workshop, you'll learn how to identify opportunities and deliver solutions that provide lasting value through continuous discovery and delivery.",
-	'price' => '13,000',
-	'capacity' => '10-50',
 	'length' => '1 day'
 );
 
