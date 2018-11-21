@@ -22,8 +22,7 @@ require('includes/header.php');
 				<div href="https://www.youtube.com/watch?v=Qqxmgf5WDjE" class="thumnail video-thumbnail recap-video">
 					<img src="images/conf-scene001.jpg" alt="" style="width: 413px;">
 				</div>
-				<p class="description">A 2 day, in-depth series
- of from-the-trenches case studies by innovative user experience designers and product managers.</p>
+				<p class="description">A 2 day, in-depth series of from-the-trenches case studies by innovative user experience designers and product managers.</p>
 				<p><a href="/conference" class="button">Learn More</a></p>
 			</li>
 			<li>
@@ -32,7 +31,7 @@ require('includes/header.php');
 				<div href="https://www.youtube.com/watch?v=rTLIYQVHa90" class="thumnail video-thumbnail recap-video">
 					<img src="images/conf-scene002.jpg" alt="">
 				</div>
-				<p class="description">A 2 day, hands-on, intensive workshop series to learn how to create amazing products and work like the teams you hear from at Front.</p>
+				<p class="description">A 2 day, hands-on, workshop series to learn to create amazing products and work like the teams you hear from at Front.</p>
 				<p><a href="/workshops" class="button">Learn More</a></p>
 			</li>
 			<li>
@@ -41,7 +40,7 @@ require('includes/header.php');
 				<div class="thumnail">
 					<img src="images/conf-scene003.jpg" alt="">
 				</div>
-				<p class="description">Let us to bring Front to you. Tell us about your organization's needs and we'll build a custom training solution to meet them.</p>
+				<p class="description">Let us to bring Front to you. Design your perfect training program from our catalog of full-day, custom workshops.</p>
 				<p><a href="/onsite" class="button">Learn More</a></p>
 			</li>
 		</ul>
