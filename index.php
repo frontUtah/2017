@@ -35,12 +35,12 @@ require('includes/header.php');
 				<p><a href="/workshops" class="button">Learn More</a></p>
 			</li>
 			<li>
-				<h3>Custom Onsite Training</h3>
+				<h3>Onsite Training</h3>
 				<p class="date-location">Name your date</p>
 				<div class="thumnail">
 					<img src="images/conf-scene003.jpg" alt="">
 				</div>
-				<p class="description">Let us to bring Front to you. Design your perfect training program from our catalog of full-day, custom workshops.</p>
+				<p class="description">Let us to bring Front to you. Design your perfect training program from our catalog of full-day, premium workshops.</p>
 				<p><a href="/onsite" class="button">Learn More</a></p>
 			</li>
 		</ul>

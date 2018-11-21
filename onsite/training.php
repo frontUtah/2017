@@ -14,7 +14,7 @@ if(is_null($training)) {
 }
 
 
-$title = $training['title'] . ', by ' . $consultant['first'] . ' ' . $consultant['last'] . ' - Front UX & Product Management Custom Onsite Training';
+$title = $training['title'] . ', by ' . $consultant['first'] . ' ' . $consultant['last'] . ' - Front UX & Product Management Onsite Training';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 

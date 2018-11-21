@@ -2,7 +2,7 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Front UX & Product Management Custom Onsite Training';
+$title = 'Catalog - Front UX & Product Management Onsite Training';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
