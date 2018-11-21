@@ -96,21 +96,6 @@ $consultants[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/jchenina/'
 );
 
-// Joel Beukelman
-$consultants[] = array(
-	'slug' => 'joelbeukelman',
-	'first' => 'Joel',
-	'last' => 'Beukelman',
-	'title' => 'Sr. Interaction Designer',
-	'company' => 'Google',
-	'discipline' => 'ux',
-	'photo' => 'frontworkshops18/speaker_joelbeukelman.jpg',
-	'bio' => 'Joel is a Southern California native working as a Senior Interaction Designer on Chrome at Google. Over the past 7 years, he has had the opportunity to contribute to variety of products/apps from early-stage startups to global applications. Prior to Google (Chrome & Android), Joel helped start Design Inc. as the Head of Design, worked on mobile apps and the launch of Netflix Originals, as well as a number of other startups. Outside of his love for design and tech, Joel spends his free time enjoying being a family man, getting tattoos, listening all things punk/metal, and documenting life/work on YouTube.',
-	'twitter' => '_bklmn',
-	'instagram' => 'bklmn',
-	'linkedin' => 'https://www.linkedin.com/in/joelbeukelman/'
-);
-
 // Mariah Hay
 $consultants[] = array(
 	'slug' => 'mariahhay',
