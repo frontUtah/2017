@@ -195,7 +195,7 @@ switch($uri_parts[0]) {
 
 		$onsite_nav[] = array('link' => 'trainings', 'text' => 'Trainings', 'class' => '');
 		$onsite_nav[] = array('link' => 'consultants', 'text' => 'Consultants', 'class' => '');
-		$onsite_nav[] = array('link' => 'catalog', 'text' => 'Book training', 'class' => 'button');
+		$onsite_nav[] = array('link' => 'trainings', 'text' => 'Book training', 'class' => 'button');
 
 		echo '
 			<header class="section-header">
