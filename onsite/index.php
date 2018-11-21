@@ -47,7 +47,7 @@ $consultants = array_slice($consultants, 0, 6);
 // spit them out
 foreach($consultants as $consultant) {
 	echo '<li class="instructor ' . $consultant['discipline'] . '">
-					<a href="/onsite/conultant/' . $consultant['slug'] . '">
+					<a href="/onsite/consultant/' . $consultant['slug'] . '">
 						<div class="instructor-photo">
 							<img src="/images/' . $consultant['photo'] . '" alt="">
 						</div>
