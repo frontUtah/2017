@@ -17,7 +17,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</ul>
 			</p>
 			<p class="date-location">Name your date and we bring Front to you</p>
-			<p><a href="/onsite/trainings" class="button">Book now</a></p>
+			<p><a href="/onsite/catalog" class="button">Book now</a></p>
 		</section>
 		<section class="training-courses">
 				<h2>Full-day, custom workshops</h2>
