@@ -2,17 +2,17 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Front UX & Product Management Custom Onsite Training';
+$title = 'Front UX & Product Management Onsite Training';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 ?>
 	<main class="product-workshops product-onsite">
 		<section class="hero">
-			<h1>UX &amp; Product Management Custom Onsite Training</h1>
+			<h1>UX &amp; Product Management Onsite Training</h1>
 			<p>
 				<ul>
-					<li>3 subjects • Dozens of trainings • any time or location</li>
+					<li>Premium topics • Dozens of trainings • any time or location</li>
 					<li>12+ top industry consultants</li>
 				</ul>
 			</p>
@@ -20,13 +20,13 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<p><a href="/onsite/catalog" class="button">Book now</a></p>
 		</section>
 		<section class="training-courses">
-				<h2>Full-day, custom workshops</h2>
+				<h2>Full-day, premium workshops</h2>
 				<p>Let us to bring Front to you. With years of experience running public 
 					workshops, we're curating a catalog of the very best for your team. 
 					Pick from dozens of trainings that have helped hundreds of companies 
 					looking to tackle their product management, design, research, and 
 					leadership challenges.</p>
-				<p>Each workshop can be customized and tailored to the specific needs of your 
+				<p>Each workshop can be personalized and tailored to the specific needs of your 
 					team. Whether it's a small or large group, remote or in-person, our 
 					catalog of industry-leading trainers and coaches will teach, train, 
 					and inspire.</p>

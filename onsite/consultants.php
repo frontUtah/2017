@@ -4,7 +4,7 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Instructors - Front UX & Product Management Workshop Series, 8-9 November 2018';
+$title = 'Consultants - Front UX & Product Management Onsite Training';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
