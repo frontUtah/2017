@@ -17,7 +17,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</ul>
 			</p>
 			<p class="date-location">Name your date and we bring Front to you</p>
-			<p><a href="/onsite/catalog" class="button">Book now</a></p>
+			<p><a href="/onsite/trainings" class="button">Book now</a></p>
 		</section>
 		<section class="training-courses">
 				<h2>Full-day, premium workshops</h2>
@@ -81,7 +81,7 @@ foreach($consultants as $consultant) {
 						<!-- dd class="basic">Basic</dd -->
 					</dl>
 					<p>
-						<a href="/onsite/catalog/ux" class="button">View training</a>
+						<a href="/onsite/tranings/ux" class="button">View training</a>
 					</p>
 				</li>
 				<li class="course-group product-management">
@@ -92,7 +92,7 @@ foreach($consultants as $consultant) {
 						<!-- dd class="basic">Basic</dd -->
 					</dl>
 					<p>
-						<a href="/onsite/catalog/product-management" class="button">View training</a>
+						<a href="/onsite/trainings/product-management" class="button">View training</a>
 					</p>
 				</li>
 				<li class="course-group leadership">
@@ -103,7 +103,7 @@ foreach($consultants as $consultant) {
 						<!-- dd class="basic">Basic</dd -->
 					</dl>
 					<p>
-						<a href="/onsite/catalog/leadership" class="button">View training</a>
+						<a href="/onsite/trainings/leadership" class="button">View training</a>
 					</p>
 				</li>
 			</ul>
