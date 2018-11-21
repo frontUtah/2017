@@ -9,7 +9,7 @@ $title = 'Consultants - Front UX & Product Management Onsite Training';
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 ?>
-	<main class="secondary product-workshops-page workshops-instructors">
+	<main class="secondary product-workshops-page onsite-consultants">
 		<section class="hero">
 			<h1>Consultants</h1>
 		</section>

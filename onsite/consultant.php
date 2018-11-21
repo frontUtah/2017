@@ -24,7 +24,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 	.course-description:not(:first-child) h3 {padding-top: 20px; border-top: 1px solid rgba(0,0,0,.09);}
 </style>
 
-<main class="secondary product-workshops-page">
+<main class="secondary product-workshops-page onsite-consultant">
 	<section class="hero">
 		<h1>Consultant</h1>
 	</section>

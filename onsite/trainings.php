@@ -23,7 +23,7 @@ $tabs[] = array('link' => 'leadership', 'text' => 'Leadership');
 
 ?>
 
-<main class="secondary product-workshops-page workshops-courses">
+<main class="secondary product-workshops-page onsite-trainings">
 	<section class="hero">
 		<h1>Trainings</h1>
 	</section>
