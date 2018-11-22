@@ -178,6 +178,19 @@ $trainings[] = array(
 	'length' => '1 day'
 );
 
+// Nate Walkingshaw
+$trainings[] = array(
+	'slug' => 'building-beautiful-people-and-products',
+	'instructor' => 'natewalkingshaw',
+	'subjects' => array('product-management','leadership'),
+	'title' => 'Building beautiful people and products',
+	'summary' => "Come learn the nuances of building really great products and teams. In this workshop, you’ll learn soft and hard skills to realign your business around and in support of the product. Learn how to create a vision and strategy that your leadership team and business can get behind, plus the execution phases of building and delivering a product at scale.",
+	'description' => "Come learn the nuances of building really great products and teams. In this workshop, you’ll learn soft and hard skills to realign your business around and in support of the product. Learn how to create a vision and strategy that your leadership team and business can get behind, plus the execution phases of building and delivering a product at scale." ,
+	'price' => '13,000',
+	'capacity' => '10-50',
+	'length' => '1 day'
+);
+
 // Sarah Doody
 $trainings[] = array(
 	'slug' => 'storyboarding-in-product-development',

@@ -126,6 +126,21 @@ $consultants[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/natebarrett/'
 );
 
+// Nate Walkingshaw
+$consultants[] = array(
+	'slug' => 'natewalkingshaw',
+	'first' => 'Nate',
+	'last' => 'Walkingshaw',
+	'title' => 'Chief Experience Officer',
+	'company' => 'Pluralsight',
+	'discipline' => 'leadership',
+	'photo' => 'headshots/natewalkingshaw.jpg',
+	'bio' => 'Nate started his first company in 2004 where he revolutionized medical evacuation with Paraslyde. Stryker Medical acquired Paramed in 2009 and Nate led global R&D at their emergency services division.<br><br>In 2011, Nate left Stryker to build Brightface, a product development company that focused on mobile and web applications. Cycleface was one of those products and was acquired by Strava, the #1 fitness app for endurance athletes.<br><br>Nate then became the Chief of Research and Innovation at Tanner Labs, where he built OC Tanners first human-centered product development team.<br><br>Nate currently serves as the Chief Experience Officer for Pluralsight, the largest providers of online technology learning, where he built a user centered product team, and oversees Product Management, Development, Content, and Product Marketing.',
+	'twitter' => 'nwalkingshaw',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/natewalkingshaw/'
+);
+
 
 // Peter Merholz
 $consultants[] = array(
