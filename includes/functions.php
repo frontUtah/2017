@@ -111,7 +111,7 @@ function get_trainings_by_instructor($instructor) {
 function training_subject($subject) {
 	switch($subject) {
 		case 'ux':
-			return 'User Experience';
+			return 'UX';
 		case 'product-management':
 			return 'Product Management';
 		case 'leadership':
