@@ -2,10 +2,6 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Trainings - Front UX & Product Management Onsite Training';
-
-require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
-
 // if no tab requested, redirect to the first
 if(empty($uri_parts[2])) {
 	$string = '<script type="text/javascript">';
@@ -16,6 +12,10 @@ if(empty($uri_parts[2])) {
 } else {
 	$subject = $uri_parts[2];
 }
+
+$title = training_subject($subject) . ' Training - Front UX & Product Management Onsite Training';
+
+require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 $tabs[] = array('link' => 'ux', 'text' => 'UX');
 $tabs[] = array('link' => 'product-management', 'text' => 'Product Management');
