@@ -17,26 +17,10 @@ if(empty($uri_parts[2])) {
 	$track = $uri_parts[2];
 }
 
-$tabs[] = array('link' => 'a', 'text' => 'Track A');
-$tabs[] = array('link' => 'b', 'text' => 'Track B');
-$tabs[] = array('link' => 'c', 'text' => 'Track C');
-$tabs[] = array('link' => 'd', 'text' => 'Track D');
-
-// temporary: translate track code to class
-switch($track) {
-	case 'a':
-		$track_class = 'ux';
-		break;
-	case 'b':
-		$track_class = 'product-management';
-		break;
-	case 'c':
-		$track_class = 'research';
-		break;
-	case 'd':
-		$track_class = 'leadership';
-		break;
-}
+$tabs[] = array('link' => 'ux', 'text' => 'UX');
+$tabs[] = array('link' => 'product-management', 'text' => 'Product Management');
+$tabs[] = array('link' => 'research', 'text' => 'Research');
+$tabs[] = array('link' => 'leadership', 'text' => 'Leadership');
 
 ?>
 
@@ -44,7 +28,7 @@ switch($track) {
 	<section class="hero">
 		<h1>Courses</h1>
 	</section>
-	<section class="courses <?php echo $track_class; ?>">
+	<section class="courses <?php echo $track; ?>">
 		<h2 class="">Courses</h2>
 		<p class="about-courses">
 			<?php
