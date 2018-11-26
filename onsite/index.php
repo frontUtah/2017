@@ -81,7 +81,7 @@ foreach($consultants as $consultant) {
 						<!-- dd class="basic">Basic</dd -->
 					</dl>
 					<p>
-						<a href="/onsite/tranings/ux" class="button">View training</a>
+						<a href="/onsite/trainings/ux" class="button">View training</a>
 					</p>
 				</li>
 				<li class="course-group product-management">
