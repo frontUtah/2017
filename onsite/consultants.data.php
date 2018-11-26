@@ -53,7 +53,7 @@ $consultants[] = array(
 
 // Garth Braithwaite
 $consultants[] = array(
-	'slug' => 'garthbraithwaite',
+	'slug' => 'garthdb',
 	'first' => 'Garth',
 	'last' => 'Braithwaite',
 	'title' => 'Senior Computer Scientist',
