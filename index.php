@@ -29,7 +29,7 @@ require('includes/header.php');
 				<h3>Workshop Series</h3>
 				<p class="date-location">Salt Lake City, 8-9 November 2018</p>
 				<div href="https://www.youtube.com/watch?v=rTLIYQVHa90" class="thumnail video-thumbnail recap-video">
-					<img src="images/conf-scene002.jpg" alt="">
+					<img src="images/conf-scene002.jpg" alt="" style="width: 413px;">
 				</div>
 				<p class="description">A 2 day, hands-on, workshop series to learn to create amazing products and work like the teams you hear from at Front.</p>
 				<p><a href="/workshops" class="button">Learn More</a></p>
@@ -38,7 +38,7 @@ require('includes/header.php');
 				<h3>Onsite Training</h3>
 				<p class="date-location">Name your date</p>
 				<div class="thumnail">
-					<img src="images/conf-scene003.jpg" alt="">
+					<img src="images/conf-scene003.jpg" alt="" style="width: 413px;">
 				</div>
 				<p class="description">Let us to bring Front to you. Design your perfect training program from our catalog of full-day, premium workshops.</p>
 				<p><a href="/onsite" class="button">Learn More</a></p>
