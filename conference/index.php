@@ -63,8 +63,8 @@ foreach($speakers as $instructor) {
 <a name="highlights"></a>
 		
 		<section class="highlight-video">
-			<h2>2017 Highlights</h2>
-			<div href="https://www.youtube.com/watch?v=Qqxmgf5WDjE" class="thumnail video-thumbnail recap-video">
+			<h2>2018 Highlights</h2>
+			<div href="https://www.youtube.com/watch?v=8f5QpAa1nh8" class="thumnail video-thumbnail recap-video">
 				<img class="full" src="/images/home-bg-7.jpg" alt="">
 			</div>
 		</section>

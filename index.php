@@ -19,7 +19,7 @@ require('includes/header.php');
 			<li>
 				<h3>Case Study Conference</h3>
 				<p class="date-location">Salt Lake City, 6-7 June 2019</p>
-				<div href="https://www.youtube.com/watch?v=Qqxmgf5WDjE" class="thumnail video-thumbnail recap-video">
+				<div href="https://www.youtube.com/watch?v=8f5QpAa1nh8" class="thumnail video-thumbnail recap-video">
 					<img src="images/conf-scene001.jpg" alt="" style="width: 413px;">
 				</div>
 				<p class="description">A 2 day, in-depth series of from-the-trenches case studies by innovative user experience designers and product managers.</p>
