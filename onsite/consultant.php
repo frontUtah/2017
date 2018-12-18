@@ -104,6 +104,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 											<input type="text" id="company" name="company">
 										</div>
 										<div class="input">
+											<label for="location">Location</label>
+											<input type="text" id="location" name="location">
+										</div>
+										<div class="input">
 											<label for="email">Email</label>
 											<input type="text" id="email" name="email">
 										</div>

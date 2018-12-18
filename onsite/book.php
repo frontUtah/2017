@@ -7,6 +7,7 @@ if(!empty($_POST)) {
 	$message = "Front onsite training request:\n\n";
 	$message .= "Name: " . $_POST['name'] . "\n";
 	$message .= "Company: " . $_POST['company'] . "\n";
+	$message .= "Location: " . $_POST['location'] . "\n";
 	$message .= "Email: " . $_POST['email'] . "\n";
 	$message .= "Training: " . $_POST['training'] . "\n";
 	$message .= "Consultant: " . $_POST['consultant'] . "\n\n";
