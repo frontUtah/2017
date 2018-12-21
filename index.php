@@ -97,7 +97,7 @@ require('includes/header.php');
 			</li>
 		</ul>
 		<p>
-			<a href="https://www.youtube.com/channel/UCmqg-Iz_YVnKW72DDbGmTEQ" class="button">Watch More</a>
+			<a href="/conference/videos" class="button">Watch More</a>
 		</p>
 	</section>
 	<section class="attendee-stats">

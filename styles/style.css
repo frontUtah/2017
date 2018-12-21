@@ -309,6 +309,11 @@ dd, dt {
 	margin: 0
 }
 
+.ux-text { color: #FD7C00; }
+.product-management-text { color: #006F9E; }
+.research-text { color: #653789; }
+.leadership-text { color: #E2B700; }
+
 .label {
 	font-weight: 700;
 	font-size: 12px;
@@ -1502,10 +1507,19 @@ section.personal-stories p {
 }
 
 section.personal-stories .card-image {
-	margin: 0 -40px
+	margin: 0 -40px;
+}
+
+section.personal-stories .story-cards a {
+	text-decoration: none;
+}
+
+.arrow-link:after {
+	content: " ⟶";
 }
 
 @media (min-width:800px) {
+
 	section.personal-stories {
 		padding: 100px 0 180px
 	}
