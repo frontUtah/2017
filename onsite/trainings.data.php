@@ -191,6 +191,45 @@ $trainings[] = array(
 	'length' => '1 day'
 );
 
+// Richard Banfield
+$trainings[] = array(
+	'slug' => 'introduction-to-the-design-sprint',
+	'instructor' => 'richardbanfield',
+	'subjects' => array('ux'),
+	'title' => 'Introduction to The Design Sprint',
+	'summary' => "No matter what industry you work in, Design Sprints will help you test and validate solutions to your biggest questions. Explore the basics of design sprints in this day-long workshop. You’ll dive into the concepts and practicalities behind organizing Design Sprints, understanding customer pain points and reducing bias, plus you'll get hands-on experience solving a mock problem in a small-group setting over the course of the day.",
+	'description' => "No matter what industry you work in, whether you're tackling a digital or physical problem, or a customer-facing or internal issue, design sprints will help you test and validate solutions to your team's biggest questions. Ideal for those new to the sprint process, attend solo or bring your whole team and introduce your company to a more efficient way to design with sprints. Explore the basics of design sprints in this day-long workshop. You’ll dive into the main concepts and practicalities behind organizing design sprints, understanding customer pain points and reducing bias, plus you'll get hands-on experience solving a mock problem in a small-group setting over the course of the day." ,
+	'price' => '15,275',
+	'capacity' => '10-60',
+	'length' => '1 day'
+);
+
+// Richard Banfield
+$trainings[] = array(
+	'slug' => 'the-enterprise-design-sprint',
+	'instructor' => 'richardbanfield',
+	'subjects' => array('ux'),
+	'title' => 'The Enterprise Design Sprint',
+	'summary' => "The Design Sprint is no longer the domain of startups. Enterprises around the world are using Design Sprints to solve problems and drive digital transformation. This powerful timeboxed problem-solving framework gets teams to answers quickly and effectively. Learn from enterprises like Home Depot, Google, LearnVest, IBM, AARP, Fidelity Investments, Blue Cross Blue Shield, and many more, how you can run, facilitate or sponsor your own design sprint and start delivering solutions in organizations of any size.",
+	'description' => "The Design Sprint is no longer the domain of startups. Enterprises around the world are using Design Sprints to solve problems and drive digital transformation. This powerful timeboxed problem-solving framework gets teams to answers quickly and effectively. In this one-day workshop, you'll learn when to use them, how to organize them, how to convince decision makers and influencers to participate, how to reduce assumptions, and how to prioritize challenges. We'll cover techniques for understanding customers’ pain points, narrowing down, prototyping, and testing potential solutions; and reducing biases and subjectivity in decisions. The exercises embedded in the five phases are designed to reduce politics, increase collaboration across functions and put the focus on answers (outcomes) and not just assets (outputs). Learn from enterprises like Home Depot, Google, LearnVest, IBM, AARP, Fidelity Investments, Blue Cross Blue Shield, and many more, how you can run, facilitate or sponsor your own design sprint and start delivering solutions in organizations of any size." ,
+	'price' => '15,275',
+	'capacity' => '10-60',
+	'length' => '1 day'
+);
+
+// Richard Banfield
+$trainings[] = array(
+	'slug' => 'practical-product-leadership-vision-strategy-and-structures-for-adaptable-organizations',
+	'instructor' => 'richardbanfield',
+	'subjects' => array('ux'),
+	'title' => 'Practical Product Leadership: Vision, Strategy, and Structures for Adaptable Organizations',
+	'summary' => "Product leadership is not about how to just be a good product manager. Leadership is empowering people around you to see the 'why' behind the work while giving teams the tools to shape the 'how' it gets done. For those individuals who aspire to higher levels of responsibility and authority, or are currently a product manager looking to take the next step, then you’ll find huge amounts of strategic, tactical and practical guidance in this intensive one-day workshop.",
+	'description' => "Presented by the co-author of the best-selling book, Product Leadership: How top product managers launch awesome products and build successful teams, this workshop is aimed at the product leader that wants to learn how to harness the best of their teams and deliver great products. Product leadership is not about how to just be a good product manager. Leadership is empowering people around you to see the 'why' behind the work while giving teams the tools to shape the 'how' it gets done. For those individuals who aspire to higher levels of responsibility and authority, or are currently a product manager looking to take the next step, then you’ll find huge amounts of strategic, tactical and practical guidance in this intensive one-day workshop. If you’ve already made the leap to managing a team of product managers then here you’ll find a series of tools and techniques to help you become the leader of that team which can take them on to even bigger and better things. Finally, if you’re working with a leader from the product management world, then here you’ll find a detailed look at your colleague and how they approach the world of work. You’ll end up being more successful and happy in your working relationship, helping you both become more effective." ,
+	'price' => '15,275',
+	'capacity' => '6-20',
+	'length' => '1 day'
+);
+
 // Sarah Doody
 $trainings[] = array(
 	'slug' => 'storyboarding-in-product-development',
