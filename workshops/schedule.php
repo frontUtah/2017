@@ -8,7 +8,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 
 function print_schedulerow($day, $slot) {
-	$tracks = array('ux', 'pm', 'research', 'leadership');
+	$tracks = array('ux', 'product-management', 'research', 'leadership');
 	
 	$time_slots = get_timeslots($day);
 	
@@ -49,7 +49,7 @@ function print_schedulerow($day, $slot) {
 							<dd class="ux">
 								<h4>UX</h4>
 							</dd>
-							<dd class="pm">
+							<dd class="product-management">
 								<h4>PM</h4>
 							</dd>
 							<dd class="research">
