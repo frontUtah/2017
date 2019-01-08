@@ -4,6 +4,67 @@
  * Use '</br></br>' to separate paragraphs
  */
 
+// Wade Shearer
+$speakers[] = array(
+	'slug' => 'wadeshearer',
+	'first' => 'Wade',
+	'last' => 'Shearer',
+	'title' => 'VP, User Experience',
+	'company' => 'Workfront',
+	'discipline' => 'ux',
+	'photo' => 'headshots/wadeshearer.jpg',
+	'bio' => 'Wade is Vice President of User Experience at Workfront, where they’re making business work better—unleashing team’s value by helping them focus on the right work and doing their best work.</br></br>Prior, he lead product discovery, design, and validation as Vice President of Product & Design at ClientSuccess, a SaaS customer success management platform that helps companies retain and grow their existing customer base. As the initial member of the executive team, he lead the startup from ground zero to over 100 customers and 1.4 Million in ARR.</br></br>Proceeding that, he served as Director of User Experience at Vivint, where he lead teams of designers, product managers, researchers, and engineers, building innovative mobile, desktop, and embedded software applications for security, home automation, and energy products. He participated in growth that lead to a $2 Billion valuation and acquisition by Blackstone Group and Vivint ranking 46th on Forbe’s 100 most promising companies for 2013. This work also resulted in the filing of 15 patents related to user experience in home automation and energy management.</br></br>Wade cofounded Front, an annual product design case study conference and bootcamp for product managers and UX designers. He also cofounded Product Hive, a non-profit user group for product managers and designers, with over 4,000 members.',
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/wadeshearer/'
+);
+
+// Nate Walkingshaw
+$speakers[] = array(
+	'slug' => 'natewalkingshaw',
+	'first' => 'Nate',
+	'last' => 'Walkingshaw',
+	'title' => 'Chief Experience Officer',
+	'company' => 'Pluralsight',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/natewalkingshaw.jpg',
+	'bio' => 'Nate started his first company in 2004 where he revolutionized medical evacuation with Paraslyde. Stryker Medical acquired Paramed in 2009 and Nate led global R&D at their emergency services division.<br><br>In 2011, Nate left Stryker to build Brightface, a product development company that focused on mobile and web applications. Cycleface was one of those products and was acquired by Strava, the #1 fitness app for endurance athletes.<br><br>Nate then became the Chief of Research and Innovation at Tanner Labs, where he built OC Tanners first human-centered product development team.<br><br>Nate currently serves as the Chief Experience Officer for Pluralsight, the largest providers of online technology learning, where he built a user centered product team, and oversees Product Management, Development, Content, and Product Marketing.',
+	'twitter' => 'nwalkingshaw',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/natewalkingshaw/'
+);
+
+// Frank Yoo
+$speakers[] = array(
+	'slug' => 'frankyoo',
+	'first' => 'Frank',
+	'last' => 'Yoo',
+	'title' => 'Director of Design',
+	'company' => 'Google',
+	'discipline' => 'ux',
+	'photo' => 'headshots/frankyoo.jpg',
+	'bio' => 'Coming Soon',
+	'twitter' => 'frankyoo',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/frankyoo/'
+);
+
+// Danielle Green
+$speakers[] = array(
+	'slug' => 'daniellegreen',
+	'first' => 'Danielle',
+	'last' => 'Green',
+	'title' => 'User Research Manager',
+	'company' => 'Jane',
+	'discipline' => 'research',
+	'photo' => 'headshots/daniellegreen.jpg',
+	'bio' => 'With a background in Cognitive Psychology and Neuroscience, Danielle`s career in user research was a no-brainer! Danielle is the User Research Manager at Jane, an online boutique marketplace, located in Lehi, Utah. Her research philosophy revolves around comprehensive user advocacy at every stage of product development. In practice, her research is inclusive--anyone can do user research! Previously, Danielle was the User Experience Researcher for NICE inContact, a global enterprise software company. Danielle also shares her research obsession with the students at Westminster College as an Adjunct Professor.',
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/danielle-green-ba962532/'
+);
+
+/*
 // Cameron Moll
 $speakers[] = array(
 	'slug' => 'cameronmoll',
@@ -275,5 +336,7 @@ $speakers[] = array(
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/aryelcianflone/'
 );
+
+ */
 
 ?>
