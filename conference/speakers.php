@@ -9,7 +9,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 ?>
 	<main class="secondary product-speakers-front">
 		<section class="hero">
-			<h1>2018 speakers</h1>
+			<h1>Speakers</h1>
 		</section>
 		<section class="instructors">
 			<h2 class="">Speakers</h2>
