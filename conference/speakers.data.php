@@ -39,7 +39,7 @@ $speakers[] = array(
 	'slug' => 'frankyoo',
 	'first' => 'Frank',
 	'last' => 'Yoo',
-	'title' => 'Director of Design',
+	'title' => 'Director of Design, GSuite',
 	'company' => 'Google',
 	'discipline' => 'ux',
 	'photo' => 'headshots/frankyoo.jpg',
@@ -62,6 +62,51 @@ $speakers[] = array(
 	'twitter' => '',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/danielle-green-ba962532/'
+);
+
+// Kim Williams
+$speakers[] = array(
+	'slug' => 'kimwilliams',
+	'first' => 'Kim',
+	'last' => 'Williams',
+	'title' => 'Sr Director, Design Platform',
+	'company' => 'Indeed',
+	'discipline' => 'ux',
+	'photo' => 'headshots/kimwilliams.jpg',
+	'bio' => 'Kim Williams has deep roots in Creative Direction and Branded User Experience Design Leadership. She led major client work at prestigious agencies such as Ogilvy, a global advertising, marketing and public relations agency. Kim also orchestrated Design System and Rebranding teams to pioneer innovations at eBay and Indeed, two highly impactful billion dollar brands in the consumer space. <br><br>Kim currently leads a team of designers (interaction, visual, and brand), design technologists, content strategists, writers, design ops, and UX researchers. Her team is deployed across the United States (San Francisco, Seattle, and Austin) and Japan (Tokyo). She oversees Indeed’s core job search experience, shipping the company’s first design system and piloting new native apps.<br><br>Kim’s work is about leading design at scale to craft experiences that are human, empathetic, hopeful, and trusted. She aims to mold the world’s #1 job search site into an even more meaningful partner in the worklife of people everywhere. Kim’s expertise in threading together and synthesizing the vision of brand, creative, and product technologies will be just a few of the insights shared in this session.<br><br>When Kim’s not nerding out on color theory or micro-animations, she’s hopping around San Francisco and Oakland with her husband and precocious toddler for playdates and adventures.',
+	'twitter' => 'kimwms_',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/kimwms/'
+);
+
+// Maggie Crowley
+$speakers[] = array(
+	'slug' => 'maggiecrowley',
+	'first' => 'Maggie',
+	'last' => 'Crowley',
+	'title' => 'Director, Product Management',
+	'company' => 'Drift',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/maggiecrowley.jpg',
+	'bio' => 'Coming Soon',
+	'twitter' => 'maggiecrowley',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/maggie-crowley-42a97112/'
+);
+
+// Mark Rawlins
+$speakers[] = array(
+	'slug' => 'markrawlins',
+	'first' => 'Mark',
+	'last' => 'Rawlins',
+	'title' => 'Director, Product Design',
+	'company' => 'Vivint',
+	'discipline' => 'ux',
+	'photo' => 'headshots/markrawlins.jpg',
+	'bio' => 'Coming Soon',
+	'twitter' => 'markrawlins',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/markrawlins/'
 );
 
 /*
