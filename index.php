@@ -27,7 +27,7 @@ require('includes/header.php');
 			</li>
 			<li>
 				<h3>Workshop Series</h3>
-				<p class="date-location">Salt Lake City, 8-9 November 2018</p>
+				<p class="date-location">Salt Lake City, 7-8 November 2019</p>
 				<div href="https://www.youtube.com/watch?v=rTLIYQVHa90" class="thumnail video-thumbnail recap-video">
 					<img src="images/conf-scene002.jpg" alt="" style="width: 413px;">
 				</div>

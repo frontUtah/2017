@@ -1,5 +1,9 @@
 <?php
 
+// off-season
+header('/workshops', true, 307);
+exit();
+
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
 $title = 'Schedule - Front UX & Product Management Workshop Series, 8-9 November 2018';
@@ -63,7 +67,7 @@ function print_schedulerow($day, $slot) {
 				</ol>
 			</div>
 			<div class="schedule-day">
-				<h3>Thursday, 8 November 2018</h3>
+				<h3>Thursday, 7 November 2019</h3>
 				<ol class="timeline">
 					<li class="timeslot one-hour">
 						<dl>
@@ -101,7 +105,7 @@ function print_schedulerow($day, $slot) {
 				</ol>
 			</div>
 			<div class="schedule-day">
-				<h3>Friday, 9 November 2018</h3>
+				<h3>Friday, 8 November 2019</h3>
 				<ol class="timeline">
 					<li class="timeslot one-hour">
 						<dl>

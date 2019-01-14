@@ -19,17 +19,16 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<h2>Pricing</h2>
 			
 			<!-- EARLY BIRD -->
-			<!--
 			<div class="prices">
 				<dl class="pricing-types">
 					<dt><div></div></dt>
 					<dd class="early">
 						Early bird pricing
-						<small>25% off until 31 August 2018</small>
+						<small>25% off until 31 August 2019</small>
 					</dd>
 					<dd class="standard">
 						Standard pricing
-						<small>Starting 1 September 2018</small>
+						<small>Starting 1 September 2019</small>
 					</dd>
 				</dl>
 				<dl class="full">
@@ -68,9 +67,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<dd class="standard">$960</dd>
 				</dl>
 			</div>
-			-->
 			
 			<!-- STANDARD -->
+			<!--
 			<div class="prices">
 				<dl class="full">
 					<dt><div>Full Workshop Series</div></dt>
@@ -104,8 +103,12 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<dd class="early">$960</dd>
 				</dl>
 			</div>
+			-->
 			
-			<p><a target="_blank" href="https://frontworkshops2018.eventbrite.com" class="button">Register</a></p>
+			<!-- <p><a target="_blank" href="https://frontworkshops2019.eventbrite.com" class="button">Register</a></p> -->
+			
+			<div style="width:100%; text-align:left;"><iframe src="https://eventbrite.com/tickets-external?eid=54869589419&ref=etckt" frameborder="0" height="988" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:12px; padding:10px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #ADB0B6; text-decoration: none;" target="_blank" href="https://www.eventbrite.com/">Powered by Eventbrite</a></div></div>
+			
 		</section>
 
 		<section class="accomodations">

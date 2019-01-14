@@ -28,8 +28,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li>200+ product designers and managers</li>
 				</ul>
 			</p>
-			<p class="date-location">8-9 November 2018 • Salt Lake City, Utah</p>
-			<a href="http://www.pendo.io"><img id="broughtoyouby" src="/images/frontpc18/broughttoyouby_pendo.png" /></a>
+			<p class="date-location">7-8 November 2019 • Salt Lake City, Utah</p>
+			<!-- a href="http://www.pendo.io"><img id="broughtoyouby" src="/images/frontpc18/broughttoyouby_pendo.png" /></a -->
 			<p><a href="/workshops/registration" class="button">Register</a></p>
 		</section>
 		<section class="training-courses">
@@ -43,10 +43,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					recognized industry leaders and some of tech’s most skilled practitioners. 
 					Breakfast and lunch are provided each day. And yeah, we certainly expect that 
 					you’ll stay an extra day—or two—for some time world famous hiking and mountain biking.</p>
-
 		</section>
+		
 		<section class="instructor-preview">
-			<h2>Instructors</h2>
+			<h2>Past instructors</h2>
 			<ul class="instructor-list">
 
 <?php
@@ -88,7 +88,7 @@ foreach($instructors as $instructor) {
 		</section>
 		
 		<section class="sponsors">
-			<h2>Sponsors</h2>
+			<h2>Past sponsors</h2>
 			<a href="http://www.pendo.io"><img id="premier" src="/images/sponsors/pendo.svg" /></a>
 			<ul class="second_tier">
 			  <li class="second_tier_sponsor"><a href="http://www.workfront.com"><img src="/images/sponsors/workfront.svg" /></a></li>
