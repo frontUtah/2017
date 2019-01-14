@@ -12,7 +12,7 @@ $meta['twitter']['image'] = 'https://www.frontutah.com/images/workshops2019/earl
 $meta['opengraph']['title'] = 'Front - The product conference for UX designers and product managers';
 $meta['opengraph']['type'] = 'article';
 $meta['opengraph']['url'] = 'http://www.frontutah.com';
-$meta['opengraph']['image'] = 'https://www.frontutah.com/images/social-card-workshops.jpg';
+$meta['opengraph']['image'] = 'https://www.frontutah.com/images/workshops2019/earlybird.png';
 $meta['opengraph']['description'] = "Front is the product conference for UX designers and product managers. It's a practitioner’s conference. Attendees come for an education, real world, from-the-trenches case studies, and hands-on training from their peers. It's four days of learning and growth, providing answers to deep organizational questions and insights into how to validate and solve the right problems in the right way.";
 $meta['opengraph']['site_name'] = 'Front Conference';
 
