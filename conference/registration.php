@@ -103,7 +103,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			        iframeContainerId: 'eventbrite-widget-container-47175925463',
 			
 			        // Optional
-			        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+			        iframeContainerHeight: 1225,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
 			        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
 			    });
 			</script>
