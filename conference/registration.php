@@ -85,7 +85,28 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			</div>
 			-->
 			
-			<p><a target="_blank" href="https://frontconference2019.eventbrite.com" class="button">Register</a></p>
+			<!-- <p><a target="_blank" href="https://frontconference2019.eventbrite.com" class="button">Register</a></p> -->
+			
+			<div id="eventbrite-widget-container-47175925463"></div>
+
+			<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+			
+			<script type="text/javascript">
+			    var exampleCallback = function() {
+			        console.log('Order complete!');
+			    };
+			
+			    window.EBWidgets.createWidget({
+			        // Required
+			        widgetType: 'checkout',
+			        eventId: '47175925463',
+			        iframeContainerId: 'eventbrite-widget-container-47175925463',
+			
+			        // Optional
+			        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+			        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+			    });
+			</script>
 		</section>
 
 		<!--
