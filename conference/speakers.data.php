@@ -109,6 +109,21 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/markrawlins/'
 );
 
+// Vlad Magdalin
+$speakers[] = array(
+	'slug' => 'vladmagdalin',
+	'first' => 'Vlad',
+	'last' => 'Magdalin',
+	'title' => 'CEO',
+	'company' => 'Webflow',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/vladmagdalin.jpg',
+	'bio' => 'Vlad Magdalin is a designer and front-end developer who is passionate about creating tools that push web design forward.<br><br>He is the founder and CEO of Webflow, the all-in-one web design platform that helps designers of all kinds create professional responsive websites. In a past life, he trained to become a 3D animator with the hopes of one day working at Pixar, but happened to fall in love with the power of programming midway through art school. This started a journey that led him to creating a small web design agency, which later morphed into a product company that builds software for the web design industry.',
+	'twitter' => 'callmevlad',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/vladmagdalin/'
+);
+
 /*
 // Cameron Moll
 $speakers[] = array(

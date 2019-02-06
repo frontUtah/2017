@@ -9,12 +9,12 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 ?>
 	<main class="secondary product-schedule-front">
 		<section class="hero">
-			<h1>2018 schedule</h1>
+			<h1>2019 schedule</h1>
 		</section>
 		<section class="schedule-breakdown">
 			<h2>2018 schedule</h2>
 			<div class="schedule-day">
-				<h3>Thursday, 31 May 2018</h3>
+				<h3>Thursday, 6 June 2019</h3>
 				<ol class="timeline">
 					<li class="timeslot one-hour">
 						<dl>
@@ -36,17 +36,19 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">9:10 AM</dt>
 							<dd class="ux">
-								<h4>The challenge of designing for everyone</h4>
-								<p>Benjamin Evans from Airbnb</p>
+								<img src="../images/headshots/wadeshearer.jpg">
+								<h4>TBA</h4>
+								<p>Wade Shearer from Workfront</p>
 							</dd>
 						</dl>
 					</li>
 					<li class="timeslot two-hours">
 						<dl>
 							<dt class="time">9:40 AM</dt>
-							<dd class="pm">
-								<h4>Sticky business - Building consumer grade experiences for the enterprise</h4>
-								<p>Ciara Peter from Box</p>
+							<dd class="product-management">
+								<img src="../images/headshots/maggiecrowley.jpg">
+								<h4>TBA</h4>
+								<p>Maggie Crowley from Drift</p>
 							</dd>
 						</dl>
 					</li>
@@ -62,8 +64,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">10:50 AM</dt>
 							<dd class="research">
-								<h4>How to speed up research</h4>
-								<p>Aryel Cianflone from LinkedIn</p>
+								<img src="../images/headshots/daniellegreen.jpg">
+								<h4>TBA</h4>
+								<p>Danielle Green from Jane</p>
 							</dd>
 						</dl>
 					</li>
@@ -71,8 +74,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">11:20 AM</dt>
 							<dd class="ux">
-								<h4>Designing with Intuition</h4>
-								<p>Vicki Tan from Headspace</p>
+								<img src="../images/headshots/frankyoo.jpg">
+								<h4>TBA</h4>
+								<p>Frank Yoo from Google</p>
 							</dd>
 						</dl>
 					</li>
@@ -87,18 +91,19 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li class="timeslot two-hours">
 						<dl>
 							<dt class="time">1:30 PM</dt>
-							<dd class="leadership">
-								<h4>Q&A panel with morning speakers</h4>
-								<p>Benjamin Evans, Ciara Peter, Aryel Cianflone, and Vicki Tan</p>
+							<dd class="product-management">
+								<img src="../images/headshots/vladmagdalin.jpg">
+								<h4>TBA</h4>
+								<p>Vlad from Webflow</p>
 							</dd>
 						</dl>
 					</li>
 					<li class="timeslot two-hours">
 						<dl>
 							<dt class="time">2:00 PM</dt>
-							<dd class="leadership">
-								<h4>Principles and practice</h4>
-								<p>Stephen Olmstead and Eli Woolery from InVision</p>
+							<dd class="ux">
+								<h4>TBA</h4>
+								<p>TBA</p>
 							</dd>
 						</dl>
 					</li>
@@ -113,18 +118,18 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li class="timeslot two-hours">
 						<dl>
 							<dt class="time">3:10 PM</dt>
-							<dd class="leadership">
-								<h4>How to survive as a designer or PM in the era of the algorithm.</h4>
-								<p>Chris Mayfield & Bhavika Shah from Pluralsight</p>
+							<dd class="research">
+								<h4>TBA</h4>
+								<p>TBA</p>
 							</dd>
 						</dl>
 					</li>
 					<li class="timeslot two-hours">
 						<dl>
 							<dt class="time">3:50 PM</dt>
-							<dd class="pm">
-								<h4>Motivating product teams through a culture of autonomy</h4>
-								<p>Nate Barrett from Canopy</p>
+							<dd class="product-management">
+								<h4>TBA</h4>
+								<p>TBA</p>
 							</dd>
 						</dl>
 					</li>
@@ -139,7 +144,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</ol>
 			</div>
 			<div class="schedule-day">
-				<h3>Friday, 1 June 2018</h3>
+				<h3>Friday, 7 June 2019</h3>
 				<ol class="timeline">
 					<li class="timeslot one-hour">
 						<dl>
@@ -160,9 +165,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li class="timeslot two-hours">
 						<dl>
 							<dt class="time">9:10 AM</dt>
-							<dd class="pm">
-								<h4>Getting data right, A case study in how we did it wrong at HotelTonight</h4>
-								<p>Amanda Richardson from HotelTonight</p>
+							<dd class="product-management">
+								<img src="../images/headshots/natewalkingshaw.jpg">
+								<h4>TBA</h4>
+								<p>Nate Walkingshaw from Pluralsight</p>
 							</dd>
 						</dl>
 					</li>
@@ -170,8 +176,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">9:40 AM</dt>
 							<dd class="ux">
-								<h4>When we align</h4>
-								<p>Cameron Moll from Facebook</p>
+								<img src="../images/headshots/kimwilliams.jpg">
+								<h4>Radical collaboration and trust; breaking down silos and building products at scale.</h4>
+								<p>Kim Williams from Indeed</p>
 							</dd>
 						</dl>
 					</li>
@@ -187,17 +194,18 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">10:50 AM</dt>
 							<dd class="research">
-								<h4>Researching as a facilitator</h4>
-								<p>Rayna Wiles previously Frog</p>
+								<h4>TBA</h4>
+								<p>TBA</p>
 							</dd>
 						</dl>
 					</li>
 					<li class="timeslot two-hours">
 						<dl>
 							<dt class="time">11:20 AM</dt>
-							<dd class="pm">
-								<h4>Making the leap to IoT</h4>
-								<p>Andi Moore from Vivint</p>
+							<dd class="product-management">
+								<img src="../images/headshots/markrawlins.jpg">
+								<h4>TBA</h4>
+								<p>Mark Rawlins from Vivint</p>
 							</dd>
 						</dl>
 					</li>
@@ -212,18 +220,18 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li class="timeslot two-hours">
 						<dl>
 							<dt class="time">1:30 PM</dt>
-							<dd class="leadership">
-								<h4>Q&A panel with morning speakers</h4>
-								<p>Amanda Richardson, Cameron Moll, Rayna Wiles, and Andi Moore</p>
+							<dd class="ux">
+								<h4>TBA</h4>
+								<p>TBA</p>
 							</dd>
 						</dl>
 					</li>
 					<li class="timeslot two-hours">
 						<dl>
 							<dt class="time">2:00 PM</dt>
-							<dd class="leadership">
-								<h4>Designers designing for designers</h4>
-								<p>Josh Brewer & Tim Van Damme from Abstract</p>
+							<dd class="product-management">
+								<h4>TBA</h4>
+								<p>TBA</p>
 							</dd>
 						</dl>
 					</li>
@@ -238,9 +246,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li class="timeslot two-hours">
 						<dl>
 							<dt class="time">3:10 PM</dt>
-							<dd class="leadership">
-								<h4>The modern product team</h4>
-								<p>Brian Crofts & Adrienne Gajownik from Pendo</p>
+							<dd class="research">
+								<h4>TBA</h4>
+								<p>TBA</p>
 							</dd>
 						</dl>
 					</li>
@@ -248,8 +256,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">3:50 PM</dt>
 							<dd class="ux">
-								<h4>Strong opinions loosely held, design rules vs guidelines</h4>
-								<p>Ben Peck from Jane.com</p>
+								<h4>TBA</h4>
+								<p>TBA</p>
 							</dd>
 						</dl>
 					</li>

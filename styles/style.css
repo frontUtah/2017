@@ -312,7 +312,7 @@ dd, dt {
 .ux-text { color: #FD7C00; }
 .product-management-text { color: #006F9E; }
 .research-text { color: #653789; }
-.leadership-text { color: #E2B700; }
+.leadership-text { color: #FFD01D; }
 
 .label {
 	font-weight: 700;
@@ -498,11 +498,11 @@ dd, dt {
 }
 
 .instructor.leadership .instructor-photo:after, .instructor.leadership .label {
-	background: #E2B700
+	background: #FFD01D
 }
 
 .instructor.leadership .title, .instructor.leadership h4, .instructor.leadership a {
-	color: #E2B700
+	color: #FFD01D
 }
 
 @media (min-width:1000px) {
@@ -1843,11 +1843,11 @@ section.courses.research .course-calendar .time {
 }
 
 section.courses.leadership .course-calendar h3 {
-	background: #E2B700
+	background: #FFD01D
 }
 
 section.courses.leadership .course-calendar .time {
-	color: #E2B700
+	color: #FFD01D
 }
 	
 section.courses .course dl .description ul {
@@ -2042,11 +2042,11 @@ section.courses .course dl .description li {
 	}
 
 	section.courses.leadership .course-track-nav {
-		background: #E2B700
+		background: #FFD01D
 	}
 
 	section.courses.leadership .course-track-nav span.active {
-		color: #E2B700
+		color: #FFD01D
 	}
 
 	section.courses .course-calendar {
@@ -2246,11 +2246,11 @@ section.training-courses .course-groups .research .button {
 }
 
 section.training-courses .course-groups .leadership {
-	background: #E2B700
+	background: #FFD01D
 }
 
 section.training-courses .course-groups .leadership .button {
-	color: #E2B700
+	color: #FFD01D
 }
 
 @media (min-width:1000px) {
@@ -2375,6 +2375,13 @@ section.schedule-breakdown .timeline dd p {
 	line-height: 18px;
 }
 
+section.schedule-breakdown .timeline dd img {
+	width: 80px;
+	float: left;
+	margin-right: 20px;
+	border-radius: 4px;
+}
+
 section.schedule-breakdown .timeline dd a {
 	text-decoration: none;
 }
@@ -2405,6 +2412,11 @@ section.schedule-breakdown .timeline dd a {
 
 	section.schedule-breakdown .timeline dd, section.schedule-breakdown .timeline dt {
 		padding: 14px 45px
+	}
+
+	section.schedule-breakdown .timeline dd img {
+		width: 60px;
+		margin-bottom: 20px;
 	}
 
 	section.schedule-breakdown .timeline .time, section.schedule-breakdown .timeline dd p {
@@ -2457,11 +2469,11 @@ section.schedule-breakdown .timeline dd a {
 	}
 
 	section.schedule-breakdown .timeline dd.leadership h4, section.schedule-breakdown .timeline dd.leadership p {
-		color: #E2B700
+		color: #FFD01D
 	}
 
 	section.schedule-breakdown .timeline dd.leadership:after {
-		background: #E2B700
+		background: #FFD01D
 	}
 }
 
@@ -2519,7 +2531,7 @@ section.schedule-breakdown .timeline dd a {
 		border-radius: 4px;
 		background: #B2B2B2;
 		color: #FFF;
-		padding: 10px 20px;
+		padding: 20px;
 		margin: 10px;
 		box-sizing: border-box;
 	}
@@ -2561,7 +2573,7 @@ section.schedule-breakdown .timeline dd a {
 	}
 
 	section.schedule-breakdown .timeline dd.leadership {
-		background: #E2B700
+		background: #FFD01D
 	}
 
 	section.schedule-breakdown .timeline .category dd {
@@ -2585,7 +2597,7 @@ section.schedule-breakdown .timeline dd a {
 
 	section.schedule-breakdown .timeline .category dd.leadership,
 	section.schedule-breakdown .timeline .category dd.leadership h4 {
-		color: #E2B700;
+		color: #FFD01D;
 	}
 }
 
