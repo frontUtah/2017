@@ -6,6 +6,33 @@
  * System supports instructors teaching more than one course.
  */
 
+
+// Kim Williams
+$talks[] = array(
+	'title' => 'Radical collaboration and trust; breaking down silos and building products at scale',
+	'description' => 'Learn about the highs and lows of growing a diverse UX organization, introducing new practice areas, and building relationships to thrive.',
+	'day' => 1,
+	'slot' => 1,
+	'speaker' => 'kimwilliams'
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ------------------------------------------------------------- 2018 -------------------------------------------------------------
+
+
+
 // Benjamin Evans
 $talks[] = array(
 	'title' => 'The challenge of designing for everyone',
