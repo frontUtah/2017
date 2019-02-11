@@ -94,7 +94,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<dd class="product-management">
 								<img src="../images/headshots/vladmagdalin.jpg">
 								<h4>TBA</h4>
-								<p>Vlad from Webflow</p>
+								<p>Vlad Magdalin from Webflow</p>
 							</dd>
 						</dl>
 					</li>
@@ -102,8 +102,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">2:00 PM</dt>
 							<dd class="ux">
+								<img src="../images/headshots/madelinevu.jpg">
 								<h4>TBA</h4>
-								<p>TBA</p>
+								<p>Madeline Vu</p>
 							</dd>
 						</dl>
 					</li>
@@ -203,9 +204,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">11:20 AM</dt>
 							<dd class="product-management">
-								<img src="../images/headshots/markrawlins.jpg">
 								<h4>TBA</h4>
-								<p>Mark Rawlins from Vivint</p>
+								<p>TBA</p>
 							</dd>
 						</dl>
 					</li>
@@ -221,8 +221,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">1:30 PM</dt>
 							<dd class="ux">
+								<img src="../images/headshots/jasminefriedl.jpg">
 								<h4>TBA</h4>
-								<p>TBA</p>
+								<p>Jasmine Friedl from Intercom</p>
 							</dd>
 						</dl>
 					</li>
@@ -230,8 +231,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">2:00 PM</dt>
 							<dd class="product-management">
+								<img src="../images/headshots/thorernstsson.jpg">
 								<h4>TBA</h4>
-								<p>TBA</p>
+								<p>Thor Ernstsson from Alpha</p>
 							</dd>
 						</dl>
 					</li>
@@ -256,8 +258,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">3:50 PM</dt>
 							<dd class="ux">
+								<img src="../images/headshots/markrawlins.jpg">
 								<h4>TBA</h4>
-								<p>TBA</p>
+								<p>Mark Rawlins from Vivint</p>
 							</dd>
 						</dl>
 					</li>

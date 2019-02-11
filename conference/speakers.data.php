@@ -161,12 +161,27 @@ $speakers[] = array(
 	'last' => 'Ernstsson',
 	'title' => 'CEO',
 	'company' => 'Alpha',
-	'discipline' => 'leadership',
-	'photo' => 'frontworkshops18/speaker_thorernstsson.jpg',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/thorernstsson.jpg',
 	'bio' => "Thor Ernstsson founded and serves as CEO of Alpha (www.alphahq.com). Prior to Alpha, Thor co-founded and was the CTO of Audax Health, a patient engagement company that was later rebranded as Rally Health after a multibillion-dollar acquisition by UnitedHealth. Before that, Thor was the lead architect and studio CTO at Zynga working on the FrontierVille game platform. He is best known as a thought leader helping Fortune 100 brands with digital transformation, as well as for infusing a culture of experimentation into legacy organizations.",
 	'twitter' => 'ThorErnstsson',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/thorernstsson/'
+);
+
+// Chad Abad
+$speakers[] = array(
+	'slug' => 'chadabad',
+	'first' => 'Chad',
+	'last' => 'Abad',
+	'title' => 'VP of Product & Design',
+	'company' => 'Alpha',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/chadabad.jpg',
+	'bio' => "Coming Soon",
+	'twitter' => 'chrisabad',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/chrisabad/'
 );
 
 /*
