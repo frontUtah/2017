@@ -124,6 +124,51 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/vladmagdalin/'
 );
 
+// Madeline Vu
+$speakers[] = array(
+	'slug' => 'madelinevu',
+	'first' => 'Madeline',
+	'last' => 'Vu',
+	'title' => 'Director of Product Design',
+	'company' => 'Capsule',
+	'discipline' => 'ux',
+	'photo' => 'headshots/madelinevu.jpg',
+	'bio' => 'Madeline is the Director of Product Design at Capsule in New York City. She’s a user-centered product design leader with 9 years experience working on both consumer and enterprise digital products for both growth stage to public companies. She helps grow companies, brands, and people during various stages of venture creation from ideation, discovery, prototyping, design, to implementation. Madeline’s core specialties are user experience and user interface design, research, and product strategy. She is also a firm believer in short feedback loops, data driven iteration, and simple solutions.',
+	'twitter' => 'madelinevu',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/vladmagdalin/'
+);
+
+// Jasmine Friedl
+$speakers[] = array(
+	'slug' => 'jasminefriedl',
+	'first' => 'Jasmine',
+	'last' => 'Friedl',
+	'title' => 'Head of Design',
+	'company' => 'Intercom',
+	'discipline' => 'ux',
+	'photo' => 'headshots/jasminefriedl.jpg',
+	'bio' => 'Jasmine Friedl is the Head of Design at Intercom in San Francisco, where she leads the product design team. Previously Jasmine built and led design teams at Udacity, Chan Zuckerberg Initiative, and Facebook. She lives in the Bay Area with her designer-husband and French bulldog named Bacon.',
+	'twitter' => 'jazzy33ca',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/jasmine-friedl-b6895b8/'
+);
+
+// Thor Ernstsson
+$speakers[] = array(
+	'slug' => 'thorernstsson',
+	'first' => 'Thor',
+	'last' => 'Ernstsson',
+	'title' => 'CEO',
+	'company' => 'Alpha',
+	'discipline' => 'leadership',
+	'photo' => 'frontworkshops18/speaker_thorernstsson.jpg',
+	'bio' => "Thor Ernstsson founded and serves as CEO of Alpha (www.alphahq.com). Prior to Alpha, Thor co-founded and was the CTO of Audax Health, a patient engagement company that was later rebranded as Rally Health after a multibillion-dollar acquisition by UnitedHealth. Before that, Thor was the lead architect and studio CTO at Zynga working on the FrontierVille game platform. He is best known as a thought leader helping Fortune 100 brands with digital transformation, as well as for infusing a culture of experimentation into legacy organizations.",
+	'twitter' => 'ThorErnstsson',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/thorernstsson/'
+);
+
 /*
 // Cameron Moll
 $speakers[] = array(
