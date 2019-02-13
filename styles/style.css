@@ -449,7 +449,8 @@ dd, dt {
 	position: absolute;
 	bottom: -70px;
 	right: -70px;
-	transform: rotate(45deg)
+	transform: rotate(45deg);
+	border: 8px solid #fff;
 }
 
 .instructor .instructor-photo img {
@@ -1121,7 +1122,7 @@ footer p {
 	background-image: url(../images/custom-training-bg.jpg);
 }
 
-.product-workshops .hero h1 {
+.product-workshops .hero h1, .product-workshops-public .hero h1 {
 	color: #FFF;
 	font-size: 30px;
 	line-height: 37px;
@@ -1161,17 +1162,58 @@ footer p {
 	margin-bottom: 20px
 }
 
+
+
+/*********** SECTION PUBLIC WORKSHOPS ************/
+
+.product-workshops-public {background-color: #FAFAFA;}
+
+.product-workshops-public .hero {
+	background-image: url(../../images/headers/header-workshops-public.jpg);
+	padding: 200px 130px 50px;
+	min-height: 500px;
+}
+.public-workshops {
+	display: block;
+	margin: 0px auto;
+	max-width: 1218px;
+}
+.public-workshops-wrap {padding: 0px 35px; background-color: #fff; display: block; text-align: left;}
+.public-workshop .instructor {
+	width: 350px;
+	padding-bottom: 0px;
+}
+.public-workshop .instructor-photo {
+	width: 190px;
+}
+.public-workshop dl {
+	display: flex;
+	padding: 35px 0px;
+	margin: 0px;
+	border-bottom: 1px solid rgba(0,0,0,.09);
+}
+.public-workshop dd {
+	margin-right: 35px;
+}
+.public-workshop h4 {font-size: 28px; font-weight: bold; margin-top: 10px;}
+.public-workshop .description {font-size: 16px; line-height: 22px; margin: 0px;}
+.public-workshop .name {font-size: 13px; text-transform: uppercase; color: #006F9E; margin: 0px;}
+.public-workshop .location {font-size: 18px; color: #666; margin: 0px 0px 10px 0px;}
+.public-workshop .month, .public-workshop .day {color: #006F9E; text-align: center; display: block; text-transform: uppercase;}
+.public-workshop .month {font-size: 20px;}
+.public-workshop .day {font-size: 30px;}
+
 @media (min-width:1000px) {
 	.product-workshops .hero {
 		height: 1070px;
 		padding: 200px 130px 50px
 	}
 
-	.product-workshops .hero h1, .product-workshops .hero li, .product-workshops .hero p {
+	.product-workshops .hero h1, .product-workshops .hero li, .product-workshops .hero p, .product-workshops-public .hero h1 {
 		text-align: left
 	}
 
-	.product-workshops .hero h1 {
+	.product-workshops .hero h1, .product-workshops-public .hero h1 {
 		font-size: 80px;
 		line-height: 98px
 	}
