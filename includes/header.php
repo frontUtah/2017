@@ -65,7 +65,7 @@ if(isset($meta['opengraph']) && !empty($meta['opengraph'])) {
 $global_nav[1] = array('subsite' => 'landing', 'link' => '/', 'text' => 'Home', 'class' => 'home');
 $global_nav[2] = array('subsite' => 'conference', 'link' => '/conference', 'text' => 'Case Study Conference', 'class' => 'case-study');
 $global_nav[3] = array('subsite' => 'workshops', 'link' => '/workshops', 'text' => 'Workshop Series', 'class' => 'workshops');
-$global_nav[4] = array('subsite' => 'public-workshops', 'link' => '/workshops/public', 'text' => 'Public Workshops', 'class' => 'public-workshops');
+$global_nav[4] = array('subsite' => 'training', 'link' => '/training/public-workshops', 'text' => 'Public Workshops', 'class' => 'public-workshops');
 $global_nav[5] = array('subsite' => 'onsite', 'link' => '/onsite', 'text' => 'Onsite Training', 'class' => 'onsite');
 $global_nav[6] = array('subsite' => 'magazine', 'link' => 'https://medium.com/front-conference', 'text' => 'Blog', 'class' => 'magazine', 'target' => '_blank');
 $global_nav[7] = array('subsite' => 'newsletter', 'link' => 'https://frontutah.us2.list-manage.com/subscribe?u=5a9bade195be7c98130573919&id=e8d567ca7f', 'text' => 'Newsletter', 'class' => 'newsletter', 'target' => '_blank');
@@ -189,6 +189,46 @@ switch($uri_parts[0]) {
 
 		echo '
 					</ul>
+				</nav>
+			</header>';
+		break;
+	case 'training';
+
+		//$workshops_nav[] = array('link' => 'courses', 'text' => 'Courses', 'class' => '');
+		//$workshops_nav[] = array('link' => 'instructors', 'text' => 'Instructors', 'class' => '');
+		//$workshops_nav[] = array('link' => 'venue', 'text' => 'Venue', 'class' => '');
+		//$workshops_nav[] = array('link' => 'schedule', 'text' => 'Schedule', 'class' => '');
+		//$workshops_nav[] = array('link' => 'faqs', 'text' => 'FAQs', 'class' => '');
+		//$workshops_nav[] = array('link' => 'whyattend', 'text' => 'Why attend', 'class' => '');
+		//$workshops_nav[] = array('link' => 'registration', 'text' => 'Register', 'class' => 'button');
+
+		echo '
+			<header class="section-header">
+				<nav class="section-nav">
+					<div class="section-nav-head">
+						<h3 class="logo">Front</h3>
+						<button class="menu-toggle"></button>
+					</div>';
+
+		if(isset($workshops_nav) && count($workshops_nav) > 0) {					
+			echo '
+					<ul>';
+
+			foreach($workshops_nav as $workshops_navitem) {
+				echo '<li><a href="/training/' . $workshops_navitem['link'] . '" class="' . $workshops_navitem['class'];
+	
+				if($uri_parts[1] == $workshops_navitem['link']) {
+					echo ' selected';
+				}
+	
+				echo '">' . $workshops_navitem['text'] . '</a></li>';
+			}
+
+			echo '
+					</ul>';
+		}
+		
+		echo '
 				</nav>
 			</header>';
 		break;

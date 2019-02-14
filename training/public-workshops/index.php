@@ -29,7 +29,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				<h2>Workshops for improving what matters</h2>
 				<p>As individuals in the user experience and product design industry we find that just as fast as we build software we also continue to learn new ways of doing it better just as fast. Its one thing to hear clear case study examples from our peers at the Front conference but its another to put those ideas and experience into action. So, we’re offering as much training help that we can in as many locations as possible. Each workshop will be limited to 48 students and taught by internationally recognized industry leaders and some of tech’s most skilled practitioners. Breakfast and lunch are provided each day.</p>
 
-				<p>We announce new dates and locations for our public training workshops on a regular basis.  Keep up to speed via our Newsletter.</p>
+				<p>We announce new dates and locations for our public training workshops on a regular basis. 
+Keep up to speed via our Newsletter.</p>
 		</section>
 
 		
