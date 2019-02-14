@@ -447,8 +447,8 @@ dd, dt {
 	height: 140px;
 	background: #006F9E;
 	position: absolute;
-	bottom: -70px;
-	right: -70px;
+	bottom: -80px;
+	right: -80px;
 	transform: rotate(45deg);
 	border: 8px solid #fff;
 }
@@ -517,7 +517,9 @@ dd, dt {
 	}
 
 	.instructor .instructor-photo:after {
-		width: 100px
+		width: 100px;
+		bottom: -70px;
+		right: -70px;
 	}
 
 	.instructor h4, .instructor p {
