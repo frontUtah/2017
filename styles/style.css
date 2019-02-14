@@ -428,12 +428,13 @@ dd, dt {
 		flex-wrap: wrap
 	}
 }
-
+/*
 .instructor {
 	padding-bottom: 56px;
 	max-width: 375px;
 	margin: 0 auto
 }
+*/
 
 .instructor .instructor-photo {
 	position: relative;
@@ -517,9 +518,13 @@ dd, dt {
 	}
 
 	.instructor .instructor-photo:after {
+		width: 120px;
+		bottom: -80px;
+		right: -80px;
+	}
+
+	.course .instructor .instructor-photo:after {
 		width: 100px;
-		bottom: -70px;
-		right: -70px;
 	}
 
 	.instructor h4, .instructor p {
@@ -1172,44 +1177,64 @@ footer p {
 
 .product-workshops-public .hero {
 	background-image: url(../../images/headers/header-workshops-public.jpg);
-	padding: 200px 130px 50px;
+	padding: 200px 50px 50px;
 	min-height: 500px;
 }
 .public-workshops {
 	display: block;
 	margin: 0px auto;
 	max-width: 1218px;
+	padding: 0px;
 }
+.public-workshops h2 {margin-left: 20px; margin-right: 20px;}
+
 .public-workshops-wrap {padding: 0px 35px; background-color: #fff; display: block; text-align: left;}
-.public-workshop .instructor {
-	width: 350px;
-	padding-bottom: 0px;
-}
-.public-workshop .instructor-photo {
-	width: 190px;
-}
+
 .public-workshop dl {
-	display: flex;
+	display: block;
 	padding: 35px 0px;
 	margin: 0px;
 	border-bottom: 1px solid rgba(0,0,0,.09);
 }
-.public-workshop dd {
-	margin-right: 35px;
-}
+
 .public-workshop h4 {font-size: 28px; font-weight: bold; margin-top: 10px;}
 .public-workshop .description {font-size: 16px; line-height: 22px; margin: 0px;}
 .public-workshop .name {font-size: 13px; text-transform: uppercase; color: #006F9E; margin: 0px;}
-.public-workshop .location {font-size: 18px; color: #666; margin: 0px 0px 10px 0px;}
+.public-workshop .location {font-size: 18px; color: #666; margin: 0px;}
+.public-workshop .date-mobile {font-size: 18px; color: #666; margin: 0px 0px 10px 0px;}
 .public-workshop .month, .public-workshop .day {color: #006F9E; text-align: center; display: block; text-transform: uppercase;}
 .public-workshop .month {font-size: 20px;}
 .public-workshop .day {font-size: 30px;}
+.public-workshop .date-desk {display: none;}
 
 @media (min-width:1000px) {
+	.product-workshops-public .hero {
+		padding: 200px 130px 50px;
+	}
+
 	.product-workshops .hero {
 		height: 1070px;
 		padding: 200px 130px 50px
 	}
+
+	.public-workshop .instructor {
+		width: 350px;
+		padding-bottom: 0px;
+	}
+	.public-workshop .instructor-photo {
+		width: 190px;
+	}
+
+	.public-workshop dl {
+		display: flex;
+	}
+
+	.public-workshop dd {
+		margin-right: 35px;
+	}
+
+	.public-workshop .date-mobile {display: none;}
+	.public-workshop .date-desk {display: block;}
 
 	.product-workshops .hero h1, .product-workshops .hero li, .product-workshops .hero p, .product-workshops-public .hero h1 {
 		text-align: left

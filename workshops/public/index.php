@@ -48,11 +48,12 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 								<h4>User Story Mapping</h4>
 								<p class="name">by Jeff Patton</p>
 								<p class="location"><span class="icon-location"></span> New York, NY</p>
+								<p class="date-mobile"><span class="icon-location"></span> APR 01, 2019</p>
 								<p class="description">Ideal Agile development teams build small valuable chunks of functionality. But, that’s easier said than done. Not all products or features are small and breaking them down into small buildable parts is challenging. </p>
 								<a href="https://www.eventbrite.com/e/front-workshop-nyc-user-story-mapping-with-jeff-patton-tickets-55605790416" target="_blank" class="button button-small">Learn More</a>
 								
 							</dd>
-							<dd>
+							<dd class="date-desk">
 								<span class="month">APR</span><span class="day">02</span>
 							</dd>
 						</dl>
@@ -69,10 +70,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 								<h4>Certified Scrum Product</h4>
 								<p class="name">by Jeff Patton</p>
 								<p class="location"><span class="icon-location"></span> New York, NY</p>
+								<p class="date-mobile"><span class="icon-location"></span> SEP 05, 2019</p>
 								<p class="description">Jeff Patton will deliver an honest, irreverent, and extremely useful 2-Day Certified Scrum Product Ownership course. This is a course with a deliberate and unapologetic product-centric and Lean UX bias. If you’ve learned Agile and Scrum basics elsewhere and felt that product and user experience concerns were missing, we’ll fix that.</p>
 								<a href="https://www.eventbrite.com/e/front-workshop-nyc-certified-scrum-product-ownership-cspo-with-jeff-patton-tickets-55667276322" target="_blank" class="button button-small">Learn More</a>
 							</dd>
-							<dd>
+							<dd class="date-desk">
 								<span class="month">Sep</span><span class="day">02</span>
 							</dd>
 						</dl>
