@@ -21,6 +21,7 @@ RewriteRule ^bootcamp/schedule$ /workshops/schedule [R,L]
 RewriteRule ^bootcamp/venue$ /workshops/venue [R,L]
 RewriteRule ^bootcamp/whyattend$ /workshops/whyattend [R,L]
 RewriteRule ^training/public-workshops$ /training/public [R,L]
+Redirect /training/public-training /training/public
 
 # route HTTP to HTTPS
 RewriteCond %{HTTP_HOST} !^dev\.
