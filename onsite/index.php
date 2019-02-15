@@ -9,7 +9,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 ?>
 	<main class="product-workshops product-onsite">
 		<section class="hero">
-			<h1>UX &amp; Product Management Onsite Training</h1>
+			<h1>UX &amp; Product Management onsite training</h1>
 			<p>
 				<ul>
 					<li>Premium topics • Dozens of trainings • any time or location</li>

@@ -681,6 +681,10 @@ main {
 	.primary-header .primary-nav ul .order-5 {
 		order: 5
 	}
+
+	.primary-header .primary-nav ul .order-6 {
+		order: 6
+	}
 }
 
 @media (min-width:1000px) {
