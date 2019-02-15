@@ -29,10 +29,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		</section>
 		<section class="training-courses">
 				<h2>Workshops for improving what matters</h2>
-				<p>As individuals in the user experience and product design industry we find that just as fast as we build software we also continue to learn new ways of doing it better just as fast. Its one thing to hear clear case study examples from our peers at the Front conference but its another to put those ideas and experience into action. So, we’re offering as much training help that we can in as many locations as possible. Each workshop will be limited to 48 students and taught by internationally recognized industry leaders and some of tech’s most skilled practitioners. Breakfast and lunch are provided each day.</p>
+				<p>The industry is evolving and maturing at a rapid pace. Best-practices and new techniques seems to develop almost faster than we’re able to bring new products to market. As product managers and designers, it’s critical that we’re continually learning and refining our craft. Front is pleased to bring you  public workshops, taught by the industry’s forefront thought-leaders and instructors, to help you grow or kick-start your career.</p>
 
-				<p>We announce new dates and locations for our public training workshops on a regular basis. 
-Keep up to speed via our Newsletter.</p>
+				<p>Join us again and again for new insights and experiences, throughout the year in major cities around the world. Each workshop will be kept to a small group of only 3-4 dozen. Breakfast and lunch will be provided. New courses, dates, and locations will be added regularly.</p>
 		</section>
 
 		
