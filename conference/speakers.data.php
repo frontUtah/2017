@@ -169,10 +169,10 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/thorernstsson/'
 );
 
-// Chad Abad
+// Chris Abad
 $speakers[] = array(
-	'slug' => 'chadabad',
-	'first' => 'Chad',
+	'slug' => 'chrisabad',
+	'first' => 'Chris',
 	'last' => 'Abad',
 	'title' => 'VP of Product & Design',
 	'company' => 'Alpha',

@@ -25,6 +25,17 @@ $talks[] = array(
 	'speaker' => 'laurentreasure'
 );
 
+// Chris Abad
+$talks[] = array(
+	'title' => 'How to Build a Product Strategy with Design Thinking',
+	'description' => 'If you’re a Product Manager, at some point you’ve been asked to create a product strategy. But what exactly does that mean, and where do you begin? Traditionally Product Managers often start developing a product strategy by thinking about the product first (features and functionality), but often times leads to several challenges. Product Managers should consider focusing on the problem they’re trying to solve. Designers, for example, think of the user first, having empathy for the people the product is being designed for. Can Product Managers leverage a design thinking approach to help create product strategies? If so, how does it work? <br><br>At UserTesting we take a design thinking approach to create our product strategy. We teach product managers to think like designers and designers to think like product managers. To demonstrate our methods, we will be discussing case study examples to show how UserTesting brought together people from different teams to collaborate and create a value proposition, see and understand the bigger vision and the steps we took to create the “big vision” for a product strategy. We will give examples of how we leveraged brainstorming, sketching and storyboarding sessions that ultimately creates a story arch that helps discover key points that can eventually communicate an overall product strategy. Attendees will learn how they can successfully implement design thinking to create product strategies the UserTesting way. <br><br> In this session, we will walk through how UserTesting has: <ul><li>Built product strategies with a large distributed group in a way that keeps everyone moving forward fast.</li><li>Communicates and share ideas in a way that motivates and aligns everyone around a common goal.</li><li>Bridges the gap between product management and other teams to create a cohesive strategy.</li></ul>',
+	'day' => 1,
+	'slot' => 1,
+	'speaker' => 'chrisabad'
+);
+
+
+
 
 
 
