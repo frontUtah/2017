@@ -136,7 +136,7 @@ $speakers[] = array(
 	'bio' => 'Madeline is the Director of Product Design at Capsule in New York City. She’s a user-centered product design leader with 9 years experience working on both consumer and enterprise digital products for both growth stage to public companies. She helps grow companies, brands, and people during various stages of venture creation from ideation, discovery, prototyping, design, to implementation. Madeline’s core specialties are user experience and user interface design, research, and product strategy. She is also a firm believer in short feedback loops, data driven iteration, and simple solutions.',
 	'twitter' => 'madelinevu',
 	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/vladmagdalin/'
+	'linkedin' => 'https://www.linkedin.com/in/madelinevu/'
 );
 
 // Jasmine Friedl
@@ -194,7 +194,7 @@ $speakers[] = array(
 	'discipline' => 'product-management',
 	'photo' => 'headshots/laurentreasure.jpg',
 	'bio' => "Lauren Treasure is an experienced product leader and customer advocate. She has proven success leading teams through an iterative human-centered product design process that involves in-depth user research, prototyping, A/B testing, customer feedback and analytics. She is currently the VP of product at Chatbooks, where she leads the product, UX, and research teams. She started her career as a social science researcher in Washington DC, then transitioned into user experience research and product management. She has also led product teams at Ancestry, both in DNA and family history; and at Orca Health, a startup focused on providing mobile tools for healthcare providers to improve the quality of care.",
-	'twitter' => 'chrisabad',
+	'twitter' => '',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/lstreasure/'
 );
