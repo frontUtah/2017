@@ -16,6 +16,15 @@ $talks[] = array(
 	'speaker' => 'kimwilliams'
 );
 
+// Lauren Treasure
+$talks[] = array(
+	'title' => 'Product, Marketing and Customer Success Make a Power Trio',
+	'description' => 'How product teams can (and should) develop tight relationships with marketing and customer success to create a better customer experience. <br><br>Product teams often view a customer’s interaction with their offering as limited within a set of product features. But to a customer, it really extends to the end-to-end experience with your entire brand — from acquisition ads, targeted emails, and sponsored content, to the website, into the product, and continued via live chat or other support interactions. Consider how much better the customer journey can be with a consistent experience across every interaction. This presentation will provide a framework on how to build and maintain strong relationships with your marketing and CS counterparts, as well as real examples from my experience at Chatbooks and Ancestry.',
+	'day' => 1,
+	'slot' => 1,
+	'speaker' => 'laurentreasure'
+);
+
 
 
 

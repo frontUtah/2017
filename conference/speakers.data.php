@@ -184,6 +184,21 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/chrisabad/'
 );
 
+// Lauren Treasure
+$speakers[] = array(
+	'slug' => 'laurentreasure',
+	'first' => 'Lauren',
+	'last' => 'Treasure',
+	'title' => 'VP of Product',
+	'company' => 'Chatbooks',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/laurentreasure.jpg',
+	'bio' => "Lauren Treasure is an experienced product leader and customer advocate. She has proven success leading teams through an iterative human-centered product design process that involves in-depth user research, prototyping, A/B testing, customer feedback and analytics. She is currently the VP of product at Chatbooks, where she leads the product, UX, and research teams. She started her career as a social science researcher in Washington DC, then transitioned into user experience research and product management. She has also led product teams at Ancestry, both in DNA and family history; and at Orca Health, a startup focused on providing mobile tools for healthcare providers to improve the quality of care.",
+	'twitter' => 'chrisabad',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/lstreasure/'
+);
+
 /*
 // Cameron Moll
 $speakers[] = array(
