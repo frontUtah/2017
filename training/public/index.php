@@ -60,7 +60,31 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							</dd>
 						</dl>
 					</li>
-					<ul class="public-workshop">
+				</ul>
+				<ul class="public-workshop">
+					<li class="theme-product-management">
+						<dl>
+							<dd class="instructor product-management">
+								<div class="instructor-photo">
+									<img src="/images/headshots/vickythomas.jpg">
+								</div>
+							</dd>
+							<dd>
+								<h4>Teamwork Makes the Dream Work</h4>
+								<p class="name">by Vicky Thomas</p>
+								<p class="location"><span class="icon-location"></span> Boston, MA</p>
+								<p class="date-mobile"><span class="icon-location"></span> AUG 05, 2019</p>
+								<p class="description">World-class product teams are greater than the sum of their parts—but how does that happen? Sometimes you’re lucky, and if you put a cross-functional team into a small room, they spit out magic. More often, though, product teams struggle to work together effectively, spending more time bumping into each other than actually building product. PMs, UX designers, and executives all try to drive definition, engineering isn’t brought in early enough, and QA sees a story for the first time when they test it.</p>
+								<a href="#" target="_blank" class="button button-small">Learn More</a>
+								
+							</dd>
+							<dd class="date-desk">
+								<span class="month">AUG</span><span class="day">05</span>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+				<ul class="public-workshop">
 					<li class="theme-product-management">
 						<dl>
 							<dd class="instructor product-management">

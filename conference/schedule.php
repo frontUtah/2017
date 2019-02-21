@@ -37,14 +37,14 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<dt class="time">9:10 AM</dt>
 							<dd class="ux">
 								<img src="../images/headshots/wadeshearer.jpg">
-								<h4>TBA</h4>
+								<h4>Workfront User Experience Operating Agreement</h4>
 								<p>Wade Shearer from Workfront</p>
 							</dd>
 						</dl>
 					</li>
 					<li class="timeslot two-hours">
 						<dl>
-							<dt class="time">9:40 AM</dt>
+							<dt class="time">9:45 AM</dt>
 							<dd class="product-management">
 								<img src="../images/headshots/maggiecrowley.jpg">
 								<h4>TBA</h4>
@@ -54,7 +54,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot one-hour">
 						<dl>
-							<dt class="time">10:10 AM</dt>
+							<dt class="time">10:20 AM</dt>
 							<dd class="food">
 								<p>Break (drinks and snacks)</p>
 							</dd>
@@ -62,7 +62,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot two-hours">
 						<dl>
-							<dt class="time">10:50 AM</dt>
+							<dt class="time">11:00 AM</dt>
 							<dd class="research">
 								<img src="../images/headshots/daniellegreen.jpg">
 								<h4>TBA</h4>
@@ -72,7 +72,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot two-hours">
 						<dl>
-							<dt class="time">11:20 AM</dt>
+							<dt class="time">11:35 AM</dt>
 							<dd class="ux">
 								<img src="../images/headshots/frankyoo.jpg">
 								<h4>TBA</h4>
@@ -82,7 +82,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot one-hour">
 						<dl>
-							<dt class="time">11:50 AM</dt>
+							<dt class="time">12:10 AM</dt>
 							<dd class="food">
 								<p>Lunch</p>
 							</dd>
@@ -90,7 +90,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot two-hours">
 						<dl>
-							<dt class="time">1:30 PM</dt>
+							<dt class="time">1:40 PM</dt>
 							<dd class="product-management">
 								<img src="../images/headshots/vladmagdalin.jpg">
 								<h4>TBA</h4>
@@ -100,17 +100,17 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot two-hours">
 						<dl>
-							<dt class="time">2:00 PM</dt>
+							<dt class="time">2:15 PM</dt>
 							<dd class="ux">
 								<img src="../images/headshots/madelinevu.jpg">
-								<h4>TBA</h4>
-								<p>Madeline Vu</p>
+								<h4>Applying design thinking in an agile workflow</h4>
+								<p>Madeline Vu from Capsule</p>
 							</dd>
 						</dl>
 					</li>
 					<li class="timeslot one-hour">
 						<dl>
-							<dt class="time">2:30 PM</dt>
+							<dt class="time">2:50 PM</dt>
 							<dd class="food">
 								<p>Break (coffee)</p>
 							</dd>
@@ -118,17 +118,18 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot two-hours">
 						<dl>
-							<dt class="time">3:10 PM</dt>
-							<dd class="research">
-								<h4>TBA</h4>
-								<p>TBA</p>
+							<dt class="time">3:30 PM</dt>
+							<dd class="product-management">
+								<img src="../images/headshots/chrisabad.jpg">
+								<h4>How to Build a Product Strategy with Design Thinking</h4>
+								<p>Chris Abad from Usertesting</p>
 							</dd>
 						</dl>
 					</li>
 					<li class="timeslot two-hours">
 						<dl>
-							<dt class="time">3:50 PM</dt>
-							<dd class="product-management">
+							<dt class="time">4:05 PM</dt>
+							<dd class="ux">
 								<h4>TBA</h4>
 								<p>TBA</p>
 							</dd>
@@ -136,7 +137,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot one-hour">
 						<dl>
-							<dt class="time">4:20 PM</dt>
+							<dt class="time">4:40 PM</dt>
 							<dd class="food">
 								<p>Day 1 wrap-up</p>
 							</dd>
@@ -175,7 +176,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot two-hours">
 						<dl>
-							<dt class="time">9:40 AM</dt>
+							<dt class="time">9:45 AM</dt>
 							<dd class="ux">
 								<img src="../images/headshots/kimwilliams.jpg">
 								<h4>Radical collaboration and trust; breaking down silos and building products at scale.</h4>
@@ -185,7 +186,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot one-hour">
 						<dl>
-							<dt class="time">10:10 AM</dt>
+							<dt class="time">10:20 AM</dt>
 							<dd class="food">
 								<p>Break (drinks and snacks)</p>
 							</dd>
@@ -193,25 +194,27 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot two-hours">
 						<dl>
-							<dt class="time">10:50 AM</dt>
-							<dd class="research">
-								<h4>TBA</h4>
-								<p>TBA</p>
+							<dt class="time">11:00 AM</dt>
+							<dd class="product-management">
+								<img src="../images/headshots/laurentreasure.jpg">
+								<h4>Product, Marketing and Customer Success Make a Power Trio</h4>
+								<p>Lauren Treasure from Chatbooks</p>
 							</dd>
 						</dl>
 					</li>
 					<li class="timeslot two-hours">
 						<dl>
-							<dt class="time">11:20 AM</dt>
-							<dd class="product-management">
-								<h4>TBA</h4>
-								<p>TBA</p>
+							<dt class="time">11:35 AM</dt>
+							<dd class="research">
+								<img src="../images/headshots/leahrader.jpg">
+								<h4>Creating a new path to empathy & insights</h4>
+								<p>Leah Rader from Lyft</p>
 							</dd>
 						</dl>
 					</li>
 					<li class="timeslot one-hour">
 						<dl>
-							<dt class="time">11:50 AM</dt>
+							<dt class="time">12:10 AM</dt>
 							<dd class="food">
 								<p>Lunch</p>
 							</dd>
@@ -219,7 +222,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot two-hours">
 						<dl>
-							<dt class="time">1:30 PM</dt>
+							<dt class="time">1:40 PM</dt>
 							<dd class="ux">
 								<img src="../images/headshots/jasminefriedl.jpg">
 								<h4>TBA</h4>
@@ -229,7 +232,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot two-hours">
 						<dl>
-							<dt class="time">2:00 PM</dt>
+							<dt class="time">2:15 PM</dt>
 							<dd class="product-management">
 								<img src="../images/headshots/thorernstsson.jpg">
 								<h4>TBA</h4>
@@ -239,7 +242,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot one-hour">
 						<dl>
-							<dt class="time">2:30 PM</dt>
+							<dt class="time">2:50 PM</dt>
 							<dd class="food">
 								<p>Break (coffee)</p>
 							</dd>
@@ -247,16 +250,17 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot two-hours">
 						<dl>
-							<dt class="time">3:10 PM</dt>
+							<dt class="time">3:30 PM</dt>
 							<dd class="research">
+								<img src="../images/headshots/greggbernstein.jpg">
 								<h4>TBA</h4>
-								<p>TBA</p>
+								<p>Greg Bernstein from Vox Media</p>
 							</dd>
 						</dl>
 					</li>
 					<li class="timeslot two-hours">
 						<dl>
-							<dt class="time">3:50 PM</dt>
+							<dt class="time">4:05 PM</dt>
 							<dd class="ux">
 								<img src="../images/headshots/markrawlins.jpg">
 								<h4>TBA</h4>
@@ -266,7 +270,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 					<li class="timeslot one-hour">
 						<dl>
-							<dt class="time">4:20 PM</dt>
+							<dt class="time">4:40 PM</dt>
 							<dd class="food">
 								<p>Closing remarks</p>
 							</dd>
