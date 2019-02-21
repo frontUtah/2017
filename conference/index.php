@@ -12,7 +12,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<h1>UX &amp; Product Management Case Study Conference</h1>
 			<p>
 				<ul>
-					<li>2 days • 16 talks</li>
+					<li>2 days • 16 talks with audience-led Q&A</li>
 					<li>1000+ product designers and managers</li>
 				</ul>
 			</p>
