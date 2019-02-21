@@ -37,7 +37,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<dt class="time">9:10 AM</dt>
 							<dd class="ux">
 								<img src="../images/headshots/wadeshearer.jpg">
-								<h4>Workfront User Experience Operating Agreement</h4>
+								<h4>TBA</h4>
 								<p>Wade Shearer from Workfront</p>
 							</dd>
 						</dl>
