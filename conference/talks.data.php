@@ -16,6 +16,15 @@ $talks[] = array(
 	'speaker' => 'kimwilliams'
 );
 
+// Madeline Vu
+$talks[] = array(
+	'title' => 'Applying design thinking in an agile workflow',
+	'description' => '',
+	'day' => 1,
+	'slot' => 1,
+	'speaker' => 'madelinevu'
+);
+
 // Lauren Treasure
 $talks[] = array(
 	'title' => 'Product, Marketing and Customer Success Make a Power Trio',
