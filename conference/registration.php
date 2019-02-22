@@ -119,7 +119,6 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				<div class="hotel-info">
 					<h3>Salt Lake City Marriott City Center</h3>
 					<p>220 South State Street, Salt Lake City, Utah 84111 USA<p>
-					<p>Front desk: 801.961.8700</p>
 					<p>Reservations: 888.236.2427</p>
 					<ul>
 						<li>King or double queen beds</li>
