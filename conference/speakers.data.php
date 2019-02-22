@@ -103,8 +103,8 @@ $speakers[] = array(
 	'company' => 'Vivint',
 	'discipline' => 'ux',
 	'photo' => 'headshots/markrawlins.jpg',
-	'bio' => 'Coming Soon',
-	'twitter' => 'markrawlins',
+	'bio' => 'Mark is the Director of Product Design at Vivint Smart Home where he leads the design teams responsible for delivering peace of mind to customers via both software and hardware product experiences.  Previously at Nike in Oregon, Mark led the design team building the Nike Run Club app. His career has taken him to New York City, Austin, Portland and now Silicon Slopes in Utah.',
+	'twitter' => 'digimarkus',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/markrawlins/'
 );
