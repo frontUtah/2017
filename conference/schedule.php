@@ -47,7 +47,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<dt class="time">9:45 AM</dt>
 							<dd class="product-management">
 								<img src="../images/headshots/maggiecrowley.jpg">
-								<h4>TBA</h4>
+								<h4>Your Product Is Only as Good as Your Teamwork</h4>
 								<p>Maggie Crowley from Drift</p>
 							</dd>
 						</dl>
@@ -65,7 +65,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<dt class="time">11:00 AM</dt>
 							<dd class="research">
 								<img src="../images/headshots/daniellegreen.jpg">
-								<h4>TBA</h4>
+								<h4>Scrapping your Scrappy Research Process for Scale</h4>
 								<p>Danielle Green from Jane</p>
 							</dd>
 						</dl>
@@ -252,9 +252,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl>
 							<dt class="time">3:30 PM</dt>
 							<dd class="research">
-								<img src="../images/headshots/greggbernstein.jpg">
+								<!--<img src="../images/headshots/greggbernstein.jpg">-->
 								<h4>TBA</h4>
-								<p>Greg Bernstein from Vox Media</p>
+								<p>TBA</p>
 							</dd>
 						</dl>
 					</li>

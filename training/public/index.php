@@ -75,7 +75,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 								<p class="location"><span class="icon-location"></span> Boston, MA</p>
 								<p class="date-mobile"><span class="icon-location"></span> AUG 05, 2019</p>
 								<p class="description">World-class product teams are greater than the sum of their parts—but how does that happen? Sometimes you’re lucky, and if you put a cross-functional team into a small room, they spit out magic. More often, though, product teams struggle to work together effectively, spending more time bumping into each other than actually building product. PMs, UX designers, and executives all try to drive definition, engineering isn’t brought in early enough, and QA sees a story for the first time when they test it.</p>
-								<a href="#" target="_blank" class="button button-small">Learn More</a>
+								<a href="#" target="_blank" class="button button-small">Coming Soon!</a>
 								
 							</dd>
 							<dd class="date-desk">
