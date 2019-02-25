@@ -16,6 +16,25 @@ $talks[] = array(
 	'speaker' => 'kimwilliams'
 );
 
+// Maggie Crowley
+$talks[] = array(
+	'title' => 'Your Product Is Only as Good as Your Teamwork',
+	'description' => 'Product managers and product leaders often focus on understanding customers as the secret to building great products. But that’s just the key to great ideas - the key to great execution is the team. <br><br>The importance of teamwork isn’t a new concept in building products. As product managers and product leaders we spend so much of our time thinking about our process, about how we frame problems, how we scope them, and how we tell stories about them so that we can get our teams motivated to solve them. But to do more than just ship products, to build a truly great product, you have to go further than just figuring out how to define the problem and why it matters for your team. <br><br>This presentation is a story about three people who launched two versions of the same product 10 months apart. It’s a story of how that team went from everything going wrong on launch day to building a best-in-class experience that launched smoothly, and how the difference in those launches was entirely due to how much better the team understood each other as human beings and coworkers.',
+	'day' => 1,
+	'slot' => 1,
+	'speaker' => 'maggiecrowley'
+);
+
+// Danielle Green
+$talks[] = array(
+	'title' => 'Scrapping your Scrappy Research Process for Scale',
+	'description' => 'How (and when) to say goodbye to your scrappy research culture in favor of a rigorous research process to support a scaling business. <br><br>Like most aspects of product and development, research looks very different at a startup compared to an enterprise business. Comparisons can be made of research practices at different sized companies, but how does the transition actually happen? How do you know when it is time to move from one research approach to another? This presentation will address how to tell which research stage best fits your business, and what you need to do to level-up your research when the time is right. The story of Jane can help you anticipate how a team navigates these large-scale process changes to become a research powerhouse on the other side.
+',
+	'day' => 1,
+	'slot' => 1,
+	'speaker' => 'daniellegreen'
+);
+
 // Madeline Vu
 $talks[] = array(
 	'title' => 'Applying design thinking in an agile workflow',
