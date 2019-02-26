@@ -62,6 +62,75 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</li>
 				</ul>
 				<ul class="public-workshop">
+					<li class="theme-ux">
+						<dl>
+							<dd class="instructor ux">
+								<div class="instructor-photo">
+									<img src="/images/headshots/richardbanfield.jpg">
+								</div>
+							</dd>
+							<dd>
+								<h4>Introduction to Design Sprints</h4>
+								<p class="name">by Richard Banfield</p>
+								<p class="location"><span class="icon-location"></span> Boston, MA</p>
+								<p class="date-mobile"><span class="icon-location"></span> MAY 24, 2019</p>
+								<p class="description">Explore the basics of design sprints in this day-long workshop led by design strategy expert and author Richard Banfield. You’ll dive into the main concepts behind organizing design sprints, understanding customer pain points, and reducing bias, plus you'll get hands-on experience solving a mock problem in a small-group setting over the course of the day.</p>
+								<a href="http://eepurl.com/dJBOZ6" target="_blank" class="button button-small">Coming Soon! Notify me!</a>
+								
+							</dd>
+							<dd class="date-desk">
+								<span class="month">MAY</span><span class="day">24</span>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+				<ul class="public-workshop">
+					<li class="theme-research">
+						<dl>
+							<dd class="instructor research">
+								<div class="instructor-photo">
+									<img src="/images/headshots/sarahdoody.jpg">
+								</div>
+							</dd>
+							<dd>
+								<h4>A Culture of Curiosity</h4>
+								<p class="name">by Sarah Doody</p>
+								<p class="location"><span class="icon-location"></span>Salt Lake City, UT</p>
+								<p class="date-mobile"><span class="icon-location"></span> JUN 21, 2019</p>
+								<p class="description">Creating a consistent cadence of research helps equip your team to always be informed with the most recent insights they need to design the right solution, so you can avoid launching features people don’t use and the weeks of “re-work”. In order to create a cadence of research, it must be a part of your culture. And that can’t just be the job of someone with “UX Researcher” in their job title.</br></br>In this workshop, you will learn how everyone on a product team can contribute to creating a culture of research, the types of research you can do each quarter, how to conduct smart usability tests, and what you can do to evangelize research on your team. </p>
+								<a href="http://eepurl.com/dJBOZ6" target="_blank" class="button button-small">Coming Soon! Notify me!</a>
+								
+							</dd>
+							<dd class="date-desk">
+								<span class="month">JUN</span><span class="day">21</span>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+				<ul class="public-workshop">
+					<li class="theme-ux">
+						<dl>
+							<dd class="instructor ux">
+								<div class="instructor-photo">
+									<img src="/images/headshots/nicksloggett.jpg">
+								</div>
+							</dd>
+							<dd>
+								<h4>What Got Us Here Won’t Get Us There</h4>
+								<p class="name">by Nick Sloggett</p>
+								<p class="location"><span class="icon-location"></span> San Francisco, CA</p>
+								<p class="date-mobile"><span class="icon-location"></span> JUL 12, 2019</p>
+								<p class="description">In this workshop, Nick will explore his wins, losses, lessons learned, and the framework that guides you to lead relationally - no matter your title or company. Expect to engage in discussion, activities, exploration around the enneagram, extreme ownership, relational empathy, organizational discourse, and true servant-minded leadership.</p>
+								<a href="http://eepurl.com/dJBOZ6" target="_blank" class="button button-small">Coming Soon! Notify me!</a>
+								
+							</dd>
+							<dd class="date-desk">
+								<span class="month">JUL</span><span class="day">12</span>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+				<ul class="public-workshop">
 					<li class="theme-product-management">
 						<dl>
 							<dd class="instructor product-management">
@@ -75,11 +144,34 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 								<p class="location"><span class="icon-location"></span> Boston, MA</p>
 								<p class="date-mobile"><span class="icon-location"></span> AUG 05, 2019</p>
 								<p class="description">World-class product teams are greater than the sum of their parts—but how does that happen? Sometimes you’re lucky, and if you put a cross-functional team into a small room, they spit out magic. More often, though, product teams struggle to work together effectively, spending more time bumping into each other than actually building product. PMs, UX designers, and executives all try to drive definition, engineering isn’t brought in early enough, and QA sees a story for the first time when they test it.</p>
-								<a href="#" target="_blank" class="button button-small">Coming Soon!</a>
+								<a href="http://eepurl.com/dJBOZ6" target="_blank" class="button button-small">Coming Soon! Notify me!</a>
 								
 							</dd>
 							<dd class="date-desk">
 								<span class="month">AUG</span><span class="day">05</span>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+				<ul class="public-workshop">
+					<li class="theme-product-management">
+						<dl>
+							<dd class="instructor product-management">
+								<div class="instructor-photo">
+									<img src="/images/headshots/gibsonbiddle.jpg">
+								</div>
+							</dd>
+							<dd>
+								<h4>Product Strategy</h4>
+								<p class="name">by Gibson Biddle</p>
+								<p class="location"><span class="icon-location"></span> New York, NY</p>
+								<p class="date-mobile"><span class="icon-location"></span> SEP 23, 2019</p>
+								<p class="description">This workshop focuses on helping product leaders and product-focused CEOs develop their company’s overall product strategy, and to define the product strategy for each “pod” or “swimming lane” within larger product organizations.</p>
+								<a href="http://eepurl.com/dJBOZ6" target="_blank" class="button button-small">Coming Soon! Notify me!</a>
+								
+							</dd>
+							<dd class="date-desk">
+								<span class="month">SEP</span><span class="day">23</span>
 							</dd>
 						</dl>
 					</li>
@@ -102,6 +194,29 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							</dd>
 							<dd class="date-desk">
 								<span class="month">Sep</span><span class="day">02</span>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+				<ul class="public-workshop">
+					<li class="theme-ux">
+						<dl>
+							<dd class="instructor ux">
+								<div class="instructor-photo">
+									<img src="/images/headshots/richardbanfield.jpg">
+								</div>
+							</dd>
+							<dd>
+								<h4>Introduction to Design Sprints</h4>
+								<p class="name">by Richard Banfield</p>
+								<p class="location"><span class="icon-location"></span> Salt Lake City, UT</p>
+								<p class="date-mobile"><span class="icon-location"></span> SEP 27, 2019</p>
+								<p class="description">Explore the basics of design sprints in this day-long workshop led by design strategy expert and author Richard Banfield. You’ll dive into the main concepts behind organizing design sprints, understanding customer pain points, and reducing bias, plus you'll get hands-on experience solving a mock problem in a small-group setting over the course of the day.</p>
+								<a href="http://eepurl.com/dJBOZ6" target="_blank" class="button button-small">Coming Soon! Notify me!</a>
+								
+							</dd>
+							<dd class="date-desk">
+								<span class="month">MAY</span><span class="day">27</span>
 							</dd>
 						</dl>
 					</li>
