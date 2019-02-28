@@ -35,13 +35,13 @@ require('includes/header.php');
 				<p><a href="/workshops" class="button">Learn More</a></p>
 			</li>
 			<li>
-				<h3>Onsite Training</h3>
-				<p class="date-location">Name your date</p>
+				<h3>Public Workshops</h3>
+				<p class="date-location">NYC, Boston, SF, Chicago, & more</p>
 				<div class="thumnail">
 					<img src="images/conf-scene003.jpg" alt="" style="width: 413px;">
 				</div>
-				<p class="description">Let us to bring Front to you. Design your perfect training program from our catalog of full-day, premium workshops.</p>
-				<p><a href="/onsite" class="button">Learn More</a></p>
+				<p class="description">A selection of 1 - 2 day workshops in cities across the world to bring you hands-on learning opportunities how to create amazing products</p>
+				<p><a href="/training/public/" class="button">Learn More</a></p>
 			</li>
 		</ul>
 	</section>
