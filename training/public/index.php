@@ -75,7 +75,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 								<p class="location"><span class="icon-location"></span> Boston, MA</p>
 								<p class="date-mobile"><span class="icon-location"></span> MAY 24, 2019</p>
 								<p class="description">Explore the basics of design sprints in this day-long workshop led by design strategy expert and author Richard Banfield. You’ll dive into the main concepts behind organizing design sprints, understanding customer pain points, and reducing bias, plus you'll get hands-on experience solving a mock problem in a small-group setting over the course of the day.</p>
-								<a href="http://eepurl.com/dJBOZ6" target="_blank" class="button button-small">Coming Soon! Notify me!</a>
+								<a href="https://www.eventbrite.com/e/front-workshop-boston-introduction-to-design-sprints-with-richard-banfield-tickets-57762047840" target="_blank" class="button button-small">Learn More</a>
 								
 							</dd>
 							<dd class="date-desk">

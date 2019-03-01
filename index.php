@@ -40,7 +40,7 @@ require('includes/header.php');
 				<div class="thumnail">
 					<img src="images/conf-scene003.jpg" alt="" style="width: 413px;">
 				</div>
-				<p class="description">A selection of 1 - 2 day workshops in cities across the world to bring you hands-on learning opportunities how to create amazing products</p>
+				<p class="description">A selection of 1 - 2 day workshops in cities across the world to bring you hands-on learning opportunities on how to create amazing products</p>
 				<p><a href="/training/public/" class="button">Learn More</a></p>
 			</li>
 		</ul>
