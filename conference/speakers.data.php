@@ -13,10 +13,10 @@ $speakers[] = array(
 	'company' => 'Lyft',
 	'discipline' => 'research',
 	'photo' => 'headshots/leahrader.jpg',
-	'bio' => '',
+	'bio' => "Hello. I've got years and years of examining interesting problems with a wide range of companies/industries. It's very fun and experimental--I enjoy how much there is to learn, always. I love this scribble I found in one of my old notebooks from e-lab: \"Continuous discussion, equity in participation\". To me, that means we all can observe, see interesting things unfold, share insights and build something wonderful together. I'm informal, playful, and anything can be an influence; I'm looking for critical thinking, humor, and openness in those I partner with in work.",
 	'twitter' => '',
 	'instagram' => '',
-	'linkedin' => ''
+	'linkedin' => 'https://www.linkedin.com/in/leah-rader-22787020/'
 );
 
 // Wade Shearer
