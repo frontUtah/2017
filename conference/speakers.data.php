@@ -4,6 +4,21 @@
  * Use '</br></br>' to separate paragraphs
  */
 
+// Leah Rader
+$speakers[] = array(
+	'slug' => 'leahrader',
+	'first' => 'Leah',
+	'last' => 'Rader',
+	'title' => 'UX Research Manager',
+	'company' => 'Lyft',
+	'discipline' => 'research',
+	'photo' => 'headshots/leahrader.jpg',
+	'bio' => '',
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => ''
+);
+
 // Wade Shearer
 $speakers[] = array(
 	'slug' => 'wadeshearer',

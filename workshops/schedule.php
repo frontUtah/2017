@@ -14,7 +14,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 function print_schedulerow($day, $slot) {
 	$tracks = array('ux', 'product-management', 'research', 'leadership');
 	
-	$time_slots = get_timeslots($day);
+	$time_slots = get_workshopseries_timeslots($day);
 	
 	echo '
 							<dl>
