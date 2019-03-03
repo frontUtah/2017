@@ -23,7 +23,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 	
 // sort by date
 usort($workshops, function($a, $b) {
-    return $a['timestamp'] <=> $b['timestamp'];
+    // if we were on PHP 7+
+    //return $a['timestamp'] <=> $b['timestamp'];
+    
+    return $a['order'] - $b['order'];
 });
 
 // separate into scheduled and unscheduled 
