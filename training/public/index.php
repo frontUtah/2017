@@ -36,7 +36,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 		
 		<section class="public-workshops">
-			<h2>Upcoming Public Workshops</h2>
+			<h2>Upcoming public workshops</h2>
 			<div class="public-workshops-wrap">
 				<ul class="public-workshop">
 					<li class="theme-product-management">
