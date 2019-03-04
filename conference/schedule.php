@@ -6,6 +6,34 @@ $title = 'Schedule - Front UX & Product Management Case Study Conference, 6-7 Ju
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
+
+function print_schedulerow($day, $slot) {
+	$time_slots = get_conference_timeslots($day);
+	$talk = get_talk($day, $slot);
+	$speaker = get_speaker($talk['speaker']);
+	
+	if(!is_null($speaker)) {
+		echo '
+							<dl>
+								<dt class="time">' . $time_slots[$slot]['time'] . ' ' . $time_slots[$slot]['meridian'] . '</dt>
+								<dd class="' . $speaker['discipline'] . '">
+									<img src="/images/' . $speaker['photo'] . '">
+									<h4>' . $talk['title'] . '</h4>
+									<p>' . $speaker['first'] . ' ' . $speaker['last'] . ' from ' . $speaker['company'] . '</p>
+								</dd>
+							</dl>';
+	} else {
+		echo '
+							<dl>
+								<dt class="time">' . $time_slots[$slot]['time'] . ' ' . $time_slots[$slot]['meridian'] . '</dt>
+								<dd class="">
+									<img src="/images/frontpc18/instructor_missing.png">
+									<h4>TBA</h4>
+								</dd>
+							</dl>';
+	}
+}
+
 ?>
 	<main class="secondary product-schedule-front">
 		<section class="hero">
@@ -33,24 +61,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 					</li>
 					<li class="timeslot two-hours">
-						<dl>
-							<dt class="time">9:10 AM</dt>
-							<dd class="ux">
-								<img src="../images/headshots/wadeshearer.jpg">
-								<h4>TBA</h4>
-								<p>Wade Shearer from Workfront</p>
-							</dd>
-						</dl>
+						<?php print_schedulerow(1, 1); ?>
 					</li>
 					<li class="timeslot two-hours">
-						<dl>
-							<dt class="time">9:45 AM</dt>
-							<dd class="product-management">
-								<img src="../images/headshots/maggiecrowley.jpg">
-								<h4>Your Product Is Only as Good as Your Teamwork</h4>
-								<p>Maggie Crowley from Drift</p>
-							</dd>
-						</dl>
+						<?php print_schedulerow(1, 2); ?>
 					</li>
 					<li class="timeslot one-hour">
 						<dl>
@@ -61,24 +75,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 					</li>
 					<li class="timeslot two-hours">
-						<dl>
-							<dt class="time">11:00 AM</dt>
-							<dd class="research">
-								<img src="../images/headshots/daniellegreen.jpg">
-								<h4>Scrapping your Scrappy Research Process for Scale</h4>
-								<p>Danielle Green from Jane</p>
-							</dd>
-						</dl>
+						<?php print_schedulerow(1, 3); ?>
 					</li>
 					<li class="timeslot two-hours">
-						<dl>
-							<dt class="time">11:35 AM</dt>
-							<dd class="ux">
-								<img src="../images/headshots/frankyoo.jpg">
-								<h4>TBA</h4>
-								<p>Frank Yoo from Google</p>
-							</dd>
-						</dl>
+						<?php print_schedulerow(1, 4); ?>
 					</li>
 					<li class="timeslot one-hour">
 						<dl>
@@ -89,24 +89,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 					</li>
 					<li class="timeslot two-hours">
-						<dl>
-							<dt class="time">1:40 PM</dt>
-							<dd class="product-management">
-								<img src="../images/headshots/vladmagdalin.jpg">
-								<h4>TBA</h4>
-								<p>Vlad Magdalin from Webflow</p>
-							</dd>
-						</dl>
+						<?php print_schedulerow(1, 5); ?>
 					</li>
 					<li class="timeslot two-hours">
-						<dl>
-							<dt class="time">2:15 PM</dt>
-							<dd class="ux">
-								<img src="../images/headshots/madelinevu.jpg">
-								<h4>Applying design thinking in an agile workflow</h4>
-								<p>Madeline Vu from Capsule</p>
-							</dd>
-						</dl>
+						<?php print_schedulerow(1, 6); ?>
 					</li>
 					<li class="timeslot one-hour">
 						<dl>
@@ -117,23 +103,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 					</li>
 					<li class="timeslot two-hours">
-						<dl>
-							<dt class="time">3:30 PM</dt>
-							<dd class="product-management">
-								<img src="../images/headshots/chrisabad.jpg">
-								<h4>How to Build a Product Strategy with Design Thinking</h4>
-								<p>Chris Abad from Usertesting</p>
-							</dd>
-						</dl>
+						<?php print_schedulerow(1, 7); ?>
 					</li>
 					<li class="timeslot two-hours">
-						<dl>
-							<dt class="time">4:05 PM</dt>
-							<dd class="ux">
-								<h4>TBA</h4>
-								<p>TBA</p>
-							</dd>
-						</dl>
+						<?php print_schedulerow(1, 8); ?>
 					</li>
 					<li class="timeslot one-hour">
 						<dl>
@@ -165,24 +138,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 					</li>
 					<li class="timeslot two-hours">
-						<dl>
-							<dt class="time">9:10 AM</dt>
-							<dd class="product-management">
-								<img src="../images/headshots/natewalkingshaw.jpg">
-								<h4>TBA</h4>
-								<p>Nate Walkingshaw from Pluralsight</p>
-							</dd>
-						</dl>
+						<?php print_schedulerow(2, 1); ?>
 					</li>
 					<li class="timeslot two-hours">
-						<dl>
-							<dt class="time">9:45 AM</dt>
-							<dd class="ux">
-								<img src="../images/headshots/kimwilliams.jpg">
-								<h4>Radical collaboration and trust; breaking down silos and building products at scale.</h4>
-								<p>Kim Williams from Indeed</p>
-							</dd>
-						</dl>
+						<?php print_schedulerow(2, 2); ?>
 					</li>
 					<li class="timeslot one-hour">
 						<dl>
@@ -193,24 +152,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 					</li>
 					<li class="timeslot two-hours">
-						<dl>
-							<dt class="time">11:00 AM</dt>
-							<dd class="product-management">
-								<img src="../images/headshots/laurentreasure.jpg">
-								<h4>Product, Marketing and Customer Success Make a Power Trio</h4>
-								<p>Lauren Treasure from Chatbooks</p>
-							</dd>
-						</dl>
+						<?php print_schedulerow(2, 3); ?>
 					</li>
 					<li class="timeslot two-hours">
-						<dl>
-							<dt class="time">11:35 AM</dt>
-							<dd class="research">
-								<img src="../images/headshots/leahrader.jpg">
-								<h4>Creating a new path to empathy & insights</h4>
-								<p>Leah Rader from Lyft</p>
-							</dd>
-						</dl>
+						<?php print_schedulerow(2, 4); ?>
 					</li>
 					<li class="timeslot one-hour">
 						<dl>
@@ -221,24 +166,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 					</li>
 					<li class="timeslot two-hours">
-						<dl>
-							<dt class="time">1:40 PM</dt>
-							<dd class="ux">
-								<img src="../images/headshots/jasminefriedl.jpg">
-								<h4>TBA</h4>
-								<p>Jasmine Friedl from Intercom</p>
-							</dd>
-						</dl>
+						<?php print_schedulerow(2, 5); ?>
 					</li>
 					<li class="timeslot two-hours">
-						<dl>
-							<dt class="time">2:15 PM</dt>
-							<dd class="product-management">
-								<img src="../images/headshots/thorernstsson.jpg">
-								<h4>TBA</h4>
-								<p>Thor Ernstsson from Alpha</p>
-							</dd>
-						</dl>
+						<?php print_schedulerow(2, 6); ?>
 					</li>
 					<li class="timeslot one-hour">
 						<dl>
@@ -249,24 +180,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 					</li>
 					<li class="timeslot two-hours">
-						<dl>
-							<dt class="time">3:30 PM</dt>
-							<dd class="research">
-								<!--<img src="../images/headshots/greggbernstein.jpg">-->
-								<h4>TBA</h4>
-								<p>TBA</p>
-							</dd>
-						</dl>
+						<?php print_schedulerow(2, 7); ?>
 					</li>
 					<li class="timeslot two-hours">
-						<dl>
-							<dt class="time">4:05 PM</dt>
-							<dd class="ux">
-								<img src="../images/headshots/markrawlins.jpg">
-								<h4>TBA</h4>
-								<p>Mark Rawlins from Vivint</p>
-							</dd>
-						</dl>
+						<?php print_schedulerow(2, 8); ?>
 					</li>
 					<li class="timeslot one-hour">
 						<dl>

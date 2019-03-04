@@ -31,16 +31,16 @@ require('includes/header.php');
 				<div href="https://www.youtube.com/watch?v=rTLIYQVHa90" class="thumnail video-thumbnail recap-video">
 					<img src="images/conf-scene002.jpg" alt="" style="width: 413px;">
 				</div>
-				<p class="description">A 2 day, hands-on, workshop series to learn to create amazing products and work like the teams you hear from at Front.</p>
+				<p class="description">A 2 day, hands-on workshop series to learn to create amazing products and work like the teams you hear from at Front.</p>
 				<p><a href="/workshops" class="button">Learn More</a></p>
 			</li>
 			<li>
-				<h3>Public Workshops</h3>
+				<h3>Public workshops</h3>
 				<p class="date-location">NYC, Boston, SF, Chicago, & more</p>
 				<div class="thumnail">
 					<img src="images/conf-scene003.jpg" alt="" style="width: 413px;">
 				</div>
-				<p class="description">A selection of 1 - 2 day workshops in cities across the world to bring you hands-on learning opportunities on how to create amazing products</p>
+				<p class="description">1-2 day workshops, by industry experts and thought-leaders, to help you grow or kick-start your PM or UX career.</p>
 				<p><a href="/training/public/" class="button">Learn More</a></p>
 			</li>
 		</ul>

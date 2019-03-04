@@ -1186,7 +1186,7 @@ footer p {
 }
 .public-workshops {
 	display: block;
-	margin: 0px auto;
+	margin: 0px auto 100px auto;
 	max-width: 1218px;
 	padding: 0px;
 }

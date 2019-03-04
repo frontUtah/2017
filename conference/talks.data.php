@@ -6,14 +6,13 @@
  * System supports instructors teaching more than one course.
  */
 
-
-// Kim Williams
+// Wade Shearer
 $talks[] = array(
-	'title' => 'Radical collaboration and trust; breaking down silos and building products at scale',
-	'description' => 'Learn about the highs and lows of growing a diverse UX organization, introducing new practice areas, and building relationships to thrive.',
+	'title' => 'TBA',
+	'description' => '',
 	'day' => 1,
 	'slot' => 1,
-	'speaker' => 'kimwilliams'
+	'speaker' => 'wadeshearer'
 );
 
 // Maggie Crowley
@@ -21,18 +20,35 @@ $talks[] = array(
 	'title' => 'Your Product Is Only as Good as Your Teamwork',
 	'description' => 'Product managers and product leaders often focus on understanding customers as the secret to building great products. But that’s just the key to great ideas - the key to great execution is the team. <br><br>The importance of teamwork isn’t a new concept in building products. As product managers and product leaders we spend so much of our time thinking about our process, about how we frame problems, how we scope them, and how we tell stories about them so that we can get our teams motivated to solve them. But to do more than just ship products, to build a truly great product, you have to go further than just figuring out how to define the problem and why it matters for your team. <br><br>This presentation is a story about three people who launched two versions of the same product 10 months apart. It’s a story of how that team went from everything going wrong on launch day to building a best-in-class experience that launched smoothly, and how the difference in those launches was entirely due to how much better the team understood each other as human beings and coworkers.',
 	'day' => 1,
-	'slot' => 1,
+	'slot' => 2,
 	'speaker' => 'maggiecrowley'
 );
 
 // Danielle Green
 $talks[] = array(
 	'title' => 'Scrapping your Scrappy Research Process for Scale',
-	'description' => 'How (and when) to say goodbye to your scrappy research culture in favor of a rigorous research process to support a scaling business. <br><br>Like most aspects of product and development, research looks very different at a startup compared to an enterprise business. Comparisons can be made of research practices at different sized companies, but how does the transition actually happen? How do you know when it is time to move from one research approach to another? This presentation will address how to tell which research stage best fits your business, and what you need to do to level-up your research when the time is right. The story of Jane can help you anticipate how a team navigates these large-scale process changes to become a research powerhouse on the other side.
-',
+	'description' => 'How (and when) to say goodbye to your scrappy research culture in favor of a rigorous research process to support a scaling business. <br><br>Like most aspects of product and development, research looks very different at a startup compared to an enterprise business. Comparisons can be made of research practices at different sized companies, but how does the transition actually happen? How do you know when it is time to move from one research approach to another? This presentation will address how to tell which research stage best fits your business, and what you need to do to level-up your research when the time is right. The story of Jane can help you anticipate how a team navigates these large-scale process changes to become a research powerhouse on the other side.',
 	'day' => 1,
-	'slot' => 1,
+	'slot' => 3,
 	'speaker' => 'daniellegreen'
+);
+
+// Frank Yoo
+$talks[] = array(
+	'title' => 'TBA',
+	'description' => '',
+	'day' => 1,
+	'slot' => 4,
+	'speaker' => 'frankyoo'
+);
+
+// Vlad Magdalin
+$talks[] = array(
+	'title' => 'TBA',
+	'description' => '',
+	'day' => 1,
+	'slot' => 5,
+	'speaker' => 'vladmagdalin'
 );
 
 // Madeline Vu
@@ -40,17 +56,8 @@ $talks[] = array(
 	'title' => 'Applying design thinking in an agile workflow',
 	'description' => '',
 	'day' => 1,
-	'slot' => 1,
+	'slot' => 6,
 	'speaker' => 'madelinevu'
-);
-
-// Lauren Treasure
-$talks[] = array(
-	'title' => 'Product, Marketing and Customer Success Make a Power Trio',
-	'description' => 'How product teams can (and should) develop tight relationships with marketing and customer success to create a better customer experience. <br><br>Product teams often view a customer’s interaction with their offering as limited within a set of product features. But to a customer, it really extends to the end-to-end experience with your entire brand — from acquisition ads, targeted emails, and sponsored content, to the website, into the product, and continued via live chat or other support interactions. Consider how much better the customer journey can be with a consistent experience across every interaction. This presentation will provide a framework on how to build and maintain strong relationships with your marketing and CS counterparts, as well as real examples from my experience at Chatbooks and Ancestry.',
-	'day' => 1,
-	'slot' => 1,
-	'speaker' => 'laurentreasure'
 );
 
 // Chris Abad
@@ -58,173 +65,89 @@ $talks[] = array(
 	'title' => 'How to Build a Product Strategy with Design Thinking',
 	'description' => 'If you’re a Product Manager, at some point you’ve been asked to create a product strategy. But what exactly does that mean, and where do you begin? Traditionally Product Managers often start developing a product strategy by thinking about the product first (features and functionality), but often times leads to several challenges. Product Managers should consider focusing on the problem they’re trying to solve. Designers, for example, think of the user first, having empathy for the people the product is being designed for. Can Product Managers leverage a design thinking approach to help create product strategies? If so, how does it work? <br><br>At UserTesting we take a design thinking approach to create our product strategy. We teach product managers to think like designers and designers to think like product managers. To demonstrate our methods, we will be discussing case study examples to show how UserTesting brought together people from different teams to collaborate and create a value proposition, see and understand the bigger vision and the steps we took to create the “big vision” for a product strategy. We will give examples of how we leveraged brainstorming, sketching and storyboarding sessions that ultimately creates a story arch that helps discover key points that can eventually communicate an overall product strategy. Attendees will learn how they can successfully implement design thinking to create product strategies the UserTesting way. <br><br> In this session, we will walk through how UserTesting has: <ul><li>Built product strategies with a large distributed group in a way that keeps everyone moving forward fast.</li><li>Communicates and share ideas in a way that motivates and aligns everyone around a common goal.</li><li>Bridges the gap between product management and other teams to create a cohesive strategy.</li></ul>',
 	'day' => 1,
-	'slot' => 1,
+	'slot' => 7,
 	'speaker' => 'chrisabad'
 );
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// ------------------------------------------------------------- 2018 -------------------------------------------------------------
-
-
-
-// Benjamin Evans
+// 
 $talks[] = array(
-	'title' => 'The challenge of designing for everyone',
-	'description' => 'Can design be used to solve discrimination? In this talk, Benjamin shines a light on the hurdles, setbacks, and failures that his team at Airbnb has encountered as they try to build experiences that reduce bias, increase empathy, and help us all see that we are more alike than we are different.',
-	'day' => 1,
-	'slot' => 1,
-	'speaker' => 'benjaminevans'
-);
-
-// Ciara Peter
-$talks[] = array(
-	'title' => 'Sticky business - building consumer-grade experiences for the enterprise',
-	'description' => "With the complexity of multiple stakeholders and the increasing purchasing influence of end users, the bar is higher than ever for enterprise UX as companies pioneer business models beyond traditional SaaS. Learn how to apply consumer grade growth, engagement, design, and prioritization strategies to increase adoption within your products.",
-	'day' => 1,
-	'slot' => 2,
-	'speaker' => 'ciarapeter'
-);
-
-// Aryel Cianflone
-$talks[] = array(
-	'title' => 'How to speed up research',
-	'description' => "UX research is supposed to speed up the product development process, yet often times it feels like it has the opposite effect. Why is that and what can you do as a researcher, designer, product person, manager, etc. to get the promised value? This session will explore this topic and provide specific tips and tricks to allow research to speed up the overall product development process. ",
-	'day' => 1,
-	'slot' => 3,
-	'speaker' => 'aryelcianflone'
-);
-
-// Vicki Tan
-$talks[] = array(
-	'title' => 'The secrets data won\'t tell you',
-	'description' => "It’s become standard to lean on quantitative, experiment-driven design, especially when decisions must be made quickly and with very little time and resources. But this method often only reveals surface-level themes and not much about your users’ true intentions. In this onboarding case study, Vicki will walk you through how we learned to design using intuition, blending science and design research to create a solution that met our users’ needs.",
-	'day' => 1,
-	'slot' => 4,
-	'speaker' => 'vickitan'
-);
-
-// Day one speaker panel
-$talks[] = array(
-	'title' => 'Q&A panel with morning speakers',
-	'description' => 'The morning speakers will return to the stage for an interactive discussion with the audience.',
-	'day' => 1,
-	'slot' => 5,
-	'speaker' => array('vickitan', 'ciarapeter', 'aryelcianflone', 'benjaminevans')
-);
-
-// Stephen Olmstead & Eli Woolery
-$talks[] = array(
-	'title' => 'Principles & practice',
-	'description' => "We live in a world where extremes are easy (and often praised) and balance is hard (and often seen as unglamorous). Many modern Designers and Product Managers find themselves aligning towards workflow extremes that are actually productivity traps. Ever found yourself pontificating over core principles while day-to-day projects fall dangerously behind? Ever become pre-occupied with your tools/systems only to find that you haven’t solved any real problems for your users at the end of the day? </br></br>In this talk Stephen and Eli will explore the balance to be made between these extremes. They’ll talk about how to detect warning signs of extremism, becoming aware of subconscious biases in your workflow today, and how to challenge established paradigms to drive to a healthier, more productive work day for both you and your team.",
-	'day' => 1,
-	'slot' => 6,
-	'speaker' => array('stephenolmstead','eliwoolery')
-);
-
-// Bhavika Shah & Chris 
-$talks[] = array(
-	'title' => 'How to survive as a designer or PM in the era of the algorithm.',
-	'description' => "Algorithms are all the rage right now and are showing us ways of creating products that are more empathetic, useful, and engaging. Learning how to take advantage of this new superpower to solve your next big idea can exciting but where do you start? What makes a good fit for data science and what do you do as a designer or product manager to get it going? We will be recounting our experience with leveraging data science and machine learning in our products and share tips on how to do it well.",
-	'day' => 1,
-	'slot' => 7,
-	'speaker' => array('bhavikashah','chrismayfield')
-);
-
-// Nate Barrett
-$talks[] = array(
-	'title' => 'Motivating product teams through a culture of autonomy',
-	'description' => "Product builders are driven by understanding and experiencing customer pain and building experiences to ease and remove that pain. We know our customers better than anyone in our organization. Unfortunately, many organizations have leadership that gets in the way with too much process and hierarchy. Learn how a culture of autonomy flips traditional organizational thinking on its head with a focus on product outcomes, servant leadership and bottom up thinking.",
+	'title' => '',
+	'description' => '',
 	'day' => 1,
 	'slot' => 8,
-	'speaker' => 'natebarrett'
+	'speaker' => ''
 );
 
-// Amanda Richardson 
+// Nate Walkingshaw
 $talks[] = array(
-	'title' => 'Getting data right, a case study in how we did it wrong at HotelTonight',
-	'description' => '<em>Description coming soon.</em>',
+	'title' => 'TBA',
+	'description' => '',
 	'day' => 2,
 	'slot' => 1,
-	'speaker' => 'amandarichardson'
+	'speaker' => 'natewalkingshaw'
 );
 
-// Cameron Moll
+// Kim Williams
 $talks[] = array(
-	'title' => 'When we align',
-	'description' => "When we align, we seek positive outcomes for a system whose components may range from people to patterns, beliefs to behaviors, and much more. When we align, we arrive at a shared understanding of priorities, efficiencies, and tradeoffs. When we align, the result is purposeful and even beautiful. </br></br>In this keynote, Cameron will discuss three aspects of alignment within systems, not the least of which are design systems, and the remarkable outcomes that are made possible when we align.",
+	'title' => 'Radical collaboration and trust; breaking down silos and building products at scale',
+	'description' => 'Learn about the highs and lows of growing a diverse UX organization, introducing new practice areas, and building relationships to thrive.',
 	'day' => 2,
 	'slot' => 2,
-	'speaker' => 'cameronmoll'
+	'speaker' => 'kimwilliams'
 );
 
-// Rayna Wiles
+// Lauren Treasure
 $talks[] = array(
-	'title' => 'Researching as a facilitator',
-	'description' => "A discussion about my principles for qualitative design research with suggestions for using them throughout product development.",
+	'title' => 'Product, Marketing and Customer Success Make a Power Trio',
+	'description' => 'How product teams can (and should) develop tight relationships with marketing and customer success to create a better customer experience. <br><br>Product teams often view a customer’s interaction with their offering as limited within a set of product features. But to a customer, it really extends to the end-to-end experience with your entire brand — from acquisition ads, targeted emails, and sponsored content, to the website, into the product, and continued via live chat or other support interactions. Consider how much better the customer journey can be with a consistent experience across every interaction. This presentation will provide a framework on how to build and maintain strong relationships with your marketing and CS counterparts, as well as real examples from my experience at Chatbooks and Ancestry.',
 	'day' => 2,
 	'slot' => 3,
-	'speaker' => 'raynawiles'
+	'speaker' => 'laurentreasure'
 );
 
-// Andi Moore
+// Leah Rader
 $talks[] = array(
-	'title' => 'Making the leap to IoT',
-	'description' => "Making smart home experiences magical requires an integrated hardware and software approach that’s uncommon in Product Management. How do you build the right experience on the screen and in the home?  After product managing software for a decade Andi is learning the art and science of hardware product development. In this talk Andi will share her discoveries and tips on how to navigate an IoT world.",
+	'title' => 'Creating a new path to empathy & insights',
+	'description' => '',
 	'day' => 2,
 	'slot' => 4,
-	'speaker' => 'andimoore'
+	'speaker' => 'leahrader'
 );
 
-// Day two speaker panel
+// Jasmine Friedl
 $talks[] = array(
-	'title' => 'Q&A panel with morning speakers',
-	'description' => 'The morning speakers will return to the stage for an interactive discussion with the audience.',
+	'title' => 'TBA',
+	'description' => '',
 	'day' => 2,
 	'slot' => 5,
-	'speaker' => array('amandarichardson', 'cameronmoll', 'raynawiles', 'andimoore')
+	'speaker' => 'jasminefriedl'
 );
 
-// Tim Van Damme & Josh Brewer
+// Thor Ernstsson
 $talks[] = array(
-	'title' => 'Designers designing for designers',
-	'description' => "Josh and Tim talk about the daily struggles that come with designing a tool aimed at product builders. Learn how Abstract evolved over time, and about the thousands of decisions that led to what you see today.",
+	'title' => 'TBA',
+	'description' => '',
 	'day' => 2,
 	'slot' => 6,
-	'speaker' => array('timvandamme','joshbrewer')
+	'speaker' => 'thorernstsson'
 );
 
-// Adrienne Gajownik & Brian Crofts
+// 
 $talks[] = array(
-	'title' => 'The modern product team',
-	'description' => "UX Designers and Product Managers roles and responsibilities are blurring today more than ever. You can often find a Designer writing JIRA requirements or a Product Manager wireframing a new feature. Ultimately both parties want the best product, but sometimes there’s a bit of friction along the way. We’re on the same team so why doesn’t it feel that way? We’ll discuss the evolution of these roles, their intersection and how to move past the discomfort to ultimately create the best experience for our customers.",
+	'title' => '',
+	'description' => '',
 	'day' => 2,
 	'slot' => 7,
-	'speaker' => array('adriennegajownik','briancrofts')
+	'speaker' => ''
 );
 
-// Ben Peck
+// Mark Rawlins
 $talks[] = array(
-	'title' => 'Strong opinions loosely held, design rules versus guidelines ',
-	'description' => "We’ve all walked into the meeting that eventually a conversation comes up where two parties have very differing opinions, both with very valid points and reasoning. We’re faced with the dilemma of who own’s the decision. We find ourselves justifying a decision based off a set of principles and priorities. Not an uncommon story. </br></br>Balancing the needs of the users, business, team and yourself is certainly a challenge. As designers we’re naturally wired to defend and create for the needs of the user. Business…wants to stay in business, and Development…wants to build amazing forward thinking technology while not drowning its own debt. Lets talk about how we can build amazing products without coming to a stalemate with every conversation.",
+	'title' => 'TBA',
+	'description' => '',
 	'day' => 2,
 	'slot' => 8,
-	'speaker' => 'benpeck'
+	'speaker' => 'markrawlins'
 );
-
-
 
 ?>

@@ -38,12 +38,16 @@ function get_course($track, $day, $slot) {
 // get speaker
 function get_speaker($slug) {
 	global $speakers;
+	
+	$found = null;
 
 	foreach($speakers as $speaker) {
 		if($speaker['slug'] == $slug) {
-			return $speaker;
+			$found = $speaker;
 		}
 	}
+	
+	return $found;
 }
 
 // get talks by speaker
@@ -62,7 +66,7 @@ function get_talks($speaker) {
 // get talk by slot
 function get_talk($day, $slot) {
 	global $talks;
-
+	
 	foreach($talks as $talk) {
 		if($talk['day'] == $day && $talk['slot'] == $slot) {
 			return $talk;
@@ -130,8 +134,22 @@ function get_consultant($slug) {
 	}
 }
 
-// get time slots
-function get_timeslots($day) {	
+// get conference time slots
+function get_conference_timeslots($day) {	
+	$slots[1] = array('time' => '9:A0', 'meridian' => 'AM');
+	$slots[2] = array('time' => '9:45', 'meridian' => 'AM');
+	$slots[3] = array('time' => '11:00', 'meridian' => 'AM');
+	$slots[4] = array('time' => '11:35', 'meridian' => 'AM');
+	$slots[5] = array('time' => '1:40', 'meridian' => 'PM');
+	$slots[6] = array('time' => '2:15', 'meridian' => 'PM');
+	$slots[7] = array('time' => '3:30', 'meridian' => 'PM');
+	$slots[8] = array('time' => '4:05', 'meridian' => 'PM');
+	
+	return $slots;
+}
+
+// get workshop series time slots
+function get_workshopseries_timeslots($day) {	
 	$slots[1] = array('time' => '8:30', 'meridian' => 'AM');
 	$slots[2] = array('time' => '1:30', 'meridian' => 'PM');
 	
