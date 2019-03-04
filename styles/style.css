@@ -1286,6 +1286,11 @@ footer p {
 	}
 }
 
+.newsletter .hero {
+	background-image: url(../images/workshops-bg.jpg);
+	background-position: center center;
+}
+
 .product-workshops-page .hero {
 	background-image: url(../images/workshops-bg.jpg);
 	background-position: center center;
