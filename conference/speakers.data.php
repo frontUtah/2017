@@ -214,6 +214,21 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/lstreasure/'
 );
 
+// Samantha Warren
+$speakers[] = array(
+	'slug' => 'samanthawarren',
+	'first' => 'Samantha',
+	'last' => 'Warren',
+	'title' => 'Sr. Experience Design Manager',
+	'company' => 'Adobe',
+	'discipline' => 'ux',
+	'photo' => 'headshots/samanthawarren.jpg',
+	'bio' => "As the Senior Experience Design Manager for Adobe Stock and Fonts, Samantha leads the product design vision for Adobe’s creative marketplace. She has been a Design Director for agencies on the East Coast, a product design consultant for startups across Silicon Valley, and a designer at Twitter. A few years ago she championed http://styletil.es/, a method for establishing a visual language during the design process. She loves spending time with her husband in the outdoors, mid-century modern furniture, and hanging with her Frenchie puppy named Ray Ray.",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/samanthawarren/'
+);
+
 /*
 // Cameron Moll
 $speakers[] = array(

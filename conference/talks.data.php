@@ -35,8 +35,8 @@ $talks[] = array(
 
 // Frank Yoo
 $talks[] = array(
-	'title' => 'TBA',
-	'description' => '',
+	'title' => 'Gen 2',
+	'description' => 'Everyone has a personal history. Happy growth, as well as formative struggles and insecurities mold and teach us how to navigate our day-to-day. As a California-born Korean kid, Frank will talk about his experience as a second generation American, and how early questions of assimilation and identity, and subsequent phases of introspection and self-reckoning shaped his career and perspective on effective teams, leadership, and succession.',
 	'day' => 1,
 	'slot' => 4,
 	'speaker' => 'frankyoo'
@@ -69,13 +69,13 @@ $talks[] = array(
 	'speaker' => 'chrisabad'
 );
 
-// 
+// Samantha Warren
 $talks[] = array(
-	'title' => '',
-	'description' => '',
+	'title' => 'Blind spots and bents: Designing around your product biases',
+	'description' => 'How taking a look at a problem from a different perspective led to a complete reinvention of our product and my perception of product design. <br><br>This presentation will examine what it means to overcome bias through the lens of my team’s case study around the redesign, rebranding, and re-launch of Typekit to Adobe Fonts. <br><br>It will touch on different types of biases and how to overcome them while exploring three main aspects of the product case study:<ul><li>Designing beyond the pixels to influence every aspect of the product experience</li><li>Conducting guerrilla user testing to make stakeholders aware of their blind spots</li><li>Thinking beyond your intuition to design for inclusivity.</li></ul>',
 	'day' => 1,
 	'slot' => 8,
-	'speaker' => ''
+	'speaker' => 'samanthawarren'
 );
 
 // Nate Walkingshaw
@@ -108,7 +108,7 @@ $talks[] = array(
 // Leah Rader
 $talks[] = array(
 	'title' => 'Creating a new path to empathy & insights',
-	'description' => '',
+	'description' => 'Employees at Lyft are close to the passenger experience--we all take Lyft rides. However, fewer employees understand the driver experience. The Lyft driver app has a lot of screen flows/use cases that happen when a passenger is not in the car. These use cases are spread across many different teams! Due to the complexity of the driver experience and the lowered visibility of that experience, we started the Employee Field Testing (EFT) program to get Product Managers, Designers, UX Researchers, Engineers, Content Writers, etc into the drivers seat and directly experiencing the product in real time, on the road, across use cases. The insights generated from the EFT program have impacted product road maps and design priorities as well as increased empathy for anyone working on driver products.',
 	'day' => 2,
 	'slot' => 4,
 	'speaker' => 'leahrader'
@@ -125,8 +125,8 @@ $talks[] = array(
 
 // Thor Ernstsson
 $talks[] = array(
-	'title' => 'TBA',
-	'description' => '',
+	'title' => 'The incumbents dilemma: How large organizations are being disrupted by their own assumptions',
+	'description' => 'What if everything you think you know about the market is wrong? Not that it was always wrong, but that it is wrong today. That is a very possible reality in todays ultra fast-paced world. The solution: disrupt your assumptions before they disrupt you.',
 	'day' => 2,
 	'slot' => 6,
 	'speaker' => 'thorernstsson'
