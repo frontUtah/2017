@@ -21,32 +21,18 @@ $meta['opengraph']['site_name'] = 'Front Conference';
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 ?>
-	<main class="product-workshops-public">
+	<main class="newsletter">
 		<section class="hero">
 			
-			<!-- a href="http://www.pendo.io"><img id="broughtoyouby" src="/images/frontpc18/broughttoyouby_pendo.png" /></a -->
 		</section>
 		<section class="training-courses">
 				<h2>UX &amp; Product Management Newsletter</h2>
 				<p>Join our email list and get ongoing recommendations for the best content on user experience, product management, and user research. We'll share where to find the most authentic real-world examples of how to solve current hard problems in our industry, down to earth realistic conversations with industry professionals of all levels of experience, as well as upcoming information about our events. </p>
 
 				<p>Our goal is to help you focus on what’s most valuable out there today and keep you informed on upcoming Front training and conference events. To that effect, we have five sections in each edition: (1) a spotlight that will feature a community article, individual, product, talk, or podcast; (2) three articles on career development or your role building better products; (3) upcoming workshops where you can practice process, design, or research methods; (4) user experience & product management job openings and finally, (5) updates to speaker announcements for the Front conference.  </p>
-		</section>
-
-		<section class="newsletter">
 			<div class="public-workshops-wrap">
 				<!-- Begin Mailchimp Signup Form -->
 				<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-				<style type="text/css">
-					#mc_embed_signup {
-						margin: auto;
-  						width: 50% !important;
-					}
-					#mc_embed_signup form {
-						text-align: left !important; 
-					}
-					.mc-field-group {text-align: left;}
-				</style>
 				<div id="mc_embed_signup">
 				<form action="https://frontutah.us2.list-manage.com/subscribe/post?u=5a9bade195be7c98130573919&amp;id=e8d567ca7f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 				    <div id="mc_embed_signup_scroll">
@@ -65,7 +51,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<label for="mce-LNAME">Last Name </label>
 					<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
 				</div>
-				<p><a href="https://us2.campaign-archive.com/home/?u=5a9bade195be7c98130573919&id=e8d567ca7f" title="View previous campaigns">View previous campaigns.</a></p>
+				<p><a href="https://us2.campaign-archive.com/home/?u=5a9bade195be7c98130573919&id=e8d567ca7f" target="_blank" title="View previous campaigns">View previous campaigns.</a></p>
 					<div id="mce-responses" class="clear">
 						<div class="response" id="mce-error-response" style="display:none"></div>
 						<div class="response" id="mce-success-response" style="display:none"></div>
@@ -79,6 +65,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				<!--End mc_embed_signup-->
 			</div>
 		</section>
+
+	
 
 		
 		

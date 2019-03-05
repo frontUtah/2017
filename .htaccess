@@ -22,7 +22,7 @@ RewriteRule ^bootcamp/venue$ /workshops/venue [R,L]
 RewriteRule ^bootcamp/whyattend$ /workshops/whyattend [R,L]
 RewriteRule ^training/public-workshops$ /training/public [R,L]
 Redirect /training/public-training /training/public
-Redirect /newsletter https://frontutah.us2.list-manage.com/subscribe?u=5a9bade195be7c98130573919&id=e8d567ca7f
+# Redirect /newsletter https://frontutah.us2.list-manage.com/subscribe?u=5a9bade195be7c98130573919&id=e8d567ca7f
 
 # route HTTP to HTTPS
 RewriteCond %{HTTP_HOST} !^dev\.

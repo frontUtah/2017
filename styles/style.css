@@ -1287,7 +1287,7 @@ footer p {
 }
 
 .newsletter .hero {
-	background-image: url(../images/workshops-bg.jpg);
+	background-image: url(../images/headers/header-workshops-activity.jpg);
 	background-position: center center;
 }
 
@@ -3375,4 +3375,19 @@ section.request-form form {
 section.request-form form button {
 	margin-top: 40px;
 	width: 100%
+}
+
+/* Email Newsletter */
+
+#mc_embed_signup form {
+	text-align: left !important; 
+	font-size: 14px; 
+}
+.mc-field-group {text-align: left;}
+
+@media (min-width:1000px) {
+	#mc_embed_signup {
+		margin: auto;
+		width: 50% !important;
+	}
 }
