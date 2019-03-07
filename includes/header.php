@@ -264,6 +264,17 @@ switch($uri_parts[0]) {
 				</nav>
 			</header>';
 		break;
+	case 'newsletter';
+		echo '
+			<header class="section-header">
+				<nav class="section-nav">
+					<div class="section-nav-head">
+						<h3 class="logo">Front</h3>
+						<button class="menu-toggle"></button>
+					</div>
+				</nav>
+			</header>';
+		break;
 	default:
 }
 
