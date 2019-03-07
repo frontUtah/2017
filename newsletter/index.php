@@ -29,7 +29,34 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				<h2>UX &amp; Product Management Newsletter</h2>
 				<p>Join our email list and get ongoing recommendations for the best content on user experience, product management, and user research. We'll share where to find the most authentic real-world examples of how to solve current hard problems in our industry, down to earth realistic conversations with industry professionals of all levels of experience, as well as upcoming information about our events. </p>
 
-				<p>Our goal is to help you focus on what’s most valuable out there today and keep you informed on upcoming Front training and conference events. To that effect, we have five sections in each edition: (1) a spotlight that will feature a community article, individual, product, talk, or podcast; (2) three articles on career development or your role building better products; (3) upcoming workshops where you can practice process, design, or research methods; (4) user experience & product management job openings and finally, (5) updates to speaker announcements for the Front conference.  </p>
+				<p>Our goal is to help you focus on what’s most valuable out there today and keep you informed on upcoming Front training and conference events. To that effect, we have five sections in each edition: </p>
+				<style type="text/css">
+					ol.lined {
+						max-width: 615px; 
+						margin: auto;
+						text-align: left;
+					}
+					ol.lined li {
+						margin-left: 20px;
+						font-size: .8em;
+					}
+					ol.lined li:before {
+					  content: "—"; /* Insert content that looks like bullets */
+					  margin-left: -20px;
+					  padding-right: 8px;
+					  color: #F37C20; /* Or a color you prefer */
+					  font-weight: bold;
+					}
+				</style>
+
+				<ol class="lined">
+					<li>A spotlight that will feature a community article, individual, product, talk, or podcast</li>
+					<li>Three articles on career development or your role building better products</li>
+					<li>Upcoming workshops where you can practice process, design, or research methods</li>
+					<li>User experience & product management job openings</li>
+					<li>Updates to speaker announcements for the Front conference</li>
+				</ol>
+				      
 			<div class="public-workshops-wrap">
 				<!-- Begin Mailchimp Signup Form -->
 				<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
