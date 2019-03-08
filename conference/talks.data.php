@@ -143,8 +143,8 @@ $talks[] = array(
 
 // Mark Rawlins
 $talks[] = array(
-	'title' => 'TBA',
-	'description' => '',
+	'title' => 'The Business Value of Design',
+	'description' => 'Is design fluff? Pop and sizzle? Icing on the cake? Or, is design the lifeblood of the business? We all can point to products and services from thriving businesses that are iconic and well designed. These experiences are reminders that well designed products and services can thrive at the intersection of both consumer and business value. Come listen to stories from my experience at Nike and Vivint Smart Home in creating value through consumer-centered design.',
 	'day' => 2,
 	'slot' => 8,
 	'speaker' => 'markrawlins'
