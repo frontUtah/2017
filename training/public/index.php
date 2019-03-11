@@ -26,7 +26,7 @@ usort($workshops, function($a, $b) {
     // if we were on PHP 7+
     //return $a['timestamp'] <=> $b['timestamp'];
     
-    return $a['order'] - $b['order'];
+    return $b['order'] - $a['order'];
 });
 
 // separate into scheduled and unscheduled 
