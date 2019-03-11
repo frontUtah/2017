@@ -4,6 +4,18 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
 $title = 'Front UX & Product Management Case Study Conference, 6-7 June 2019';
 
+$meta['twitter']['card'] = "Front is the product conference for UX designers and product managers. It's a practitioner’s conference. Attendees come for an education, real world, from-the-trenches case studies, and hands-on training from their peers. It's four days of learning and growth, providing answers to deep organizational questions and insights into how to validate and solve the right problems in the right way.";
+$meta['twitter']['site'] = '@front';
+$meta['twitter']['title'] = $title;
+$meta['twitter']['image'] = 'https://www.frontutah.com/images/social/front_social_conference.jpg';
+
+$meta['opengraph']['title'] = 'Front - The product conference for UX designers and product managers';
+$meta['opengraph']['type'] = 'article';
+$meta['opengraph']['url'] = 'http://www.frontutah.com/conference/';
+$meta['opengraph']['image'] = 'https://www.frontutah.com/images/social/front_social_conference.jpg';
+$meta['opengraph']['description'] = "Front is the product conference for UX designers and product managers. It's a practitioner’s conference. Attendees come for an education, real world, from-the-trenches case studies, and hands-on training from their peers. It's four days of learning and growth, providing answers to deep organizational questions and insights into how to validate and solve the right problems in the right way.";
+$meta['opengraph']['site_name'] = 'Front Conference';
+
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 ?>
