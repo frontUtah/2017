@@ -19,7 +19,7 @@ function print_schedulerow($day, $slot) {
 								<dd class="' . $speaker['discipline'] . '">
 									<img src="/images/' . $speaker['photo'] . '">
 									<h4>' . $talk['title'] . '</h4>
-									<p>' . $speaker['first'] . ' ' . $speaker['last'] . ' from ' . $speaker['company'] . '</p>
+									<p><strong>' . $speaker['first'] . ' ' . $speaker['last'] . '</strong> <br> ' . $speaker['title'] . ' <br> ' . $speaker['company'] . '</p>
 								</dd>
 							</dl>';
 	} else {
