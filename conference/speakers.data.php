@@ -224,9 +224,24 @@ $speakers[] = array(
 	'discipline' => 'ux',
 	'photo' => 'headshots/samanthawarren.jpg',
 	'bio' => "As the Senior Experience Design Manager for Adobe Stock and Fonts, Samantha leads the product design vision for Adobe’s creative marketplace. She has been a Design Director for agencies on the East Coast, a product design consultant for startups across Silicon Valley, and a designer at Twitter. A few years ago she championed http://styletil.es/, a method for establishing a visual language during the design process. She loves spending time with her husband in the outdoors, mid-century modern furniture, and hanging with her Frenchie puppy named Ray Ray.",
-	'twitter' => '',
+	'twitter' => 'samanthatoy',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/samanthawarren/'
+);
+
+// Emily Campbell
+$speakers[] = array(
+	'slug' => 'emilycampbell',
+	'first' => 'Emily',
+	'last' => 'Campbell',
+	'title' => 'Sr. Design Specialist',
+	'company' => 'InVision',
+	'discipline' => 'ux',
+	'photo' => 'headshots/emilycampbell.jpg',
+	'bio' => "Emily is a senior design specialist on the design transformation team at InVision. In addition to being a product designer and design strategist, she incorporates mindfulness training in her work as a certified yoga instructor. Previously, Emily was design lead and later product manager for enterprise product at Degreed, and lead design at HackerRank from launch through its initial growth stage.",
+	'twitter' => 'elou',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/emilylouisecampbell/'
 );
 
 /*
