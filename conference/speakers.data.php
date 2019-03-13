@@ -154,19 +154,19 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/madelinevu/'
 );
 
-// Jasmine Friedl
+// Cindy Chang
 $speakers[] = array(
-	'slug' => 'jasminefriedl',
-	'first' => 'Jasmine',
-	'last' => 'Friedl',
-	'title' => 'Head of Design',
+	'slug' => 'cindychang',
+	'first' => 'Cindy',
+	'last' => 'Chang',
+	'title' => 'Sr. Product Designer',
 	'company' => 'Intercom',
 	'discipline' => 'ux',
-	'photo' => 'headshots/jasminefriedl.jpg',
+	'photo' => 'headshots/cindychang.jpg',
 	'bio' => 'Jasmine Friedl is the Head of Design at Intercom in San Francisco, where she leads the product design team. Previously Jasmine built and led design teams at Udacity, Chan Zuckerberg Initiative, and Facebook. She lives in the Bay Area with her designer-husband and French bulldog named Bacon.',
-	'twitter' => 'jazzy33ca',
+	'twitter' => 'cindyjchang',
 	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/jasmine-friedl-b6895b8/'
+	'linkedin' => 'https://www.linkedin.com/in/cindyjchang/'
 );
 
 // Thor Ernstsson

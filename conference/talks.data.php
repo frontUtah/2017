@@ -44,8 +44,8 @@ $talks[] = array(
 
 // Vlad Magdalin
 $talks[] = array(
-	'title' => 'TBA',
-	'description' => '',
+	'title' => 'Who will build the next million products?',
+	'description' => 'Since the inception of the internet, the practice of bringing new products to market has involved an intricate dance between product managers, designers, and software engineers – so much so that thousands of companies and services have sprung up from making the interface between design and development more efficient. But what if we pause, take a step back, and ask ourselves: could there be a radically new way that we can approach creating products that will make it easier for 100X as many people to bring their product ideas to life? This presentation will explore the rich history of other creative industries (like 3D animation and digital publishing) to gain inspiration for how we can completely rethink and transform today’s product design and development practices.',
 	'day' => 1,
 	'slot' => 5,
 	'speaker' => 'vladmagdalin'
