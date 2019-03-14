@@ -80,7 +80,7 @@ $talks[] = array(
 
 // Nate Walkingshaw
 $talks[] = array(
-	'title' => 'Organizational design: Going from features to experiences.',
+	'title' => 'Organizational design: Going from features to experiences',
 	'description' => '',
 	'day' => 2,
 	'slot' => 1,
