@@ -163,9 +163,9 @@ $speakers[] = array(
 	'company' => 'Intercom',
 	'discipline' => 'ux',
 	'photo' => 'headshots/cindychang.jpg',
-	'bio' => 'Cindy Chang is a Senior Product Designer at Intercom in San Francisco, where she leads the product design of the onboarding experience. Previously Cindy built and designed interfacees for teams at Salesforce, and Thoughtbot. She works collaboratively with cross-functional teams throughout the design process - from system design and initial research, to wireframes, prototypes, and front-end development.',
+	'bio' => 'Cindy Chang is a Senior Product Designer at Intercom in San Francisco, where she currently leads product design for the onboarding experience. Cindy also led design for Intercom`s chatbot offering and web/mobile Inbox out of Dublin, Ireland. Previously, Cindy built and designed interfaces for teams at Salesforce, ThoughtSpot, and Intuit. She works collaboratively with cross-functional teams throughout the design process - from system design and initial research, to wireframes, prototypes, and front-end development. On the side, she`s an aspiring children`s book writer and illustrator.',
 	'twitter' => 'cindyjchang',
-	'instagram' => '',
+	'instagram' => 'https://www.instagram.com/cindobindo/',
 	'linkedin' => 'https://www.linkedin.com/in/cindyjchang/'
 );
 
