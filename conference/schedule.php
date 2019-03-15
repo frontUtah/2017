@@ -14,14 +14,16 @@ function print_schedulerow($day, $slot) {
 	
 	if(!is_null($speaker)) {
 		echo '
-							<dl>
-								<dt class="time">' . $time_slots[$slot]['time'] . ' ' . $time_slots[$slot]['meridian'] . '</dt>
-								<dd class="' . $speaker['discipline'] . '">
-									<img src="/images/' . $speaker['photo'] . '">
-									<h4>' . $talk['title'] . '</h4>
-									<p><strong>' . $speaker['first'] . ' ' . $speaker['last'] . '</strong> <br> ' . $speaker['title'] . ' <br> ' . $speaker['company'] . '</p>
-								</dd>
-							</dl>';
+							<a href="/conference/speaker/' . $speaker['slug'] . '"">
+								<dl>
+									<dt class="time">' . $time_slots[$slot]['time'] . ' ' . $time_slots[$slot]['meridian'] . '</dt>
+									<dd class="' . $speaker['discipline'] . '">
+										<img src="/images/' . $speaker['photo'] . '">
+										<h4>' . $talk['title'] . '</h4>
+										<p><strong>' . $speaker['first'] . ' ' . $speaker['last'] . '</strong> <br> ' . $speaker['title'] . ' <br> ' . $speaker['company'] . '</p>
+									</dd>
+								</dl>
+							</a>';
 	} else {
 		echo '
 							<dl>
