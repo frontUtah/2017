@@ -134,7 +134,7 @@ $talks[] = array(
 
 // Emily Campbell
 $talks[] = array(
-	'title' => 'TBA',
+	'title' => 'Design organization maturity and expanding your influence',
 	'description' => '',
 	'day' => 2,
 	'slot' => 7,
