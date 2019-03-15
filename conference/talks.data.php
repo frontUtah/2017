@@ -134,8 +134,8 @@ $talks[] = array(
 
 // Emily Campbell
 $talks[] = array(
-	'title' => 'Design organization maturity and expanding your influence',
-	'description' => '',
+	'title' => 'Designing for impact: The shape and strategy of design maturity',
+	'description' => 'Design is at a pivotal moment. Our influence within the business is growing, our skills are in higher demand as problems grow more complex, and companies across size and industries are asking themselves: how do we increase the impact of design?<br><br>This talk will explore the drivers of design maturity through the lens of research, drawing from two major reports released last year, and from direct experiencing, looking at how highly design-mature companies manage, evangelize, and practice design. I’ll explore the levers that have the most direct impact on design influence, and the way organizations are leaning into their people and practices to get there.',
 	'day' => 2,
 	'slot' => 7,
 	'speaker' => 'emilycampbell'
