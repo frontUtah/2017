@@ -8,8 +8,8 @@
 
 // Wade Shearer
 $talks[] = array(
-	'title' => 'TBA',
-	'description' => '',
+	'title' => 'Letting go of process and accepting controlled chaos: scaling a learning product organization',
+	'description' => 'Great product teams are empowered with a vision; organized into co-located, cross-functional, autonomous teams; and motivated by autonomy, mastery, and purpose. You don’t hire the best and then tell them what to do. But how does that scale? How does autonomy work when there’s multiple autonomous teams that must work together?<br><br>No matter how innovative or proven your processes, structure, or techniques, they can’t be forced into place if they don’t fit the people. Every organization is different, every context is different, and every person is different. Your job as a leader isn’t building process, it’s building trust; and it requires patience. Your team must discover it and own it.<br><br>Understanding your team’s technical skills, operational proficiency, and emotional maturity is crucial as you slowly step back from what, through how, to why. Join me for the story of how Workfront’s international user experience organization doubled in size in one year, reorganized into cross-functionally-led portfolios, assembled a design ops team, produced a design system, embarking on a complete user experience overall of an 18 year old enterprise platform, and developed a culture of accountability, transparency, feedback, and recognition.',
 	'day' => 1,
 	'slot' => 1,
 	'speaker' => 'wadeshearer'
