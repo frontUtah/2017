@@ -133,7 +133,7 @@ $speakers[] = array(
 	'company' => 'Webflow',
 	'discipline' => 'product-management',
 	'photo' => 'headshots/vladmagdalin.jpg',
-	'bio' => 'Vlad Magdalin is a designer and front-end developer who is passionate about creating tools that push web design forward.<br><br>He is the founder and CEO of Webflow, the all-in-one web design platform that helps designers of all kinds create professional responsive websites. In a past life, he trained to become a 3D animator with the hopes of one day working at Pixar, but happened to fall in love with the power of programming midway through art school. This started a journey that led him to creating a small web design agency, which later morphed into a product company that builds software for the web design industry.',
+	'bio' => 'Vlad Magdalin is the founder and CEO of Webflow, a company that is working on empower designers and entrepreneurs to design, build, and launch websites and applications without having to learn how to code. In a past life, he studied to become a 3D animator with dreams of working at Pixar, but happened to fall in love with the power of programming for the web midway through art school. Most days, you can find him on Twitter yelling into the cloud about how requiring people to write code is holding back our industry.<br><br>At home, he’s outnumbered by two unstoppable daughters and an amazing wife, who constantly remind him that there is so much more personal fulfillment in growing human relationships than there is in growing the business bottom line.',
 	'twitter' => 'callmevlad',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/vladmagdalin/'
@@ -154,19 +154,19 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/madelinevu/'
 );
 
-// Jasmine Friedl
+// Cindy Chang
 $speakers[] = array(
-	'slug' => 'jasminefriedl',
-	'first' => 'Jasmine',
-	'last' => 'Friedl',
-	'title' => 'Head of Design',
+	'slug' => 'cindychang',
+	'first' => 'Cindy',
+	'last' => 'Chang',
+	'title' => 'Sr. Product Designer',
 	'company' => 'Intercom',
 	'discipline' => 'ux',
-	'photo' => 'headshots/jasminefriedl.jpg',
-	'bio' => 'Jasmine Friedl is the Head of Design at Intercom in San Francisco, where she leads the product design team. Previously Jasmine built and led design teams at Udacity, Chan Zuckerberg Initiative, and Facebook. She lives in the Bay Area with her designer-husband and French bulldog named Bacon.',
-	'twitter' => 'jazzy33ca',
-	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/jasmine-friedl-b6895b8/'
+	'photo' => 'headshots/cindychang.jpg',
+	'bio' => 'Cindy Chang is a Senior Product Designer at Intercom in San Francisco, where she currently leads product design for the onboarding experience. Cindy also led design for Intercom`s chatbot offering and web/mobile Inbox out of Dublin, Ireland. Previously, Cindy built and designed interfaces for teams at Salesforce, ThoughtSpot, and Intuit. She works collaboratively with cross-functional teams throughout the design process - from system design and initial research, to wireframes, prototypes, and front-end development. On the side, she`s an aspiring children`s book writer and illustrator.',
+	'twitter' => 'cindyjchang',
+	'instagram' => 'https://www.instagram.com/cindobindo/',
+	'linkedin' => 'https://www.linkedin.com/in/cindyjchang/'
 );
 
 // Thor Ernstsson
@@ -224,9 +224,24 @@ $speakers[] = array(
 	'discipline' => 'ux',
 	'photo' => 'headshots/samanthawarren.jpg',
 	'bio' => "As the Senior Experience Design Manager for Adobe Stock and Fonts, Samantha leads the product design vision for Adobe’s creative marketplace. She has been a Design Director for agencies on the East Coast, a product design consultant for startups across Silicon Valley, and a designer at Twitter. A few years ago she championed http://styletil.es/, a method for establishing a visual language during the design process. She loves spending time with her husband in the outdoors, mid-century modern furniture, and hanging with her Frenchie puppy named Ray Ray.",
-	'twitter' => '',
+	'twitter' => 'samanthatoy',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/samanthawarren/'
+);
+
+// Emily Campbell
+$speakers[] = array(
+	'slug' => 'emilycampbell',
+	'first' => 'Emily',
+	'last' => 'Campbell',
+	'title' => 'Sr. Design Specialist',
+	'company' => 'InVision',
+	'discipline' => 'ux',
+	'photo' => 'headshots/emilycampbell.jpg',
+	'bio' => "Emily Campbell is a Senior Design Specialist on InVision’s Design Transformation team, where she helps design teams and leaders mature their practices and increase their impact through workshops, inclusive presentations, co-creation, and coaching. Previously, she helped fortune 100 companies reshape the way they design learning and professional development at their organizations as enterprise design and product lead for Degreed, and grew the design practice at HackerRank from its inception to supporting over a million users. She focuses on human-centered design, translating creative strategy into business impact, building a culture of leadership, and collaborating across disciplines.",
+	'twitter' => 'elou',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/emilylouisecampbell/'
 );
 
 /*
