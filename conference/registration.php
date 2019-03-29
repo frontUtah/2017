@@ -122,7 +122,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		</section>
 
 		
-		<section class="accomodations">
+		<a id="hotels"></a><section class="accomodations">
 			<h2>Hotels</h2>
 			<p class="about-accomodations">We have acquired a discounted nightly rate of <!--$199/night + tax and--> $130/night + tax for a single king bed or two queens, at the hotel below. We encourage you to register early as these rates are only available for a limit number of rooms until May 15th. Book your room online or by calling their front desk and asking for the “Front Conference” group discount. The hotel is within two blocks (8 minute walk) from the theater.</p> 
 			
