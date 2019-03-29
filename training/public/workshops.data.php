@@ -6,7 +6,7 @@
  * They don't have to be in chronological order. They are sorted when displayed on the page.
  */
  
-// Jeff Patton, 2 Apr 2019
+/* Jeff Patton, 2 Apr 2019
 $workshops[] = array(
 	'instructor' => 'jeffpatton',
 	'timestamp' => '1554163200',
@@ -16,6 +16,7 @@ $workshops[] = array(
 	'registration' => 'https://www.eventbrite.com/e/front-workshop-nyc-user-story-mapping-with-jeff-patton-tickets-55605790416',
 	'discipline' => 'product-management'
 );
+*/
  
 // Richard Banfield, 24 May 2019
 $workshops[] = array(
