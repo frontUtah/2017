@@ -65,7 +65,7 @@ function print_workshop($workshop) {
 	if(!empty($workshop['registration'])) {
 		echo '								<a href="' . $workshop['registration'] . '" target="_blank" class="button button-small">Learn more</a>';
 	} else {
-		echo '								<a href="http://eepurl.com/dJBOZ6" target="_blank" class="button button-small">Coming soon. Notify me!</a>';
+		echo '								<a href="https://www.frontutah.com/newsletter/" class="button button-small">Coming soon. Notify me!</a>';
 	}
 	
 	echo '
