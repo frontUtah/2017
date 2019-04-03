@@ -31,6 +31,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		<section class="pricing">
 			<h2>Pricing</h2>
 			
+			
+			<!--
 			<div class="prices">
 				<dl class="pricing-types">
 					<dt><div></div></dt>
@@ -69,8 +71,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<dd class="standard">$630</dd>
 				</dl>
 			</div>
+			-->
 			
-			<!--
 			<div class="prices">
 				<dl class="full">
 					<dt><div>Full Conference</div></dt>
@@ -95,7 +97,6 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<dd class="early">$630</dd>
 				</dl>
 			</div>
-			-->
 			
 			<!-- <p><a target="_blank" href="https://frontconference2019.eventbrite.com" class="button">Register</a></p> -->
 			
@@ -115,7 +116,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			        iframeContainerId: 'eventbrite-widget-container-47175925463',
 			
 			        // Optional
-			        iframeContainerHeight: 1225,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+			        iframeContainerHeight: 875,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
 			        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
 			    });
 			</script>
