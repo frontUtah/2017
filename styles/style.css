@@ -263,7 +263,7 @@ section {
 
 section h2 {
 	font-size: 30px;
-	line-height: 37px
+	line-height: 1.5em;
 }
 
 @media (min-width:1000px) {
@@ -2381,12 +2381,59 @@ section.training-courses .course-groups .leadership .button {
 	background: #FAFAFA
 }
 
+/* ==================== SCHOLARSHIPS ==================== */
+
+
+@media (min-width:1000px) {
+	section.scholarship div.columns {
+		display: flex;
+		font-size: 18px;
+	}
+	section.scholarship div {
+		text-align: left;
+		flex: 2;
+		padding: 0px 20px;
+	}
+	section.scholarship {
+		padding: 70px 15%;
+	}
+	
+}
+
+section.scholarship {
+	background: url(../images/conf-scholarship-vschool.jpg) center top;
+	color: #fff;
+	max-height: 700px;
+}
+
+section.scholarship div.columns {
+	margin: 50px 0px;
+	font-size: 15px;
+}
+
+section.scholarship div {
+	text-align: left;
+}
+
+section.scholarship .scholarship-logos {
+	text-align: center;
+	margin-bottom: 50px;
+}
+section.scholarship h2 {
+	color: #fff;
+}
+
+ul.default li {
+	list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 10px;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
 
 /* ==================== SPONSORS ==================== */
 
-section.sponsors {
-	padding: 70px 0
-}
 section.sponsors h2 {
 	margin-bottom: 90px;
 	padding: 0 31px

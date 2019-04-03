@@ -86,8 +86,31 @@ foreach($speakers as $instructor) {
 			<p>We believe product management and product design play a central role in the success of a company. We believe we need better, smarter people to lead product. We believe in human relationships and learning from each other through examples. We believe in kindness, generosity, transparency and a willingness to share. We've created a mix of topics, some practical, others aspirational/inspirational, some aimed at more junior folks, some at the mid-level, some at leadership.</p>
 			<p>Our goal is to provide an environment that allows industry professionals to gather once a year and share the experiences that have helped them build better products and progress individually.</p>
 		</section>
+
+		<section class="scholarship">
+			<div class="scholarship-logos"><img src="../images/conf-scholarship-vschool-logos" width="300"></div>
+			<h2>Win a free scholarship to the V School</h2>
+			<div class="columns">
+				<div>
+					<p><strong>5 Finalists Receive</strong></p>
+					<ul class="default">
+						<li>Free 2 day ticket to Front Conference</li>
+						<li>Tour and opportunity meet the teams at 5 top Utah tech companies or design agencies</li>
+						<li>Mentorship from top design leader</li>
+					</ul>
+				</div>
+				<div>
+					<p><strong>1 Scholarship Winner Receives</strong></p>
+					<ul class="default">
+						<li>12 week UX immersive course at V School (value $15,000), starting 9 July</li>
+						<li>Internship with Contravent</li>
+					</ul>
+				</div>
+			</div>
+			<a href="https://vschool.io/front-scholarship" target="_blank" class="button">Apply</a>
+		</section>
 		
-		<section class="sponsors">
+		<section class="training-courses sponsors">
 			<h2>Sponsors</h2>
 			<!---->
 			<a href="http://www.pluralsight.com" target="_blank"><img id="premier" src="/images/sponsors/pluralsight.svg" /></a>
