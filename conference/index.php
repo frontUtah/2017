@@ -86,8 +86,8 @@ foreach($speakers as $instructor) {
 			<p>We believe product management and product design play a central role in the success of a company. We believe we need better, smarter people to lead product. We believe in human relationships and learning from each other through examples. We believe in kindness, generosity, transparency and a willingness to share. We've created a mix of topics, some practical, others aspirational/inspirational, some aimed at more junior folks, some at the mid-level, some at leadership.</p>
 			<p>Our goal is to provide an environment that allows industry professionals to gather once a year and share the experiences that have helped them build better products and progress individually.</p>
 		</section>
-
-		<section class="scholarship">
+		
+		<section class="scholarship" id="scholarship">
 			<div class="scholarship-logos"><img src="../images/conf-scholarship-vschool-logos.png" width="300"></div>
 			<h2>Win a free scholarship to the V School</h2>
 			<div class="columns">
