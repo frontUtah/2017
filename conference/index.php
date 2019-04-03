@@ -88,7 +88,7 @@ foreach($speakers as $instructor) {
 		</section>
 
 		<section class="scholarship">
-			<div class="scholarship-logos"><img src="../images/conf-scholarship-vschool-logos" width="300"></div>
+			<div class="scholarship-logos"><img src="../images/conf-scholarship-vschool-logos.png" width="300"></div>
 			<h2>Win a free scholarship to the V School</h2>
 			<div class="columns">
 				<div>
