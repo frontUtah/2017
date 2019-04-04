@@ -7,12 +7,12 @@ $title = 'Registration - Front UX & Product Management Case Study Conference, 6-
 $meta['twitter']['card'] = "Early bird passes are $500, that's 30% off if you purchase before April 1st. It gets even better if you bring your team. Tickets are only $450 each for groups of 10+, which is 35% off on the full price passes.";
 $meta['twitter']['site'] = '@front';
 $meta['twitter']['title'] = $title;
-$meta['twitter']['image'] = 'https://www.frontutah.com/images/social/front_social_conference_earlybird.jpg';
+$meta['twitter']['image'] = 'https://www.frontutah.com/images/social/front_social_conference.jpg';
 
 $meta['opengraph']['title'] = 'Front - The product conference for UX designers and product managers';
 $meta['opengraph']['type'] = 'article';
 $meta['opengraph']['url'] = 'http://www.frontutah.com/conference/';
-$meta['opengraph']['image'] = 'https://www.frontutah.com/images/social/front_social_conference_earlybird.jpg';
+$meta['opengraph']['image'] = 'https://www.frontutah.com/images/social/front_social_conference.jpg';
 $meta['opengraph']['description'] = "Early bird passes are $500, that's 30% off if you purchase before April 1st. It gets even better if you bring your team. Tickets are only $450 each for groups of 10+, which is 35% off on the full price passes.";
 $meta['opengraph']['site_name'] = 'Front Conference';
 
