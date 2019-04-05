@@ -184,19 +184,19 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/thorernstsson/'
 );
 
-// Chris Abad
+// Tanya Koshy
 $speakers[] = array(
-	'slug' => 'chrisabad',
-	'first' => 'Chris',
-	'last' => 'Abad',
-	'title' => 'VP of Product & Design',
+	'slug' => 'tanyakoshy',
+	'first' => 'Tanya',
+	'last' => 'Koshy',
+	'title' => 'VP of Product',
 	'company' => 'Usertesting',
 	'discipline' => 'product-management',
-	'photo' => 'headshots/chrisabad.jpg',
-	'bio' => "Chris brings more than 15 years of experience building high performance product and design teams. At UserTesting, Chris is responsible for driving the company’s product vision and strategy across our portfolio of products. He excels at applying user-centered and evidence-driven techniques to user experience design, product management, data science, user growth, and software engineering. Prior to joining UserTesting, Chris has held leadership role at companies including Salesforce, InVision, Campaign Monitor, as well as serving as founder of two start-ups of his own.",
-	'twitter' => 'chrisabad',
+	'photo' => 'headshots/tanyakoshy.jpg',
+	'bio' => "Tanya Koshy is the VP of Product at UserTesting, where she leads the product strategy and vison for Usertestings suite of products to build better solutions for testing products to improve user behavior. Tanya helps product managers, designers and user researchers better understand their customers by building tools that will connect businesses with their customers.<br><br>Tanya has worked with reputable software companies sucha as Facebook, Google, and Groupon, among others.",
+	'twitter' => '',
 	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/chrisabad/'
+	'linkedin' => 'https://www.linkedin.com/in/tanyakoshy/'
 );
 
 // Lauren Treasure
