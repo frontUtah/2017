@@ -118,6 +118,7 @@ foreach($speakers as $instructor) {
 				<li class="second_tier_sponsor"><a href="https://www.goabstract.com/?&utm_medium=Events&utm_source=Events-Conference&utm_campaign=CY19-Events-Conference-Front-Jun-6" target="_blank"><img src="/images/sponsors/abstract.svg" height="60px" /></a></li>
 				<li class="second_tier_sponsor"><a href="http://www.usertesting.com" target="_blank"><img src="/images/sponsors/usertesting.svg" height="60px" /></a></li>
 				<li class="second_tier_sponsor"><a href="http://www.workfront.com" target="_blank"><img src="/images/sponsors/workfront.svg" height="60px" /></a></li>
+				<li class="second_tier_sponsor"><a href="http://www.invisionapp.com" target="_blank"><img src="/images/sponsors/invision.svg" /></a></li>
 				<li class="second_tier_sponsor"><a href="http://www.underbelly.is" target="_blank"><img src="/images/sponsors/underbelly.svg" height="60px" /></a></li>
 				<li class="second_tier_sponsor"><a href="http://www.rev.com" target="_blank"><img src="/images/sponsors/rev.svg" height="60px" /></a></li>
 				<li class="second_tier_sponsor"><a href="http://www.balsamiq.com" target="_blank"><img src="/images/sponsors/balsamiq.svg" height="60px" /></a></li>
@@ -129,7 +130,7 @@ foreach($speakers as $instructor) {
 			  <li class="second_tier_sponsor"><a href="http://www.jane.com" target="_blank"><img src="/images/sponsors/jane.svg" /></a></li>
 			  <li class="second_tier_sponsor"><a href="http://www.podium.com" target="_blank"><img src="/images/sponsors/podium.svg" /></a></li>
 			  <li class="second_tier_sponsor"><a href="http://www.domo.com" target="_blank"><img src="/images/sponsors/domo.svg" style="max-width: 70px;" /></a></li>
-			  <li class="second_tier_sponsor"><a href="http://www.invisionapp.com" target="_blank"><img src="/images/sponsors/invision.svg" /></a></li>
+			  
 			  <li class="second_tier_sponsor"><a href="https://jobs.progleasing.com/" target="_blank"><img src="/images/sponsors/progressive.svg" /></a></li>
 			  <li class="second_tier_sponsor"><a href="https://www.split.io/" target="_blank"><img src="/images/sponsors/split.svg" /></a></li>
 			  <li class="second_tier_sponsor"><a href="https://www.ancestry.com" target="_blank"><img src="/images/sponsors/ancestry.svg" /></a></li>
