@@ -87,6 +87,7 @@ foreach($speakers as $instructor) {
 			<p>Our goal is to provide an environment that allows industry professionals to gather once a year and share the experiences that have helped them build better products and progress individually.</p>
 		</section>
 		
+		<!--
 		<section class="scholarship" id="scholarship">
 			<div class="scholarship-logos"><img src="../images/conf-scholarship-vschool-logos.png" width="300"></div>
 			<h2>Win a free scholarship to the V School</h2>
@@ -109,6 +110,7 @@ foreach($speakers as $instructor) {
 			</div>
 			<a href="https://vschool.io/front-scholarship" target="_blank" class="button">Apply</a>
 		</section>
+		-->
 		
 		<section class="training-courses sponsors">
 			<h2>Sponsors</h2>
