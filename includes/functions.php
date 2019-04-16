@@ -136,7 +136,7 @@ function get_consultant($slug) {
 
 // get conference time slots
 function get_conference_timeslots($day) {	
-	$slots[1] = array('time' => '9:00', 'meridian' => 'AM');
+	$slots[1] = array('time' => '9:10', 'meridian' => 'AM');
 	$slots[2] = array('time' => '9:45', 'meridian' => 'AM');
 	$slots[3] = array('time' => '11:00', 'meridian' => 'AM');
 	$slots[4] = array('time' => '11:35', 'meridian' => 'AM');
