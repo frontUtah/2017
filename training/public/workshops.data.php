@@ -18,7 +18,7 @@ $workshops[] = array(
 );
 */
  
-// Richard Banfield, 24 May 2019
+/* Richard Banfield, 24 May 2019
 $workshops[] = array(
 	'instructor' => 'richardbanfield',
 	'timestamp' => '1558656000',
@@ -28,6 +28,7 @@ $workshops[] = array(
 	'registration' => 'https://www.eventbrite.com/e/front-workshop-boston-introduction-to-design-sprints-with-richard-banfield-tickets-57762047840',
 	'discipline' => 'ux'
 );
+*/
  
 // Sarah Doody, 21 Jun 2019
 $workshops[] = array(
