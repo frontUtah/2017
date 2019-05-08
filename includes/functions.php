@@ -162,7 +162,7 @@ function get_workshopseries_timeslots($day) {
 
 // get time slot
 function get_time($day, $slot) {
-	$slots = get_timeslots($day);
+	$slots = get_workshopseries_timeslots($day);
 	return $slots[$slot]['time'] . ' ' . $slots[$slot]['meridian'];
 }
 
