@@ -127,8 +127,8 @@ foreach($speakers as $instructor) {
 				<li class="second_tier_sponsor"><a href="http://www.pendo.io" target="_blank"><img src="/images/sponsors/pendo.svg" height="60px" /></a></li>
 				<li class="second_tier_sponsor"><a href="https://data.mx.com/" target="_blank"><img src="/images/sponsors/mx.svg" height="60px" /></a></li>
 				<li class="second_tier_sponsor"><a href="https://jobs.progleasing.com/" target="_blank"><img src="/images/sponsors/progressive.svg" /></a></li>
-				<li class="second_tier_sponsor"><a href="https://www.solutionstream.com/" target="_blank"><img src="/images/sponsors/solutionstream.svg" height="60px" /></a></li>
-				<li class="second_tier_sponsor"><a href="https://www.split.io/" target="_blank"><img src="/images/sponsors/split.svg" /></a></li>
+				<li class="second_tier_sponsor"><a href="https://www.solutionstream.com/" target="_blank"><img src="/images/sponsors/solutionstream.svg" /></a></li>
+				<li class="second_tier_sponsor"><a href="https://www.split.io/" target="_blank"><img src="/images/sponsors/split.svg" height="60px" /></a></li>
 			  <!--
 			  <li class="second_tier_sponsor"><a href="https://www.vschool.io/" target="_blank"><img src="/images/sponsors/vschool.png" height="60px" /></a></li>
 			  <li class="second_tier_sponsor"><a href="http://www.jane.com" target="_blank"><img src="/images/sponsors/jane.svg" /></a></li>
