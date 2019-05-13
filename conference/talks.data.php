@@ -53,12 +53,23 @@ $talks[] = array(
 
 // Madeline Vu
 $talks[] = array(
+	'title' => 'Designing Change',
+	'description' => 'Great companies are defined by their ability to change. Apple changed when they re-hired Steve Jobs. Microsoft changed when they embraced open-source software. Amazon changed when they started selling groceries, and then cloud computing, and then original TV shows.<br><br>It is easy to imagine these changes as grand strategic moves, carefully planned and executed by a handful of luminaries. But lasting, meaningful change comes from many small, focused improvements over time. With patience, just one person can make a substantial impact in even the largest organizations.<br><br>Think about something you’d like to change. It might be overwhelming, but be bold: the bigger, the better. What I’d like to do is help you start making that change.<br><br>The good news is that my job is easy: nobody is better at changing than designers and product managers. With the right tools, you can make focused, meaningful improvements to your company’s process, culture, or products.<br><br>I’ll share how writing design principles with your team sets the stage. I’ll tell you how great feedback can fuel change. I’ll share stories of big changes I’ve made, like radically improving the Wall Street Journal’s approach to accessibility.<br><br>At the end, you’ll be able to go back to work and start changing your team for the better, whether you’re a tenured manager or a brand new hire.',
+	'day' => 1,
+	'slot' => 6,
+	'speaker' => 'mattstrom'
+);
+
+
+/* Madeline Vu
+$talks[] = array(
 	'title' => 'Applying design thinking in an agile workflow',
 	'description' => '',
 	'day' => 1,
 	'slot' => 6,
 	'speaker' => 'madelinevu'
 );
+*/
 
 // Tanya Kosy
 $talks[] = array(

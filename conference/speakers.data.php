@@ -139,7 +139,22 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/vladmagdalin/'
 );
 
-// Madeline Vu
+// Matt Strom
+$speakers[] = array(
+	'slug' => 'mattstrom',
+	'first' => 'Matt',
+	'last' => 'Ström',
+	'title' => 'Product Design Lead',
+	'company' => 'Bitly',
+	'discipline' => 'ux',
+	'photo' => 'headshots/mattstrom.jpg',
+	'bio' => 'Matt is a design lead at Bitly. He has over a decade of experience in product design and development, having previously worked on and with teams at The Wall Street Journal, SoundCloud, PepsiCo, GE, and Bank of America. Matt lives in Brooklyn with his dog, Timmy.',
+	'twitter' => 'ilikescience',
+	'instagram' => 'ilikescience',
+	'linkedin' => 'https://www.linkedin.com/in/matthewstrom/'
+);
+
+/* Madeline Vu
 $speakers[] = array(
 	'slug' => 'madelinevu',
 	'first' => 'Madeline',
@@ -153,6 +168,7 @@ $speakers[] = array(
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/madelinevu/'
 );
+*/
 
 // Cindy Chang
 $speakers[] = array(
