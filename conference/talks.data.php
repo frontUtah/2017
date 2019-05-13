@@ -33,13 +33,13 @@ $talks[] = array(
 	'speaker' => 'daniellegreen'
 );
 
-// Frank Yoo
+// Kim Williams
 $talks[] = array(
-	'title' => 'Gen 2',
-	'description' => 'Everyone has a personal history. Happy growth, as well as formative struggles and insecurities mold and teach us how to navigate our day-to-day. As a California-born Korean kid, Frank will talk about his experience as a second generation American, and how early questions of assimilation and identity, and subsequent phases of introspection and self-reckoning shaped his career and perspective on effective teams, leadership, and succession.',
+	'title' => 'Radical collaboration and trust; breaking down silos and building products at scale',
+	'description' => 'Learn about the highs and lows of growing a diverse UX organization, introducing new practice areas, and building relationships to thrive.',
 	'day' => 1,
 	'slot' => 4,
-	'speaker' => 'frankyoo'
+	'speaker' => 'kimwilliams'
 );
 
 // Vlad Magdalin
@@ -87,13 +87,13 @@ $talks[] = array(
 	'speaker' => 'natewalkingshaw'
 );
 
-// Kim Williams
+// Frank Yoo
 $talks[] = array(
-	'title' => 'Radical collaboration and trust; breaking down silos and building products at scale',
-	'description' => 'Learn about the highs and lows of growing a diverse UX organization, introducing new practice areas, and building relationships to thrive.',
+	'title' => 'Gen 2',
+	'description' => 'Everyone has a personal history. Happy growth, as well as formative struggles and insecurities mold and teach us how to navigate our day-to-day. As a California-born Korean kid, Frank will talk about his experience as a second generation American, and how early questions of assimilation and identity, and subsequent phases of introspection and self-reckoning shaped his career and perspective on effective teams, leadership, and succession.',
 	'day' => 2,
 	'slot' => 2,
-	'speaker' => 'kimwilliams'
+	'speaker' => 'frankyoo'
 );
 
 // Lauren Treasure
