@@ -109,8 +109,8 @@ $talks[] = array(
 
 // Lauren Treasure
 $talks[] = array(
-	'title' => 'Product, marketing and customer success make a power trio',
-	'description' => 'How product teams can (and should) develop tight relationships with marketing and customer success to create a better customer experience. <br><br>Product teams often view a customer’s interaction with their offering as limited within a set of product features. But to a customer, it really extends to the end-to-end experience with your entire brand — from acquisition ads, targeted emails, and sponsored content, to the website, into the product, and continued via live chat or other support interactions. Consider how much better the customer journey can be with a consistent experience across every interaction. This presentation will provide a framework on how to build and maintain strong relationships with your marketing and CS counterparts, as well as real examples from my experience at Chatbooks and Ancestry.',
+	'title' => 'The strange alliance: Why building unlikely allies in your organization will win you a better customer experience',
+	'description' => 'Product teams often view a customer’s interaction with their offering as limited within a set of product features. But to a customer, it really extends to the end-to-end experience with your entire brand — from acquisition ads, targeted emails and sponsored content, to the website, the software or physical product experience, and continued via support interactions. Consider how much better the customer journey is with a consistent experience across every interaction. But how do you make it consistent when all you can control is the UX in your product area? This presentation will provide a framework on how to build and maintain strong relationships with your counterparts across the organization, as well as real examples from my experience at Chatbooks and Ancestry.',
 	'day' => 2,
 	'slot' => 3,
 	'speaker' => 'laurentreasure'
