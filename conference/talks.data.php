@@ -137,8 +137,8 @@ $talks[] = array(
 
 // Cindy Chang
 $talks[] = array(
-	'title' => 'Creating a modular onboarding system',
-	'description' => '',
+	'title' => 'Designing a modular onboarding system',
+	'description' => 'New beginnings are equally fun and terrifying, and trying out a new software product can often feel the same. While customers are navigating uncharted territory to get started in your product for the first time, having the right signposts for them at the right time can set up their relationship with your product for lasting success. But true success goes beyond just the first impression—from signup, activation, first use, and re-engagement, your customers need a cohesive experience to feel confident in your product.<br><br>The reality of that becomes much trickier. Onboarding often sits between several teams, including individual product teams, customer engagement, and sales/marketing. How do you empower different product teams and functions to input into onboarding, but still come out with a unified, comprehensive onboarding experience that helps customers quickly see value and stay engaged over time?<br><br>In this talk, we’ll look at how Intercom developed an extensible onboarding system and key lessons we learned along the way.',
 	'day' => 2,
 	'slot' => 5,
 	'speaker' => 'cindychang'
