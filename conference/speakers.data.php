@@ -4,7 +4,22 @@
  * Use '</br></br>' to separate paragraphs
  */
 
-// Leah Rader
+// Jeff Whitlock
+$speakers[] = array(
+	'slug' => 'jeffwhitlock',
+	'first' => 'Jeff',
+	'last' => 'Whitlock',
+	'title' => 'CEO',
+	'company' => 'Unbird',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/jeffwhitlock.jpg',
+	'bio' => "Jeff made the pivot to Product Management from McKinsey & Co., a global management consulting firm. He began product management at Vivint.SmartHome where he played PM in the MVP development of a machine learning state machine for the Smart Home and the redesign of Vivint's consumer mobile application. He recently returned from an adventure in Uganda where he was Head of Product for Safeboda, a ride-sharing company for motorcycle taxis. Since returning, he's leading a great Utah tech company as CEO of Unbird. Unbird's goal is to create the easiest way for product teams to listen and understand their customers at scale.",
+	'twitter' => 'JeffreyWhitlock',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/jeff-whitlock/'
+);
+
+/* Leah Rader
 $speakers[] = array(
 	'slug' => 'leahrader',
 	'first' => 'Leah',
@@ -18,6 +33,7 @@ $speakers[] = array(
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/leah-rader-22787020/'
 );
+*/
 
 // Wade Shearer
 $speakers[] = array(

@@ -116,7 +116,16 @@ $talks[] = array(
 	'speaker' => 'laurentreasure'
 );
 
-// Leah Rader
+// Jeff Whitlock
+$talks[] = array(
+	'title' => 'Counter-intuitive Startup Lessons for the Enterprise',
+	'description' => '',
+	'day' => 2,
+	'slot' => 4,
+	'speaker' => 'jeffwhitlock'
+);
+
+/* Leah Rader
 $talks[] = array(
 	'title' => 'Creating a new path to empathy & insights',
 	'description' => 'Employees at Lyft are close to the passenger experience--we all take Lyft rides. However, fewer employees understand the driver experience. The Lyft driver app has a lot of screen flows/use cases that happen when a passenger is not in the car. These use cases are spread across many different teams! Due to the complexity of the driver experience and the lowered visibility of that experience, we started the Employee Field Testing (EFT) program to get Product Managers, Designers, UX Researchers, Engineers, Content Writers, etc into the drivers seat and directly experiencing the product in real time, on the road, across use cases. The insights generated from the EFT program have impacted product road maps and design priorities as well as increased empathy for anyone working on driver products.',
@@ -124,6 +133,7 @@ $talks[] = array(
 	'slot' => 4,
 	'speaker' => 'leahrader'
 );
+*/
 
 // Cindy Chang
 $talks[] = array(
