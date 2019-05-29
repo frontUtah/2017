@@ -29,7 +29,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</ul>
 			</p>
 			<p class="date-location">7-8 November 2019 • Salt Lake City, Utah</p>
-			<!-- a href="http://www.pendo.io"><img id="broughtoyouby" src="/images/frontpc18/broughttoyouby_pendo.png" /></a -->
+			<a href="http://www.pendo.io"><img id="broughtoyouby" src="/images/frontpc18/broughttoyouby_pendo.png" /></a>
 			<p><a href="/workshops/registration" class="button">Register</a></p>
 		</section>
 		<section class="training-courses">
