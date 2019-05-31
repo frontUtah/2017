@@ -118,8 +118,8 @@ $talks[] = array(
 
 // Jeff Whitlock
 $talks[] = array(
-	'title' => 'Counter-intuitive Startup Lessons for the Enterprise',
-	'description' => '',
+	'title' => 'Slaying Giants: What Enterprises Can Learn From Startups about Product Decision Making',
+	'description' => 'Every company has a different process for making product decisions. What to build? What not to build? In what order? How to build it? How does it work? <br><br>Startups have less money, talent, and expertise than established companies, but they sometimes win. How? Two reasons: speed and flexibility. And decision making is a critical ingredient in a startup’s speed and flexibility.<br><br>This presentation will explore key lessons of product decision making at startups and provide ideas for how you can implement these lessons at established companies.',
 	'day' => 2,
 	'slot' => 4,
 	'speaker' => 'jeffwhitlock'
