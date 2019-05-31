@@ -67,7 +67,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Are there other hotels recommended?</dt>
-							<dd class="accordion-content answer">We highly recommend the <a href="https://www.marriott.com/events/start.mi?id=1549586151032&key=GRP">Salt Lake City Marriott City Center</a> and the<a href="https://goo.gl/maps/sxQUuXDmgq52">Salt Lake Plaza Hotel Temple Square</a>, as we have arranged a discounted rate and because of the proximity to the venue. That said, the Salt Lake Marriott Downtown at City Creek, Hotel Monaco, Hilton Salt Lake City Center are also close to the venue and are also good options.</dd>
+							<dd class="accordion-content answer">We highly recommend the <a href="https://www.marriott.com/events/start.mi?id=1549586151032&key=GRP">Salt Lake City Marriott City Center</a> and the <a href="https://goo.gl/maps/sxQUuXDmgq52">Salt Lake Plaza Hotel Temple Square</a>, as we have arranged a discounted rate and because of the proximity to the venue. That said, the Salt Lake Marriott Downtown at City Creek, Hotel Monaco, Hilton Salt Lake City Center are also close to the venue and are also good options.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Can I cancel my hotel reservation if I am unable to attend?</dt>
@@ -111,7 +111,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Are meals included in the cost of registration?</dt>
-							<dd class="accordion-content answer">A Full Conference Pass covers your breakfast and break time snacks. Lunch is not provided.</dd>
+							<dd class="accordion-content answer">A Full Conference ticket covers a hot breakfast breakfast, off site lunch of your choice, and break time snacks.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Are specialty dietary requirements accommodated with the meals at the event?</dt>
