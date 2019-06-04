@@ -92,7 +92,7 @@ $talks[] = array(
 // Nate Walkingshaw
 $talks[] = array(
 	'title' => 'Organizational design: Going from features to experiences',
-	'description' => '',
+	'description' => 'What does it take to truly lead an organization that focuses on the customers and not features? Hint, it’s not just about a product development process! In this talk, Nate will share his journey, which took years in the making, in taking Pluralsight from private to public, from a product team of 10 to an experience organization of 550, and from building a product to developing an open platform.',
 	'day' => 2,
 	'slot' => 1,
 	'speaker' => 'natewalkingshaw'
