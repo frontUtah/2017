@@ -84,7 +84,7 @@ function print_schedulerow($day, $slot) {
 					</li>
 					<li class="timeslot one-hour">
 						<dl>
-							<dt class="time">12:10 AM</dt>
+							<dt class="time">12:10 PM</dt>
 							<dd class="food">
 								<p>Lunch</p>
 							</dd>
@@ -161,7 +161,7 @@ function print_schedulerow($day, $slot) {
 					</li>
 					<li class="timeslot one-hour">
 						<dl>
-							<dt class="time">12:10 AM</dt>
+							<dt class="time">12:10 PM</dt>
 							<dd class="food">
 								<p>Lunch</p>
 							</dd>

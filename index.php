@@ -28,7 +28,7 @@ require('includes/header.php');
 			<li>
 				<h3>Workshop Series</h3>
 				<p class="date-location">Salt Lake City, 7-8 November 2019</p>
-				<div href="https://www.youtube.com/watch?v=rTLIYQVHa90" class="thumnail video-thumbnail recap-video">
+				<div href="https://www.youtube.com/watch?v=AU8QI7wPzoc" class="thumnail video-thumbnail recap-video">
 					<img src="images/conf-scene002.jpg" alt="" style="width: 413px;">
 				</div>
 				<p class="description">A 2 day, hands-on workshop series to learn to create amazing products and work like the teams you hear from at Front.</p>
