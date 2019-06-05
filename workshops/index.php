@@ -81,7 +81,7 @@ foreach($instructors as $instructor) {
 		
 		<a name="highlight_video"></a>
 		<section class="highlight-video">
-			<h2>2019 Highlights</h2>
+			<h2>2018 Highlights</h2>
 			<div href="https://www.youtube.com/watch?v=AU8QI7wPzoc" class="thumbnail video-thumbnail recap-video">
 				<img class="full" src="/images/home-bg/home-bg-workshops-video.jpg" alt="">
 			</div>
