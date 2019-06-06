@@ -10,27 +10,27 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 <main class="secondary product-workshops-page">
 	<section class="hero">
-		<h1>2018 talks</h1>
+		<h1>2019 talks</h1>
 	</section>
 	<section class="courses notabs">
-		<h2 class="">2018 talks</h2>
+		<h2 class="">2019 talks</h2>
 		
 		<div class="course-calendar">
 			<div class="course-date">
-				<h3>Thursday, 31 May 2018</h3>
+				<h3>Thursday, 6 June 2019</h3>
 				<ul class="days-courses">
 
 					<?php
 
 					function print_courses($day) {
 						$slots[1] = array('time' => '9:10', 'meridian' => 'AM');
-						$slots[2] = array('time' => '9:40', 'meridian' => 'AM');
-						$slots[3] = array('time' => '10:50', 'meridian' => 'AM');
-						$slots[4] = array('time' => '11:20', 'meridian' => 'AM');
-						$slots[5] = array('time' => '1:30', 'meridian' => 'PM');
-						$slots[6] = array('time' => '2:00', 'meridian' => 'PM');
-						$slots[7] = array('time' => '3:10', 'meridian' => 'PM');
-						$slots[8] = array('time' => '3:50', 'meridian' => 'PM');
+						$slots[2] = array('time' => '9:45', 'meridian' => 'AM');
+						$slots[3] = array('time' => '11:00', 'meridian' => 'AM');
+						$slots[4] = array('time' => '11:35', 'meridian' => 'AM');
+						$slots[5] = array('time' => '1:40', 'meridian' => 'PM');
+						$slots[6] = array('time' => '2:15', 'meridian' => 'PM');
+						$slots[7] = array('time' => '3:30', 'meridian' => 'PM');
+						$slots[8] = array('time' => '4:05', 'meridian' => 'PM');
 
 						foreach($slots as $slot => $slot_details) {
 							$talk = get_talk($day, $slot);
@@ -104,7 +104,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</ul>
 			</div>
 			<div class="course-date">
-				<h3>Friday, 1 June 2018</h3>
+				<h3>Friday, 7 June 2019</h3>
 				<ul class="days-courses">
 					<?php echo print_courses(2); ?>
 				</ul>
