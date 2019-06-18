@@ -88,7 +88,7 @@ foreach($instructors as $instructor) {
 		</section>
 		
 		<section class="sponsors">
-			<h2>Past sponsors</h2>
+			<h2>Sponsors</h2>
 			<a href="http://www.pendo.io"><img id="premier" src="/images/sponsors/pendo.svg" /></a>
 			<ul class="second_tier">
 			  <li class="second_tier_sponsor"><a href="http://www.workfront.com"><img src="/images/sponsors/workfront.svg" /></a></li>
