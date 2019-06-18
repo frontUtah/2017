@@ -95,6 +95,7 @@ foreach($instructors as $instructor) {
 			  <li class="second_tier_sponsor"><a href="http://www.underbelly.is" target="_blank"><img src="/images/sponsors/underbelly.svg" /></a></li>
 			  <li class="second_tier_sponsor"><a href="https://alphahq.com" target="_blank"><img src="/images/sponsors/alphahq.svg" /></a></li>
 			  <li class="second_tier_sponsor"><a href="http://www.invisionapp.com" target="_blank"><img src="/images/sponsors/invision.svg" /></a></li>
+			  <li class="second_tier_sponsor"><a href="http://www.balsamiq.com" target="_blank"><img src="/images/sponsors/balsamiq.svg" height="60px" /></a></li>
 			</ul>
 		</section>
 			
