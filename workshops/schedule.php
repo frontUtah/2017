@@ -1,8 +1,8 @@
 <?php
 
 // off-season
-header('/workshops', true, 307);
-exit();
+//header('/workshops', true, 307);
+//exit();
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
@@ -41,10 +41,10 @@ function print_schedulerow($day, $slot) {
 ?>
 	<main class="secondary product-workshops-page workshop-schedule">
 		<section class="hero">
-			<h1>Schedule</h1>
+			<h1>2018 schedule</h1>
 		</section>
 		<section class="schedule-breakdown">
-			<h2>Schedule</h2>
+			<h2>2018 schedule</h2>
 			<div class="schedule-day">
 				<ol class="timeline">
 					<li class="timeslot category">
