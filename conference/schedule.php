@@ -2,7 +2,7 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Schedule - Front UX & Product Management Case Study Conference, 6-7 June 2019';
+$title = 'Schedule - Front UX & Product Management Case Study Conference, 27-29 May 2020';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
@@ -42,7 +42,7 @@ function print_schedulerow($day, $slot) {
 			<h1>2019 schedule</h1>
 		</section>
 		<section class="schedule-breakdown">
-			<h2>2018 schedule</h2>
+			<h2>2019 schedule</h2>
 			<div class="schedule-day">
 				<h3>Thursday, 6 June 2019</h3>
 				<ol class="timeline">
@@ -200,10 +200,10 @@ function print_schedulerow($day, $slot) {
 		</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
-		<p>In it's 5th year, Front is a sell-out event, with  
-			<strong>1,000 annual attendees from 5 countries and 31 states</strong> 
-			across the US. Join us at the Front to share, learn, and be inspired 
-			to create amazing products.</p>
+			<p>In it's 6th year, Front is a sell-out event, with  
+				<strong>800 annual attendees from 8 countries and 34 states</strong> 
+				across the US. Join us at the Front to share, learn, and be inspired 
+				to create amazing products.</p>
 			<p><a href="/conference/registration" class="button">Register</a></p>
 		</section>
 	</main>

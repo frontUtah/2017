@@ -2,7 +2,7 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Front UX & Product Management Case Study Conference, 6-7 June 2019';
+$title = 'Front UX & Product Management Case Study Conference, 27-29 May 2020';
 
 $meta['twitter']['card'] = "Front is the product conference for UX designers and product managers. It's a practitioner’s conference. Attendees come for an education, real world, from-the-trenches case studies, and hands-on training from their peers. It's four days of learning and growth, providing answers to deep organizational questions and insights into how to validate and solve the right problems in the right way.";
 $meta['twitter']['site'] = '@front';
@@ -28,7 +28,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li>1000+ product designers and managers</li>
 				</ul>
 			</p>
-			<p class="date-location">6-7 June 2019 • Salt Lake City, Utah</p>
+			<p class="date-location">27-29 May 2020 • Salt Lake City, Utah</p>
 			<a href="http://www.pluralsight.com"><img id="broughtoyouby" src="/images/frontworkshops18/premeir-sponsor.png" /></a>
 			<p><a href="/conference/registration" class="button">Register</a></p>
 		</section>
@@ -39,7 +39,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		</section>
 		
 		<section class="instructor-preview">
-			<h2>Speakers</h2>
+			<h2>2019 speakers</h2>
 			<ul class="instructor-list">
 
 <?php
@@ -88,33 +88,8 @@ foreach($speakers as $instructor) {
 		</section>
 		
 		<!--
-		<section class="scholarship" id="scholarship">
-			<div class="scholarship-logos"><img src="../images/conf-scholarship-vschool-logos.png" width="300"></div>
-			<h2>Win a free scholarship to the V School</h2>
-			<div class="columns">
-				<div>
-					<p><strong>5 Finalists Receive</strong></p>
-					<ul class="default">
-						<li>Free 2 day ticket to Front Conference</li>
-						<li>Tour and opportunity meet the teams at 5 top Utah tech companies or design agencies</li>
-						<li>Mentorship from top design leader</li>
-					</ul>
-				</div>
-				<div>
-					<p><strong>1 Scholarship Winner Receives</strong></p>
-					<ul class="default">
-						<li>12 week UX immersive course at V School (value $15,000), starting 9 July</li>
-						<li>Internship with Contravent</li>
-					</ul>
-				</div>
-			</div>
-			<a href="https://vschool.io/front-scholarship" target="_blank" class="button">Apply</a>
-		</section>
-		-->
-		
 		<section class="training-courses sponsors">
 			<h2>Sponsors</h2>
-			<!---->
 			<a href="http://www.pluralsight.com" target="_blank"><img id="premier" src="/images/sponsors/pluralsight.svg" /></a>
 			<ul class="second_tier">
 				<li class="second_tier_sponsor"><a href="https://www.goabstract.com/?&utm_medium=Events&utm_source=Events-Conference&utm_campaign=CY19-Events-Conference-Front-Jun-6" target="_blank"><img src="/images/sponsors/abstract.svg" height="60px" /></a></li>
@@ -131,16 +106,9 @@ foreach($speakers as $instructor) {
 				<li class="second_tier_sponsor"><a href="https://www.split.io/" target="_blank"><img src="/images/sponsors/split.svg" height="60px" /></a></li>
 				<li class="second_tier_sponsor"><a href="https://www.indeed.com/" target="_blank"><img src="/images/sponsors/indeed.svg" height="60px" /></a></li>
 				<li class="second_tier_sponsor"><a href="https://www.motifresearch.com/" target="_blank"><img src="/images/sponsors/motif.svg" height="60px" /></a></li>
-			  <!--
-			  <li class="second_tier_sponsor"><a href="https://www.vschool.io/" target="_blank"><img src="/images/sponsors/vschool.png" height="60px" /></a></li>
-			  <li class="second_tier_sponsor"><a href="http://www.jane.com" target="_blank"><img src="/images/sponsors/jane.svg" /></a></li>
-			  <li class="second_tier_sponsor"><a href="http://www.podium.com" target="_blank"><img src="/images/sponsors/podium.svg" /></a></li>
-			  <li class="second_tier_sponsor"><a href="http://www.domo.com" target="_blank"><img src="/images/sponsors/domo.svg" style="max-width: 70px;" /></a></li>
-			  <li class="second_tier_sponsor"><a href="https://www.ancestry.com" target="_blank"><img src="/images/sponsors/ancestry.svg" /></a></li>
-			  <li class="second_tier_sponsor"><a href="https://www.kroger.com" target="_blank"><img src="/images/sponsors/kroger.svg" /></a></li>
-			-->
 			</ul>
 		</section>
+		-->
 		
 		<section class="photo-collage">
 			<img src="/images/collage-front-photos-mobile@2x.jpg" alt="" class="mobile">
@@ -186,8 +154,8 @@ foreach($speakers as $instructor) {
 	</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
-			<p>In it's 5th year, Front is a sell-out event, with  
-				<strong>1,000 annual attendees from 5 countries and 31 states</strong> 
+			<p>In it's 6th year, Front is a sell-out event, with  
+				<strong>800 annual attendees from 8 countries and 34 states</strong> 
 				across the US. Join us at the Front to share, learn, and be inspired 
 				to create amazing products.</p>
 			<p><a href="/conference/registration" class="button">Register</a></p>

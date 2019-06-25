@@ -2,7 +2,7 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Why attend - Front UX & Product Management Case Study Conference, 6-7 June 2019';
+$title = 'Why attend - Front UX & Product Management Case Study Conference, 27-29 May 2020';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
@@ -56,8 +56,8 @@ We believe product management and product design play a central role in the succ
 			</ul>
 		</section>
 		<section class="attendant-charts">
-			<h2>Front 2018 attendees</h2>
-			<p class="about-attendant-charts">In it's 5th year, the Front UX & Product Management Case Study Conference and Workshop Series are sell-out events, with 1,000 annual attendees from 5 countries and 31 states across the US. While focused specifically on UX, product management, research, and leadership, anyone involved in product discovery, delivery, is encouraged to attend and will leave with a wealth of insights and skills. The conference talks cover the range between basic and advanced topics, providing valuable insights to both students and seasoned professionals.</p>
+			<h2>2019 attendees</h2>
+			<p class="about-attendant-charts">In it's 6th year, the Front UX & Product Management Case Study Conference and Workshop Series are sell-out events, with 800+ annual attendees from 8 countries and 34 states across the US. While focused specifically on UX, product management, research, and leadership, anyone involved in product discovery, delivery, is encouraged to attend and will leave with a wealth of insights and skills. The conference talks cover the range between basic and advanced topics, providing valuable insights to both students and seasoned professionals.</p>
 			<div class="chart ring-chart">
 				<h4>Attendee by job title</h4>
 				<img style="max-width: 80%" src="/images/ring-chart.png" alt="">
@@ -66,7 +66,7 @@ We believe product management and product design play a central role in the succ
 				<h4>Attendee by location</h4>
 				<img style="max-width: 80%" src="/images/state-map.png" alt="">
 			</div>
-			<p class="footnote">Including Canada, Great Britain, Brazil, Indian, Sweden, Australia, Tokyo, and Peru!</p>
+			<p class="footnote">Including Austria, Brazil, Canada, Nigeria, Netherlands, New Zealand, and South Africa!</p>
 		</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>

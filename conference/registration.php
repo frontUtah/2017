@@ -2,7 +2,7 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Registration - Front UX & Product Management Case Study Conference, 6-7 June 2019';
+$title = 'Registration - Front UX & Product Management Case Study Conference, 27-29 May 2020';
 
 $meta['twitter']['card'] = "Early bird passes are $500, that's 30% off if you purchase before April 1st. It gets even better if you bring your team. Tickets are only $450 each for groups of 10+, which is 35% off on the full price passes.";
 $meta['twitter']['site'] = '@front';
@@ -32,17 +32,18 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<h2>Pricing</h2>
 			
 			
-			<!--
+			<!-- Early bird -->
+			
 			<div class="prices">
 				<dl class="pricing-types">
 					<dt><div></div></dt>
 					<dd class="early">
 						Early bird pricing
-						<small>30% off until 31 March 2019</small>
+						<small>30% off through 27 March 2020</small>
 					</dd>
 					<dd class="standard">
 						Standard pricing
-						<small>Starting 1 April 2019</small>
+						<small>Starting 28 March 2020</small>
 					</dd>
 				</dl>
 				<dl class="full">
@@ -71,7 +72,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<dd class="standard">$630</dd>
 				</dl>
 			</div>
-			-->
+			
+			<!-- Standard -->
+			<!--
 			
 			<div class="prices">
 				<dl class="full">
@@ -97,8 +100,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<dd class="early">$630</dd>
 				</dl>
 			</div>
-			
-			<!-- <p><a target="_blank" href="https://frontconference2019.eventbrite.com" class="button">Register</a></p> -->
+			-->
 			
 			<div id="eventbrite-widget-container-47175925463"></div>
 
@@ -112,8 +114,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			    window.EBWidgets.createWidget({
 			        // Required
 			        widgetType: 'checkout',
-			        eventId: '47175925463',
-			        iframeContainerId: 'eventbrite-widget-container-47175925463',
+			        eventId: '64259032496',
+			        iframeContainerId: 'eventbrite-widget-container-64259032496',
 			
 			        // Optional
 			        iframeContainerHeight: 875,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
@@ -125,9 +127,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		
 		<a id="hotels"></a><section class="accomodations">
 			<h2>Hotels</h2>
-			<p class="about-accomodations">We have acquired a discounted nightly rate of <!--$199/night + tax and--> $130/night + tax for a single king bed or two queens, at the hotel below. We encourage you to register early as these rates are only available for a limit number of rooms until May 15th. Book your room by calling their front desk and asking for the “Front Conference” group discount. The hotel is within two blocks (8 minute walk) from the theater.</p> 
+			<p><em>We are in the process of negotiating a group rate at a hotel next to the venue. Rates and registration details will be posted as soon as they become available.</em></p>
+			<!--
+			<p class="about-accomodations">We have acquired a discounted nightly rate of $130/night + tax for a single king bed or two queens, at the hotel below. We encourage you to register early as these rates are only available for a limit number of rooms until May 15th. Book your room by calling their front desk and asking for the “Front Conference” group discount. The hotel is within two blocks (8 minute walk) from the theater.</p> 
 			
-			<!-- Marriott
 			<div class="hotel">
 				<div class="hotel-info">
 					<h3>Salt Lake City Marriott City Center</h3>
@@ -148,9 +151,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<p><a target="_blank" href="https://www.marriott.com/events/start.mi?id=1549586151032&key=GRP" class="button">Book Now</a></p>
 				</div>
 			</div>
-			 -->
 
-			<!-- Salt Lake Plaza -->
 			<div class="hotel">
 				<div class="hotel-info">
 					<h3>Salt Lake Plaza Hotel Temple Square</h3>
@@ -174,6 +175,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<p>Act quickly to get the conference discount rate of <strong>$130/night</strong> (15% off). Deposit required to book.</p>
 					<p><a target="_blank" href="#" class="button">Call Now</a></p>
 				</div>
+				
+				-->
 			</div>
 		</section>
 		

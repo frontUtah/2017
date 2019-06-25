@@ -2,7 +2,7 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'FAQs - Front UX & Product Management Case Study Conference, 6-7 June 2019';
+$title = 'FAQs - Front UX & Product Management Case Study Conference, 27-29 May 2020';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
@@ -23,7 +23,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<h3>Registration information</h3>
 						<dl class="accordion">
 							<dt class="accordion-title question">What are the ticket pricing details?</dt>
-							<dd class="accordion-content answer">Front UX & Product Management Case Study Conference full conference passes are $500 (30% off) until 31 March 2018. Standard price Front UX & Product Management Case Study Conference full conference passes are $700. This includes all meals, courses, and activities.</dd>
+							<dd class="accordion-content answer">Front UX & Product Management Case Study Conference full conference passes are $500 (30% off) until 27 March 2018. Standard price Front UX & Product Management Case Study Conference full conference passes are $700. This includes all meals, courses, and activities.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Do you offer group pricing?</dt>
@@ -38,12 +38,16 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<dd class="accordion-content answer">Front UX & Product Management Case Study Conference is designed for product teams. While focused specifically on UX, Product Management, research, and leadership, anyone involved in digital product discovery and delivery is encouraged to attend and will leave with a wealth of insights. The talks cover a range between basic and advanced topics, providing valuable inspiration and fresh ideas to both students and seasoned professionals.</dd>
 						</dl>
 						<dl class="accordion">
-							<dt class="accordion-title question">What is the conference cancellation policy?</dt>
-							<dd class="accordion-content answer">All sales are final. Tickets may not be sold.</dd>
+							<dt class="accordion-title question">Can I change the name or other details on my tickets?</dt>
+							<dd class="accordion-content answer">Yes, but only the person who purchased the ticket can make these changes. Simply long into Eventbrite and <a href="https://www.eventbrite.com/support/articles/en_US/How_To/how-to-update-your-ticket-registration-information">follow these instructions</a>. You are free to change your ticket details up to 3 days before the event, including name, title, etc. Please make sure these details are correct as they will be what we show on your badge. If you can’t reach the person who purchased the ticket in order to get them to change the information, please contact us at tickets@frontutah.com and we will help you make the updates.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Can I transfer my conference pass to a colleague if I am unable to attend?</dt>
-							<dd class="accordion-content answer">Tickets may be transferred to someone else until two weeks before the event. Sponsorship, press, or complimentary passes may not be transferred.</dd>
+							<dd class="accordion-content answer">Yes, by changing your name and information to someone else, following the process described above. Tickets may not be sold.</dd>
+						</dl>
+						<dl class="accordion">
+							<dt class="accordion-title question">Can I get a refund?</dt>
+							<dd class="accordion-content answer">We offer a full refund up to one month before the conference. Simply log into Eventbrite and <a href="https://www.eventbrite.com/support/articles/en_US/How_To/can-i-get-a-refund#2">following these instructions</a>. As with changes, only the person who purchased the tickets can request a refund.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Do you offer discounts for students?</dt>
@@ -63,12 +67,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<h3>Hotel and Transportation</h3>
 						<dl class="accordion">
 							<dt class="accordion-title question">How do I book lodging? Is there a discount and what is the deadline?</dt>
-							<dd class="accordion-content answer">We have acquired a discounted nightly rate of $199/night + tax for a single king or queen bed, at the <a href="https://www.marriott.com/events/start.mi?id=1549586151032&key=GRP">Salt Lake City Marriott City Center</a>. The rate is available for stays between 5 June - 7 June 2019. The deadline for booking lodging at the discounted rate is 1 May 2019. We encourage you to register early as it the hotel will likely sell out before that date. Book your room online or by calling 888.236.2427 and asking for the “Front” group discount. The hotel is a block and a half (5 minute walk) from the theater.<br><br> In addition we have also secured a discount with <a href="https://goo.gl/maps/sxQUuXDmgq52">Salt Lake Plaza Hotel Temple Square</a> at a discounted nightly rate $130/night + tax for a single king or queen bed. Book your room by calling (801) 521-0130 and asking for the "Front" group discount. The Plaza Hotel is three blocks (8 minute walk) from the theater. A deposit is required to book. </dd>
+							<dd class="accordion-content answer">We are in the process of negotiating a group rate at a hotel next to the venue. Rates and registration details will be posted as soon as they become available.</dd>
+							<!-- dd class="accordion-content answer">We have acquired a discounted nightly rate of $199/night + tax for a single king or queen bed, at the <a href="https://www.marriott.com/events/start.mi?id=1549586151032&key=GRP">Salt Lake City Marriott City Center</a>. The rate is available for stays between 5 June - 7 June 2019. The deadline for booking lodging at the discounted rate is 1 May 2019. We encourage you to register early as it the hotel will likely sell out before that date. Book your room online or by calling 888.236.2427 and asking for the “Front” group discount. The hotel is a block and a half (5 minute walk) from the theater.<br><br> In addition we have also secured a discount with <a href="https://goo.gl/maps/sxQUuXDmgq52">Salt Lake Plaza Hotel Temple Square</a> at a discounted nightly rate $130/night + tax for a single king or queen bed. Book your room by calling (801) 521-0130 and asking for the "Front" group discount. The Plaza Hotel is three blocks (8 minute walk) from the theater. A deposit is required to book. </dd -->
 						</dl>
-						<dl class="accordion">
-							<dt class="accordion-title question">Are there other hotels recommended?</dt>
-							<dd class="accordion-content answer">We highly recommend the <a href="https://www.marriott.com/events/start.mi?id=1549586151032&key=GRP">Salt Lake City Marriott City Center</a> and the <a href="https://goo.gl/maps/sxQUuXDmgq52">Salt Lake Plaza Hotel Temple Square</a>, as we have arranged a discounted rate and because of the proximity to the venue. That said, the Salt Lake Marriott Downtown at City Creek, Hotel Monaco, Hilton Salt Lake City Center are also close to the venue and are also good options.</dd>
-						</dl>
+						<!--
 						<dl class="accordion">
 							<dt class="accordion-title question">Can I cancel my hotel reservation if I am unable to attend?</dt>
 							<dd class="accordion-content answer">A Deposit equal to two (2) night’s stay is required to hold each individual’s reservation, with final payment due thirty (30) days prior to arrival. Reservations made within thirty (30) days of arrival will be required to be paid in full at time of booking. Such deposit shall serve to confirm the reservation for the date(s) indicated. This deposit is refundable if notice of cancellation is received at least thirty (30) days prior to arrival and a cancellation number is obtained. All deposits shall be charged at the time the reservation is made. No refunds for late arrivals, early departures or down grades.</dd>
@@ -80,6 +82,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl class="accordion">
 							<dt class="accordion-title question">Is there parking at or near the host hotel?</dt>
 							<dd class="accordion-content answer">Yes, on-site parking for $4/hour or $17/day and valet parking for $22/day.</dd>
+						</dl>
+						-->
+						<dl class="accordion">
+							<dt class="accordion-title question">Are there other hotels recommended?</dt>
+							<dd class="accordion-content answer">We highly recommend the <a href="https://www.marriott.com/events/start.mi?id=1549586151032&key=GRP">Salt Lake City Marriott City Center</a> and the <a href="https://goo.gl/maps/sxQUuXDmgq52">Salt Lake Plaza Hotel Temple Square</a>, as we have arranged a discounted rate and because of the proximity to the venue. That said, the Salt Lake Marriott Downtown at City Creek, Hotel Monaco, Hilton Salt Lake City Center are also close to the venue and are also good options.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Is there parking at or near the theater?</dt>
@@ -94,7 +101,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li class="faq-category">
 						<h3>Additional conference information</h3>
 						<dl class="accordion">
-							<dt class="accordion-title question">Where do I found out who is speaking?</dt>
+							<dt class="accordion-title question">Where do I find out who is speaking?</dt>
 							<dd class="accordion-content answer">Information about who is teaching courses and Front Salt Lake City can be found at <a href="/conference/speakers">www.frontutah.com/conference/speakers</a>. To find out when individual speakers will be speaking, visit the talks page at <a href="/conference/talks">www.frontutah.com/conference/talks</a>.</dd>
 						</dl>
 						<dl class="accordion">
@@ -116,7 +123,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl class="accordion">
 							<dt class="accordion-title question">Are specialty dietary requirements accommodated with the meals at the event?</dt>
 							<dd class="accordion-content answer">Vegetarian options will be provided during each meal.</dd>
-						</dl>					</li>
+						</dl>
+					</li>
+					
 					<li class="faq-category">
 						<h3>Sponsors and volunteering</h3>
 						<dl class="accordion">
@@ -147,8 +156,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
-			<p>In it's 5th year, Front is a sell-out event, with  
-				<strong>1,000 annual attendees from 5 countries and 31 states</strong> 
+			<p>In it's 6th year, Front is a sell-out event, with  
+				<strong>800 annual attendees from 8 countries and 34 states</strong> 
 				across the US. Join us at the Front to share, learn, and be inspired 
 				to create amazing products.</p>
 			<p><a href="/conference/registration" class="button">Register</a></p>
