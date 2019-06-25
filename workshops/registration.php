@@ -138,7 +138,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</div>
 				<div class="book-hotel">
 					<p>Act quickly to get the conference discount rate of <strong>$129/night</strong> (13% off).</p>
-					<p><a target="_blank" href="https://www.staybridge.com/redirect?path=hd&brandCode=SB&localeCode=en&regionCode=1&hotelCode=SLCMV&_PMID=99801505&GPC=FRT&viewfullsite=true" class="button">Book Now</a></p>
+					<p><a target="_blank" href="https://www.staybridge.com/redirect?path=hd-hotel-room-rates&brandCode=SB&localeCode=en&regionCode=1&hotelCode=SLCMV&_PMID=99801505&GPC=UTA&viewfullsite=true" class="button">Book Now</a></p>
 				</div>
 			</div>
 			
