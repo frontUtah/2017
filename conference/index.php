@@ -2,7 +2,7 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Front UX & Product Management Case Study Conference, 27-29 May 2020';
+$title = 'Front UX & Product Management Case Study Conference, 28-29 May 2020';
 
 $meta['twitter']['card'] = "Front is the product conference for UX designers and product managers. It's a practitioner’s conference. Attendees come for an education, real world, from-the-trenches case studies, and hands-on training from their peers. It's four days of learning and growth, providing answers to deep organizational questions and insights into how to validate and solve the right problems in the right way.";
 $meta['twitter']['site'] = '@front';
@@ -28,7 +28,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li>1000+ product designers and managers</li>
 				</ul>
 			</p>
-			<p class="date-location">27-29 May 2020 • Salt Lake City, Utah</p>
+			<p class="date-location">28-29 May 2020 • Salt Lake City, Utah</p>
 			<a href="http://www.pluralsight.com"><img id="broughtoyouby" src="/images/frontworkshops18/premeir-sponsor.png" /></a>
 			<p><a href="/conference/registration" class="button">Register</a></p>
 		</section>
