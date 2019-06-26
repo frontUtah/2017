@@ -1,9 +1,5 @@
 <?php
 
-// off-season
-header('/workshops', true, 307);
-exit();
-
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
 $title = 'Courses - Front UX & Product Management Workshop Series, 7-8 November 2019';
@@ -30,10 +26,10 @@ $tabs[] = array('link' => 'leadership', 'text' => 'Leadership');
 
 <main class="secondary product-workshops-page workshops-courses">
 	<section class="hero">
-		<h1>Courses</h1>
+		<h1> 2018 courses</h1>
 	</section>
 	<section class="courses <?php echo $track; ?>">
-		<h2 class="">Courses</h2>
+		<h2 class="">2018 courses</h2>
 		<p class="about-courses">
 			<?php
 			
@@ -104,7 +100,7 @@ $tabs[] = array('link' => 'leadership', 'text' => 'Leadership');
 					<?php
 
 					function print_courses($track, $day) {
-						$slots = get_timeslots($day);
+						$slots = get_workshopseries_timeslots($day);
 
 						foreach($slots as $slot => $slot_details) {
 							$course = get_course($track, $day, $slot);
