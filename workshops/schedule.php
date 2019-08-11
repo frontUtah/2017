@@ -41,10 +41,12 @@ function print_schedulerow($day, $slot) {
 ?>
 	<main class="secondary product-workshops-page workshop-schedule">
 		<section class="hero">
-			<h1>2019 Schedule</h1>
+			<h1>Schedule</h1>
 		</section>
 		<section class="schedule-breakdown">
-			<h2>2019 Schedule</h2>
+			<h2>Schedule</h2>
+			
+			<!--
 			<div class="schedule-day">
 				<ol class="timeline">
 					<li class="timeslot category">
@@ -66,6 +68,8 @@ function print_schedulerow($day, $slot) {
 					</li>
 				</ol>
 			</div>
+			-->
+			
 			<div class="schedule-day">
 				<h3>Thursday, 7 November 2019</h3>
 				<ol class="timeline">

@@ -11,10 +11,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 ?>
 	<main class="secondary product-workshops-page workshops-instructors">
 		<section class="hero">
-			<h1>2019 Instructors</h1>
+			<h1>Instructors</h1>
 		</section>
 		<section class="instructors">
-			<h2 class="">2019 Instructors</h2>
+			<h2 class="">Instructors</h2>
 			<ul class="instructor-list">
 
 <?php

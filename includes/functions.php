@@ -12,7 +12,7 @@ function get_instructor($slug) {
 }
 
 // get courses by instructor
-function get_courses($instructor) {
+function get_courses_by_instructor($instructor) {
 	global $courses;
 
 	foreach($courses as $course) {
@@ -33,6 +33,21 @@ function get_course($track, $day, $slot) {
 			return $course;
 		}
 	}
+}
+
+// get courses by slot
+function get_courses($day, $slot) {
+	global $courses;
+	
+	$this_courses = array();
+
+	foreach($courses as $course) {
+		if($course['day'] == $day && $course['slot'] == $slot) {
+			$this_courses[] = $course;
+		}
+	}
+	
+	return $this_courses;
 }
 
 // get speaker

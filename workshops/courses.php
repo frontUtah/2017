@@ -6,91 +6,15 @@ $title = 'Courses - Front UX & Product Management Workshop Series, 7-8 November 
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
-// if no tab requested, redirect to the first
-if(empty($uri_parts[2])) {
-	$string = '<script type="text/javascript">';
-    $string .= 'window.location = "http://' . $_SERVER['HTTP_HOST'] . '/workshops/courses/ux' . '"';
-    $string .= '</script>';
-    echo $string;
-	die;
-} else {
-	$track = $uri_parts[2];
-}
-
-$tabs[] = array('link' => 'ux', 'text' => 'UX');
-$tabs[] = array('link' => 'product-management', 'text' => 'Product Management');
-$tabs[] = array('link' => 'research', 'text' => 'Research');
-$tabs[] = array('link' => 'leadership', 'text' => 'Leadership');
-
 ?>
 
 <main class="secondary product-workshops-page workshops-courses">
 	<section class="hero">
-		<h1> 2019 Courses</h1>
+		<h1>Courses</h1>
 	</section>
 	<section class="courses <?php echo $track; ?>">
-		<h2 class="">2019 Courses</h2>
-		<p class="about-courses">
-			<?php
-			
-			switch($track) {
-				case 'ux':
-					echo 'User experience is everyone’s responsibility, but someone needs to own it. Every team needs an advocate with a keen eye and deep empathy. Learn how to harness the power of your team from these product design experts and evangelists.';
-					break;
-				case 'product-management':
-					echo 'Achieving greatness through influence. It’s a little like herding cats. Product Managers help their teams ship the right products to their users. These experienced leaders will share how they are innovating through continuous discovery and validation.';
-					break;
-				case 'research':
-					echo 'The cross-functional team is crucial for effective product design. Delightful, user-focused products only come from organizations that listen, iterate, and learn at every level. Learn about collaboration and culture from other members of the team.';
-					break;
-				case 'leadership':
-					echo 'Regardless of your place in the product team, strong leadership is a requirement for improving process and ultimately, the ability to deliver products and experiences which matter. ';
-					break;
-			}
-			
-			?>
-		</p>
+		<h2 class="">Courses</h2>
 
-		<nav class="course-track-nav">
-			<h4>Browse by track</h4>
-			<div class="track-options" onclick="">
-				<ul>
-					<!--Mobile Order: Actual Order. Desktop Order: Class Names. Bless you Flexbox-->
-
-					<?php
-
-					// build tabs
-
-					$t = '';
-
-					foreach($tabs as $key => $tab) {
-						$ti = '';
-						
-						$ti .= '<li class="order-' . ($key + 1)  . '">';
-
-						if($tab['link'] == $track) {
-							$ti .= '<span class="active">' . $tab['text'] . '</span>';
-						} else {
-							$ti .= '<a href="/workshops/courses/' . $tab['link'] . '">' . $tab['text'] . '</a>';
-						}
-
-						$ti .= '</li>';
-						$ti .= "\n";
-					
-						if($tab['link'] == $track) {
-							$t = $ti . $t;
-						} else {
-							$t .= $ti;
-						}
-					}
-					
-					echo $t;
-
-					?>
-
-				</ul>
-			</div>
-		</nav>
 
 		<div class="course-calendar">
 			<div class="course-date">
@@ -99,60 +23,64 @@ $tabs[] = array('link' => 'leadership', 'text' => 'Leadership');
 
 					<?php
 
-					function print_courses($track, $day) {
+					function print_courses($day) {
 						$slots = get_workshopseries_timeslots($day);
 
 						foreach($slots as $slot => $slot_details) {
-							$course = get_course($track, $day, $slot);
-							$instructor = get_instructor($course['instructor']);
-
-							if(!empty($course)) {
-								echo '
-												<li class="course">
-													<dl>
-														<dt class="time">' . $slot_details['time'] . ' <span class="am-pm">' . $slot_details['meridian'] . '</span></dt>
-														<dd class="instructor ' . $instructor['discipline'] . '">
-															<div class="instructor-photo">
-																<a href="/workshops/instructor/' . $instructor['slug'] . '"><img src="/images/';
-																
-								// ensure photo exists
-								if(file_exists($_SERVER['DOCUMENT_ROOT'] . '/images/' . $instructor['photo'])) {
-									echo $instructor['photo'];
+							$courses = get_courses($day, $slot);
+							
+							foreach($courses as $course) {
+								$instructor = get_instructor($course['instructor']);
+	
+								if(!empty($course)) {
+									echo '
+													<li class="course">
+														<dl>
+															<dt class="time">' . $slot_details['time'] . ' <span class="am-pm">' . $slot_details['meridian'] . '</span></dt>
+															<dd class="instructor ' . $instructor['discipline'] . '">
+																<div class="instructor-photo">
+																	<a href="/workshops/instructor/' . $instructor['slug'] . '"><img src="/images/';
+																	
+									// ensure photo exists
+									if(file_exists($_SERVER['DOCUMENT_ROOT'] . '/images/' . $instructor['photo'])) {
+										echo $instructor['photo'];
+									} else {
+										echo 'instructor_missing.png';
+									}
+									
+									echo '" alt=""></a>
+																</div>
+																<div>
+																	<a href="/workshops/instructor/' . $instructor['slug'] . '">
+																		<h4>' . $instructor['first'] . ' ' . $instructor['last'] . '</h4>
+																		<p class="title">' . $instructor['title'] . '<br>' . $instructor['company'] . '</p>
+																		<p class="experience"><span class="label">' . $course['level'] . '</span></p>
+																	</a>
+																</div>
+															</dd>
+															<dd class="description">
+																<h4>' . $course['title'] . '</h4>
+																<p>' . $course['description'] . '</p>
+															</dd>
+														</dl>
+													</li>';
 								} else {
-									echo 'instructor_missing.png';
+									echo '
+													<li class="course">
+														<dl>
+															<dt class="time">' . $slot_details['time'] . ' <span class="am-pm">' . $slot_details['meridian'] . '</span></dt>
+															<dd class="description">
+																<h4>TBD</h4>
+															</dd>
+														</dl>
+													</li>';
 								}
 								
-								echo '" alt=""></a>
-															</div>
-															<div>
-																<a href="/workshops/instructor/' . $instructor['slug'] . '">
-																	<h4>' . $instructor['first'] . ' ' . $instructor['last'] . '</h4>
-																	<p class="title">' . $instructor['title'] . '<br>' . $instructor['company'] . '</p>
-																	<p class="experience"><span class="label">' . $course['level'] . '</span></p>
-																</a>
-															</div>
-														</dd>
-														<dd class="description">
-															<h4>' . $course['title'] . '</h4>
-															<p>' . $course['description'] . '</p>
-														</dd>
-													</dl>
-												</li>';
-							} else {
-								echo '
-												<li class="course">
-													<dl>
-														<dt class="time">' . $slot_details['time'] . ' <span class="am-pm">' . $slot_details['meridian'] . '</span></dt>
-														<dd class="description">
-															<h4>TBD</h4>
-														</dd>
-													</dl>
-												</li>';
 							}
 						}
 					}
 
-					echo print_courses($uri_parts[2], 1);
+					echo print_courses(1);
 
 					?>
 
@@ -161,7 +89,7 @@ $tabs[] = array('link' => 'leadership', 'text' => 'Leadership');
 			<div class="course-date">
 				<h3>Friday, 8 November 2019</h3>
 				<ul class="days-courses">
-					<?php echo print_courses($uri_parts[2], 2); ?>
+					<?php echo print_courses(2); ?>
 				</ul>
 			</div>
 		</div>

@@ -10,7 +10,7 @@ if(is_null($instructor)) {
 	exit();
 }
 
-$courses = get_courses($instructor['slug']);
+$courses = get_courses_by_instructor($instructor['slug']);
 
 $title = $instructor['first'] . ' ' . $instructor['last'] . ' - Front UX & Product Management Workshop Series, 7-8 November 2019';
 
