@@ -38,7 +38,7 @@ $courses[] = array(
 	'day' => 1,
 	'slot' => 2,
 	'instructor' => 'bhargavikamakshivalli',
-	'level' => 'intermediate'
+	'level' => 'basics'
 );
 
 // PRODUCT MANGEMENT
@@ -51,7 +51,7 @@ $courses[] = array(
 	'day' => 1,
 	'slot' => 1,
 	'instructor' => 'danolsen',
-	'level' => 'intermediate'
+	'level' => 'advanced'
 );
 
 // Jeff Whitlock
@@ -95,7 +95,7 @@ $courses[] = array(
 	'day' => 2,
 	'slot' => 1,
 	'instructor' => 'mariahhay',
-	'level' => 'intermediate'
+	'level' => 'advanced'
 );
 
 // RESEARCH
@@ -108,7 +108,7 @@ $courses[] = array(
 	'day' => 1,
 	'slot' => 2,
 	'instructor' => 'traewinterton',
-	'level' => 'intermediate'
+	'level' => 'basics'
 );
 
 // Andrew Branch
@@ -132,7 +132,7 @@ $courses[] = array(
 	'day' => 1,
 	'slot' => 1,
 	'instructor' => 'toddzakiwarfel',
-	'level' => 'intermediate'
+	'level' => 'advanced'
 );
 
 // Heather Phillips 
@@ -165,7 +165,7 @@ $courses[] = array(
 	'day' => 2,
 	'slot' => 2,
 	'instructor' => 'brianbrower',
-	'level' => 'intermediate'
+	'level' => 'advanced'
 );
  
 
