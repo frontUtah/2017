@@ -26,10 +26,10 @@ $tabs[] = array('link' => 'leadership', 'text' => 'Leadership');
 
 <main class="secondary product-workshops-page workshops-courses">
 	<section class="hero">
-		<h1> 2018 courses</h1>
+		<h1> 2019 Courses</h1>
 	</section>
 	<section class="courses <?php echo $track; ?>">
-		<h2 class="">2018 courses</h2>
+		<h2 class="">2019 Courses</h2>
 		<p class="about-courses">
 			<?php
 			
@@ -94,7 +94,7 @@ $tabs[] = array('link' => 'leadership', 'text' => 'Leadership');
 
 		<div class="course-calendar">
 			<div class="course-date">
-				<h3>Thursday, 8 November 2018</h3>
+				<h3>Thursday, 7 November 2019</h3>
 				<ul class="days-courses">
 
 					<?php
@@ -159,7 +159,7 @@ $tabs[] = array('link' => 'leadership', 'text' => 'Leadership');
 				</ul>
 			</div>
 			<div class="course-date">
-				<h3>Friday, 9 November 2018</h3>
+				<h3>Friday, 8 November 2019</h3>
 				<ul class="days-courses">
 					<?php echo print_courses($uri_parts[2], 2); ?>
 				</ul>
