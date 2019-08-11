@@ -1869,8 +1869,8 @@ section.courses .about-courses {
 }
 
 section.courses .course-calendar h3 {
-	background: #B2B2B2;
-	color: #FFF;
+	background: #fafafa;
+	color: #333;
 	font-size: 24px;
 	line-height: 60px
 }
