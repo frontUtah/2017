@@ -4,6 +4,222 @@
  * Use '</br></br>' to separate paragraphs
  */
 
+// Andrew Branch
+$instructors[] = array(
+	'slug' => 'andrewbranch',
+	'first' => 'Andrew',
+	'last' => 'Branch',
+	'title' => 'Director, Product Design',
+	'company' => 'Rev.com',
+	'discipline' => 'research',
+	'photo' => 'headshots/andrewbranch.jpg',
+	'bio' => "Andrew Branch is a product design leader, educator, and community organizer. He graduated from Brigham Young University with a BA in Anthropology and still considers himself an observer of people and an ethnographer in his user-centered research. He is currently Director of UX at Rev.com, a high-growth, San Francisco and Austin-based startup which is, essentially, a marketplace for remote work, specializing in audio transcription and video captions.<br><br>Andrew's deep love for working with startup software companies can only be rivaled by his love for the design community. Andrew has helped create and manage several communities, including Product Hive and Front Conference. He loves mentorship and has enjoyed helping many students of design find lasting careers in product and UX.",
+	'twitter' => 'andrewbranch',
+	'instagram' => 'denae_andrew',
+	'linkedin' => 'https://www.linkedin.com/in/branchandrew/'
+);
+
+// Garth Braithwaite
+$instructors[] = array(
+	'slug' => 'garthdb',
+	'first' => 'Garth',
+	'last' => 'Braithwaite',
+	'title' => 'Senior Computer Scientist',
+	'company' => 'Adobe',
+	'discipline' => 'ux',
+	'photo' => 'frontpc18/instructor_garthbraithwaite.jpg',
+	'bio' => "Front End Developer and User Experience Designer at Adobe working on developing and maintaining Adobe's internal design system.",
+	'twitter' => 'GarthDB',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/garthdb/'
+);
+
+// Mariah Hay
+$instructors[] = array(
+	'slug' => 'mariahhay',
+	'first' => 'Mariah',
+	'last' => 'Hay',
+	'title' => 'VP, Product',
+	'company' => 'Pluralsight',
+	'discipline' => 'product-management',
+	'photo' => 'frontpc18/instructor_mariahhay.jpg',
+	'bio' => 'Mariah Hay is the VP of User Experience for Pluralsight, an online subscription based education provider for the technology community. As a thought leader in human-centered design and user experience strategy, Mariah enjoys working with teams whose goal is to craft excellence for the end user. Her experience with industrial and interaction design teams serving high-level stakeholders reflects her personal goals of directing business through design excellence from the ground up. Her expertise in implementing human-centered design product practices at the enterprise level stems from over a decade of tenure in the industry including serving as Professor of Design Management at Savannah College of Art and Design, Directing UX for Universal Mind, and serving as Director of User Experience AMC Health. Mariah holds an MFA in Industrial Design from Savannah College of Art and Design.',
+	'twitter' => 'mariahhay',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/mariahhay/'
+);
+
+// Bhargavi Kamakshivalli
+$instructors[] = array(
+	'slug' => 'bhargavikamakshivalli',
+	'first' => 'Bhargavi',
+	'last' => 'Kamakshivalli',
+	'title' => 'Product Design Director',
+	'company' => 'Plaid',
+	'discipline' => 'ux',
+	'photo' => 'headshots/bhargavikamakshivalli.jpg',
+	'bio' => "Bhargavi has been actively involved in designing services and experiences for major banks and financial institutions over the last 10 years. Her interest in the FinTech industry coupled with her professional experience has seen her designing for financial literacy education in India and strategizing systemic design changes for cross-border payments in the UK and US.<br><br>Today, Bhargavi works on improving  the developer experience at Plaid, a financial connectivity platform that powers Venmo, Acorns and Betterment. She also moonlights as the Associate Research Director at the New School of Design's Visualizing Finance Lab, where she hones her professional experience in financial literacy education by researching and testing FLE concepts of narrative visualization.",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/bhargavisivakumar/'
+);
+
+// Trae Winterton
+$instructors[] = array(
+	'slug' => 'traewinterton',
+	'first' => 'Trae',
+	'last' => 'Winterton',
+	'title' => 'User Researcher',
+	'company' => 'Workfront',
+	'discipline' => 'research',
+	'photo' => 'headshots/traewinterton.jpg',
+	'bio' => "Bhargavi has been actively involved in designing services and experiences for major banks and financial institutions over the last 10 years. Her interest in the FinTech industry coupled with her professional experience has seen her designing for financial literacy education in India and strategizing systemic design changes for cross-border payments in the UK and US.<br><br>Today, Bhargavi works on improving  the developer experience at Plaid, a financial connectivity platform that powers Venmo, Acorns and Betterment. She also moonlights as the Associate Research Director at the New School of Design's Visualizing Finance Lab, where she hones her professional experience in financial literacy education by researching and testing FLE concepts of narrative visualization.",
+	'twitter' => '',
+	'instagram' => 'twinterton',
+	'linkedin' => 'https://www.linkedin.com/in/traewinterton/'
+);
+
+// Jeff Whitlock
+$instructors[] = array(
+	'slug' => 'jeffwhitlock',
+	'first' => 'Jeff',
+	'last' => 'Whitlock',
+	'title' => 'CEO',
+	'company' => 'Unbird',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/jeffwhitlock.jpg',
+	'bio' => "Jeff began his career at McKinsey & Co., a global management consulting firm. He became a product manager at Vivint.SmartHome for a machine learning capability and then the redesign of Vivint’s consumer mobile app. He was then head of product at Safeboda, a series-B ride-sharing company for motorcycle taxis. Now, Jeff is the CEO and Co-founder of Unbird, a Techstars company with the mission of helping teams build products their customers love.",
+	'twitter' => 'JeffreyWhitlock',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/jeff-whitlock/'
+);
+
+// Di Dang
+$instructors[] = array(
+	'slug' => 'didang',
+	'first' => 'Di',
+	'last' => 'Dang',
+	'title' => 'Emerging Technologies Design Advocate',
+	'company' => 'Google',
+	'discipline' => 'ux',
+	'photo' => 'headshots/didang.jpg',
+	'bio' => "I work as an Emerging Technologies Design Advocate at Google, where I  helped launch the People + AI Guidebook, a toolkit for designing AI products. Previously, I worked as a Senior UX Designer and led the Emerging Tech group at Seattle-based digital agency POP. With a degree in Philosophy and Religion, I consider myself an optimistic realist passionate about ethical design. You can also find me onstage doing improv or on Twitter at @dqpdang. ",
+	'twitter' => 'dqpdang',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/dqpdang/'
+);
+
+// Dan Olsen
+$instructors[] = array(
+	'slug' => 'danolsen',
+	'first' => 'Dan',
+	'last' => 'Olsen',
+	'title' => 'Product Management Consultant',
+	'company' => 'Olsen Solutions',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/danolsen.jpg',
+	'bio' => "Dan Olsen is a product management consultant, trainer, and author. Dan wrote the bestseller The Lean Product Playbook, a practical guide for how to achieve product-market fit. At Olsen Solutions, he works with companies to build great products and strong product teams. His clients include Facebook, Box, PayPal, Walmart, Medallia, and One Medical Group. Prior to consulting, Dan was a product leader at Intuit. Dan also founded the Lean Product Silicon Valley community which has 8,000 members.",
+	'twitter' => 'danolsen',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/danolsen98/'
+);
+
+// Todd Zaki Warfel
+$instructors[] = array(
+	'slug' => 'toddzakiwarfel',
+	'first' => 'Todd Zaki',
+	'last' => 'Warfel',
+	'title' => 'Executive Leadership and Performance Coach',
+	'company' => 'Zaki Warfel and Associates',
+	'discipline' => 'leadership',
+	'photo' => 'headshots/toddzakiwarfel.jpg',
+	'bio' => "Todd Zaki Warfel is an author, keynote speaker, and executive leadership coach. <br><br> Having held executive leadership roles at Twitter, Cisco, and Workday, he’s learned a lot about building teams, developing purpose-driven leaders, and navigating the seas of change. <br><br> On the weekends, you can find him building furniture or cycling along the California coast.",
+	'twitter' => 'zakiwarfel',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/zakiwarfel/'
+);
+
+// Heather Phillips 
+$instructors[] = array(
+	'slug' => 'heatherphillips',
+	'first' => 'Heather',
+	'last' => 'Phillips',
+	'title' => 'Director of Design',
+	'company' => 'Abstract',
+	'discipline' => 'leadership',
+	'photo' => 'headshots/heatherphillips.jpg',
+	'bio' => "Coming soon...",
+	'twitter' => 'heatherjacket',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/heather-phillips/'
+);
+
+// Brian Brower
+$instructors[] = array(
+	'slug' => 'brianbrower',
+	'first' => 'Brian',
+	'last' => 'Brower',
+	'title' => 'Chief Product Officer',
+	'company' => 'Owletcare',
+	'discipline' => 'leadership',
+	'photo' => 'headshots/brianbrower.jpg',
+	'bio' => "Coming Soon",
+	'twitter' => 'brian_brower',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/briandbrower/'
+);
+
+// Nick Sloggett
+$instructors[] = array(
+	'slug' => 'nicksloggett',
+	'first' => 'Nick',
+	'last' => 'Sloggett',
+	'title' => 'Practice Design Lead',
+	'company' => 'Formerly Uber',
+	'discipline' => 'leadership',
+	'photo' => 'headshots/nicksloggett.jpg',
+	'bio' => "Nicholas, a Colorado native, works remotely as a Consulting engineer in Denver. Over the last decade he’s held in-house, contracting, founding member, and advisor roles across a number of business verticals. He's worked with brands including Uber, Nike, Coca-Cola, Toyota, BMW, Audi, North Face, Hilton, Conde Nast, Gatorade, Under Armour, PGA, UFC, VMWare, NetApp, DaVita, L'Oréal, Red Bull, Home Depot, Lush, R/GA, Razorfish, CP+B, MetaJive, Factory Design Lab, The Integer Group, Cactus, and many others.</br></br>His leadership experience includes Founder, Head of Design, Director of Product Design, Practice Lead, Creative Director, Art Director, and Senior Designer roles with direct reports ranging from a few folks to 100+.</br></br>He spends his time hiking, fly fishing, bombing down hills, cooking questionable dishes with family, praising Jesus, getting tattoos, and loving people well.",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/nicksloggett'
+);
+
+// Bryce Barrand 
+$instructors[] = array(
+	'slug' => 'brycebarrand',
+	'first' => 'Bryce',
+	'last' => 'Barrand',
+	'title' => 'Senior Director Product Management',
+	'company' => 'Control4',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/brycebarrand.jpg',
+	'bio' => "Coming Soon",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/barrand/'
+);
+
+// Chris Mayfield
+$instructors[] = array(
+	'slug' => 'chrismayfield',
+	'first' => 'Chris',
+	'last' => 'Mayfield',
+	'title' => 'VP of Product',
+	'company' => 'Pluralsight',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/chrismayfield.jpg',
+	'bio' => 'Chris Mayfield is a VP of Product at Pluralsight, user experience practitioner and design leader. Over the last 15 years he has worked for corporations, non-profits and start-up environments. In each case there has had a passion for solving problems using the principles of user centered design. He leads cross functional teams including designers, product managers and engineers. He has made using technology to help change behavior for good a focus and passion.</br></br>Previously before working at Pluralsight Chris helped create Welbe, a disruptive technology that helps connect organizations with employees favorite wearable fitness devices. Welbe is the first ever corporate wellness platform that uses realtime wellness intelligence enabling employers to influence real behavior change. Chris resides in Syracuse, Utah with his wife Michelle and his four daughters. His passions are fitness, nutrition hacks, photography and travel.',
+	'twitter' => 'chriskarl',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/chrismayfield/'
+);
+
+
+
+/* 
+
+---------------------------- 2018 Instructors ----------------------------
+
 // Drew Bridewell
 $instructors[] = array(
 	'slug' => 'drewbridewell',
@@ -290,21 +506,6 @@ $instructors[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/kendallhulet'
 );
 
-// Nick Sloggett
-$instructors[] = array(
-	'slug' => 'nicksloggett',
-	'first' => 'Nick',
-	'last' => 'Sloggett',
-	'title' => 'Practice Design Lead',
-	'company' => 'Formerly Uber',
-	'discipline' => 'leadership',
-	'photo' => 'frontworkshops18/speaker_nicksloggett.jpg',
-	'bio' => "Nicholas, a Colorado native, works remotely as a Consulting engineer in Denver. Over the last decade he’s held in-house, contracting, founding member, and advisor roles across a number of business verticals. He's worked with brands including Uber, Nike, Coca-Cola, Toyota, BMW, Audi, North Face, Hilton, Conde Nast, Gatorade, Under Armour, PGA, UFC, VMWare, NetApp, DaVita, L'Oréal, Red Bull, Home Depot, Lush, R/GA, Razorfish, CP+B, MetaJive, Factory Design Lab, The Integer Group, Cactus, and many others.</br></br>His leadership experience includes Founder, Head of Design, Director of Product Design, Practice Lead, Creative Director, Art Director, and Senior Designer roles with direct reports ranging from a few folks to 100+.</br></br>He spends his time hiking, fly fishing, bombing down hills, cooking questionable dishes with family, praising Jesus, getting tattoos, and loving people well.",
-	'twitter' => 'nicksloggett',
-	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/nicksloggett'
-);
-
 // Laura Hahn
 $instructors[] = array(
 	'slug' => 'laurahahn',
@@ -320,5 +521,5 @@ $instructors[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/lauradhahn/'
 );
 
-
+*/
 ?>

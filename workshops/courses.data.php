@@ -5,7 +5,175 @@
  *
  * System supports instructors teaching more than one course.
  */
+
+// USER EXPERIENCE
+
+// Di Dang
+$courses[] = array(
+	'title' => 'Coming Soon',
+	'description' => "Coming Soon",
+	'track' => 'ux',
+	'day' => 1,
+	'slot' => 1,
+	'instructor' => 'didang',
+	'level' => 'intermediate'
+);
+
+// Garth Braithwaite
+$courses[] = array(
+	'title' => 'How to Establish and Maintain a Design System',
+	'description' => "As teams and products grow it can become complicated to maintain consistency across all properties, additionally, there is often a duplication of initial work for each product starting from scratch. By establishing and maintaining a company-wide design language and design system implementation, teams are better equipped to ensure consistency, reduce duplication of work, and improve overall design and code quality.<br><br.In this workshop, you will get hands-on experience with initial ideation and planning of a design system, as well as designing initial tokens, components, assets, and usage guidelines. Along the way, we'll discuss common pitfalls and pain points associated with organizing a design system and establishing it throughout a company.",
+	'track' => 'ux',
+	'day' => 1,
+	'slot' => 3,
+	'instructor' => 'garthdb',
+	'level' => 'intermediate'
+);
+
+// Bhargavi Kamakshivalli
+$courses[] = array(
+	'title' => 'Elevating design with strategy',
+	'description' => "The traditional method of formulating business strategy is sequential, inflexible and often leads to user experiences that are based on outdated assumptions about consumer behavior and company potential. <br><br> Split into three sections(identify, test and design), this workshop with Bhargavi will help you engage in conversations around reframing the problem, discover tools to embrace ambiguity while being specific about the overarching outcomes that need to be achieved and templates to help construct design briefs and specifications with measurable impact. ",
+	'track' => 'ux',
+	'day' => 1,
+	'slot' => 2,
+	'instructor' => 'bhargavikamakshivalli',
+	'level' => 'intermediate'
+);
+
+// PRODUCT MANGEMENT
+
+// Dan Olsen
+$courses[] = array(
+	'title' => 'How to Achieve Product-Market Fit',
+	'description' => "Everyone working on a product is trying to achieve the same goal: product-market fit. Although product-market fit is an important concept, it is not well defined and remains elusive for many product teams. <br><br> In this workshop, product management expert Dan Olsen will teach you a simple but effective process for achieving product-market fit. He will share the top advice from his book The Lean Product Playbook, including the Product-Market Fit Pyramid: an actionable model that breaks product-market fit down into 5 key elements. Dan will also explain the Lean Product Process, a 6-step methodology that guides you through how to:<br><br> 1. Determine your target customer <br><br> 2. Identify underserved customer needs <br><br> 3. Define your value proposition <br><br> 4. Specify your MVP feature set <br><br> 5. Create your MVP prototype <br><br> 6. Test your MVP with customers <br><br> This highly interactive working session will be filled with real-world examples, group exercises, and a comprehensive case study. You’ll leave this workshop with pragmatic advice and tools you can put to work the next day.",
+	'track' => 'product-management',
+	'day' => 1,
+	'slot' => 1,
+	'instructor' => 'danolsen',
+	'level' => 'intermediate'
+);
+
+// Jeff Whitlock
+$courses[] = array(
+	'title' => 'Be Less Wrong: Mental Models for Product Decision Making',
+	'description' => "What features should we build? How should we implement them? When are they ready to ship? <br><br> Decision making is central to the job of every product leader. To be great product leaders, we all want to be right in every decision we make. But this isn’t possible. <br><br> We face too much uncertainty in our profession. Being wrong is inevitable. Furthermore, trying to be right all the time can lead us to defend our position and pre-existing beliefs. <br><br> Instead, we should try to be wrong less often. <br><br> This workshop will cover uncommon mental models (heuristics, frameworks, techniques, and thinking strategies) that product leaders can use to be less wrong. For each model, we’ll introduce the concept and then follow-up with case studies and exercises to practice using it to make decisions in your daily work.",
+	'track' => 'product-management',
+	'day' => 1,
+	'slot' => 2,
+	'instructor' => 'jeffwhitlock',
+	'level' => 'intermediate'
+);
+
+// Chris Mayfield 
+$courses[] = array(
+	'title' => 'TBA',
+	'description' => "TBA",
+	'track' => 'product-management',
+	'day' => 1,
+	'slot' => 3,
+	'instructor' => 'chrismayfield',
+	'level' => 'intermediate'
+);
+
+// Bryce Barrand 
+$courses[] = array(
+	'title' => 'TBA',
+	'description' => "TBA",
+	'track' => 'product-management',
+	'day' => 2,
+	'slot' => 2,
+	'instructor' => 'brycebarrand',
+	'level' => 'intermediate'
+);
+
+// Mariah Hay
+$courses[] = array(
+	'title' => 'Product Leadership Fundamentals: Find, Develop, and Keep Your Team Healthy',
+	'description' => "You’re an experienced product practitioner who has a love of mentoring and an ambition for leadership but are not sure where to start. To make that shift you need to arm yourself with some tactical skills around building a team, developing a team, and even having the hard conversations needed to keep the team healthy. In this workshop, we will be breaking our time into focusing on these three areas, reviewing tactics and tools, and learning through doing. <br><br>Experience Team Building 101: How to recruit, interview and identify the best person for your team. We will look at strategies for finding amazing applicants, effective ways of interviewing, and things to looks for and consider in selecting a new team member.<br><br>Developing Your Team: Tools to develop your PMs and UX Designers, and create career paths within your organization We will look at defining what career paths exist / should exist in your company, learn to use tools that help us guide a conversation to understand the many dimensions of your team member, and practice ways to select and prioritize actionable things you can work with your team member to improve.<br><br>Conversations: How to manage Product Managers and UX Designers who are dropping the ball. We will talk about one of the hardest and most important parts of leadership, managing team members who are dropping the ball. This is easier said than done. First, we need to understand why the ball is being dropped (system, workload, communication, soft skills, disengagement). If it is a system or workload issue, how do we co-author a solution with the team? If it is a communication or soft skills issue, how do we coach the individual? And if it is a disengagement issue, how do we have the hard conversation with our team member that they must step up or move on." ,
+	'track' => 'product-management',
+	'day' => 2,
+	'slot' => 1,
+	'instructor' => 'mariahhay',
+	'level' => 'intermediate'
+);
+
+// RESEARCH
+
+// Trae Winterton
+$courses[] = array(
+	'title' => 'Baking Research Cookies From Scratch',
+	'description' => "This workshop will go over the basics of research. Each of the following topics will be covered from an elementary perspective: Research Planning, Recruiting, Interviewing, Usability Testing, and Presenting Insights. All the ingredients you need to start getting the customer at the center of your product development. This will be hands on and dialogue based, not a lecture. Come ready to participate.",
+	'track' => 'research',
+	'day' => 1,
+	'slot' => 2,
+	'instructor' => 'traewinterton',
+	'level' => 'intermediate'
+);
+
+// Andrew Branch
+$courses[] = array(
+	'title' => 'Continuous User Research',
+	'description' => "Most product teams are doing user research, but they still aren't doing it often enough, when they do it it takes too long, and it is more expensive than it needs to be. This workshop will help change that. Andrew will help you learn how you can build tests and get results in hours intstead of days or weeks and how to build a continuous testing strategy at your organization.",
+	'track' => 'research',
+	'day' => 2,
+	'slot' => 2,
+	'instructor' => 'andrewbranch',
+	'level' => 'intermediate'
+);
+
+// LEADERSHIP
+
+// Todd Zaki Warfel
+$courses[] = array(
+	'title' => 'TBA',
+	'description' => "TBA",
+	'track' => 'leadership',
+	'day' => 1,
+	'slot' => 1,
+	'instructor' => 'toddzakiwarfel',
+	'level' => 'intermediate'
+);
+
+// Heather Phillips 
+$courses[] = array(
+	'title' => 'Level Up: A tool for growing high-performing design teams',
+	'description' => "We've documented how hundreds of high-performance design teams operate. Patterns show that successful teams all invest in six key areas of development, but that design leaders are typically in the dark about which areas most deserve their attention.<br><br>See how your team stacks up against others of its size with this seven-question self-assessment, developed by Heather Phillips in partnership with Designer Fund and Ueno. You'll see where you excel, pinpoint what needs work, and get a worksheet to try it with your team.",
+	'track' => 'leadership',
+	'day' => 1,
+	'slot' => 2,
+	'instructor' => 'heatherphillips',
+	'level' => 'intermediate'
+);
+
+// Nick Sloggett
+$courses[] = array(
+	'title' => 'What Got Us Here Won’t Get Us There',
+	'description' => "In this workshop, Nick will explore his wins, losses, lessons learned, and the framework that guides you to lead relationally - no matter your title or company. Expect to engage in discussion, activities, exploration around the enneagram, extreme ownership, relational empathy, organizational discourse, and true servant-minded leadership.",
+	'track' => 'leadership',
+	'day' => 2,
+	'slot' => 1,
+	'instructor' => 'nicksloggett',
+	'level' => 'intermediate'
+);
+
+// Brian Brower
+$courses[] = array(
+	'title' => 'TBA',
+	'description' => "TBA",
+	'track' => 'leadership',
+	'day' => 2,
+	'slot' => 2,
+	'instructor' => 'brianbrower',
+	'level' => 'intermediate'
+);
  
+
+
+/* 
+
+---------------------------- 2018 Instructors ----------------------------
+
 // USER EXPERIENCE
 
 // Joel Beukelman
@@ -243,5 +411,7 @@ $courses[] = array(
 	'instructor' => 'raynawiles',
 	'level' => 'advanced'
 );
+
+*/
 
 ?>
