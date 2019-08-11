@@ -466,7 +466,7 @@ dd, dt {
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 24px;
-	margin: 10px 0 3px 0;
+	margin: 0px 0 3px 0;
 }
 
 .instructor .title {
@@ -2495,7 +2495,7 @@ section.schedule-breakdown .timeline {
 }
 
 section.schedule-breakdown .timeline dd p {
-	margin: 10px 0;
+	margin: 0px 0;
 	line-height: 18px;
 }
 
@@ -2679,6 +2679,7 @@ section.schedule-breakdown .timeline a {
 
 	section.schedule-breakdown .timeline dd p {
 		font-size: 14px;
+		
 	}
 
 	section.schedule-breakdown .timeline dd.food {
