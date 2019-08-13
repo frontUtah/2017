@@ -24,11 +24,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<dt><div></div></dt>
 					<dd class="early">
 						Early bird pricing
-						<small>25% off until 30 August 2019</small>
+						<small>25% off until 2 September 2019</small>
 					</dd>
 					<dd class="standard">
 						Standard pricing
-						<small>Starting 31 August 2019</small>
+						<small>Starting 3 September 2019</small>
 					</dd>
 				</dl>
 				<dl class="full">
