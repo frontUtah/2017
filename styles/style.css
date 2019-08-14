@@ -2527,6 +2527,11 @@ section.schedule-breakdown .timeline a {
 		margin-bottom: 50px
 	}
 
+	section.schedule-breakdown .about-schedule {
+		margin: 0 40px 80px 40px;
+		color: #666;
+	}
+
 	section.schedule-breakdown .schedule-day {
 		margin-bottom: 80px
 	}
@@ -2613,6 +2618,14 @@ section.schedule-breakdown .timeline a {
 		font-weight: 700;
 		color: #333;
 		margin: 0 0 10px 140px
+	}
+
+	section.schedule-breakdown .about-schedule {
+		font-size: 18px;
+		line-height: 28px;
+		font-weight: 200;
+		max-width: 854px;
+		margin: 30px auto 80px
 	}
 
 	section.schedule-breakdown .schedule-day {

@@ -69,6 +69,10 @@ function print_schedulerow($day, $slot) {
 				</ol>
 			</div>
 			-->
+						
+			<p class="about-schedule">There are four workshops per time-slot. Workshop are not assigned or pre-selected, 
+				allowing you to choose those that interest you most or adjust as your schedule requires. Workshop may fill 
+				up fast so we encourage attendees to arrive on time.</p>
 			
 			<div class="schedule-day">
 				<h3>Thursday, 7 November 2019</h3>
