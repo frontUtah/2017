@@ -60,11 +60,11 @@ We believe product management and product design play a central role in the succ
 			<p class="about-attendant-charts">In it's 6th year, the Front UX & Product Management Case Study Conference and Workshop Series are sell-out events, with 800+ annual attendees from 8 countries and 34 states across the US. While focused specifically on UX, product management, research, and leadership, anyone involved in product discovery, delivery, is encouraged to attend and will leave with a wealth of insights and skills. The conference talks cover the range between basic and advanced topics, providing valuable insights to both students and seasoned professionals.</p>
 			<div class="chart ring-chart">
 				<h4>Attendee by job title</h4>
-				<img style="max-width: 80%" src="/images/ring-chart.png" alt="">
+				<img style="max-width: 80%" src="/images/stats_conference_attendeesbytitle.png" alt="">
 			</div>
 			<div class="chart state-map">
 				<h4>Attendee by location</h4>
-				<img style="max-width: 80%" src="/images/state-map.png" alt="">
+				<img style="max-width: 80%" src="/images/stats_conference_attendeesbylocation.png" alt="">
 			</div>
 			<p class="footnote">Including Austria, Brazil, Canada, Nigeria, Netherlands, New Zealand, and South Africa!</p>
 		</section>

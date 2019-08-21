@@ -50,17 +50,17 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			</ul>
 		</section>
 		<section class="attendant-charts">
-			<h2>Front 2017 attendees</h2>
-			<p class="about-attendant-charts">In 2017, product design teams have gathered in Utah from 4 countries and 29 states across the US. While focused specifically on UX, product management, research, and leadership, anyone involved in product discovery, delivery, is encouraged to attend and will leave with a wealth of insights and skills. The courses cover the range between basic and advanced topics, providing valuable training to both students and seasoned professionals.</p>
+			<h2>2018 workshop attendees</h2>
+			<p class="about-attendant-charts">In 2018, product design teams gathered in Utah from 5 countries and 25 states across the US for our workshop series. While focused specifically on UX, product management, research, and leadership, anyone involved in product discovery and delivery is encouraged to attend and will leave with a wealth of insights and skills. The workshops cover the range between basic and advanced topics, providing valuable training to both students and seasoned professionals.</p>
 			<div class="chart ring-chart">
 				<h4>Attendee by job title</h4>
-				<img src="/images/ring-chart.png" alt="">
+				<img style="max-width: 80%" src="/images/stats_workshops_attendeesbytitle.png" alt="">
 			</div>
 			<div class="chart state-map">
 				<h4>Attendee by location</h4>
-				<img src="/images/state-map.png" alt="">
+				<img style="max-width: 80%" src="/images/stats_workshops_attendeesbylocation.png" alt="">
 			</div>
-			<p class="footnote">Including Australia, Tokyo, and Peru!</p>
+			<p class="footnote">Including Canada, Great Britain, Italy, Mexico, Guam!</p>
 		</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
