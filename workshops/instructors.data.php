@@ -94,19 +94,19 @@ $instructors[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/jeff-whitlock/'
 );
 
-// Di Dang
+// Vicki Tan
 $instructors[] = array(
-	'slug' => 'didang',
-	'first' => 'Di',
-	'last' => 'Dang',
-	'title' => 'Emerging Technologies Design Advocate',
-	'company' => 'Google',
+	'slug' => 'vickitan',
+	'first' => 'Vicki',
+	'last' => 'Tan',
+	'title' => 'Designing for Humans',
+	'company' => 'Formerly Headspace & Lyft',
 	'discipline' => 'ux',
-	'photo' => 'headshots/didang.jpg',
-	'bio' => "I work as an Emerging Technologies Design Advocate at Google, where I  helped launch the People + AI Guidebook, a toolkit for designing AI products. Previously, I worked as a Senior UX Designer and led the Emerging Tech group at Seattle-based digital agency POP. With a degree in Philosophy and Religion, I consider myself an optimistic realist passionate about ethical design. You can also find me onstage doing improv or on Twitter at @dqpdang. ",
-	'twitter' => 'dqpdang',
+	'photo' => 'headshots/vickitan.jpg',
+	'bio' => "Vicki is formerly a Product Designer at Headspace, creating experiences to guide new users towards a healthy meditation practice. Previously, she was at Lyft, optimizing the passenger ride experience, and at Google, designing tools for reducing bias and predicting outcomes. Prior to Google, Vicki was at Stanford School of Medicine coordinating research studies in Pediatric Oncology. She holds a degree in Behavioral Psychology from the University of California, San Diego.",
+	'twitter' => 'vickiheart',
 	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/dqpdang/'
+	'linkedin' => 'https://www.linkedin.com/in/vickitan/'
 );
 
 // Dan Olsen

@@ -8,14 +8,14 @@
 
 // USER EXPERIENCE
 
-// Di Dang
+// Vicki Tan
 $courses[] = array(
-	'title' => 'Coming Soon',
-	'description' => "Coming Soon",
+	'title' => 'Designing for Humans',
+	'description' => "As designers, we rely on wide toolkit that often includes visual design, UX/flows, interaction and motion, systems, research, strategy and so much more. While these are immensely valuable for creating functional and aesthetic designs, they may not always be sufficient in helping us get at the root of users’ needs.<br><br>In this workshop, Vicki will walk you through how you might add behavioral science to your workflow, to understand, prioritize, and tackle problems at hand. By understanding how users interpret information, make decisions, and how they choose to take action, we can deliver more effective and meaningful solutions.",
 	'track' => 'ux',
 	'day' => 1,
 	'slot' => 1,
-	'instructor' => 'didang',
+	'instructor' => 'vickitan',
 	'level' => 'intermediate'
 );
 
