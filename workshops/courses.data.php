@@ -67,8 +67,8 @@ $courses[] = array(
 
 // Chris Mayfield 
 $courses[] = array(
-	'title' => 'TBA',
-	'description' => "TBA",
+	'title' => 'Decision making with Data: How to make informed decisions without taking the human out of the loop.',
+	'description' => "As product practitioners we find insight through human centered practices. Many of these practices have historically leveraged qualitative methods. While there’s nothing new about balancing our qualitative work with quantitative data, we are each experiencing a rapid increase in data as well as an appetite to improve how we make decisions with it. In addition, all trends point to an increase in data collection, analysis and adding machine learning to our products all to improve the bottom line. How do we stay relevant in this new space of data and how do we not lose our human centered practices? This workshop will cover ways to skill up by adding to our data driven decision making tool box. We will get practice with different methods to help us identify, synthesize, solve for product needs as well as get buy in for our big ideas. Adding to data competency to our toolbox can get us more accurate synthesis, improved prototyping and ultimately a better way to gain the empathy we need to improve our products.",
 	'track' => 'product-management',
 	'day' => 1,
 	'slot' => 3,
