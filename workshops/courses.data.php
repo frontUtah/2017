@@ -41,6 +41,17 @@ $courses[] = array(
 	'level' => 'intermediate'
 );
 
+// Amish Desai
+$courses[] = array(
+	'title' => 'Discovery & Delivery',
+	'description' => "Coming Soon...",
+	'track' => 'ux',
+	'day' => 2,
+	'slot' => 1,
+	'instructor' => 'amishdesai',
+	'level' => 'intermediate'
+);
+
 // Bhargavi Kamakshivalli
 $courses[] = array(
 	'title' => 'Elevating design with strategy',

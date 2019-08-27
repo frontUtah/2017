@@ -229,6 +229,21 @@ $instructors[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/chrismayfield/'
 );
 
+// Amish Desai
+$instructors[] = array(
+	'slug' => 'amishdesai',
+	'first' => 'Amish',
+	'last' => 'Desai',
+	'title' => 'VP of Design',
+	'company' => 'Moonshot',
+	'discipline' => 'ux',
+	'photo' => 'headshots/amishdesai.jpg',
+	'bio' => 'Amish Desai is a proven servant leader who exudes strategic thinking, customer obsession, and a drive for results. His work and career is known for the strategy and delivery of digital experiences for people, products, and clients. He leads cross-functional teams across product, design, and engineering that use design thinking and lean innovation to discover, design, and deliver experiences that are lovable, valuable, and feasible for brands.<br><br>With 16 years of designing at the intersection of customer behaviors, emotions, and emerging technologies, Amish possess expertise to solve critical business challenges with a human-first mindset.  His experience spans environments such as start-ups, in-house, and innovation consultancy firms. He has supporting B2C, B2B, B2B2C organizations on a domestic and global scale, across a range of industries, including Financial Services, Insurance, Social Analytics, CPG, Logistics, and Retail. As a result, his work has been featured in CMO.com, Fast Company and Venture Beat for designing digital and physical experiences for business growth.<br><br>Amish holds a B.S in Cognitive Science and Human Computer Interaction from the University of California, San Diego and a M.S. in Human Computer Interaction from San Jose State University. Outside of work, Amish gives back by mentoring entrepreneurs within 1871 & TechStars incubators. He teaches UX Certification at WeWork’s Flatiron School and previously Interaction Design at Northwestern University.  Amish loves all things experiential and brings his superpowers of pragmatic vision and energy to bear in his work and collaborations with others every day.',
+	'twitter' => 'amishEXP',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/amishdesai/'
+);
+
 
 
 /* 
