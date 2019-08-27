@@ -19,17 +19,6 @@ $courses[] = array(
 	'level' => 'intermediate'
 );
 
-// Kelly May
-$courses[] = array(
-	'title' => 'Shipping Remarkable Quality Experiences with Speed and Vision',
-	'description' => "Coming soon...",
-	'track' => 'research',
-	'day' => 1,
-	'slot' => 1,
-	'instructor' => 'kellymay',
-	'level' => 'intermediate'
-);
-
 // Garth Braithwaite
 $courses[] = array(
 	'title' => 'How to Establish and Maintain a Design System',
@@ -100,8 +89,8 @@ $courses[] = array(
 
 // Bryce Barrand 
 $courses[] = array(
-	'title' => 'TBA',
-	'description' => "TBA",
+	'title' => 'Managing Product Through Metric Driven Outcomes',
+	'description' => "Coming soon...",
 	'track' => 'product-management',
 	'day' => 2,
 	'slot' => 2,
@@ -133,6 +122,17 @@ $courses[] = array(
 	'level' => 'basics'
 );
 
+// Kelly May
+$courses[] = array(
+	'title' => 'Shipping Remarkable Quality Experiences with Speed and Vision',
+	'description' => "Coming soon...",
+	'track' => 'research',
+	'day' => 1,
+	'slot' => 1,
+	'instructor' => 'kellymay',
+	'level' => 'intermediate'
+);
+
 // Andrew Branch
 $courses[] = array(
 	'title' => 'Continuous User Research',
@@ -148,8 +148,8 @@ $courses[] = array(
 
 // Todd Zaki Warfel
 $courses[] = array(
-	'title' => 'TBA',
-	'description' => "TBA",
+	'title' => 'Leading Change',
+	'description' => "Coming soon...",
 	'track' => 'leadership',
 	'day' => 1,
 	'slot' => 1,
@@ -181,8 +181,8 @@ $courses[] = array(
 
 // Brian Brower
 $courses[] = array(
-	'title' => 'TBA',
-	'description' => "TBA",
+	'title' => 'Product + Marketing',
+	'description' => "Coming soon...",
 	'track' => 'leadership',
 	'day' => 2,
 	'slot' => 2,
