@@ -14,8 +14,19 @@ $courses[] = array(
 	'description' => "As designers, we rely on wide toolkit that often includes visual design, UX/flows, interaction and motion, systems, research, strategy and so much more. While these are immensely valuable for creating functional and aesthetic designs, they may not always be sufficient in helping us get at the root of users’ needs.<br><br>In this workshop, Vicki will walk you through how you might add behavioral science to your workflow, to understand, prioritize, and tackle problems at hand. By understanding how users interpret information, make decisions, and how they choose to take action, we can deliver more effective and meaningful solutions.",
 	'track' => 'ux',
 	'day' => 1,
-	'slot' => 1,
+	'slot' => 3,
 	'instructor' => 'vickitan',
+	'level' => 'intermediate'
+);
+
+// Kelly May
+$courses[] = array(
+	'title' => 'Shipping Remarkable Quality Experiences with Speed and Vision',
+	'description' => "Coming soon...",
+	'track' => 'research',
+	'day' => 1,
+	'slot' => 1,
+	'instructor' => 'kellymay',
 	'level' => 'intermediate'
 );
 
@@ -25,7 +36,7 @@ $courses[] = array(
 	'description' => "As teams and products grow it can become complicated to maintain consistency across all properties, additionally, there is often a duplication of initial work for each product starting from scratch. By establishing and maintaining a company-wide design language and design system implementation, teams are better equipped to ensure consistency, reduce duplication of work, and improve overall design and code quality.<br><br.In this workshop, you will get hands-on experience with initial ideation and planning of a design system, as well as designing initial tokens, components, assets, and usage guidelines. Along the way, we'll discuss common pitfalls and pain points associated with organizing a design system and establishing it throughout a company.",
 	'track' => 'ux',
 	'day' => 1,
-	'slot' => 3,
+	'slot' => 1,
 	'instructor' => 'garthdb',
 	'level' => 'intermediate'
 );
