@@ -99,7 +99,7 @@ $instructors[] = array(
 	'slug' => 'vickitan',
 	'first' => 'Vicki',
 	'last' => 'Tan',
-	'title' => 'Lead Product Designer',
+	'title' => 'Senior Product Manager',
 	'company' => 'Formerly Headspace & Lyft',
 	'discipline' => 'ux',
 	'photo' => 'headshots/vickitan.jpg',
@@ -107,6 +107,21 @@ $instructors[] = array(
 	'twitter' => 'vickiheart',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/vickitan/'
+);
+
+// Kelly May
+$instructors[] = array(
+	'slug' => 'kellymay',
+	'first' => 'Kelly',
+	'last' => 'May',
+	'title' => 'Sr. Product Manager',
+	'company' => 'Podium',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/kellymay.jpg',
+	'bio' => "I have spent most of my career in tech and fell into product management about 5 years ago while working at a tech start up. I immediately loved product management; collaborating with all departments, solving problems every day, and pitching the vision of the product. I have created two mobile apps, am raising two beautiful girls, and currently pursuing a masters in International Relations. I have grown up in Utah and absolutely love the mountains! I am in the mountains hiking and trail running any free minute I have. I also love spending time with my family, running, eating good food, reading, and traveling.",
+	'twitter' => 'youandtheroad',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/kelly-may1/'
 );
 
 // Dan Olsen
