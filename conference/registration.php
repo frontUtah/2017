@@ -102,7 +102,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			</div>
 			-->
 			
-			<div id="eventbrite-widget-container-47175925463"></div>
+			<div id="eventbrite-widget-container-64259032496"></div>
 
 			<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 			
