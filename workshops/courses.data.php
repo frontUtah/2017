@@ -181,8 +181,8 @@ $courses[] = array(
 
 // Brian Brower
 $courses[] = array(
-	'title' => 'Product + Marketing',
-	'description' => "Coming soon...",
+	'title' => 'Making the Best Product Bets',
+	'description' => "As a Product Manager, chances are you have worked at a place where you feel success in your job was all about just launching the product. In some ways, you may have felt like a glorified project manager.<br><br>Great product leaders don't just launch products.  They make sure the products they are going to crush it in the market.  Making sure what you are building is going to succeed lies in three main practices:<ul><li>Becoming the undisputed subject</li><li>Identifying early why products fail, and rapidly creating prototypes to avoid those failures</li><li>Creating a product story that wins over internal stakeholders and ultimately the customer</li></ul>This workshop is about making the right product bets and then shepherding your product to a successful product launch. Bring the product you are working on or one you want to work on. We will introduce exercises and tools to help you make sure your next product kills it.",
 	'track' => 'leadership',
 	'day' => 2,
 	'slot' => 2,
