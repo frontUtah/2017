@@ -124,8 +124,8 @@ $courses[] = array(
 
 // Kelly May
 $courses[] = array(
-	'title' => 'Shipping Remarkable Quality Experiences with Speed and Vision',
-	'description' => "Coming soon...",
+	'title' => 'Giving customers superior experiences with speed and vision',
+	'description' => "You've done the research. You understand the problem you need to solve. But, can you deliver a remarkable product to your customers efficiently without impacting the quality of the experience? We think you can. Let us show you how to cut scope and break products and features into small releases while providing continuous value for your customers--and gaining insights for your business too. ",
 	'track' => 'research',
 	'day' => 1,
 	'slot' => 1,
