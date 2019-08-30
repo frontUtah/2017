@@ -25,7 +25,7 @@ function print_schedulerow($day, $slot) {
 		$instructor = get_instructor($course['instructor']);
 		
 		echo '
-								<dd class="' . $course['track'] . ' course" onclick="">
+								<dd class="product-management course" onclick="">
 									<a href="/workshops/instructor/' . $instructor['slug'] . '">
 										<p><strong>' . $instructor['first'] . ' ' . $instructor['last'] . '</strong></p>
 										<p>' . truncate_string($course['title'], 80) . '</p>
