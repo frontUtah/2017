@@ -25,12 +25,29 @@ function print_schedulerow($day, $slot) {
 		$instructor = get_instructor($course['instructor']);
 		
 		echo '
-								<dd class="product-management course" onclick="">
+								<dd class="product-management course" onclick="">';
+								
+								
+		if($instructor) {
+			echo '
+									<div class="instructor-photo">
+										<a href="/workshops/instructor/' . $instructor['slug'] . '"><img style="width: 50px" src="/images/';
+										
+											// ensure photo exists
+											if(file_exists($_SERVER['DOCUMENT_ROOT'] . '/images/' . $instructor['photo'])) {
+												echo $instructor['photo'];
+											} else {
+												echo 'instructor_missing.png';
+											}
+											
+											echo '" alt=""></a>
+									</div>
 									<a href="/workshops/instructor/' . $instructor['slug'] . '">
 										<p><strong>' . $instructor['first'] . ' ' . $instructor['last'] . '</strong></p>
-										<p>' . truncate_string($course['title'], 80) . '</p>
+										<p>' . $course['title'] . '</p>
 									</a>
 								</dd>';
+	}
 	}
 	
 	echo '

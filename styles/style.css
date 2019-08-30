@@ -1875,6 +1875,10 @@ section.courses .course-calendar h3 {
 	line-height: 60px
 }
 
+.onsite-trainings section.courses .course-calendar h3 {
+	color: white;	
+}
+
 section.courses .course-calendar .time {
 	font-size: 24px;
 	line-height: 70px;
@@ -2028,7 +2032,7 @@ section.courses .course dl .description li {
 		line-height: 28px;
 		font-weight: 200;
 		max-width: 954px;
-		margin: 0 auto 95px
+		margin: 120px auto 95px
 	}
 
 	section.courses .course-track-nav {
@@ -2502,8 +2506,14 @@ section.schedule-breakdown .timeline dd p {
 section.schedule-breakdown .timeline dd img {
 	width: 80px;
 	float: left;
-	margin-right: 20px;
+	margin: 0 20px 20px 0;
 	border-radius: 4px;
+}
+
+.workshop-schedule section.schedule-breakdown .timeline dd img {
+	width: 50px;
+	float: right;
+	margin: 0 0 20px 20px;
 }
 
 section.schedule-breakdown .timeline a {
@@ -2542,11 +2552,6 @@ section.schedule-breakdown .timeline a {
 
 	section.schedule-breakdown .timeline dd, section.schedule-breakdown .timeline dt {
 		padding: 14px 45px
-	}
-
-	section.schedule-breakdown .timeline dd img {
-		width: 60px;
-		margin-bottom: 20px;
 	}
 
 	section.schedule-breakdown .timeline .time, section.schedule-breakdown .timeline dd p {
@@ -2643,11 +2648,11 @@ section.schedule-breakdown .timeline a {
 	}
 
 	section.schedule-breakdown .timeline .two-hours {
-		height: 145px
+		/* min-height: 145px */
 	}
 
 	section.schedule-breakdown .timeline .four-hours {
-		height: 210px
+		/* min-height: 210px */
 	}
 
 	section.schedule-breakdown .timeline dl {
@@ -2688,6 +2693,7 @@ section.schedule-breakdown .timeline a {
 		line-height: 14px;
 		font-weight: 700;
 		color: #FFF;
+		margin-bottom: 12px;
 	}
 
 	section.schedule-breakdown .timeline dd p {

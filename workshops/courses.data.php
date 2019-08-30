@@ -32,8 +32,8 @@ $courses[] = array(
 
 // Amish Desai
 $courses[] = array(
-	'title' => 'Discovery & Delivery',
-	'description' => "Coming Soon...",
+	'title' => 'Discover, design, and deliver the greatest predictor of business success: LOVE',
+	'description' => 'Today’s digital products and services require a focus on creating lasting value because they need to help customers achieve something meaningful. Over the course of this workshop, attendees will gain an understanding of the mechanics of creating a lovable experience by creating one for themselves.',
 	'track' => 'ux',
 	'day' => 2,
 	'slot' => 1,
