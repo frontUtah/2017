@@ -475,35 +475,35 @@ dd, dt {
 	margin: 0
 }
 
-.instructor.product-management .instructor-photo:after, .instructor.product-management .label {
+.instructor .product-management .instructor-photo:after, .instructor .product-management .label {
 	background: #006F9E
 }
 
-.instructor.product-management .title, .instructor.product-management h4, .instructor.product-management a {
+.instructor .product-management .title, .instructor .product-management h4, .instructor .product-management a {
 	color: #006F9E
 }
 
-.instructor.ux .instructor-photo:after, .instructor.ux .label {
+.instructor .ux .instructor-photo:after, .instructor .ux .label {
 	background: #FD7C00
 }
 
-.instructor.ux .title, .instructor.ux h4, .instructor.ux a {
+.instructor .ux .title, .instructor .ux h4, .instructor .ux a {
 	color: #FD7C00
 }
 
-.instructor.research .instructor-photo:after, .instructor.research .label {
+.instructor .research .instructor-photo:after, .instructor .research .label {
 	background: #653789
 }
 
-.instructor.research .title, .instructor.research h4, .instructor.research a {
+.instructor .research .title, .instructor .research h4, .instructor .research a {
 	color: #653789
 }
 
-.instructor.leadership .instructor-photo:after, .instructor.leadership .label {
+.instructor .leadership .instructor-photo:after, .instructor .leadership .label {
 	background: #FFD01D
 }
 
-.instructor.leadership .title, .instructor.leadership h4, .instructor.leadership a {
+.instructor .leadership .title, .instructor .leadership h4, .instructor .leadership a {
 	color: #FFD01D
 }
 
@@ -1844,6 +1844,10 @@ section.individual-instructor .instructor-content li {
 	section.individual-instructor .course-description h4 {
 		margin-top: 10px;
 	}
+	
+	section.individual-instructor .course-description h4.team_taught {
+		font-style: italic;
+	}
 
 	section.individual-instructor .about-instructor h3 {
 		font-size: 18px
@@ -2180,7 +2184,6 @@ section.courses .course dl .description li {
 	}
 	
 	section.courses .course dl .instructors {
-		order: 3;
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
@@ -2188,11 +2191,20 @@ section.courses .course dl .description li {
 	}
 	
 	section.courses .course dl .instructor {
-		display: flex;
 		width: 325px;
-		flex-direction: row;
 		padding-bottom: 20px;
 		text-align: left;
+		display: flex;
+	}
+	
+	section.courses .course dl .instructor.team {
+		display: block;
+	}
+	
+	section.courses .course dl .instructor .instructor_details {
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 20px;
 	}
 
 	section.courses .course dl .instructor .instructor-photo {
@@ -2512,8 +2524,7 @@ section.schedule-breakdown .timeline dd img {
 
 .workshop-schedule section.schedule-breakdown .timeline dd img {
 	width: 50px;
-	float: right;
-	margin: 0 0 20px 20px;
+	margin: 0 20 20px 0px;
 }
 
 section.schedule-breakdown .timeline a {
@@ -2561,7 +2572,9 @@ section.schedule-breakdown .timeline a {
 
 	section.schedule-breakdown .timeline dd {
 		color: #B2B2B2;
-		position: relative
+		position: relative;
+		width: 100%;
+		display: inline-grid;
 	}
 
 	section.schedule-breakdown .timeline dd h4 {
@@ -2668,6 +2681,18 @@ section.schedule-breakdown .timeline a {
 		text-align: right;
 		padding: 10px 25px
 	}
+	
+	section.schedule-breakdown .timeline .instructor_details {
+		margin-top: 15px;
+		display: flex;
+	}
+	
+	section.schedule-breakdown .timeline .instructor_details .instructor-photo img {
+		width: 50px;
+		padding: 0;
+		margin: 0 10px 0 0;
+		max-width: none;
+	}
 
 	section.schedule-breakdown .timeline dd {
 		flex: 1;
@@ -2679,10 +2704,12 @@ section.schedule-breakdown .timeline a {
 		box-sizing: border-box;
 	}
 
+	/*
 	section.schedule-breakdown .timeline dd.course:hover {
 		opacity: .75;
 		cursor: pointer;
 	}
+	*/
 
 	section.schedule-breakdown .timeline dd a {
 		color: white;

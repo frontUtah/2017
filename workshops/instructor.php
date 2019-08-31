@@ -59,20 +59,55 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</nav>
 			</div>
 			<div class="instructor-content">
-				<div class="course-description">
 
-					<?php
+				<?php
 
-					if(count($courses) > 0) {
-						foreach($courses as $course) {
+				if(count($courses) > 0) {
+					foreach($courses as $course) {
+						echo '<div class="course-description">';
 							echo '<h3>' . $course['title'] . '</h3>';
 							echo '<h4>' . get_day($course['day']) . ', at ' . get_time($course['day'], $course['slot']) . '</h4>';
-							echo '<p>' . $course['description'] . '</p>';
-						}
-					}
+							
+							// if team taught, say so
+							if(is_array($course['instructor'])) {
+								// get the other instructors
+								$other_instructors = get_other_instructors($course['instructor'], $instructor['slug']);
+								
+								// say it
+								echo '<h4 class="team_taught">Taught together with ';
+								
+								$other_instructors_count = count($other_instructors) - 1;
+								
+								foreach($other_instructors as $key => $other_instructor) {
+									// get instrctor info
+									$other_instructor_info = get_instructor($other_instructor);
+									
+									if($key > 0 && $key <= $other_instructors_count) {
+										echo ', ';
+									}
+									
+									if($key == $other_instructors_count) {
+										echo ' and ';
+									}
+									
+									// print name as link
+									echo '<a href="/workshops/instructor/' . $other_instructor_info['slug'] . '">' . $other_instructor_info['first'] . ' ' . $other_instructor_info['last'] . '</a>';
+									
+									if($key == $other_instructors_count) {
+										echo '.';
+									}
 
-					?>
-				</div>
+								}
+								
+								echo '</h4>';
+							}
+							
+							echo '<p>' . $course['description'] . '</p>';
+						echo '</div>';
+					}
+				}
+
+				?>
 				<div class="about-instructor">
 					<h3>About <?php echo $instructor['first'] ?></h3>
 					<p><?php echo $instructor['bio'] ?></p>

@@ -22,36 +22,36 @@ function print_schedulerow($day, $slot) {
 	
 	foreach($tracks as $track) {
 		$course = get_course($track, $day, $slot);
-		$instructor = get_instructor($course['instructor']);
 		
 		echo '
-								<dd class="product-management course" onclick="">';
-								
-								
-		if($instructor) {
-			echo '
-									<div class="instructor-photo">
-										<a href="/workshops/instructor/' . $instructor['slug'] . '"><img style="width: 50px" src="/images/';
-										
-											// ensure photo exists
-											if(file_exists($_SERVER['DOCUMENT_ROOT'] . '/images/' . $instructor['photo'])) {
-												echo $instructor['photo'];
-											} else {
-												echo 'instructor_missing.png';
-											}
-											
-											echo '" alt=""></a>
-									</div>
-									<a href="/workshops/instructor/' . $instructor['slug'] . '">
-										<p><strong>' . $instructor['first'] . ' ' . $instructor['last'] . '</strong></p>
-										<p>' . $course['title'] . '</p>
-									</a>
-								</dd>';
-	}
+								<dd class="product-management course">
+									<p>' . $course['title'] . '</p>';
+
+		// if only single instructor, put into array, so that it works to loop for all
+		if(!is_array($course['instructor'])) {
+			$course['instructor'] = array($course['instructor']);
+		}
+							
+		foreach($course['instructor'] as $this_instructor) {
+			$instructor = get_instructor($this_instructor);
+																
+			if($instructor) {
+				echo '
+									<div class="instructor_details">
+										<div class="instructor-photo">
+											<a href="/workshops/instructor/' . $instructor['slug'] . '"><img src="/images/' . $instructor['photo'] . '" alt=""></a>
+										</div>
+										<a href="/workshops/instructor/' . $instructor['slug'] . '">
+											<p><strong>' . $instructor['first'] . ' ' . $instructor['last'] . '</strong></p>
+										</a>
+									</div>';
+			}
+		}
+		
+		echo '</dd>';
 	}
 	
-	echo '
-							</dl>';
+	echo '</dl>';
 }
 
 
@@ -62,30 +62,6 @@ function print_schedulerow($day, $slot) {
 		</section>
 		<section class="schedule-breakdown">
 			<h2>Schedule</h2>
-			
-			<!--
-			<div class="schedule-day">
-				<ol class="timeline">
-					<li class="timeslot category">
-						<dl>
-							<dt class="time"></dt>
-							<dd class="ux">
-								<h4>UX</h4>
-							</dd>
-							<dd class="product-management">
-								<h4>PM</h4>
-							</dd>
-							<dd class="research">
-								<h4>Research</h4>
-							</dd>
-							<dd class="leadership">
-								<h4>Leadership</h4>
-							</dd>
-						</dl>
-					</li>
-				</ol>
-			</div>
-			-->
 						
 			<p class="about-schedule">There are four workshops per time-slot. Workshop are not assigned or pre-selected, 
 				allowing you to choose those that interest you most or adjust as your schedule requires. Workshop may fill 

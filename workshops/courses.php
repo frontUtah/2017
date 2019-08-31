@@ -30,33 +30,46 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							$courses = get_courses($day, $slot);
 							
 							foreach($courses as $course) {
-								$instructor = get_instructor($course['instructor']);
-	
 								if(!empty($course)) {
 									echo '
 													<li class="course">
 														<dl>
 															<dt class="time">' . $slot_details['time'] . ' <span class="am-pm">' . $slot_details['meridian'] . '</span></dt>
-															<dd class="instructor ' . $instructor['discipline'] . '">
-																<div class="instructor-photo">
-																	<a href="/workshops/instructor/' . $instructor['slug'] . '"><img src="/images/';
-																	
-									// ensure photo exists
-									if(file_exists($_SERVER['DOCUMENT_ROOT'] . '/images/' . $instructor['photo'])) {
-										echo $instructor['photo'];
-									} else {
-										echo 'instructor_missing.png';
-									}
+															<dd class="instructor team">';
+								
+								// if only single instructor, put into array, so that it works to loop for all
+								if(!is_array($course['instructor'])) {
+									$course['instructor'] = array($course['instructor']);
+								}
+													
+								foreach($course['instructor'] as $this_instructor) {
+									$instructor = get_instructor($this_instructor);
 									
-									echo '" alt=""></a>
-																</div>
-																<div>
-																	<a href="/workshops/instructor/' . $instructor['slug'] . '">
-																		<h4>' . $instructor['first'] . ' ' . $instructor['last'] . '</h4>
-																		<p class="title">' . $instructor['title'] . '<br>' . $instructor['company'] . '</p>
-																		<p class="experience"><span class="label">' . $course['level'] . '</span></p>
-																	</a>
-																</div>
+									echo '
+																<div class="instructor_details ' . $instructor['discipline'] . '">
+																	<div class="instructor-photo">
+																		<a href="/workshops/instructor/' . $instructor['slug'] . '"><img src="/images/';
+																		
+										// ensure photo exists
+										if(file_exists($_SERVER['DOCUMENT_ROOT'] . '/images/' . $instructor['photo'])) {
+											echo $instructor['photo'];
+										} else {
+											echo 'instructor_missing.png';
+										}
+										
+										echo '" alt=""></a>
+																	</div>
+																	<div>
+																		<a href="/workshops/instructor/' . $instructor['slug'] . '">
+																			<h4>' . $instructor['first'] . ' ' . $instructor['last'] . '</h4>
+																			<p class="title">' . $instructor['title'] . '<br>' . $instructor['company'] . '</p>
+																			<p class="experience"><span class="label">' . $course['level'] . '</span></p>
+																		</a>
+																	</div>
+																</div>';
+								}
+								
+								echo '
 															</dd>
 															<dd class="description">
 																<h4>' . $course['title'] . '</h4>

@@ -71,9 +71,11 @@ frontConf.ui = (function() {
 		};
 	}
 	
+	/*
 	var clickableScheduleBlock = function(event) {
 		window.location = $(this).children('a').attr('href');
 	}
+	*/
 	
 	var toggleBookTrainingForm = function(event) {		
 		// reset other incomplete forms

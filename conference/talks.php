@@ -40,7 +40,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 									<li class="course">
 										<dl>
 											<dt class="time">' . $slot_details['time'] . ' <span class="am-pm">' . $slot_details['meridian'] . '</span></dt>
-											<dd class="instructors">';
+											<dd class="instructor">';
 									
 								// ensure speaker is an array
 								if(!is_array($talk['speaker'])) {

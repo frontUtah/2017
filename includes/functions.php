@@ -16,12 +16,25 @@ function get_courses_by_instructor($instructor) {
 	global $courses;
 
 	foreach($courses as $course) {
-		if($course['instructor'] == $instructor) {
+		if($course['instructor'] == $instructor || is_array($course['instructor']) && in_array($instructor, $course['instructor'])) {
 			$these_courses[] = $course;
 		}
 	}
 
 	return $these_courses;
+}
+
+// get other instructors
+function get_other_instructors($instructors, $the_instructor) {
+	$other_instructors = array();
+	
+	foreach($instructors as $other_instructor) {
+		if($other_instructor != $the_instructor) {
+			$other_instructors[] = $other_instructor;
+		}
+	}
+	
+	return $other_instructors;
 }
 
 // get courses by track

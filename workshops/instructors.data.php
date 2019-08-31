@@ -109,6 +109,21 @@ $instructors[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/vickitan/'
 );
 
+// Jiovan Melendez
+$instructors[] = array(
+	'slug' => 'jiovanmelendez',
+	'first' => 'Jiovan',
+	'last' => 'Melendez',
+	'title' => 'Sr. Product Manager',
+	'company' => 'Podium',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/jiovanmelendez.jpg',
+	'bio' => 'Jiovan loves delivering impactful products built on analytical investigation, user needs, and iterative testing.<br /><br />Current product manager at Podium. Previously: Y Combinator product consultant, product lead at Vivint Solar, and early team at Scan before it was acquired by Snap.<br /><br />At nights, Jiovan mentors Black and Latinx engineering students at Code2040. He’s a Lambda School computer science graduate and BYU alum. Cuban/Puerto Rican. And Siri cannot pronounce his name.',
+	'twitter' => 'jiovan',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/jiovan/'
+);
+
 // Kelly May
 $instructors[] = array(
 	'slug' => 'kellymay',

@@ -93,25 +93,27 @@ $tabs[] = array('link' => 'leadership', 'text' => 'Leadership');
 						echo '
 										<li class="course">
 											<dl>
-												<dd class="instructor ' . $subject . '">
-													<div class="instructor-photo">
-														<a href="/onsite/consultant/' . $consultant['slug'] . '"><img src="/images/';
-																				
-												// ensure photo exists
-												if(file_exists($_SERVER['DOCUMENT_ROOT'] . '/images/' . $consultant['photo'])) {
-													echo $consultant['photo'];
-												} else {
-													echo 'instructor_missing.png';
-												}
-												
-												echo '" alt=""></a>
-													</div>
-													<div>
-														<a href="/onsite/consultant/' . $consultant['slug'] . '">
-															<h4>' . $consultant['first'] . ' ' . $consultant['last'] . '</h4>
-															<p class="title">' . $consultant['title'] . '<br>' . $consultant['company'] . '</p>
-															<a href="/onsite/consultant/' . $consultant['slug'] . '" class="button button-small">Learn More</a>
-														</a>
+												<dd class="instructor">
+													<div class="instructor_details ' . $subject . '">
+														<div class="instructor-photo">
+															<a href="/onsite/consultant/' . $consultant['slug'] . '"><img src="/images/';
+																					
+													// ensure photo exists
+													if(file_exists($_SERVER['DOCUMENT_ROOT'] . '/images/' . $consultant['photo'])) {
+														echo $consultant['photo'];
+													} else {
+														echo 'instructor_missing.png';
+													}
+													
+													echo '" alt=""></a>
+														</div>
+														<div>
+															<a href="/onsite/consultant/' . $consultant['slug'] . '">
+																<h4>' . $consultant['first'] . ' ' . $consultant['last'] . '</h4>
+																<p class="title">' . $consultant['title'] . '<br>' . $consultant['company'] . '</p>
+																<a href="/onsite/consultant/' . $consultant['slug'] . '" class="button button-small">Learn More</a>
+															</a>
+														</div>
 													</div>
 												</dd>
 												<dd class="description">';
