@@ -86,7 +86,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 										echo ', ';
 									}
 									
-									if($key == $other_instructors_count) {
+									if($key == $other_instructors_count && $other_instructors_count > 1) {
 										echo ' and ';
 									}
 									

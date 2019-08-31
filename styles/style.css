@@ -428,13 +428,12 @@ dd, dt {
 		flex-wrap: wrap
 	}
 }
-/*
+
 .instructor {
 	padding-bottom: 56px;
 	max-width: 375px;
 	margin: 0 auto
 }
-*/
 
 .instructor .instructor-photo {
 	position: relative;
