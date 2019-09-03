@@ -4,6 +4,21 @@
  * Use '</br></br>' to separate paragraphs
  */
 
+// Lindsey Martin
+$instructors[] = array(
+	'slug' => 'lindseymartin',
+	'first' => 'Lindsey',
+	'last' => 'Martin',
+	'title' => 'User Experience Manager',
+	'company' => 'Lucid',
+	'discipline' => 'ux',
+	'photo' => 'headshots/lindseymartin.jpg',
+	'bio' => "Lindsey Martin has worked as both a designer and researcher across a range of industries, practicing and advocating for data-informed, user-centered design. She is currently focused on developing a team of stellar designers at Lucid Software. Lindsey is a frequent traveler and crossword enthusiast, and enjoys getting outside with her bull terrier.",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/lindseywhitefieldmartin/'
+);
+
 // Taylor Palmer
 $instructors[] = array(
 	'slug' => 'taylorpalmer',
