@@ -71,7 +71,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							echo '<h4>' . get_day($course['day']) . ', at ' . get_time($course['day'], $course['slot']) . '</h4>';
 							
 							// if team taught, say so
-							if(is_array($course['instructor'])) {
+							if(is_array($course['instructor']) && count($course['instructor']) > 1) {
 								// get the other instructors
 								$other_instructors = get_other_instructors($course['instructor'], $instructor['slug']);
 								
