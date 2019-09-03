@@ -13,6 +13,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 function print_schedulerow($day, $slot) {
 	$tracks = array('ux', 'product-management', 'research', 'leadership');
+
+	shuffle($tracks);
 	
 	$time_slots = get_workshopseries_timeslots($day);
 	
@@ -24,8 +26,7 @@ function print_schedulerow($day, $slot) {
 		$course = get_course($track, $day, $slot);
 		
 		echo '
-								<dd class="product-management course">
-									<p>' . $course['title'] . '</p>';
+								<dd class="course">';
 
 		// if only single instructor, put into array, so that it works to loop for all
 		if(!is_array($course['instructor'])) {
@@ -37,18 +38,20 @@ function print_schedulerow($day, $slot) {
 																
 			if($instructor) {
 				echo '
-									<div class="instructor_details">
+									<div class="instructor_details ' . $instructor['discipline'] . '">
 										<div class="instructor-photo">
-											<a href="/workshops/instructor/' . $instructor['slug'] . '"><img src="/images/' . $instructor['photo'] . '" alt=""></a>
+											<a href="/workshops/instructor/' . $instructor['slug'] . '"><img class="instructor-photo" src="/images/' . $instructor['photo'] . '" alt=""></a>
 										</div>
-										<a href="/workshops/instructor/' . $instructor['slug'] . '">
-											<p><strong>' . $instructor['first'] . ' ' . $instructor['last'] . '</strong></p>
-										</a>
+										<p class="instructor-name">
+											<a href="/workshops/instructor/' . $instructor['slug'] . '">' . $instructor['first'] . ' ' . $instructor['last'] . '</a>
+										</p>
 									</div>';
 			}
 		}
 		
-		echo '</dd>';
+		echo '
+									<p class="title">' . $course['title'] . '</p>
+								</dd>';
 	}
 	
 	echo '</dl>';

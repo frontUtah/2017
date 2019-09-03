@@ -4,6 +4,21 @@
  * Use '</br></br>' to separate paragraphs
  */
 
+// Taylor Palmer
+$instructors[] = array(
+	'slug' => 'taylorpalmer',
+	'first' => 'Taylor',
+	'last' => 'Palmer',
+	'title' => '',
+	'company' => 'Lucid',
+	'discipline' => 'design',
+	'photo' => 'headshots/taylorpalmer.jpg',
+	'bio' => "Taylor has a background in graphic design and frontend development. He learns best through side projects, and probably has a few different websites he's building at any given time. He's spent the last four years at Lucid moving into UX management and learning to lead teams.",
+	'twitter' => '_taylorpalmer',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/taylor-palmer-6264a171/'
+);
+
 // Andrew Branch
 $instructors[] = array(
 	'slug' => 'andrewbranch',

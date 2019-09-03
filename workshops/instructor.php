@@ -26,12 +26,14 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		<h2 class="">Instructors</h2>
 		<div class="instructor-profile">
 			<div class="details">
-				<div class="instructor <?php echo strtolower($instructor['discipline']); ?>">
-					<div class="instructor-photo">
-						<img src="/images/<?php echo $instructor['photo']; ?>" alt="">
+				<div class="instructor">
+					<div class="<?php echo strtolower($instructor['discipline']); ?>">
+						<div class="instructor-photo">
+							<img src="/images/<?php echo $instructor['photo']; ?>" alt="">
+						</div>
+						<h4><?php echo $instructor['first'] . ' ' . $instructor['last'] ?></h4>
+						<p class="title"><?php echo $instructor['title']; ?><br><?php echo $instructor['company']; ?></p>
 					</div>
-					<h4><?php echo $instructor['first'] . ' ' . $instructor['last'] ?></h4>
-					<p class="title"><?php echo $instructor['title']; ?><br><?php echo $instructor['company']; ?></p>
 				</div>
 				<nav class="social-nav">
 					<ul>

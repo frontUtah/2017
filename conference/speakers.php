@@ -22,7 +22,8 @@ shuffle($speakers);
 
 // spit them out
 foreach($speakers as $speaker) {
-	echo '<li class="instructor ' . $speaker['discipline'] . '">
+	echo '<li class="instructor">
+				<div class="' . $speaker['discipline'] . '">
 					<a href="/conference/speaker/' . $speaker['slug'] . '">
 						<div class="instructor-photo">
 							<img src="/images/' . $speaker['photo'] . '" alt="">
@@ -30,7 +31,8 @@ foreach($speakers as $speaker) {
 						<h4>' . $speaker['first'] . ' ' . $speaker['last'] . '</h4>
 						<p class="title">' . $speaker['title'] . '<br>' . $speaker['company'] . '</p>
 					</a>
-				</li>';
+				</div>
+			</li>';
 
 }
 

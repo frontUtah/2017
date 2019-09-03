@@ -2143,8 +2143,9 @@ section.courses .course dl .description li {
 		margin-bottom: 60px
 	}
 
-	section .course-date .description h4:not(:first-child) {padding-top: 20px; border-top: 1px solid rgba(0,0,0,.09);}
-
+	section .course-date .description h4:not(:first-child) {
+		padding-top: 20px; border-top: 1px solid rgba(0,0,0,.09);
+	}
 
 	section.courses .course {
 		padding: 10px
@@ -2531,6 +2532,26 @@ section.schedule-breakdown .timeline a {
 	color: inherit;
 }
 	
+section.schedule-breakdown .timeline .title {
+	color: #333;
+}
+
+section.schedule-breakdown .timeline .instructor_details.ux {
+	color: #FD7C00
+}
+
+section.schedule-breakdown .timeline .instructor_details.product-management {
+	color: #006F9E
+}
+
+section.schedule-breakdown .timeline .instructor_details.research {
+	color: #653789
+}
+
+section.schedule-breakdown .timeline .instructor_details.leadership {
+	color: #FFD01D
+}
+	
 @media (max-width:999px) {
 	section.schedule-breakdown {
 		padding: 70px 0 0
@@ -2682,15 +2703,53 @@ section.schedule-breakdown .timeline a {
 	}
 	
 	section.schedule-breakdown .timeline .instructor_details {
-		margin-top: 15px;
+		margin-bottom: 15px;
 		display: flex;
+	}
+	
+	section.schedule-breakdown .timeline .instructor_details .instructor-photo {
+		position: relative;
+		overflow: hidden;
+		margin: 0 10px 0 0;
 	}
 	
 	section.schedule-breakdown .timeline .instructor_details .instructor-photo img {
 		width: 50px;
 		padding: 0;
-		margin: 0 10px 0 0;
+		margin: 0;
 		max-width: none;
+	}
+	
+	section.schedule-breakdown .timeline .instructor_details .instructor-photo:after {
+		content: '';
+		width: 140px;
+		height: 140px;
+		background: #006F9E;
+		position: absolute;
+		bottom: -115px;
+		right: -115px;
+		transform: rotate(45deg);
+		border: 4px solid #fff;
+	}
+	
+	section.schedule-breakdown .timeline .instructor_details.ux .instructor-photo:after {
+		background: #FD7C00;
+	}
+	
+	section.schedule-breakdown .timeline .instructor_details.product-management .instructor-photo:after {
+		background: #006F9E;
+	}
+	
+	section.schedule-breakdown .timeline .instructor_details.research .instructor-photo:after {
+		background: #653789;
+	}
+	
+	section.schedule-breakdown .timeline .instructor_details.leadership .instructor-photo:after {
+		background: #FFD01D;
+	}
+	
+	section.schedule-breakdown .timeline .instructor_details .instructor-name {
+		font-weight: 700;
 	}
 
 	section.schedule-breakdown .timeline dd {
@@ -2701,17 +2760,6 @@ section.schedule-breakdown .timeline a {
 		padding: 20px;
 		margin: 10px;
 		box-sizing: border-box;
-	}
-
-	/*
-	section.schedule-breakdown .timeline dd.course:hover {
-		opacity: .75;
-		cursor: pointer;
-	}
-	*/
-
-	section.schedule-breakdown .timeline dd a {
-		color: white;
 	}
 
 	section.schedule-breakdown .timeline dd h4 {
@@ -2730,21 +2778,10 @@ section.schedule-breakdown .timeline a {
 	section.schedule-breakdown .timeline dd.food {
 		padding: 10px 20px
 	}
-
-	section.schedule-breakdown .timeline dd.ux {
-		background: #FD7C00
-	}
-
-	section.schedule-breakdown .timeline dd.product-management {
-		background: #006F9E
-	}
-
-	section.schedule-breakdown .timeline dd.research {
-		background: #653789
-	}
-
-	section.schedule-breakdown .timeline dd.leadership {
-		background: #FFD01D
+	
+	section.schedule-breakdown .timeline dd.course {	
+		border: 1px solid #B2B2B2;
+		background: white;
 	}
 
 	section.schedule-breakdown .timeline .category dd {

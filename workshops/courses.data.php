@@ -8,6 +8,17 @@
 
 // USER EXPERIENCE
 
+// Taylor Palmer & Lindsey Martin
+$courses[] = array(
+	'title' => 'How to Build a Design System in 3 Months',
+	'description' => "Most design teams discovery their need for a Design System when they reach five or six designers. At that point, those designers are usually busy enough that it becomes difficult to find the time to establish an appropriate Design System. Any effort to establish one usually fades away in a long-forgotten Sketch file as each designer continues to cater to their own work.<br /><br />Lucid has always had a basic Design System, but never something robust enough to keep a dozen designers running in sync. As we upgraded our systems, we documented and improved our processes. Using a combination of Sketch or Figma, Google Docs, Spreadsheets, and Zeroheight, we'll take you step-by-step through our process for finally establishing a full Design System in just three months. We'll share our best practices for dividing resources, getting leadership buy-in, documenting principles, holding team approvals, and finally rolling it out to engineering teams. <br /><br />By the end of this session you will have tangible ways to tackle responsive components, consistent naming conventions, color palettes, grid systems, design principles, and detailed component specifications. You’ll also be armed with ideas, templates, documents, and a plan to finally finish your Design System.",
+	'track' => 'ux',
+	'day' => 2,
+	'slot' => 2,
+	'instructor' => array('taylorpalmer'),
+	'level' => 'intermediate'
+);
+
 // Vicki Tan
 $courses[] = array(
 	'title' => 'Designing for Humans',

@@ -29,6 +29,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						foreach($slots as $slot => $slot_details) {
 							$courses = get_courses($day, $slot);
 							
+							shuffle($courses);
+							
 							foreach($courses as $course) {
 								if(!empty($course)) {
 									echo '

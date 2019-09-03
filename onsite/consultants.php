@@ -24,7 +24,8 @@ shuffle($consultants);
 
 // spit them out
 foreach($consultants as $consultant) {
-	echo '<li class="instructor ' . $consultant['discipline'] . '">
+	echo '<li class="instructor">
+				<div class="' . $consultant['discipline'] . '">
 					<a href="/onsite/consultant/' . $consultant['slug'] . '">
 						<div class="instructor-photo">
 							<img src="/images/' . $consultant['photo'] . '" alt="">
@@ -32,7 +33,8 @@ foreach($consultants as $consultant) {
 						<h4>' . $consultant['first'] . ' ' . $consultant['last'] . '</h4>
 						<p class="title">' . $consultant['title'] . '<br>' . $consultant['company'] . '</p>
 					</a>
-				</li>';
+				</div>
+			</li>';
 
 }
 
