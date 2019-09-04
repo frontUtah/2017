@@ -19,6 +19,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<h2>Pricing</h2>
 			
 			<!-- EARLY BIRD -->
+			<!--
 			<div class="prices">
 				<dl class="pricing-types">
 					<dt><div></div></dt>
@@ -67,9 +68,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<dd class="standard">$960</dd>
 				</dl>
 			</div>
+			-->
 			
 			<!-- STANDARD -->
-			<!--
 			<div class="prices">
 				<dl class="full">
 					<dt><div>Full Workshop Series</div></dt>
@@ -103,7 +104,6 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<dd class="early">$960</dd>
 				</dl>
 			</div>
-			-->
 			
 			<!-- <p><a target="_blank" href="https://frontworkshops2019.eventbrite.com" class="button">Register</a></p> -->
 			
