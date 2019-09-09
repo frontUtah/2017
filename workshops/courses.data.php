@@ -159,8 +159,8 @@ $courses[] = array(
 
 // Todd Zaki Warfel
 $courses[] = array(
-	'title' => 'Leading Change',
-	'description' => "Coming soon...",
+	'title' => 'Adaptive leadership',
+	'description' => "Have you ever struggled with a problem that wouldn’t seam to go away? Ever felt like there’s an endless series of issues to fix? You address one problem and then another one pops its head. Sometimes if feels like you’re playing an endless game of whack-a-mole.<br /><br />Chances are you’re facing an adaptive challenge.<br /><br />This introductory course helps you identify and make progress on a leadership challenge in your own life, team, or community. We’ll explore the Kugler-Ross change curve and apply the tools and techniques of Adaptive Leadership, a practical framework developed at the Harvard Kennedy School of Government for leading change, particularly during times of uncertainty or when there are no easy answers.<br /><br />Adaptive Leadership is a critical skillset for anyone looking to drive systemic change in an increasingly complex world.<br /><br />What you’ll learn to<ul><li>Understand the root cause of a stubborn and recurring challenge in your organization, team, or community</li><li>Partner with those who are in positions of authority or power</li><li>Leverage your own power for change</li><li>Lead when you don’t have authority</li><li>Learn to lead adaptively in environments with trust issues, political sensitivities, resistance, conflict, and distress</li></ul>",
 	'track' => 'leadership',
 	'day' => 1,
 	'slot' => 1,
