@@ -14,7 +14,7 @@ $instructors[] = array(
 	'discipline' => 'leadership',
 	'photo' => 'headshots/jasonmueller.jpg',
 	'bio' => "Jason Mueller is VP of product at Pendo. Before Pendo, Jason spent 12 years as a product leader across various B2B and consumer companies including Eatsa, UserVoice, and Yelp. Prior to that, Jason co-founded MyFit, a venture-backed education analytics company that was later acquired by Naviance.",
-	'twitter' => 'jason_mueller',
+	'twitter' => '',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/jasonwilliammueller/'
 );
