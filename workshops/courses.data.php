@@ -122,6 +122,17 @@ $courses[] = array(
 
 // RESEARCH
 
+// John Cutler
+$courses[] = array(
+	'title' => 'A cross-functional team\’s guide to roadmapping',
+	'description' => "Roadmaps have traditionally been seen as the job of product management. But a shift is afoot -- from UX and engineering being downstream “customers” of the roadmap -- to being active co-creators (and in some cases, key owners) of the roadmap.<br /><br />This shift presents an amazing opportunity for UX to take on a more strategic role, and to impact the direction of the product on a more fundamental level. It also presents a formidable challenge: navigating these often archaic artifacts, and the processes that surround creating them. <br /><br />The primary goal of this workshop is to build roadmapping fluency. But there’s a twist. We don’t want to perpetuate the roadmapping antipatterns that may be in place in your organization (and in the industry as a whole).What do UX-friendly roadmaps look like, and how can we actually advance the roadmapping craft? How can UX lead?<br /><br />Some topics we’ll cover include:<ul><li>The basics: the job of roadmaps</li><li>Roadmaps as a designed thing -- a communication device</li><li>Roadmaps vs. backlogs vs. release plans</li><li>Preserving a sense of the complete experience</li><li>Moving beyond prescriptive feature-based roadmaps</li><li>Aligning the roadmap around UX-friendly metrics</li><li>Communicating the need for research (and uncertainty in general)</li><li>Business lingo: talking in “bets”, risk, and upside</li></ul><br />In short, I hope attendees will leave much more confident about becoming active participants in the roadmapping process. I am very excited to be facilitating this activity. I’m obsessed by the communication challenges that roadmaps present, and inspired by the idea of applying design to the problem.",
+	'track' => 'research',
+	'day' => 1,
+	'slot' => 3,
+	'instructor' => 'johncutler',
+	'level' => 'intermediate'
+);
+
 // Trae Winterton
 $courses[] = array(
 	'title' => 'Baking Research Cookies From Scratch',
@@ -156,6 +167,17 @@ $courses[] = array(
 );
 
 // LEADERSHIP
+
+// Jason Mueller
+$courses[] = array(
+	'title' => 'Product Operations: The secret weapon for scaling growth',
+	'description' => "To build the right thing, it’s imperative for product managers to invest in ongoing discovery cycles with customers. But more often than not, the time we wish to invest with customers is cannibalized by the never-ending list of internal needs.<br /><br />In this workshop, we’ll discuss an emerging and beneficial function within the product org, designed to free up time for PMs so they can invest more time with customers. The charter of Product Ops is to effectively manage internal requests, product communications, and inputs to prioritization. We’ll share and review templates we use internally on Product Ops to ensure alignment and speed up execution.",
+	'track' => 'leadership',
+	'day' => 1,
+	'slot' => 3,
+	'instructor' => 'jasonmueller',
+	'level' => 'intermediate'
+);
 
 // Todd Zaki Warfel
 $courses[] = array(

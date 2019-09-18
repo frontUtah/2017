@@ -4,6 +4,36 @@
  * Use '</br></br>' to separate paragraphs
  */
 
+// Jason Mueller
+$instructors[] = array(
+	'slug' => 'jasonmueller',
+	'first' => 'Jason',
+	'last' => 'Mueller',
+	'title' => 'VP of Product',
+	'company' => 'Pendo',
+	'discipline' => 'leadership',
+	'photo' => 'headshots/jasonmueller.jpg',
+	'bio' => "Jason Mueller is VP of product at Pendo. Before Pendo, Jason spent 12 years as a product leader across various B2B and consumer companies including Eatsa, UserVoice, and Yelp. Prior to that, Jason co-founded MyFit, a venture-backed education analytics company that was later acquired by Naviance.",
+	'twitter' => 'jason_mueller',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/jasonwilliammueller/'
+);
+
+// John Cutler
+$instructors[] = array(
+	'slug' => 'johncutler',
+	'first' => 'John',
+	'last' => 'Cutler',
+	'title' => 'Product Evangelist',
+	'company' => 'Amplitude',
+	'discipline' => 'research',
+	'photo' => 'headshots/johncutler.jpg',
+	'bio' => "John Cutler is keenly focused on user experience and evidence-driven product development.  He mixes and matches various methodologies — jobs-to-be-done, Lean UX, Lean Startup, customer development, and design thinking — to help teams deliver lasting outcomes for their customers.<br /><br />\“Team tetris and the feature factory will only take you so far. Cross-functional teams desire so much more, and my passion is helping them get there. It’s a win/win for the front-line teams, the business, and the customer and user.\” <br /><br />John currently works as a product evangelist at Amplitude. As a former UX researcher at AppFolio, a product manager at Zendesk, Pendo.io, AdKeeper and RichFX, a startup founder, and a product team coach, John has a perspective that spans individual roles, domains, and products. <br /><br />His viral enthusiasm has been heard through speaking/teaching engagements at Front, Oredev, Mind The Product, Agile 2015, Heart of Agile Philadelphia (2016), and various ProductCamps (Vancouver, Los Angeles, Raleigh NC) and MeetUps (Santa Barbara, Los Angeles, New York).  John’s talk on Feature Factories was voted one of the Top 10 Product Talks of 2017. <br /><br />In 2018, Mixing in some less-than-typical experiences — driving rickshaws in NYC, and touring the US with “five other weird creative people in a van playing music” — John blogs prolifically about collaboration, product development, diversity, UX research, lean startup, and user experience. Some notable posts include The Evolving Product Manager Role, Persona(s) Non Grata, 12 Signs You’re Working in a Feature Factory, and Stop Setting Up Product Roadmaps To Fail.",
+	'twitter' => 'johncutlefish',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/johnpcutler/'
+);
+
 // Lindsey Martin
 $instructors[] = array(
 	'slug' => 'lindseymartin',
