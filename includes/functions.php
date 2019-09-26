@@ -194,12 +194,21 @@ function get_time($day, $slot) {
 	return $slots[$slot]['time'] . ' ' . $slots[$slot]['meridian'];
 }
 
-// get day
-function get_day($day) {
+// get workshop day
+function get_workshop_day($day) {
 	if($day == 1) {
-		return 'Thursday, 8 November 2018';
+		return 'Thursday, 7 November 2019';
 	} else {
-		return 'Friday, 9 November 2018';
+		return 'Friday, 8 November 2019';
+	}
+}
+
+// get conference day
+function get_conference_day($day) {
+	if($day == 1) {
+		return 'Thursday, 6 June 2019';
+	} else {
+		return 'Friday, 7 June 2019';
 	}
 }
 

@@ -18,7 +18,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 		<div class="course-calendar">
 			<div class="course-date">
-				<h3>Thursday, 7 November 2019</h3>
+				<h3><?php echo get_workshop_day(1); ?></h3>
 				<ul class="days-courses">
 
 					<?php
@@ -102,7 +102,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</ul>
 			</div>
 			<div class="course-date">
-				<h3>Friday, 8 November 2019</h3>
+				<h3><?php echo get_workshop_day(2); ?></h3>
 				<ul class="days-courses">
 					<?php echo print_courses(2); ?>
 				</ul>

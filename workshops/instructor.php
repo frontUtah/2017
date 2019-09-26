@@ -68,7 +68,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					foreach($courses as $course) {
 						echo '<div class="course-description">';
 							echo '<h3>' . $course['title'] . '</h3>';
-							echo '<h4>' . get_day($course['day']) . ', at ' . get_time($course['day'], $course['slot']) . '</h4>';
+							echo '<h4>' . get_workshop_day($course['day']) . ', at ' . get_time($course['day'], $course['slot']) . '</h4>';
 							
 							// if team taught, say so
 							if(is_array($course['instructor']) && count($course['instructor']) > 1) {

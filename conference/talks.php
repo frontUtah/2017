@@ -75,7 +75,7 @@ function print_talk($day, $slot) {
 		
 		<div class="course-calendar">
 			<div class="course-date">
-				<h3>Thursday, 6 June 2019</h3>
+				<h3><?php echo get_conference_day(1); ?></h3>
 				<ul class="days-courses">
 					<li class="course">
 						<dl>
@@ -190,7 +190,7 @@ function print_talk($day, $slot) {
 				</ul>
 			</div>
 			<div class="course-date">
-				<h3>Friday, 7 June 2019</h3>
+				<h3><?php echo get_conference_day(1); ?></h3>
 				<ul class="days-courses">
 					<li class="course">
 						<dl>
