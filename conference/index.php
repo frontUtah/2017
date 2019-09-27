@@ -89,28 +89,14 @@ foreach($speakers as $instructor) {
 			<p>Our goal is to provide an environment that allows industry professionals to gather once a year and share the experiences that have helped them build better products and progress individually.</p>
 		</section>
 		
-		<!--
+
 		<section class="training-courses sponsors">
 			<h2>Sponsors</h2>
 			<a href="http://www.pluralsight.com" target="_blank"><img id="premier" src="/images/sponsors/pluralsight.svg" /></a>
 			<ul class="second_tier">
-				<li class="second_tier_sponsor"><a href="https://www.goabstract.com/?&utm_medium=Events&utm_source=Events-Conference&utm_campaign=CY19-Events-Conference-Front-Jun-6" target="_blank"><img src="/images/sponsors/abstract.svg" height="60px" /></a></li>
-				<li class="second_tier_sponsor"><a href="http://www.usertesting.com" target="_blank"><img src="/images/sponsors/usertesting.svg" height="60px" /></a></li>
-				<li class="second_tier_sponsor"><a href="http://www.workfront.com" target="_blank"><img src="/images/sponsors/workfront.svg" height="60px" /></a></li>
-				<li class="second_tier_sponsor"><a href="http://www.invisionapp.com" target="_blank"><img src="/images/sponsors/invision.svg" /></a></li>
-				<li class="second_tier_sponsor"><a href="http://www.underbelly.is" target="_blank"><img src="/images/sponsors/underbelly.svg" height="60px" /></a></li>
-				<li class="second_tier_sponsor"><a href="http://www.rev.com" target="_blank"><img src="/images/sponsors/rev.svg" height="60px" /></a></li>
-				<li class="second_tier_sponsor"><a href="http://www.balsamiq.com" target="_blank"><img src="/images/sponsors/balsamiq.svg" height="60px" /></a></li>
-				<li class="second_tier_sponsor"><a href="http://www.pendo.io" target="_blank"><img src="/images/sponsors/pendo.svg" height="60px" /></a></li>
-				<li class="second_tier_sponsor"><a href="https://data.mx.com/" target="_blank"><img src="/images/sponsors/mx.svg" height="60px" /></a></li>
-				<li class="second_tier_sponsor"><a href="https://jobs.progleasing.com/" target="_blank"><img src="/images/sponsors/progressive.svg" /></a></li>
-				<li class="second_tier_sponsor"><a href="https://www.solutionstream.com/" target="_blank"><img src="/images/sponsors/solutionstream.svg" /></a></li>
-				<li class="second_tier_sponsor"><a href="https://www.split.io/" target="_blank"><img src="/images/sponsors/split.svg" height="60px" /></a></li>
-				<li class="second_tier_sponsor"><a href="https://www.indeed.com/" target="_blank"><img src="/images/sponsors/indeed.svg" height="60px" /></a></li>
-				<li class="second_tier_sponsor"><a href="https://www.motifresearch.com/" target="_blank"><img src="/images/sponsors/motif.svg" height="60px" /></a></li>
+				<li class="second_tier_sponsor"><a href="https://uxpressia.com" target="_blank"><img src="/images/sponsors/uxpressia.svg" height="60px" /></a></li>
 			</ul>
 		</section>
-		-->
 		
 		<section class="photo-collage">
 			<img src="/images/collage-front-photos-mobile@2x.jpg" alt="" class="mobile">
