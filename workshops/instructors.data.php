@@ -4,6 +4,36 @@
  * Use '</br></br>' to separate paragraphs
  */
 
+// Lauren Gray
+$instructors[] = array(
+	'slug' => 'laurengray',
+	'first' => 'Lauren',
+	'last' => 'Gray',
+	'title' => 'Principal of Product Management Practices',
+	'company' => 'Pluralsight',
+	'discipline' => 'research',
+	'photo' => 'headshots/laurengray.jpg',
+	'bio' => "Lauren Gray's product knowledge is deeply rooted in her UX background. She's passionate about human-centered design and educating others about best practices around product management and design. Currently employed at Pluralsight, Lauren spends her days working on the Product Management Practices team where she mentors and coaches others on all things Product. She is also educating the future of UX designers at V School.<br /><br />When she's not designing products or learning new things, you can find her climbing, biking or skiing in the Wasatch Range.",
+	'twitter' => 'laurengray',
+	'instagram' => '',
+	'linkedin' => 'https://linkedin.com/in/laurenagray/'
+);
+
+// Matt Moss
+$instructors[] = array(
+	'slug' => 'mattmoss',
+	'first' => 'Matt',
+	'last' => 'Moss',
+	'title' => 'Principle of Product Management',
+	'company' => 'Pluralsight',
+	'discipline' => 'research',
+	'photo' => 'headshots/mattmoss.jpg',
+	'bio' => "Matt likes to think he’s basically achieved the geek dream. He’s spent the last twelve years working at fast-growth SaaS companies and startups that he adores, while getting the opportunity to build amazing products that make a difference for their users. During that time, he’s led his teams through human-centered design practices to ensure a hyper focus on the end-user. Currently, Matt’s a remote member of the Practices team at Pluralsight, where he mentors and coaches Product Managers on human-centered design concepts and best practice.",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/matthew-moss-661aa84/'
+);
+
 // Jason Mueller
 $instructors[] = array(
 	'slug' => 'jasonmueller',

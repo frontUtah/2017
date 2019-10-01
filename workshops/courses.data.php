@@ -122,6 +122,17 @@ $courses[] = array(
 
 // RESEARCH
 
+// Lauren Gray and Matt Moss
+$courses[] = array(
+	'title' => 'Research synthesis: Making sense of your user interviews',
+	'description' => "So you’ve spoken with numerous customers, spelunked into your quantitative data, reviewed market and industry trends and now you’re ready to unleash your development team to build the next great thing.<br /><br />But where do you start? How do you take all of that data and give your team enough confidence and empathy to build the right thing in an iterative fashion that proves value along the way?<br /><br />In this workshop we’ll run you through a one-day synthesis exercise designed to give your team shared purpose around the value you’re trying to deliver and where you can start to validate that value for your customer. The session is broken into two parts, (1) Synthesizing and Identifying the areas of value, and (2) Applying Contextual Data to those areas to help ensure you’re thinking about the value across the customer's entire journey.<br /><br />We’ll walk you through distilling all of the data you’ve gathered into actionable insights. Once we have the data distilled, we’ll run through the assumption framework to help us plot out impact and risk for our top insights.<br /><br />After we’ve honed in on the top actionable insights, we’ll zoom back out to understand how delivering on the value we’ve identified could drive habitual usage within your existing application and what leading metrics would be early indicators that we’ve delivered the value we’ve intended.",
+	'track' => 'research',
+	'day' => 2,
+	'slot' => 1,
+	'instructor' => array('laurengray','mattmoss'),
+	'level' => 'intermediate'
+);
+
 // John Cutler
 $courses[] = array(
 	'title' => 'A cross-functional team\’s guide to roadmapping',
