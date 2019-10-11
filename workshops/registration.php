@@ -15,6 +15,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<h2>Registration</h2>
 			<p class="about-registration-about">Seating is limited, but the value isn’t. Don’t procrastinate. You don’t want to miss this. Front UX & Product Management Workshop Series returns this November with more instructors, gourmet catered food, and a beautiful venue, this time in the center of Salt Lake Valley. We’ve discounted prices and are continuing our awesome group discounts so your entire team can attend.</p>
 		</section>
+		
 		<section class="pricing">
 			<h2>Pricing</h2>
 			
@@ -71,6 +72,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			-->
 			
 			<!-- STANDARD -->
+			<!--
 			<div class="prices">
 				<dl class="full">
 					<dt><div>Full Workshop Series</div></dt>
@@ -105,9 +107,15 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</dl>
 			</div>
 			
-			<!-- <p><a target="_blank" href="https://frontworkshops2019.eventbrite.com" class="button">Register</a></p> -->
-			
 			<div style="width:100%; text-align:left;"><iframe src="https://eventbrite.com/tickets-external?eid=54869589419&ref=etckt" frameborder="0" height="788" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:12px; padding:10px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #ADB0B6; text-decoration: none;" target="_blank" href="https://www.eventbrite.com/">Powered by Eventbrite</a></div></div>
+			
+			-->
+			
+			<h5 class="soldout">SOLD OUT</h4>
+			
+			<p class="pricing-notes">We're sorry, but the workshops are sold out. We wish there were more seats. We encourage you to join us 
+				for our <a href="/conference">case study conference</a> in May and <a href="/mailinglist">join our 
+				mailing list</a> to be notified when tickets to next year's workshops go on sale.</p>
 			
 		</section>
 

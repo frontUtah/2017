@@ -2995,9 +2995,16 @@ section.pricing .full-plus-lift .early {
 	color: #653789
 }
 
+section.pricing .soldout {
+	font-weight: 900;
+	color: #FD7C00;
+	font-size: 60px;
+	margin: 40px 0;
+}
+
 @media (max-width:1019px) {
 	section.pricing {
-		padding: 70px 0
+		padding: 70px 0;
 	}
 
 	section.pricing .prices {
@@ -3052,6 +3059,11 @@ section.pricing .full-plus-lift .early {
 		font-style: italic;
 		font-size: 18px;
 		display: block
+	}
+	
+	section.pricing .pricing-notes {
+		margin-left: 31px;
+		margin-right: 31px;
 	}
 }
 
@@ -3207,7 +3219,8 @@ section.accomodations .hotel .book-hotel .button {
 		padding-top: 0px;
 	}
 
-	section.accomodations .about-accomodations {
+	section.accomodations .about-accomodations, 
+	section.pricing .pricing-notes {
 		font-weight: 200;
 		font-size: 18px;
 		line-height: 28px;
