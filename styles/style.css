@@ -1778,11 +1778,24 @@ section.individual-instructor .instructor-content li {
 	margin-bottom: 15px;
 }
 	
-section.individual-instructor .workshop-video-recording {
+.workshop-video-recording {
 	margin: 15px 0 25px 0;
 }
 
+section.pricing .workshop-video-recording {
+	background: #ececec;
+	border-radius: 4px;
+	padding: 20px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
+section.pricing .workshop-video-recording h5 {
+	font-weight: bold;
+	text-decoration: none;
+	margin-bottom: 8px;
+}
 
 @media (max-width:999px) {
 	section.individual-instructor {
@@ -3470,7 +3483,8 @@ section.faqs h3 {
 	}
 }
 
-section.attendant-charts h4 {
+section.attendant-charts h4,
+section.pricing h4 {
 	font-size: 24px;
 	font-weight: 700;
 	margin: 40px 0

@@ -13,12 +13,46 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		</section>
 		<section class="registration-about">
 			<h2>Registration</h2>
-			<p class="about-registration-about">Seating is limited, but the value isn’t. Don’t procrastinate. You don’t want to miss this. Front UX & Product Management Workshop Series returns this November with more instructors, gourmet catered food, and a beautiful venue, this time in the center of Salt Lake Valley. We’ve discounted prices and are continuing our awesome group discounts so your entire team can attend.</p>
+			<p class="about-registration-about">Seating is limited, but the value isn’t. Don’t 
+				procrastinate. You don’t want to miss this. Front UX & Product Management 
+				Workshop Series returns this November with more instructors, gourmet catered 
+				food, and a beautiful venue, this time in the center of Salt Lake Valley. We’ve 
+				discounted prices and are continuing our awesome group discounts so your entire 
+				team can attend.</p>
 		</section>
 		
 		<section class="pricing">
 			<h2>Pricing</h2>
 			
+			<h4>On-demand recordings</h4>
+			
+			<p class="pricing-notes">Some workshops are being recorded and will be available 
+				on-demand approximately 1 week after the event. Access to these recordings may 
+				be pre-ordered individually through the links below. Once the event concludes, 
+				you will received an email with instructions on how to view the workshop.</p>
+			
+			<script src="https://gumroad.com/js/gumroad.js"></script>
+			<!-- script src="https://gumroad.com/js/gumroad-embed.js"></script -->
+			<?php
+
+			foreach($courses as $course) {
+				if(isset($course['recording']) && !empty($course['recording'])) {
+					echo '
+						<div class="workshop-video-recording">
+							<h5><a href="/workshops/instructor/' . $course['instructor'] . '">' . $course['title'] . '</a></h5>
+							<a class="gumroad-button" href="' . $course['recording'] . '" target="_blank">Pre-order a recording of this workshop</a>
+						</div>';
+					/*
+					echo '<div class="gumroad-product-embed" data-gumroad-product-id="' . str_replace(' ', '-', $course['recording']) . '" data-gumroad-params="email=sahil@gumroad.com&price=10"><a href="' . $course['recording'] . '">Loading...</a></div>';
+					*/
+				}
+			}
+				
+			?>
+			
+			<div style="height: 30px"></div>
+			
+			<h4>Live in-person</h4>
 			<!-- EARLY BIRD -->
 			<!--
 			<div class="prices">
@@ -111,7 +145,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			
 			-->
 			
-			<h5 class="soldout">SOLD OUT</h4>
+			<h5 class="soldout">SOLD OUT</h5>
 			
 			<p class="pricing-notes">We're sorry, but the workshops are sold out. We wish there were more seats. We encourage you to join us 
 				for our <a href="/conference">case study conference</a> in May and <a href="/mailinglist">join our 

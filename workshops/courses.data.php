@@ -28,7 +28,7 @@ $courses[] = array(
 	'slot' => 3,
 	'instructor' => 'vickitan',
 	'level' => 'intermediate',
-	'recording' => 'https://gum.co/front-workshops-instructor-vickitan?wanted=true'
+	'recording' => 'https://gum.co/front-workshops-instructor-vickitan'
 );
 
 // Garth Braithwaite
@@ -76,7 +76,7 @@ $courses[] = array(
 	'slot' => 1,
 	'instructor' => 'danolsen',
 	'level' => 'advanced',
-	'recording' => 'https://gum.co/front-workshops-instructor-danolsen?wanted=true'
+	'recording' => 'https://gum.co/front-workshops-instructor-danolsen'
 );
 
 // Jeff Whitlock
@@ -138,7 +138,7 @@ $courses[] = array(
 
 // John Cutler
 $courses[] = array(
-	'title' => 'A cross-functional team\’s guide to roadmapping',
+	'title' => 'A cross-functional team’s guide to roadmapping',
 	'description' => "Roadmaps have traditionally been seen as the job of product management. But a shift is afoot -- from UX and engineering being downstream “customers” of the roadmap -- to being active co-creators (and in some cases, key owners) of the roadmap.<br /><br />This shift presents an amazing opportunity for UX to take on a more strategic role, and to impact the direction of the product on a more fundamental level. It also presents a formidable challenge: navigating these often archaic artifacts, and the processes that surround creating them. <br /><br />The primary goal of this workshop is to build roadmapping fluency. But there’s a twist. We don’t want to perpetuate the roadmapping antipatterns that may be in place in your organization (and in the industry as a whole).What do UX-friendly roadmaps look like, and how can we actually advance the roadmapping craft? How can UX lead?<br /><br />Some topics we’ll cover include:<ul><li>The basics: the job of roadmaps</li><li>Roadmaps as a designed thing -- a communication device</li><li>Roadmaps vs. backlogs vs. release plans</li><li>Preserving a sense of the complete experience</li><li>Moving beyond prescriptive feature-based roadmaps</li><li>Aligning the roadmap around UX-friendly metrics</li><li>Communicating the need for research (and uncertainty in general)</li><li>Business lingo: talking in “bets”, risk, and upside</li></ul><br />In short, I hope attendees will leave much more confident about becoming active participants in the roadmapping process. I am very excited to be facilitating this activity. I’m obsessed by the communication challenges that roadmaps present, and inspired by the idea of applying design to the problem.",
 	'track' => 'research',
 	'day' => 1,
@@ -202,7 +202,7 @@ $courses[] = array(
 	'slot' => 1,
 	'instructor' => 'toddzakiwarfel',
 	'level' => 'advanced',
-	'recording' => 'https://gum.co/front-workshops-instructor-toddzakiwarfel?wanted=true'
+	'recording' => 'https://gum.co/front-workshops-instructor-toddzakiwarfel'
 );
 
 // Heather Phillips 
@@ -225,7 +225,7 @@ $courses[] = array(
 	'slot' => 1,
 	'instructor' => 'nicksloggett',
 	'level' => 'intermediate',
-	'recording' => 'https://gum.co/front-workshops-instructor-nicksloggett?wanted=true'
+	'recording' => 'https://gum.co/front-workshops-instructor-nicksloggett'
 );
 
 // Brian Brower
