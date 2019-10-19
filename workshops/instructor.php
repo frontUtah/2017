@@ -25,6 +25,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 	<section class="individual-instructor">
 		<h2 class="">Instructors</h2>
 		<div class="instructor-profile">
+			
+			<!-- COLUMN 1 -->
 			<div class="details">
 				<div class="instructor">
 					<div class="<?php echo strtolower($instructor['discipline']); ?>">
@@ -60,6 +62,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</ul>
 				</nav>
 			</div>
+			
+			
+			<!-- COLUMN 2 -->
 			<div class="instructor-content">
 
 				<?php
@@ -102,6 +107,15 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 								}
 								
 								echo '</h4>';
+							}
+						
+							// recording for sale?
+							if(isset($course['recording']) && !empty($course['recording'])) {
+								echo '
+									<div class="workshop-video-recording">
+										<script src="https://gumroad.com/js/gumroad.js"></script>
+										<a class="gumroad-button" href="' . $course['recording'] . '" target="_blank">Pre-order a recording of this workshop</a>
+									</div>';
 							}
 							
 							echo '<p>' . $course['description'] . '</p>';

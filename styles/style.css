@@ -1777,6 +1777,12 @@ section.individual-instructor .instructor-content li {
 	list-style: disc;
 	margin-bottom: 15px;
 }
+	
+section.individual-instructor .workshop-video-recording {
+	margin: 15px 0 25px 0;
+}
+
+
 
 @media (max-width:999px) {
 	section.individual-instructor {
