@@ -44,7 +44,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<a class="gumroad-button" href="https://gum.co/' . $course['gumroad_product_id'] . '" target="_blank">Pre-order a recording of this workshop</a>
 						</div>';
 					*/
-					echo '<div class="gumroad-product-embed" data-gumroad-product-id="' . str_replace(' ', '-', $course['gumroad_product_id']) . '" data-gumroad-params=""><a href="' . $course['recording'] . '">Loading...</a></div>';
+					echo '
+						<div class="gumroad-product-embed" data-gumroad-product-id="' . str_replace(' ', '-', $course['gumroad_product_id']) . '" data-gumroad-params="">
+							<a href="https://gumroad.com/' . $course['gumroad_product_id'] . '">Loading...</a>
+						</div>';
 				}
 			}
 				
