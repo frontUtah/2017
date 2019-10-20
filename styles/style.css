@@ -1778,24 +1778,16 @@ section.individual-instructor .instructor-content li {
 	margin-bottom: 15px;
 }
 	
-.workshop-video-recording {
-	margin: 15px 0 25px 0;
-}
-
-section.pricing .workshop-video-recording {
-	background: #ececec;
-	border-radius: 4px;
-	padding: 20px;
-	width: 400px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-section.pricing .workshop-video-recording h5 {
-	font-weight: bold;
-	text-decoration: none;
-	margin-bottom: 8px;
-}
+	#workshop_recordings {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		margin-bottom: 30px;
+	}
+	
+	.workshop_recording {
+		width: 460px;
+	}
 
 @media (max-width:999px) {
 	section.individual-instructor {
@@ -1882,9 +1874,9 @@ section.pricing .workshop-video-recording h5 {
 	}
 }
 
-	section.individual-instructor .course-description {
-		margin-bottom: 50px
-	}
+section.individual-instructor .course-description {
+	margin-bottom: 50px
+}
 
 section.courses .about-courses {
 	padding: 0 25px
