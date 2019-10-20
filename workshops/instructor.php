@@ -114,7 +114,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 								echo '
 									<div class="workshop-video-recording">
 										<script src="https://gumroad.com/js/gumroad.js"></script>
-										<a class="gumroad-button" href="https://gum.co/' . $course['gumroad_product_id'] . '?wanted=true" target="_blank">Pre-order a recording of this workshop</a>
+										<a class="button" href="https://gum.co/' . $course['gumroad_product_id'] . '?wanted=true" target="_blank">Pre-order a recording of this workshop</a>
 									</div>';
 							}
 							
