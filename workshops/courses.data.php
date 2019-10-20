@@ -28,7 +28,7 @@ $courses[] = array(
 	'slot' => 3,
 	'instructor' => 'vickitan',
 	'level' => 'intermediate',
-	'recording' => 'https://gum.co/front-workshops-instructor-vickitan'
+	'gumroad_product_id' => 'front-workshops-instructor-vickitan'
 );
 
 // Garth Braithwaite
@@ -76,7 +76,7 @@ $courses[] = array(
 	'slot' => 1,
 	'instructor' => 'danolsen',
 	'level' => 'advanced',
-	'recording' => 'https://gum.co/front-workshops-instructor-danolsen'
+	'gumroad_product_id' => 'front-workshops-instructor-danolsen'
 );
 
 // Jeff Whitlock
@@ -202,7 +202,7 @@ $courses[] = array(
 	'slot' => 1,
 	'instructor' => 'toddzakiwarfel',
 	'level' => 'advanced',
-	'recording' => 'https://gum.co/front-workshops-instructor-toddzakiwarfel'
+	'gumroad_product_id' => 'front-workshops-instructor-toddzakiwarfel'
 );
 
 // Heather Phillips 
@@ -225,7 +225,7 @@ $courses[] = array(
 	'slot' => 1,
 	'instructor' => 'nicksloggett',
 	'level' => 'intermediate',
-	'recording' => 'https://gum.co/front-workshops-instructor-nicksloggett'
+	'gumroad_product_id' => 'front-workshops-instructor-nicksloggett'
 );
 
 // Brian Brower

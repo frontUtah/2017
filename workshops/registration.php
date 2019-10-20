@@ -31,20 +31,20 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				be pre-ordered individually through the links below. Once the event concludes, 
 				you will received an email with instructions on how to view the workshop.</p>
 			
-			<script src="https://gumroad.com/js/gumroad.js"></script>
-			<!-- script src="https://gumroad.com/js/gumroad-embed.js"></script -->
+			<!-- script src="https://gumroad.com/js/gumroad.js"></script -->
+			<script src="https://gumroad.com/js/gumroad-embed.js"></script>
 			<?php
 
 			foreach($courses as $course) {
-				if(isset($course['recording']) && !empty($course['recording'])) {
+				if(isset($course['gumroad_product_id']) && !empty($course['gumroad_product_id'])) {
+					/*
 					echo '
 						<div class="workshop-video-recording">
 							<h5><a href="/workshops/instructor/' . $course['instructor'] . '">' . $course['title'] . '</a></h5>
-							<a class="gumroad-button" href="' . $course['recording'] . '" target="_blank">Pre-order a recording of this workshop</a>
+							<a class="gumroad-button" href="https://gum.co/' . $course['gumroad_product_id'] . '" target="_blank">Pre-order a recording of this workshop</a>
 						</div>';
-					/*
-					echo '<div class="gumroad-product-embed" data-gumroad-product-id="' . str_replace(' ', '-', $course['recording']) . '" data-gumroad-params="email=sahil@gumroad.com&price=10"><a href="' . $course['recording'] . '">Loading...</a></div>';
 					*/
+					echo '<div class="gumroad-product-embed" data-gumroad-product-id="' . str_replace(' ', '-', $course['gumroad_product_id']) . '" data-gumroad-params=""><a href="' . $course['recording'] . '">Loading...</a></div>';
 				}
 			}
 				
