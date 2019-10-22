@@ -16,7 +16,8 @@ $courses[] = array(
 	'day' => 2,
 	'slot' => 2,
 	'instructor' => array('taylorpalmer','lindseymartin'),
-	'level' => 'intermediate'
+	'level' => 'intermediate',
+	'room' => 2
 );
 
 // Vicki Tan
@@ -28,7 +29,8 @@ $courses[] = array(
 	'slot' => 3,
 	'instructor' => 'vickitan',
 	'level' => 'intermediate',
-	'gumroad_product_id' => 'front-workshops-instructor-vickitan'
+	'gumroad_product_id' => 'front-workshops-instructor-vickitan',
+	'room' => 3
 );
 
 // Garth Braithwaite
@@ -39,7 +41,8 @@ $courses[] = array(
 	'day' => 1,
 	'slot' => 1,
 	'instructor' => 'garthdb',
-	'level' => 'intermediate'
+	'level' => 'intermediate',
+	'room' => 2
 );
 
 // Amish Desai
@@ -50,7 +53,8 @@ $courses[] = array(
 	'day' => 2,
 	'slot' => 1,
 	'instructor' => 'amishdesai',
-	'level' => 'intermediate'
+	'level' => 'intermediate',
+	'room' => 4
 );
 
 // Bhargavi Kamakshivalli
@@ -61,7 +65,8 @@ $courses[] = array(
 	'day' => 1,
 	'slot' => 2,
 	'instructor' => 'bhargavikamakshivalli',
-	'level' => 'basics'
+	'level' => 'basics',
+	'room' => 4
 );
 
 
@@ -76,7 +81,8 @@ $courses[] = array(
 	'slot' => 1,
 	'instructor' => 'danolsen',
 	'level' => 'advanced',
-	'gumroad_product_id' => 'front-workshops-instructor-danolsen'
+	'gumroad_product_id' => 'front-workshops-instructor-danolsen',
+	'room' => 3
 );
 
 // Jeff Whitlock
@@ -87,7 +93,8 @@ $courses[] = array(
 	'day' => 1,
 	'slot' => 2,
 	'instructor' => 'jeffwhitlock',
-	'level' => 'intermediate'
+	'level' => 'intermediate',
+	'room' => 2
 );
 
 // Chris Mayfield 
@@ -98,7 +105,8 @@ $courses[] = array(
 	'day' => 1,
 	'slot' => 3,
 	'instructor' => 'chrismayfield',
-	'level' => 'intermediate'
+	'level' => 'intermediate',
+	'room' => 2
 );
 
 // Bryce Barrand 
@@ -109,7 +117,8 @@ $courses[] = array(
 	'day' => 2,
 	'slot' => 2,
 	'instructor' => 'brycebarrand',
-	'level' => 'intermediate'
+	'level' => 'intermediate',
+	'room' => 4
 );
 
 // Mariah Hay
@@ -120,8 +129,10 @@ $courses[] = array(
 	'day' => 2,
 	'slot' => 1,
 	'instructor' => 'mariahhay',
-	'level' => 'advanced'
+	'level' => 'advanced',
+	'room' => 1
 );
+
 
 // RESEARCH
 
@@ -133,7 +144,8 @@ $courses[] = array(
 	'day' => 2,
 	'slot' => 1,
 	'instructor' => array('laurengray','mattmoss'),
-	'level' => 'intermediate'
+	'level' => 'intermediate',
+	'room' => 2
 );
 
 // John Cutler
@@ -144,7 +156,8 @@ $courses[] = array(
 	'day' => 1,
 	'slot' => 1,
 	'instructor' => 'johncutler',
-	'level' => 'intermediate'
+	'level' => 'intermediate',
+	'room' => 1
 );
 
 // Trae Winterton
@@ -155,7 +168,8 @@ $courses[] = array(
 	'day' => 1,
 	'slot' => 3,
 	'instructor' => 'traewinterton',
-	'level' => 'basics'
+	'level' => 'basics',
+	'room' => 4
 );
 
 // Kelly May & Jiovan Melendez
@@ -166,7 +180,8 @@ $courses[] = array(
 	'day' => 1,
 	'slot' => 1,
 	'instructor' => array('kellymay', 'jiovanmelendez'),
-	'level' => 'intermediate'
+	'level' => 'intermediate',
+	'room' => 4
 );
 
 // Andrew Branch
@@ -177,8 +192,10 @@ $courses[] = array(
 	'day' => 1,
 	'slot' => 2,
 	'instructor' => 'andrewbranch',
-	'level' => 'intermediate'
+	'level' => 'intermediate',
+	'room' => 3
 );
+
 
 // LEADERSHIP
 
@@ -190,7 +207,8 @@ $courses[] = array(
 	'day' => 1,
 	'slot' => 3,
 	'instructor' => 'jasonmueller',
-	'level' => 'intermediate'
+	'level' => 'intermediate',
+	'room' => 1
 );
 
 // Todd Zaki Warfel
@@ -202,7 +220,8 @@ $courses[] = array(
 	'slot' => 2,
 	'instructor' => 'toddzakiwarfel',
 	'level' => 'advanced',
-	'gumroad_product_id' => 'front-workshops-instructor-toddzakiwarfel'
+	'gumroad_product_id' => 'front-workshops-instructor-toddzakiwarfel',
+	'room' => 3
 );
 
 // Heather Phillips 
@@ -213,7 +232,8 @@ $courses[] = array(
 	'day' => 1,
 	'slot' => 2,
 	'instructor' => 'heatherphillips',
-	'level' => 'intermediate'
+	'level' => 'intermediate',
+	'room' => 1
 );
 
 // Nick Sloggett
@@ -225,7 +245,8 @@ $courses[] = array(
 	'slot' => 1,
 	'instructor' => 'nicksloggett',
 	'level' => 'intermediate',
-	'gumroad_product_id' => 'front-workshops-instructor-nicksloggett'
+	'gumroad_product_id' => 'front-workshops-instructor-nicksloggett',
+	'room' => 3
 );
 
 // Brian Brower
@@ -236,7 +257,8 @@ $courses[] = array(
 	'day' => 2,
 	'slot' => 2,
 	'instructor' => 'brianbrower',
-	'level' => 'advanced'
+	'level' => 'advanced',
+	'room' => 1
 );
 
 ?>

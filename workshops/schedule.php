@@ -20,7 +20,7 @@ function print_schedulerow($day, $slot) {
 	
 	$courses_row = get_courses($day, $slot);
 	
-	shuffle($courses_row);
+	ksort($courses_row);
 	
 	foreach($courses_row as $course) {
 		echo '
@@ -67,6 +67,20 @@ function print_schedulerow($day, $slot) {
 			<p class="about-schedule">There are four workshops per time-slot. Workshop are not assigned or pre-selected, 
 				allowing you to choose those that interest you most or adjust as your schedule requires. Workshop may fill 
 				up fast so we encourage attendees to arrive on time.</p>
+			
+			<div class="schedule-day">
+				<ol class="timeline">
+					<li class="">
+						<dl>
+							<dt class="time"></dt>
+							<dd class="header">Viridian A</dd>
+							<dd class="header">Viridian B</dd>
+							<dd class="header">Viridian C</dd>
+							<dd class="header">Parkview</dd>
+						</dl>
+					</li>
+				</ol>
+			</div>
 			
 			<div class="schedule-day">
 				<h3><?php echo get_workshop_day(1); ?></h3>

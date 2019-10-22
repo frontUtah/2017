@@ -2794,6 +2794,13 @@ section.schedule-breakdown .timeline .instructor_details.leadership {
 		border: 1px solid #B2B2B2;
 		background: white;
 	}
+	
+	section.schedule-breakdown .timeline dd.header {	
+		border: none;
+		background: none;
+		color: #B2B2B2;
+		font-size: 18px;
+	}
 
 	section.schedule-breakdown .timeline .category dd {
 		background: none;

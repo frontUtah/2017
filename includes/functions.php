@@ -48,7 +48,7 @@ function get_course($track, $day, $slot) {
 	}
 }
 
-// get courses by slot
+// get courses by slot (ordered by room)
 function get_courses($day, $slot) {
 	global $courses;
 	
@@ -56,7 +56,7 @@ function get_courses($day, $slot) {
 
 	foreach($courses as $course) {
 		if($course['day'] == $day && $course['slot'] == $slot) {
-			$this_courses[] = $course;
+			$this_courses[$course['room']] = $course;
 		}
 	}
 	
@@ -218,6 +218,20 @@ function truncate_string($string, $length) {
 		return rtrim(mb_strimwidth($string, 0, $length)) . '&hellip;';
 	} else {
 		return $string;
+	}
+}
+
+// get room
+function get_room($id) {
+	switch($id) {
+		case 1:
+			return 'Viridian A';
+		case 2:
+			return 'Viridian B';
+		case 3:
+			return 'Viridian C';
+		case 4:
+			return 'Parkview';
 	}
 }
 
