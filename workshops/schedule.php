@@ -12,19 +12,17 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 
 function print_schedulerow($day, $slot) {
-	$tracks = array('ux', 'product-management', 'research', 'leadership');
-
-	shuffle($tracks);
-	
 	$time_slots = get_workshopseries_timeslots($day);
 	
 	echo '
 							<dl>
 								<dt class="time">' . $time_slots[$slot]['time'] . ' ' . $time_slots[$slot]['meridian'] . '</dt>';
 	
-	foreach($tracks as $track) {
-		$course = get_course($track, $day, $slot);
-		
+	$courses_row = get_courses($day, $slot);
+	
+	shuffle($courses_row);
+	
+	foreach($courses_row as $course) {
 		echo '
 								<dd class="course">';
 
