@@ -61,12 +61,12 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<!--<dd class="accordion-content answer">We are in the process of negotiated discount rates at a hotel near the venue and downtown.</dd> -->
 							<dd class="accordion-content answer">We have acquired a discounted nightly rate of $129/night + tax for a king bed and $139/night + tax for two queens, at the Staybridge only six minutes from the venue. Book your room online or by calling 801-871-0871 and asking for the “Front Utah” group discount. Free transportation between the hotel and venue will be provided. <a href="https://www.staybridge.com/redirect?path=hd&brandCode=SB&localeCode=en&regionCode=1&hotelCode=SLCMV&_PMID=99801505&GPC=FRT&viewfullsite=true">Book Now</a></dd>
 						</dl>
-						
-						<!--
 						<dl class="accordion">
 							<dt class="accordion-title question">Are there other hotels recommended?</dt>
-							<dd class="accordion-content answer">We highly recommend the DoubleTree by Hilton, as free transportation between the venue and that hotel will be provided. It is also at the foot of historic Main Street, where there is ample nightlife, entertainment, and dining options. That said, the Hyatt Place Park City and Holiday Inn Express Hotel & Suites Park City are closer to the venue and are also good options. Park City also has many timeshare and condominiums for rent that you can find by searching your favorite travel site for details and pricing.</dd>
+							<dd class="accordion-content answer">We highly recommend the Staybridge because of the discounted rate. That said, <a href="https://www.marriott.com/hotels/travel/slcfm-fairfield-inn-and-suites-salt-lake-city-midvale/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2">Fairfield Inn & Suites Salt Lake City Midvale</a> and <a href="https://www.hilton.com/en/hotels/slcmvru-tru-salt-lake-city-midvale/">Tru by Hilton Salt Lake City Midvale</a> are next door to Staybridge and therefore the same distance from the venue. Salt Lake City also has many timeshare and condominiums for rent that you can find by searching your favorite travel site for details and pricing.</dd>
 						</dl>
+						
+						<!--
 						<dl class="accordion">
 							<dt class="accordion-title question">Can I cancel my hotel reservation if I am unable to attend?</dt>
 							<dd class="accordion-content answer">A Deposit equal to two (2) night’s stay is required to hold each individual’s reservation, with final payment due thirty (30) days prior to arrival. Reservations made within thirty (30) days of arrival will be required to be paid in full at time of booking. Such deposit shall serve to confirm the reservation for the date(s) indicated. This deposit is refundable if notice of cancellation is received at least thirty (30) days prior to arrival and a cancellation number is obtained. All deposits shall be charged at the time the reservation is made. No refunds for late arrivals, early departures or down grades.</dd>
