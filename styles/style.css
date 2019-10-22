@@ -1585,6 +1585,7 @@ section.personal-stories p {
 
 section.personal-stories .card-image {
 	margin: 0 -40px;
+	cursor: pointer;
 }
 
 section.personal-stories .story-cards a {
