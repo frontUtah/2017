@@ -81,7 +81,6 @@ $courses[] = array(
 	'slot' => 1,
 	'instructor' => 'danolsen',
 	'level' => 'advanced',
-	'gumroad_product_id' => 'front-workshops-instructor-danolsen',
 	'room' => 3
 );
 
