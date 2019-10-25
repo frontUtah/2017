@@ -81,7 +81,7 @@ $courses[] = array(
 	'slot' => 1,
 	'instructor' => 'danolsen',
 	'level' => 'advanced',
-	'room' => 3
+	'room' => 1
 );
 
 // Jeff Whitlock
@@ -156,7 +156,7 @@ $courses[] = array(
 	'slot' => 1,
 	'instructor' => 'johncutler',
 	'level' => 'intermediate',
-	'room' => 1
+	'room' => 3
 );
 
 // Trae Winterton
