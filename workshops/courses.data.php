@@ -29,7 +29,6 @@ $courses[] = array(
 	'slot' => 3,
 	'instructor' => 'vickitan',
 	'level' => 'intermediate',
-	'gumroad_product_id' => 'front-workshops-instructor-vickitan',
 	'room' => 3
 );
 
