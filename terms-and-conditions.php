@@ -25,6 +25,14 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				month before the event. Attendees are eligible for the student 
 				discount if they are enrolled full-time in a college or university 
 				undergraduate or graduate program and not working full-time.</p>
+				
+				<p>Front events are filmed and photographed. 
+				Please be aware that by attending or participating in a Front event, 
+				you consent to your voice and likeness being used, without consent, 
+				in films and photography, for use in any and all fundraising, marketing, 
+				and products, for eternity, and you release Front, it's successors, assigns, 
+				and licensees from any liability whatsoever of any nature. This includes speakers, 
+				instructors, attendees, sponsors, staff, and anyone in the area of the event.</p>
 
 			<h4>Privacy Policy</h4>
 			<p>We care about your privacy. Here’s what we collect about you and what we use it for. 
