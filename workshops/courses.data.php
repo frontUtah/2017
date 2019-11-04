@@ -109,8 +109,8 @@ $courses[] = array(
 
 // Bryce Barrand 
 $courses[] = array(
-	'title' => 'Managing Product Through Metric Driven Outcomes',
-	'description' => "Coming soon...",
+	'title' => 'Managing product through metric driven outcomes',
+	'description' => "Don't come to this session if your organization has already achieved metrics excellence. This session is not for you, if you already know what to track, how to align it to company objectives and the best ways to communicate with executives. Finally, you won't be interested in this session if you already have great mechanisms for data driven decisioning, and articulating future work. If this doesn't quite sound like your organization, then there is probably something useful for you.",
 	'track' => 'product-management',
 	'day' => 2,
 	'slot' => 2,
@@ -225,7 +225,7 @@ $courses[] = array(
 // Heather Phillips 
 $courses[] = array(
 	'title' => 'Level Up: A tool for growing high-performing design teams',
-	'description' => "We've documented how hundreds of high-performance design teams operate. Patterns show that successful teams all invest in six key areas of development, but that design leaders are typically in the dark about which areas most deserve their attention.<br><br>See how your team stacks up against others of its size with this seven-question self-assessment, developed by Heather Phillips in partnership with Designer Fund and Ueno. You'll see where you excel, pinpoint what needs work, and get a worksheet to try it with your team.",
+	'description' => "Patterns show that successful teams all invest in six key areas of development, but that design leaders are typically in the dark about which areas most deserve their attention.<br /><br />It's time to see how your design team stacks up against others of its size. In this workshop we'll start with a seven-question self-assessment to identify gaps in your team's development. Following a collaborative working session, you'll leave with concrete ideas for how you put your findings into action, and build conditions for your team to perform at their best.",
 	'track' => 'leadership',
 	'day' => 1,
 	'slot' => 2,
