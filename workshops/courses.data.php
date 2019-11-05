@@ -51,7 +51,7 @@ $courses[] = array(
 	'track' => 'ux',
 	'day' => 2,
 	'slot' => 1,
-	'instructor' => 'amishdesai',
+	'instructor' => array('amishdesai', 'markpersaud'),
 	'level' => 'intermediate',
 	'room' => 4
 );
