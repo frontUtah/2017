@@ -30,6 +30,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				on-demand approximately 1 week after the event. Access to these recordings may 
 				be pre-ordered individually through the links below. Once the event concludes, 
 				you will received an email with instructions on how to view the workshop.</p>
+			<p><br></p>
 			
 			<script src="https://gumroad.com/js/gumroad-embed.js"></script>
 			

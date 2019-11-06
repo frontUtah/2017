@@ -113,6 +113,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							if(isset($course['gumroad_product_id']) && !empty($course['gumroad_product_id'])) {
 								echo '
 									<div class="workshop-video-recording">
+										<br>
 										<script src="https://gumroad.com/js/gumroad.js"></script>
 										<a class="button" href="https://gum.co/' . $course['gumroad_product_id'] . '?wanted=true" target="_blank">Pre-order a recording of this workshop</a>
 									</div>';

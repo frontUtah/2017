@@ -157,13 +157,14 @@ $instructors[] = array(
 // Bhargavi Kamakshivalli
 $instructors[] = array(
 	'slug' => 'bhargavikamakshivalli',
-	'first' => 'Bhargavi',
-	'last' => 'Kamakshivalli',
-	'title' => 'Product Design Director',
-	'company' => 'Plaid',
+	'first' => 'Aaron',
+	'last' => 'Fry',
+	'title' => 'Associate Professor, Director',
+	'company' => 'Parsons School of Design',
 	'discipline' => 'ux',
-	'photo' => 'headshots/bhargavikamakshivalli.jpg',
-	'bio' => "Bhargavi has been actively involved in designing services and experiences for major banks and financial institutions over the last 10 years. Her interest in the FinTech industry coupled with her professional experience has seen her designing for financial literacy education in India and strategizing systemic design changes for cross-border payments in the UK and US.<br><br>Today, Bhargavi works on improving  the developer experience at Plaid, a financial connectivity platform that powers Venmo, Acorns and Betterment. She also moonlights as the Associate Research Director at the New School of Design's Visualizing Finance Lab, where she hones her professional experience in financial literacy education by researching and testing FLE concepts of narrative visualization.",
+	'photo' => 'headshots/aaronfry.jpg',
+	'bio' => "Born in New Zealand, Aaron Fry is an artist, designer and strategic design educator with twenty-four
+ years of full-time experience in the design education field. Currently, he is concentrated on analyzing the role of design in 21st Century strategies for information visualization; both quantitative and behavioral at the intersection of design, business and the social sciences, with an emphasis on social justice. Aaron is the author of numerous articles, speaks regularly at conferences and workshops internationally on visualization, business education, and the role of design in financial literacy.",
 	'twitter' => '',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/bhargavisivakumar/'
