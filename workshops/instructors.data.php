@@ -126,7 +126,7 @@ $instructors[] = array(
 
 // Garth Braithwaite
 $instructors[] = array(
-	'slug' => 'garthdb',
+	'slug' => 'garthdbraithwaite',
 	'first' => 'Garth',
 	'last' => 'Braithwaite',
 	'title' => 'Senior Computer Scientist',

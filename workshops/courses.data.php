@@ -39,8 +39,9 @@ $courses[] = array(
 	'track' => 'ux',
 	'day' => 1,
 	'slot' => 1,
-	'instructor' => 'garthdb',
+	'instructor' => 'garthdbraithwaite',
 	'level' => 'intermediate',
+	'gumroad_product_id' => 'front-workshops-instructor-garthdbraithwaite',
 	'room' => 2
 );
 
