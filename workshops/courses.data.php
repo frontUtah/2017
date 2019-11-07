@@ -57,14 +57,14 @@ $courses[] = array(
 	'room' => 4
 );
 
-// Bhargavi Kamakshivalli
+// Aaron Fry
 $courses[] = array(
 	'title' => 'Elevating design with strategy',
-	'description' => "The traditional method of formulating business strategy is sequential, inflexible and often leads to user experiences that are based on outdated assumptions about consumer behavior and company potential. <br><br> Split into three sections(identify, test and design), this workshop with Bhargavi will help you engage in conversations around reframing the problem, discover tools to embrace ambiguity while being specific about the overarching outcomes that need to be achieved and templates to help construct design briefs and specifications with measurable impact. ",
+	'description' => "The traditional method of formulating business strategy is sequential, inflexible and often leads to user experiences that are based on outdated assumptions about consumer behavior and company potential. <br><br> Split into three sections(identify, test and design), this workshop will help you engage in conversations around reframing the problem, discover tools to embrace ambiguity while being specific about the overarching outcomes that need to be achieved and templates to help construct design briefs and specifications with measurable impact. ",
 	'track' => 'ux',
 	'day' => 1,
 	'slot' => 2,
-	'instructor' => 'bhargavikamakshivalli',
+	'instructor' => 'aaronfry',
 	'level' => 'basics',
 	'room' => 4
 );

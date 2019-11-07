@@ -154,9 +154,9 @@ $instructors[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/mariahhay/'
 );
 
-// Bhargavi Kamakshivalli
+// Aaron Fry
 $instructors[] = array(
-	'slug' => 'bhargavikamakshivalli',
+	'slug' => 'aaronfry',
 	'first' => 'Aaron',
 	'last' => 'Fry',
 	'title' => 'Associate Professor, Director',
