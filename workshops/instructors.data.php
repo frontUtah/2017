@@ -167,7 +167,7 @@ $instructors[] = array(
  years of full-time experience in the design education field. Currently, he is concentrated on analyzing the role of design in 21st Century strategies for information visualization; both quantitative and behavioral at the intersection of design, business and the social sciences, with an emphasis on social justice. Aaron is the author of numerous articles, speaks regularly at conferences and workshops internationally on visualization, business education, and the role of design in financial literacy.",
 	'twitter' => '',
 	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/bhargavisivakumar/'
+	'linkedin' => 'https://www.linkedin.com/in/aaronafry/'
 );
 
 // Trae Winterton
