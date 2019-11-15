@@ -192,6 +192,7 @@ $courses[] = array(
 	'slot' => 2,
 	'instructor' => 'andrewbranch',
 	'level' => 'intermediate',
+	'gumroad_product_id' => 'front-workshops-instructor-andrewbranch',
 	'room' => 3
 );
 
