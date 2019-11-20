@@ -24,36 +24,6 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		<section class="pricing">
 			<h2>Pricing</h2>
 			
-			<h4>On-demand recordings</h4>
-			
-			<p class="pricing-notes">Some workshops are being recorded and will be available 
-				on-demand approximately 1 week after the event. Access to these recordings may 
-				be pre-ordered individually through the links below. Once the event concludes, 
-				you will received an email with instructions on how to view the workshop.</p>
-			<p><br></p>
-			
-			<script src="https://gumroad.com/js/gumroad-embed.js"></script>
-			
-			<div id="workshop_recordings">
-			
-			<?php
-
-			foreach($courses as $course) {
-				if(isset($course['gumroad_product_id']) && !empty($course['gumroad_product_id'])) {
-					echo '
-						<div class="workshop_recording">
-							<div class="gumroad-product-embed" data-gumroad-product-id="' . str_replace(' ', '-', $course['gumroad_product_id']) . '" data-gumroad-params="">
-								<a href="https://gumroad.com/' . $course['gumroad_product_id'] . '">Loading...</a>
-							</div>
-						</div>';
-				}
-			}
-				
-			?>
-			
-			</div>
-			
-			<h4>Live in-person</h4>
 			<!-- EARLY BIRD -->
 			<!--
 			<div class="prices">

@@ -65,7 +65,7 @@ if(isset($meta['opengraph']) && !empty($meta['opengraph'])) {
 $global_nav[1] = array('subsite' => 'landing', 'link' => '/', 'text' => 'Home', 'class' => 'home');
 $global_nav[2] = array('subsite' => 'conference', 'link' => '/conference', 'text' => 'Case Study Conference', 'class' => 'case-study');
 $global_nav[3] = array('subsite' => 'workshops', 'link' => '/workshops', 'text' => 'Workshop Series', 'class' => 'workshops');
-$global_nav[4] = array('subsite' => 'training', 'link' => '/training/public', 'text' => 'Public workshops', 'class' => 'public');
+$global_nav[4] = array('subsite' => 'ondemand', 'link' => '/ondemand', 'text' => 'On-demand workshops', 'class' => 'ondemand');
 $global_nav[5] = array('subsite' => 'onsite', 'link' => '/onsite', 'text' => 'Onsite training', 'class' => 'onsite');
 //$global_nav[6] = array('subsite' => 'blog', 'link' => 'https://medium.com/front-conference', 'text' => 'Blog', 'class' => 'blog', 'target' => '_blank');
 
