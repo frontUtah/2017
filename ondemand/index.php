@@ -20,8 +20,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					our craft.</p>
 				<p>Front is pleased to bring you recordings of our workshops, 
 					taught by the industry’s forefront thought-leaders and instructors, 
-					to help you grow or kick-start your career. Stream them on-demand for new insights and experiences at your 
-					own pace and convenience. New courses, dates, and locations will be added regularly.</p>
+					to help you kick-start or grow your career. Stream them on-demand 
+					for new insights and experiences at your own pace and convenience. 
+					New courses will be added regularly.</p>
 		</section>
 	
 		<section class="public-workshops">
