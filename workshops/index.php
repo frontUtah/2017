@@ -32,7 +32,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<p class="date-location">While the 2019 Workshop Series is over, we're excited to provide on-demand recordings of some of our favorite workshops.</p>
 			<a href="http://www.pendo.io"><img id="broughtoyouby" src="/images/frontpc18/broughttoyouby_pendo.png" /></a>
 			<!-- <p><a href="/workshops/registration" class="button">Register</a></p> -->
-			 <p><a href="/ondemand" class="button">Stream workshops now</a></p> -->
+			 <p><a href="/ondemand" class="button">Stream workshops now</a></p>
 		</section>
 		<section class="training-courses">
 				<h2>2 intense days of learning and practice</h2>
