@@ -110,6 +110,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							}
 						
 							// recording for sale?
+							/*
 							if(isset($course['gumroad_product_id']) && !empty($course['gumroad_product_id'])) {
 								echo '
 									<div class="workshop-video-recording">
@@ -118,6 +119,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 										<a class="button" href="https://gum.co/' . $course['gumroad_product_id'] . '?wanted=true" target="_blank">Pre-order a recording of this workshop</a>
 									</div>';
 							}
+							*/
 							
 							echo '<p>' . $course['description'] . '</p>';
 						echo '</div>';

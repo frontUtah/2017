@@ -35,13 +35,13 @@ require('includes/header.php');
 				<p><a href="/workshops" class="button">Learn More</a></p>
 			</li>
 			<li>
-				<h3>Public workshops</h3>
-				<p class="date-location">NYC, Boston, SF, Chicago, & more</p>
+				<h3>On-demand workshops</h3>
+				<p class="date-location">Any time, anywhere</p>
 				<div class="thumnail">
 					<img src="images/conf-scene003.jpg" alt="" style="width: 413px;">
 				</div>
-				<p class="description">1-2 day workshops, by industry experts and thought-leaders, to help you grow or kick-start your PM or UX career.</p>
-				<p><a href="/training/public/" class="button">Learn More</a></p>
+				<p class="description">Kick-start or grow your career by streaming recorded workshops at your own pace and convenience.</p>
+				<p><a href="/ondemand" class="button">Learn More</a></p>
 			</li>
 		</ul>
 	</section>
