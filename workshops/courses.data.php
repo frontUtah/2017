@@ -59,8 +59,8 @@ $courses[] = array(
 
 // Aaron Fry
 $courses[] = array(
-	'title' => 'Elevating design with strategy',
-	'description' => "The traditional method of formulating business strategy is sequential, inflexible and often leads to user experiences that are based on outdated assumptions about consumer behavior and company potential. <br><br> Split into three sections(identify, test and design), this workshop will help you engage in conversations around reframing the problem, discover tools to embrace ambiguity while being specific about the overarching outcomes that need to be achieved and templates to help construct design briefs and specifications with measurable impact. ",
+	'title' => 'Critical perspectives on, and the craft of, user-centeredness and user experience',
+	'description' => 'In 1968, Martin Heidegger wrote a book called What Is Called Thinking?, in it, he discusses the character of thinking (as distinct from techne) as the bringing of the whole self to the way we inhabit our practices. Aaron highlights current understandings of Design Thinking as techne, or as process – offering a critique of it as a stand-alone undertaking.<br /><br />Using the concept of craft (Sennet, 2008 et.al) as a questioning with no certain destination in mind in which engagement in the practice surfaces both solution and problem, Aaron leads an exercise to demonstrate how drawing and storytelling can lead participants toward different ways of understanding themselves and their users-as-citizens; their passions, pain-points and being as related to the world.',
 	'track' => 'ux',
 	'day' => 1,
 	'slot' => 2,
