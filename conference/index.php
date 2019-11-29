@@ -95,6 +95,7 @@ foreach($speakers as $instructor) {
 			<a href="http://www.pluralsight.com" target="_blank"><img id="premier" src="/images/sponsors/pluralsight.svg" /></a>
 			<ul class="second_tier">
 				<li class="second_tier_sponsor"><a href="https://uxpressia.com" target="_blank"><img src="/images/sponsors/uxpressia.svg" height="60px" /></a></li>
+				<li class="second_tier_sponsor"><a href="https://progleasing.com" target="_blank"><img src="/images/sponsors/progressive.svg" height="60px" /></a></li>
 			</ul>
 		</section>
 		
