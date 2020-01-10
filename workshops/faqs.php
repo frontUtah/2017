@@ -23,7 +23,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<h3>Registration information</h3>
 						<dl class="accordion">
 							<dt class="accordion-title question">What are the ticket pricing details?</dt>
-							<dd class="accordion-content answer">Front UX & Product Management Workshop Series "Full Workshop SEries" passes are $899 (25% off) until 31 August 2018. Standard price Front UX & Product Management Workshop Series passes are $1,199. This includes all meals, courses, and activities.</dd>
+							<dd class="accordion-content answer">Front UX & Product Management Workshop Series "Full Workshop Series" passes are $1,349 (25% off) through 11 September 2020. Standard price Front UX & Product Management Workshop Series passes are $1,799. This includes all meals, courses, and activities.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Do you offer group pricing?</dt>
@@ -47,7 +47,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Where do I pick up my registration badge?</dt>
-							<dd class="accordion-content answer">You can pick-up your badge at the Front UX & Product Management registration desk, located in main lobby on Thursday, 8 November 2018, between 7:30 - 8:30 AM.</dd>
+							<dd class="accordion-content answer">You can pick-up your badge at the Front UX & Product Management registration desk, located in second floor lobby on Wednesday, 11 November 2020 between 5:00-6:00 PM or Thursday morning, 12 November 2018, between 7:30-8:30 AM.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Is there an age requirement for the event?</dt>
@@ -58,40 +58,20 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<h3>Hotel and Transportation</h3>
 						<dl class="accordion">
 							<dt class="accordion-title question">How do I book lodging? Is there a discount and what is the deadline?</dt>
-							<!--<dd class="accordion-content answer">We are in the process of negotiated discount rates at a hotel near the venue and downtown.</dd> -->
-							<dd class="accordion-content answer">We have acquired a discounted nightly rate of $129/night + tax for a king bed and $139/night + tax for two queens, at the Staybridge only six minutes from the venue. Book your room online or by calling 801-871-0871 and asking for the “Front Utah” group discount. Free transportation between the hotel and venue will be provided. <a href="https://www.staybridge.com/redirect?path=hd&brandCode=SB&localeCode=en&regionCode=1&hotelCode=SLCMV&_PMID=99801505&GPC=FRT&viewfullsite=true">Book Now</a></dd>
+							<dd class="accordion-content answer">We have acquired a discount of 15% off the nightly rate, conveniently onsite at the venue. Book your room online or by calling 801.328.2000 and asking for the “Front Workshop Series” conference discount. <a href="https://www3.hilton.com/en/hotels/utah/hilton-salt-lake-city-center-SLCCCHH/index.html">Book Now</a></dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Are there other hotels recommended?</dt>
-							<dd class="accordion-content answer">We highly recommend the Staybridge because of the discounted rate. That said, <a href="https://www.marriott.com/hotels/travel/slcfm-fairfield-inn-and-suites-salt-lake-city-midvale/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2">Fairfield Inn & Suites Salt Lake City Midvale</a> and <a href="https://www.hilton.com/en/hotels/slcmvru-tru-salt-lake-city-midvale/">Tru by Hilton Salt Lake City Midvale</a> are next door to Staybridge and therefore the same distance from the venue. Salt Lake City also has many timeshare and condominiums for rent that you can find by searching your favorite travel site for details and pricing.</dd>
+							<dd class="accordion-content answer">We highly recommend Hilton Salt Lake City Center, as that is where the conference is being held. That said, the <a href="">AC Hotel Salt Lake City Downtown</a> is an excellent, new, modern option and <a href="https://www.marriott.com/hotels/travel/slccc-salt-lake-city-marriott-city-center/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2">Salt Lake City Marriott City Center</a> is large property with a lot of capacity. A <a href="https://www.marriott.com/hotels/travel/SLCTD-towneplace-suites-salt-lake-city-downtown/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2">TownPlace Suites</a> and <a href="https://docs.google.com/spreadsheets/d/1AAK-kk_AoM3Ut6aQQaX9nfcW_QuvsVkpjOycEVete3Y/edit#gid=0">Fairfield Inn & Suites</a> are a block away and are good affordable options. Salt Lake City also has many Airbnd and condominiums for rent that you can find by searching your favorite travel site for details and pricing.</dd>
 						</dl>
-						
-						<!--
-						<dl class="accordion">
-							<dt class="accordion-title question">Can I cancel my hotel reservation if I am unable to attend?</dt>
-							<dd class="accordion-content answer">A Deposit equal to two (2) night’s stay is required to hold each individual’s reservation, with final payment due thirty (30) days prior to arrival. Reservations made within thirty (30) days of arrival will be required to be paid in full at time of booking. Such deposit shall serve to confirm the reservation for the date(s) indicated. This deposit is refundable if notice of cancellation is received at least thirty (30) days prior to arrival and a cancellation number is obtained. All deposits shall be charged at the time the reservation is made. No refunds for late arrivals, early departures or down grades.</dd>
-						</dl>
-						<dl class="accordion">
-							<dt class="accordion-title question">What forms of payment are accepted at Double Tree Hilton?</dt>
-							<dd class="accordion-content answer">American dollars, American Express, Mastercard and Visa are all accepted forms of payment.</dd>
-						</dl>
-						-->
-						
 						<dl class="accordion">
 							<dt class="accordion-title question">What's the best way to get to the hotel and venue?</dt>
-							<dd class="accordion-content answer">The fastest option for getting to and from the conference is by car. <a href="http://rideuta.com/Rider-Tools/Schedules-and-Maps">UTA TRAX light rail system</a> runs between Salt Lake City International Airport, downtown, and the venue (West Jordan City Center Station), and departs every 15 minutes.</dd>
+							<dd class="accordion-content answer">The fastest option for getting to and from the conference is by car (Uber, Lyft, or rental). <a href="http://rideuta.com/Rider-Tools/Schedules-and-Maps">UTA TRAX</a>, Salt Lake City's light rail system, is also a great option. Trains run directly from <a href="https://goo.gl/maps/fTKJ8HHkudwxQkvM8">Salt Lake City International Airport and the hotel</a>, and depart every 15 minutes.</dd>
 						</dl>
 						
-						<!--
 						<dl class="accordion">
 							<dt class="accordion-title question">Is there parking at or near the host hotel?</dt>
-							<dd class="accordion-content answer">Yes, there is ample free parking at the DoubleTree Hilton.</dd>
-						</dl>
-						-->
-						
-						<dl class="accordion">
-							<dt class="accordion-title question">Is there parking at Viridian Event Center?</dt>
-							<dd class="accordion-content answer">Yes, there is ample free parking to the South of Viridian Event Center.</dd>
+							<dd class="accordion-content answer">Yes, free parking will be provided to attendees at the hotel.</dd>
 						</dl>
 					</li>
 
