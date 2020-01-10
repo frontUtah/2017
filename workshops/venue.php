@@ -13,18 +13,26 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		</section>
 		<section class="reasons-why">
 			<h2>Venue</h2>
-			<p class="about-reasons-why">The Viridian Event Center is located in heart of the Salt Lake Valley and is just 15 miles from downtown Salt Lake City. Arrive by TRAX light rail via West Jordan City Center Station or by car and take advantage of ample free onsite parking.</p>
-			<p><strong>Viridian Event Center</strong><br />8030 South 1825 West<br />West Jordan, Utah 84088</a></p>
+			<p class="about-reasons-why">Hilton Salt Lake City Center is located 
+				in heart of downtown. It is 7 miles from Salt Lake City International Airport.
+				Arrive by TRAX light rail or by car and take advantage of ample free onsite parking.</p>
+			<p><strong>Hilton Salt Lake City Center</strong><br />255 South West Temple<br />Salt Lake City, Utah 84101</a></p>
 		</section>
 		<section class="photo-collage">
-			<img class="full" src="/images/frontworkshops18/viridian.jpg" alt="">
+			<img class="full" src="/images/hilton_salt_lake_city_center.jpg" alt="">
 		</section>
 		<section class="sports">
-			<h2>LEED certified modern design</h2>
-			<p class="about-reasons-why">Energy saving utilities, environmentally responsible building methods and materials, plus the use of native and locally adaptive landscape plants add up to an outstanding Leadership in Energy and Energy Efficient Design (LEED) building certification. This center has been certified to the LEED Gold Level&mdash;the second highest certification awarded by the LEED organization.</p>
+			<h2>Vibrant downtown SLC hotel amid mountain peaks</h2>
+			<p class="about-reasons-why">Towering over Temple Street is the 
+				18-floor Hilton Salt Lake City Center. From the central downtown 
+				location, walk to the awe-inspiring Salt Lake Temple, the landmark 
+				Capitol and Eccles Theater. Hike City Creek Canyon Historic District 
+				and indulge in downtown’s trendy food-and-drink scenes. Easy access to 
+				the TRAX train system makes exploring the city affordable and convenient. 
+				Hilton Salt Lake City Center offers the latest in hotel technology with Digital Key.</p>
 		</section>
 		<section class="photo-collage">
-			<a href="https://www.google.com/maps/place/Viridian+Event+Center/@40.6051186,-111.9456086,17z/data=!3m1!4b1!4m5!3m4!1s0x875288d742501aad:0xcd2d4cf9749b971b!8m2!3d40.6051186!4d-111.9434199"><img class="full" src="/images/frontworkshops18/map.jpg" alt=""></a>
+			<a href="https://g.page/Hilton-Salt-Lake-City-Center?share"><img class="full" src="/images/frontworkshops18/map.jpg" alt=""></a>
 		</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>

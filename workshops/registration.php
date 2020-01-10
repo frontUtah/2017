@@ -25,23 +25,23 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<h2>Pricing</h2>
 			
 			<!-- EARLY BIRD -->
-			<!--
+
 			<div class="prices">
 				<dl class="pricing-types">
 					<dt><div></div></dt>
 					<dd class="early">
 						Early bird pricing
-						<small>25% off through 3 September 2019</small>
+						<small>25% off through 11 September 2020</small>
 					</dd>
 					<dd class="standard">
 						Standard pricing
-						<small>Starting 4 September 2019</small>
+						<small>Starting 12 September 2020</small>
 					</dd>
 				</dl>
 				<dl class="full">
 					<dt><div>Full Workshop Series</div></dt>
-					<dd class="early">$899</dd>
-					<dd class="standard">$1,199</dd>
+					<dd class="early">$1,349</dd>
+					<dd class="standard">$1,799</dd>
 				</dl>
 				<dl>
 					<dt>
@@ -50,8 +50,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<small>10% off per ticket</small>
 						</div>
 					</dt>
-					<dd class="early">$809</dd>
-					<dd class="standard">$1,080</dd>
+					<dd class="early">$1,214</dd>
+					<dd class="standard">$1,619</dd>
 				</dl>
 				<dl>
 					<dt>
@@ -60,8 +60,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<small>15% off per ticket</small>
 						</div>
 					</dt>
-					<dd class="early">$765</dd>
-					<dd class="standard">$1,020</dd>
+					<dd class="early">$1,147</dd>
+					<dd class="standard">$1,529</dd>
 				</dl>
 				<dl>
 					<dt>
@@ -70,11 +70,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<small>20% off per ticket</small>
 						</div>
 					</dt>
-					<dd class="early">$720</dd>
-					<dd class="standard">$960</dd>
+					<dd class="early">$1,079</dd>
+					<dd class="standard">$1,439</dd>
 				</dl>
 			</div>
-			-->
 			
 			<!-- STANDARD -->
 			<!--
@@ -112,46 +111,64 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</dl>
 			</div>
 			
-			<div style="width:100%; text-align:left;"><iframe src="https://eventbrite.com/tickets-external?eid=54869589419&ref=etckt" frameborder="0" height="788" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:12px; padding:10px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #ADB0B6; text-decoration: none;" target="_blank" href="https://www.eventbrite.com/">Powered by Eventbrite</a></div></div>
-			
 			-->
+			
+			
+			
+			
+			
+			<!-- 1088px for early bird, 788px for regualr pricing  -->
+			
+			<div style="width:100%; text-align:left;"><iframe src="https://eventbrite.com/tickets-external?eid=85934090177&ref=etckt" frameborder="0" height="1088" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:12px; padding:10px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #ADB0B6; text-decoration: none;" target="_blank" href="https://www.eventbrite.com/">Powered by Eventbrite</a></div></div>
+			
+			
+			
+			
+			
+			<!-- SOLD OUT 
 			
 			<h5 class="soldout">SOLD OUT</h5>
 			
 			<p class="pricing-notes">We're sorry, but the workshops are sold out. We wish there were more seats. We encourage you to join us 
 				for our <a href="/conference">case study conference</a> in May and <a href="/mailinglist">join our 
 				mailing list</a> to be notified when tickets to next year's workshops go on sale.</p>
+				
+			-->
 			
 		</section>
 
 		<section class="accomodations">
 			<h2>Hotel</h2>			
 			
-			<p class="about-accomodations">We have acquired a discounted nightly rate of $129/night + tax for a king bed and $139/night + tax for two queens, at the Staybridge only six minutes from the venue. Book your room online or by calling 801-871-0871 and asking for the “Front Utah” group discount. Free transportation between the hotel and venue will be provided.</p>
+			<p class="about-accomodations">We have acquired a discount of 
+				15% off the nightly rate, conveniently onsite at the venue. 
+				Book your room online or by calling 801.328.2000 and asking 
+				for the “Front Workshop Series” conference discount.</p>
 			<div class="hotel">
 				<div class="hotel-info">
-					<h3>Staybridge, Midvale, Utah</h3>
-					<p>747 Blue Vista Ln, Midvale, UT 84047<p>
-					<p>Reservations: 801-871-0871</p>
+					
+						
+					
+					<h3>Hilton Salt Lake City Center</h3>
+					<p>255 South West Temple, Salt Lake City, Utah 84101<p>
+					<p>Reservations: 801.328.2000</p>
 					<ul>
-						<li>King or double queen beds</li>
-						<li>Complimentary hot breakfast buffet</li>
-						<li>Complimentary hot breakfast buffet</li>
-						<li>All rooms fully equipped kitchens</li>
-						<li>Complimentary guest laundry</li>
-						<li>Fantastic fitness center open 24/7</li>
-						<li>Hot tub, heated pool year-round</li>
-						<li>BBQ grills, fire tables and fire bowls</li>
-						<li>Business Center open 24/7</li>
-						<li>Complimentary high speed wifi</li>
-						<li>Complimentary Shuttle Service</li>
-						<li>Trax Station adjacent to Staybridge</li>
-						<li>Pet friendly</li>
+						<li>Centrally located to downtown</li>
+						<li>Surrounded by dining & shopping</li>
+						<li>Fitness center</li>
+						<li>Indoor pool and whirlpool</li>
+						<li>Spencer's for Steaks and Chops</li>
+						<li>Pet friendly with nearby dog park</li>
+						<li>Avis Rental Cars in lobby</li>
+						<li>Large suites and connecting rooms</li>
+						<li>2 blocks from City Creek Mall</li>
+						<li>2 blocks from Temple Square</li>
+						<li>15-minute walk to hiking trails</li>
 					</ul>
 				</div>
 				<div class="book-hotel">
-					<p>Act quickly to get the conference discount rate of <strong>$129/night</strong> (13% off).</p>
-					<p><a target="_blank" href="https://www.staybridge.com/redirect?path=hd-hotel-room-rates&brandCode=SB&localeCode=en&regionCode=1&hotelCode=SLCMV&_PMID=99801505&GPC=UTA&viewfullsite=true" class="button">Book Now</a></p>
+					<p>Act quickly to get the conference discount rate of <strong>15% off</strong>. Availability is not guaranteed.</p>
+					<p><a target="_blank" href="https://www3.hilton.com/en/hotels/utah/hilton-salt-lake-city-center-SLCCCHH/index.html" class="button">Book Now</a></p>
 				</div>
 			</div>
 			

@@ -24,15 +24,13 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<h1>UX &amp; Product Management Workshop Series</h1>
 			<p>
 				<ul>
-					<li>2 days • 4 tracks • 20 courses</li>
-					<li>200+ product designers and managers</li>
+					<li>3 days • 4 tracks • 20 courses</li>
+					<li>225+ product designers and managers</li>
 				</ul>
 			</p>
-			<!-- <p class="date-location">7-8 November 2019 • Salt Lake City, Utah</p> -->
-			<p class="date-location">While the 2019 Workshop Series is over, we're excited to provide on-demand recordings of some of our favorite workshops.</p>
+			<p class="date-location">11-13 November 2020 • Salt Lake City, Utah</p>
 			<a href="http://www.pendo.io"><img id="broughtoyouby" src="/images/frontpc18/broughttoyouby_pendo.png" /></a>
-			<!-- <p><a href="/workshops/registration" class="button">Register</a></p> -->
-			 <p><a href="/ondemand" class="button">Stream workshops now</a></p>
+			<p><a href="/workshops/registration" class="button">Register</a></p>
 		</section>
 		<section class="training-courses">
 				<h2>2 intense days of learning and practice</h2>
