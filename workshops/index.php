@@ -24,7 +24,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<h1>UX &amp; Product Management Workshop Series</h1>
 			<p>
 				<ul>
-					<li>3 days • 4 tracks • 20 courses</li>
+					<li>3 days • 4 tracks • 16 courses</li>
 					<li>225+ product designers and managers</li>
 				</ul>
 			</p>
