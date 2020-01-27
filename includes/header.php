@@ -164,7 +164,7 @@ switch($uri_parts[0]) {
 		$workshops_nav[] = array('link' => 'courses', 'text' => 'Courses', 'class' => '');
 		$workshops_nav[] = array('link' => 'instructors', 'text' => 'Instructors', 'class' => '');
 		$workshops_nav[] = array('link' => 'venue', 'text' => 'Venue', 'class' => '');
-		$workshops_nav[] = array('link' => 'schedule', 'text' => 'Schedule', 'class' => '');
+		//$workshops_nav[] = array('link' => 'schedule', 'text' => 'Schedule', 'class' => '');
 		$workshops_nav[] = array('link' => 'faqs', 'text' => 'FAQs', 'class' => '');
 		$workshops_nav[] = array('link' => 'whyattend', 'text' => 'Why attend', 'class' => '');
 		$workshops_nav[] = array('link' => 'registration', 'text' => 'Register', 'class' => 'button');
