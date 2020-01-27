@@ -34,7 +34,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</li>
 				<li>
 					<img src="/images/conf-scene007.jpg" alt="">
-					<h4>Practicing instructors</h4>
+					<h4>Professional instructors</h4>
 					<p>The best teachers are those that lead by example. Most Front instructors are employed with leading technology companies.</p>
 				</li>
 				<li>
@@ -50,8 +50,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			</ul>
 		</section>
 		<section class="attendant-charts">
-			<h2>2018 workshop attendees</h2>
-			<p class="about-attendant-charts">In 2018, product design teams gathered in Utah from 5 countries and 25 states across the US for our workshop series. While focused specifically on UX, product management, research, and leadership, anyone involved in product discovery and delivery is encouraged to attend and will leave with a wealth of insights and skills. The workshops cover the range between basic and advanced topics, providing valuable training to both students and seasoned professionals.</p>
+			<h2>2019 attendees</h2>
+			<p class="about-attendant-charts">In 2019, product design teams gathered in Utah from 4 countries and 23 states across the US for our workshop series. While focused specifically on UX, product management, research, and leadership, anyone involved in product discovery and delivery is encouraged to attend and will leave with a wealth of insights and skills. The workshops cover the range between basic and advanced topics, providing valuable training to both students and seasoned professionals.</p>
 			<div class="chart ring-chart">
 				<h4>Attendee by job title</h4>
 				<img style="max-width: 80%" src="/images/stats_workshops_attendeesbytitle.png" alt="">
@@ -60,7 +60,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				<h4>Attendee by location</h4>
 				<img style="max-width: 80%" src="/images/stats_workshops_attendeesbylocation.png" alt="">
 			</div>
-			<p class="footnote">Including Canada, Great Britain, Italy, Mexico, Guam!</p>
+			<p class="footnote">Including Canada, Mexico, and Germany!</p>
 		</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
