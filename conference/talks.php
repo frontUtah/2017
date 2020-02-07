@@ -68,10 +68,10 @@ function print_talk($day, $slot) {
 
 <main class="secondary product-workshops-page">
 	<section class="hero">
-		<h1>2019 talks and schedule</h1>
+		<h1>Talks and schedule</h1>
 	</section>
 	<section class="courses notabs">
-		<h2 class="">2019 talks and schedule</h2>
+		<h2 class="">Talks and schedule</h2>
 		
 		<div class="course-calendar">
 			<div class="course-date">

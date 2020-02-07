@@ -9,10 +9,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 ?>
 	<main class="secondary product-speakers-front">
 		<section class="hero">
-			<h1>2019 speakers</h1>
+			<h1>Speakers</h1>
 		</section>
 		<section class="instructors">
-			<h2 class="">2019 speakers</h2>
+			<h2 class="">Speakers</h2>
 			<ul class="instructor-list">
 
 <?php
@@ -39,7 +39,11 @@ foreach($speakers as $speaker) {
 ?>
 
 			</ul>
+			<p><em>+ 10 more instructors to be announced soon!</em></p>
 		</section>
+		
+		
+		
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
 			<p>In it's 6th year, Front is a sell-out event, with  
