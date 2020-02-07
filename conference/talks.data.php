@@ -35,8 +35,8 @@ $talks[] = array(
 
 // Jay Fichialos
 $talks[] = array(
-	'title' => "Valuing User Research",
-	'description' => "In this workshop we'll discuss the latest research from the emerging science of expertise and look at Design processes and tools that can help leaders and team members alike. We'll practice creating and using techniques that can raise the caliber of our work, help teams accomplish more than thought possible, and extend the impact of the designs we create.",
+	'title' => "Cultivating a Research Mindset",
+	'description' => "Research can be scary. But the change in perspective that happens after you spend time connecting with customers is powerful, and the truths you learn are worth it. We're going to talk about how to bring more of that power to your work and maybe make it a little less scary. I like to call it the research mindset. It helps create new understanding about what’s possible, it provides insights to make a product better, and it helps guide and build momentum.<br /><br />Join me as I talk about discovery work at Travelocity, Ancestry, Bluehost, and other organizations. You’ll learn how to conduct research that delivers results, changes behavior, and creates a research mindset within your organization.",
 	'day' => 1,
 	'slot' => 4,
 	'speaker' => 'jayfichialos'
