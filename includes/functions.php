@@ -206,9 +206,9 @@ function get_workshop_day($day) {
 // get conference day
 function get_conference_day($day) {
 	if($day == 1) {
-		return 'Thursday, 6 June 2019';
+		return 'Thursday, 28 May 2020';
 	} else {
-		return 'Friday, 7 June 2019';
+		return 'Friday, 29 May 2020';
 	}
 }
 

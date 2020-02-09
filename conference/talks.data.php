@@ -19,8 +19,8 @@ $talks[] = array(
 $talks[] = array(
 	'title' => "Measuring what's meaningful",
 	'description' => "Sometimes the things that are the most meaningful end up being the hardest to measure. In this way, even the most mission-driven companies have room to improve. In this Headspace case study, Vicki will walk you through her design process in detail, which blends user insights and behavioral science. But more than that, she will shine a light on a trend in our industry, and leave you with an actionable idea for how to create products that truly add value.",
-	'day' => 1,
-	'slot' => 2,
+	'day' => 2,
+	'slot' => 1,
 	'speaker' => 'vickitan'
 );
 
