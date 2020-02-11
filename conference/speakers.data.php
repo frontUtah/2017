@@ -29,7 +29,7 @@ $speakers[] = array(
 	'discipline' => 'ux',
 	'photo' => 'headshots/vickitan.jpg',
 	'bio' => "Vicki is formerly a Product Designer at Headspace, creating experiences to guide new users towards a healthy meditation practice. Previously, she was at Lyft, optimizing the passenger ride experience, and at Google, designing tools for reducing bias and predicting outcomes. Prior to Google, Vicki was at Stanford School of Medicine coordinating research studies in Pediatric Oncology. She holds a degree in Behavioral Psychology from the University of California, San Diego.",
-	'twitter' => 'https://twitter.com/vickiheart',
+	'twitter' => 'vickiheart',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/vickitan/'
 );
