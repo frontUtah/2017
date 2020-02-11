@@ -74,9 +74,9 @@ $speakers[] = array(
 	'discipline' => 'ux',
 	'photo' => 'headshots/chetanadeorah.jpg',
 	'bio' => "Chetana Deorah is a product design leader and mentor who helps empower human-centered design to achieve high-impact business goals. Most recently, as Design Director at Netflix, she led product design for global acquisition & growth with a focus on emerging markets. <br /><br />Before that, she was at Yahoo, Scribd, Betfair, Pivotal Labs, and Pentagram. As an Indian-American, Chetana brings a rich diversity of ideas and influences fostering a culture of product innovation, inclusion, compassionate leadership, and effective communication.<br /><br />When not building digital experiences, she volunteers her time in design education with Interact Project and DesignLab. She is a certified Hatha yoga teacher and pursues projects on well-being with non-profit organizations Sri Aurobindo Society & Isha Foundation. <br /><br />Chetana's analog interests include dabbling in visual poetry, experiments with vegetarian cooking and travel.",
-	'twitter' => 'chetanadeorah',
+	'twitter' => 'tanadeo',
 	'instagram' => '',
-	'linkedin' => 'https://twitter.com/tanadeo'
+	'linkedin' => 'https://www.linkedin.com/in/chetanadeorah/'
 );
 
 // Kaela Worthen
