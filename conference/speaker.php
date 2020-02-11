@@ -18,9 +18,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<h2 class="">2018 speakers</h2>
 			<div class="instructor-profile">
 				<div class="details">
-					<div class="instructor <?php echo strtolower($speaker['discipline']); ?>">
-						<div class="instructor-photo">
-							<img src="/images/<?php echo $speaker['photo']; ?>" alt="">
+					<div class="instructor">
+						<div class="<?php echo strtolower($speaker['discipline']); ?>">
+							<div class="instructor-photo">
+								<img src="/images/<?php echo $speaker['photo']; ?>" alt="">
+							</div>
 						</div>
 						<h4><?php echo $speaker['first'] . ' ' . $speaker['last'] ?></h4>
 						<p class="title"><?php echo $speaker['title']; ?><br><?php echo $speaker['company']; ?></p>
