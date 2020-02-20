@@ -94,5 +94,68 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/kaelaworthen/'
 );
 
+// Jim Semick
+$speakers[] = array(
+	'slug' => 'jimsemick',
+	'first' => 'Jim',
+	'last' => 'Semick',
+	'title' => 'Chief Product Strategist',
+	'company' => 'Product Plan',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/jimsemick.jpg',
+	'bio' => "Jim is co-founder and Chief Strategist at ProductPlan, a SaaS company based in Santa Barbara, California. Jim is passionate about software product management and validating successful business models. For more than 15 years he has been taking products from concept to market. He has helped validate and launch innovative software products that are used today by millions of people. Prior to founding ProductPlan, Jim was part of the founding team at AppFolio, a vertical SaaS company, helping develop multiple products. Prior to AppFolio, he validated and launched GoToMyPC, GoToMeeting, and GoToWebinar (acquired by Citrix, LogMein).",
+	'twitter' => 'jimsemick',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/jimsemick/'
+);
+
+// Brandon Gardner
+$speakers[] = array(
+	'slug' => 'brandongardner',
+	'first' => 'Brandon',
+	'last' => 'Gardner',
+	'title' => 'Group Product Manager',
+	'company' => 'Bluehost',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/brandongardner.jpg',
+	'bio' => "Brandon is a Group Product Manager at Bluehost and a Co-Organizer of Product Hive. He is excited about the future of AI, and the impact it will have on digital and physical world.",
+	'twitter' => 'BRGardner',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/gardnerbrandon/'
+);
+
+// David Merkoski
+$speakers[] = array(
+	'slug' => 'davidmerkoski',
+	'first' => 'David',
+	'last' => 'Merkoski',
+	'title' => 'Head of Design',
+	'company' => 'Grain',
+	'discipline' => 'ux',
+	'photo' => 'headshots/davidmerkoski.jpg',
+	'bio' => "David Merkoski, is former ECD of Frog Design and a startup design advisor. He helps startups and non-profits active in renewables, clean tech, cleanweb, distributed generation and digital transportation achieve their goals through design. ",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/david-merkoski-9009342/'
+);
+
+
+// TEMPLATE
+/* 
+$speakers[] = array(
+	'slug' => '',
+	'first' => '',
+	'last' => '',
+	'title' => '',
+	'company' => '',
+	'discipline' => '',
+	'photo' => 'headshots/.jpg',
+	'bio' => "",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => ''
+);
+*/
+
 
 ?>
