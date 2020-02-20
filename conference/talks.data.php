@@ -96,6 +96,6 @@ $talks[] = array(
 	'slot' => 6,
 	'speaker' => ''
 );
-*
+*/
 
 ?>
