@@ -180,7 +180,7 @@ function print_talk($day, $slot) {
 					
 					<li class="course">
 						<dl>
-							<dt class="time">4:40<span class="am-pm">AM</span></dt>
+							<dt class="time">4:40<span class="am-pm">PM</span></dt>
 							<dd class="instructor"></dd>
 							<dd class="description">
 								<h4>Day 1 wrap-up</h4>
@@ -190,7 +190,7 @@ function print_talk($day, $slot) {
 				</ul>
 			</div>
 			<div class="course-date">
-				<h3><?php echo get_conference_day(1); ?></h3>
+				<h3><?php echo get_conference_day(2); ?></h3>
 				<ul class="days-courses">
 					<li class="course">
 						<dl>
