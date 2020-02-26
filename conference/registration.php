@@ -127,10 +127,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		
 		<a id="hotels"></a><section class="accomodations">
 			<h2>Hotels</h2>
-			<p><em>We are in the process of negotiating a group rate at a hotel next to the venue. Rates and registration details will be posted as soon as they become available.</em></p>
-			<!--
-			<p class="about-accomodations">We have acquired a discounted nightly rate of $130/night + tax for a single king bed or two queens, at the hotel below. We encourage you to register early as these rates are only available for a limit number of rooms until May 15th. Book your room by calling their front desk and asking for the “Front Conference” group discount. The hotel is within two blocks (8 minute walk) from the theater.</p> 
-			
+
+			<p class="about-accomodations">We have acquired discounted nightly rate of $159-$199/night + tax for a single king bed or two queens, at the hotels below. We encourage you to register early as these rates are only available for a limit number of rooms. Book your room through the links below or by calling their front desk and asking for the “Front Conference” group discount. Both hotels are right around the corner from the theater.</p> 
+						
 			<div class="hotel">
 				<div class="hotel-info">
 					<h3>Salt Lake City Marriott City Center</h3>
@@ -143,40 +142,34 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<li>Onsite and in-room dining services</li>
 						<li>Heated outdoor pool</li>
 						<li>Smoke-free facility</li>
+						<li>7 minute walk from conference</li>
+					</ul>
+				</div>
+				<div class="book-hotel">
+					<p>Act quickly to get the conference discount rate of <strong>$159/night</strong> (30% off).</p>
+					<p><a target="_blank" href="https://www.marriott.com/events/start.mi?id=1582752880198&key=GRP" class="button">Book Now</a></p>
+				</div>
+			</div>
+			
+			<div class="hotel">
+				<div class="hotel-info">
+					<h3>Salt Lake Marriott Downtown at City Creek</h3>
+					<p>75 South West Temple, Salt Lake City, Utah 84101<p>
+					<p>Front desk: 801.531.0800</p>
+					<ul>
+						<li>King or double queen beds</li>
+						<li>Fitness center</li>
+						<li>Complimentary WiFi</li>
+						<li>Onsite and in-room dining services</li>
+						<li>Smoke-free facility</li>
+						<li>Covered parking</li>
 						<li>5 minute walk from conference</li>
 					</ul>
 				</div>
 				<div class="book-hotel">
-					<p>Act quickly to get the conference discount rate of <strong>$199/night</strong> (13% off).</p>
-					<p><a target="_blank" href="https://www.marriott.com/events/start.mi?id=1549586151032&key=GRP" class="button">Book Now</a></p>
-				</div>
-			</div>
-
-			<div class="hotel">
-				<div class="hotel-info">
-					<h3>Salt Lake Plaza Hotel Temple Square</h3>
-					<p>122 S Temple, Salt Lake City, UT 84101<p>
-					<p>Front desk: (801) 521-0130</p>
-					<ul>
-						<li>King or double queen beds</li>
-						<li>Lowest Rate Guaranteedr</li>
-						<li>Complimentary WiFi</li>
-						<li>Library Book Exchange</li>
-						<li>Enclosed Parking</li>
-						<li>Complimentary airport shuttle</li>
-						<li>Outdoor seasonal pool</li>
-						<li>Indoor jacuzzi®</li>
-						<li>Exercise room</li>
-						<li>Covered parking</li>
-						<li>8 minute walk from conference</li>
-					</ul>
-				</div>
-				<div class="book-hotel">
-					<p>Act quickly to get the conference discount rate of <strong>$130/night</strong> (15% off). Deposit required to book.</p>
+					<p>Act quickly to get the conference discount rate of <strong>$199/night</strong> (25% off).</p>
 					<p><a target="_blank" href="#" class="button">Call Now</a></p>
 				</div>
-				
-				-->
 			</div>
 		</section>
 		
