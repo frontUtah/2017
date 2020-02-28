@@ -24,11 +24,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<h1>UX &amp; Product Management Case Study Conference</h1>
 			<p>
 				<ul>
-					<li>2 days • 16 talks with audience-led Q&A</li>
+					<li>3 days • 16 talks with audience-led Q&A</li>
 					<li>1000+ product designers and managers</li>
 				</ul>
 			</p>
-			<p class="date-location">28-29 May 2020 • Salt Lake City, Utah</p>
+			<p class="date-location">27-29 May 2020 • Salt Lake City, Utah</p>
 			<a href="http://www.pluralsight.com"><img id="broughtoyouby" src="/images/frontworkshops18/premeir-sponsor.png" /></a>
 			<p><a href="/conference/registration" class="button">Register</a></p>
 		</section>
