@@ -79,10 +79,52 @@ function print_talk($day, $slot) {
 				<ul class="days-courses">
 					<li class="course">
 						<dl>
+							<dt class="time">3:00<span class="am-pm">PM</span></dt>
+							<dd class="instructor"></dd>
+							<dd class="description">
+								<h4>Arrivals and early registration</h4>
+							</dd>
+						</dl>
+					</li>
+					<li class="course">
+						<dl>
+							<dt class="time">5:30<span class="am-pm">PM</span></dt>
+							<dd class="instructor"></dd>
+							<dd class="description">
+								<h4>Round tables</h4>
+							</dd>
+						</dl>
+					</li>
+					<li class="course">
+						<dl>
+							<dt class="time">7:00<span class="am-pm">PM</span></dt>
+							<dd class="instructor"></dd>
+							<dd class="description">
+								<h4>Opening reception</h4>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="course-date">
+				<h3><?php echo get_conference_day(2); ?></h3>
+				<ul class="days-courses">
+					<li class="course">
+						<dl>
+							<dt class="time">7:00<span class="am-pm">AM</span></dt>
+							<dd class="instructor"></dd>
+							<dd class="description">
+								<h4>Yoga</h4>
+							</dd>
+						</dl>
+					</li>
+					<li class="course">
+						<dl>
 							<dt class="time">7:30<span class="am-pm">AM</span></dt>
 							<dd class="instructor"></dd>
 							<dd class="description">
-								<h4>Breakfast and registration</h4>
+								<h4>Registration and breakfast</h4>
 							</dd>
 						</dl>
 					</li>
@@ -187,17 +229,54 @@ function print_talk($day, $slot) {
 							</dd>
 						</dl>
 					</li>
+					<li class="course">
+						<dl>
+							<dt class="time">5:30<span class="am-pm">PM</span></dt>
+							<dd class="instructor"></dd>
+							<dd class="description">
+								<h4>Service project</h4>
+							</dd>
+						</dl>
+					</li>
+					<li class="course">
+						<dl>
+							<dt class="time">7:00<span class="am-pm">PM</span></dt>
+							<dd class="instructor"></dd>
+							<dd class="description">
+								<h4>Networking dinners</h4>
+							</dd>
+						</dl>
+					</li>
+					<li class="course">
+						<dl>
+							<dt class="time">8:00<span class="am-pm">PM</span></dt>
+							<dd class="instructor"></dd>
+							<dd class="description">
+								<h4>After party</h4>
+							</dd>
+						</dl>
+					</li>
 				</ul>
 			</div>
+			
 			<div class="course-date">
-				<h3><?php echo get_conference_day(2); ?></h3>
+				<h3><?php echo get_conference_day(3); ?></h3>
 				<ul class="days-courses">
+					<li class="course">
+						<dl>
+							<dt class="time">7:00<span class="am-pm">AM</span></dt>
+							<dd class="instructor"></dd>
+							<dd class="description">
+								<h4>Group meditation session</h4>
+							</dd>
+						</dl>
+					</li>
 					<li class="course">
 						<dl>
 							<dt class="time">7:30<span class="am-pm">AM</span></dt>
 							<dd class="instructor"></dd>
 							<dd class="description">
-								<h4>Breakfast and registration</h4>
+								<h4>Breakfast</h4>
 							</dd>
 						</dl>
 					</li>

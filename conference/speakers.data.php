@@ -139,9 +139,70 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/david-merkoski-9009342/'
 );
 
+// Elaine Chao
+$speakers[] = array(
+	'slug' => 'elainechao',
+	'first' => 'Elaine',
+	'last' => 'Chao',
+	'title' => 'Product Manager',
+	'company' => 'Adobe',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/elainechao.jpg',
+	'bio' => "Elaine Chao is a Sr. Product Manager on Adobe XD in San Francisco, CA. In her 14-year tenure at Adobe, she’s worked as an product manager and engineer on a variety of products geared toward designers and web producers, including the Flash platform, Edge Animate, and Dreamweaver. Elaine is also a martial arts instructor, musician, writer, volunteerism advocate, and an Adobe Founders Award winner. You can find her online tweeting and blogging on Medium as @elainecchao.",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/elaine-chao-41a5531/'
+);
+
+// Dave Rackham
+$speakers[] = array(
+	'slug' => 'daverackham',
+	'first' => 'Dave',
+	'last' => 'Rackham',
+	'title' => 'Head of Technology Leader Experiences',
+	'company' => 'Pluralsight',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/daverackham.jpg',
+	'bio' => "Dave stumbled into experience leadership as a result of his passions in psychology, learning and technology. In his current role at Pluralsight he leads cross-functional product experience teams (PM, UX, and engineering) that are focused on empowering technology leaders with confidence that their teams can create reliable, scalable, and secure software products.",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/daverackham/'
+);
+
+// Tyler Hogge
+$speakers[] = array(
+	'slug' => 'tylerhogge',
+	'first' => 'Tyler',
+	'last' => 'Hogge',
+	'title' => 'VP of Product ',
+	'company' => 'Divvy',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/tylerhogge.jpg',
+	'bio' => "CFA. Operator + investor in hyper-growth software companies. Especially financial technology and SaaS.<br /><br />Have led product, business development, sales, and customer success teams, and learned from the phenomenal leaders behind Wealthfront, SaaStr, and Andreessen Horowitz.<br /><br />I believe true leaders are the most scarce human resource in the world, storytelling is the most underrated skill in the world, and explaining complex topics in simple ways is not only the sign of a great communicator but also the strongest sign of intelligence. ",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/thogge'
+);
+
+// Helen Keighron
+$speakers[] = array(
+	'slug' => 'helenkeighron',
+	'first' => 'Helen',
+	'last' => 'Keighron',
+	'title' => 'Director of Product Design',
+	'company' => 'Hubspot',
+	'discipline' => 'ux',
+	'photo' => 'headshots/helenkeighron.jpg',
+	'bio' => "I’ve established and rapidly scaled high-performing, diverse teams in organizations from design agencies to high growth SaaS companies. I build consensus around vision, connect it to execution, and lovingly push an organization to think holistically across all touch points. I build strong relationships across stakeholder teams to lay groundwork for transformative, evidence-based product design. <br /><br />As a manager, I have a 90% voluntary retention rate, due to focus on high-touch recruiting, career paths, and modeling/coaching soft skills that afford designers influence. I have experience managing distributed teams that seamlessly collaborate due to shared team culture norms.",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/helenkeighron/'
+);
+
 
 // TEMPLATE
 /* 
+// 
 $speakers[] = array(
 	'slug' => '',
 	'first' => '',

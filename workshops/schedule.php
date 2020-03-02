@@ -1,8 +1,10 @@
 <?php
 
 // off-season
+/*
 header('/workshops', true, 307);
 exit();
+*/
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
@@ -22,6 +24,12 @@ function print_schedulerow($day, $slot) {
 	
 	ksort($courses_row);
 	
+	echo '
+							<dd class="course">
+								<p class="title">Workshops</p>
+							</dd>';
+	
+	/*
 	foreach($courses_row as $course) {
 		echo '
 								<dd class="course">';
@@ -51,6 +59,7 @@ function print_schedulerow($day, $slot) {
 									<p class="title">' . $course['title'] . '</p>
 								</dd>';
 	}
+	*/
 	
 	echo '</dl>';
 }
@@ -73,10 +82,10 @@ function print_schedulerow($day, $slot) {
 					<li class="">
 						<dl>
 							<dt class="time"></dt>
-							<dd class="header">Viridian A</dd>
-							<dd class="header">Viridian B</dd>
-							<dd class="header">Viridian C</dd>
-							<dd class="header">Parkview</dd>
+							<dd class="header">Alpine 1</dd>
+							<dd class="header">Alpine 2</dd>
+							<dd class="header">Topaz</dd>
+							<dd class="header">Canyons</dd>
 						</dl>
 					</li>
 				</ol>
@@ -87,9 +96,47 @@ function print_schedulerow($day, $slot) {
 				<ol class="timeline">
 					<li class="timeslot one-hour">
 						<dl>
+							<dt class="time">3:00 PM</dt>
+							<dd class="food">
+								<p>Arrivals and early registration</p>
+							</dd>
+						</dl>
+					</li>
+					<li class="timeslot one-hour">
+						<dl>
+							<dt class="time">5:30 PM</dt>
+							<dd class="food">
+								<p>Round tables</p>
+							</dd>
+						</dl>
+					</li>
+					<li class="timeslot one-hour">
+						<dl>
+							<dt class="time">7:00 PM</dt>
+							<dd class="food">
+								<p>Opening reception</p>
+							</dd>
+						</dl>
+					</li>
+				</ol>
+			</div>
+			
+			<div class="schedule-day">
+				<h3><?php echo get_workshop_day(2); ?></h3>
+				<ol class="timeline">
+					<li class="timeslot one-hour">
+						<dl>
+							<dt class="time">7:00 AM</dt>
+							<dd class="food">
+								<p>Yoga</p>
+							</dd>
+						</dl>
+					</li>
+					<li class="timeslot one-hour">
+						<dl>
 							<dt class="time">7:30 AM</dt>
 							<dd class="food">
-								<p>Registration and hot breakfast</p>
+								<p>Registration and breakfast</p>
 							</dd>
 						</dl>
 					</li>
@@ -104,30 +151,52 @@ function print_schedulerow($day, $slot) {
 							</dd>
 						</dl>
 					</li>
-					<li class="timeslot two-hours">
+					<li class="timeslot four-hours">
 						<?php echo print_schedulerow(1, 2); ?>
-					</li>
-					<li class="timeslot two-hours">
-						<?php echo print_schedulerow(1, 3); ?>
 					</li>
 					<li class="timeslot one-hour">
 						<dl>
 							<dt class="time">5:30 PM</dt>
 							<dd class="food">
-								<p>Networking and unofficial after-party planning</p>
+								<p>Service project</p>
+							</dd>
+						</dl>
+					</li>
+					<li class="timeslot one-hour">
+						<dl>
+							<dt class="time">7:00 PM</dt>
+							<dd class="food">
+								<p>Networking dinners</p>
+							</dd>
+						</dl>
+					</li>
+					<li class="timeslot one-hour">
+						<dl>
+							<dt class="time">8:00 PM</dt>
+							<dd class="food">
+								<p>After party</p>
 							</dd>
 						</dl>
 					</li>
 				</ol>
 			</div>
+			
 			<div class="schedule-day">
-				<h3><?php echo get_workshop_day(2); ?></h3>
+				<h3><?php echo get_workshop_day(3); ?></h3>
 				<ol class="timeline">
+					<li class="timeslot one-hour">
+						<dl>
+							<dt class="time">7:00 AM</dt>
+							<dd class="food">
+								<p>Group medication</p>
+							</dd>
+						</dl>
+					</li>
 					<li class="timeslot one-hour">
 						<dl>
 							<dt class="time">7:30 AM</dt>
 							<dd class="food">
-								<p>Hot breakfast</p>
+								<p>Breakfast</p>
 							</dd>
 						</dl>
 					</li>

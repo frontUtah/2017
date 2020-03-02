@@ -87,8 +87,45 @@ $talks[] = array(
 	'speaker' => 'davidmerkoski'
 );
 
+// Elaine Chao
+$talks[] = array(
+	'title' => 'Scaling Decisions as a Product Team',
+	'description' => "What happens when your team gets really big? In this talk, Elaine tells the story of how the Adobe XD product management team scaled decisions for a recently-released feature that cut across almost the entire product. From processes to values, specific challenges to behavioral analysis, this case study covers how a product team can pull together to make decisions that are coherent to a system at scale.",
+	'day' => 2,
+	'slot' => 2,
+	'speaker' => 'elainechao'
+);
+
+// Dave Rackham
+$talks[] = array(
+	'title' => 'Org design',
+	'description' => "Lessons learned and observations from being a leader in the new org design.",
+	'day' => 2,
+	'slot' => 3,
+	'speaker' => 'daverackham'
+);
+
+// Tyler Hogge
+$talks[] = array(
+	'title' => 'How To Truly Align Your Product and Sales Teams: 5 Things We Learned At Divvy',
+	'description' => "Every organization defines product management differently. In this presentation, you’ll hear from the VP of product and strategy at Divvy on how they’ve taken a very different approach to product, and why it’s so important to truly align product with revenue.",
+	'day' => 2,
+	'slot' => 4,
+	'speaker' => 'tylerhogge'
+);
+
+// Helen Keighron
+$talks[] = array(
+	'title' => 'Crossing the Knowing-Doing Gap: Build Your Team OS to Slay Alignment and Execution Challenges',
+	'description' => "Leaders are expected to provide strong vision that propels the business into the future, but we don’t always spend enough time under the hood doing the less glamorous work of tuning up the systems that allow teams to make progress together. We see the future, we know the right things to do for our customers, but why is it so hard to get everyone there, especially at scale?<br /><br />We will explore the unspoken hierarchy of needs in a team and the interplay between priorities, habits, and systems. I’ll also share concrete examples of the way HubSpot’s design organization tackles creating strong operating systems that allow over 170 autonomous teams to translate vision into action. Whether you are the most senior leader at your company or an individual contributor, you can play a role in helping your team get serious about building systems that enable meaningful motion.",
+	'day' => 2,
+	'slot' => 5,
+	'speaker' => 'helenkeighron'
+);
+
 // TEMPLATE
 /*
+// 
 $talks[] = array(
 	'title' => '',
 	'description' => "",

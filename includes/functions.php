@@ -196,19 +196,31 @@ function get_time($day, $slot) {
 
 // get workshop day
 function get_workshop_day($day) {
-	if($day == 1) {
-		return 'Thursday, 7 November 2019';
-	} else {
-		return 'Friday, 8 November 2019';
+	switch($day) {
+		case 1:
+			return 'Wednesday, 11 November 2020';
+			break;
+		case 2:
+			return 'Thursday, 12 November 2020';
+			break;
+		case 3:
+			return 'Friday, 13 November 2020';
+			break;
 	}
 }
 
 // get conference day
 function get_conference_day($day) {
-	if($day == 1) {
-		return 'Thursday, 28 May 2020';
-	} else {
-		return 'Friday, 29 May 2020';
+	switch($day) {
+		case 1:
+			return 'Wednesday, 27 May 2020';
+			break;
+		case 2:
+			return 'Thursday, 28 May 2020';
+			break;
+		case 3:
+			return 'Friday, 29 May 2020';
+			break;
 	}
 }
 
