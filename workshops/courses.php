@@ -1,5 +1,9 @@
 <?php
 
+// off-season
+header('/workshops', true, 307);
+exit();
+
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
 $title = 'Courses - Front UX & Product Management Workshop Series, 7-8 November 2019';
