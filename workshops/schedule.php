@@ -2,7 +2,7 @@
 
 // off-season
 /*
-header('/workshops', true, 307);
+header('location: /workshops', true, 307);
 exit();
 */
 
