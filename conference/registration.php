@@ -147,7 +147,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</div>
 				<div class="book-hotel">
 					<p>Act quickly to get the conference discount rate of <strong>$159/night</strong> (30% off).</p>
-					<p><a target="_blank" href="https://www.marriott.com/events/start.mi?id=1582752880198&key=GRP" class="button">Book Now</a></p>
+					<p><a target="_blank" href="https://www.marriott.com/events/start.mi?id=1582752880198&key=GRP" class="button">Book now</a></p>
 				</div>
 			</div>
 			
@@ -168,7 +168,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</div>
 				<div class="book-hotel">
 					<p>Act quickly to get the conference discount rate of <strong>$199/night</strong> (25% off).</p>
-					<p><a target="_blank" href="#" class="button">Call Now</a></p>
+					<p><a target="_blank" href="https://book.passkey.com/go/UTAHROOMS20" class="button">Book now</a></p>
 				</div>
 			</div>
 		</section>
