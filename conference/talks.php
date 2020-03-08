@@ -199,7 +199,7 @@ function print_talk($day, $slot) {
 					
 					<li class="course">
 						<dl>
-							<dt class="time">2:50<span class="am-pm">AM</span></dt>
+							<dt class="time">2:50<span class="am-pm">PM</span></dt>
 							<dd class="instructor"></dd>
 							<dd class="description">
 								<h4>Break (drinks and snacks)</h4>
@@ -351,7 +351,7 @@ function print_talk($day, $slot) {
 					
 					<li class="course">
 						<dl>
-							<dt class="time">2:50<span class="am-pm">AM</span></dt>
+							<dt class="time">2:50<span class="am-pm">PM</span></dt>
 							<dd class="instructor"></dd>
 							<dd class="description">
 								<h4>Break (drinks and snacks)</h4>
@@ -374,7 +374,7 @@ function print_talk($day, $slot) {
 					
 					<li class="course">
 						<dl>
-							<dt class="time">4:40<span class="am-pm">AM</span></dt>
+							<dt class="time">4:40<span class="am-pm">PM</span></dt>
 							<dd class="instructor"></dd>
 							<dd class="description">
 								<h4>Closing remarks</h4>
