@@ -113,16 +113,27 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			
 			-->
 			
+			<div id="eventbrite-widget-container-85934090177"></div>
 			
+			<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 			
+			<script type="text/javascript">
+			    var exampleCallback = function() {
+			        console.log('Order complete!');
+			    };
 			
+			    window.EBWidgets.createWidget({
+			        // Required
+			        widgetType: 'checkout',
+			        eventId: '85934090177',
+			        iframeContainerId: 'eventbrite-widget-container-85934090177',
 			
-			<!-- 1088px for early bird, 788px for regualr pricing  -->
-			
-			<div style="width:100%; text-align:left;"><iframe src="https://eventbrite.com/tickets-external?eid=85934090177&ref=etckt" frameborder="0" height="1088" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:12px; padding:10px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #ADB0B6; text-decoration: none;" target="_blank" href="https://www.eventbrite.com/">Powered by Eventbrite</a></div></div>
-			
-			
-			
+			        // Optional
+			        iframeContainerHeight: 1225,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+			        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+			    });
+			</script>
+
 			
 			
 			<!-- SOLD OUT 

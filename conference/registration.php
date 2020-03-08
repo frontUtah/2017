@@ -103,7 +103,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			-->
 			
 			<div id="eventbrite-widget-container-64259032496"></div>
-
+			
 			<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 			
 			<script type="text/javascript">
@@ -118,7 +118,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			        iframeContainerId: 'eventbrite-widget-container-64259032496',
 			
 			        // Optional
-			        iframeContainerHeight: 875,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+			        iframeContainerHeight: 1050,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
 			        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
 			    });
 			</script>
