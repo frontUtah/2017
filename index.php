@@ -9,7 +9,7 @@ require('includes/header.php');
 ?>
 
 <main class="home">
-	<section class="about">
+	<section class="notice">
 		<h2>Notice regarding coronavirus (COVID-19)</h2>
 		<p>Front will host our UX & Product Management Case Study Conference 
 			(27-29 May 2020) and Workshop Series (11-13 November 2020) as 
@@ -115,8 +115,8 @@ require('includes/header.php');
 		</p>
 	</section>
 	<section class="attendee-stats">
-		<p>In it's 5th year, Front is a sell-out event, with a 
-			<strong>1,000 annual attendees from 5 countries and 31 states</strong> 
+		<p>In it's 6th year, the Front UX & Product Management Case Study Conference and Workshop Series are sell-out events, with 
+			<strong>800+ annual attendees from 8 countries and 34 states</strong> 
 			across the US. Join us at the Front to share, learn, and be inspired 
 			to create amazing products.</p>
 	</section>
