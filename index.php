@@ -9,6 +9,20 @@ require('includes/header.php');
 ?>
 
 <main class="home">
+	<section class="about">
+		<h2>Notice regarding coronavirus (COVID-19)</h2>
+		<p>Front will host our UX & Product Management Case Study Conference 
+			(27-29 May 2020) and Workshop Series (11-13 November 2020) as 
+			planned. We are closely monitoring the Centers for Disease Control 
+			and the World Health Organization’s recommendations regarding the 
+			novel coronavirus (COVID-19), as the health and safety of our 
+			attendees, speakers, sponsors, and staff is our top priority. 
+			Front is following guidelines from these agencies and local 
+			health departments in our plans for executing each event. 
+			We will provide updates to all participants if guidelines 
+			or recommendations change.</p> 
+	</section>
+	
 	<section class="hero">
 		<h1 class="logo">Front</h1>
 		<p>Inspiration and training for UX designers and product managers</p>
