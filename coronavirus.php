@@ -13,12 +13,38 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		</section>
 		<section class="body short">
 			<h2>Notice regarding coronavirus (COVID-19)</h2>
-			<p>The health and safety of our attendees, speakers, sponsors, and staff is our highest priority. After monitoring developments of the coronavirus pandemic and considering the latest recommendations and requests of major global health organizations and governments, we have decided to postpone the 2020 Front UX & Product Management Case Study Conference. </p>
-			<p>It is with sad hearts that delay this event. We have been so eager to gather with you again for the sixth year. After a year of research and planning, we have crafted a program of some of the best and brightest practitioners in the industry and set to be our most exciting and inspiring event yet. Postponing the event, however, is the right thing to do.</p>
-			<p>The good news is that Front isn’t being cancelled. Instead of two separate events year year, the Case Study Conference will be combined with our Workshop Series in November, for a single, large, multi-format event. We will also be expanding our usual schedule to include round tables, a welcome reception, yoga, a group meditation session, a service project, networking dinners, and an after-party.</p>
-			<p>The combined event will be 9-13 November 2020, with the workshops Tuesday and Wednesday and the talks Thursday and Friday. More details about the schedule will be available shortly on our website.</p>
-			<p>If you have already purchased tickets, you don’t need to do anything. Your tickets will automatically be transitioned to the new schedule. If you have not, we encourage you to register now and reserve your spot and take advantage of early bird pricing. The event will sell out and there are limited seats in the workshops. Tickets will be sold as a combination for the talks and workshops, or for just the talks alone.</p>
-			<p>We appreciate your flexibility and support during this time. We would also like to thank Pluralsight and all of our other wonderful sponsors for their support and collaboration in making these events a success. Our thoughts and prayers are with everyone affected by the coronavirus situation.</p>
+			<p>The health and safety of our attendees, speakers, sponsors, and staff is 
+				our highest priority. After monitoring developments of the coronavirus 
+				pandemic and considering the latest recommendations and requests of major 
+				global health organizations and governments, we have decided to postpone 
+				the 2020 Front UX & Product Management Case Study Conference. </p>
+			<p>It is with sad hearts that we delay this event. We have been so eager to 
+				gather with you again for the sixth year. After a year of research and 
+				planning, we have crafted a program of some of the best and brightest 
+				practitioners in the industry and set to be our most exciting and 
+				inspiring event yet. Postponing the event, however, is the right thing 
+				to do.</p>
+			<p>The good news is that Front isn’t being cancelled. Instead of two 
+				separate events year year, the Case Study Conference will be combined 
+				with our Workshop Series in November, for a single, large, multi-format 
+				event. We will also be expanding our usual schedule to include round 
+				tables, a welcome reception, yoga, a group meditation session, a 
+				service project, networking dinners, and an after-party.</p>
+			<p>The combined event will be 9-13 November 2020, with the workshops 
+				Tuesday and Wednesday and the talks Thursday and Friday. More details 
+				about the schedule will be available shortly on our website.</p>
+			<p>If you have already purchased tickets, you don’t need to do anything. 
+				Your tickets will automatically be transitioned to the new schedule. 
+				If you have not, we encourage you to register now to reserve your 
+				spot and take advantage of early bird pricing. The event will sell 
+				out and there are limited seats in the workshops. Tickets will be 
+				sold as a combination for the talks and workshops, or for just the 
+				talks alone.</p>
+			<p>We appreciate your flexibility and support during this time. We would 
+				also like to thank Pluralsight and all of our other wonderful sponsors 
+				for their support and collaboration in making these events a success. 
+				Our thoughts and prayers are with everyone affected by the coronavirus 
+				situation.</p>
 		</section>
 			
 		<section class="faqs">

@@ -10,17 +10,22 @@ require('includes/header.php');
 
 <main class="home">
 	<section class="notice">
-		<h2>Notice regarding coronavirus (COVID-19)</h2>
-		<p>Front will host our UX & Product Management Case Study Conference 
-			(27-29 May 2020) and Workshop Series (11-13 November 2020) as 
-			planned. We are closely monitoring the Centers for Disease Control 
-			and the World Health Organization’s recommendations regarding the 
-			novel coronavirus (COVID-19), as the health and safety of our 
-			attendees, speakers, sponsors, and staff is our top priority. 
-			Front is following guidelines from these agencies and local 
-			health departments in our plans for executing each event. 
-			We will provide updates to all participants if guidelines 
-			or recommendations change.</p> 
+		<h2>2020 Case Study Conference postponed</h2>
+			<p>The health and safety of our attendees, speakers, sponsors, and staff is 
+				our highest priority. After monitoring developments of the coronavirus 
+				pandemic and considering the latest recommendations and requests of major 
+				global health organizations and governments, <strong>we have decided to postpone 
+				the 2020 Front UX & Product Management Case Study Conference</strong>. It is with sad hearts we that delay this event. We have been so eager to 
+				gather with you again for the sixth year. After a year of research and 
+				planning, we have crafted a program of some of the best and brightest 
+				practitioners in the industry and set to be our most exciting and 
+				inspiring event yet. Postponing the event, however, is the right thing 
+				to do. The good news is that Front isn't being cancelled. <strong>We are actively 
+				working on rescheduling the event for later this year and anticipate 
+				being ready to announce details soon.</strong> If you have already purchased tickets, you don’t need to do anything. 
+				Your tickets will automatically be transitioned to the new schedule. 
+				If you have not, we encourage you to register now to reserve your 
+				spot and take advantage of early bird pricing.</p>
 	</section>
 	
 	<section class="hero">
