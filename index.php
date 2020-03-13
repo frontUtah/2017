@@ -8,26 +8,33 @@ require('includes/header.php');
 
 ?>
 
-<main class="home">
-	<section class="notice">
-		<h2>2020 Case Study Conference postponed</h2>
-			<p>The health and safety of our attendees, speakers, sponsors, and staff is 
-				our highest priority. After monitoring developments of the coronavirus 
-				pandemic and considering the latest recommendations and requests of major 
-				global health organizations and governments, <strong>we have decided to postpone 
-				the 2020 Front UX & Product Management Case Study Conference</strong>. It is with sad hearts we that delay this event. We have been so eager to 
-				gather with you again for the sixth year. After a year of research and 
-				planning, we have crafted a program of some of the best and brightest 
-				practitioners in the industry and set to be our most exciting and 
-				inspiring event yet. Postponing the event, however, is the right thing 
-				to do. The good news is that Front isn't being cancelled. <strong>We are actively 
-				working on rescheduling the event for later this year and anticipate 
-				being ready to announce details soon.</strong> If you have already purchased tickets, you don’t need to do anything. 
-				Your tickets will automatically be transitioned to the new schedule. 
-				If you have not, we encourage you to register now to reserve your 
-				spot and take advantage of early bird pricing.</p>
+<main class="article-page" style="margin-top: 40ox; padding-bottom: 3px">
+	<section class="moreserious hero" style="background: none; height: auto; padding-bottom: 0px">
+		<h1 style="color: black; padding: 20px 0 0 0">2020 Case Study Conference postponed</h1>
 	</section>
+	<section class="body short">
+		<h2>2020 Case Study Conference postponed</h2>
+		<p>The health and safety of our attendees, speakers, sponsors, and staff is 
+			our highest priority. After monitoring developments of the coronavirus 
+			pandemic and considering the latest recommendations and requests of major 
+			global health organizations and governments, we have decided to postpone 
+			the 2020 Front UX & Product Management Case Study Conference.</p>
+			<p>It is with sad hearts we that delay this event. We have been so eager to 
+			gather with you again for the sixth year. After a year of research and 
+			planning, we have crafted a program of some of the best and brightest 
+			practitioners in the industry and set to be our most exciting and 
+			inspiring event yet. Postponing the event, however, is the right thing 
+			to do.</p>
+			<p>The good news is that Front isn't being cancelled. We are actively 
+			working on rescheduling the event for later this year and anticipate 
+			being ready to announce details soon. If you have already purchased tickets, you don’t need to do anything. 
+			Your tickets will automatically be transitioned to the new schedule. 
+			If you have not, we encourage you to register now to reserve your 
+			spot and take advantage of early bird pricing.</p>
+	</section>
+</main>
 	
+<main class="home">
 	<section class="hero">
 		<h1 class="logo">Front</h1>
 		<p>Inspiration and training for UX designers and product managers</p>
