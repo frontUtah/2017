@@ -1376,6 +1376,10 @@ footer p {
 	display: none
 }
 
+.article-page .hero.moreserious {
+	background-image: url(../images/article-bg-9.jpg);
+}
+
 @media (min-width:1000px) {
 	.article-page .hero {
 		display: block;
