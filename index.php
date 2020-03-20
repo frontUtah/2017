@@ -60,14 +60,16 @@ require('includes/header.php');
 	<section class="spotlight">
 		<ul>
 			<li>
-				<h3>Case Study Conference</h3>
-				<p class="date-location">Salt Lake City, 12-13 November 2020</p>
+				<h3>Conference & Workshops</h3>
+				<p class="date-location">Salt Lake City, 10-13 November 2020</p>
 				<div href="https://www.youtube.com/watch?v=8f5QpAa1nh8" class="thumnail video-thumbnail recap-video">
 					<img src="images/conf-scene001.jpg" alt="" style="width: 413px;">
 				</div>
-				<p class="description">A 2 day, in-depth series of from-the-trenches case studies by innovative user experience designers and product managers.</p>
+				<p class="description">A 4 day, in-depth series of from-the-trenches case studies and hands-on workshops by leading practitioners and trainers.</p>
 				<p><a href="/conference" class="button">Learn More</a></p>
 			</li>
+			
+			<!--
 			<li>
 				<h3>Workshop Series</h3>
 				<p class="date-location">Salt Lake City, 10-11 November 2020</p>
@@ -77,6 +79,8 @@ require('includes/header.php');
 				<p class="description">A 2 day, hands-on workshop series to learn to create amazing products and work like the teams you hear from at Front.</p>
 				<p><a href="/workshops" class="button">Learn More</a></p>
 			</li>
+			-->
+			
 			<li>
 				<h3>On-demand workshops</h3>
 				<p class="date-location">Any time, anywhere</p>
