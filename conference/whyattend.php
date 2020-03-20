@@ -13,14 +13,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		</section>
 		<section class="reasons-why">
 			<h2>Why Attend</h2>
-			<p class="about-reasons-why">Front was built around the idea of sharing ideas and helping one another learn from other people’s experiences. Attending the Front Conference you’ll get to meet and learn from people that have been building digital experiences for years. You’ll learn how others are solving problems, celebrating successes, and building cultures of creativity and innovation.
-			<br>
-			<br>
-
-
-We believe product management and product design play a central role in the success of a product. We believe we need better, smarter people to lead product. We believe in human relationships and learning from each other through examples. We believe in kindness, generousity, transparency and a willingness to share.  
-
-</p>
+			<p class="about-reasons-why">Front was built around the idea of sharing ideas and helping one another learn from other people’s experiences. Attending the Front Conference you’ll get to meet and learn from people that have been building digital experiences for years. You’ll learn how others are solving problems, celebrating successes, and building cultures of creativity and innovation.<br /><br />
+We believe product management and product design play a central role in the success of a product. We believe we need better, smarter people to lead product. We believe in human relationships and learning from each other through examples. We believe in kindness, generousity, transparency and a willingness to share.  </p>
 		
 			<ul class="reasons-why-list">
 				<li>
@@ -52,6 +46,43 @@ We believe product management and product design play a central role in the succ
 					<img src="/images/conf-scene-front-06.jpg" alt="">
 					<h4>Dedicated deep dive </h4>
 					<p>Focused time away from your desk allows you get out of your own head and look at things with fresh eyes.</p>
+				</li>
+			</ul>
+				
+				
+				
+			<p class="about-reasons-why">You’ve sat through the keynotes, listened to the podcasts, and read the books. Now what? Where do you begin? You’re motivated and inspired, but what if your organization isn’t or what if you’re building a new team? How do you begin? Front UX & Product Management Workshop Series is specifically designed as an intimate, intensive, one-of-a-kind, hands-on training experience where you will experience and practice the techniques and methods that will accelerate the efficiency and accuracy and your organization’s product discovery and delivery. It also happens to be held in the foothills of the majestic mountains of Utah.<br /><br />
+				It’s time to demand more than a workshop, bolted onto a conference as a supplemental day of content. Come, join us at the Front, where you’ll work side-by-side with some of the industry’s best and brightest. Design a custom training program to jump-starting your career or take it to the next level.</p>				
+			<ul class="reasons-why-list">
+				<li>
+					<img src="/images/conf-scene004.jpg" alt="">
+					<h4>Multi-track hands-on workshops</h4>
+					<p>Design your custom training program, choosing from basic, intermediate, and advanced courses.</p>
+				</li>
+				<li>
+					<img src="/images/conf-scene005.jpg" alt="">
+					<h4>The greatest great outdoors</h4>
+					<p>Don’t just get away from your desk, get out of the city. Stay through the weekend hiking our national parks and biking some single-track.</p>
+				</li>
+				<li>
+					<img src="/images/conf-scene006.jpg" alt="">
+					<h4>Two intense days of learning</h4>
+					<p>Our workshop series consists of five hands-on, intensive workshops where you’ll learn and practice methods and techniques crucial to building game-changing products.</p>
+				</li>
+				<li>
+					<img src="/images/conf-scene007.jpg" alt="">
+					<h4>Professional instructors</h4>
+					<p>The best teachers are those that lead by example. Most Front instructors are employed with leading technology companies.</p>
+				</li>
+				<li>
+					<img src="/images/conf-scene008.jpg" alt="">
+					<h4>Gourmet meals</h4>
+					<p>No boxed lunch lunches with cold-cut sandwiches or continental breakfasts. We treat you right with hot, gourmet meals.</p>
+				</li>
+				<li>
+					<img src="/images/conf-scene009.jpg" alt="">
+					<h4>Networking and fun</h4>
+					<p>Historic Salt Lake City, hiking, food, and friends&mdash;you’ll leave after two days with a wealth of memories and new, professional connections.</p>
 				</li>
 			</ul>
 		</section>
