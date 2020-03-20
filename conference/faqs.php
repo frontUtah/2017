@@ -74,21 +74,17 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<h3>Hotel and Transportation</h3>
 						<dl class="accordion">
 							<dt class="accordion-title question">How do I book lodging? Is there a discount and what is the deadline?</dt>
-							<dd class="accordion-content answer">For those attending the full event, we have acquired a discount of 15% off the nightly rate, conveniently onsite at the venue. Book your room online or by calling 801.328.2000 and asking for the “Front Workshop Series” conference discount. <a href="https://www3.hilton.com/en/hotels/utah/hilton-salt-lake-city-center-SLCCCHH/index.html">Book Now</a></dd>
-							<dd class="accordion-content answer">For those attending only the conference, we have acquired discounted nightly rate of $159-$199/night + tax for a single king bed or two queens, at the Salt Lake City Marriott City Center and Salt Lake Marriott Downtown at City Creek. We encourage you to register early as these rates are only available for a limit number of rooms. Book your room through the links on the <a href="/conference/regitration">registration page</a>a> or by calling their front desk and asking for the “Front Conference” group discount. Both hotels are right around the corner from the theater.</dd>
+							<dd class="accordion-content answer">We encourage you to register early as these rates are only available for a limit number of rooms. </dd>
+							<dd class="accordion-content answer">For those attending the full event, we have acquired a discount of 15% off the nightly rate, conveniently onsite at the venue. Book your room through the link on the <a href="/conference/regitration">registration page</a> or by calling 801.328.2000 and asking for the “Front Workshop Series” conference discount.
+							<dd class="accordion-content answer">For those attending only the conference, we have acquired discounted nightly rate of $159-$199/night + tax for a single king bed or two queens, at the Salt Lake City Marriott City Center and Salt Lake Marriott Downtown at City Creek. Book your room through the links on the <a href="/conference/regitration">registration page</a> or by calling their front desk and asking for the “Front Conference” group discount. Both hotels are right around the corner from the theater.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Are there other hotels recommended?</dt>
-							<dd class="accordion-content answer">We highly recommend Hilton Salt Lake City Center, as that is where the conference is being held. That said, the <a href="">AC Hotel Salt Lake City Downtown</a> is an excellent, new, modern option and <a href="https://www.marriott.com/hotels/travel/slccc-salt-lake-city-marriott-city-center/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2">Salt Lake City Marriott City Center</a> is large property with a lot of capacity. A <a href="https://www.marriott.com/hotels/travel/SLCTD-towneplace-suites-salt-lake-city-downtown/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2">TownPlace Suites</a> and <a href="https://docs.google.com/spreadsheets/d/1AAK-kk_AoM3Ut6aQQaX9nfcW_QuvsVkpjOycEVete3Y/edit#gid=0">Fairfield Inn & Suites</a> are a block away and are good affordable options. Salt Lake City also has many Airbnd and condominiums for rent that you can find by searching your favorite travel site for details and pricing.</dd>
+							<dd class="accordion-content answer">If you are participating in the workshops, we highly recommend Hilton Salt Lake City Center, as that is where the workshops are is being held. That said, the <a href="">AC Hotel Salt Lake City Downtown</a> is an excellent, new, modern option. A <a href="https://www.marriott.com/hotels/travel/SLCTD-towneplace-suites-salt-lake-city-downtown/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2">TownPlace Suites</a> and <a href="https://docs.google.com/spreadsheets/d/1AAK-kk_AoM3Ut6aQQaX9nfcW_QuvsVkpjOycEVete3Y/edit#gid=0">Fairfield Inn & Suites</a> are a block away and are good affordable options. Salt Lake City also has many Airbnd and condominiums for rent that you can find by searching your favorite travel site for details and pricing.</dd>
 						</dl>
-						<dl class="accordion">
-							<dt class="accordion-title question">Are there other hotels recommended?</dt>
-							<dd class="accordion-content answer">We highly recommend Hilton Salt Lake City Center, as that is where the conference is being held. That said, the <a href="">AC Hotel Salt Lake City Downtown</a> is an excellent, new, modern option and <a href="https://www.marriott.com/hotels/travel/slccc-salt-lake-city-marriott-city-center/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2">Salt Lake City Marriott City Center</a> is large property with a lot of capacity. A <a href="https://www.marriott.com/hotels/travel/SLCTD-towneplace-suites-salt-lake-city-downtown/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2">TownPlace Suites</a> and <a href="https://docs.google.com/spreadsheets/d/1AAK-kk_AoM3Ut6aQQaX9nfcW_QuvsVkpjOycEVete3Y/edit#gid=0">Fairfield Inn & Suites</a> are a block away and are good affordable options. Salt Lake City also has many Airbnd and condominiums for rent that you can find by searching your favorite travel site for details and pricing.</dd>
-						</dl>
-						
 						<dl class="accordion">
 							<dt class="accordion-title question">Is there parking at or near the host hotel?</dt>
-							<dd class="accordion-content answer">Yes, free parking will be provided to attendees at the hotel.</dd>
+							<dd class="accordion-content answer">Free parking will be provided to attendees staying at the Hilton Salt Lake City Center.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Is there parking at or near the theater?</dt>
@@ -128,7 +124,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Are meals included in the cost of registration?</dt>
-							<dd class="accordion-content answer">A Full Conference ticket covers a hot breakfast breakfast, off site lunch of your choice, and break time snacks.</dd>
+							<dd class="accordion-content answer">All tickets include a hot breakfast breakfast, on or off-site lunch, and break-time snacks for each day you are in attendance.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Are specialty dietary requirements accommodated with the meals at the event?</dt>
