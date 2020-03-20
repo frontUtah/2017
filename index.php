@@ -19,22 +19,14 @@ require('includes/header.php');
 				pandemic and considering the latest recommendations and requests of major 
 				global health organizations and governments, we have decided to postpone 
 				the 2020 Front UX & Product Management Case Study Conference. </p>
-			<p>It is with sad hearts that we delay this event. We have been so eager to 
-				gather with you again for the sixth year. After a year of research and 
-				planning, we have crafted a program of some of the best and brightest 
-				practitioners in the industry and set to be our most exciting and 
-				inspiring event yet. Postponing the event, however, is the right thing 
-				to do.</p>
 			<p>The good news is that Front isn’t being cancelled. Instead of two 
 				separate events year year, the Case Study Conference will be combined 
 				with our Workshop Series in November, for a single, large, multi-format 
 				event. We will also be expanding our usual schedule to include round 
 				tables, a welcome reception, yoga, a group meditation session, a 
 				service project, networking dinners, and an after-party.</p>
-			<p>The combined event will be 9-13 November 2020, with the workshops 
-				Tuesday and Wednesday and the talks Thursday and Friday. More details 
-				about the schedule will be available shortly on our website.</p>
-			<p><a href="/2020_postponed">Read more details here</a></p>
+			<p>The combined event will be 10-13 November 2020, with the workshops 
+				Tuesday and Wednesday and the talks Thursday and Friday. <a href="/2020_postponed">Read more details here</a>.</p>
 				
 	</section>
 </main>
