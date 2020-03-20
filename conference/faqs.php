@@ -23,11 +23,15 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<h3>Registration information</h3>
 						<dl class="accordion">
 							<dt class="accordion-title question">What are the ticket pricing details?</dt>
-							<dd class="accordion-content answer">Front UX & Product Management Case Study Conference full conference passes are $500 (30% off) until 27 March 2018. Standard price Front UX & Product Management Case Study Conference full conference passes are $700. This includes all meals, courses, and activities.</dd>
+							<dd class="accordion-content answer">Front UX & Product Management Case Study Conference & Workshop Series full event passes are $1,849 (25% off) until 11 September 2020. Standard price Front UX & Product Management Case Study Conference full event passes are $2,299. This includes all meals, workshops, and additional activities 10-13 November 2020.</dd>
+							<dd class="accordion-content answer">Front UX & Product Management Case Study Conference & Workshop Series workshop-only passes are $1,349 (25% off) until 11 September 2020. Standard price Front UX & Product Management Case Study Conference full event passes are $1,799. This includes all meals, workshops, and additional activities 10-11 November 2020.</dd>
+							<dd class="accordion-content answer">Front UX & Product Management Case Study Conference & Workshop Series conference-only passes are $500 (30% off) until 11 September 2020. Standard price Front UX & Product Management Case Study Conference conference-only passes are $700. This includes all meals and additional activities 12-13 November 2020.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Do you offer group pricing?</dt>
-							<dd class="accordion-content answer">We offer group discounts for teams. We want you to come learn and practice together. You will need to register all attendees at the same time to receive the discount. Teams of 5-10 will receive 5% off. Teams of 10 or more will receive 10% off.</dd>
+							<dd class="accordion-content answer">We offer group discounts for teams. We want you to come learn and practice together. You will need to register all attendees at the same time to receive the discount.</dd>
+							<dd class="accordion-content answer">For full event and workshop-only passes, the discounts are 10% for teams of 3-5, 15% for teams of 6-7, and 20% for teams of 8 or more.</dd>
+							<dd class="accordion-content answer">For conference-only passes, the discounts are: 5% for teams of 5-10 and 10% for teams of 10 or more.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">May I pay by invoice?</dt>
@@ -55,7 +59,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Where do I pick up my registration badge?</dt>
-							<dd class="accordion-content answer">You can pick-up your badge at the registration desk, located on the lower level of the Eccles Theater Grand Lobby on Thursday, 31 May 2018, between 7:30 - 9:00 AM.</dd>
+							<dd class="accordion-content answer">You can pick up your badge at the registration desk at any of the following times:</dd>
+							<dd class="accordion-content answer">Tuesday, 10 November, 7:30-8:30 AM at Hilton Salt Lake City Center, Level 2.</dd>
+							<dd class="accordion-content answer">Wednesday, 11 November, 6:00-7:00 PM at Eccles Theater, Grand Lobby.</dd>
+							<dd class="accordion-content answer">Wednesday, 11 November, 7:e0-9:00 AM at Eccles Theater, Grand Lobby lower level.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Is there an age requirement for the event?</dt>
@@ -67,33 +74,32 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<h3>Hotel and Transportation</h3>
 						<dl class="accordion">
 							<dt class="accordion-title question">How do I book lodging? Is there a discount and what is the deadline?</dt>
-							<dd class="accordion-content answer">We are in the process of negotiating a group rate at a hotel next to the venue. Rates and registration details will be posted as soon as they become available.</dd>
-							<!-- dd class="accordion-content answer">We have acquired a discounted nightly rate of $199/night + tax for a single king or queen bed, at the <a href="https://www.marriott.com/events/start.mi?id=1549586151032&key=GRP">Salt Lake City Marriott City Center</a>. The rate is available for stays between 5 June - 7 June 2019. The deadline for booking lodging at the discounted rate is 1 May 2019. We encourage you to register early as it the hotel will likely sell out before that date. Book your room online or by calling 888.236.2427 and asking for the “Front” group discount. The hotel is a block and a half (5 minute walk) from the theater.<br><br> In addition we have also secured a discount with <a href="https://goo.gl/maps/sxQUuXDmgq52">Salt Lake Plaza Hotel Temple Square</a> at a discounted nightly rate $130/night + tax for a single king or queen bed. Book your room by calling (801) 521-0130 and asking for the "Front" group discount. The Plaza Hotel is three blocks (8 minute walk) from the theater. A deposit is required to book. </dd -->
+							<dd class="accordion-content answer">For those attending the full event, we have acquired a discount of 15% off the nightly rate, conveniently onsite at the venue. Book your room online or by calling 801.328.2000 and asking for the “Front Workshop Series” conference discount. <a href="https://www3.hilton.com/en/hotels/utah/hilton-salt-lake-city-center-SLCCCHH/index.html">Book Now</a></dd>
+							<dd class="accordion-content answer">For those attending only the conference, we have acquired discounted nightly rate of $159-$199/night + tax for a single king bed or two queens, at the Salt Lake City Marriott City Center and Salt Lake Marriott Downtown at City Creek. We encourage you to register early as these rates are only available for a limit number of rooms. Book your room through the links on the <a href="/conference/regitration">registration page</a>a> or by calling their front desk and asking for the “Front Conference” group discount. Both hotels are right around the corner from the theater.</dd>
 						</dl>
-						<!--
-						<dl class="accordion">
-							<dt class="accordion-title question">Can I cancel my hotel reservation if I am unable to attend?</dt>
-							<dd class="accordion-content answer">A Deposit equal to two (2) night’s stay is required to hold each individual’s reservation, with final payment due thirty (30) days prior to arrival. Reservations made within thirty (30) days of arrival will be required to be paid in full at time of booking. Such deposit shall serve to confirm the reservation for the date(s) indicated. This deposit is refundable if notice of cancellation is received at least thirty (30) days prior to arrival and a cancellation number is obtained. All deposits shall be charged at the time the reservation is made. No refunds for late arrivals, early departures or down grades.</dd>
-						</dl>
-						<dl class="accordion">
-							<dt class="accordion-title question">What forms of payment are accepted at Salt Lake City Marriott City Center?</dt>
-							<dd class="accordion-content answer">American dollars, American Express, Mastercard and Visa are all accepted forms of payment.</dd>
-						</dl>
-						<dl class="accordion">
-							<dt class="accordion-title question">Is there parking at or near the host hotel?</dt>
-							<dd class="accordion-content answer">Yes, on-site parking for $4/hour or $17/day and valet parking for $22/day.</dd>
-						</dl>
-						-->
 						<dl class="accordion">
 							<dt class="accordion-title question">Are there other hotels recommended?</dt>
-							<dd class="accordion-content answer">We highly recommend the <a href="https://www.marriott.com/events/start.mi?id=1549586151032&key=GRP">Salt Lake City Marriott City Center</a> and the <a href="https://goo.gl/maps/sxQUuXDmgq52">Salt Lake Plaza Hotel Temple Square</a>, as we have arranged a discounted rate and because of the proximity to the venue. That said, the Salt Lake Marriott Downtown at City Creek, Hotel Monaco, Hilton Salt Lake City Center are also close to the venue and are also good options.</dd>
+							<dd class="accordion-content answer">We highly recommend Hilton Salt Lake City Center, as that is where the conference is being held. That said, the <a href="">AC Hotel Salt Lake City Downtown</a> is an excellent, new, modern option and <a href="https://www.marriott.com/hotels/travel/slccc-salt-lake-city-marriott-city-center/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2">Salt Lake City Marriott City Center</a> is large property with a lot of capacity. A <a href="https://www.marriott.com/hotels/travel/SLCTD-towneplace-suites-salt-lake-city-downtown/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2">TownPlace Suites</a> and <a href="https://docs.google.com/spreadsheets/d/1AAK-kk_AoM3Ut6aQQaX9nfcW_QuvsVkpjOycEVete3Y/edit#gid=0">Fairfield Inn & Suites</a> are a block away and are good affordable options. Salt Lake City also has many Airbnd and condominiums for rent that you can find by searching your favorite travel site for details and pricing.</dd>
+						</dl>
+						<dl class="accordion">
+							<dt class="accordion-title question">Are there other hotels recommended?</dt>
+							<dd class="accordion-content answer">We highly recommend Hilton Salt Lake City Center, as that is where the conference is being held. That said, the <a href="">AC Hotel Salt Lake City Downtown</a> is an excellent, new, modern option and <a href="https://www.marriott.com/hotels/travel/slccc-salt-lake-city-marriott-city-center/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2">Salt Lake City Marriott City Center</a> is large property with a lot of capacity. A <a href="https://www.marriott.com/hotels/travel/SLCTD-towneplace-suites-salt-lake-city-downtown/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2">TownPlace Suites</a> and <a href="https://docs.google.com/spreadsheets/d/1AAK-kk_AoM3Ut6aQQaX9nfcW_QuvsVkpjOycEVete3Y/edit#gid=0">Fairfield Inn & Suites</a> are a block away and are good affordable options. Salt Lake City also has many Airbnd and condominiums for rent that you can find by searching your favorite travel site for details and pricing.</dd>
+						</dl>
+						
+						<dl class="accordion">
+							<dt class="accordion-title question">Is there parking at or near the host hotel?</dt>
+							<dd class="accordion-content answer">Yes, free parking will be provided to attendees at the hotel.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Is there parking at or near the theater?</dt>
 							<dd class="accordion-content answer">The <a href="https://goo.gl/maps/svRcRjnuXtL2">Regent Street Garage</a> is the preferred parking location for the Eccles Theater, but there are several other parking options nearby. If you choose to park at the Regent Street Garage (55 East 200 South) you may access Regent Street between 100 and 200 South between State and Main Street, or via Orpheum Avenue from State Street. Secondarily, we recommend Gallivan Center and City Creek Shopping Center.</dd>
 						</dl>
 						<dl class="accordion">
-							<dt class="accordion-title question">What's the best way to get to the hotel and venue?</dt>
+							<dt class="accordion-title question">What's the best way to get to the workshops (Hilton Salt Lake City Center)?</dt>
+							<dd class="accordion-content answer">The fastest option for getting to and from the conference is by car (Uber, Lyft, or rental). <a href="http://rideuta.com/Rider-Tools/Schedules-and-Maps">UTA TRAX</a>, Salt Lake City's light rail system, is also a great option. Trains run directly from <a href="https://goo.gl/maps/fTKJ8HHkudwxQkvM8">Salt Lake City International Airport and the hotel</a>, and depart every 15 minutes.</dd>
+						</dl>
+						<dl class="accordion">
+							<dt class="accordion-title question">What's the best way to get to the conference (Eccles Theater)?</dt>
 							<dd class="accordion-content answer">Your best option for getting to and from the conference is the <a href="http://rideuta.com/Rider-Tools/Schedules-and-Maps">UTA TRAX light rail system</a>. The Green Line departs every 15 minutes from Salt Lake City International Airport and is a <a href="https://www.google.com/maps/dir/Eccles+Theater,+Main+Street,+Salt+Lake+City,+UT/Salt+Lake+International+Airport,+Salt+Lake+City,+UT+84116/@40.7746048,-111.973184,13z/am=t/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x8752f50f1667ab31:0xc579635ce66a923d!2m2!1d-111.8905835!2d40.7663627!1m5!1m1!1s0x8752f3dcc7a1c925:0xbe14a4170a70b7aa!2m2!1d-111.9804732!2d40.7841271!3e3">26 minute ride</a> to Eccles Theater (City Creek Station, 1 block away).</dd>
 						</dl>
 					</li>
@@ -103,6 +109,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl class="accordion">
 							<dt class="accordion-title question">Where do I find out who is speaking?</dt>
 							<dd class="accordion-content answer">Information about who is teaching courses and Front Salt Lake City can be found at <a href="/conference/speakers">www.frontutah.com/conference/speakers</a>. To find out when individual speakers will be speaking, visit the talks page at <a href="/conference/talks">www.frontutah.com/conference/talks</a>.</dd>
+						</dl>
+						<dl class="accordion">
+							<dt class="accordion-title question">Where do I found out who is teaching workshops?</dt>
+							<dd class="accordion-content answer">Information about who is teaching courses and can be found at <a href="/conference/speakers">www.frontutah.com/conference/speakers</a>. To find out when individual instructors will be teaching, visit the courses page at <a href="/conference/workshops">www.frontutah.com/conference/workshops</a>.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">What is the schedule?</dt>
