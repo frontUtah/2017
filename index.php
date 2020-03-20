@@ -34,7 +34,7 @@ require('includes/header.php');
 			<p>The combined event will be 9-13 November 2020, with the workshops 
 				Tuesday and Wednesday and the talks Thursday and Friday. More details 
 				about the schedule will be available shortly on our website.</p>
-			<p><a href="/coronavirus">Read more details here</a></p>
+			<p><a href="/2020_postponed">Read more details here</a></p>
 				
 	</section>
 </main>
