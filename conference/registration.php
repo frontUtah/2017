@@ -218,7 +218,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		<a id="hotels"></a><section class="accomodations">
 			<h2>Hotels</h2>
 
-			<p class="about-accomodations">For those only attending the conference, we have acquired discounted nightly rate of $159-$199/night + tax for a single king bed or two queens, at the hotels <strong>Salt Lake City Marriott City Center</strong> and <strong>Salt Lake Marriott Downtown at City Creek</strong>. We encourage you to register early as these rates are only available for a limit number of rooms. Book your room through the links below or by calling their front desk and asking for the “Front Conference” group discount. Both hotels are right around the corner from the theater.<br /><br />For attending the workshops, we have acquired a discount of 
+			<p class="about-accomodations">For those only attending the conference, we 
+				have acquired discounted nightly rate of $129-159/night + tax for a single king bed or two queens, at the hotels <strong>Salt Lake City Marriott City Center</strong> and <strong>Salt Lake Marriott Downtown at City Creek</strong>. We encourage you to register early as these rates are only available for a limit number of rooms. Book your room through the links below or by calling their front desk and asking for the “Front Conference” group discount. Both hotels are right around the corner from the theater.<br /><br />For attending the workshops, we have acquired a discount of 
 				15% off the nightly rate at the <strong>Hilton Salt Lake City Center</strong>, conveniently onsite at the venue. 
 				Book your room online or by calling 801.328.2000 and asking 
 				for the “Front Utah” conference discount.</p>
@@ -260,7 +261,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</ul>
 				</div>
 				<div class="book-hotel">
-					<p>Act quickly to get the conference discount rate of <strong>$199/night</strong> (25% off).</p>
+					<p>Act quickly to get the conference discount rate of <strong>$129/night</strong> (55% off).</p>
 					<p><a target="_blank" href="https://book.passkey.com/go/UTAHROOMS20" class="button">Book now</a></p>
 				</div>
 			</div>
