@@ -30,7 +30,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				event. We will also be expanding our usual schedule to include round 
 				tables, a welcome reception, yoga, a group meditation session, a 
 				service project, networking dinners, and an after-party.</p>
-			<p>The combined event will be 9-13 November 2020, with the workshops 
+			<p>The combined event will be 10-13 November 2020, with the workshops 
 				Tuesday and Wednesday and the talks Thursday and Friday. More details 
 				about the schedule will be available shortly on our website.</p>
 			<p>If you have already purchased tickets, you don’t need to do anything; your tickets will automatically be transitioned to the new schedule. 
