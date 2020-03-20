@@ -38,7 +38,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				spot and take advantage of early bird pricing. The event will sell 
 				out and there are limited seats in the workshops. Tickets will be 
 				sold as a combination for the talks and workshops, or for just the 
-				talks alone.</p>
+				talks alone. And yes. We realize things are still uncertain. Rest assured that tickets are fully refundable until 30 days prior to the event."</p>
 			<p>We appreciate your flexibility and support during this time. We would 
 				also like to thank Pluralsight and all of our other wonderful sponsors 
 				for their support and collaboration in making these events a success. 
@@ -51,15 +51,15 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				<li class="faq-category">
 					<dl class="accordion">
 						<dt class="accordion-title question">Why are you postponing the event?</dt>
-						<dd class="accordion-content answer">The health and safety of our attendees, speakers, sponsors, and staff is our highest priority. Spending time together is a key value of our events, but limiting gatherings of groups is critical in the abatement of the coronavirus pandemic. Thus, we are postponing the conference to a later date when we will be able to safely gather.</dd>
+						<dd class="accordion-content answer">The health and safety of our attendees, speakers, sponsors, and staff is our highest priority. Spending time together is a key value of our events, but limiting gatherings of groups is critical in the abatement of the coronavirus pandemic. Thus, we are postponing the conference to November when we will be able to safely gather. We're also excited about the opportunity it provides us to host a larger, multi-format event.</dd>
 					</dl>
 					<dl class="accordion">
 						<dt class="accordion-title question">When will the Conference be held?</dt>
-						<dd class="accordion-content answer">The conference will be combined with our workshop series, for a single, larger, multi-format event, 9-13 November 2020. The workshops will be Tuesday and Wednesday and the talks Thursday and Friday.</dd>
+						<dd class="accordion-content answer">The conference will be combined with our workshop series, for a single, larger, multi-format event, 10-13 November 2020. The workshops will be Tuesday and Wednesday and the talks Thursday and Friday.</dd>
 					</dl>
 					<dl class="accordion">
 						<dt class="accordion-title question">Did registration cancellations impact the decision?</dt>
-						<dd class="accordion-content answer">No. In fact, we only had 3 cancellations.</dd>
+						<dd class="accordion-content answer">No. In fact, we only had 6 cancellations.</dd>
 					</dl>
 					<dl class="accordion">
 						<dt class="accordion-title question">Who do I contact with more questions.</dt>
@@ -67,7 +67,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</dl>
 					<dl class="accordion">
 						<dt class="accordion-title question">What do I need to do if I am already registered for the 2020 Front UX & Product Management Case Study Conference?</dt>
-						<dd class="accordion-content answer">Nothing. Tickets that have already been purchased will automatically be transitioned to the new schedule.</dd>
+						<dd class="accordion-content answer">If you only want to attend the conference, nothing. Tickets that have already been purchased will automatically be transitioned to the new schedule.</dd>
+						<dd class="accordion-content answer">If you would also like to only want to attend the workshops, Tuesday and Wednesday, then please reach out to us for a code to purchase tickets for the other half of the conference.</dd>
 					</dl>
 				</li>
 				<li class="faq-category">
@@ -77,7 +78,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</dl>
 					<dl class="accordion">
 						<dt class="accordion-title question">I have not registered yet. How can I register?</dt>
-						<dd class="accordion-content answer">Register online at frontutah.com/conference/registration.</dd>
+						<dd class="accordion-content answer">Register <a href="/conference/registration">here</a>.</dd>
 					</dl>
 					<dl class="accordion">
 						<dt class="accordion-title question">If I opt to get a refund, how will I get the refund?</dt>

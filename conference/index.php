@@ -51,7 +51,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				groups of six, where you’ll be expected to collaborate and engage. 
 				Each workshop is planned for only 50 students and taught by 
 				internationally-recognized, industry-leading professional coaches 
-				and trainers</p>
+				and trainers.</p>
 		</section>
 		
 		<section class="instructor-preview">

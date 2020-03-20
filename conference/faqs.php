@@ -30,7 +30,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl class="accordion">
 							<dt class="accordion-title question">Do you offer group pricing?</dt>
 							<dd class="accordion-content answer">We offer group discounts for teams. We want you to come learn and practice together. You will need to register all attendees at the same time to receive the discount.</dd>
-							<dd class="accordion-content answer">For full event and workshop-only passes, the discounts are 10% for teams of 3-5, 15% for teams of 6-7, and 20% for teams of 8 or more.</dd>
+							<dd class="accordion-content answer">For full event and workshop-only passes, the discounts are 10% for teams of 3-5 and 20% for teams of 6 or more.</dd>
 							<dd class="accordion-content answer">For conference-only passes, the discounts are: 5% for teams of 5-10 and 10% for teams of 10 or more.</dd>
 						</dl>
 						<dl class="accordion">
