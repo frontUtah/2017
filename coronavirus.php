@@ -9,10 +9,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 ?>
 	<main class="article-page">
 		<section class="moreserious hero">
-			<h1>Notice regarding coronavirus (COVID-19)</h1>
+			<h1>2020 Case Study Conference postponed</h1>
 		</section>
 		<section class="body short">
-			<h2>Notice regarding coronavirus (COVID-19)</h2>
+			<h2>2020 Case Study Conference postponed</h2>
 			<p>The health and safety of our attendees, speakers, sponsors, and staff is 
 				our highest priority. After monitoring developments of the coronavirus 
 				pandemic and considering the latest recommendations and requests of major 

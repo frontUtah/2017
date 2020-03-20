@@ -7,28 +7,14 @@ RewriteCond %{HTTP_HOST} !^local\.
 RewriteCond %{HTTP_HOST} !^www\.
 RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
 
-# catch old URLs
-RewriteRule ^saltlakecity(.*) /conference [R,L]
-RewriteRule ^parkcity(.*) /workshops [R,L]
-RewriteRule ^bootcamp$ /workshops [R,L]
-RewriteRule ^bootcamp/courses$ /workshops/courses [R,L]
-RewriteRule ^bootcamp/courses/(.*)$ /workshops/courses/$1 [R,L]
-RewriteRule ^bootcamp/instructors$ /workshops/instructors [R,L]
-RewriteRule ^bootcamp/instructor/(.*)$ /workshops/instructor/$1 [R,L]
-RewriteRule ^bootcamp/registration$ /workshops/registration [R,L]
-RewriteRule ^bootcamp/faqs$ /workshops/faqs [R,L]
-RewriteRule ^bootcamp/schedule$ /workshops/schedule [R,L]
-RewriteRule ^bootcamp/venue$ /workshops/venue [R,L]
-RewriteRule ^bootcamp/whyattend$ /workshops/whyattend [R,L]
-RewriteRule ^training/public-workshops$ /training/public [R,L]
-Redirect /training/public-training /training/public
-# Redirect /newsletter https://frontutah.us2.list-manage.com/subscribe?u=5a9bade195be7c98130573919&id=e8d567ca7f
-
 # route HTTP to HTTPS
 RewriteCond %{HTTP_HOST} !^dev\.
 RewriteCond %{HTTP_HOST} !^local\.
 RewriteCond %{HTTPS} off
 RewriteRule (.*) https://%{SERVER_NAME}/$1 [R,L]
+
+# temporarily route workshops to conference (2020)
+RewriteRule ^workshops/(.*)$ /conference [L,R=307,NC]
 
 # pretty URLs
 RewriteRule ^conference/speaker/(.*)$ conference/speaker.php [NC,L]

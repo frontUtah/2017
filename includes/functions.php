@@ -198,13 +198,10 @@ function get_time($day, $slot) {
 function get_workshop_day($day) {
 	switch($day) {
 		case 1:
-			return 'Wednesday, 11 November 2020';
+			return 'Tuesday, 10 November 2020';
 			break;
 		case 2:
-			return 'Thursday, 12 November 2020';
-			break;
-		case 3:
-			return 'Friday, 13 November 2020';
+			return 'Wednesday, 11 November 2020';
 			break;
 	}
 }
@@ -213,13 +210,10 @@ function get_workshop_day($day) {
 function get_conference_day($day) {
 	switch($day) {
 		case 1:
-			return 'Wednesday, 27 May 2020';
+			return 'Thursday, 12 November 2020';
 			break;
 		case 2:
-			return 'Thursday, 28 May 2020';
-			break;
-		case 3:
-			return 'Friday, 29 May 2020';
+			return 'Friday, 13 November 2020';
 			break;
 	}
 }
@@ -237,13 +231,13 @@ function truncate_string($string, $length) {
 function get_room($id) {
 	switch($id) {
 		case 1:
-			return 'Viridian A';
+			return 'Alpine 1';
 		case 2:
-			return 'Viridian B';
+			return 'Alpine 2';
 		case 3:
-			return 'Viridian C';
+			return 'Topaz';
 		case 4:
-			return 'Parkview';
+			return 'Canyons';
 	}
 }
 

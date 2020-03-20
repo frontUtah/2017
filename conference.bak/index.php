@@ -21,11 +21,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 ?>
 	<main class="product-workshops product-casestudy">
 		<section class="hero">
-			<h1>UX &amp; Product Management Case Study Conference and Workshop Series</h1>
+			<h1>UX &amp; Product Management Case Study Conference</h1>
 			<p>
 				<ul>
-					<li>4 days&nbsp;&nbsp;•&nbsp;&nbsp;16 talks with audience-led Q&A&nbsp;&nbsp;•&nbsp;&nbsp;Rountables</li>
-					<li>16 workshops in 4 tracks&nbsp;&nbsp;•&nbsp;&nbsp;Networking dinners</li>
+					<li>4 days • 16 talks with audience-led Q&A</li>
+					<li>1000+ product designers and managers</li>
 				</ul>
 			</p>
 			<p class="date-location">10-13 November 2020 • Salt Lake City, Utah</p>
@@ -33,25 +33,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<p><a href="/conference/registration" class="button">Register</a></p>
 		</section>
 		<section class="training-courses">
-			<h2>Build better teams. Build better products. </h2>
-			<p>Join us this Fall, in Salt Lake City, for four full days of 
-				dedicated time away from your desk, learning better ways to 
-				work together with your team and for inspiration in growing your career 
-				in UX and Product Management. Creating amazing products requires more than brilliant ideas, 
-				meticulously crafted interactions, and cutting-edge technology&mdash;it 
-				requires a fanatical focus on users and a commitment to producing 
-				something that is both useful and desirable. It requires 
-				cross-functional teams that listen, iterate, and learn.</p>
-			<p>Together with nearly 1,000 other 
-				professionals, you’ll learn from top talented practitioners,  
-				influencing the organizations they work for and changing the 
-				way our industry looks at digital products and the way people 
-				use them. Select 4 half-day workshops, for 2 intense days of learning and 
-				practice. No passive education here; we work together in small 
-				groups of six, where you’ll be expected to collaborate and engage. 
-				Each workshop is planned for only 50 students and taught by 
-				internationally-recognized, industry-leading professional coaches 
-				and trainers</p>
+			<h2>Build better products</h2>
+			<p>Join us this Spring, in Salt Lake City, for two full days of dedicated time away from your desk, learning better ways to work together with your team and be inspired to grow your career in UX or Product Management. Together with over 1,000 other professionals, you’ll learn from extremely talented people influencing the organizations they work for and changing the way our industry looks at digital products and the way people use them.</p>
+			<p>Creating amazing products requires more than brilliant ideas, meticulously crafted interactions, and cutting-edge technology—it requires a fanatical focus on users and a commitment to producing something that is both useful and desirable. It requires cross-functional teams that listen, iterate, and learn.</p>
 		</section>
 		
 		<section class="instructor-preview">

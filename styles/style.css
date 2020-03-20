@@ -1281,7 +1281,8 @@ footer p {
 
 @media (min-width:1599px) {
 	.product-workshops .hero  {
-		padding-top: 400px
+		/*padding-top: 400px */
+		padding-top: 300px
 	}
 }
 
