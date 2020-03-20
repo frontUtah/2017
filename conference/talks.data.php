@@ -98,8 +98,8 @@ $talks[] = array(
 
 // Dave Rackham
 $talks[] = array(
-	'title' => 'Org design',
-	'description' => "Lessons learned and observations from being a leader in the new org design.",
+	'title' => 'Lessons Learned from 451 Days of Cross-Functional Leadership at Pluralsight',
+	'description' => "For years Pluralsight reaped the benefits of cross-functional teams but relied on a functional leadership org design. Come see what we learned in the last 451 days after moving to an org design where each leader is responsible for product, design, and engineering. While not a silver bullet, the new design has delivered on its promises. Teams no longer rely on multiple leaders—or experience the inevitable confusion that follows. They also enjoy less friction as they work together and collaborate more powerfully across teams. Whether you’re a leader, or a contributor, you’ll take home tactical lessons that will improve how you work with other disciplines.",
 	'day' => 2,
 	'slot' => 3,
 	'speaker' => 'daverackham'
