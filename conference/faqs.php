@@ -146,8 +146,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li class="faq-category">
 						<h3>Salt Lake City weather and attractions</h3>
 						<dl class="accordion">
-							<dt class="accordion-title question">What is the weather like in Salt Lake City at the end May?</dt>
-							<dd class="accordion-content answer">Salt Lake City enjoys plenty of warm weather weather during May. This is one of the rainier months of the year here, but with the dry climate, the amount of rainfall is minimal. In most years, the average daily maximum temperature in May is between 68 and 76 degrees Fahrenheit (20 to 24 degrees Celsius). The minimum temperature usually falls between 45 and 50 °F (7 to 10 °C).</dd>
+							<dt class="accordion-title question">What is the weather like in Salt Lake City in November?</dt>
+							<dd class="accordion-content answer">Fall in Salt Lake is a time of transition. Nearby canyons are filled with vibrant colors as the trees prepare for winter, while temperatures remain warm enough for comfortable outdoor recreation. Evenings can be chilly and toward the end of Fall snow is typical in both mountains and valley. The Ski Salt Lake resorts have had enough snow to open as early as Halloween, with typical opening days in mid to late November. Average highs in the valley are in the fifties with lows reaching thirty-five degree fahrenheit.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">What are the local restaurants, attractions, and entertainment in and around the event?</dt>
