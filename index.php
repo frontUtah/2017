@@ -34,19 +34,7 @@ require('includes/header.php');
 			<p>The combined event will be 9-13 November 2020, with the workshops 
 				Tuesday and Wednesday and the talks Thursday and Friday. More details 
 				about the schedule will be available shortly on our website.</p>
-			<p>If you have already purchased tickets, you don’t need to do anything. 
-				Your tickets will automatically be transitioned to the new schedule. 
-				If you have not, we encourage you to register now to reserve your 
-				spot and take advantage of early bird pricing. The event will sell 
-				out and there are limited seats in the workshops. Tickets will be 
-				sold as a combination for the talks and workshops, or for just the 
-				talks alone.</p>
-			<p>We appreciate your flexibility and support during this time. We would 
-				also like to thank Pluralsight and all of our other wonderful sponsors 
-				for their support and collaboration in making these events a success. 
-				Our thoughts and prayers are with everyone affected by the coronavirus 
-				situation.</p>
-			<p>Read more details here</p>
+			<p><a href="/coronavirus">Read more details here</a></p>
 				
 	</section>
 </main>
