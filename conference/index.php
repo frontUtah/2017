@@ -90,6 +90,8 @@ foreach($speakers as $instructor) {
 			</p>
 		</section>
 		
+		
+		<!--
 		<section class="instructor-preview">
 			<h2>Instructors</h2>
 			<ul class="instructor-list">
@@ -125,6 +127,7 @@ foreach($instructors as $instructor) {
 				<a href="/workshops/instructors" class="button">View All</a>
 			</p>
 		</section>
+		-->
 		
 		<a name="highlights"></a>
 		
