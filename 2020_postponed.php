@@ -26,21 +26,21 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				to do.</p>
 			<p>The good news is that Front isn’t being cancelled. Instead of two 
 				separate events year year, the Case Study Conference will be combined 
-				with our Workshop Series in November, for a single, large, multi-format 
-				event. We will also be expanding our usual schedule to include round 
+				with our Workshop Series in November, for a <a href="/conference">single, large, multi-format 
+				event</a>. We will also be expanding our usual schedule to include round 
 				tables, a welcome reception, yoga, a group meditation session, a 
 				service project, networking dinners, and an after-party.</p>
 			<p>The combined event will be 10-13 November 2020, with the workshops 
 				Tuesday and Wednesday and the talks Thursday and Friday. More details 
-				about the schedule will be available shortly on our website.</p>
+				about the schedule are available <a href="/conference/schedule">here</a>.</p>
 			<p>If you have already purchased tickets, you don’t need to do anything; your tickets will automatically be transitioned to the new schedule. 
-				If you have not, we encourage you to register now to reserve your 
+				If you have not, we encourage you to <a href="/conference/register">register now</a> to reserve your 
 				spot and take advantage of early bird pricing. The event will sell 
 				out and there are limited seats in the workshops. Tickets will be 
 				sold as a combination for the talks and workshops, or for just the 
 				talks alone. And yes. We realize things are still uncertain. Rest assured that tickets are fully refundable until 30 days prior to the event."</p>
 			<p>We appreciate your flexibility and support during this time. We would 
-				also like to thank Pluralsight and all of our other wonderful sponsors 
+				also like to thank <a href="https://www.pluralsight.com">Pluralsight</a> and all of our other wonderful sponsors 
 				for their support and collaboration in making these events a success. 
 				Our thoughts and prayers are with everyone affected by the coronavirus 
 				situation.</p>
