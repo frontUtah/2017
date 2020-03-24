@@ -5,7 +5,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 $speaker = get_speaker($uri_parts[2]);
 $talks = get_talks($speaker['slug']);
 
-$title = $speaker['first'] . ' ' . $speaker['last'] . ' - Front UX & Product Management Case Study Conference, 28-29 May 2020';
+$title = $speaker['first'] . ' ' . $speaker['last'] . ' - Front UX & Product Management Case Study Conference and Workshop Series, 10-13 November 2020';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
