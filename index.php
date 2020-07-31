@@ -101,7 +101,7 @@ require('includes/header.php');
 		</p>
 	</section>
 	<section class="attendee-stats">
-		<p>In it's 5th year, Front is a sell-out event, with a 
+		<p>In it's 6th year, Front is a sell-out event, with a 
 			<strong>1,000 annual attendees from 5 countries and 31 states</strong> 
 			across the US. Join us at the Front to share, learn, and be inspired 
 			to create amazing products.</p>
