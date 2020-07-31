@@ -12,7 +12,7 @@ if(is_null($instructor)) {
 
 $courses = get_courses_by_instructor($instructor['slug']);
 
-$title = $instructor['first'] . ' ' . $instructor['last'] . ' - Front UX & Product Management Workshop Series, 7-8 November 2019';
+$title = $instructor['first'] . ' ' . $instructor['last'] . ' - Front UX & Product Management Workshop Series, November 2021';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 

@@ -2,7 +2,7 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Registration - Front UX & Product Management Workshop Series, 7-8 November 2019';
+$title = 'Registration - Front UX & Product Management Workshop Series, November 2021';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
@@ -31,11 +31,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<dt><div></div></dt>
 					<dd class="early">
 						Early bird pricing
-						<small>25% off through 11 September 2020</small>
+						<small>25% off through 11 September 2021</small>
 					</dd>
 					<dd class="standard">
 						Standard pricing
-						<small>Starting 12 September 2020</small>
+						<small>Starting 12 September 2021</small>
 					</dd>
 				</dl>
 				<dl class="full">
@@ -113,7 +113,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			
 			-->
 			
-			<div id="eventbrite-widget-container-85934090177"></div>
+			<div id="eventbrite-widget-container-115533081557"></div>
 			
 			<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 			
@@ -125,8 +125,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			    window.EBWidgets.createWidget({
 			        // Required
 			        widgetType: 'checkout',
-			        eventId: '85934090177',
-			        iframeContainerId: 'eventbrite-widget-container-85934090177',
+			        eventId: '115533081557',
+			        iframeContainerId: 'eventbrite-widget-container-115533081557',
 			
 			        // Optional
 			        iframeContainerHeight: 1000,  // Widget height in pixels. Defaults to a minimum of 425px if not provided

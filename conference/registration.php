@@ -2,7 +2,7 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Registration - Front UX & Product Management Case Study Conference, 28-29 May 2020';
+$title = 'Registration - Front UX & Product Management Case Study Conference, 7-9 April 2021';
 
 $meta['twitter']['card'] = "Early bird passes are $500, that's 30% off if you purchase before April 1st. It gets even better if you bring your team. Tickets are only $450 each for groups of 10+, which is 35% off on the full price passes.";
 $meta['twitter']['site'] = '@front';
@@ -39,11 +39,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<dt><div></div></dt>
 					<dd class="early">
 						Early bird pricing
-						<small>30% off through 27 March 2020</small>
+						<small>30% off through 12 April 2021</small>
 					</dd>
 					<dd class="standard">
 						Standard pricing
-						<small>Starting 28 March 2020</small>
+						<small>Starting 13 March 2021</small>
 					</dd>
 				</dl>
 				<dl class="full">
