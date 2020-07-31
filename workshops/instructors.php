@@ -1,7 +1,7 @@
 <?php
 
-// 2020 combined event
-header('location: /conference', true, 307);
+// off-season
+header('location: /workshops', true, 307);
 exit();
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');

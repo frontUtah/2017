@@ -8,29 +8,6 @@ require('includes/header.php');
 
 ?>
 
-<main class="article-page" style="margin-top: 40ox; padding-bottom: 3px">
-	<section class="moreserious hero" style="background: none; height: auto; padding-bottom: 0px">
-		<h1 style="color: black; padding: 20px 0 0 0">2020 Case Study Conference postponed</h1>
-	</section>
-	<section class="body short">
-		<h2>2020 Case Study Conference postponed</h2>
-			<p>The health and safety of our attendees, speakers, sponsors, and staff is 
-				our highest priority. After monitoring developments of the coronavirus 
-				pandemic and considering the latest recommendations and requests of major 
-				global health organizations and governments, we have decided to postpone 
-				the 2020 Front UX & Product Management Case Study Conference. </p>
-			<p>The good news is that Front isn’t being cancelled. Instead of two 
-				separate events year year, the Case Study Conference will be combined 
-				with our Workshop Series in November, for a single, large, multi-format 
-				event. We will also be expanding our usual schedule to include round 
-				tables, a welcome reception, yoga, a group meditation session, a 
-				service project, networking dinners, and an after-party.</p>
-			<p>The combined event will be 10-13 November 2020, with the workshops 
-				Tuesday and Wednesday and the talks Thursday and Friday. <a href="/2020_postponed">Read more details here</a>.</p>
-				
-	</section>
-</main>
-	
 <main class="home">
 	<section class="hero">
 		<h1 class="logo">Front</h1>
@@ -40,27 +17,23 @@ require('includes/header.php');
 	<section class="spotlight">
 		<ul>
 			<li>
-				<h3>Conference & Workshops</h3>
-				<p class="date-location">Salt Lake City, 10-13 November 2020</p>
+				<h3>Case Study Conference</h3>
+				<p class="date-location">Salt Lake City, 27-29 May 2020</p>
 				<div href="https://www.youtube.com/watch?v=8f5QpAa1nh8" class="thumnail video-thumbnail recap-video">
 					<img src="images/conf-scene001.jpg" alt="" style="width: 413px;">
 				</div>
-				<p class="description">A 4 day, in-depth series of from-the-trenches case studies and hands-on workshops by leading practitioners and trainers.</p>
+				<p class="description">A 3 day, in-depth series of from-the-trenches case studies by innovative user experience designers and product managers.</p>
 				<p><a href="/conference" class="button">Learn More</a></p>
 			</li>
-			
-			<!--
 			<li>
 				<h3>Workshop Series</h3>
-				<p class="date-location">Salt Lake City, 10-11 November 2020</p>
+				<p class="date-location">Salt Lake City, 11-13 November 2020</p>
 				<div href="https://www.youtube.com/watch?v=AU8QI7wPzoc" class="thumnail video-thumbnail recap-video">
 					<img src="images/conf-scene002.jpg" alt="" style="width: 413px;">
 				</div>
-				<p class="description">A 2 day, hands-on workshop series to learn to create amazing products and work like the teams you hear from at Front.</p>
+				<p class="description">A 3 day, hands-on workshop series to learn to create amazing products and work like the teams you hear from at Front.</p>
 				<p><a href="/workshops" class="button">Learn More</a></p>
 			</li>
-			-->
-			
 			<li>
 				<h3>On-demand workshops</h3>
 				<p class="date-location">Any time, anywhere</p>
@@ -128,8 +101,8 @@ require('includes/header.php');
 		</p>
 	</section>
 	<section class="attendee-stats">
-		<p>In it's 6th year, the Front UX & Product Management Case Study Conference and Workshop Series are sell-out events, with 
-			<strong>800+ annual attendees from 8 countries and 34 states</strong> 
+		<p>In it's 5th year, Front is a sell-out event, with a 
+			<strong>1,000 annual attendees from 5 countries and 31 states</strong> 
 			across the US. Join us at the Front to share, learn, and be inspired 
 			to create amazing products.</p>
 	</section>

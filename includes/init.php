@@ -12,10 +12,6 @@ switch($uri_parts[0]) {
 	case 'conference':
 		require($_SERVER['DOCUMENT_ROOT'] . '/conference/speakers.data.php');
 		require($_SERVER['DOCUMENT_ROOT'] . '/conference/talks.data.php');
-		
-		// temporary for 2020
-		require($_SERVER['DOCUMENT_ROOT'] . '/workshops/instructors.data.php');
-		require($_SERVER['DOCUMENT_ROOT'] . '/workshops/courses.data.php');
 		break;
 	case 'workshops':
 		require($_SERVER['DOCUMENT_ROOT'] . '/workshops/instructors.data.php');

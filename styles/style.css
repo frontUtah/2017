@@ -1281,8 +1281,7 @@ footer p {
 
 @media (min-width:1599px) {
 	.product-workshops .hero  {
-		/*padding-top: 400px */
-		padding-top: 300px
+		padding-top: 400px
 	}
 }
 
@@ -1375,10 +1374,6 @@ footer p {
 .article-page .hero {
 	background-image: url(../images/article-bg.png);
 	display: none
-}
-
-.article-page .hero.moreserious {
-	background-image: url(../images/article-bg-9.jpg);
 }
 
 @media (min-width:1000px) {
@@ -2833,12 +2828,7 @@ section.schedule-breakdown .timeline .instructor_details.leadership {
 	}
 }
 
-
-
-
-/* JOIN US */
-
-section.join-us, section.notice {
+section.join-us {
 	padding: 70px 30px
 }
 
@@ -2871,43 +2861,6 @@ section.join-us .button {
 		margin: 0 auto
 	}
 }
-
-
-
-
-/* NOTICE */
-
-section.notice {
-	padding: 50px 30px
-}
-
-section.notice h2 {
-	margin-bottom: 26px
-}
-
-section.notice p {
-	line-height: 32px
-}
-
-@media (min-width:1000px) {
-	section.notice {
-		padding: 50px 30px 60px
-	}
-
-	section.notice h2 {
-		font-size: 32px;
-		margin-bottom: 36px
-	}
-
-	section.notice p {
-		font-size: 18px;
-		line-height: 28px;
-		max-width: 954px;
-		margin: 0 auto
-	}
-}
-
-
 
 section.sports {
 	padding: 50px 31px
@@ -3590,10 +3543,9 @@ section.request-form form button {
 /* Email Newsletter */
 
 #mc_embed_signup form {
-	text-align: center !important; 
+	text-align: left !important; 
 	font-size: 14px; 
 }
-
 .mc-field-group {text-align: left;}
 
 @media (min-width:1000px) {

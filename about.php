@@ -14,7 +14,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		<section class="body short">
 			<h2>Inspiration and training</h2>
 			<p>Front is brought to you by Andrew Branch, Ben Peck, and Wade Shearer, experienced designers and product managers, 
-				and cofounders of Product Hive (originally called the Product Design Association), a volunteer-led community with over 7,000 members across 7 major US cities. 
+				and cofounders of Product Hive (originally called the Product Design Association), now boasting over 3,000 members. 
 				After years of hosting meetups, lunches, and workshops, we learned that there is a hunger for training and advanced 
 				topics. People want to hear from their peers. They want to see what other teams are working on and struggling with 
 				and how they have overcome those challenges. They’re looking for more than a motivational speaker or a party—they 

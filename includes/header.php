@@ -63,10 +63,10 @@ if(isset($meta['opengraph']) && !empty($meta['opengraph'])) {
 <?php
 
 $global_nav[1] = array('subsite' => 'landing', 'link' => '/', 'text' => 'Home', 'class' => 'home');
-$global_nav[2] = array('subsite' => 'conference', 'link' => '/conference', 'text' => 'Case Study Conference & Workshop Series', 'class' => 'case-study');
-//$global_nav[3] = array('subsite' => 'workshops', 'link' => '/workshops', 'text' => 'Workshop Series', 'class' => 'workshops');
-$global_nav[3] = array('subsite' => 'ondemand', 'link' => '/ondemand', 'text' => 'On-demand workshops', 'class' => 'ondemand');
-$global_nav[4] = array('subsite' => 'onsite', 'link' => '/onsite', 'text' => 'Onsite training', 'class' => 'onsite');
+$global_nav[2] = array('subsite' => 'conference', 'link' => '/conference', 'text' => 'Case Study Conference', 'class' => 'case-study');
+$global_nav[3] = array('subsite' => 'workshops', 'link' => '/workshops', 'text' => 'Workshop Series', 'class' => 'workshops');
+$global_nav[4] = array('subsite' => 'ondemand', 'link' => '/ondemand', 'text' => 'On-demand workshops', 'class' => 'ondemand');
+$global_nav[5] = array('subsite' => 'onsite', 'link' => '/onsite', 'text' => 'Onsite training', 'class' => 'onsite');
 //$global_nav[6] = array('subsite' => 'blog', 'link' => 'https://medium.com/front-conference', 'text' => 'Blog', 'class' => 'blog', 'target' => '_blank');
 
 
@@ -77,13 +77,9 @@ switch($uri_parts[0]) {
 	case 'conference':
 		$global_nav_order = array(2,3,4,5,1);
 		break;
-	
-	/*
 	case 'workshops';
 		$global_nav_order = array(3,2,4,5,1);
 		break;
-	*/
-	
 	case 'training';
 		$global_nav_order = array(4,2,3,5,1);
 		break;
@@ -132,10 +128,8 @@ foreach($sorted_global_nav as $key => $nav) {
 switch($uri_parts[0]) {
 	case 'conference':
 
-		$conference_nav[] = array('link' => 'schedule', 'text' => 'Schedule', 'class' => '');
+		$conference_nav[] = array('link' => 'talks', 'text' => 'Talks & schedule', 'class' => '');
 		$conference_nav[] = array('link' => 'speakers', 'text' => 'Speakers', 'class' => '');
-//		$conference_nav[] = array('link' => 'workshops', 'text' => 'Workshops', 'class' => '');
-//		$conference_nav[] = array('link' => 'instructors', 'text' => 'Instructors', 'class' => '');
 		$conference_nav[] = array('link' => 'venue', 'text' => 'Venue', 'class' => '');
 		$conference_nav[] = array('link' => 'faqs', 'text' => 'FAQs', 'class' => '');
 		$conference_nav[] = array('link' => 'whyattend', 'text' => 'Why attend', 'class' => '');
