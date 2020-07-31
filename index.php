@@ -65,36 +65,36 @@ require('includes/header.php');
 	<section class="personal-stories">
 		<h2>Personal stories from innovative teams</h2>
 		<ul class="story-cards">
-			<li>
-				<a href="https://www.youtube.com/watch?v=mV0lp5cJpBo"><div href="https://www.youtube.com/watch?v=mV0lp5cJpBo" class="card-image recap-video"><img src="images/frontconference18/cover_benjamin_evans.jpg" alt=""></div></a>
-				<h3>Benjamin Evans</h3>
-				<p>The challenge of designing for everyone</p>
-			</li>
-			<li>
-				<a href="https://www.youtube.com/watch?v=RkLQ2D1Jg9E"><div href="https://www.youtube.com/watch?v=RkLQ2D1Jg9E" class="card-image recap-video"><img src="images/frontconference18/cover_vicki_tan.jpg" alt=""></div></a>
-				<h3>Vicki Tan</h3>
-				<p>Designing with Intuition</p>
-			</li>
-			<li>
-				<a href="https://www.youtube.com/watch?v=QkOzNF492xY"><div href="https://www.youtube.com/watch?v=QkOzNF492xY" class="card-image recap-video"><img src="images/frontconference18/cover_cameron_moll.jpg" alt=""></div></a>
-				<h3>Cameron Moll</h3>
-				<p>When we align</p>
-			</li>
-			<li>
-				<a href="https://www.youtube.com/watch?v=xOlXgrL8m2M"><div href="https://www.youtube.com/watch?v=xOlXgrL8m2M" class="card-image recap-video"><img src="images/frontconference18/cover_rayna_wiles.jpg" alt=""></div></a>
-				<h3>Rayna Wiles</h3>
-				<p>Researching as a facilitator</p>
-			</li>
-			<li>
-				<a href="https://www.youtube.com/watch?v=gCLahVvDFPY"><div href="https://www.youtube.com/watch?v=gCLahVvDFPY" class="card-image recap-video"><img src="images/frontconference18/cover_chris_bhavika.jpg" alt=""></div></a>
-				<h3>Chris Mayfield & Bhavika Shah</h3>
-				<p>How to survive as a designer or PM in the era of the algorithm</p>
-			</li>
-			<li>
-				<a href="https://www.youtube.com/watch?v=SW-h5UcjLIE"><div href="https://www.youtube.com/watch?v=SW-h5UcjLIE" class="card-image recap-video"><img src="images/frontconference18/cover_amanda_richardson.jpg" alt=""></div></a>
-				<h3>Amanda Richardson</h3>
-				<p>Getting data right, A case study in how we did it wrong</p>
-			</li>
+				<li>
+					<div href="https://www.youtube.com/watch?v=opwJPuTsMrg" class="card-image recap-video"><img src="/images/frontconference19/thor_ernstsson.jpg" alt=""></div>
+					<h3>Thor Ernstsson</h3>
+					<p>The incumbents dilemma</p>
+				</li>
+				<li>
+					<div href="https://www.youtube.com/watch?v=UvzoWmhxDTg" class="card-image recap-video"><img src="/images/frontconference19/matt_strom.jpg" alt=""></div>
+					<h3>Matt Ström</h3>
+					<p>Designing Change</p>
+				</li>
+				<li>
+					<div href="https://www.youtube.com/watch?v=QIhqbB_Hn1k" class="card-image recap-video"><img src="/images/frontconference19/nate_walkingshaw.jpg" alt=""></div>
+					<h3>Nate Walkingshaw</h3>
+					<p>Organizational design: Going from features to experiences</p>
+				</li>
+				<li>
+					<div href="https://www.youtube.com/watch?v=lL_Mo6F2u44" class="card-image recap-video"><img src="/images/frontconference19/maggie_crowley.jpg" alt=""></div>
+					<h3>Maggie Crowley</h3>
+					<p>Your product is only as good as your teamwork</p>
+				</li>
+				<li>
+					<div href="https://www.youtube.com/watch?v=uOM8cf0RqNA" class="card-image recap-video"><img src="/images/frontconference19/wade_shearer.jpg" alt=""></div>
+					<h3>Wade Shearer</h3>
+					<p>Letting go of process and accepting controlled chaos</p>
+				</li>
+				<li>
+					<div href="https://www.youtube.com/watch?v=o4YseYT95qM" class="card-image recap-video"><img src="/images/frontconference19/frank_yoo.jpg" alt=""></div>
+					<h3>Frank Yoo</h3>
+					<p>Gen 2</p>
+				</li>
 		</ul>
 		<p>
 			<a href="/conference/videos" class="button">Watch More</a>
