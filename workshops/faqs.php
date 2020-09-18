@@ -23,7 +23,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<h3>Registration information</h3>
 						<dl class="accordion">
 							<dt class="accordion-title question">What are the ticket pricing details?</dt>
-							<dd class="accordion-content answer">Front UX & Product Management Workshop Series "Full Workshop Series" passes are $1,349 (25% off) through 11 September 2020. Standard price Front UX & Product Management Workshop Series passes are $1,799. This includes all meals, courses, and activities.</dd>
+							<dd class="accordion-content answer">Front UX & Product Management Workshop Series "Full Workshop Series" passes are $1,349 (25% off) through 11 September 2021. Standard price Front UX & Product Management Workshop Series passes are $1,799. This includes all meals, courses, and activities.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Do you offer group pricing?</dt>
@@ -47,7 +47,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Where do I pick up my registration badge?</dt>
-							<dd class="accordion-content answer">You can pick-up your badge at the Front UX & Product Management registration desk, located in second floor lobby on Wednesday, 11 November 2020 between 5:00-6:00 PM or Thursday morning, 12 November 2018, between 7:30-8:30 AM.</dd>
+							<dd class="accordion-content answer">You can pick-up your badge at the Front UX & Product Management registration desk, located in second floor lobby on Wednesday, 11 November 2021 between 5:00-6:00 PM or Thursday morning, 12 November 2018, between 7:30-8:30 AM.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Is there an age requirement for the event?</dt>

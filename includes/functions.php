@@ -198,13 +198,13 @@ function get_time($day, $slot) {
 function get_workshop_day($day) {
 	switch($day) {
 		case 1:
-			return 'Wednesday, 11 November 2020';
+			return 'Wednesday, November 2021';
 			break;
 		case 2:
-			return 'Thursday, 12 November 2020';
+			return 'Thursday, November 2021';
 			break;
 		case 3:
-			return 'Friday, 13 November 2020';
+			return 'Friday, November 2021';
 			break;
 	}
 }
@@ -213,13 +213,13 @@ function get_workshop_day($day) {
 function get_conference_day($day) {
 	switch($day) {
 		case 1:
-			return 'Wednesday, 27 May 2020';
+			return 'Wednesday, 7 April 2021';
 			break;
 		case 2:
-			return 'Thursday, 28 May 2020';
+			return 'Thursday, 8 April 2021';
 			break;
 		case 3:
-			return 'Friday, 29 May 2020';
+			return 'Friday, 9 April 2021';
 			break;
 	}
 }
