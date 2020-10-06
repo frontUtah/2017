@@ -168,11 +168,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</div>
 				<div class="book-hotel">
 					<p>Act quickly to get the conference discount rate of <strong>$199/night</strong> (25% off).</p>
-					<p><a target="_blank" href="https://book.passkey.com/go/UTAHROOMS20" class="button">Book now</a></p>
+					<p><a target="_blank" href="https://www.marriott.com/events/start.mi?id=1601932878912&key=GRP" class="button">Book now</a></p>
 				</div>
 			</div>
 		</section>
-		
 
 		
 		<section class="contact-us">
