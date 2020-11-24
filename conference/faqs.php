@@ -67,10 +67,19 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<h3>Hotel and Transportation</h3>
 						<dl class="accordion">
 							<dt class="accordion-title question">How do I book lodging? Is there a discount and what is the deadline?</dt>
-							<dd class="accordion-content answer">We are in the process of negotiating a group rate at a hotel next to the venue. Rates and registration details will be posted as soon as they become available.</dd>
-							<!-- dd class="accordion-content answer">We have acquired a discounted nightly rate of $199/night + tax for a single king or queen bed, at the <a href="https://www.marriott.com/events/start.mi?id=1549586151032&key=GRP">Salt Lake City Marriott City Center</a>. The rate is available for stays between 5 June - 7 June 2019. The deadline for booking lodging at the discounted rate is 1 May 2019. We encourage you to register early as it the hotel will likely sell out before that date. Book your room online or by calling 888.236.2427 and asking for the “Front” group discount. The hotel is a block and a half (5 minute walk) from the theater.<br><br> In addition we have also secured a discount with <a href="https://goo.gl/maps/sxQUuXDmgq52">Salt Lake Plaza Hotel Temple Square</a> at a discounted nightly rate $130/night + tax for a single king or queen bed. Book your room by calling (801) 521-0130 and asking for the "Front" group discount. The Plaza Hotel is three blocks (8 minute walk) from the theater. A deposit is required to book. </dd -->
+							<dd class="accordion-content answer">We have acquired discounted nightly rates, for a single king or queen bed, of $159/night + 
+							tax at the <a href="https://www.marriott.com/events/start.mi?id=1582752880198&key=GRP">Salt 
+							Lake City Marriott City Center</a> and $139/night + tax at the 
+							<a href="https://www.marriott.com/events/start.mi?id=1601932878912&key=GRP">Salt Lake Marriott Downtown at City Creek</a>. 
+							The rates are available for stays between 7-9 April 2021. The deadline 
+							for booking lodging at the discounted rate is 17 March 2021. We 
+							encourage you to register early as it these hotels will likely 
+							sell out before that date. Book your room online or by calling 888.236.2427 
+							(Salt Lake City Marriott City Center) or 801.531.0800 (Salt Lake 
+							Marriott Downtown at City Creek) and asking for the “Front” group 
+							discount. Both hotels are a block and a half (5 minute walk) from 
+							the theater.
 						</dl>
-						<!--
 						<dl class="accordion">
 							<dt class="accordion-title question">Can I cancel my hotel reservation if I am unable to attend?</dt>
 							<dd class="accordion-content answer">A Deposit equal to two (2) night’s stay is required to hold each individual’s reservation, with final payment due thirty (30) days prior to arrival. Reservations made within thirty (30) days of arrival will be required to be paid in full at time of booking. Such deposit shall serve to confirm the reservation for the date(s) indicated. This deposit is refundable if notice of cancellation is received at least thirty (30) days prior to arrival and a cancellation number is obtained. All deposits shall be charged at the time the reservation is made. No refunds for late arrivals, early departures or down grades.</dd>
@@ -83,10 +92,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<dt class="accordion-title question">Is there parking at or near the host hotel?</dt>
 							<dd class="accordion-content answer">Yes, on-site parking for $4/hour or $17/day and valet parking for $22/day.</dd>
 						</dl>
-						-->
 						<dl class="accordion">
 							<dt class="accordion-title question">Are there other hotels recommended?</dt>
-							<dd class="accordion-content answer">We highly recommend the <a href="https://www.marriott.com/events/start.mi?id=1549586151032&key=GRP">Salt Lake City Marriott City Center</a> and the <a href="https://goo.gl/maps/sxQUuXDmgq52">Salt Lake Plaza Hotel Temple Square</a>, as we have arranged a discounted rate and because of the proximity to the venue. That said, the Salt Lake Marriott Downtown at City Creek, Hotel Monaco, Hilton Salt Lake City Center are also close to the venue and are also good options.</dd>
+							<dd class="accordion-content answer">We highly recommend the <a href="https://www.marriott.com/events/start.mi?id=1582752880198&key=GRP">Salt 
+							Lake City Marriott City Center</a> and the <a href="https://www.marriott.com/events/start.mi?id=1601932878912&key=GRP">Salt Lake Marriott Downtown at City Creek</a>, as we have arranged discounted rates and because of the proximity to the venue. That said, the Salt Lake Plaza Hotel Temple Square, Hotel Monaco, Hilton Salt Lake City Center are also close to the venue and are also good options.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Is there parking at or near the theater?</dt>
