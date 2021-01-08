@@ -18,7 +18,7 @@ require('includes/header.php');
 		<ul>
 			<li>
 				<h3>Case Study Conference</h3>
-				<p class="date-location">Salt Lake City, 7-9 April 2021</p>
+				<p class="date-location">Salt Lake City, TBD</p>
 				<div href="https://www.youtube.com/watch?v=8f5QpAa1nh8" class="thumnail video-thumbnail recap-video">
 					<img src="images/conf-scene001.jpg" alt="" style="width: 413px;">
 				</div>
@@ -27,7 +27,7 @@ require('includes/header.php');
 			</li>
 			<li>
 				<h3>Workshop Series</h3>
-				<p class="date-location">Salt Lake City, November 2021</p>
+				<p class="date-location">Salt Lake City, TBD</p>
 				<div href="https://www.youtube.com/watch?v=AU8QI7wPzoc" class="thumnail video-thumbnail recap-video">
 					<img src="images/conf-scene002.jpg" alt="" style="width: 413px;">
 				</div>

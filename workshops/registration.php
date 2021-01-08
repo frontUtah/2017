@@ -31,11 +31,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<dt><div></div></dt>
 					<dd class="early">
 						Early bird pricing
-						<small>25% off through 11 September 2021</small>
+						<small>25% off through TBD</small>
 					</dd>
 					<dd class="standard">
 						Standard pricing
-						<small>Starting 12 September 2021</small>
+						<small>Starting TBD</small>
 					</dd>
 				</dl>
 				<dl class="full">
@@ -113,6 +113,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			
 			-->
 			
+			
+			
+			<!--
+			
 			<div id="eventbrite-widget-container-115533081557"></div>
 			
 			<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
@@ -134,6 +138,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			    });
 			</script>
 
+			-->
 			
 			
 			<!-- SOLD OUT 

@@ -28,7 +28,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li>1000+ product designers and managers</li>
 				</ul>
 			</p>
-			<p class="date-location">7-9 April 2021 • Salt Lake City, Utah</p>
+			<p class="date-location">TBD • Salt Lake City, Utah</p>
 			<a href="http://www.pluralsight.com"><img id="broughtoyouby" src="/images/frontworkshops18/premeir-sponsor.png" /></a>
 			<p><a href="/conference/registration" class="button">Register</a></p>
 		</section>

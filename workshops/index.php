@@ -28,7 +28,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li>225+ product designers and managers</li>
 				</ul>
 			</p>
-			<p class="date-location">November 2021 • Salt Lake City, Utah</p>
+			<p class="date-location">TBD • Salt Lake City, Utah</p>
 			<!-- <a href="http://www.pendo.io"><img id="broughtoyouby" src="/images/frontpc18/broughttoyouby_pendo.png" /></a> -->
 			<p><a href="/workshops/registration" class="button">Register</a></p>
 		</section>

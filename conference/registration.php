@@ -39,11 +39,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<dt><div></div></dt>
 					<dd class="early">
 						Early bird pricing
-						<small>30% off through 12 February 2021</small>
+						<small>30% off through TBD</small>
 					</dd>
 					<dd class="standard">
 						Standard pricing
-						<small>Starting 13 February 2021</small>
+						<small>Starting TBD</small>
 					</dd>
 				</dl>
 				<dl class="full">
@@ -102,6 +102,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			</div>
 			-->
 			
+			
+			
+			
+			<!--
+			
 			<div id="eventbrite-widget-container-64259032496"></div>
 			
 			<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
@@ -122,6 +127,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
 			    });
 			</script>
+			
+			-->
 		</section>
 
 		
