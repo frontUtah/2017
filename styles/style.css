@@ -2862,6 +2862,41 @@ section.join-us .button {
 	}
 }
 
+
+/* NOTICE */
+
+ section.notice {
+ 	padding: 50px 30px
+ }
+
+ section.notice h2 {
+ 	margin-bottom: 26px
+ }
+
+ section.notice p {
+ 	line-height: 32px
+ }
+
+ @media (min-width:1000px) {
+ 	section.notice {
+ 		padding: 50px 30px 60px
+ 	}
+
+ 	section.notice h2 {
+ 		font-size: 32px;
+ 		margin-bottom: 36px
+ 	}
+
+ 	section.notice p {
+ 		font-size: 18px;
+ 		line-height: 28px;
+ 		max-width: 954px;
+ 		margin: 0 auto
+ 	}
+ }
+
+
+
 section.sports {
 	padding: 50px 31px
 }
