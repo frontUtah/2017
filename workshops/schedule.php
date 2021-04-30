@@ -96,9 +96,9 @@ function print_schedulerow($day, $slot) {
 				<ol class="timeline">
 					<li class="timeslot one-hour">
 						<dl>
-							<dt class="time">3:00 PM</dt>
+							<dt class="time">5:00 PM</dt>
 							<dd class="food">
-								<p>Arrivals and early registration</p>
+								<p>Early registration</p>
 							</dd>
 						</dl>
 					</li>
@@ -128,7 +128,7 @@ function print_schedulerow($day, $slot) {
 						<dl>
 							<dt class="time">7:00 AM</dt>
 							<dd class="food">
-								<p>Yoga</p>
+								<p>Sunrise walk</p>
 							</dd>
 						</dl>
 					</li>
