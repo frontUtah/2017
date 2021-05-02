@@ -2,7 +2,7 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Why attend - Front UX & Product Management Workshop Series, November 2021';
+$title = 'Why attend - Front UX & Product Management Workshop Series, 8-10 November 2021';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
@@ -29,7 +29,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</li>
 				<li>
 					<img src="/images/conf-scene006.jpg" alt="">
-					<h4>Two intense days of learning</h4>
+					<h4>Three days of learning and practice</h4>
 					<p>Our workshop series consists of five hands-on, intensive workshops where you’ll learn and practice methods and techniques crucial to building game-changing products.</p>
 				</li>
 				<li>

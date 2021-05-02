@@ -2,7 +2,7 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Registration - Front UX & Product Management Workshop Series, November 2021';
+$title = 'Registration - Front UX & Product Management Workshop Series, 8-10 November 2021';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
@@ -31,11 +31,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<dt><div></div></dt>
 					<dd class="early">
 						Early bird pricing
-						<small>25% off through TBD</small>
+						<small>25% off through 11 September 2021</small>
 					</dd>
 					<dd class="standard">
 						Standard pricing
-						<small>Starting TBD</small>
+						<small>Starting 12 September 2021</small>
 					</dd>
 				</dl>
 				<dl class="full">
@@ -56,17 +56,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				<dl>
 					<dt>
 						<div>
-							Group discount (6-7)
-							<small>15% off per ticket</small>
-						</div>
-					</dt>
-					<dd class="early">$1,147</dd>
-					<dd class="standard">$1,529</dd>
-				</dl>
-				<dl>
-					<dt>
-						<div>
-							Group discount (8+)
+							Group discount (6+)
 							<small>20% off per ticket</small>
 						</div>
 					</dt>
@@ -80,7 +70,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<div class="prices">
 				<dl class="full">
 					<dt><div>Full Workshop Series</div></dt>
-					<dd class="early">$1,199</dd>
+					<dd class="early">$1,799</dd>
 				</dl>
 				<dl>
 					<dt>
@@ -89,33 +79,22 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<small>10% off per ticket</small>
 						</div>
 					</dt>
-					<dd class="early">$1,080</dd>
+					<dd class="early">$1,619</dd>
 				</dl>
 				<dl>
 					<dt>
 						<div>
-							Group discount (6-7)
-							<small>15% off per ticket</small>
-						</div>
-					</dt>
-					<dd class="early">$1,020</dd>
-				</dl>
-				<dl>
-					<dt>
-						<div>
-							Group discount (8+)
+							Group discount (6+)
 							<small>20% off per ticket</small>
 						</div>
 					</dt>
-					<dd class="early">$960</dd>
+					<dd class="early">$1,439</dd>
 				</dl>
 			</div>
 			
 			-->
 			
 			
-			
-			<!--
 			
 			<div id="eventbrite-widget-container-115533081557"></div>
 			
@@ -137,8 +116,6 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
 			    });
 			</script>
-
-			-->
 			
 			
 			<!-- SOLD OUT 
@@ -154,16 +131,17 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		</section>
 
 		<section class="accomodations">
-			<h2>Hotel</h2>			
+			<h2>Hotel</h2>
 			
+			<p class="about-accomodations"><em>We are working to secure a discounted rate at a preferred hotel.</em></p>
+
+			<!--			
 			<p class="about-accomodations">We have acquired a discount of 
 				15% off the nightly rate, conveniently onsite at the venue. 
 				Book your room online or by calling 801.328.2000 and asking 
 				for the “Front Workshop Series” conference discount.</p>
 			<div class="hotel">
-				<div class="hotel-info">
-					
-						
+				<div class="hotel-info">					
 					
 					<h3>Hilton Salt Lake City Center</h3>
 					<p>255 South West Temple, Salt Lake City, Utah 84101<p>
@@ -187,6 +165,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<p><a target="_blank" href="https://www3.hilton.com/en/hotels/utah/hilton-salt-lake-city-center-SLCCCHH/index.html" class="button">Book Now</a></p>
 				</div>
 			</div>
+			
+			-->
 			
 		</section>
 		

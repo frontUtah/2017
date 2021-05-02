@@ -2,7 +2,7 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'FAQs - Front UX & Product Management Workshop Series, November 2021';
+$title = 'FAQs - Front UX & Product Management Workshop Series, 8-10 November 2021';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
@@ -27,27 +27,31 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Do you offer group pricing?</dt>
-							<dd class="accordion-content answer">We offer group discounts for teams. We want you to come learn and practice together. You will need to register all attendees at the same time to receive the discount. Teams of 3-5 will receive 10% off. Teams of 6-7 will receive 15% off. Teams of 8 or more will receive 20% off.</dd>
+							<dd class="accordion-content answer">We offer group discounts for teams. We want you to come learn and practice together. You will need to register all attendees at the same time to receive the discount. Teams of 3-5 will receive 10% off. Teams of 6+ will receive 20% off.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Who should attend Front?</dt>
 							<dd class="accordion-content answer">Front UX & Product Management Workshop Series is designed for product teams. While focused specifically on UX, product management, research, and leadership, anyone involved in product discovery, delivery, is encouraged to attend and will leave with a wealth of insights and skills. The courses cover the range between basic and advanced topics, providing valuable training to both students and seasoned professionals.</dd>
 						</dl>
 						<dl class="accordion">
-							<dt class="accordion-title question">What is the conference cancellation policy?</dt>
-							<dd class="accordion-content answer">All sales are final. Tickets may not be sold.</dd>
+							<dt class="accordion-title question">Can I change the name or other details on my tickets?</dt>
+							<dd class="accordion-content answer">Yes, but only the person who purchased the ticket can make these changes. Simply long into Eventbrite and <a href="https://www.eventbrite.com/support/articles/en_US/How_To/how-to-update-your-ticket-registration-information">follow these instructions</a>. You are free to change your ticket details up to 3 days before the event, including name, title, etc. Please make sure these details are correct as they will be what we show on your badge. If you can’t reach the person who purchased the ticket in order to get them to change the information, please contact us at tickets@frontutah.com and we will help you make the updates.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Can I transfer my conference pass to a colleague if I am unable to attend?</dt>
-							<dd class="accordion-content answer">Tickets may be transferred to someone else until two weeks before the event. Sponsorship, press, or complimentary passes may not be transferred.</dd>
+							<dd class="accordion-content answer">Yes, by changing your name and information to someone else, following the process described above. Tickets may not be sold.</dd>
+						</dl>
+						<dl class="accordion">
+							<dt class="accordion-title question">Can I get a refund?</dt>
+							<dd class="accordion-content answer">We offer a full refund up to one month before the conference. Simply log into Eventbrite and <a href="https://www.eventbrite.com/support/articles/en_US/How_To/can-i-get-a-refund#2">following these instructions</a>. As with changes, only the person who purchased the tickets can request a refund.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Do you offer discounts for students?</dt>
-							<dd class="accordion-content answer">Attendees are eligible for the student discount if they are enrolled full-time in a college or university undergraduate program and not working full-time.</dd>
+							<dd class="accordion-content answer">Attendees are eligible for the student discount of 50% off if they are enrolled full-time in a college or university undergraduate program and not working full-time.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Where do I pick up my registration badge?</dt>
-							<dd class="accordion-content answer">You can pick-up your badge at the Front UX & Product Management registration desk, located in second floor lobby on Wednesday, 11 November 2021 between 5:00-6:00 PM or Thursday morning, 12 November 2018, between 7:30-8:30 AM.</dd>
+							<dd class="accordion-content answer">You can pick-up your badge at the registration desk, located in first floor lobby on Wednesday, 8 November 2021 between 5:00-7:00 PM or Thursday morning, 9 November 2021, between 7:30-8:30 AM.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Is there an age requirement for the event?</dt>
@@ -58,20 +62,23 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<h3>Hotel and Transportation</h3>
 						<dl class="accordion">
 							<dt class="accordion-title question">How do I book lodging? Is there a discount and what is the deadline?</dt>
-							<dd class="accordion-content answer">We have acquired a discount of 15% off the nightly rate, conveniently onsite at the venue. Book your room online or by calling 801.328.2000 and asking for the “Front Workshop Series” conference discount. <a href="https://www3.hilton.com/en/hotels/utah/hilton-salt-lake-city-center-SLCCCHH/index.html">Book Now</a></dd>
+							<dd class="accordion-content answer"><em>We're working to secure a discount rate at a preferred hotel.</em></dd>
+							<!-- dd class="accordion-content answer">We have acquired a discount of 15% off the nightly rate, conveniently onsite at the venue. Book your room online or by calling 801.328.2000 and asking for the “Front Workshop Series” conference discount. <a href="https://www3.hilton.com/en/hotels/utah/hilton-salt-lake-city-center-SLCCCHH/index.html">Book Now</a></dd -->
 						</dl>
+						<!--
 						<dl class="accordion">
 							<dt class="accordion-title question">Are there other hotels recommended?</dt>
 							<dd class="accordion-content answer">We highly recommend Hilton Salt Lake City Center, as that is where the conference is being held. That said, the <a href="">AC Hotel Salt Lake City Downtown</a> is an excellent, new, modern option and <a href="https://www.marriott.com/hotels/travel/slccc-salt-lake-city-marriott-city-center/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2">Salt Lake City Marriott City Center</a> is large property with a lot of capacity. A <a href="https://www.marriott.com/hotels/travel/SLCTD-towneplace-suites-salt-lake-city-downtown/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2">TownPlace Suites</a> and <a href="https://docs.google.com/spreadsheets/d/1AAK-kk_AoM3Ut6aQQaX9nfcW_QuvsVkpjOycEVete3Y/edit#gid=0">Fairfield Inn & Suites</a> are a block away and are good affordable options. Salt Lake City also has many Airbnd and condominiums for rent that you can find by searching your favorite travel site for details and pricing.</dd>
 						</dl>
+						-->
 						<dl class="accordion">
-							<dt class="accordion-title question">What's the best way to get to the hotel and venue?</dt>
-							<dd class="accordion-content answer">The fastest option for getting to and from the conference is by car (Uber, Lyft, or rental). <a href="http://rideuta.com/Rider-Tools/Schedules-and-Maps">UTA TRAX</a>, Salt Lake City's light rail system, is also a great option. Trains run directly from <a href="https://goo.gl/maps/fTKJ8HHkudwxQkvM8">Salt Lake City International Airport and the hotel</a>, and depart every 15 minutes.</dd>
+							<dt class="accordion-title question">What's the best way to get to the venue?</dt>
+							<dd class="accordion-content answer">The fastest option for getting to and from the conference is by car (Uber, Lyft, or rental). <a href="http://rideuta.com/Rider-Tools/Schedules-and-Maps">UTA TRAX</a>, Salt Lake City's light rail system, is also a great option. Trains run directly from <a href="https://goo.gl/maps/VwhEf8XkBuDYNLMd6">Salt Lake City International Airport and the venue</a>, and depart every 15 minutes.</dd>
 						</dl>
 						
 						<dl class="accordion">
-							<dt class="accordion-title question">Is there parking at or near the host hotel?</dt>
-							<dd class="accordion-content answer">Yes, free parking will be provided to attendees at the hotel.</dd>
+							<dt class="accordion-title question">Is there parking at the venue?</dt>
+							<dd class="accordion-content answer">Yes, free parking will be provided to attendees in the parking lot immediately North of the venue.</dd>
 						</dl>
 					</li>
 
@@ -101,10 +108,6 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<dt class="accordion-title question">Are specialty dietary requirements accommodated with the meals at the event?</dt>
 							<dd class="accordion-content answer">Vegetarian options will be provided during each meal.</dd>
 						</dl>
-						<dl class="accordion">
-							<dt class="accordion-title question">What’s the best way to get to the conference from the Airport.</dt>
-							<dd class="accordion-content answer">The fastest option for getting to and from the conference is by car. <a href="http://rideuta.com/Rider-Tools/Schedules-and-Maps">UTA TRAX light rail system</a> runs between Salt Lake City International Airport, downtown, and the venue (West Jordan City Center Station), and departs every 15 minutes.</dd>
-						</dl>
 					</li>
 					<li class="faq-category">
 						<h3>Sponsors and volunteering</h3>
@@ -129,7 +132,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">What is the best way to get around Salt Lake City?</dt>
-							<dd class="accordion-content answer">The fastest option for getting around the valley is by car. <a href="http://rideuta.com/Rider-Tools/Schedules-and-Maps">UTA TRAX light rail system</a> runs between Salt Lake City International Airport, downtown, and the venue (West Jordan City Center Station), and departs every 15 minutes.</dd>
+							<dd class="accordion-content answer">Downtown, <a href="http://rideuta.com/Rider-Tools/Schedules-and-Maps">UTA TRAX</a>, Salt Lake City's light rail system, is your best option. It's free and frequent. Farther out, the fastest and most convenient option is travel by car (Uber, Lyft, or rental).
 						</dl>
 					</li>
 				</ul>

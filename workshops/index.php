@@ -2,7 +2,7 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Front UX & Product Management Workshop Series, November 2021';
+$title = 'Front UX & Product Management Workshop Series, 8-10 November 2021';
 
 $meta['twitter']['card'] = "Front is the product conference for UX designers and product managers. It's a practitioner’s conference. Attendees come for an education, real world, from-the-trenches case studies, and hands-on training from their peers. It's four days of learning and growth, providing answers to deep organizational questions and insights into how to validate and solve the right problems in the right way.";
 $meta['twitter']['site'] = '@front';
@@ -24,25 +24,31 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<h1>UX &amp; Product Management Workshop Series</h1>
 			<p>
 				<ul>
-					<li>3 days • 4 tracks • 16 courses</li>
-					<li>225+ product designers and managers</li>
+					<li>3 days • 5 tracks • 20 courses</li>
+					<li>250+ product designers and managers</li>
 				</ul>
 			</p>
-			<p class="date-location">TBD • Salt Lake City, Utah</p>
+			<p class="date-location">8-10 November 2021 • Salt Lake City, Utah</p>
 			<!-- <a href="http://www.pendo.io"><img id="broughtoyouby" src="/images/frontpc18/broughttoyouby_pendo.png" /></a> -->
 			<p><a href="/workshops/registration" class="button">Register</a></p>
 		</section>
 		<section class="training-courses">
-				<h2>2 intense days of learning and practice</h2>
-				<p>Join us in foothills of the majestic mountains of Utah for an intimate, one-of-a-kind 
-					UX and Product Management training experience. Select 4 half-day  
-					workshops, for 2 intense days of learning and practice. No passive education 
-					here. This isn’t for the faint of heart. We’ll be working together in small groups of six, where you’ll be expected 
-					to collaborate and engage.</p>
-				<p>Each workshop will be limited to 48 students and taught by internationally-recognized, 
-					industry-leading professional coaches and trainers, and some of tech’s most skilled practitioners. 
-					Breakfast and lunch are provided each day. And yeah, we certainly expect that 
-					you’ll stay an extra day—or two—for some time world famous hiking and mountain biking.</p>
+				<h2>3 days of focused learning and practice</h2>
+				<p>Join us in foothills of the majestic mountains of Utah 
+					for an intimate, one-of-a-kind UX and Product Management 
+					training experience. Select 4 half-day workshops, join 
+					moderated roundtable discussions, and participate in intimate 
+					networking dinners, for 3 focused days of learning and 
+					hands-on practice. No passive education here; this isn’t for 
+					the faint of heart.</p>
+				<p>Each workshop is limited to 48 students and taught by 
+					internationally-recognized, industry-leading professional 
+					coaches and trainers, and some of tech’s most skilled practitioners. 
+					We work together in small groups of six, where you’ll be 
+					expected to collaborate and engage. Breakfast and lunch 
+					are provided each day. And yeah, we certainly expect that 
+					you’ll stay an extra day—or two—for some world 
+					famous hiking and mountain biking.</p>
 		</section>
 		
 		<section class="instructor-preview">

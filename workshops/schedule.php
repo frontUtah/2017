@@ -8,7 +8,7 @@ exit();
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Schedule - Front UX & Product Management Workshop Series, November 2021';
+$title = 'Schedule - Front UX & Product Management Workshop Series, 8-10 November 2021';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
@@ -73,10 +73,11 @@ function print_schedulerow($day, $slot) {
 		<section class="schedule-breakdown">
 			<h2>Schedule</h2>
 						
-			<p class="about-schedule">There are four workshops per time-slot. Workshop are not assigned or pre-selected, 
+			<p class="about-schedule">There are 5 workshops per time-slot. Workshop are not assigned or pre-selected, 
 				allowing you to choose those that interest you most or adjust as your schedule requires. Workshop may fill 
 				up fast so we encourage attendees to arrive on time.</p>
-			
+
+			<!--
 			<div class="schedule-day">
 				<ol class="timeline">
 					<li class="">
@@ -90,6 +91,7 @@ function print_schedulerow($day, $slot) {
 					</li>
 				</ol>
 			</div>
+			-->
 			
 			<div class="schedule-day">
 				<h3><?php echo get_workshop_day(1); ?></h3>
@@ -106,7 +108,7 @@ function print_schedulerow($day, $slot) {
 						<dl>
 							<dt class="time">5:30 PM</dt>
 							<dd class="food">
-								<p>Round tables</p>
+								<p>Roundtable discussions</p>
 							</dd>
 						</dl>
 					</li>

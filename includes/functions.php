@@ -181,10 +181,6 @@ function get_workshopseries_timeslots($day) {
 	$slots[1] = array('time' => '8:30', 'meridian' => 'AM');
 	$slots[2] = array('time' => '1:30', 'meridian' => 'PM');
 	
-	if($day == 1) {
-		$slots[3] = array('time' => '3:45', 'meridian' => 'PM');
-	}
-	
 	return $slots;
 }
 
@@ -198,13 +194,13 @@ function get_time($day, $slot) {
 function get_workshop_day($day) {
 	switch($day) {
 		case 1:
-			return 'Wednesday, November 2021';
+			return 'Wednesday, 8 November 2021';
 			break;
 		case 2:
-			return 'Thursday, November 2021';
+			return 'Thursday, 9 November 2021';
 			break;
 		case 3:
-			return 'Friday, November 2021';
+			return 'Friday, 10 November 2021';
 			break;
 	}
 }

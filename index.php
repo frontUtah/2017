@@ -45,7 +45,7 @@ require('includes/header.php');
 			</li>
 			<li>
 				<h3>Workshop Series</h3>
-				<p class="date-location">TBD, Salt Lake City</p>
+				<p class="date-location">8-10 November 2021, Salt Lake City</p>
 				<div href="https://www.youtube.com/watch?v=AU8QI7wPzoc" class="thumnail video-thumbnail recap-video">
 					<img src="images/conf-scene002.jpg" alt="" style="width: 413px;">
 				</div>
