@@ -28,7 +28,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				Peterson Eccles Alumni House, located at the center of the 
 				University of Utah campus, features a gorgeous new ballroom, 
 				plus spacious conference and meeting rooms. From the foothills 
-				above Salt Lake City, visitors are treated With sweeping views of 
+				above Salt Lake City, visitors are treated with sweeping views of 
 				downtown, Salt Lake Valley, and the towering Wasatch Mountains to the East.</p>
 		</section>
 		<section class="photo-collage">
