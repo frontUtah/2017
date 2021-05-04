@@ -25,7 +25,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<p>
 				<ul>
 					<li>3 days • 16 talks with audience-led Q&A</li>
-					<li>1000+ product designers and managers</li>
+					<li>800+ product designers and managers</li>
 				</ul>
 			</p>
 			<p class="date-location">TBD • Salt Lake City, Utah</p>
@@ -34,8 +34,20 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		</section>
 		<section class="training-courses">
 			<h2>Build better products</h2>
-			<p>Join us this Spring, in Salt Lake City, for two full days of dedicated time away from your desk, learning better ways to work together with your team and be inspired to grow your career in UX or Product Management. Together with over 1,000 other professionals, you’ll learn from extremely talented people influencing the organizations they work for and changing the way our industry looks at digital products and the way people use them.</p>
-			<p>Creating amazing products requires more than brilliant ideas, meticulously crafted interactions, and cutting-edge technology—it requires a fanatical focus on users and a commitment to producing something that is both useful and desirable. It requires cross-functional teams that listen, iterate, and learn.</p>
+			<p>Join us this Spring, in Salt Lake City, for two full days of 
+				dedicated time away from your desk, learning better ways 
+				to work together with your team and be inspired to grow 
+				your career in UX or Product Management. Together with 
+				over 800 other professionals, you’ll learn from extremely 
+				talented people influencing the organizations they work 
+				for and changing the way our industry looks at digital 
+				products and the way people use them.</p>
+			<p>Creating amazing products requires more than brilliant 
+				ideas, meticulously crafted interactions, and cutting-edge 
+				technology—it requires a fanatical focus on users and a 
+				commitment to producing something that is both useful 
+				and desirable. It requires cross-functional teams that 
+				listen, iterate, and learn.</p>
 		</section>
 		
 		<section class="instructor-preview">
