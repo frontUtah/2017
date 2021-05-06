@@ -106,12 +106,15 @@ foreach($speakers as $instructor) {
 			<h2>Sponsors</h2>
 			<a href="http://www.pluralsight.com" target="_blank"><img id="premier" src="/images/sponsors/pluralsight.svg" /></a>
 			<ul class="second_tier">
-				<li class="second_tier_sponsor"><a href="https://www.pendo.io" target="_blank"><img src="/images/sponsors/pendo.svg" height="60px" /></a></li>
 				<li class="second_tier_sponsor"><a href="https://www.heap.io" target="_blank"><img src="/images/sponsors/heap.svg" height="60px" /></a></li>
+				<li class="second_tier_sponsor"><a href="https://www.grain.co" target="_blank"><img src="/images/sponsors/grain.svg" height="60px" /></a></li>
+				
+				<!--
+				<li class="second_tier_sponsor"><a href="https://www.pendo.io" target="_blank"><img src="/images/sponsors/pendo.svg" height="60px" /></a></li>
 				<li class="second_tier_sponsor"><a href="https://www.usertesting.com" target="_blank"><img src="/images/sponsors/usertesting.svg" height="60px" /></a></li>
 				<li class="second_tier_sponsor"><a href="https://progleasing.com" target="_blank"><img src="/images/sponsors/progressive.svg" height="60px" /></a></li>
 				<li class="second_tier_sponsor"><a href="https://uxpressia.com" target="_blank"><img src="/images/sponsors/uxpressia.svg" height="60px" /></a></li>
-				<li class="second_tier_sponsor"><a href="https://www.grain.co" target="_blank"><img src="/images/sponsors/grain.svg" height="60px" /></a></li>
+				-->
 			</ul>
 		</section>
 		
