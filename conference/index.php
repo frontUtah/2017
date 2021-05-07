@@ -50,41 +50,43 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				listen, iterate, and learn.</p>
 		</section>
 		
+		<!--
 		<section class="instructor-preview">
 			<h2>2020 speakers</h2>
 			<ul class="instructor-list">
 
-<?php
-
-// randomize list
-shuffle($speakers);
-
-// grab first six
-$speakers = array_slice($speakers, 0, 6);
-
-// spit them out
-foreach($speakers as $instructor) {
-	echo '<li class="instructor">
-				<div class="' . $instructor['discipline'] . '">
-					<a href="/conference/speaker/' . $instructor['slug'] . '">
-						<div class="instructor-photo">
-							<img src="/images/' . $instructor['photo'] . '" alt="">
-						</div>
-						<h4>' . $instructor['first'] . ' ' . $instructor['last'] . '</h4>
-						<p class="title">' . $instructor['title'] . '<br>' . $instructor['company'] . '</p>
-					</a>
-				</div>
-			</li>';
-
-}
-
-?>
+			<?php
+			
+			// randomize list
+			shuffle($speakers);
+			
+			// grab first six
+			$speakers = array_slice($speakers, 0, 6);
+			
+			// spit them out
+			foreach($speakers as $instructor) {
+				echo '<li class="instructor">
+							<div class="' . $instructor['discipline'] . '">
+								<a href="/conference/speaker/' . $instructor['slug'] . '">
+									<div class="instructor-photo">
+										<img src="/images/' . $instructor['photo'] . '" alt="">
+									</div>
+									<h4>' . $instructor['first'] . ' ' . $instructor['last'] . '</h4>
+									<p class="title">' . $instructor['title'] . '<br>' . $instructor['company'] . '</p>
+								</a>
+							</div>
+						</li>';
+			
+			}
+			
+			?>
 
 			</ul>
 			<p>
 				<a href="/conference/speakers" class="button">View All</a>
 			</p>
 		</section>
+		-->
 		
 <a name="highlights"></a>
 		
