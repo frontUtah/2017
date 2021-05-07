@@ -2,7 +2,7 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Talks - Front UX & Product Management Case Study Conference, 7-9 April 2021';
+$title = 'Talks - Front UX & Product Management Case Study Conference, 15-17 September 2021';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
@@ -58,7 +58,7 @@ function print_talk($day, $slot) {
 			echo '
 				<dd class="instructor"></dd>
 				<dd class="description">
-					<h4>TBD</h4>
+					<h4>Talk</h4>
 				</dd>';
 		}
 }
@@ -79,10 +79,10 @@ function print_talk($day, $slot) {
 				<ul class="days-courses">
 					<li class="course">
 						<dl>
-							<dt class="time">3:00<span class="am-pm">PM</span></dt>
+							<dt class="time">5:00<span class="am-pm">PM</span></dt>
 							<dd class="instructor"></dd>
 							<dd class="description">
-								<h4>Arrivals and early registration</h4>
+								<h4>Early registration</h4>
 							</dd>
 						</dl>
 					</li>
@@ -91,7 +91,7 @@ function print_talk($day, $slot) {
 							<dt class="time">5:30<span class="am-pm">PM</span></dt>
 							<dd class="instructor"></dd>
 							<dd class="description">
-								<h4>Round tables</h4>
+								<h4>Round table discussions</h4>
 							</dd>
 						</dl>
 					</li>
@@ -115,7 +115,7 @@ function print_talk($day, $slot) {
 							<dt class="time">7:00<span class="am-pm">AM</span></dt>
 							<dd class="instructor"></dd>
 							<dd class="description">
-								<h4>Yoga</h4>
+								<h4>Sunrise walk</h4>
 							</dd>
 						</dl>
 					</li>

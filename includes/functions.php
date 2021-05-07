@@ -95,9 +95,11 @@ function get_talks($speaker) {
 function get_talk($day, $slot) {
 	global $talks;
 	
-	foreach($talks as $talk) {
-		if($talk['day'] == $day && $talk['slot'] == $slot) {
-			return $talk;
+	if(is_array($talks) && count($talks) > 0) {
+		foreach($talks as $talk) {
+			if($talk['day'] == $day && $talk['slot'] == $slot) {
+				return $talk;
+			}
 		}
 	}
 }
@@ -209,13 +211,13 @@ function get_workshop_day($day) {
 function get_conference_day($day) {
 	switch($day) {
 		case 1:
-			return 'Wednesday, 7 April 2021';
+			return 'Wednesday, 15 September 2021';
 			break;
 		case 2:
-			return 'Thursday, 8 April 2021';
+			return 'Thursday, 16 September 2021';
 			break;
 		case 3:
-			return 'Friday, 9 April 2021';
+			return 'Friday, 17 September 2021';
 			break;
 	}
 }

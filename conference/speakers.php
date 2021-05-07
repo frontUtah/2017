@@ -2,7 +2,7 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Speakers - Front UX & Product Management Case Study Conference, 7-9 April 2021';
+$title = 'Speakers - Front UX & Product Management Case Study Conference, 15-17 September 2021';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 

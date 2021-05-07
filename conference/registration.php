@@ -2,8 +2,9 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Registration - Front UX & Product Management Case Study Conference, 7-9 April 2021';
+$title = 'Registration - Front UX & Product Management Case Study Conference, 15-17 September 2021';
 
+//$meta['twitter']['card'] = "Early bird passes are $500, that's 30% off if you purchase before April 1st. It gets even better if you bring your team. Tickets are only $450 each for groups of 10+, which is 35% off on the full price passes.";
 $meta['twitter']['card'] = "Early bird passes are $500, that's 30% off if you purchase before April 1st. It gets even better if you bring your team. Tickets are only $450 each for groups of 10+, which is 35% off on the full price passes.";
 $meta['twitter']['site'] = '@front';
 $meta['twitter']['title'] = $title;
@@ -25,7 +26,22 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		</section>
 		<section class="registration-about">
 			<h2>Registration</h2>
-			<p class="about-registration-about">Front UX & Product Management Case Study Conference returns in 2019 to the spacious and stunning Eccles Theater in downtown Salt Lake City. You don’t want to miss this. Take advantage of early bird pricing and our great discounts to bring your entire team. This will be the biggest, most engaging, and comprehensive conference yet. Join us for incredible insights, inspiration, and fun.</p>
+			<p class="about-registration-about">
+			
+			<!--	
+			Front UX & Product Management Case Study Conference returns in 2019 to the spacious and stunning Eccles Theater in downtown Salt Lake City. You don’t want to miss this. Take advantage of early bird pricing and our great discounts to bring your entire team. This will be the biggest, most engaging, and comprehensive conference yet. Join us for incredible insights, inspiration, and fun.
+			-->
+			
+			After being postponed due to COVID, the Front UX & Product Management Case 
+			Study Conference returns this September at the historic Capital Theater in 
+			downtown Salt Lake City. With a continued commitment to the safety of our 
+			attendees, speakers, sponsors, and staff, and following current and 
+			projected CDC guidelines and local government restrictions, we invite you 
+			out of your home office or bedroom and away from endless virtual meetings, 
+			to join top product and design teams from around the world, in-person, for 
+			3 days of the incredible insights, inspiration, and fun. 
+			
+			</p>
 		</section>
 		
 		<section class="pricing">
@@ -39,11 +55,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<dt><div></div></dt>
 					<dd class="early">
 						Early bird pricing
-						<small>30% off through TBD</small>
+						<small>30% off through 15 July 2021</small>
 					</dd>
 					<dd class="standard">
 						Standard pricing
-						<small>Starting TBD</small>
+						<small>Starting 16 July 2021</small>
 					</dd>
 				</dl>
 				<dl class="full">
@@ -105,8 +121,6 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			
 			
 			
-			<!--
-			
 			<div id="eventbrite-widget-container-64259032496"></div>
 			
 			<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
@@ -128,13 +142,15 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			    });
 			</script>
 			
-			-->
 		</section>
 
 		
 		<a id="hotels"></a><section class="accomodations">
 			<h2>Hotels</h2>
 
+			<p class="about-accomodations"><em>We are working to secure a discounted rate at a preferred hotel.</em></p>
+
+			<!--			
 			<p class="about-accomodations">We have acquired discounted nightly rate of $159-$199/night + tax for a single king bed or two queens, at the hotels below. We encourage you to register early as these rates are only available for a limit number of rooms. Book your room through the links below or by calling their front desk and asking for the “Front Conference” group discount. Both hotels are right around the corner from the theater.</p> 
 						
 			<div class="hotel">
@@ -178,6 +194,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<p><a target="_blank" href="https://www.marriott.com/events/start.mi?id=1601932878912&key=GRP" class="button">Book now</a></p>
 				</div>
 			</div>
+			
+			-->
 		</section>
 
 		

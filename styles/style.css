@@ -1099,7 +1099,11 @@ footer p {
 }
 
 .venue-conference .hero {
+	/* eccles */
 	background-image: url(../images/eccles_front_1.jpg);
+	
+	/* capital */
+	background-image: url(../images/venue_capitaltheater_01.jpg);
 }
 
 .venue-workshops .hero {

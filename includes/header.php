@@ -105,7 +105,7 @@ switch($uri_parts[0]) {
 	case 'conference':
 
 		$conference_nav[] = array('link' => 'talks', 'text' => 'Talks & schedule', 'class' => '');
-		$conference_nav[] = array('link' => 'speakers', 'text' => 'Speakers', 'class' => '');
+		//$conference_nav[] = array('link' => 'speakers', 'text' => 'Speakers', 'class' => '');
 		$conference_nav[] = array('link' => 'venue', 'text' => 'Venue', 'class' => '');
 		$conference_nav[] = array('link' => 'faqs', 'text' => 'FAQs', 'class' => '');
 		$conference_nav[] = array('link' => 'whyattend', 'text' => 'Why attend', 'class' => '');

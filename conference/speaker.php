@@ -5,7 +5,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 $speaker = get_speaker($uri_parts[2]);
 $talks = get_talks($speaker['slug']);
 
-$title = $speaker['first'] . ' ' . $speaker['last'] . ' - Front UX & Product Management Case Study Conference, 7-9 April 2021';
+$title = $speaker['first'] . ' ' . $speaker['last'] . ' - Front UX & Product Management Case Study Conference, 15-17 September 2021';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
@@ -15,7 +15,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<h1>Speakers</h1>
 		</section>
 		<section class="individual-instructor">
-			<h2 class="">2018 speakers</h2>
+			<h2 class="">Speakers</h2>
 			<div class="instructor-profile">
 				<div class="details">
 					<div class="instructor">

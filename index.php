@@ -9,24 +9,6 @@ require('includes/header.php');
 ?>
 
 <main class="home">
-	<section class="notice">
-		<h2>Case Study Conference postponed</h2>
- 		<p>The Front team is working hard to reschedule the conference. Our 
-	 		highest priority is ensuring that we can put on quality in-person 
-	 		Product Management and Product Design/UX conferences and workshops 
-	 		that are safe. In addition to monitoring developments with the 
-	 		pandemic, following developing CDC guidelines and local government 
-	 		restrictions, and working with our speakers and sponsors, we are 
-	 		reaching out to past attendees for feedback on what you and your 
-	 		team have been doing and when you’d be comfortable attending 
-	 		another in-person event. <strong>We hope to have more details to 
-	 		share about when the conference will be happening soon.</strong> 
-	 		If you have already purchased tickets, you don’t need to do anything. 
-			Your tickets will automatically be transitioned to the new schedule. 
-			<!--If you have not, we encourage you to register now to reserve your 
-			spot and take advantage of early bird pricing.--></p>
-	</section>
-		
 	<section class="hero">
 		<h1 class="logo">Front</h1>
 		<p>Inspiration and training for UX designers and product managers</p>
@@ -36,7 +18,7 @@ require('includes/header.php');
 		<ul>
 			<li>
 				<h3>Case Study Conference</h3>
-				<p class="date-location">TBD, Salt Lake City</p>
+				<p class="date-location">15-17 September 2021, Salt Lake City</p>
 				<div href="https://www.youtube.com/watch?v=8f5QpAa1nh8" class="thumnail video-thumbnail recap-video">
 					<img src="images/conf-scene001.jpg" alt="" style="width: 413px;">
 				</div>
