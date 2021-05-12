@@ -34,14 +34,14 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		</section>
 		<section class="training-courses">
 			<h2>Build better products</h2>
-			<p>Join us in beautiful Salt Lake City for two full days of 
+			<p>Join us in beautiful Salt Lake City, for two full days of 
 				dedicated time away from your desk, learning better ways 
-				to work together with your team and be inspired to grow 
-				your career in UX or Product Management. Together with 
-				over 800 other professionals, you’ll learn from extremely 
-				talented people influencing the organizations they work 
-				for and changing the way our industry looks at digital 
-				products and the way people use them.</p>
+				to work together with your team, and for inspiration and 
+				tools to grow your career in UX or Product Management. 
+				Together with over 800 other professionals, you’ll learn 
+				from extremely talented people influencing the organizations 
+				they work for and changing the way our industry looks at 
+				digital products and the way people use them.</p>
 			<p>Creating amazing products requires more than brilliant 
 				ideas, meticulously crafted interactions, and cutting-edge 
 				technology—it requires a fanatical focus on users and a 
