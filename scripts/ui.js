@@ -13,7 +13,7 @@ frontConf.ui = (function() {
 		$body.on('click', '.primary-nav .active', togglePrimaryMenu);
 		$body.on('click', '.section-nav .menu-toggle', toggleSectionMenu);
 		$body.on('click', '.accordion-title', toggleAccordion);
-		$body.on('click touchstart', '.schedule-breakdown .timeline dd.course', clickableScheduleBlock);
+		//$body.on('click touchstart', '.schedule-breakdown .timeline dd.course', clickableScheduleBlock);
 		$body.on('click touchstart', '.bookTrainingButton_buttton', toggleBookTrainingForm);
 		$body.on('submit', '.bookTrainingForm_form', submitBookTrainingForm);		
 
@@ -71,11 +71,9 @@ frontConf.ui = (function() {
 		};
 	}
 	
-	/*
 	var clickableScheduleBlock = function(event) {
 		window.location = $(this).children('a').attr('href');
 	}
-	*/
 	
 	var toggleBookTrainingForm = function(event) {		
 		// reset other incomplete forms
