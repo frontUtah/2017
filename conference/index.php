@@ -34,7 +34,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		</section>
 		<section class="training-courses">
 			<h2>Build better products</h2>
-			<p>Join us this Spring, in Salt Lake City, for two full days of 
+			<p>Join us in beautiful Salt Lake City for two full days of 
 				dedicated time away from your desk, learning better ways 
 				to work together with your team and be inspired to grow 
 				your career in UX or Product Management. Together with 
