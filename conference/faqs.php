@@ -104,12 +104,21 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						-->
 						
 						<dl class="accordion">
-							<dt class="accordion-title question">Is there parking at or near the theater?</dt>
-							<dd class="accordion-content answer">The <a href="https://goo.gl/maps/qZFroiLTLL6QKsdB9">170 South Main/ABM Parking</a> garage, next door to the East, is the preferred parking location for the Capital Theater, but there are several other parking options nearby. Secondarily, we recommend <a href="https://goo.gl/maps/KHrYazfnrYnhbmqp8">American Plaza Parking Garage</a> in the block South and the <a href="https://goo.gl/maps/4wP9kmGL6QUdFwb79">Regent Street Garage</a> in the block East.</dd>
+							<dt class="accordion-title question">What's the best way to get to the venue?</dt>
+							<dd class="accordion-content answer">Your best option for getting to and from the conference is 
+							the <a href="http://rideuta.com/Rider-Tools/Schedules-and-Maps">UTA TRAX light rail system</a>. 
+							The Green Line departs every 15 minutes from Salt Lake City International Airport and is 
+							a <a href="https://goo.gl/maps/oFhnBPyD4PChQPuY8">33 minute ride</a> to Salt Palace Convention Center (Temple Square Station). 
+							To get to the Salt Palace Convention Center from the airport by car, head Eastbound towards I-80; keep to the right on the ramp, 
+							following the signs to Temple Square (eastbound 269); continue straight until you reach 200 South; turn right.</dd>
 						</dl>
 						<dl class="accordion">
-							<dt class="accordion-title question">What's the best way to get to the hotel and venue?</dt>
-							<dd class="accordion-content answer">Your best option for getting to and from the conference is the <a href="http://rideuta.com/Rider-Tools/Schedules-and-Maps">UTA TRAX light rail system</a>. The Green Line departs every 15 minutes from Salt Lake City International Airport and is a <a href="https://goo.gl/maps/cc1dc6Y9dgzVE6kbA">38 minute ride</a> to Capital Theater (Gallivan Plaza Station, half a block away).</dd>
+							<dt class="accordion-title question">Is there parking at or near the convention center?</dt>
+							<dd class="accordion-content answer">The Salt Palace Convention Center offers <a href="https://www.visitsaltlake.com/salt-palace-convention-center/attend/parking-information/">two convenient 
+								underground garages</a> that are open 7 days a week. For the <a href="https://goo.gl/maps/oybtvaTtLWHEAobp6">South garage</a>, enter off of 200 South 
+								between West Temple and 200 West (600 stalls). For the <a href="https://goo.gl/maps/yGWv7Er7AgMVWUgR6">West garage</a>, enter off of 300 West 
+								between 100 South and South Temple (400 stalls). In addition to parking on-site at the Salt Palace, 
+								downtown Salt Lake City has over <a href="http://www.parkingslc.com/">30,000 parking spaces available</a>.</dd>
 						</dl>
 					</li>
 					

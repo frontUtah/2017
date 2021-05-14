@@ -10,25 +10,25 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 	<main class="secondary venue venue-conference">
 		<section class="hero">
 			<p class="olympic-logo">&nbsp;</p>
-			<h1>Capital Theater</h1>
+			<h1>Salt Palace Convention Center</h1>
 			<p class="location">Salt Lake City, Utah</p>
 		</section>
 		<section class="sports">
-			<h2>Highest standard acts and greatest stars of the stage</h2>
-			<p>The Capitol Theatre has been at the center of the Salt Lake arts and culture community since its opening in 1913 as the Orpheum Theatre. Originally a vaudeville house, the Orpheum offered “highest standard acts and greatest stars of the stage.” More than 100 years later, the venue continues to host exceptional events and performers. The Capitol is home to Resident companies Ballet West, Utah Opera and hosts the JazzSLC series.</p>
-			<p>There are countless memories contained within our walls. Many Utahns have their first performing arts experience at the Capitol Theatre as a participant or a spectator. For many families, the Holidays are not complete without attending The Nutcracker. Broadway stars including Robert Goulet, Carol Channing, Molly Ringwald, and Marissa Jaret Winkour have played on our stage. Some lucky Utahns even remember when the Capitol was a movie theater and a vaudeville stage!</p>
-			<p><strong>Capital Theater</strong><br />50 West 200 South<br />Salt Lake City, Utah 84101</a></p>
+			<h2>This Is The Place. This Is Salt Lake.</h2>
+			<p>The first Salt Palace in Utah was built in 1899 but was destroyed by fire in 1910. An indoor arena with the same name was completed in 1969 and was home to several professional sports teams while hosting concerts and other events. The arena was demolished, and a brand new convention center opened its doors in 1996. Major expansions in 2000 and 2005 increased the building’s size to nearly one million square feet. Adjoined to the facility are the Utah Museum of Contemporary Art and Abravanel Hall, home of the Utah Symphony.</p>
+			<p>Many of the convention center's most striking visual features were obtained through the creative use of hollow structural steel in exposed applications. The entrance towers, delicate snowflake chandeliers, and grand five-story main concourse make the Salt Palace part architectural showpiece, part modern art sculpture, and ready to be all business.</p>
+			<p><strong>Salt Palace Convention Center</strong><br />100 S. West Temple<br />Salt Lake City, Utah 84101</a></p>
 		</section>
 		<section class="photo-collage">
-			<img class="full" src="/images/venue_capitaltheater_02.jpg" alt="">
+			<img class="full" src="/images/venue_saltpalace_02.jpg" alt="">
 		</section>
 		<section class="sports">
 			<h2>In the heart of downtown Salt Lake City</h2>
 			<div class="webcam">
-			<p>The historic Capital Theater is in the heart of downtown Salt Lake City. With many comfortable hotels, award winning restaurants, and unique evening activities this location is perfect to experience the city the way that it was meant to be.</p>
+			<p>The Salt Palace Convention Center is in the heart of downtown Salt Lake City. With many comfortable hotels, award winning restaurants, and unique evening activities this location is perfect to experience the city the way that it was meant to be.</p>
 		</section>
 		<section class="photo-collage">
-			<img class="full" src="/images/venue_capitaltheater_03.jpg" alt="">
+			<img class="full" src="/images/venue_saltpalace_03.jpg" alt="">
 		</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
