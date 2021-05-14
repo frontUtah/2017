@@ -29,7 +29,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</ul>
 			</p>
 			<p class="date-location">29 Sep-1 Oct 2021 • Salt Lake City, Utah</p>
-			<a href="http://www.pluralsight.com"><img id="broughtoyouby" src="/images/frontworkshops18/premeir-sponsor.png" /></a>
+			<!--- <a href="http://www.pluralsight.com"><img id="broughtoyouby" src="/images/frontworkshops18/premeir-sponsor.png" /></a> -->
 			<p><a href="/conference/registration" class="button">Register</a></p>
 		</section>
 		<section class="training-courses">
@@ -106,7 +106,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 		<section class="training-courses sponsors">
 			<h2>Sponsors</h2>
-			<a href="http://www.pluralsight.com" target="_blank"><img id="premier" src="/images/sponsors/pluralsight.svg" /></a>
+			<!-- <a href="http://www.pluralsight.com" target="_blank"><img id="premier" src="/images/sponsors/pluralsight.svg" /></a> -->
 			<ul class="second_tier">
 				<li class="second_tier_sponsor"><a href="https://www.heap.io" target="_blank"><img src="/images/sponsors/heap.svg" height="60px" /></a></li>
 				<li class="second_tier_sponsor"><a href="https://www.grain.co" target="_blank"><img src="/images/sponsors/grain.svg" height="60px" /></a></li>
