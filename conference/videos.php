@@ -293,7 +293,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</li>
 				<li>
 					<div href="https://www.youtube.com/watch?v=Dz10n5BZBQY" class="card-image recap-video"><img src="/images/frontslc17/title_panel_a.jpg" alt=""></div>
-					<h3>Dedign debate at Front 2017</h3>
+					<h3>Design debate at Front 2017</h3>
 					<p><a href="https://www.youtube.com/watch?v=Dz10n5BZBQY" class="recap-video">Who even cares about design & designers?</a></p>
 				</li>
 			</ul>
