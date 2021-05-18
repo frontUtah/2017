@@ -19,6 +19,84 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/gabrielvaldivia/'
 );
 
+// Dave Rackham
+$speakers[] = array(
+	'slug' => 'daverackham',
+	'first' => 'Dave',
+	'last' => 'Rackham',
+	'title' => 'Head of Technology Leader Experiences',
+	'company' => 'Pluralsight',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/daverackham.jpg',
+	'bio' => "Dave stumbled into experience leadership as a result of his passions in psychology, learning and technology. In his current role at Pluralsight he leads cross-functional product experience teams (PM, UX, and engineering) that are focused on empowering technology leaders with confidence that their teams can create reliable, scalable, and secure software products.",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/daverackham/'
+);
+
+// Laura Luttmer
+$speakers[] = array(
+	'slug' => 'lauraluttmer',
+	'first' => 'Laura',
+	'last' => 'Luttmer',
+	'title' => 'Product Manager',
+	'company' => 'Lucid',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/lauraluttmer.jpg',
+	'bio' => "Laura Luttmer is a Product Manager at Lucid Software on the Visual Platform teams. There, she is focused on building an easy-to-use, extensible platform that helps customers and partners customize their Lucidchart experience and visualize their data in context.<br /><br />Before she began her career in Product, Laura was a mathematics graduate researcher, marketing analyst, and high school math teacher. When she’s not thinking about the future of data and diagram automation at Lucid, she can be found baking delicious yet ugly things, abandoning half-finished craft projects, and hiking with her dog.",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/laura-luttmer-2554893b/'
+);
+
+// Elaine Chao
+$speakers[] = array(
+	'slug' => 'elainechao',
+	'first' => 'Elaine',
+	'last' => 'Chao',
+	'title' => 'Product Manager',
+	'company' => 'Adobe',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/elainechao.jpg',
+	'bio' => "Elaine Chao is a Sr. Product Manager on Adobe XD in San Francisco, CA. In her 14-year tenure at Adobe, she’s worked as an product manager and engineer on a variety of products geared toward designers and web producers, including the Flash platform, Edge Animate, and Dreamweaver. Elaine is also a martial arts instructor, musician, writer, volunteerism advocate, and an Adobe Founders Award winner. You can find her online tweeting and blogging on Medium as @elainecchao.",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/elaine-chao-41a5531/'
+);
+
+// Chetana Deorah
+$speakers[] = array(
+	'slug' => 'chetanadeorah',
+	'first' => 'Chetana',
+	'last' => 'Deorah',
+	'title' => 'Design Director ',
+	'company' => 'Netflix',
+	'discipline' => 'ux',
+	'photo' => 'headshots/chetanadeorah.jpg',
+	'bio' => "Chetana Deorah is a product design leader and mentor who helps empower human-centered design to achieve high-impact business goals. Most recently, as Design Director at Netflix, she led product design for global acquisition & growth with a focus on emerging markets. <br /><br />Before that, she was at Yahoo, Scribd, Betfair, Pivotal Labs, and Pentagram. As an Indian-American, Chetana brings a rich diversity of ideas and influences fostering a culture of product innovation, inclusion, compassionate leadership, and effective communication.<br /><br />When not building digital experiences, she volunteers her time in design education with Interact Project and DesignLab. She is a certified Hatha yoga teacher and pursues projects on well-being with non-profit organizations Sri Aurobindo Society & Isha Foundation. <br /><br />Chetana's analog interests include dabbling in visual poetry, experiments with vegetarian cooking and travel.",
+	'twitter' => 'tanadeo',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/chetanadeorah/'
+);
+
+// Kaela Worthen
+$speakers[] = array(
+	'slug' => 'kaelaworthen',
+	'first' => 'Kaela',
+	'last' => 'Worthen',
+	'title' => 'Group Product Manager',
+	'company' => 'Podium',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/kaelaworthen.jpg',
+	'bio' => "Kaela Worthen has screwed up product management in just about every way possible—and learned a few things along the way. She's built startups from 0 lines of code to 100,000 users, worked at international juggernauts with 200 million users, and helped lead and scale tech companies in between in both the consumer-facing and SaaS industries. Before she found her true passion in product, she was a writer, editor, and marketer. Kaela is currently a group product manager at Podium, transforming the way business happens locally.",
+	'twitter' => 'kaelaworthen',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/kaelaworthen/'
+);
+
+
+/*
+
 // Vicki Tan
 $speakers[] = array(
 	'slug' => 'vickitan',
@@ -62,36 +140,6 @@ $speakers[] = array(
 	'twitter' => '',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/jayfichialos/'
-);
-
-// Chetana Deorah
-$speakers[] = array(
-	'slug' => 'chetanadeorah',
-	'first' => 'Chetana',
-	'last' => 'Deorah',
-	'title' => 'Design Director ',
-	'company' => 'Netflix',
-	'discipline' => 'ux',
-	'photo' => 'headshots/chetanadeorah.jpg',
-	'bio' => "Chetana Deorah is a product design leader and mentor who helps empower human-centered design to achieve high-impact business goals. Most recently, as Design Director at Netflix, she led product design for global acquisition & growth with a focus on emerging markets. <br /><br />Before that, she was at Yahoo, Scribd, Betfair, Pivotal Labs, and Pentagram. As an Indian-American, Chetana brings a rich diversity of ideas and influences fostering a culture of product innovation, inclusion, compassionate leadership, and effective communication.<br /><br />When not building digital experiences, she volunteers her time in design education with Interact Project and DesignLab. She is a certified Hatha yoga teacher and pursues projects on well-being with non-profit organizations Sri Aurobindo Society & Isha Foundation. <br /><br />Chetana's analog interests include dabbling in visual poetry, experiments with vegetarian cooking and travel.",
-	'twitter' => 'tanadeo',
-	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/chetanadeorah/'
-);
-
-// Kaela Worthen
-$speakers[] = array(
-	'slug' => 'kaelaworthen',
-	'first' => 'Kaela',
-	'last' => 'Worthen',
-	'title' => 'Group Product Manager',
-	'company' => 'Podium',
-	'discipline' => 'product-management',
-	'photo' => 'headshots/kaelaworthen.jpg',
-	'bio' => "Kaela Worthen has screwed up product management in just about every way possible—and learned a few things along the way. She's built startups from 0 lines of code to 100,000 users, worked at international juggernauts with 200 million users, and helped lead and scale tech companies in between in both the consumer-facing and SaaS industries. Before she found her true passion in product, she was a writer, editor, and marketer. Kaela is currently a group product manager at Podium, transforming the way business happens locally.",
-	'twitter' => 'kaelaworthen',
-	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/kaelaworthen/'
 );
 
 // Jim Semick
@@ -139,36 +187,6 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/david-merkoski-9009342/'
 );
 
-// Elaine Chao
-$speakers[] = array(
-	'slug' => 'elainechao',
-	'first' => 'Elaine',
-	'last' => 'Chao',
-	'title' => 'Product Manager',
-	'company' => 'Adobe',
-	'discipline' => 'product-management',
-	'photo' => 'headshots/elainechao.jpg',
-	'bio' => "Elaine Chao is a Sr. Product Manager on Adobe XD in San Francisco, CA. In her 14-year tenure at Adobe, she’s worked as an product manager and engineer on a variety of products geared toward designers and web producers, including the Flash platform, Edge Animate, and Dreamweaver. Elaine is also a martial arts instructor, musician, writer, volunteerism advocate, and an Adobe Founders Award winner. You can find her online tweeting and blogging on Medium as @elainecchao.",
-	'twitter' => '',
-	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/elaine-chao-41a5531/'
-);
-
-// Dave Rackham
-$speakers[] = array(
-	'slug' => 'daverackham',
-	'first' => 'Dave',
-	'last' => 'Rackham',
-	'title' => 'Head of Technology Leader Experiences',
-	'company' => 'Pluralsight',
-	'discipline' => 'product-management',
-	'photo' => 'headshots/daverackham.jpg',
-	'bio' => "Dave stumbled into experience leadership as a result of his passions in psychology, learning and technology. In his current role at Pluralsight he leads cross-functional product experience teams (PM, UX, and engineering) that are focused on empowering technology leaders with confidence that their teams can create reliable, scalable, and secure software products.",
-	'twitter' => '',
-	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/daverackham/'
-);
-
 // Tyler Hogge
 $speakers[] = array(
 	'slug' => 'tylerhogge',
@@ -198,6 +216,8 @@ $speakers[] = array(
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/helenkeighron/'
 );
+
+*/
 
 
 // TEMPLATE

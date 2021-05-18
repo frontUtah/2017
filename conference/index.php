@@ -50,9 +50,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				listen, iterate, and learn.</p>
 		</section>
 		
-		<!--
 		<section class="instructor-preview">
-			<h2>2020 speakers</h2>
+			<h2>2021 speakers</h2>
 			<ul class="instructor-list">
 
 			<?php
@@ -86,7 +85,6 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				<a href="/conference/speakers" class="button">View All</a>
 			</p>
 		</section>
-		-->
 		
 <a name="highlights"></a>
 		
