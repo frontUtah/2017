@@ -81,6 +81,8 @@ function get_speaker($slug) {
 // get talks by speaker
 function get_talks($speaker) {
 	global $talks;
+	
+	$these_talks = array();
 
 	foreach($talks as $talk) {
 		if($talk['speaker'] == $speaker || is_array($talk['speaker']) && in_array($speaker, $talk['speaker'])) {
