@@ -33,7 +33,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			-->
 			
 			After being postponed due to COVID, the Front UX & Product Management Case 
-			Study Conference returns this September at the historic Capital Theater in 
+			Study Conference returns this September at the spacious Salt Palace Convention Center in 
 			downtown Salt Lake City. With a continued commitment to the safety of our 
 			attendees, speakers, sponsors, and staff, and following current and 
 			projected CDC guidelines and local government restrictions, we invite you 
