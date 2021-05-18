@@ -58,7 +58,7 @@ function print_talk($day, $slot) {
 			echo '
 				<dd class="instructor"></dd>
 				<dd class="description">
-					<h4>Talk</h4>
+					<h4>Talk (TBA)</h4>
 				</dd>';
 		}
 }
