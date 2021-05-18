@@ -116,7 +116,7 @@ function print_schedulerow($day, $slot) {
 						<dl>
 							<dt class="time">7:00 PM</dt>
 							<dd class="food">
-								<p>Opening reception</p>
+								<p>Opening reception (light refreshments)</p>
 							</dd>
 						</dl>
 					</li>

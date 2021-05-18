@@ -100,7 +100,7 @@ function print_talk($day, $slot) {
 							<dt class="time">7:00<span class="am-pm">PM</span></dt>
 							<dd class="instructor"></dd>
 							<dd class="description">
-								<h4>Opening reception</h4>
+								<h4>Opening reception (light refreshments)</h4>
 							</dd>
 						</dl>
 					</li>
