@@ -125,6 +125,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li class="faq-category">
 						<h3>Additional conference information</h3>
 						<dl class="accordion">
+							<dt class="accordion-title question">What safety precautions will be implemented regarding the COVID pandemic?</dt>
+							<dd class="accordion-content answer">We will continue to closely follow the recommendations and guidelines of the CDC and Utah Health Department and implement the necessary protocols to ensure the safety and comfort of all attendees, speakers, sponsors, and staff. We have not yet ruled out the use of masks, social distancing, and temperature checks, but anticipate we will be in a place where fewer restrictions are required in September. We will not ask for proof of vaccination, but highly encourage all attendees to be fully vaccinated prior to the event. Updates will be provided as we get closer to the conference. </dd>
+						</dl>
+						<dl class="accordion">
 							<dt class="accordion-title question">Where do I find out who is speaking?</dt>
 							<dd class="accordion-content answer">Information about who is teaching courses and Front Salt Lake City can be found at <a href="/conference/speakers">www.frontutah.com/conference/speakers</a>. To find out when individual speakers will be speaking, visit the talks page at <a href="/conference/talks">www.frontutah.com/conference/talks</a>.</dd>
 						</dl>
