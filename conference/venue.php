@@ -10,7 +10,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 	<main class="secondary venue venue-conference">
 		<section class="hero">
 			<p class="olympic-logo">&nbsp;</p>
-			<h1>Salt Palace Convention Center</h1>
+			<h1>Calvin L. Rampton Salt Palace Convention Center</h1>
 			<p class="location">Salt Lake City, Utah</p>
 		</section>
 		<section class="sports">
