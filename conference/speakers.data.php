@@ -50,6 +50,7 @@ $speakers[] = array(
 );
 
 // Elaine Chao
+/*
 $speakers[] = array(
 	'slug' => 'elainechao',
 	'first' => 'Elaine',
@@ -63,6 +64,7 @@ $speakers[] = array(
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/elaine-chao-41a5531/'
 );
+*/
 
 // Chetana Deorah
 $speakers[] = array(
