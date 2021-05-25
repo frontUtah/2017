@@ -2,7 +2,7 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Front UX & Product Management Case Study Conference, 15-17 September 2021';
+$title = 'Front UX & Product Management Case Study Conference, 29 Sep - 1 Oct 2021';
 
 $meta['twitter']['card'] = "Front is the product conference for UX designers and product managers. It's a practitioner’s conference. Attendees come for an education, real world, from-the-trenches case studies, and hands-on training from their peers. It's four days of learning and growth, providing answers to deep organizational questions and insights into how to validate and solve the right problems in the right way.";
 $meta['twitter']['site'] = '@front';

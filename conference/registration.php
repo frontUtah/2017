@@ -2,7 +2,7 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Registration - Front UX & Product Management Case Study Conference, 15-17 September 2021';
+$title = 'Registration - Front UX & Product Management Case Study Conference, 29 Sep - 1 Oct 2021';
 
 //$meta['twitter']['card'] = "Early bird passes are $500, that's 30% off if you purchase before April 1st. It gets even better if you bring your team. Tickets are only $450 each for groups of 10+, which is 35% off on the full price passes.";
 $meta['twitter']['card'] = "Early bird passes are $500, that's 30% off if you purchase before April 1st. It gets even better if you bring your team. Tickets are only $450 each for groups of 10+, which is 35% off on the full price passes.";
