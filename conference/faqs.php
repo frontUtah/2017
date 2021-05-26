@@ -67,42 +67,31 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<h3>Hotel and Transportation</h3>
 						<dl class="accordion">
 							<dt class="accordion-title question">How do I book lodging? Is there a discount and what is the deadline?</dt>
-							<dd class="accordion-content answer"><em>We're working to secure a discount rate at a preferred hotel.</em></dd>
+							<!-- dd class="accordion-content answer"><em>We're working to secure a discount rate at a preferred hotel.</em></dd -->
 							
-							<!-- dd class="accordion-content answer">We have acquired discounted nightly rates, for a single king or queen bed, of $159/night + 
-							tax at the <a href="https://www.marriott.com/events/start.mi?id=1582752880198&key=GRP">Salt 
-							Lake City Marriott City Center</a> and $139/night + tax at the 
-							<a href="https://www.marriott.com/events/start.mi?id=1601932878912&key=GRP">Salt Lake Marriott Downtown at City Creek</a>. 
-							The rates are available for stays between 7-9 April 2021. The deadline 
-							for booking lodging at the discounted rate is 17 March 2021. We 
+							<dd class="accordion-content answer">We have acquired discounted nightly rates, for a single king or queen bed, of $189/night + 
+							tax at the <a href="https://www.hilton.com/en/hotels/slccchh-hilton-salt-lake-city-center">Hilton Salt Lake City Center</a>. 
+							The rates are available for stays between 28 September and 4 October 2021. We 
 							encourage you to register early as it these hotels will likely 
-							sell out before that date. Book your room online or by calling 888.236.2427 
-							(Salt Lake City Marriott City Center) or 801.531.0800 (Salt Lake 
-							Marriott Downtown at City Creek) and asking for the “Front” group 
+							sell out before that date. Book your room <a href="https://book.passkey.com/e/50198749">online</a> or by calling 801.328.2000 and asking for the “Front” group 
 							discount. Both hotels are a block and a half (5 minute walk) from 
-							the theater.</dd -->
+							the theater.</dd>
 						</dl>
 						
-						<!-- 
 						<dl class="accordion">
 							<dt class="accordion-title question">Can I cancel my hotel reservation if I am unable to attend?</dt>
-							<dd class="accordion-content answer">A Deposit equal to two (2) night’s stay is required to hold each individual’s reservation, with final payment due thirty (30) days prior to arrival. Reservations made within thirty (30) days of arrival will be required to be paid in full at time of booking. Such deposit shall serve to confirm the reservation for the date(s) indicated. This deposit is refundable if notice of cancellation is received at least thirty (30) days prior to arrival and a cancellation number is obtained. All deposits shall be charged at the time the reservation is made. No refunds for late arrivals, early departures or down grades.</dd>
+							<dd class="accordion-content answer">Each room must be secured with a valid credit card, along with a first night's deposit, refundable uup to 72 hours in advance of arrival.
+							Rooms cancelled for any reason less than 72 hours in advance will incur an individual cancellation fee equal to one night's room rate plus applicable tax.</dd>
 						</dl>
 						<dl class="accordion">
-							<dt class="accordion-title question">What forms of payment are accepted at Salt Lake City Marriott City Center?</dt>
-							<dd class="accordion-content answer">American dollars, American Express, Mastercard and Visa are all accepted forms of payment.</dd>
-						</dl>
-						<dl class="accordion">
-							<dt class="accordion-title question">Is there parking at or near the host hotel?</dt>
-							<dd class="accordion-content answer">Yes, on-site parking for $4/hour or $17/day and valet parking for $22/day.</dd>
+							<dt class="accordion-title question">Is there parking at or near Hilton Salt Lake City Center?</dt>
+							<dd class="accordion-content answer">Yes, on-site, covered parking for $20/day and valet parking for $27/day.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Are there other hotels recommended?</dt>
-							<dd class="accordion-content answer">We highly recommend the <a href="https://www.marriott.com/events/start.mi?id=1582752880198&key=GRP">Salt 
-							Lake City Marriott City Center</a> and the <a href="https://www.marriott.com/events/start.mi?id=1601932878912&key=GRP">Salt Lake Marriott Downtown at City Creek</a>, as we have arranged discounted rates and because of the proximity to the venue. That said, the Salt Lake Plaza Hotel Temple Square, Hotel Monaco, Hilton Salt Lake City Center are also close to the venue and are also good options.</dd>
-						</dl>
-						-->
-						
+							<dd class="accordion-content answer">We highly recommend the <a href="https://www.hilton.com/en/hotels/slccchh-hilton-salt-lake-city-center">Hilton Salt Lake City Center</a>, as 
+							we have arranged discounted rates and because of the proximity to the venue. That said, the <a href="https://www.marriott.com/events/start.mi?id=1601932878912&key=GRP">Salt Lake Marriott Downtown at City Creek</a>, Salt Lake Plaza Hotel Temple Square, Hotel Monaco, Hilton Salt Lake City Center are also close to the venue and are also good options.
+						</dl>						
 						<dl class="accordion">
 							<dt class="accordion-title question">What's the best way to get to the venue?</dt>
 							<dd class="accordion-content answer">Your best option for getting to and from the conference is 
