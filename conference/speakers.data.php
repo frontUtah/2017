@@ -96,6 +96,21 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/kaelaworthen/'
 );
 
+// Garth Braithwaite
+$speakers[] = array(
+	'slug' => 'garthbraithwaite',
+	'first' => 'Garth',
+	'last' => 'Braithwaite',
+	'title' => 'Senior Computer Scientist',
+	'company' => 'Adobe',
+	'discipline' => 'ux',
+	'photo' => 'headshots/garthbraithwaite.jpg',
+	'bio' => "Front End Developer and User Experience Designer at Adobe working on developing and maintaining Adobe's internal design system.",
+	'twitter' => 'gabrielvaldivia',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/garthdb/'
+);
+
 
 /*
 
@@ -112,21 +127,6 @@ $speakers[] = array(
 	'twitter' => 'vickiheart',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/vickitan/'
-);
-
-// Garth Braithwaite
-$speakers[] = array(
-	'slug' => 'garthbraithwaite',
-	'first' => 'Garth',
-	'last' => 'Braithwaite',
-	'title' => 'Senior Computer Scientist',
-	'company' => 'Adobe',
-	'discipline' => 'ux',
-	'photo' => 'headshots/garthbraithwaite.jpg',
-	'bio' => "Front End Developer and User Experience Designer at Adobe working on developing and maintaining Adobe's internal design system.",
-	'twitter' => 'gabrielvaldivia',
-	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/garthdb/'
 );
 
 // Jay Fichialos

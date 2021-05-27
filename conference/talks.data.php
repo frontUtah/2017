@@ -62,6 +62,15 @@ $talks[] = array(
 	'speaker' => 'kaelaworthen'
 );
 
+// 
+$talks[] = array(
+	'title' => 'How to establish and maintain a design system',
+	'description' => "<p>As teams and products grow it can become complicated to maintain consistency across all properties, additionally, there is often a duplication of initial work for each product starting from scratch. By establishing and maintaining a company-wide design language and design system implementation, teams are better equipped to ensure consistency, reduce duplication of work, and improve overall design and code quality.</p>",
+	'day' => 1,
+	'slot' => 4,
+	'speaker' => 'garthbraithwaite'
+);
+
 
 
 // TEMPLATE
