@@ -62,15 +62,30 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<h3>Hotel and Transportation</h3>
 						<dl class="accordion">
 							<dt class="accordion-title question">How do I book lodging? Is there a discount and what is the deadline?</dt>
-							<dd class="accordion-content answer"><em>We're working to secure a discount rate at a preferred hotel.</em></dd>
-							<!-- dd class="accordion-content answer">We have acquired a discount of 15% off the nightly rate, conveniently onsite at the venue. Book your room online or by calling 801.328.2000 and asking for the “Front Workshop Series” conference discount. <a href="https://www3.hilton.com/en/hotels/utah/hilton-salt-lake-city-center-SLCCCHH/index.html">Book Now</a></dd -->
+							<!-- dd class="accordion-content answer"><em>We're working to secure a discount rate at a preferred hotel.</em></dd -->
+							
+							<dd class="accordion-content answer">We have acquired discounted nightly rates, for a single king bed, of $145/night + 
+							tax at the <a href="hhttps://www.marriott.com/hotels/travel/slcup-salt-lake-city-marriott-university-park/">Salt Lake City Marriott University Park</a>. 
+							The discount rate is available for stays between 7-11 November 2021 and must be booked before Monday, 18 October 2021. We 
+							encourage you to book early as it the hotel will likely 
+							sell out before that date. Book your room <a href="https://www.marriott.com/events/start.mi?id=1622152952153&key=GRP">online</a> or by calling 800.228.9290 and asking for the “Front conference” group 
+							discount. The hotel is half a block South of the conference center.</dd>
 						</dl>
-						<!--
+						
 						<dl class="accordion">
-							<dt class="accordion-title question">Are there other hotels recommended?</dt>
-							<dd class="accordion-content answer">We highly recommend Hilton Salt Lake City Center, as that is where the conference is being held. That said, the <a href="">AC Hotel Salt Lake City Downtown</a> is an excellent, new, modern option and <a href="https://www.marriott.com/hotels/travel/slccc-salt-lake-city-marriott-city-center/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2">Salt Lake City Marriott City Center</a> is large property with a lot of capacity. A <a href="https://www.marriott.com/hotels/travel/SLCTD-towneplace-suites-salt-lake-city-downtown/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2">TownPlace Suites</a> and <a href="https://docs.google.com/spreadsheets/d/1AAK-kk_AoM3Ut6aQQaX9nfcW_QuvsVkpjOycEVete3Y/edit#gid=0">Fairfield Inn & Suites</a> are a block away and are good affordable options. Salt Lake City also has many Airbnd and condominiums for rent that you can find by searching your favorite travel site for details and pricing.</dd>
+							<dt class="accordion-title question">Can I cancel my hotel reservation if I am unable to attend?</dt>
+							<dd class="accordion-content answer">Each room must be secured with a valid credit card, along with a first night's deposit, refundable up to 24 hours in advance of arrival.
+							Rooms cancelled for any reason less than 24 hours in advance will incur an individual cancellation fee equal to one night's room rate plus applicable tax.</dd>
 						</dl>
-						-->
+						<dl class="accordion">
+							<dt class="accordion-title question">Is there parking at or near Salt Lake City Marriott University Park?</dt>
+							<dd class="accordion-content answer">Yes, there is ample on-site free parking.</dd>
+						</dl>
+						<dl class="accordion">
+							<dt class="accordion-title question">Are there other hotels you recommend?</dt>
+							<dd class="accordion-content answer">We highly recommend the <a href="https://www.hilton.com/en/hotels/slccchh-hilton-salt-lake-city-center">Hilton Salt Lake City Center</a>, as 
+							we have arranged the discounted rate and because of the proximity to the venue. That said, the <a href="https://www.universityguesthouse.com/">University Guest House Hotel & Conference Center</a> is also close and has reasonable rates. If you'd prefer to stay downtown, we recommend the Salt Lake Marriott Downtown at City Creek, Salt Lake City Marriott City Center, and Hilton Salt Lake City Center.
+						</dl>	
 						<dl class="accordion">
 							<dt class="accordion-title question">What's the best way to get to the venue?</dt>
 							<dd class="accordion-content answer">The fastest option for getting to and from the conference is by car (Uber, Lyft, or rental). <a href="http://rideuta.com/Rider-Tools/Schedules-and-Maps">UTA TRAX</a>, Salt Lake City's light rail system, is also a great option. Trains run directly from <a href="https://goo.gl/maps/VwhEf8XkBuDYNLMd6">Salt Lake City International Airport and the venue</a>, and depart every 15 minutes.</dd>

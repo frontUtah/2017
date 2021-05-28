@@ -133,40 +133,34 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		<section class="accomodations">
 			<h2>Hotel</h2>
 			
-			<p class="about-accomodations"><em>We are working to secure a discounted rate at a preferred hotel.</em></p>
+			<!-- p class="about-accomodations"><em>We are working to secure a discounted rate at a preferred hotel.</em></p -->
 
-			<!--			
-			<p class="about-accomodations">We have acquired a discount of 
-				15% off the nightly rate, conveniently onsite at the venue. 
-				Book your room online or by calling 801.328.2000 and asking 
-				for the “Front Workshop Series” conference discount.</p>
+			<p class="about-accomodations">We have acquired discounted nightly rate of $145/night + tax (30% off)
+				for a single king bed at the Salt Lake City Marriott University Park. We encourage you to register 
+				early as these rates are only available for a limit number of rooms. Book your room 
+				through the button below or by calling their front desk and asking for the “Front 
+				Conference” group discount.</p>
+				
 			<div class="hotel">
 				<div class="hotel-info">					
 					
-					<h3>Hilton Salt Lake City Center</h3>
-					<p>255 South West Temple, Salt Lake City, Utah 84101<p>
-					<p>Reservations: 801.328.2000</p>
+					<h3>Salt Lake City Marriott University Park</h3>
+					<p>480 Wakara Way Salt Lake City, Utah 84108<p>
+					<p>Reservations: 800.228.9290</p>
 					<ul>
-						<li>Centrally located to downtown</li>
-						<li>Surrounded by dining & shopping</li>
+						<li>7 minutes from venue by car</li>
+						<li>Free high-speed internet</li>
 						<li>Fitness center</li>
-						<li>Indoor pool and whirlpool</li>
-						<li>Spencer's for Steaks and Chops</li>
-						<li>Pet friendly with nearby dog park</li>
-						<li>Avis Rental Cars in lobby</li>
-						<li>Large suites and connecting rooms</li>
-						<li>2 blocks from City Creek Mall</li>
-						<li>2 blocks from Temple Square</li>
-						<li>15-minute walk to hiking trails</li>
+						<li>Smoke-free hotel</li>
+						<li>Complimentary on-site parking</li>
+						<li>1 minute walk to hiking trails</li>
 					</ul>
 				</div>
 				<div class="book-hotel">
-					<p>Act quickly to get the conference discount rate of <strong>15% off</strong>. Availability is not guaranteed.</p>
-					<p><a target="_blank" href="https://www3.hilton.com/en/hotels/utah/hilton-salt-lake-city-center-SLCCCHH/index.html" class="button">Book Now</a></p>
+					<p>Act quickly to get the conference discount rate of <strong>$145/night</strong> (30% off).</p>
+					<p><a target="_blank" href="https://www.marriott.com/events/start.mi?id=1622152952153&key=GRP" class="button">Book now</a></p>
 				</div>
 			</div>
-			
-			-->
 			
 		</section>
 		
