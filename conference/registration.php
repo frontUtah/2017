@@ -150,11 +150,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 			<!-- p class="about-accomodations"><em>We are working to secure a discounted rate at a preferred hotel.</em></p -->
 
-			<p class="about-accomodations">We have acquired discounted nightly rate of $189/night + tax 
-				for a single king bed or two queens, at the hotels below. We encourage you to register 
+			<p class="about-accomodations">We have acquired discounted nightly rate of $189/night + tax (20% off)
+				for a single king at the Hilton Salt Lake City Center. We encourage you to register 
 				early as these rates are only available for a limit number of rooms. Book your room 
-				through the links below or by calling their front desk and asking for the “Front 
-				Conference” group discount. Both hotels essentially across the street from the conference.</p> 
+				through the button below or by calling their front desk and asking for the “Front 
+				Conference” group discount.</p> 
 			
 			<!--
 			<div class="hotel">

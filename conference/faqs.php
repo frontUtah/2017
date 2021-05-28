@@ -69,18 +69,17 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<dt class="accordion-title question">How do I book lodging? Is there a discount and what is the deadline?</dt>
 							<!-- dd class="accordion-content answer"><em>We're working to secure a discount rate at a preferred hotel.</em></dd -->
 							
-							<dd class="accordion-content answer">We have acquired discounted nightly rates, for a single king or queen bed, of $189/night + 
+							<dd class="accordion-content answer">We have acquired discounted nightly rates, for a single king bed, of $189/night + 
 							tax at the <a href="https://www.hilton.com/en/hotels/slccchh-hilton-salt-lake-city-center">Hilton Salt Lake City Center</a>. 
-							The rates are available for stays between 28 September and 4 October 2021. We 
-							encourage you to register early as it these hotels will likely 
-							sell out before that date. Book your room <a href="https://book.passkey.com/e/50198749">online</a> or by calling 801.328.2000 and asking for the “Front” group 
-							discount. Both hotels are a block and a half (5 minute walk) from 
-							the theater.</dd>
+							The discount rate is available for stays between 28 September and 4 October 2021. We 
+							encourage you to book early as it the hotel will likely 
+							sell out before that date. Book your room <a href="https://book.passkey.com/e/50198749">online</a> or by calling 801.328.2000 and asking for the “Front conference” group 
+							discount. The hotel is half a block South of the conference center.</dd>
 						</dl>
 						
 						<dl class="accordion">
 							<dt class="accordion-title question">Can I cancel my hotel reservation if I am unable to attend?</dt>
-							<dd class="accordion-content answer">Each room must be secured with a valid credit card, along with a first night's deposit, refundable uup to 72 hours in advance of arrival.
+							<dd class="accordion-content answer">Each room must be secured with a valid credit card, along with a first night's deposit, refundable up to 72 hours in advance of arrival.
 							Rooms cancelled for any reason less than 72 hours in advance will incur an individual cancellation fee equal to one night's room rate plus applicable tax.</dd>
 						</dl>
 						<dl class="accordion">
@@ -88,10 +87,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<dd class="accordion-content answer">Yes, on-site, covered parking for $20/day and valet parking for $27/day.</dd>
 						</dl>
 						<dl class="accordion">
-							<dt class="accordion-title question">Are there other hotels recommended?</dt>
+							<dt class="accordion-title question">Are there other hotels you recommend?</dt>
 							<dd class="accordion-content answer">We highly recommend the <a href="https://www.hilton.com/en/hotels/slccchh-hilton-salt-lake-city-center">Hilton Salt Lake City Center</a>, as 
-							we have arranged discounted rates and because of the proximity to the venue. That said, the <a href="https://www.marriott.com/events/start.mi?id=1601932878912&key=GRP">Salt Lake Marriott Downtown at City Creek</a>, Salt Lake Plaza Hotel Temple Square, Hotel Monaco, Hilton Salt Lake City Center are also close to the venue and are also good options.
-						</dl>						
+							we have arranged the discounted rate and because of the proximity to the venue. That said, the <a href="https://www.marriott.com/events/start.mi?id=1601932878912&key=GRP">Salt Lake Marriott Downtown at City Creek</a>, Salt Lake Plaza Hotel Temple Square, Hotel Monaco, Hilton Salt Lake City Center are also close to the venue and are also good options.
+						</dl>					
 						<dl class="accordion">
 							<dt class="accordion-title question">What's the best way to get to the venue?</dt>
 							<dd class="accordion-content answer">Your best option for getting to and from the conference is 
