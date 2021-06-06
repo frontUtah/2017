@@ -34,34 +34,34 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		</section>
 		<section class="training-courses">
 			<h2>Build better products</h2>
-			<p>Join us in beautiful Salt Lake City, for two full days of 
-				dedicated time away from your desk, learning better ways 
-				to work together with your team, and for inspiration and 
-				tools to grow your career in UX or Product Management. 
-				Together with over 800 other professionals, you’ll learn 
-				from extremely talented people influencing the organizations 
-				they work for and changing the way our industry looks at 
+			<p>Join us in beautiful Salt Lake City, for two full days of
+				dedicated time away from your desk, learning better ways
+				to work together with your team, and for inspiration and
+				tools to grow your career in UX or Product Management.
+				Together with over 800 other professionals, you’ll learn
+				from extremely talented people influencing the organizations
+				they work for and changing the way our industry looks at
 				digital products and the way people use them.</p>
-			<p>Creating amazing products requires more than brilliant 
-				ideas, meticulously crafted interactions, and cutting-edge 
-				technology—it requires a fanatical focus on users and a 
-				commitment to producing something that is both useful 
-				and desirable. It requires cross-functional teams that 
+			<p>Creating amazing products requires more than brilliant
+				ideas, meticulously crafted interactions, and cutting-edge
+				technology—it requires a fanatical focus on users and a
+				commitment to producing something that is both useful
+				and desirable. It requires cross-functional teams that
 				listen, iterate, and learn.</p>
 		</section>
-		
+
 		<section class="instructor-preview">
 			<h2>2021 speakers</h2>
 			<ul class="instructor-list">
 
 			<?php
-			
+
 			// randomize list
 			shuffle($speakers);
-			
+
 			// grab first six
 			$speakers = array_slice($speakers, 0, 6);
-			
+
 			// spit them out
 			foreach($speakers as $instructor) {
 				echo '<li class="instructor">
@@ -75,9 +75,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 								</a>
 							</div>
 						</li>';
-			
+
 			}
-			
+
 			?>
 
 			</ul>
@@ -85,22 +85,22 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				<a href="/conference/speakers" class="button">View All</a>
 			</p>
 		</section>
-		
+
 <a name="highlights"></a>
-		
+
 		<section class="highlight-video">
 			<h2>Previous conference highlights</h2>
 			<div href="https://www.youtube.com/watch?v=8f5QpAa1nh8" class="thumnail video-thumbnail recap-video">
 				<img class="full" src="/images/home-bg-7.jpg" alt="">
 			</div>
 		</section>
-		
+
 		<section class="training-courses">
 			<h2>Learn, connect, and share</h2>
 			<p>We believe product management and product design play a central role in the success of a company. We believe we need better, smarter people to lead product. We believe in human relationships and learning from each other through examples. We believe in kindness, generosity, transparency and a willingness to share. We've created a mix of topics, some practical, others aspirational/inspirational, some aimed at more junior folks, some at the mid-level, some at leadership.</p>
 			<p>Our goal is to provide an environment that allows industry professionals to gather once a year and share the experiences that have helped them build better products and progress individually.</p>
 		</section>
-		
+
 
 		<section class="training-courses sponsors">
 			<h2>Sponsors</h2>
@@ -109,7 +109,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				<li class="second_tier_sponsor"><a href="https://www.heap.io" target="_blank"><img src="/images/sponsors/heap.svg" height="60px" /></a></li>
 				<li class="second_tier_sponsor"><a href="https://www.grain.co" target="_blank"><img src="/images/sponsors/grain.svg" height="60px" /></a></li>
 				<li class="second_tier_sponsor"><a href="https://progleasing.com" target="_blank"><img src="/images/sponsors/progressive.svg" height="60px" /></a></li>
-				
+
 				<!--
 				<li class="second_tier_sponsor"><a href="https://www.pendo.io" target="_blank"><img src="/images/sponsors/pendo.svg" height="60px" /></a></li>
 				<li class="second_tier_sponsor"><a href="https://www.usertesting.com" target="_blank"><img src="/images/sponsors/usertesting.svg" height="60px" /></a></li>
@@ -117,7 +117,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				-->
 			</ul>
 		</section>
-		
+
 		<section class="photo-collage">
 			<img src="/images/collage-front-photos-mobile@2x.jpg" alt="" class="mobile">
 			<img src="/images/collage-front-photos-desktop@2x.jpg" alt="" class="desktop">
@@ -162,9 +162,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 	</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
-			<p>In it's 6th year, Front is a sell-out event, with  
-				<strong>800 annual attendees from 8 countries and 34 states</strong> 
-				across the US. Join us at the Front to share, learn, and be inspired 
+			<p>In it's 6th year, Front is a sell-out event, with
+				<strong>800 annual attendees from 8 countries and 34 states</strong>
+				across the US. Join us at the Front to share, learn, and be inspired
 				to create amazing products.</p>
 			<p><a href="/conference/registration" class="button">Register</a></p>
 		</section>
