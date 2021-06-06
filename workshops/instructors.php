@@ -1,8 +1,10 @@
 <?php
 
 // off-season
+/*
 header('location: /workshops', true, 307);
 exit();
+*/
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
@@ -47,9 +49,9 @@ foreach($instructors as $instructor) {
 		</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
-			<p>Reserve your seat now for the premier UX and Product Management training 
-				experience. Design your custom training program now. Whether you’re a 
-				beginner or seasoned professional, the Front Park City workshop series 
+			<p>Reserve your seat now for the premier UX and Product Management training
+				experience. Design your custom training program now. Whether you’re a
+				beginner or seasoned professional, the Front Park City workshop series
 				will take you and your team to the next level in product design and management.</p>
 			<p><a href="/workshops/registration" class="button">Register</a></p>
 		</section>

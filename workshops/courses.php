@@ -1,8 +1,10 @@
 <?php
 
 // off-season
+/*
 header('location: /workshops', true, 307);
 exit();
+*/
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
@@ -32,9 +34,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 						foreach($slots as $slot => $slot_details) {
 							$courses = get_courses($day, $slot);
-							
+
 							shuffle($courses);
-							
+
 							foreach($courses as $course) {
 								if(!empty($course)) {
 									echo '
@@ -42,27 +44,27 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 														<dl>
 															<dt class="time">' . $slot_details['time'] . ' <span class="am-pm">' . $slot_details['meridian'] . '</span></dt>
 															<dd class="instructor team">';
-								
+
 								// if only single instructor, put into array, so that it works to loop for all
 								if(!is_array($course['instructor'])) {
 									$course['instructor'] = array($course['instructor']);
 								}
-													
+
 								foreach($course['instructor'] as $this_instructor) {
 									$instructor = get_instructor($this_instructor);
-									
+
 									echo '
 																<div class="instructor_details ' . $instructor['discipline'] . '">
 																	<div class="instructor-photo">
 																		<a href="/workshops/instructor/' . $instructor['slug'] . '"><img src="/images/';
-																		
+
 										// ensure photo exists
 										if(file_exists($_SERVER['DOCUMENT_ROOT'] . '/images/' . $instructor['photo'])) {
 											echo $instructor['photo'];
 										} else {
 											echo 'instructor_missing.png';
 										}
-										
+
 										echo '" alt=""></a>
 																	</div>
 																	<div>
@@ -74,7 +76,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 																	</div>
 																</div>';
 								}
-								
+
 								echo '
 															</dd>
 															<dd class="description">
@@ -94,7 +96,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 														</dl>
 													</li>';
 								}
-								
+
 							}
 						}
 					}
