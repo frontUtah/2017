@@ -4,6 +4,21 @@
  * Use '</br></br>' to separate paragraphs
  */
 
+// Tyler Hogge
+$speakers[] = array(
+	'slug' => 'tylerhogge',
+	'first' => 'Tyler',
+	'last' => 'Hogge',
+	'title' => 'VP of Product ',
+	'company' => 'Divvy',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/tylerhogge.jpg',
+	'bio' => "As VP of Product and Strategy at Divvy, ​Tyler Hogge​ leads a growing team of world-class PMs, Designers, and Product Marketers on Divvy’s mission of becoming the financial nervous system of every business.<br /><br />Before joining Divvy, Tyler was a product leader at Wealthfront, where he built the world’s first holistic, free financial planning application, earning the highest rating in the financial category of the app store. Tyler also spent time at SaaStr and at Andreessen Horowitz, a Silicon Valley based VC fund.<br /><br />Tyler studied finance at Southern Utah University where he was a captain of the D1 baseball team. He earned his M.B.A. from Cornell University and is also a CFA Charterholder. <br /><br />When he’s not working, Tyler enjoys fly fishing, watching NBA basketball, and spending time with his wife and three kids in the mountains of Alpine, Utah.",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/thogge'
+);
+
 // Gabriel Valdivia
 $speakers[] = array(
 	'slug' => 'gabrielvaldivia',
@@ -189,21 +204,6 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/david-merkoski-9009342/'
 );
 
-// Tyler Hogge
-$speakers[] = array(
-	'slug' => 'tylerhogge',
-	'first' => 'Tyler',
-	'last' => 'Hogge',
-	'title' => 'VP of Product ',
-	'company' => 'Divvy',
-	'discipline' => 'product-management',
-	'photo' => 'headshots/tylerhogge.jpg',
-	'bio' => "As VP of Product and Strategy at Divvy, ​Tyler Hogge​ leads a growing team of world-class PMs, Designers, and Product Marketers on Divvy’s mission of becoming the financial nervous system of every business.<br /><br />Before joining Divvy, Tyler was a product leader at Wealthfront, where he built the world’s first holistic, free financial planning application, earning the highest rating in the financial category of the app store. Tyler also spent time at SaaStr and at Andreessen Horowitz, a Silicon Valley based VC fund.<br /><br />Tyler studied finance at Southern Utah University where he was a captain of the D1 baseball team. He earned his M.B.A. from Cornell University and is also a CFA Charterholder. <br /><br />When he’s not working, Tyler enjoys fly fishing, watching NBA basketball, and spending time with his wife and three kids in the mountains of Alpine, Utah.",
-	'twitter' => '',
-	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/thogge'
-);
-
 // Helen Keighron
 $speakers[] = array(
 	'slug' => 'helenkeighron',
@@ -223,8 +223,8 @@ $speakers[] = array(
 
 
 // TEMPLATE
-/* 
-// 
+/*
+//
 $speakers[] = array(
 	'slug' => '',
 	'first' => '',
