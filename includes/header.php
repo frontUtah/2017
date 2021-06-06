@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <?php
-	
+
 // twitter card meta data
 if(isset($meta['twitter']) && !empty($meta['twitter'])) {
 	foreach($meta['twitter'] as $key => $value) {
@@ -25,7 +25,7 @@ if(isset($meta['opengraph']) && !empty($meta['opengraph'])) {
 
 	<link rel="stylesheet" href="/styles/style.css">
 	<link rel="stylesheet" href="/styles/magnific-popup.css">
-	
+
 	<link rel="apple-touch-icon" href="/images/apple-touch-icon.png" type="image/png" />
 	<link rel="mask-icon" href="/images/mask-icon.svg" color="gray" />
 	<link rel="shortcut icon" href="/images/favicon.ico" />
@@ -132,8 +132,8 @@ switch($uri_parts[0]) {
 		break;
 	case 'workshops';
 
-		//$workshops_nav[] = array('link' => 'courses', 'text' => 'Courses', 'class' => '');
-		//$workshops_nav[] = array('link' => 'instructors', 'text' => 'Instructors', 'class' => '');
+		$workshops_nav[] = array('link' => 'courses', 'text' => 'Courses', 'class' => '');
+		$workshops_nav[] = array('link' => 'instructors', 'text' => 'Instructors', 'class' => '');
 		$workshops_nav[] = array('link' => 'venue', 'text' => 'Venue', 'class' => '');
 		$workshops_nav[] = array('link' => 'schedule', 'text' => 'Schedule', 'class' => '');
 		$workshops_nav[] = array('link' => 'faqs', 'text' => 'FAQs', 'class' => '');
@@ -182,24 +182,24 @@ switch($uri_parts[0]) {
 						<button class="menu-toggle"></button>
 					</div>';
 
-		if(isset($workshops_nav) && count($workshops_nav) > 0) {					
+		if(isset($workshops_nav) && count($workshops_nav) > 0) {
 			echo '
 					<ul>';
 
 			foreach($workshops_nav as $workshops_navitem) {
 				echo '<li><a href="/training/' . $workshops_navitem['link'] . '" class="' . $workshops_navitem['class'];
-	
+
 				if($uri_parts[1] == $workshops_navitem['link']) {
 					echo ' selected';
 				}
-	
+
 				echo '">' . $workshops_navitem['text'] . '</a></li>';
 			}
 
 			echo '
 					</ul>';
 		}
-		
+
 		echo '
 				</nav>
 			</header>';

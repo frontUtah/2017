@@ -64,22 +64,20 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/laura-luttmer-2554893b/'
 );
 
-// Elaine Chao
-/*
+// Jay Fichialos
 $speakers[] = array(
-	'slug' => 'elainechao',
-	'first' => 'Elaine',
-	'last' => 'Chao',
-	'title' => 'Product Manager',
-	'company' => 'Adobe',
-	'discipline' => 'product-management',
-	'photo' => 'headshots/elainechao.jpg',
-	'bio' => "Elaine Chao is a Sr. Product Manager on Adobe XD in San Francisco, CA. In her 14-year tenure at Adobe, she’s worked as an product manager and engineer on a variety of products geared toward designers and web producers, including the Flash platform, Edge Animate, and Dreamweaver. Elaine is also a martial arts instructor, musician, writer, volunteerism advocate, and an Adobe Founders Award winner. You can find her online tweeting and blogging on Medium as @elainecchao.",
+	'slug' => 'jayfichialos',
+	'first' => 'Jay',
+	'last' => 'Fichialos',
+	'title' => 'VP, Design',
+	'company' => 'Progressive Leasing',
+	'discipline' => 'research',
+	'photo' => 'headshots/jayfichialos.jpg',
+	'bio' => "Jay Fichialos leads the Asurion Design Group, a team tasked with defining the future of insurance and warranty services. He’s passionate about the psychology of Design and builds organizations that are known for using Design Thinking to innovate and inspire change. Prior to joining Asurion he helped build User Experience organizations at Alliance Health, Ancestry and Travelocity.",
 	'twitter' => '',
 	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/elaine-chao-41a5531/'
+	'linkedin' => 'https://www.linkedin.com/in/jayfichialos/'
 );
-*/
 
 // Chetana Deorah
 $speakers[] = array(
@@ -142,21 +140,6 @@ $speakers[] = array(
 	'twitter' => 'vickiheart',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/vickitan/'
-);
-
-// Jay Fichialos
-$speakers[] = array(
-	'slug' => 'jayfichialos',
-	'first' => 'Jay',
-	'last' => 'Fichialos',
-	'title' => 'Sr. Director of Design',
-	'company' => 'Bluehost',
-	'discipline' => 'research',
-	'photo' => 'headshots/jayfichialos.jpg',
-	'bio' => "Jay Fichialos leads the Asurion Design Group, a team tasked with defining the future of insurance and warranty services. He’s passionate about the psychology of Design and builds organizations that are known for using Design Thinking to innovate and inspire change. Prior to joining Asurion he helped build User Experience organizations at Alliance Health, Ancestry and Travelocity.",
-	'twitter' => '',
-	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/jayfichialos/'
 );
 
 // Jim Semick
