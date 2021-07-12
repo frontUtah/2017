@@ -23,43 +23,43 @@ function print_schedulerow($day, $slot) {
 	$courses_row = get_courses($day, $slot);
 	
 	ksort($courses_row);
-	
-	echo '
-							<dd class="course">
-								<p class="title">Workshops</p>
-							</dd>';
-	
-	/*
-	foreach($courses_row as $course) {
-		echo '
-								<dd class="course">';
-
-		// if only single instructor, put into array, so that it works to loop for all
-		if(!is_array($course['instructor'])) {
-			$course['instructor'] = array($course['instructor']);
-		}
-							
-		foreach($course['instructor'] as $this_instructor) {
-			$instructor = get_instructor($this_instructor);
-																
-			if($instructor) {
-				echo '
-									<div class="instructor_details ' . $instructor['discipline'] . '">
-										<div class="instructor-photo">
-											<a href="/workshops/instructor/' . $instructor['slug'] . '"><img class="instructor-photo" src="/images/' . $instructor['photo'] . '" alt=""></a>
-										</div>
-										<p class="instructor-name">
-											<a href="/workshops/instructor/' . $instructor['slug'] . '">' . $instructor['first'] . ' ' . $instructor['last'] . '</a>
-										</p>
-									</div>';
-			}
-		}
 		
+	if(count($courses_row) > 0) {
+		foreach($courses_row as $course) {
+			echo '
+									<dd class="course">';
+
+			// if only single instructor, put into array, so that it works to loop for all
+			if(!is_array($course['instructor'])) {
+				$course['instructor'] = array($course['instructor']);
+			}
+								
+			foreach($course['instructor'] as $this_instructor) {
+				$instructor = get_instructor($this_instructor);
+																	
+				if($instructor) {
+					echo '
+										<div class="instructor_details ' . $instructor['discipline'] . '">
+											<div class="instructor-photo">
+												<a href="/workshops/instructor/' . $instructor['slug'] . '"><img class="instructor-photo" src="/images/' . $instructor['photo'] . '" alt=""></a>
+											</div>
+											<p class="instructor-name">
+												<a href="/workshops/instructor/' . $instructor['slug'] . '">' . $instructor['first'] . ' ' . $instructor['last'] . '</a>
+											</p>
+										</div>';
+				}
+			}
+			
+			echo '
+										<p class="title">' . $course['title'] . '</p>
+									</dd>';
+		}
+	} else {
 		echo '
-									<p class="title">' . $course['title'] . '</p>
+								<dd class="course">
+									<p class="title">Workshops</p>
 								</dd>';
 	}
-	*/
 	
 	echo '</dl>';
 }
