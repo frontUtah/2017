@@ -124,52 +124,19 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/garthdb/'
 );
 
-
-/*
-
-// Vicki Tan
+// Margaret	Lee
 $speakers[] = array(
-	'slug' => 'vickitan',
-	'first' => 'Vicki',
-	'last' => 'Tan',
-	'title' => 'Lead Product Designer',
-	'company' => 'Headspace',
+	'slug' => 'margaretlee',
+	'first' => 'Margaret',
+	'last' => 'Lee',
+	'title' => 'Director of UX',
+	'company' => 'Google',
 	'discipline' => 'ux',
-	'photo' => 'headshots/vickitan.jpg',
-	'bio' => "Vicki is formerly a Product Designer at Headspace, creating experiences to guide new users towards a healthy meditation practice. Previously, she was at Lyft, optimizing the passenger ride experience, and at Google, designing tools for reducing bias and predicting outcomes. Prior to Google, Vicki was at Stanford School of Medicine coordinating research studies in Pediatric Oncology. She holds a degree in Behavioral Psychology from the University of California, San Diego.",
-	'twitter' => 'vickiheart',
+	'photo' => 'headshots/margaretlee.jpg',
+	'bio' => "Margaret Lee is an experienced leader, mentor, and coach-in-training who is passionate about ensuring the human side of tech. Most recently Margaret was Director of UX Community + Culture at Google, a program she founded in 2016 to serve and empower the company’s global User Experience organization. Margaret also built and led UX teams at Google for Chrome, Search, and Google Maps. She led the Google Maps UX from its early days as a groundbreaking desktop experience, to an indispensable tool for navigation and local exploration.<br /><br />Over twenty years in the tech industry has shaped her current commitment: creating conditions where teams can flourish and individuals can uncover their unique potential and leadership style. Margaret speaks and writes about her personal journey as a leader, and our collective responsibility to advance diversity and inclusion in the workplace.",
+	'twitter' => '',
 	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/vickitan/'
-);
-
-// Jim Semick
-$speakers[] = array(
-	'slug' => 'jimsemick',
-	'first' => 'Jim',
-	'last' => 'Semick',
-	'title' => 'Chief Strategist',
-	'company' => 'ProductPlan',
-	'discipline' => 'product-management',
-	'photo' => 'headshots/jimsemick.jpg',
-	'bio' => "Jim is co-founder and Chief Strategist at ProductPlan, a SaaS company based in Santa Barbara, California. Jim is passionate about software product management and validating successful business models. For more than 15 years he has been taking products from concept to market. He has helped validate and launch innovative software products that are used today by millions of people. Prior to founding ProductPlan, Jim was part of the founding team at AppFolio, a vertical SaaS company, helping develop multiple products. Prior to AppFolio, he validated and launched GoToMyPC, GoToMeeting, and GoToWebinar (acquired by Citrix, LogMein).",
-	'twitter' => 'jimsemick',
-	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/jimsemick/'
-);
-
-// Brandon Gardner
-$speakers[] = array(
-	'slug' => 'brandongardner',
-	'first' => 'Brandon',
-	'last' => 'Gardner',
-	'title' => 'Group Product Manager',
-	'company' => 'Bluehost',
-	'discipline' => 'product-management',
-	'photo' => 'headshots/brandongardner.jpg',
-	'bio' => "Brandon is a Group Product Manager at Bluehost and a Co-Organizer of Product Hive. He is excited about the future of AI, and the impact it will have on digital and physical world.",
-	'twitter' => 'BRGardner',
-	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/gardnerbrandon/'
+	'linkedin' => 'https://www.linkedin.com/in/margaretlee/'
 );
 
 // David Merkoski
@@ -181,33 +148,18 @@ $speakers[] = array(
 	'company' => 'Grain',
 	'discipline' => 'ux',
 	'photo' => 'headshots/davidmerkoski.jpg',
-	'bio' => "David Merkoski, is former ECD of Frog Design and a startup design advisor. He helps startups and non-profits active in renewables, clean tech, cleanweb, distributed generation and digital transportation achieve their goals through design. ",
+	'bio' => "David Merkoski, is former ECD of Frog Design and a startup design advisor. He helps startups and non-profits active in renewables, clean tech, cleanweb, distributed generation and digital transportation achieve their goals through design.",
 	'twitter' => '',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/david-merkoski-9009342/'
 );
 
-// Helen Keighron
-$speakers[] = array(
-	'slug' => 'helenkeighron',
-	'first' => 'Helen',
-	'last' => 'Keighron',
-	'title' => 'Director of Product Design',
-	'company' => 'Hubspot',
-	'discipline' => 'ux',
-	'photo' => 'headshots/helenkeighron.jpg',
-	'bio' => "Over the past 20 years, Helen has launched and scaled high-performing, diverse design teams in environments from design agencies to high growth SaaS companies. She currently leads a large, global multi-disciplinary team of product designers, content designers and researchers at HubSpot, a SaaS platform enabling businesses to grow through their customer-centric inbound marketing, sales, and customer service practices.",
-	'twitter' => '',
-	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/helenkeighron/'
-);
 
-*/
 
 
 // TEMPLATE
 /*
-//
+// 
 $speakers[] = array(
 	'slug' => '',
 	'first' => '',

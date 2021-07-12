@@ -79,6 +79,24 @@ $talks[] = array(
  'speaker' => 'jayfichialos'
 );
 
+// Margaret	Lee
+$talks[] = array(
+	'title' => "It's alive! cultivating community & culture",
+	'description' => "The nature of culture is organically formed by the attitudes of the community; conversely, community is grounded in its culture. Community and culture are naturally occuring in any work environment, and can symbiotically survive without intervention. Given their influence on the health of our team, why not give it an assist? In this talk, Margaret will reflect on the evolution of Google UX since 2007, a period marked by tectonic shifts in technology, a rise in consumer expectations, and the individuation of UX as a discipline. As the UX Director for Google Maps for nine years, she experienced firsthand the throes of constant change and rapid scale, and saw the same for her peers across the company. In 2016, Margaret seeded UX Community & Culture, a program that tackles the challenges and explores the opportunities that tend to fall between the organizational cracks. She’ll share the practical insights that can help you steer a team or organization of any size toward a healthy and thriving team culture.",
+	'day' => 2,
+	'slot' => 1,
+	'speaker' => 'margaretlee'
+);
+
+// David Merkoski
+$talks[] = array(
+	'title' => 'Reference design',
+	'description' => "Product vision can be a strong force in product design – it drives teams to work towards a shared outcome and provides self-evident answers to “What are we building? And Why?” Teams that are not driven by purpose and intent are rudderless, habitually choosing precedent over innovation, merely copying what already exists in the hopes it will work here too.<br /><br />As a result product vision is often difficult to pin down or name. It’s “something we all share” or “in the deck”. If you open that deck you will find a roadmap with features like “Next Generation Search” or “Shopping 2.0”. This approach leads to unclear and under-used, general meh products. It also leads to team dysfunction, trust issues and ultimately—burnout.<br /><br />So how do you collaboratively create product vision? One that provides enough clarity for an organization to plan, design and build a product a year out, but one that also affords the team responsive and agile shifts as they learn in the market. David Merkoski, former ECD of frog design and startup design advisor will share with Front a new design tool—a Reference Design—that tames the complexity of product vision for startups.<br /><br />Not a design system, nor a set of rules and principles—a Reference Design captures a specific visual rendering of the shared intent and outcomes for a future product in detailed material form. Used in other industries, \"Reference Designs are technical blueprints of the system, they contain essential elements of the system, but are meant to be enhanced or modified as required.\"<br /><br />Through a set of clear artifacts and a focus on language, a Reference Design forges internal agreement of the shared purpose that drives teams forward. A highly visible document, it is always the answer to \"What are you/we doing?\" While it may live in a Sketch file on the cloud, it is also literally hanging on the wall. Everyone should be able point to it... \"That is what we are building.\" It is the reference.<br /><br />Through a series of case studies spanning industries, startup stages and business models, David will explain how using the cyclical process of a Reference Design can open teams up to being their most engaged and invested selves at work. In fact, it becomes quite fun when design is no longer the block and everyone is practically anticipating the next feature to build, seeing the pieces come together. Because when you are design-driven, product-led – work just makes sense.",
+	'day' => 2,
+	'slot' => 2,
+	'speaker' => 'davidmerkoski'
+);
+
 
 
 /*
