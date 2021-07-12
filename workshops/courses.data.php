@@ -19,6 +19,18 @@ $courses[] = array(
 	'instructor' => 'garthdbraithwaite',
 	'level' => 'intermediate',
 	'gumroad_product_id' => 'front-workshops-instructor-garthdbraithwaite',
+	'room' => 1
+);
+
+// Sophia Prater
+$courses[] = array(
+	'title' => 'Tackle complexity with object-oriented UX',
+	'description' => "The best time to get super-curious about all the unknown unknowns is early on in a project. But all too often, we end up brushing complex business rules and information architecture aside in the name of “low fidelity.” Unfortunately, as we avoid asking hard questions to our users, stakeholders, and developers — while designing features and screens without full context  — we end up with piles of rework. In this workshop, you’ll learn about the four tough questions you should be asking early on—to make the rest of the project easier and more successful.<ul><li>What are the important objects?</li><li>What are their relationships to each other? </li><li>What do users want to do to these objects?</li><li>What is the structure of each object?</li></ul>And then, you’ll learn how to answer these four questions through collaborative, structured, and super-effective exercises. <br /><br />You’ll come out of the workshop with four new facilitation and design frameworks that will help you and your team tackle complex problems with confidence.",
+	'track' => 'ux',
+	'day' => 1,
+	'slot' => 1,
+	'instructor' => 'sophiaprater',
+	'level' => 'basic',
 	'room' => 2
 );
 

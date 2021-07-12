@@ -21,6 +21,21 @@ $instructors[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/garthdb/'
 );
 
+// Sophia Prater
+$instructors[] = array(
+	'slug' => 'sophiaprater',
+	'first' => 'Sophia',
+	'last' => 'Prater',
+	'title' => 'Senior UX Designer',
+	'company' => 'Nine Labs',
+	'discipline' => 'ux',
+	'photo' => 'headshots/sophiaprater.jpg',
+	'bio' => "Sophia Prater is founder and lead UX designer at Rewired and the chief evangelist of object-oriented UX. Sophia teaches her OOUX methodologies at conferences, within companies, and through her OOUX Certification Program. She is the host of the OOUX Happy Hour meetup and the OOUX Podcast.<br /><br />Sophia has brought the complexity-untangling magic of OOUX to companies such as Facebook, Mastercard, Macy’s, Credit Karma, Hubspot, Intercom, Delta Airlines, CNN, and many more.<br /><br />Sophia lives outside of Atlanta in the beautiful north Georgia mountains, the wine country of the southeast United States, with her husband and business partner, Luke.",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/sophiav/'
+);
+
 
 /*
 
