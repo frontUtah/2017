@@ -49,6 +49,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			
 			
 			<!-- Early bird -->
+			<!--
 			
 			<div class="prices">
 				<dl class="pricing-types">
@@ -88,9 +89,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<dd class="standard">$630</dd>
 				</dl>
 			</div>
+			-->
 			
 			<!-- Standard -->
-			<!--
 			
 			<div class="prices">
 				<dl class="full">
@@ -116,7 +117,6 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<dd class="early">$630</dd>
 				</dl>
 			</div>
-			-->
 			
 			
 			
