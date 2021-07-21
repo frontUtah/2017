@@ -19,7 +19,7 @@
 // Gabriel Valdivia
 $talks[] = array(
 	'title' => 'Private by default',
-	'description' => "The future of software products is private, personalized, and on-demand. In this talk, Gabe will cover the lessons learned from the launch of private personalization startup Canopy's first consumer app, Tonic and how they can be applied to making future-proof decisions when designing products in 2020 and beyond.",
+	'description' => "The future of software products is private, personalized, and on-demand. In this talk, Gabe will cover the lessons learned from the launch of private personalization startup Canopy's first consumer app, Tonic and how they can be applied to making future-proof decisions when designing products in 2021 and beyond.",
 	'day' => 1,
 	'slot' => 2,
 	'speaker' => 'gabrielvaldivia'
@@ -64,7 +64,7 @@ $talks[] = array(
 // Tyler Hogge
 $talks[] = array(
  'title' => 'How to truly align your product and sales teams: 5 things we learned at Divvy',
- 'description' => "The future of software products is private, personalized, and on-demand. In this talk, Gabe will cover the lessons learned from the launch of private personalization startup Canopy's first consumer app, Tonic and how they can be applied to making future-proof decisions when designing products in 2020 and beyond.",
+ 'description' => "Every organization defines product management differently. In this presentation, you’ll hear from the VP of product and strategy at Divvy on how they’ve taken a very different approach to product, and why it’s so important to truly align product with revenue.",
  'day' => 1,
  'slot' => 7,
  'speaker' => 'tylerhogge'
