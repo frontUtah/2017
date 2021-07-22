@@ -97,6 +97,15 @@ $talks[] = array(
 	'speaker' => 'davidmerkoski'
 );
 
+// Dillon Winspear
+$talks[] = array(
+	'title' => 'I guess I\'ll manage',
+	'description' => "It may seem like the only way to take the next step in your UX Career is to begin managing design teams. But is that for you? How do you make the decision between Individual Contributor and Manager? What are the responsibility differences between the two tracks and how can you learn where your natural strengths align? In this presentation, Dillon will provide insights in the experiences he and others have had on this journey, and provide you with an action plan to help you move forward in your own career.",
+	'day' => 2,
+	'slot' => 3,
+	'speaker' => 'dillonwinspear'
+);
+
 
 
 /*

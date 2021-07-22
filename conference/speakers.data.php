@@ -154,6 +154,21 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/david-merkoski-9009342/'
 );
 
+// Dillon Winspear
+$speakers[] = array(
+	'slug' => 'dillonwinspear',
+	'first' => 'Dillon',
+	'last' => 'Winspear',
+	'title' => 'Director of UX',
+	'company' => 'Domo',
+	'discipline' => 'ux',
+	'photo' => 'headshots/dillonwinspear.jpg',
+	'bio' => "Dillon is a simple designer at heart who loves to dig into complex problems. He currently serves as a Director of UX at Domo where he’s had time to cut his teeth and learn how to build and lead teams. His passion for up-leveling designers on his team and in the community led him to release over 100 episodes of his podcast called Designed Today. <br /><br />When not in front of his computer, he loves to spend time working with his hands and being outdoors. As a husband and father of three, he loves to get out of town with the family and escape to their cabin in the mountains where they enjoy hiking, riding, kayaking, fishing, and shooting. ",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/dillonwinspear/'
+);
+
 
 
 
