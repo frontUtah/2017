@@ -169,6 +169,20 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/dillonwinspear/'
 );
 
+// Daniel Falabella
+$speakers[] = array(
+	'slug' => 'danielfalabella',
+	'first' => 'Daniel',
+	'last' => 'Falabella',
+	'title' => 'Director of Product & GM',
+	'company' => 'Duolingo',
+	'discipline' => '',
+	'photo' => 'headshots/danielfalabella.jpg',
+	'bio' => "Daniel Falabella is currently the Director of Product Management at Duolingo (a language learning app currently valued at $1.5B with over 35M MAUs). Daniel has been doing product management work since his graduation in 2012. He ran a startup and grew it to over 350k users and 12 employees. He tanked the startup and had to shut it down because he couldn’t not get to product market fit. He got a job as a Software Engineer and transitioned to Product Management at Jane.com where his primary task was to improve retention. He ran retention and core experience at Lucidchart (a Lucid Software product). He worked as a PM at Dropbox where he solely focused on increasing retention/decreasing churn. He created the first retention team at Duolingo where he blew it up.",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/danielfalabella/'
+);
 
 
 

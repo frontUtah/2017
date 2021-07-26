@@ -106,12 +106,21 @@ $talks[] = array(
 	'speaker' => 'dillonwinspear'
 );
 
+// Daniel Falabella
+$talks[] = array(
+	'title' => 'How should you be thinking about improving retention? How Duolingo used growth models from gaming companies to ignite user growth.',
+	'description' => "One of the most difficult things about language learning is staying motivated. This is why Duolingo cares deeply about retention rates as the primary lever to fuel DAU growth. After years of efforts improving retention rates and not seeing much of it transfer over to increasing DAUs I lead the creation of a team to own all the metagame mechanics and improve retention with a different approach.<br /><br />When thinking about increasing retention, many companies make mistakes by focusing on the wrong thing: improving onboarding.<br /><br />I’ll address all the different levers you have to improve retention based on frameworks used by gaming companies (such as Zynga) and I’ll be giving specific examples on how we’ve put them to practice at Duolingo and the impact they had.",
+	'day' => 2,
+	'slot' => 4,
+	'speaker' => 'danielfalabella'
+);
 
 
-/*
+
 
 // TEMPLATE
-//
+/*
+// 
 $talks[] = array(
 	'title' => '',
 	'description' => "",
