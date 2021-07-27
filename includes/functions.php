@@ -198,13 +198,13 @@ function get_time($day, $slot) {
 function get_workshop_day($day) {
 	switch($day) {
 		case 1:
-			return 'Wednesday, 8 November 2021';
+			return 'Monday, 8 November 2021';
 			break;
 		case 2:
-			return 'Thursday, 9 November 2021';
+			return 'Tuesday, 9 November 2021';
 			break;
 		case 3:
-			return 'Friday, 10 November 2021';
+			return 'Wednesday, 10 November 2021';
 			break;
 	}
 }
