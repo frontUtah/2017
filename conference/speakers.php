@@ -39,7 +39,7 @@ foreach($speakers as $speaker) {
 ?>
 
 			</ul>
-			<p><em>+ 8 more speakers to be announced soon!</em></p>
+			<p><em>+ 3 more speakers to be announced soon!</em></p>
 		</section>
 
 

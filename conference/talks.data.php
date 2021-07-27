@@ -115,6 +115,15 @@ $talks[] = array(
 	'speaker' => 'danielfalabella'
 );
 
+// Christopher Fryer
+$talks[] = array(
+	'title' => 'Team takeover: Moving from hostile to profitable',
+	'description' => "Taking over an existing team is always hard. You’ve just been hired or promoted and expectations are high. It can be tempting as a new leader to jump in and start driving for results, command and control style: improve core metrics, make changes to the design, move the needle! Chris Fryer, Chief Product Officer at Homie will show you a completely different approach that leads to longer lasting customer impact while also inspiring trust and commitment from your new team and those that put you in charge.",
+	'day' => 2,
+	'slot' => 5,
+	'speaker' => 'christopherfryer'
+);
+
 
 
 
