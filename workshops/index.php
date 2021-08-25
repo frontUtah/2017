@@ -51,7 +51,6 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					famous hiking and mountain biking.</p>
 		</section>
 		
-		<!--
 		<section class="instructor-preview">
 			<h2>Instructors</h2>
 			<ul class="instructor-list">
@@ -87,7 +86,6 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				<a href="/workshops/instructors" class="button">View All</a>
 			</p>
 		</section>
-		-->
 		
 		<a name="highlight_video"></a>
 		<section class="highlight-video">
