@@ -36,6 +36,21 @@ $instructors[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/sophiav/'
 );
 
+// Vicky Thomas
+$instructors[] = array(
+	'slug' => 'vickythomas',
+	'first' => 'Vicky',
+	'last' => 'Thomas',
+	'title' => 'VP of Product',
+	'company' => 'Rivet',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/vickythomas.jpg',
+	'bio' => "Vicky Thomas is the Director of Product Management for Vivint Smart Home’s mobile apps. At Vivint, Vicky leads product teams to envision and build the next generation of smart home experiences, leveraging software, hardware, AI, voice, and conversational interfaces. Prior to joining Vivint, Vicky served as Lead Product Manager at Lucid Software, makers of top-ranked productivity apps Lucidchart and Lucidpress, and as a Product Manager at Adobe on Adobe Analytics. She is passionate about building world-class product teams and bringing new ideas to life.<br /><br />Vicky holds an S.B. in Aerospace Engineering from MIT, with a certificate in Advanced Engineering Leadership from the Gordon-MIT Engineering Leadership Program. She has received numerous awards for her industry and community impact, including a 2015 Women Tech Award from the Women Tech Council, and a spot on Utah Business Magazines 2017 30 Women to Watch list. In her free time, Vicky enjoys backpacking with her husband and dog, playing soccer, backcountry skiing, and flying single-engine aircraft.",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/vicky-thomas-2b6a259/'
+);
+
 
 /*
 
@@ -53,7 +68,7 @@ $instructors[] = array(
 	'bio' => "",
 	'twitter' => '',
 	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/firstlast/'
+	'linkedin' => ''
 );
 
 */
