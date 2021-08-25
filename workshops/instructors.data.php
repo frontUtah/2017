@@ -51,6 +51,21 @@ $instructors[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/vicky-thomas-2b6a259/'
 );
 
+// Jaekob Chenina
+$instructors[] = array(
+	'slug' => 'jaekobchenina',
+	'first' => 'Jaekob',
+	'last' => 'Chenina',
+	'title' => 'Sr. Product Manager',
+	'company' => 'Acme',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/jaekobchenina.jpg',
+	'bio' => "Jaekob is leading AI innovation at Adobe Analytics, the heart of Adobe’s next-gen digital experience cloud. Over the last five years Jaekob has worked in startup, non-profit, and enterprise environments. In each case, Jaekob sought out and led projects that were disrupting the status quo. His passion for trailblazing opportunities married with his background in AI led him to focus his career on building Intelligent Products. When not at work, Jaekob enjoys spending time with his Russian/Ukrainian wife Galina and their three children. He and his family have a passion for all forms of exploration from ice-fishing to genealogy.",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/jaekobchenina/'
+);
+
 
 /*
 
