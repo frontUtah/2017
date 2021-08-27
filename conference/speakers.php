@@ -39,7 +39,7 @@ foreach($speakers as $speaker) {
 ?>
 
 			</ul>
-			<p><em>+ 3 more speakers to be announced soon!</em></p>
+			<p><em>+ <?php echo 16 - count($speakers); ?> more speakers to be announced soon!</em></p>
 		</section>
 
 
