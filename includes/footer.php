@@ -13,6 +13,7 @@
 				<li><a href="/terms-and-conditions">Terms &amp; Conditions</a></li>
 				<li><a href="/code-of-conduct">Code of Conduct</a></li>
 				<li><a href="/speaker-guide">Speaker Guide</a></li>
+				<li><a href="/covid-safety-policy">COVID Safety Policy</a></li>
 			</ul>
 		</nav>
 

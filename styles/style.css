@@ -1380,7 +1380,11 @@ footer p {
 
 .article-page .hero {
 	background-image: url(../images/article-bg.png);
-	display: none
+	display: none;
+}
+
+.article-page.serious .hero {
+	background-image: url(../images/article-bg-5.jpg);
 }
 
 @media (min-width:1000px) {

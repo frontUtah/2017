@@ -2,7 +2,7 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Code of conduct - Front';
+$title = 'Code of Conduct - Front';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
