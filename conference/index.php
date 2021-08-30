@@ -32,6 +32,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<!--- <a href="http://www.pluralsight.com"><img id="broughtoyouby" src="/images/frontworkshops18/premeir-sponsor.png" /></a> -->
 			<p><a href="/conference/registration" class="button">Register</a></p>
 		</section>
+	 	<section class="notice">
+	 		<h2>COVID Safety Policy</h2>
+	  		<p>The safety and well-being of our attendees, speakers, instructors, sponsors, and staff is our top priority. These unprecedented times call for unprecedented levels of compassion, charity, and wisdom, with each of us doing our part to limit the spread of this virus. As a business that brings large groups of people together, we take this responsibility seriously. We offer you our commitment that we will only host events that we feel can be done safely. We are continuously monitoring developments of the COVID-19 pandemic, reviewing guidelines from the CDC, and collaborating local government agencies to implement necessary protocols.<br /><br />Please review our <a href="http://local.frontutah.com/covid-safety-policy">COVID Safety Policy</a> for upcoming events.</p>
+	 	</section>
 		<section class="training-courses">
 			<h2>Build better products</h2>
 			<p>Join us in beautiful Salt Lake City, for two full days of

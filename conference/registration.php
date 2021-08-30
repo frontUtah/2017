@@ -32,17 +32,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			Front UX & Product Management Case Study Conference returns in 2019 to the spacious and stunning Eccles Theater in downtown Salt Lake City. You don’t want to miss this. Take advantage of early bird pricing and our great discounts to bring your entire team. This will be the biggest, most engaging, and comprehensive conference yet. Join us for incredible insights, inspiration, and fun.
 			-->
 			
-			After being postponed due to COVID, the Front UX & Product Management Case 
-			Study Conference returns this September in beautiful 
-			downtown Salt Lake City. With a continued commitment to the safety of our 
-			attendees, speakers, sponsors, and staff, and following current and 
-			projected CDC guidelines and local government restrictions, we invite you 
-			out of your home office or bedroom and away from endless virtual meetings, 
-			to join top product and design teams from around the world, in-person, for 
-			3 days of the incredible insights, inspiration, and fun. 
-			
-			</p>
-		</section>
+			The safety and well-being of our attendees, speakers, instructors, sponsors, and staff is our top priority. These unprecedented times call for unprecedented levels of compassion, charity, and wisdom, with each of us doing our part to limit the spread of this virus. As a business that brings large groups of people together, we take this responsibility seriously. We offer you our commitment that we will only host events that we feel can be done safely. We are continuously monitoring developments of the COVID-19 pandemic, reviewing guidelines from the CDC, and collaborating local government agencies to implement necessary protocols.<br /><br />Please review our <a href="http://local.frontutah.com/covid-safety-policy">COVID Safety Policy</a> for upcoming events.</p>
+	 	</section>
 		
 		<section class="pricing">
 			<h2>Pricing</h2>

@@ -19,7 +19,6 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 </p>
 			<ul>
 				<li>Attendees, sponsors, speakers, and staff experiencing or exhibiting any COVID-19 related symptoms as outlined by the federal and state Center for Disease Control and Prevention (CDC) such as fever, dry cough, or shortness of breath will not be allowed to enter the event. Attendees that begin experiencing related symptoms agree to notify staff and leave immediately.</li>
-				<li>Attendees, sponsors, speakers, and staff must be twenty-one (21) years or older.</li>
 				<li>Anyone who has traveled internationally may not attend, present, or work at the event.</li>
 				<li>Anyone that believes they have been recently exposed to a person or animal with a positive and confirmed case if COVID-19 may not attend, present, or work at the event.</li>
 				<li>All attendees, sponsors, speakers, and staff will be required to practice social distancing.</li>

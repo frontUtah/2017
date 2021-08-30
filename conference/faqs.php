@@ -59,7 +59,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Is there an age requirement for the event?</dt>
-							<dd class="accordion-content answer">No, the environment and content is suitable for anyone of any age.</dd>
+							<dd class="accordion-content answer">Yes, the environment and content is suitable for anyone of any age.</dd>
 						</dl>
 					</li>
 					
@@ -89,24 +89,16 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl class="accordion">
 							<dt class="accordion-title question">Are there other hotels you recommend?</dt>
 							<dd class="accordion-content answer">We highly recommend the <a href="https://www.hilton.com/en/hotels/slccchh-hilton-salt-lake-city-center">Hilton Salt Lake City Center</a>, as 
-							we have arranged the discounted rate and because of the proximity to the venue. That said, the <a href="https://www.marriott.com/events/start.mi?id=1601932878912&key=GRP">Salt Lake Marriott Downtown at City Creek</a>, Salt Lake Plaza Hotel Temple Square, Hotel Monaco, Hilton Salt Lake City Center are also close to the venue and are also good options.
+							we have arranged the discounted rate, and because of the it's downtown location and abundant nightlife. That said, if you'd prefer an option closest the the venue, <a href="https://www.marriott.com/hotels/travel/slctp-towneplace-suites-salt-lake-city-draper/">TownePlace Suites by Marriott Salt Lake City Draper</a>, <a href="https://www.hilton.com/en/hotels/slcpehx-hampton-draper-salt-lake-city">Hampton Inn Draper Salt Lake City</a>, and <a href="https://www.hilton.com/en/hotels/slcdrhw-homewood-suites-salt-lake-city-draper">Homewood Suites by Hilton Salt Lake City Draper</a> are grea options.
 						</dl>					
 						<dl class="accordion">
 							<dt class="accordion-title question">What's the best way to get to the venue?</dt>
 							<dd class="accordion-content answer">Your best option for getting to and from the conference is 
-							the <a href="http://rideuta.com/Rider-Tools/Schedules-and-Maps">UTA TRAX light rail system</a>. 
-							The Green Line departs every 15 minutes from Salt Lake City International Airport and is 
-							a <a href="https://goo.gl/maps/oFhnBPyD4PChQPuY8">33 minute ride</a> to Calvin L. Rampton Salt Palace Convention Center (Temple Square Station). 
-							To get to the Calvin L. Rampton Salt Palace Convention Center from the airport by car, head Eastbound towards I-80; keep to the right on the ramp, 
-							following the signs to Temple Square (eastbound 269); continue straight until you reach 200 South; turn right.</dd>
+							a ride-share or renting a car.</dd>
 						</dl>
 						<dl class="accordion">
-							<dt class="accordion-title question">Is there parking at or near the convention center?</dt>
-							<dd class="accordion-content answer">The Calvin L. Rampton Salt Palace Convention Center offers <a href="https://www.visitsaltlake.com/salt-palace-convention-center/attend/parking-information/">two convenient 
-								underground garages</a> that are open 7 days a week. For the <a href="https://goo.gl/maps/oybtvaTtLWHEAobp6">South garage</a>, enter off of 200 South 
-								between West Temple and 200 West (600 stalls). For the <a href="https://goo.gl/maps/yGWv7Er7AgMVWUgR6">West garage</a>, enter off of 300 West 
-								between 100 South and South Temple (400 stalls). In addition to parking on-site at the Calvin L. Rampton Salt Palace Convention Center, 
-								downtown Salt Lake City has over <a href="http://www.parkingslc.com/">30,000 parking spaces available</a>.</dd>
+							<dt class="accordion-title question">Is there parking at or near the event center?</dt>
+							<dd class="accordion-content answer">Slopes EVNTs center has ample free onsite parking.</dd>
 						</dl>
 					</li>
 					
@@ -114,7 +106,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<h3>Additional conference information</h3>
 						<dl class="accordion">
 							<dt class="accordion-title question">What safety precautions will be implemented regarding the COVID pandemic?</dt>
-							<dd class="accordion-content answer">We will continue to closely follow the recommendations and guidelines of the CDC and Utah Health Department and implement the necessary protocols to ensure the safety and comfort of all attendees, speakers, sponsors, and staff. We have not yet ruled out the use of masks, social distancing, and temperature checks, but anticipate we will be in a place where fewer restrictions are required in September. We will not ask for proof of vaccination, but highly encourage all attendees to be fully vaccinated prior to the event. Updates will be provided as we get closer to the conference. </dd>
+							<dd class="accordion-content answer">The safety and well-being of our attendees, speakers, instructors, sponsors, and staff is our top priority. These unprecedented times call for unprecedented levels of compassion, charity, and wisdom, with each of us doing our part to limit the spread of this virus. As a business that brings large groups of people together, we take this responsibility seriously. We offer you our commitment that we will only host events that we feel can be done safely. We are continuously monitoring developments of the COVID-19 pandemic, reviewing guidelines from the CDC, and collaborating local government agencies to implement necessary protocols. Please review our <a href="http://local.frontutah.com/covid-safety-policy">COVID Safety Policy</a>.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Where do I find out who is speaking?</dt>
@@ -156,16 +148,16 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li class="faq-category">
 						<h3>Salt Lake City weather and attractions</h3>
 						<dl class="accordion">
-							<dt class="accordion-title question">What is the weather like in Salt Lake City at the end May?</dt>
-							<dd class="accordion-content answer">Salt Lake City enjoys plenty of warm weather weather during May. This is one of the rainier months of the year here, but with the dry climate, the amount of rainfall is minimal. In most years, the average daily maximum temperature in May is between 68 and 76 degrees Fahrenheit (20 to 24 degrees Celsius). The minimum temperature usually falls between 45 and 50 °F (7 to 10 °C).</dd>
+							<dt class="accordion-title question">What is the weather like in Salt Lake City at the end September?</dt>
+							<dd class="accordion-content answer">September and October are an ideal time to visit Salt Lake City. The kids are in school and the skiers have yet to arrive, so you'll have the city, and all of its discounted hotel rooms, to yourself. Daily high temperatures decrease by 13°F, from 86°F to 73°F, rarely falling below 60°F or exceeding 93°F. Daily low temperatures decrease by 12°F, from 61°F to 50°F, rarely falling below 40°F or exceeding 70°F. For reference, on July 23, the hottest day of the year, temperatures in Salt Lake City typically range from 67°F to 93°F, while on January 7, the coldest day of the year, they range from 23°F to 36°F.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">What are the local restaurants, attractions, and entertainment in and around the event?</dt>
-							<dd class="accordion-content answer">The Eccles Theater is right in the middle of downtown Salt Lake City. There's a wealth of great destinations for food and fun, especially along Main Street. While the options are too great to list here, we suggest finding more information the city’s official visitors’ website: <a href="https://www.visitsaltlake.com">www.visitsaltlake.com</a>.</dd>
+							<dd class="accordion-content answer">Downtown Salt Lake City boasts a wealth of great destinations for food and fun, especially along Main Street. While the options are too great to list here, we suggest finding more information the city’s official visitors’ website: <a href="https://www.visitsaltlake.com">www.visitsaltlake.com</a>.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">What is the best way to get around Salt City?</dt>
-							<dd class="accordion-content answer">The Salt Lake City <a href="http://www.rideuta.com/mc/?page=UTA-Home-TRAX">TRAX light-rail system</a> is the most convenient option for getting around Salt Lake City and is <a href="https://www.rideuta.com/Fares-And-Passes/Free-Fare-Zone">free within the downtown area</a>.</dd>
+							<dd class="accordion-content answer">The Salt Lake City <a href="http://www.rideuta.com/mc/?page=UTA-Home-TRAX">TRAX light-rail system</a> is the most convenient option for getting around downtown Salt Lake City and is <a href="https://www.rideuta.com/Fares-And-Passes/Free-Fare-Zone">free within the downtown area</a>. Outside of downtown, we recommend ride-share or a rental car.</dd>
 						</dl>
 					</li>
 				</ul>
