@@ -23,16 +23,16 @@ require('includes/header.php');
 		<ul>
 			<li>
 				<h3>Case Study Conference</h3>
-				<p class="date-location">29 Sep-1 Oct 2021, Salt Lake City</p>
+				<p class="date-location">30 Sep-1 Oct 2021, Salt Lake City</p>
 				<div href="https://www.youtube.com/watch?v=8f5QpAa1nh8" class="thumnail video-thumbnail recap-video">
 					<img src="images/conf-scene001.jpg" alt="" style="width: 413px;">
 				</div>
-				<p class="description">A 3 day, in-depth series of from-the-trenches case studies by innovative user experience designers and product managers.</p>
+				<p class="description">A 2 day, in-depth series of from-the-trenches case studies by innovative user experience designers and product managers.</p>
 				<p><a href="/conference" class="button">Learn More</a></p>
 			</li>
 			<li>
 				<h3>Workshop Series</h3>
-				<p class="date-location">8-10 November 2021, Salt Lake City</p>
+				<p class="date-location">November 2022, Salt Lake City</p>
 				<div href="https://www.youtube.com/watch?v=AU8QI7wPzoc" class="thumnail video-thumbnail recap-video">
 					<img src="images/conf-scene002.jpg" alt="" style="width: 413px;">
 				</div>
