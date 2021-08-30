@@ -31,11 +31,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<dt><div></div></dt>
 					<dd class="early">
 						Early bird pricing
-						<small>25% off through 8 September 2021</small>
+						<small>25% off through 8 September 2022</small>
 					</dd>
 					<dd class="standard">
 						Standard pricing
-						<small>Starting 9 September 2021</small>
+						<small>Starting 9 September 2022</small>
 					</dd>
 				</dl>
 				<dl class="full">
@@ -95,6 +95,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			-->
 			
 			
+
+			<!--
 			
 			<div id="eventbrite-widget-container-115533081557"></div>
 			
@@ -117,6 +119,16 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			    });
 			</script>
 			
+			-->
+
+			
+			<h5 class="soldout">SALES BEGIN SOON</h5>
+			
+			<p class="pricing-notes">The dates for the 2022 Workshop Series will be announced soon. We encourage you to join us 
+				for our <a href="/conference">case study conference</a> in September and <a href="/mailinglist">join our 
+				mailing list</a> to be notified when tickets to next year's workshops go on sale.</p>
+				
+			
 			
 			<!-- SOLD OUT 
 			
@@ -130,10 +142,13 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			
 		</section>
 
+
 		<section class="accomodations">
 			<h2>Hotel</h2>
 			
-			<!-- p class="about-accomodations"><em>We are working to secure a discounted rate at a preferred hotel.</em></p -->
+			<p class="about-accomodations"><em>We are working to secure a discounted rate at a preferred hotel.</em></p>
+
+			<!--
 
 			<p class="about-accomodations">We have acquired discounted nightly rate of $145/night + tax (30% off)
 				for a single king bed at the Salt Lake City Marriott University Park. We encourage you to register 
@@ -161,6 +176,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<p><a target="_blank" href="https://www.marriott.com/events/start.mi?id=1622152952153&key=GRP" class="button">Book now</a></p>
 				</div>
 			</div>
+			-->
 			
 		</section>
 		
