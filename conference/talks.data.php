@@ -7,6 +7,16 @@
  */
 
 
+
+// Margaret	Lee
+$talks[] = array(
+	'title' => "It's alive! cultivating community & culture",
+	'description' => "The nature of culture is organically formed by the attitudes of the community; conversely, community is grounded in its culture. Community and culture are naturally occuring in any work environment, and can symbiotically survive without intervention. Given their influence on the health of our team, why not give it an assist? In this talk, Margaret will reflect on the evolution of Google UX since 2007, a period marked by tectonic shifts in technology, a rise in consumer expectations, and the individuation of UX as a discipline. As the UX Director for Google Maps for nine years, she experienced firsthand the throes of constant change and rapid scale, and saw the same for her peers across the company. In 2016, Margaret seeded UX Community & Culture, a program that tackles the challenges and explores the opportunities that tend to fall between the organizational cracks. She’ll share the practical insights that can help you steer a team or organization of any size toward a healthy and thriving team culture.",
+	'day' => 1,
+	'slot' => 1,
+	'speaker' => 'margaretlee'
+);
+
 // Gabriel Valdivia
 $talks[] = array(
 	'title' => 'Private by default',
@@ -52,13 +62,13 @@ $talks[] = array(
 	'speaker' => 'garthbraithwaite'
 );
 
-// Tyler Hogge
+// Taylor Palmer
 $talks[] = array(
- 'title' => 'How to truly align your product and sales teams: 5 things we learned at Divvy',
- 'description' => "Every organization defines product management differently. In this presentation, you’ll hear from the VP of product and strategy at Divvy on how they’ve taken a very different approach to product, and why it’s so important to truly align product with revenue.",
- 'day' => 2,
- 'slot' => 1,
- 'speaker' => 'tylerhogge'
+ 'title' => 'UX research: All together now',
+ 'description' => "Integrating a thriving research practice into fast-moving engineering cadences can be tricky. There's no need to do this alone. I'll be sharing how I've partnered in the past with departments across various companies to bolster and support my UX research efforts.",
+ 'day' => 1,
+ 'slot' => 7,
+ 'speaker' => 'taylorpalmer'
 );
 
 // Jay Fichialos
@@ -70,13 +80,13 @@ $talks[] = array(
  'speaker' => 'jayfichialos'
 );
 
-// Margaret	Lee
+// Tyler Hogge
 $talks[] = array(
-	'title' => "It's alive! cultivating community & culture",
-	'description' => "The nature of culture is organically formed by the attitudes of the community; conversely, community is grounded in its culture. Community and culture are naturally occuring in any work environment, and can symbiotically survive without intervention. Given their influence on the health of our team, why not give it an assist? In this talk, Margaret will reflect on the evolution of Google UX since 2007, a period marked by tectonic shifts in technology, a rise in consumer expectations, and the individuation of UX as a discipline. As the UX Director for Google Maps for nine years, she experienced firsthand the throes of constant change and rapid scale, and saw the same for her peers across the company. In 2016, Margaret seeded UX Community & Culture, a program that tackles the challenges and explores the opportunities that tend to fall between the organizational cracks. She’ll share the practical insights that can help you steer a team or organization of any size toward a healthy and thriving team culture.",
-	'day' => 1,
-	'slot' => 1,
-	'speaker' => 'margaretlee'
+ 'title' => 'How to truly align your product and sales teams: 5 things we learned at Divvy',
+ 'description' => "Every organization defines product management differently. In this presentation, you’ll hear from the VP of product and strategy at Divvy on how they’ve taken a very different approach to product, and why it’s so important to truly align product with revenue.",
+ 'day' => 2,
+ 'slot' => 1,
+ 'speaker' => 'tylerhogge'
 );
 
 // David Merkoski

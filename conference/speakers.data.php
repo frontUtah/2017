@@ -184,6 +184,21 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/christopherfryer/'
 );
 
+// Taylor Palmer 
+$speakers[] = array(
+	'slug' => 'taylorpalmer',
+	'first' => 'Taylor',
+	'last' => 'Palmer',
+	'title' => 'Product Design Lead',
+	'company' => 'Range',
+	'discipline' => 'ux',
+	'photo' => 'headshots/taylorpalmer.jpg',
+	'bio' => "I’m a UX leader in Utah. I currently lead Product Design at Range.co as a remote solo designer. I'm also the co-creator of UX Tools where I host the UX Chats podcast and run the annual Design Tools Survey. I was previously at Lucid and Neighbor.",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/taylor-palmer-6264a171/'
+);
+
 
 
 // TEMPLATE
