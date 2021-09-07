@@ -39,7 +39,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Can I change the name or other details on my tickets?</dt>
-							<dd class="accordion-content answer">Yes, but only the person who purchased the ticket can make these changes. Simply long into Eventbrite and <a href="https://www.eventbrite.com/support/articles/en_US/How_To/how-to-update-your-ticket-registration-information">follow these instructions</a>. You are free to change your ticket details up to 3 days before the event, including name, title, etc. Please make sure these details are correct as they will be what we show on your badge. If you can’t reach the person who purchased the ticket in order to get them to change the information, please contact us at tickets@frontutah.com and we will help you make the updates.</dd>
+							<dd class="accordion-content answer">Yes, but only the person who purchased the ticket can make these changes. Simply log into Eventbrite and <a href="https://www.eventbrite.com/support/articles/en_US/How_To/how-to-update-your-ticket-registration-information">follow these instructions</a>. You are free to change your ticket details up to 3 days before the event, including name, title, etc. Please make sure these details are correct as they will be what we show on your badge. If you can’t reach the person who purchased the ticket in order to get them to change the information, please contact us at tickets@frontutah.com and we will help you make the updates.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Can I transfer my conference pass to a colleague if I am unable to attend?</dt>
