@@ -89,7 +89,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl class="accordion">
 							<dt class="accordion-title question">Are there other hotels you recommend?</dt>
 							<dd class="accordion-content answer">We highly recommend the <a href="https://www.hilton.com/en/hotels/slccchh-hilton-salt-lake-city-center">Hilton Salt Lake City Center</a>, as 
-							we have arranged the discounted rate, and because of the it's downtown location and abundant nightlife. That said, if you'd prefer an option closest the the venue, <a href="https://www.marriott.com/hotels/travel/slctp-towneplace-suites-salt-lake-city-draper/">TownePlace Suites by Marriott Salt Lake City Draper</a>, <a href="https://www.hilton.com/en/hotels/slcpehx-hampton-draper-salt-lake-city">Hampton Inn Draper Salt Lake City</a>, and <a href="https://www.hilton.com/en/hotels/slcdrhw-homewood-suites-salt-lake-city-draper">Homewood Suites by Hilton Salt Lake City Draper</a> are grea options.
+							we have arranged the discounted rate, and because of the downtown location and abundant nightlife. That said, if you'd prefer an option closest the the venue, <a href="https://www.marriott.com/hotels/travel/slctp-towneplace-suites-salt-lake-city-draper/">TownePlace Suites by Marriott Salt Lake City Draper</a>, <a href="https://www.hilton.com/en/hotels/slcpehx-hampton-draper-salt-lake-city">Hampton Inn Draper Salt Lake City</a>, and <a href="https://www.hilton.com/en/hotels/slcdrhw-homewood-suites-salt-lake-city-draper">Homewood Suites by Hilton Salt Lake City Draper</a> are great options.
 						</dl>					
 						<dl class="accordion">
 							<dt class="accordion-title question">What's the best way to get to the venue?</dt>
