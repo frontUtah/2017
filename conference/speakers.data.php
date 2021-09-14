@@ -199,6 +199,51 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/taylor-palmer-6264a171/'
 );
 
+// Joseph Draschil
+$speakers[] = array(
+	'slug' => 'josephdraschil',
+	'first' => 'Joseph',
+	'last' => 'Draschil',
+	'title' => 'Head of Customer Operations',
+	'company' => 'Prenda',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/josephdraschil.jpg',
+	'bio' => "Joseph Draschil is an experienced product and customer experience leader, who is passionate about building high-performing teams and creating transformational experiences for customers.<br /><br />Most recently, Joseph led the \"Prenda Family\" business unit at Prenda, where he also served as Head of Customer Services.<br /><br />Previously, Joseph served as Vice President of Product and Customer Experience at DirectScale, a software solution for the Direct Selling industry. He is an original organizer and current board member of Product Hive, a non-profit community of 6000+ designers and product managers in Utah.<br /><br />Joseph has written for Entrepreneur.com, participated in the business incubator Start-Up Chile, and holds an MBA from Babson College in entrepreneurship and innovation. He is also an improv comedian at ComedySportz in Provo.",
+	'twitter' => 'https://twitter.com/jdraschil',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/jdraschil/'
+);
+
+// Albert Candari
+$speakers[] = array(
+	'slug' => 'albertcandari',
+	'first' => 'Albert',
+	'last' => 'Candari',
+	'title' => 'Chief Experience Officer',
+	'company' => 'Spiff',
+	'discipline' => 'ux',
+	'photo' => 'headshots/albertcandari.jpg',
+	'bio' => "Albert Candari is a Co-Founder of Spiff, a FinTech startup in Utah, where he serves as Chief Experience Officer, responsible for product and design. Since its founding in 2018, Spiff has maintained a strong trajectory with an average growth of 700% in company revenue, team size, and valuation. Previously, Albert led the Product Design organization for Instructure, leading to its successful IPO. His team was instrumental in crafting flagship SaaS products for Instructure, focusing on innovating learning and performance management. Passionate about breaking the cycle of poverty that he witnessed in his childhood, Albert now spearheads the “Spiff Up” initiative, pledging 1% of the company’s revenue to philanthropy around the world.",
+	'twitter' => 'https://twitter.com/albertcandari',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/albertcandari/'
+);
+
+// Amy Worthington
+$speakers[] = array(
+	'slug' => 'amyworthington',
+	'first' => 'Amy',
+	'last' => 'Worthington',
+	'title' => 'Group Product Manager',
+	'company' => 'Bamboo HR',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/amyworthington.jpg',
+	'bio' => "",
+	'twitter' => 'https://twitter.com/WorthiAmy',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/amy-worthington/'
+);
+
 
 
 // TEMPLATE

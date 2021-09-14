@@ -22,7 +22,7 @@ $talks[] = array(
 	'title' => 'Private by default',
 	'description' => "The future of software products is private, personalized, and on-demand. In this talk, Gabe will cover the lessons learned from the launch of private personalization startup Canopy's first consumer app, Tonic and how they can be applied to making future-proof decisions when designing products in 2021 and beyond.",
 	'day' => 1,
-	'slot' => 2,
+	'slot' => 4,
 	'speaker' => 'gabrielvaldivia'
 );
 
@@ -30,8 +30,8 @@ $talks[] = array(
 $talks[] = array(
 	'title' => 'What do you do when no one cares about your product? How we turned Podium’s feedback tool from a failing beta to a successful launch',
 	'description' => "<p>When I joined Podium, our Feedback tool was in a precarious state. As one sales VP explained, “The percentage of customers we could sell this to is in the single digits.” There were discussions of killing the product completely. Six months later, we launched it publicly to all customers, and it went on to sell millions in the following year. Here’s how we got there, and how you can too.</p><p>With most products, there can be many obstacles to product-market fit:</p><ul><li>Wrong product</li><li>Wrong market</li><li>Wrong message</li></ul><p>I’ll cover specific tactics we used to understand the problem in all three of these areas, including:</p><ul><li>An internal listening tour</li><li>JTBD interviews with customers</li><li>Analyzing data</li><li>Exploring the ways customers were hacking the product</li><li>Evaluating against competitor options</li><li>And more...</li></ul><p>We’ll also discuss how we used that research to transform the product and its appeal… and the things we missed that created unexpected results.</p>",
-	'day' => 1,
-	'slot' => 3,
+	'day' => 2,
+	'slot' => 7,
 	'speaker' => 'kaelaworthen'
 );
 
@@ -40,7 +40,7 @@ $talks[] = array(
 	'title' => 'Saying goodbye to a good idea',
 	'description' => "You've done extensive user research, you've investigated competing alternatives, you've crunched the numbers. After completing significant discovery work, you've become very invested in the problem and are excited about possible solutions … But you realize the right decision for the business is to pivot. In this presentation, I'll discuss my experience moving away from a favorite project and what I learned from the process - how to fail faster without the feeling of failure.",
 	'day' => 1,
-	'slot' => 4,
+	'slot' => 6,
 	'speaker' => 'lauraluttmer'
 );
 
@@ -57,8 +57,8 @@ $talks[] = array(
 $talks[] = array(
 	'title' => 'How to establish and maintain a design system',
 	'description' => "<p>As teams and products grow it can become complicated to maintain consistency across all properties, additionally, there is often a duplication of initial work for each product starting from scratch. By establishing and maintaining a company-wide design language and design system implementation, teams are better equipped to ensure consistency, reduce duplication of work, and improve overall design and code quality.</p>",
-	'day' => 1,
-	'slot' => 6,
+	'day' => 2,
+	'slot' => 8,
 	'speaker' => 'garthbraithwaite'
 );
 
@@ -66,8 +66,8 @@ $talks[] = array(
 $talks[] = array(
  'title' => 'UX research: All together now',
  'description' => "Integrating a thriving research practice into fast-moving engineering cadences can be tricky. There's no need to do this alone. I'll be sharing how I've partnered in the past with departments across various companies to bolster and support my UX research efforts.",
- 'day' => 1,
- 'slot' => 7,
+ 'day' => 2,
+ 'slot' => 5,
  'speaker' => 'taylorpalmer'
 );
 
@@ -111,8 +111,8 @@ $talks[] = array(
 $talks[] = array(
 	'title' => 'How should you be thinking about improving retention? How Duolingo used growth models from gaming companies to ignite user growth.',
 	'description' => "One of the most difficult things about language learning is staying motivated. This is why Duolingo cares deeply about retention rates as the primary lever to fuel DAU growth. After years of efforts improving retention rates and not seeing much of it transfer over to increasing DAUs I lead the creation of a team to own all the metagame mechanics and improve retention with a different approach.<br /><br />When thinking about increasing retention, many companies make mistakes by focusing on the wrong thing: improving onboarding.<br /><br />I’ll address all the different levers you have to improve retention based on frameworks used by gaming companies (such as Zynga) and I’ll be giving specific examples on how we’ve put them to practice at Duolingo and the impact they had.",
-	'day' => 2,
-	'slot' => 4,
+	'day' => 1,
+	'slot' => 2,
 	'speaker' => 'danielfalabella'
 );
 
@@ -121,10 +121,36 @@ $talks[] = array(
 	'title' => 'Team takeover: Moving from hostile to profitable',
 	'description' => "Taking over an existing team is always hard. You’ve just been hired or promoted and expectations are high. It can be tempting as a new leader to jump in and start driving for results, command and control style: improve core metrics, make changes to the design, move the needle! Chris Fryer, Chief Product Officer at Homie will show you a completely different approach that leads to longer lasting customer impact while also inspiring trust and commitment from your new team and those that put you in charge.",
 	'day' => 2,
-	'slot' => 5,
+	'slot' => 6,
 	'speaker' => 'christopherfryer'
 );
 
+// Joseph Draschil
+$talks[] = array(
+	'title' => "Barnacles are killing your product team's flow",
+	'description' => "You’ve done it! Your company has organized product into autonomous, empowered teams staffed with a PM, UX, and Engineering. You’ve fully adopted human-centered research and design practices, and are continuously delivering releases to production. So how come your beautiful, theme-based product roadmap is moving so slowly? Why does it still seem to take so long to get from understanding the customer’s pain point to actually solving that pain point in the product?<br /><br />In this talk, Joseph will help answer why most of our product work is actually bigger, slower, and less outcome-based than we realize. He’ll draw from his experience leading product in a B2B2C environment with billion-dollars clients and hundreds of thousands of end customers, as he shares the simple, but powerful practice that can help your product team start consistently delivering customer value within days, rather than weeks or months.",
+	'day' => 1,
+	'slot' => 3,
+	'speaker' => 'josephdraschil'
+);
+
+// Albert Candari
+$talks[] = array(
+	'title' => 'The penalty of design and product leadership',
+	'description' => "When you are a true product and design leader, you challenge the status quo, the norm, and the populous opinion. This journey can be hard, lonely, and has its penalties: being criticized by detractors, questioned by popular opinions, and challenged in all different directions including your own organization. This talk will focus on the strategies on how to achieve true product and design leadership in your organization. Albert will share the difference between status quo and world-class product and design leadership, including the pitfalls of leadership and how to avoid them. The path to something outstanding is always uphill, but like anything great in this world, it will be worth the effort. ",
+	'day' => 1,
+	'slot' => 7,
+	'speaker' => 'albertcandari'
+);
+
+// Amy Worthington
+$talks[] = array(
+	'title' => 'When being scrappy got in the way',
+	'description' => "When being scrappy got in the way. We had a project in late 2020 and early 2021 where we initially set out with the intent of being scrappy, iterating early and often, and just going out to see what we could learn in trying to solve a problem as quickly as possible. But the idea of being scrappy ended up costing us more time, more re-work, and a lot more pain in the end. I can share the pitfalls we fell into, the things that got in our way, and the things we learned and eventually applied that helped us get to a viable solution more quickly.<br /><br />Avoiding the yes trap and focusing on the essentials. Because we're moving an existing product, that has existing customers using it, it's been really tempting for us to feel like we need to ensure that everything customers have today will exist in some form once it moves into the BHR product. We've worked really hard to be intentional with the yeses that we say, and are relentless with our no's, even when it's hard. This exercise has allowed us to stay focused on customer need, our target market, and the minimum viable and delightful version we'd focus on customers having if we were building things completely from scratch.",
+	'day' => 1,
+	'slot' => 4,
+	'speaker' => 'amyworthington'
+);
 
 
 
