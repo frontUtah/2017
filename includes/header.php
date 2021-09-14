@@ -110,7 +110,7 @@ switch($uri_parts[0]) {
 			<header class="section-header">
 				<nav class="section-nav">
 					<div class="section-nav-head">
-						<h3 class="logo">Front</h3>
+						<a href="/conference"><h3 class="logo">Front</h3></a>
 						<button class="menu-toggle"></button>
 					</div>
 					<ul>';
@@ -144,7 +144,7 @@ switch($uri_parts[0]) {
 			<header class="section-header">
 				<nav class="section-nav">
 					<div class="section-nav-head">
-						<h3 class="logo">Front</h3>
+						<a href="/workshops"><h3 class="logo">Front</h3></a>
 						<button class="menu-toggle"></button>
 					</div>
 					<ul>';
@@ -178,7 +178,7 @@ switch($uri_parts[0]) {
 			<header class="section-header">
 				<nav class="section-nav">
 					<div class="section-nav-head">
-						<h3 class="logo">Front</h3>
+						<a href="/training"><h3 class="logo">Front</h3></a>
 						<button class="menu-toggle"></button>
 					</div>';
 
@@ -214,7 +214,7 @@ switch($uri_parts[0]) {
 			<header class="section-header">
 				<nav class="section-nav">
 					<div class="section-nav-head">
-						<h3 class="logo">Front</h3>
+						<a href="/consite"><h3 class="logo">Front</h3></a>
 						<button class="menu-toggle"></button>
 					</div>
 					<ul>';
