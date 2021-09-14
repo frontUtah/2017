@@ -203,7 +203,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<li>Fitness center</li>
 						<li>Heated indoor pool</li>
 						<li>Non-smoking rooms</li>
-						<li>3 minute walk from conference</li>
+						<!-- li>3 minute walk from conference</li -->
+						<li>Downtown nightlife</li>
 					</ul>
 				</div>
 				<div class="book-hotel">
