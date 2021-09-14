@@ -145,8 +145,8 @@ $talks[] = array(
 
 // Amy Worthington
 $talks[] = array(
-	'title' => 'When being scrappy got in the way',
-	'description' => "When being scrappy got in the way. We had a project in late 2020 and early 2021 where we initially set out with the intent of being scrappy, iterating early and often, and just going out to see what we could learn in trying to solve a problem as quickly as possible. But the idea of being scrappy ended up costing us more time, more re-work, and a lot more pain in the end. I can share the pitfalls we fell into, the things that got in our way, and the things we learned and eventually applied that helped us get to a viable solution more quickly.<br /><br />Avoiding the yes trap and focusing on the essentials. Because we're moving an existing product, that has existing customers using it, it's been really tempting for us to feel like we need to ensure that everything customers have today will exist in some form once it moves into the BHR product. We've worked really hard to be intentional with the yeses that we say, and are relentless with our no's, even when it's hard. This exercise has allowed us to stay focused on customer need, our target market, and the minimum viable and delightful version we'd focus on customers having if we were building things completely from scratch.",
+	'title' => 'Avoiding the pitfalls of the MVP mindset',
+	'description' => "We're often told as Product Teams to focus on creating the most minimally viable product we can while also prioritizing customer needs. We don't talk often enough about the times when our attempts at being scrappy have gotten in the way, and end up costing us more time, more re-work, and unnecessary pain for both customers and internal teams.<br /><br />This case study will cover pitfalls that are easy to fall into when you're driven to learn quickly, the steps you can take up front to avoid those gotchas, as well as the key ways to ensure that you're intentional with your yeses, and relentless with your no's when prioritizing what you will and won't build for your customers.",
 	'day' => 1,
 	'slot' => 4,
 	'speaker' => 'amyworthington'
