@@ -147,7 +147,7 @@ $talks[] = array(
 $talks[] = array(
 	'title' => 'Avoiding the pitfalls of the MVP mindset',
 	'description' => "We're often told as Product Teams to focus on creating the most minimally viable product we can while also prioritizing customer needs. We don't talk often enough about the times when our attempts at being scrappy have gotten in the way, and end up costing us more time, more re-work, and unnecessary pain for both customers and internal teams.<br /><br />This case study will cover pitfalls that are easy to fall into when you're driven to learn quickly, the steps you can take up front to avoid those gotchas, as well as the key ways to ensure that you're intentional with your yeses, and relentless with your no's when prioritizing what you will and won't build for your customers.",
-	'day' => 1,
+	'day' => 2,
 	'slot' => 4,
 	'speaker' => 'amyworthington'
 );
