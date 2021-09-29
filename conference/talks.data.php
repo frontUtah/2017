@@ -116,13 +116,13 @@ $talks[] = array(
 	'speaker' => 'danielfalabella'
 );
 
-// Christopher Fryer
+// Kyle Jacobsen
 $talks[] = array(
-	'title' => 'Team takeover: Moving from hostile to profitable',
-	'description' => "Taking over an existing team is always hard. You’ve just been hired or promoted and expectations are high. It can be tempting as a new leader to jump in and start driving for results, command and control style: improve core metrics, make changes to the design, move the needle! Chris Fryer, Chief Product Officer at Homie will show you a completely different approach that leads to longer lasting customer impact while also inspiring trust and commitment from your new team and those that put you in charge.",
+	'title' => 'Idea to product, product to business',
+	'description' => "Let’s explore what it’s like to take the product idea you have from your kitchen table to the marketplace. We’ll study the journey of Everee and how I quickly learned that we weren’t just building a product but a business. We’ll explore how we assessed our idea, built our team, determined our funding strategy, assessed product market fit, measured our success, monetized our product investments and did all of this while maintaining our day job. In the end, you'll leave with a blueprint of how you can act on your own idea.",
 	'day' => 2,
 	'slot' => 6,
-	'speaker' => 'christopherfryer'
+	'speaker' => 'kylejacobsen'
 );
 
 // Joseph Draschil

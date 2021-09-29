@@ -169,19 +169,19 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/danielfalabella/'
 );
 
-// Christopher Fryer
+// Kyle Jacobsen
 $speakers[] = array(
-	'slug' => 'christopherfryer',
-	'first' => 'Christopher',
-	'last' => 'Fryer',
+	'slug' => 'kylejacobsen',
+	'first' => 'Kyle',
+	'last' => 'Jacobsen',
 	'title' => 'Chief Product Officer',
-	'company' => 'Homie',
+	'company' => 'Everee',
 	'discipline' => 'product-management',
-	'photo' => 'headshots/christopherfryer.jpg',
-	'bio' => "Chris is a cowboy Viking dude that loves building teams and beautiful stuff. Designer turned CPO. Former Amazon, Redfin, and startup founder that can sling pixels and wield data in defense of users.",
+	'photo' => 'headshots/kylejacobsen.jpg',
+	'bio' => "Kyle has been building B2B SaaS since the dinosaurs roamed the earth. His journey has taken him across many different industries and in all stages of growth. He is now the CPO and Co-Founder of Everee.",
 	'twitter' => '',
 	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/christopherfryer/'
+	'linkedin' => 'https://www.linkedin.com/in/kylejacobsen/'
 );
 
 // Taylor Palmer 
