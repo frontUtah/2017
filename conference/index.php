@@ -2,7 +2,7 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Front UX & Product Management Case Study Conference, 29 Sep - 1 Oct 2021';
+$title = 'Front UX & Product Management Case Study Conference, 6-8 April 2022';
 
 $meta['twitter']['card'] = "Front is the product conference for UX designers and product managers. It's a practitioner’s conference. Attendees come for an education, real world, from-the-trenches case studies, and hands-on training from their peers. It's four days of learning and growth, providing answers to deep organizational questions and insights into how to validate and solve the right problems in the right way.";
 $meta['twitter']['site'] = '@front';
@@ -24,18 +24,16 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<h1>UX &amp; Product Management Case Study Conference</h1>
 			<p>
 				<ul>
-					<li>2 days • 16 talks with audience-led Q&A</li>
+					<li>3 days • 16 talks with audience-led Q&A</li>
 					<li>800+ product designers and managers</li>
 				</ul>
 			</p>
-			<p class="date-location">30 Sep-1 Oct 2021 • Salt Lake City, Utah</p>
+			<p class="date-location">6-8 April 2022 • Salt Lake City, Utah</p>
 			<!--- <a href="http://www.pluralsight.com"><img id="broughtoyouby" src="/images/frontworkshops18/premeir-sponsor.png" /></a> -->
 			<p><a href="/conference/registration" class="button">Register</a></p>
 		</section>
-	 	<section class="notice">
-	 		<h2>COVID Safety Policy</h2>
-	  		<p>The safety and well-being of our attendees, speakers, instructors, sponsors, and staff is our top priority. These unprecedented times call for unprecedented levels of compassion, charity, and wisdom, with each of us doing our part to limit the spread of this virus. As a business that brings large groups of people together, we take this responsibility seriously. We offer you our commitment that we will only host events that we feel can be done safely. We are continuously monitoring developments of the COVID-19 pandemic, reviewing guidelines from the CDC, and collaborating with local government agencies to implement necessary protocols.<br /><br />Please review our <a href="/covid-safety-policy">COVID Safety Policy</a> for upcoming events.</p>
-	 	</section>
+
+
 		<section class="training-courses">
 			<h2>Build better products</h2>
 			<p>Join us in beautiful Salt Lake City, for two full days of
@@ -110,9 +108,6 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<h2>Sponsors</h2>
 			<!-- <a href="http://www.pluralsight.com" target="_blank"><img id="premier" src="/images/sponsors/pluralsight.svg" /></a> -->
 			<ul class="second_tier">
-				<li class="second_tier_sponsor"><a href="https://www.heap.io" target="_blank"><img src="/images/sponsors/heap.svg" height="60px" /></a></li>
-				<li class="second_tier_sponsor"><a href="https://www.grain.co" target="_blank"><img src="/images/sponsors/grain.svg" height="60px" /></a></li>
-				<li class="second_tier_sponsor"><a href="https://progleasing.com" target="_blank"><img src="/images/sponsors/progressive.svg" height="60px" /></a></li>
 				<li class="second_tier_sponsor"><a href="https://underbelly.is" target="_blank"><img src="/images/sponsors/underbelly.svg" height="60px" /></a></li>
 
 				<!--
@@ -164,13 +159,14 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		<p>
 			<a href="/conference/videos" class="button">Watch More</a>
 		</p>
-	</section>
+		</section>
+		
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
-			<p>In it's 6th year, Front is a sell-out event, with
-				<strong>800 annual attendees from 8 countries and 34 states</strong>
-				across the US. Join us at the Front to share, learn, and be inspired
-				to create amazing products.</p>
+			<p>In it's 7th year, Front is a sell-out event, with a 
+				<strong>1,000 annual attendees from across the country 
+				and around the world.</strong> Join us at the Front to 
+				share, learn, and be inspired to create amazing products.</p>
 			<p><a href="/conference/registration" class="button">Register</a></p>
 		</section>
 	</main>

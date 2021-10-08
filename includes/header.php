@@ -99,7 +99,7 @@ foreach($sorted_global_nav as $key => $nav) {
 switch($uri_parts[0]) {
 	case 'conference':
 
-		$conference_nav[] = array('link' => 'talks', 'text' => 'Talks & schedule', 'class' => '');
+		//$conference_nav[] = array('link' => 'talks', 'text' => 'Talks & schedule', 'class' => '');
 		$conference_nav[] = array('link' => 'speakers', 'text' => 'Speakers', 'class' => '');
 		$conference_nav[] = array('link' => 'venue', 'text' => 'Venue', 'class' => '');
 		$conference_nav[] = array('link' => 'faqs', 'text' => 'FAQs', 'class' => '');
@@ -132,8 +132,8 @@ switch($uri_parts[0]) {
 		break;
 	case 'workshops';
 
-		$workshops_nav[] = array('link' => 'courses', 'text' => 'Courses', 'class' => '');
-		$workshops_nav[] = array('link' => 'instructors', 'text' => 'Instructors', 'class' => '');
+		//$workshops_nav[] = array('link' => 'courses', 'text' => 'Courses', 'class' => '');
+		//$workshops_nav[] = array('link' => 'instructors', 'text' => 'Instructors', 'class' => '');
 		$workshops_nav[] = array('link' => 'venue', 'text' => 'Venue', 'class' => '');
 		$workshops_nav[] = array('link' => 'schedule', 'text' => 'Schedule', 'class' => '');
 		$workshops_nav[] = array('link' => 'faqs', 'text' => 'FAQs', 'class' => '');

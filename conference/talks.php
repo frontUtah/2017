@@ -1,8 +1,12 @@
 <?php
 
+// temp redirect until we have speakers again
+header('location: /conference', true, 307);
+exit();
+
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Talks - Front UX & Product Management Case Study Conference, 29 Sep - 1 Oct 2021';
+$title = 'Talks - Front UX & Product Management Case Study Conference, 6-8 April 2022';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
@@ -393,13 +397,14 @@ function print_talk($day, $slot) {
 				</ul>
 			</div>
 		</div>
-	</section>
+		</section>
+		
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
-			<p>In it's 6th year, Front is a sell-out event, with  
-				<strong>800 annual attendees from 8 countries and 34 states</strong> 
-				across the US. Join us at the Front to share, learn, and be inspired 
-				to create amazing products.</p>
+			<p>In it's 7th year, Front is a sell-out event, with a 
+				<strong>1,000 annual attendees from across the country 
+				and around the world.</strong> Join us at the Front to 
+				share, learn, and be inspired to create amazing products.</p>
 			<p><a href="/conference/registration" class="button">Register</a></p>
 		</section>
 </main>

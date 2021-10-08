@@ -9,12 +9,7 @@ require('includes/header.php');
 ?>
 
 <main class="home">
- 	<section class="notice">
- 		<h2>COVID Safety Policy</h2>
-  		<p>The safety and well-being of our attendees, speakers, instructors, sponsors, and staff is our top priority. These unprecedented times call for unprecedented levels of compassion, charity, and wisdom, with each of us doing our part to limit the spread of this virus. As a business that brings large groups of people together, we take this responsibility seriously. We offer you our commitment that we will only host events that we feel can be done safely. We are continuously monitoring developments of the COVID-19 pandemic, reviewing guidelines from the CDC, and collaborating with local government agencies to implement necessary protocols.<br /><br />Please review our <a href="/covid-safety-policy">COVID Safety Policy</a> for upcoming events.</p>
- 	</section>
-
-	<section class="hero">
+ 	<section class="hero">
 		<h1 class="logo">Front</h1>
 		<p>Inspiration and training for UX designers and product managers</p>
 		<h2>UX + PM</h2>
@@ -23,16 +18,16 @@ require('includes/header.php');
 		<ul>
 			<li>
 				<h3>Case Study Conference</h3>
-				<p class="date-location">30 Sep-1 Oct 2021, Salt Lake City</p>
+				<p class="date-location">6-8 April 2022, Salt Lake City</p>
 				<div href="https://www.youtube.com/watch?v=8f5QpAa1nh8" class="thumnail video-thumbnail recap-video">
 					<img src="images/conf-scene001.jpg" alt="" style="width: 413px;">
 				</div>
-				<p class="description">A 2 day, in-depth series of from-the-trenches case studies by innovative user experience designers and product managers.</p>
+				<p class="description">A 3 day, in-depth series of from-the-trenches case studies by innovative user experience designers and product managers.</p>
 				<p><a href="/conference" class="button">Learn More</a></p>
 			</li>
 			<li>
 				<h3>Workshop Series</h3>
-				<p class="date-location">November 2022, Salt Lake City</p>
+				<p class="date-location">2-4 November 2022, Salt Lake City</p>
 				<div href="https://www.youtube.com/watch?v=AU8QI7wPzoc" class="thumnail video-thumbnail recap-video">
 					<img src="images/conf-scene002.jpg" alt="" style="width: 413px;">
 				</div>
@@ -106,10 +101,10 @@ require('includes/header.php');
 		</p>
 	</section>
 	<section class="attendee-stats">
-		<p>In it's 6th year, Front is a sell-out event, with a 
-			<strong>1,000 annual attendees from 5 countries and 31 states</strong> 
-			across the US. Join us at the Front to share, learn, and be inspired 
-			to create amazing products.</p>
+		<p>In it's 7th year, Front is a sell-out event, with a 
+			<strong>1,000 annual attendees from across the country 
+			and around the world.</strong> Join us at the Front to 
+			share, learn, and be inspired to create amazing products.</p>
 	</section>
 </main>
 

@@ -2,7 +2,7 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Front UX & Product Management Workshop Series, 8-10 November 2021';
+$title = 'Front UX & Product Management Workshop Series, 2-4 November 2022';
 
 $meta['twitter']['card'] = "Front is the product conference for UX designers and product managers. It's a practitioner’s conference. Attendees come for an education, real world, from-the-trenches case studies, and hands-on training from their peers. It's four days of learning and growth, providing answers to deep organizational questions and insights into how to validate and solve the right problems in the right way.";
 $meta['twitter']['site'] = '@front';
@@ -28,7 +28,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li>250+ product designers and managers</li>
 				</ul>
 			</p>
-			<p class="date-location">November 2022 • Salt Lake City, Utah</p>
+			<p class="date-location">2-4 November 2022 • Salt Lake City, Utah</p>
 			<!-- <a href="http://www.pendo.io"><img id="broughtoyouby" src="/images/frontpc18/broughttoyouby_pendo.png" /></a> -->
 			<p><a href="/workshops/registration" class="button">Register</a></p>
 		</section>

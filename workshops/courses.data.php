@@ -6,58 +6,7 @@
  * System supports instructors teaching more than one course.
  */
 
-
-// USER EXPERIENCE
-
-// Garth Braithwaite
-$courses[] = array(
-	'title' => 'How to Establish and Maintain a Design System',
-	'description' => "As teams and products grow it can become complicated to maintain consistency across all properties, additionally, there is often a duplication of initial work for each product starting from scratch. By establishing and maintaining a company-wide design language and design system implementation, teams are better equipped to ensure consistency, reduce duplication of work, and improve overall design and code quality.<br><br.In this workshop, you will get hands-on experience with initial ideation and planning of a design system, as well as designing initial tokens, components, assets, and usage guidelines. Along the way, we'll discuss common pitfalls and pain points associated with organizing a design system and establishing it throughout a company.",
-	'track' => 'ux',
-	'day' => 1,
-	'slot' => 1,
-	'instructor' => 'garthdbraithwaite',
-	'level' => 'basic',
-	'gumroad_product_id' => 'front-workshops-instructor-garthdbraithwaite',
-	'room' => 1
-);
-
-// Sophia Prater
-$courses[] = array(
-	'title' => 'Tackle complexity with object-oriented UX',
-	'description' => "The best time to get super-curious about all the unknown unknowns is early on in a project. But all too often, we end up brushing complex business rules and information architecture aside in the name of “low fidelity.” Unfortunately, as we avoid asking hard questions to our users, stakeholders, and developers — while designing features and screens without full context  — we end up with piles of rework. In this workshop, you’ll learn about the four tough questions you should be asking early on—to make the rest of the project easier and more successful.<ul><li>What are the important objects?</li><li>What are their relationships to each other? </li><li>What do users want to do to these objects?</li><li>What is the structure of each object?</li></ul>And then, you’ll learn how to answer these four questions through collaborative, structured, and super-effective exercises. <br /><br />You’ll come out of the workshop with four new facilitation and design frameworks that will help you and your team tackle complex problems with confidence.",
-	'track' => 'ux',
-	'day' => 1,
-	'slot' => 1,
-	'instructor' => 'sophiaprater',
-	'level' => 'basic',
-	'room' => 2
-);
-
-// Vicky Thomas
-$courses[] = array(
-	'title' => 'Creating product vision from scratch',
-	'description' => "So you need a product vision... now what? This workshop is all about creating product vision and strategy from the ground up. We'll talk about the different components of an effective product vision and strategy, and how to create them. You'll leave the workshop with a gameplan to create these things for your team in 2 weeks or less.",
-	'track' => 'ux',
-	'day' => 1,
-	'slot' => 1,
-	'instructor' => 'vickythomas',
-	'level' => 'basic',
-	'room' => 3
-);
-
-// Jaekob Chenina
-$courses[] = array(
-	'title' => 'How to create intelligent products',
-	'description' => "According to Gartner “AI Technologies will be in almost every new software product by 2020”. With this explosion of AI products, many will fail. However, there are common trends that are emerging among the intelligent products that are succeeding. So what is it, that makes an AI product that customers love? In this workshop, you will deep dive on the most relevant concepts across various disciplines that help answer this question.<br /><br /><ul><li>You will learn:</li><li>Analytics for AI products</li><li>Machine Learning for AI products</li><li>UX for AI Products</li><li>Common Use Cases for AI Products</li><li>Discovering AI Product Opportunities</li></ul><br /><br />You will also learn how to embed AI into your software development methodology and design an effective AI product team. Through exercises, case-studies and lessons learned, this workshop will empower your product team with an actionable path to incorporate AI in an impactful way into your business.",
-	'track' => 'ux',
-	'day' => 1,
-	'slot' => 1,
-	'instructor' => 'jaekobchenina',
-	'level' => 'intermediate',
-	'room' => 4
-);
-
+$courses[] = array();
 
 
 /*

@@ -1,14 +1,12 @@
 <?php
 
 // off-season
-/*
 header('location: /workshops', true, 307);
 exit();
-*/
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Instructors - Front UX & Product Management Workshop Series, 8-10 November 2021';
+$title = 'Instructors - Front UX & Product Management Workshop Series, 2-4 November 2022';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 

@@ -2,7 +2,7 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Registration - Front UX & Product Management Case Study Conference, 29 Sep - 1 Oct 2021';
+$title = 'Registration - Front UX & Product Management Case Study Conference, 6-8 April 2022';
 
 //$meta['twitter']['card'] = "Early bird passes are $500, that's 30% off if you purchase before April 1st. It gets even better if you bring your team. Tickets are only $450 each for groups of 10+, which is 35% off on the full price passes.";
 $meta['twitter']['card'] = "Early bird passes are $500, that's 30% off if you purchase before April 1st. It gets even better if you bring your team. Tickets are only $450 each for groups of 10+, which is 35% off on the full price passes.";
@@ -27,12 +27,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		<section class="registration-about">
 			<h2>Registration</h2>
 			<p class="about-registration-about">
-			
-			<!--	
-			Front UX & Product Management Case Study Conference returns in 2019 to the spacious and stunning Eccles Theater in downtown Salt Lake City. You don’t want to miss this. Take advantage of early bird pricing and our great discounts to bring your entire team. This will be the biggest, most engaging, and comprehensive conference yet. Join us for incredible insights, inspiration, and fun.
-			-->
-			
-			The safety and well-being of our attendees, speakers, instructors, sponsors, and staff is our top priority. These unprecedented times call for unprecedented levels of compassion, charity, and wisdom, with each of us doing our part to limit the spread of this virus. As a business that brings large groups of people together, we take this responsibility seriously. We offer you our commitment that we will only host events that we feel can be done safely. We are continuously monitoring developments of the COVID-19 pandemic, reviewing guidelines from the CDC, and collaborating with local government agencies to implement necessary protocols.<br /><br />Please review our <a href="/covid-safety-policy">COVID Safety Policy</a> for upcoming events.</p>
+			Front UX & Product Management Case Study Conference returns in 2022 to the spacious and stunning Eccles Theater in downtown Salt Lake City. You don’t want to miss this. Take advantage of early bird pricing and our great discounts to bring your entire team. This will be the biggest, most engaging, and comprehensive conference yet. Join us for incredible insights, inspiration, and fun.
 	 	</section>
 		
 		<section class="pricing">
@@ -40,18 +35,17 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			
 			
 			<!-- Early bird -->
-			<!--
 			
 			<div class="prices">
 				<dl class="pricing-types">
 					<dt><div></div></dt>
 					<dd class="early">
 						Early bird pricing
-						<small>30% off through 15 July 2021</small>
+						<small>30% off through 2 February 2022</small>
 					</dd>
 					<dd class="standard">
 						Standard pricing
-						<small>Starting 16 July 2021</small>
+						<small>Starting 3 February 2022</small>
 					</dd>
 				</dl>
 				<dl class="full">
@@ -80,9 +74,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<dd class="standard">$630</dd>
 				</dl>
 			</div>
-			-->
 			
 			<!-- Standard -->
+			<!--
 			
 			<div class="prices">
 				<dl class="full">
@@ -108,11 +102,12 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<dd class="early">$630</dd>
 				</dl>
 			</div>
+			-->
 			
 			
 			
 			
-			<div id="eventbrite-widget-container-64259032496"></div>
+			<div id="eventbrite-widget-container-184315822587"></div>
 			
 			<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 			
@@ -124,8 +119,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			    window.EBWidgets.createWidget({
 			        // Required
 			        widgetType: 'checkout',
-			        eventId: '64259032496',
-			        iframeContainerId: 'eventbrite-widget-container-64259032496',
+			        eventId: '184315822587',
+			        iframeContainerId: 'eventbrite-widget-container-184315822587',
 			
 			        // Optional
 			        iframeContainerHeight: 1000,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
@@ -139,15 +134,15 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		<a id="hotels"></a><section class="accomodations">
 			<h2>Hotels</h2>
 
-			<!-- p class="about-accomodations"><em>We are working to secure a discounted rate at a preferred hotel.</em></p -->
+			<p class="about-accomodations"><em>We are working to secure a discounted rate at a preferred hotel.</em></p>
 
+			<!--
 			<p class="about-accomodations">We have acquired discounted nightly rate of $189/night + tax (20% off)
 				for a single king at the Hilton Salt Lake City Center. We encourage you to register 
 				early as these rates are only available for a limit number of rooms. Book your room 
 				through the button below or by calling their front desk and asking for the “Front 
 				Conference” group discount.</p> 
 			
-			<!--
 			<div class="hotel">
 				<div class="hotel-info">
 					<h3>Salt Lake Marriott Downtown at City Creek</h3>
@@ -189,7 +184,6 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<p><a target="_blank" href="https://www.marriott.com/events/start.mi?id=1582752880198&key=GRP" class="button">Book now</a></p>
 				</div>
 			</div>
-			-->
 			
 			<div class="hotel">
 				<div class="hotel-info">
@@ -203,7 +197,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<li>Fitness center</li>
 						<li>Heated indoor pool</li>
 						<li>Non-smoking rooms</li>
-						<!-- li>3 minute walk from conference</li -->
+						<li>3 minute walk from conference</li>
 						<li>Downtown nightlife</li>
 					</ul>
 				</div>
@@ -212,6 +206,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<p><a target="_blank" href="https://book.passkey.com/e/50198749" class="button">Book now</a></p>
 				</div>
 			</div>
+			-->
 		</section>
 
 		

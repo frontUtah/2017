@@ -5,7 +5,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 $speaker = get_speaker($uri_parts[2]);
 $talks = get_talks($speaker['slug']);
 
-$title = $speaker['first'] . ' ' . $speaker['last'] . ' - Front UX & Product Management Case Study Conference, 29 Sep - 1 Oct 2021';
+$title = $speaker['first'] . ' ' . $speaker['last'] . ' - Front UX & Product Management Case Study Conference, 6-8 April 2022';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
@@ -408,10 +408,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>
-			<p>In it's 6th year, Front is a sell-out event, with  
-				<strong>800 annual attendees from 8 countries and 34 states</strong> 
-				across the US. Join us at the Front to share, learn, and be inspired 
-				to create amazing products.</p>
+			<p>In it's 7th year, Front is a sell-out event, with a 
+				<strong>1,000 annual attendees from across the country 
+				and around the world.</strong> Join us at the Front to 
+				share, learn, and be inspired to create amazing products.</p>
 			<p><a href="/conference/registration" class="button">Register</a></p>
 		</section>
 	</main>

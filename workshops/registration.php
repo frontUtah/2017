@@ -2,7 +2,7 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Registration - Front UX & Product Management Workshop Series, 8-10 November 2021';
+$title = 'Registration - Front UX & Product Management Workshop Series, 2-4 November 2022';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
@@ -31,11 +31,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<dt><div></div></dt>
 					<dd class="early">
 						Early bird pricing
-						<small>25% off through 8 September 2022</small>
+						<small>25% off through 2 September 2022</small>
 					</dd>
 					<dd class="standard">
 						Standard pricing
-						<small>Starting 9 September 2022</small>
+						<small>Starting 3 September 2022</small>
 					</dd>
 				</dl>
 				<dl class="full">
@@ -96,9 +96,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			
 			
 
-			<!--
 			
-			<div id="eventbrite-widget-container-115533081557"></div>
+			<div id="eventbrite-widget-container-188604369747"></div>
 			
 			<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 			
@@ -110,8 +109,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			    window.EBWidgets.createWidget({
 			        // Required
 			        widgetType: 'checkout',
-			        eventId: '115533081557',
-			        iframeContainerId: 'eventbrite-widget-container-115533081557',
+			        eventId: '188604369747',
+			        iframeContainerId: 'eventbrite-widget-container-188604369747',
 			
 			        // Optional
 			        iframeContainerHeight: 1000,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
@@ -119,8 +118,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			    });
 			</script>
 			
-			-->
 
+			<!--
 			
 			<h5 class="soldout">SALES BEGIN SOON</h5>
 			
@@ -128,7 +127,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				for our <a href="/conference">case study conference</a> in September and <a href="/mailinglist">join our 
 				mailing list</a> to be notified when tickets to next year's workshops go on sale.</p>
 				
-			
+			-->
 			
 			<!-- SOLD OUT 
 			
