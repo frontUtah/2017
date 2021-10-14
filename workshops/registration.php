@@ -145,9 +145,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		<section class="accomodations">
 			<h2>Hotel</h2>
 			
-			<p class="about-accomodations"><em>We are working to secure a discounted rate at a preferred hotel.</em></p>
 
 			<!--
+			<p class="about-accomodations"><em>We are working to secure a discounted rate at a preferred hotel.</em></p>
+			-->
 
 			<p class="about-accomodations">We have acquired discounted nightly rate of $145/night + tax (30% off)
 				for a single king bed at the Salt Lake City Marriott University Park. We encourage you to register 
@@ -171,11 +172,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</ul>
 				</div>
 				<div class="book-hotel">
-					<p>Act quickly to get the conference discount rate of <strong>$145/night</strong> (30% off).</p>
+					<p>Act quickly to get the conference discount rate of <strong>$145/night</strong> (30% off). Must be booked by 21 Oct 2022.</p>
 					<p><a target="_blank" href="https://www.marriott.com/events/start.mi?id=1622152952153&key=GRP" class="button">Book now</a></p>
 				</div>
 			</div>
-			-->
 			
 		</section>
 		
