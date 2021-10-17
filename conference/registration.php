@@ -134,15 +134,34 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		<a id="hotels"></a><section class="accomodations">
 			<h2>Hotels</h2>
 
-			<p class="about-accomodations"><em>We are working to secure a discounted rate at a preferred hotel.</em></p>
-
 			<!--
-			<p class="about-accomodations">We have acquired discounted nightly rate of $189/night + tax (20% off)
-				for a single king at the Hilton Salt Lake City Center. We encourage you to register 
-				early as these rates are only available for a limit number of rooms. Book your room 
-				through the button below or by calling their front desk and asking for the “Front 
-				Conference” group discount.</p> 
+			<p class="about-accomodations"><em>We are working to secure a discounted rate at a preferred hotel.</em></p>
+			-->
+
+			<p class="about-accomodations">We have acquired discounted nightly rate of $159/night + tax (20% off) for a single king at the Salt Lake City Marriott City Center. We encourage you to register early as these rates are only available for a limit number of rooms. Book your room through the button below or by calling their front desk and asking for the “Front Utah" group discount.</p> 
 			
+			<div class="hotel">
+				<div class="hotel-info">
+					<h3>Salt Lake City Marriott City Center</h3>
+					<p>220 South State Street, Salt Lake City, Utah 84111 USA<p>
+					<p>Reservations: 866.961.8700</p>
+					<ul>
+						<li>King or double queen beds</li>
+						<li>Complimentary fitness center</li>
+						<li>Complimentary high-speed internet</li>
+						<li>Onsite and in-room dining services</li>
+						<li>Heated outdoor pool</li>
+						<li>Smoke-free facility</li>
+						<li>6 minute walk from conference</li>
+					</ul>
+				</div>
+				<div class="book-hotel">
+					<p>Act quickly to get the conference discount rate of <strong>$159/night</strong> (30% off). Must be booked by 16 Mar 2022.</p>
+					<p><a target="_blank" href="https://www.marriott.com/events/start.mi?id=1582752880198&key=GRP" class="button">Book now</a></p>
+				</div>
+			</div>
+			
+			<!--
 			<div class="hotel">
 				<div class="hotel-info">
 					<h3>Salt Lake Marriott Downtown at City Creek</h3>
@@ -161,27 +180,6 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				<div class="book-hotel">
 					<p>Act quickly to get the conference discount rate of <strong>$139/night</strong> (25% off).</p>
 					<p><a target="_blank" href="https://www.marriott.com/events/start.mi?id=1601932878912&key=GRP" class="button">Book now</a></p>
-				</div>
-			</div>
-			
-			<div class="hotel">
-				<div class="hotel-info">
-					<h3>Salt Lake City Marriott City Center</h3>
-					<p>220 South State Street, Salt Lake City, Utah 84111 USA<p>
-					<p>Reservations: 888.236.2427</p>
-					<ul>
-						<li>King or double queen beds</li>
-						<li>Complimentary fitness center</li>
-						<li>Complimentary high-speed internet</li>
-						<li>Onsite and in-room dining services</li>
-						<li>Heated outdoor pool</li>
-						<li>Smoke-free facility</li>
-						<li>7 minute walk from conference</li>
-					</ul>
-				</div>
-				<div class="book-hotel">
-					<p>Act quickly to get the conference discount rate of <strong>$159/night</strong> (30% off).</p>
-					<p><a target="_blank" href="https://www.marriott.com/events/start.mi?id=1582752880198&key=GRP" class="button">Book now</a></p>
 				</div>
 			</div>
 			
