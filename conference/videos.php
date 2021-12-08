@@ -12,7 +12,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 ?>
 	<main class="secondary product-speakers-front">
 		<section class="hero">
-			<h1>Five years of exceptional case studies</h1>
+			<h1>Six years of exceptional case studies</h1>
 		</section>
 		<!--
 		<section class="personal-stories">
