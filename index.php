@@ -81,7 +81,7 @@ require('includes/header.php');
 					<p>How to truly align your product and sales teams: 5 things we learned at Divvy</p>
 				</li>
 				<li>
-					<div href="https://www.youtube.com/watch?v=5VT-D9hkyq8" class="card-image recap-video"><img src="/images/frontconference21/ront_design_conference_albertcandari.png" alt=""></div>
+					<div href="https://www.youtube.com/watch?v=5VT-D9hkyq8" class="card-image recap-video"><img src="/images/frontconference21/front_design_conference_albertcandari.png" alt=""></div>
 					<h3>Albert Candari</h3>
 					<p>The penalty of design and product leadership</p>
 				</li>
