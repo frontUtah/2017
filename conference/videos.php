@@ -52,6 +52,92 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		</section>
 	-->
 		<section class="personal-stories">
+			<h2>2021</h2>
+			<ul class="story-cards">
+				<li>
+					<div href="https://www.youtube.com/watch?v=r7XgY06WySs" class="card-image recap-video"><img src="/images/frontconference21/front_product_conference_amyworthington.png" alt=""></div>
+					<h3>Amy Worthington</h3>
+					<p><a href="https://www.youtube.com/watch?v=r7XgY06WySs" class="recap-video">Avoiding the pitfalls of the MVP mindset</a></p>
+				</li>
+				<li>
+					<div href="https://www.youtube.com/watch?v=n4C3tSOf9hM" class="card-image recap-video"><img src="/images/frontconference21/front_product_conference_kaelaworthen.png" alt=""></div>
+					<h3>Kaela Worthen</h3>
+					<p><a href="https://www.youtube.com/watch?v=n4C3tSOf9hM" class="recap-video">What do you do when no one cares about your product?</a></p>
+				</li>
+				<li>
+					<div href="https://www.youtube.com/watch?v=enPR_YyvBjo" class="card-image recap-video"><img src="/images/frontconference21/front_product_conference_kylejacobsen.png" alt=""></div>
+					<h3>Kyle Jacobsen</h3>
+					<p><a href="https://www.youtube.com/watch?v=enPR_YyvBjo" class="recap-video">Idea to product, product to business</a></p>
+				</li>
+				<li>
+					<div href="https://www.youtube.com/watch?v=hGKGqypkbVY" class="card-image recap-video"><img src="/images/frontconference21/front_design_conference_gabrielvaldivia.png" alt=""></div>
+					<h3>Gabriel Valdivia</h3>
+					<p><a href="https://www.youtube.com/watch?v=hGKGqypkbVY" class="recap-video">Private by default</a></p>
+				</li>
+				<li>
+					<div href="https://www.youtube.com/watch?v=uqxfRYmgn6Y" class="card-image recap-video"><img src="/images/frontconference21/front_design_conference_davidmerkoski.png" alt=""></div>
+					<h3>David Merkoski</h3>
+					<p><a href="https://www.youtube.com/watch?v=uqxfRYmgn6Y" class="recap-video">Reference design</a></p>
+				</li>
+				<li>
+					<div href="https://www.youtube.com/watch?v=mjFDKNFrI6c" class="card-image recap-video"><img src="/images/frontconference21/front_product_conference_danielfalabella.png" alt=""></div>
+					<h3>Daniel Falabella</h3>
+					<p><a href="https://www.youtube.com/watch?v=mjFDKNFrI6c" class="recap-video">How should you be thinking about improving retention?</a></p>
+				</li>
+				<li>
+					<div href="https://www.youtube.com/watch?v=_DJ3SyUT7zw" class="card-image recap-video"><img src="/images/frontconference21/front_product_conference_josephdraschil.png" alt=""></div>
+					<h3>Joseph Draschil</h3>
+					<p><a href="https://www.youtube.com/watch?v=_DJ3SyUT7zw" class="recap-video">Barnacles are killing your product team's flow</a></p>
+				</li>
+				<li>
+					<div href="https://www.youtube.com/watch?v=env7NpBzdmc" class="card-image recap-video"><img src="/images/frontconference21/front_design_conference_taylorpalmer.png" alt=""></div>
+					<h3>Taylor Palmer</h3>
+					<p><a href="https://www.youtube.com/watch?v=env7NpBzdmc" class="recap-video">UX research: All together now</a></p>
+				</li>
+				<li>
+					<div href="https://www.youtube.com/watch?v=Zla3NLnAOUQ" class="card-image recap-video"><img src="/images/frontconference21/front_design_conference_garthbraithwaite.png" alt=""></div>
+					<h3>Garth Braithwaite</h3>
+					<p><a href="https://www.youtube.com/watch?v=Zla3NLnAOUQ" class="recap-video">How to establish and maintain a design system</a></p>
+				</li>
+				<li>
+					<div href="https://www.youtube.com/watch?v=WYvUbt_JBDE" class="card-image recap-video"><img src="/images/frontconference21/front_product_conference_lauraluttmer.png" alt=""></div>
+					<h3>Laura Luttmer</h3>
+					<p><a href="https://www.youtube.com/watch?v=WYvUbt_JBDE" class="recap-video">Saying goodbye to a good idea</a></p>
+				</li>
+				<li>
+					<div href="https://www.youtube.com/watch?v=EtGKixhYZ30" class="card-image recap-video"><img src="/images/frontconference21/front_design_conference_margaretlee.png" alt=""></div>
+					<h3>Margaret Lee</h3>
+					<p><a href="https://www.youtube.com/watch?v=EtGKixhYZ30" class="recap-video">It's alive! cultivating community & culture</a></p>
+				</li>
+				<li>
+					<div href="https://www.youtube.com/watch?v=ZvDQ9b22-_0" class="card-image recap-video"><img src="/images/frontconference21/front_product_conference_jayfichialos.png" alt=""></div>
+					<h3>Jay Fichialos</h3>
+					<p><a href="https://www.youtube.com/watch?v=ZvDQ9b22-_0" class="recap-video">Cultivating a research mindset</a></p>
+				</li>
+				<li>
+					<div href="https://www.youtube.com/watch?v=D-I-bbn4v9E" class="card-image recap-video"><img src="/images/frontconference21/front_design_conference_dillonwinspear.png" alt=""></div>
+					<h3>Dillon Winspear</h3>
+					<p><a href="https://www.youtube.com/watch?v=D-I-bbn4v9E" class="recap-video">I guess I'll manage</a></p>
+				</li>
+				<li>
+					<div href="https://www.youtube.com/watch?v=CL9wTb60alA" class="card-image recap-video"><img src="/images/frontconference21/front_product_conference_daverackham.png" alt=""></div>
+					<h3>Dave Rackham</h3>
+					<p><a href="https://www.youtube.com/watch?v=CL9wTb60alA" class="recap-video">Lessons learned from 451 days of cross-functional leadership at Pluralsight</a></p>
+				</li>
+				<li>
+					<div href="https://www.youtube.com/watch?v=2cqFujdy-9s" class="card-image recap-video"><img src="/images/frontconference21/front_product_conference_tylerhogge.png" alt=""></div>
+					<h3>Tyler Hogge</h3>
+					<p><a href="https://www.youtube.com/watch?v=2cqFujdy-9s" class="recap-video">How to truly align your product and sales teams: 5 things we learned at Divvy</a></p>
+				</li>
+				<li>
+					<div href="https://www.youtube.com/watch?v=5VT-D9hkyq8" class="card-image recap-video"><img src="/images/frontconference21/front_design_conference_albertcandari.png" alt=""></div>
+					<h3>Albert Candari</h3>
+					<p><a href="https://www.youtube.com/watch?v=5VT-D9hkyq8" class="recap-video">The penalty of design and product leadership</a></p>
+				</li>
+			</ul>
+		</section>
+
+		<section class="personal-stories">
 			<h2>2019</h2>
 			<ul class="story-cards">
 				<li>

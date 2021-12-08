@@ -66,34 +66,34 @@ require('includes/header.php');
 		<h2>Personal stories from innovative teams</h2>
 		<ul class="story-cards">
 				<li>
-					<div href="https://www.youtube.com/watch?v=opwJPuTsMrg" class="card-image recap-video"><img src="/images/frontconference19/thor_ernstsson.jpg" alt=""></div>
-					<h3>Thor Ernstsson</h3>
-					<p>The incumbents dilemma</p>
+					<div href="https://www.youtube.com/watch?v=mjFDKNFrI6c" class="card-image recap-video"><img src="/images/frontconference21/front_product_conference_danielfalabella.png" alt=""></div>
+					<h3>Daniel Falabella</h3>
+					<p>How should you be thinking about improving retention?</p>
 				</li>
 				<li>
-					<div href="https://www.youtube.com/watch?v=UvzoWmhxDTg" class="card-image recap-video"><img src="/images/frontconference19/matt_strom.jpg" alt=""></div>
-					<h3>Matt Ström</h3>
-					<p>Designing Change</p>
+					<div href="https://www.youtube.com/watch?v=D-I-bbn4v9E" class="card-image recap-video"><img src="/images/frontconference21/front_design_conference_dillonwinspear.png" alt=""></div>
+					<h3>Dillon Winspear</h3>
+					<p>I guess I'll manage</p>
 				</li>
 				<li>
-					<div href="https://www.youtube.com/watch?v=QIhqbB_Hn1k" class="card-image recap-video"><img src="/images/frontconference19/nate_walkingshaw.jpg" alt=""></div>
-					<h3>Nate Walkingshaw</h3>
-					<p>Organizational design: Going from features to experiences</p>
+					<div href="https://www.youtube.com/watch?v=2cqFujdy-9s" class="card-image recap-video"><img src="/images/frontconference21/front_product_conference_tylerhogge.png" alt=""></div>
+					<h3>Tyler Hogge</h3>
+					<p>How to truly align your product and sales teams: 5 things we learned at Divvy</p>
 				</li>
 				<li>
-					<div href="https://www.youtube.com/watch?v=lL_Mo6F2u44" class="card-image recap-video"><img src="/images/frontconference19/maggie_crowley.jpg" alt=""></div>
-					<h3>Maggie Crowley</h3>
-					<p>Your product is only as good as your teamwork</p>
+					<div href="https://www.youtube.com/watch?v=5VT-D9hkyq8" class="card-image recap-video"><img src="/images/frontconference21/ront_design_conference_albertcandari.png" alt=""></div>
+					<h3>Albert Candari/h3>
+					<p>The penalty of design and product leadership</p>
 				</li>
 				<li>
-					<div href="https://www.youtube.com/watch?v=uOM8cf0RqNA" class="card-image recap-video"><img src="/images/frontconference19/wade_shearer.jpg" alt=""></div>
-					<h3>Wade Shearer</h3>
-					<p>Letting go of process and accepting controlled chaos</p>
+					<div href="https://www.youtube.com/watch?v=uqxfRYmgn6Y" class="card-image recap-video"><img src="/images/frontconference21/front_design_conference_davidmerkoski.png" alt=""></div>
+					<h3>David Merkoski</h3>
+					<p>Reference design</p>
 				</li>
 				<li>
-					<div href="https://www.youtube.com/watch?v=o4YseYT95qM" class="card-image recap-video"><img src="/images/frontconference19/frank_yoo.jpg" alt=""></div>
-					<h3>Frank Yoo</h3>
-					<p>Gen 2</p>
+					<div href="https://www.youtube.com/watch?v=hGKGqypkbVY" class="card-image recap-video"><img src="/images/frontconference21/front_design_conference_gabrielvaldivia.png" alt=""></div>
+					<h3>Gabriel Valdivia</h3>
+					<p>Private by default</p>
 				</li>
 		</ul>
 		<p>
