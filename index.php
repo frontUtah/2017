@@ -34,15 +34,6 @@ require('includes/header.php');
 				<p class="description">A 3 day, hands-on workshop series to learn to create amazing products and work like the teams you hear from at Front.</p>
 				<p><a href="/workshops" class="button">Learn More</a></p>
 			</li>
-			<li>
-				<h3>On-demand workshops</h3>
-				<p class="date-location">Any time, anywhere</p>
-				<div class="thumnail">
-					<img src="images/conf-scene003.jpg" alt="" style="width: 413px;">
-				</div>
-				<p class="description">Kick-start or grow your career by streaming recorded workshops at your own pace and convenience.</p>
-				<p><a href="/ondemand" class="button">Learn More</a></p>
-			</li>
 		</ul>
 	</section>
 	<section class="about">
