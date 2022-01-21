@@ -157,7 +157,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</div>
 				<div class="book-hotel">
 					<p>Act quickly to get the conference discount rate of <strong>$159/night</strong> (30% off). Must be booked by 16 Mar 2022.</p>
-					<p><a target="_blank" href="https://www.marriott.com/events/start.mi?id=1582752880198&key=GRP" class="button">Book now</a></p>
+					<p><a target="_blank" href="https://www.marriott.com/events/start.mi?id=1634675728834&key=GRP" class="button">Book now</a></p>
 				</div>
 			</div>
 			
