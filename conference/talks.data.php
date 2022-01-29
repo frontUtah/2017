@@ -7,150 +7,51 @@
  */
 
 
-
-// Margaret	Lee
+// Brandon Gardner
 $talks[] = array(
-	'title' => "It's alive! cultivating community & culture",
-	'description' => "The nature of culture is organically formed by the attitudes of the community; conversely, community is grounded in its culture. Community and culture are naturally occuring in any work environment, and can symbiotically survive without intervention. Given their influence on the health of our team, why not give it an assist? In this talk, Margaret will reflect on the evolution of Google UX since 2007, a period marked by tectonic shifts in technology, a rise in consumer expectations, and the individuation of UX as a discipline. As the UX Director for Google Maps for nine years, she experienced firsthand the throes of constant change and rapid scale, and saw the same for her peers across the company. In 2016, Margaret seeded UX Community & Culture, a program that tackles the challenges and explores the opportunities that tend to fall between the organizational cracks. She’ll share the practical insights that can help you steer a team or organization of any size toward a healthy and thriving team culture.",
+	'title' => 'Product skill gaps: From start-ups to enterprises',
+	'description' => "At every level of the business life cycle there is a need for good product development (Product Management and UX). The principles of how to develop products at each stage seem to stay the same. However, the application of soft and hard skills can differ. In this presentation we will explore various case studies from flegingin start-ups, to Enterprises, to government bureaucracies and how application differed between each stage. By the end the audience will have a better understanding of what skills they need to develop to be successful at their companies stage.",
 	'day' => 1,
 	'slot' => 1,
-	'speaker' => 'margaretlee'
+	'speaker' => 'brandongardner'
 );
 
-// Gabriel Valdivia
+// Chris Fryer
 $talks[] = array(
-	'title' => 'Private by default',
-	'description' => "The future of software products is private, personalized, and on-demand. In this talk, Gabe will cover the lessons learned from the launch of private personalization startup Canopy's first consumer app, Tonic and how they can be applied to making future-proof decisions when designing products in 2021 and beyond.",
+	'title' => 'Team takeover: Moving from hostile to profitable',
+	'description' => "Taking over an existing team is always hard. You’ve just been hired or promoted and expectations are high. It can be tempting as a new leader to jump in and start driving for results, command and control style: improve core metrics, make changes to the design, move the needle! Chris Fryer, Chief Product Officer at Homie will show you a completely different approach that leads to longer lasting customer impact while also inspiring trust and commitment from your new team and those that put you in charge.",
+	'day' => 1,
+	'slot' => 2,
+	'speaker' => 'chrisfryer'
+);
+
+// Ethan Medeiros
+$talks[] = array(
+	'title' => 'How to show off YOU!',
+	'description' => "This talk is going to take you into a look at what Talent Acquisition looks for in a candidate. What are the in's and out's to make yourself more desirable to a company. This is what will make you shine when looking for a new opportunity. ",
+	'day' => 1,
+	'slot' => 3,
+	'speaker' => 'ethanmedeiros'
+);
+
+// Jared Lewandowski
+$talks[] = array(
+	'title' => 'Are we there yet? Why design strategy matters',
+	'description' => "Like any other department in an organization, design needs a strategy. A clear path forward, with a shared goal, and the ability to measure progress along the way. This strategy also needs to align with the rest of the organization to ensure we are not only delivering the right products and services, but we are also delivering joy and delight.<br /><br />I'm excited to share with you a design strategy framework I've found to be most successful, and the rise of UX metrics and outcome-driven products, in a recent case study from my current leadership role in crypto at Okcoin.",
 	'day' => 1,
 	'slot' => 4,
-	'speaker' => 'gabrielvaldivia'
+	'speaker' => 'jaredlewandowski'
 );
 
-// Kaela Worthen
+// Drew Bridewell
 $talks[] = array(
-	'title' => 'What do you do when no one cares about your product? How we turned Podium’s feedback tool from a failing beta to a successful launch',
-	'description' => "<p>When I joined Podium, our Feedback tool was in a precarious state. As one sales VP explained, “The percentage of customers we could sell this to is in the single digits.” There were discussions of killing the product completely. Six months later, we launched it publicly to all customers, and it went on to sell millions in the following year. Here’s how we got there, and how you can too.</p><p>With most products, there can be many obstacles to product-market fit:</p><ul><li>Wrong product</li><li>Wrong market</li><li>Wrong message</li></ul><p>I’ll cover specific tactics we used to understand the problem in all three of these areas, including:</p><ul><li>An internal listening tour</li><li>JTBD interviews with customers</li><li>Analyzing data</li><li>Exploring the ways customers were hacking the product</li><li>Evaluating against competitor options</li><li>And more...</li></ul><p>We’ll also discuss how we used that research to transform the product and its appeal… and the things we missed that created unexpected results.</p>",
-	'day' => 2,
-	'slot' => 7,
-	'speaker' => 'kaelaworthen'
-);
-
-// Laura Luttmer
-$talks[] = array(
-	'title' => 'Saying goodbye to a good idea',
-	'description' => "You've done extensive user research, you've investigated competing alternatives, you've crunched the numbers. After completing significant discovery work, you've become very invested in the problem and are excited about possible solutions … But you realize the right decision for the business is to pivot. In this presentation, I'll discuss my experience moving away from a favorite project and what I learned from the process - how to fail faster without the feeling of failure.",
-	'day' => 1,
-	'slot' => 6,
-	'speaker' => 'lauraluttmer'
-);
-
-// Dave Rackham
-$talks[] = array(
-	'title' => 'Lessons learned from 451 days of cross-functional leadership at Pluralsight',
-	'description' => "For years Pluralsight reaped the benefits of cross-functional teams but relied on a functional leadership org design. Come see what we learned in the last 451 days after moving to an org design where each leader is responsible for product, design, and engineering. While not a silver bullet, the new design has delivered on its promises. Teams no longer rely on multiple leaders—or experience the inevitable confusion that follows. They also enjoy less friction as they work together and collaborate more powerfully across teams. Whether you’re a leader, or a contributor, you’ll take home tactical lessons that will improve how you work with other disciplines.",
+	'title' => 'Take a deep breath&mdash; lets talk about the power of design intentention',
+	'description' => "\"Focus on the people, empower the community, the bring intention and context into all that we do\". This past year placed a magnifying glass on what matters most to each of us. Family, careers, joy, and life fulfillment. Whether you're a seasoned pro, or just getting into product and design you'll learn fast that without strong peer building networks, community, and support the pursuit of life fulfillment can feel like a lonesome path. However, it's 2022 and we live in an age of a technology boom, so many tools, so many opportunities, with limitless potential. In this talk, Drew will reflect on the evolution of GrowthDay, a 2021 Startup that was founded to help bring personal development to the world through the use of tools, community, and life coaching.  Built and founded during COVID, GrowthDay is a cross-platform personal development app. Led by world-renown 3-time New York Times bestselling author and High-performance coach, and CEO Brendon Burchard. GrowthDay had 20 years of research and has been serving the community without an app. You'll see what's possible in 1 year with great intention, responsibility, and empowerment. Drew will also uncover the power of how rituals and routines played into the early success of this platform. Drew will also discuss how he leveraged his training and development platform Next Level UX to develop frameworks around the most important areas of focus when building new companies, teams, and relationships while manifesting a rich learning and high-performance culture.",
 	'day' => 1,
 	'slot' => 5,
-	'speaker' => 'daverackham'
+	'speaker' => 'drewbridewell'
 );
 
-// Garth Braithwaite
-$talks[] = array(
-	'title' => 'How to establish and maintain a design system',
-	'description' => "<p>As teams and products grow it can become complicated to maintain consistency across all properties, additionally, there is often a duplication of initial work for each product starting from scratch. By establishing and maintaining a company-wide design language and design system implementation, teams are better equipped to ensure consistency, reduce duplication of work, and improve overall design and code quality.</p>",
-	'day' => 2,
-	'slot' => 8,
-	'speaker' => 'garthbraithwaite'
-);
-
-// Taylor Palmer
-$talks[] = array(
- 'title' => 'UX research: All together now',
- 'description' => "Integrating a thriving research practice into fast-moving engineering cadences can be tricky. There's no need to do this alone. I'll be sharing how I've partnered in the past with departments across various companies to bolster and support my UX research efforts.",
- 'day' => 2,
- 'slot' => 5,
- 'speaker' => 'taylorpalmer'
-);
-
-// Jay Fichialos
-$talks[] = array(
- 'title' => 'Cultivating a research mindset',
- 'description' => "Research can be scary. But the change in perspective that happens after you spend time connecting with customers is powerful, and the truths you learn are worth it. We're going to talk about how to bring more of that power to your work and maybe make it a little less scary. I like to call it the research mindset. It helps create new understanding about what’s possible, it provides insights to make a product better, and it helps guide and build momentum.<br /><br />Join me as I talk about discovery work at Travelocity, Ancestry, Bluehost, and other organizations. You’ll learn how to conduct research that delivers results, changes behavior, and creates a research mindset within your organization.",
- 'day' => 1,
- 'slot' => 8,
- 'speaker' => 'jayfichialos'
-);
-
-// Tyler Hogge
-$talks[] = array(
- 'title' => 'How to truly align your product and sales teams: 5 things we learned at Divvy',
- 'description' => "Every organization defines product management differently. In this presentation, you’ll hear from the VP of product and strategy at Divvy on how they’ve taken a very different approach to product, and why it’s so important to truly align product with revenue.",
- 'day' => 2,
- 'slot' => 1,
- 'speaker' => 'tylerhogge'
-);
-
-// David Merkoski
-$talks[] = array(
-	'title' => 'Reference design',
-	'description' => "Product vision can be a strong force in product design – it drives teams to work towards a shared outcome and provides self-evident answers to “What are we building? And Why?” Teams that are not driven by purpose and intent are rudderless, habitually choosing precedent over innovation, merely copying what already exists in the hopes it will work here too.<br /><br />As a result product vision is often difficult to pin down or name. It’s “something we all share” or “in the deck”. If you open that deck you will find a roadmap with features like “Next Generation Search” or “Shopping 2.0”. This approach leads to unclear and under-used, general meh products. It also leads to team dysfunction, trust issues and ultimately—burnout.<br /><br />So how do you collaboratively create product vision? One that provides enough clarity for an organization to plan, design and build a product a year out, but one that also affords the team responsive and agile shifts as they learn in the market. David Merkoski, former ECD of frog design and startup design advisor will share with Front a new design tool—a Reference Design—that tames the complexity of product vision for startups.<br /><br />Not a design system, nor a set of rules and principles—a Reference Design captures a specific visual rendering of the shared intent and outcomes for a future product in detailed material form. Used in other industries, \"Reference Designs are technical blueprints of the system, they contain essential elements of the system, but are meant to be enhanced or modified as required.\"<br /><br />Through a set of clear artifacts and a focus on language, a Reference Design forges internal agreement of the shared purpose that drives teams forward. A highly visible document, it is always the answer to \"What are you/we doing?\" While it may live in a Sketch file on the cloud, it is also literally hanging on the wall. Everyone should be able point to it... \"That is what we are building.\" It is the reference.<br /><br />Through a series of case studies spanning industries, startup stages and business models, David will explain how using the cyclical process of a Reference Design can open teams up to being their most engaged and invested selves at work. In fact, it becomes quite fun when design is no longer the block and everyone is practically anticipating the next feature to build, seeing the pieces come together. Because when you are design-driven, product-led – work just makes sense.",
-	'day' => 2,
-	'slot' => 2,
-	'speaker' => 'davidmerkoski'
-);
-
-// Dillon Winspear
-$talks[] = array(
-	'title' => 'I guess I\'ll manage',
-	'description' => "It may seem like the only way to take the next step in your UX Career is to begin managing design teams. But is that for you? How do you make the decision between Individual Contributor and Manager? What are the responsibility differences between the two tracks and how can you learn where your natural strengths align? In this presentation, Dillon will provide insights in the experiences he and others have had on this journey, and provide you with an action plan to help you move forward in your own career.",
-	'day' => 2,
-	'slot' => 3,
-	'speaker' => 'dillonwinspear'
-);
-
-// Daniel Falabella
-$talks[] = array(
-	'title' => 'How should you be thinking about improving retention? How Duolingo used growth models from gaming companies to ignite user growth.',
-	'description' => "One of the most difficult things about language learning is staying motivated. This is why Duolingo cares deeply about retention rates as the primary lever to fuel DAU growth. After years of efforts improving retention rates and not seeing much of it transfer over to increasing DAUs I lead the creation of a team to own all the metagame mechanics and improve retention with a different approach.<br /><br />When thinking about increasing retention, many companies make mistakes by focusing on the wrong thing: improving onboarding.<br /><br />I’ll address all the different levers you have to improve retention based on frameworks used by gaming companies (such as Zynga) and I’ll be giving specific examples on how we’ve put them to practice at Duolingo and the impact they had.",
-	'day' => 1,
-	'slot' => 2,
-	'speaker' => 'danielfalabella'
-);
-
-// Kyle Jacobsen
-$talks[] = array(
-	'title' => 'Idea to product, product to business',
-	'description' => "Let’s explore what it’s like to take the product idea you have from your kitchen table to the marketplace. We’ll study the journey of Everee and how I quickly learned that we weren’t just building a product but a business. We’ll explore how we assessed our idea, built our team, determined our funding strategy, assessed product market fit, measured our success, monetized our product investments and did all of this while maintaining our day job. In the end, you'll leave with a blueprint of how you can act on your own idea.",
-	'day' => 2,
-	'slot' => 6,
-	'speaker' => 'kylejacobsen'
-);
-
-// Joseph Draschil
-$talks[] = array(
-	'title' => "Barnacles are killing your product team's flow",
-	'description' => "You’ve done it! Your company has organized product into autonomous, empowered teams staffed with a PM, UX, and Engineering. You’ve fully adopted human-centered research and design practices, and are continuously delivering releases to production. So how come your beautiful, theme-based product roadmap is moving so slowly? Why does it still seem to take so long to get from understanding the customer’s pain point to actually solving that pain point in the product?<br /><br />In this talk, Joseph will help answer why most of our product work is actually bigger, slower, and less outcome-based than we realize. He’ll draw from his experience leading product in a B2B2C environment with billion-dollars clients and hundreds of thousands of end customers, as he shares the simple, but powerful practice that can help your product team start consistently delivering customer value within days, rather than weeks or months.",
-	'day' => 1,
-	'slot' => 3,
-	'speaker' => 'josephdraschil'
-);
-
-// Albert Candari
-$talks[] = array(
-	'title' => 'The penalty of design and product leadership',
-	'description' => "When you are a true product and design leader, you challenge the status quo, the norm, and the populous opinion. This journey can be hard, lonely, and has its penalties: being criticized by detractors, questioned by popular opinions, and challenged in all different directions including your own organization. This talk will focus on the strategies on how to achieve true product and design leadership in your organization. Albert will share the difference between status quo and world-class product and design leadership, including the pitfalls of leadership and how to avoid them. The path to something outstanding is always uphill, but like anything great in this world, it will be worth the effort. ",
-	'day' => 1,
-	'slot' => 7,
-	'speaker' => 'albertcandari'
-);
-
-// Amy Worthington
-$talks[] = array(
-	'title' => 'Avoiding the pitfalls of the MVP mindset',
-	'description' => "We're often told as Product Teams to focus on creating the most minimally viable product we can while also prioritizing customer needs. We don't talk often enough about the times when our attempts at being scrappy have gotten in the way, and end up costing us more time, more re-work, and unnecessary pain for both customers and internal teams.<br /><br />This case study will cover pitfalls that are easy to fall into when you're driven to learn quickly, the steps you can take up front to avoid those gotchas, as well as the key ways to ensure that you're intentional with your yeses, and relentless with your no's when prioritizing what you will and won't build for your customers.",
-	'day' => 2,
-	'slot' => 4,
-	'speaker' => 'amyworthington'
-);
 
 
 

@@ -1,8 +1,10 @@
 <?php
 
 // temp redirect until we have speakers again
+/*
 header('location: /conference', true, 307);
 exit();
+*/
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
