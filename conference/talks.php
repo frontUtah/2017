@@ -80,7 +80,6 @@ function print_talk($day, $slot) {
 		<h2 class="">Talks and schedule</h2>
 		
 		<div class="course-calendar">
-			<!--
 			<div class="course-date">
 				<h3><?php echo get_conference_day(1); ?></h3>
 				<ul class="days-courses">
@@ -113,12 +112,10 @@ function print_talk($day, $slot) {
 					</li>
 				</ul>
 			</div>
-			-->
 			
 			<div class="course-date">
 				<h3><?php echo get_conference_day(2); ?></h3>
 				<ul class="days-courses">
-					<!--
 					<li class="course">
 						<dl>
 							<dt class="time">7:00<span class="am-pm">AM</span></dt>
@@ -128,7 +125,6 @@ function print_talk($day, $slot) {
 							</dd>
 						</dl>
 					</li>
-					-->
 					<li class="course">
 						<dl>
 							<dt class="time">7:30<span class="am-pm">AM</span></dt>
@@ -239,8 +235,6 @@ function print_talk($day, $slot) {
 							</dd>
 						</dl>
 					</li>
-
-					<!--
 					<li class="course">
 						<dl>
 							<dt class="time">5:30<span class="am-pm">PM</span></dt>
@@ -268,14 +262,12 @@ function print_talk($day, $slot) {
 							</dd>
 						</dl>
 					</li>
-					-->
 				</ul>
 			</div>
 			
 			<div class="course-date">
 				<h3><?php echo get_conference_day(3); ?></h3>
 				<ul class="days-courses">
-					<!--
 					<li class="course">
 						<dl>
 							<dt class="time">7:00<span class="am-pm">AM</span></dt>
@@ -285,7 +277,6 @@ function print_talk($day, $slot) {
 							</dd>
 						</dl>
 					</li>
-					-->
 					<li class="course">
 						<dl>
 							<dt class="time">7:30<span class="am-pm">AM</span></dt>

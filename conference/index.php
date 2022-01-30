@@ -53,7 +53,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		</section>
 
 		<section class="instructor-preview">
-			<h2>2021 speakers</h2>
+			<h2>Speakers</h2>
 			<ul class="instructor-list">
 
 			<?php

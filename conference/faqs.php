@@ -66,44 +66,38 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li class="faq-category">
 						<h3>Hotel and Transportation</h3>
 						<dl class="accordion">
+
 							<dt class="accordion-title question">How do I book lodging? Is there a discount and what is the deadline?</dt>
-							<dd class="accordion-content answer">We are working to secure a discounted rate at a preferred hotel.</dd>
 
 							<!--
+							<dd class="accordion-content answer">We are working to secure a discounted rate at a preferred hotel.</dd>
+							-->
+
 							<dd class="accordion-content answer">We have acquired discounted nightly rates, for a single king or queen bed, of $159/night + 
 							tax at the <a href="https://www.marriott.com/events/start.mi?id=1582752880198&key=GRP">Salt 
-							Lake City Marriott City Center</a> and $139/night + tax at the 
-							<a href="https://www.marriott.com/events/start.mi?id=1601932878912&key=GRP">Salt Lake Marriott Downtown at City Creek</a>. 
+							Lake City Marriott City Center</a>. 
 							The rates are available for stays between 7-9 April 2021. The deadline 
 							for booking lodging at the discounted rate is 17 March 2021. We 
 							encourage you to register early as it these hotels will likely 
-							sell out before that date. Book your room online or by calling 888.236.2427 
-							(Salt Lake City Marriott City Center) or 801.531.0800 (Salt Lake 
-							Marriott Downtown at City Creek) and asking for the “Front” group 
-							discount. Both hotels are a block and a half (5 minute walk) from 
+							sell out before that date. Book your room online or by calling 888.236.2427 and asking for the “Front” group 
+							discount. The hotel is a block and a half (5 minute walk) from 
 							the theater.
-							-->
 						</dl>
 
-						<!--
-						<dl class="accordion">
-							<dt class="accordion-title question">Can I cancel my hotel reservation if I am unable to attend?</dt>
-							<dd class="accordion-content answer">A Deposit equal to two (2) night’s stay is required to hold each individual’s reservation, with final payment due thirty (30) days prior to arrival. Reservations made within thirty (30) days of arrival will be required to be paid in full at time of booking. Such deposit shall serve to confirm the reservation for the date(s) indicated. This deposit is refundable if notice of cancellation is received at least thirty (30) days prior to arrival and a cancellation number is obtained. All deposits shall be charged at the time the reservation is made. No refunds for late arrivals, early departures or down grades.</dd>
-						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Is there parking at or near the host hotel?</dt>
 							<dd class="accordion-content answer">Yes, on-site parking for $4/hour or $17/day and valet parking for $22/day.</dd>
 						</dl>
+
 						<dl class="accordion">
 							<dt class="accordion-title question">Are there other hotels recommended?</dt>
 							<dd class="accordion-content answer">We highly recommend the <a href="https://www.marriott.com/events/start.mi?id=1582752880198&key=GRP">Salt 
-							Lake City Marriott City Center</a> and the <a href="https://www.marriott.com/events/start.mi?id=1601932878912&key=GRP">Salt Lake Marriott Downtown at City Creek</a>, as we have arranged discounted rates and because of the proximity to the venue. That said, the Salt Lake Plaza Hotel Temple Square, Hotel Monaco, Hilton Salt Lake City Center are also close to the venue and are also good options.</dd>
+							Lake City Marriott City Center</a> as we have arranged discounted rates and because of the proximity to the venue. That said, the <a href="https://www.marriott.com/events/start.mi?id=1601932878912&key=GRP">Salt Lake Marriott Downtown at City Creek</a>, Salt Lake Plaza Hotel Temple Square, Hotel Monaco, and Hilton Salt Lake City Center are also close to the venue and are good options.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">What's the best way to get to the hotel and venue?</dt>
 							<dd class="accordion-content answer">Your best option for getting to and from the conference is the <a href="http://rideuta.com/Rider-Tools/Schedules-and-Maps">UTA TRAX light rail system</a>. The Green Line departs every 15 minutes from Salt Lake City International Airport and is a <a href="https://www.google.com/maps/dir/Eccles+Theater,+Main+Street,+Salt+Lake+City,+UT/Salt+Lake+International+Airport,+Salt+Lake+City,+UT+84116/@40.7746048,-111.973184,13z/am=t/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x8752f50f1667ab31:0xc579635ce66a923d!2m2!1d-111.8905835!2d40.7663627!1m5!1m1!1s0x8752f3dcc7a1c925:0xbe14a4170a70b7aa!2m2!1d-111.9804732!2d40.7841271!3e3">26 minute ride</a> to Eccles Theater (City Creek Station, 1 block away).</dd>
 						</dl>
-						-->
 						<dl class="accordion">
 							<dt class="accordion-title question">Is there parking at or near the theater?</dt>
 							<dd class="accordion-content answer">The <a href="https://goo.gl/maps/svRcRjnuXtL2">Regent Street Garage</a> is the preferred parking location for the Eccles Theater, but there are several other parking options nearby. If you choose to park at the Regent Street Garage (55 East 200 South) you may access Regent Street between 100 and 200 South between State and Main Street, or via Orpheum Avenue from State Street. Secondarily, we recommend Gallivan Center and City Creek Shopping Center.</dd>
