@@ -223,8 +223,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</li>
 				<li>
 					<p>Sponsorship inquiries:</p>
-					<p><a href="">Wade Shearer</a></p>
 					<p><a href="mailto:wade@frontutah.com">wade@frontutah.com</a></p>
+					<p><a href="tel:8013681971">801.368.1971</a></p>
 				</li>
 			</ul>
 		</section>

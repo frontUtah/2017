@@ -106,16 +106,51 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 		<section class="training-courses sponsors">
 			<h2>Sponsors</h2>
-			<!-- <a href="http://www.pluralsight.com" target="_blank"><img id="premier" src="/images/sponsors/pluralsight.svg" /></a> -->
-			<ul class="second_tier">
-				<li class="second_tier_sponsor"><a href="https://underbelly.is" target="_blank"><img src="/images/sponsors/underbelly.svg" height="60px" /></a></li>
+			<p>Front wouldn't be possible without our amazing sponsors that support these events year after year. <a href="/conference/sponsors">Learn more</a> about each partner, how we do sponsorships differently, and how you can get involved.</p>
 
-				<!--
-				<li class="second_tier_sponsor"><a href="https://www.pendo.io" target="_blank"><img src="/images/sponsors/pendo.svg" height="60px" /></a></li>
-				<li class="second_tier_sponsor"><a href="https://www.usertesting.com" target="_blank"><img src="/images/sponsors/usertesting.svg" height="60px" /></a></li>
-				<li class="second_tier_sponsor"><a href="https://uxpressia.com" target="_blank"><img src="/images/sponsors/uxpressia.svg" height="60px" /></a></li>
-				-->
-			</ul>
+
+<?php
+
+// organize sponsors
+$sponsor_premier = null;
+$sponsors_tier2 = array();
+
+foreach($sponsors as $sponsor) {
+	switch($sponsor['tier']) {
+		case 1:
+			$sponsor_premier = $sponsor;
+			break;
+		case 2:
+			$sponsors_tier2[] = $sponsor;
+			break;
+	}
+}
+
+// display premier sponsor if exists
+if(!is_null($sponsor_premier)) {
+	echo '<a href="' . $sponsor_premier['url'] . '" target="_blank"><img id="premier" src="/images/sponsors/' . $sponsor_premier['logo'] . '" /></a>';
+}
+
+
+// display second+ tier sponsors
+if(count($sponsors_tier2) > 0) {
+	echo '<ul class="second_tier">';
+}
+
+// randomize list
+shuffle($sponsors_tier2);
+
+// spit them out
+foreach($sponsors_tier2 as $sponsors_tier2_sponsor) {
+	echo '<li class="second_tier_sponsor"><a href="/conference/sponsors/' . $sponsors_tier2_sponsor['slug'] . '" target="_blank"><img src="/images/sponsors/' . $sponsors_tier2_sponsor['logo'] . '" height="60px" /></a></li>';
+}
+
+if(count($sponsors_tier2)) {
+	echo '</ul>';
+}
+
+?>
+
 		</section>
 
 		<section class="photo-collage">

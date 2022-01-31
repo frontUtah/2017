@@ -247,4 +247,19 @@ function get_room($id) {
 	}
 }
 
+// get sponsor
+function get_sponsor($slug) {
+	global $sponsors;
+	
+	$found = null;
+
+	foreach($sponsors as $sponsor) {
+		if($sponsor['slug'] == $slug) {
+			$found = $sponsor;
+		}
+	}
+	
+	return $found;
+}
+
 ?>

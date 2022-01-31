@@ -1838,8 +1838,17 @@ section.individual-instructor .instructor-content li {
 		width:400px;
 	}
 
+	section.individual-instructor .instructor .instructor-logo {
+		margin-bottom: 18px;
+		width:400px;
+	}
+
 	section.individual-instructor .instructor .instructor-photo:after {
 		width: 140px
+	}
+
+	section.individual-instructor .instructor .instructor-photo:after {
+		display: none;
 	}
 
 	section.individual-instructor .instructor h4 {
