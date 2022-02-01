@@ -26,7 +26,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</div>
 				</div>
 				<div class="instructor-content">
-					<div class="about-instructor">
+					<div class="course-description">
 						<h3><?php echo $sponsor['name'] ?></h3>
 						<p><?php echo $sponsor['message'] ?></p>
 					</div>
