@@ -11,7 +11,7 @@ $sponsors[] = array(
 	'tier' => 2,
 	'url' => 'https://underbelly.is',
 	'logo' => 'underbelly.svg',
-	'message' => "We design and develop digital products. Our clients range from rising startups to Fortune 500 companies, and they all share our values: People who are humble, honest explorers committed to raising the bar on every project. They come to us when they’re blocked by tricky design/development challenges, are growing fast and stretched thin, or simply need fresh creative perspective. Find out more about us <a href=\"https://underbelly.is\">here</a>."
+	'message' => "Underbelly is an expert design, development, and production partner. Businesses come to us when they are blocked, stretched thin, and need an expert perspective to move their vision to market. We actualize digital products and experiences through strategy, design, and technology. Through collaboration and craftsmanship, we make things better together. Learn more about how our team of designers, developers, and filmmakers can bring your ideas to life <a href=\"https://underbelly.is\">here</a>."
 );
 
 // Dovetail
