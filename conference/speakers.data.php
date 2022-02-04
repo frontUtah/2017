@@ -58,7 +58,7 @@ $speakers[] = array(
 	'company' => '',
 	'discipline' => 'ux',
 	'photo' => 'headshots/jaredlewandowski.jpg',
-	'bio' => "Product designer, UX researcher and strategist, user and business advocate, and design leader for over 20 years. Infusing a variety of agile and research-based methods to discover, define, align, and accelerate growth for both large and small organizations while building highly efficient, inclusive, and innovative teams and cultures.<br /><br />Utilizing extensive proactive UX research methods and adaptive learning approaches, let's work together to deliver truly meaningful customer and business outcomes with a proven plan to execute towards.",
+	'bio' => "Jared is an experience designer, researcher, and strategist, helping people around the world get into crypto at Okcoin (we are hiring!). Infusing a variety of agile and research-based methods to discover, define, align, and accelerate growth for both large and small organizations while building highly efficient, inclusive, and innovative teams and cultures.<br /><br />He is also a mentor at <a href=\"https://adplist.org\">ADPList</a>; a member of <a href=\"https://www.invisionapp.com/design-leadership-forum\">Design Leadership Forum</a>, <a href=\"https://bureauofdigital.com\">Bureau of Digital</a>, and <a href=\"https://leaders.centercentre.com/share/slGvoxyos_D6VsxG\">Leaders of Awesomeness</a>; and is founder of <a href=\"https://www.smartgripgolf.com\">SmartGrip Golf</a>.",
 	'twitter' => 'jared42',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/jaredlewandowski/'
