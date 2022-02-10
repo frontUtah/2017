@@ -94,6 +94,21 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/ipetronella/'
 );
 
+// Ha Phan
+$speakers[] = array(
+	'slug' => 'haphan',
+	'first' => 'Ha',
+	'last' => 'Phan',
+	'title' => 'Director of Discovery Products',
+	'company' => 'Pluralsight',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/haphan.jpg',
+	'bio' => "Ha Phan has been working on Machine Learning and AI projects since 2015. She earned 11 patents at GoPro for her work on machine assisted video editing and the post-capture experience for 360 videos which informed the vision for the Fusion camera. Ha is a UX Designer turned Product leader. She previously led Discovery products at Pluralsight, growing the team that built a home-grown search platform from scratch.",
+	'twitter' => 'hpdailyrant',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/hpuxixd/'
+);
+
 
 
 // TEMPLATE
