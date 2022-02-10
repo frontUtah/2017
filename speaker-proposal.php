@@ -1,5 +1,5 @@
 <?php
 
-header('https://airtable.com/shrSN4tsalsqWM8u4');	
+header('location: https://airtable.com/shrSN4tsalsqWM8u4');	
 	
 ?>
