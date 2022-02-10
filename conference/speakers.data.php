@@ -79,6 +79,21 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/abridewell/'
 );
 
+// Ingrid Cruz 
+$speakers[] = array(
+	'slug' => 'ingridcruz',
+	'first' => 'Ingrid',
+	'last' => 'Cruz',
+	'title' => 'Head of Product Design',
+	'company' => 'Fullstory',
+	'discipline' => 'ux',
+	'photo' => 'headshots/ingridcruz.jpg',
+	'bio' => "Ingrid Cruz is a people-focused product and design leader who has extensive experience leading high-performing teams and organizations through the rollercoaster of hyper-growth and large-scale acquisitions. She is currently the Head of Product Design at FullStory, a company whose mission is to help product teams craft a more perfect digital experience.",
+	'twitter' => 'ipetronella',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/ipetronella/'
+);
+
 
 
 // TEMPLATE
