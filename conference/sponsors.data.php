@@ -24,6 +24,16 @@ $sponsors[] = array(
 	'message' => "Dovetail's mission is to enable the world to create better products and services through deep customer understanding. We empower 45,000+ users, from agencies to universities to Fortune 100 companies, to make sense of all their customer research data in one intuitive, collaborative, and powerful research platform. Find out more about us <a href=\"https://dvtl.link/3IS98Re\">here</a>."
 );
 
+// Sendbird
+$sponsors[] = array(
+	'name' => 'Sendbird',
+	'slug' => 'sendbird',
+	'tier' => 2,
+	'url' => 'https://sendbird.com',
+	'logo' => 'sendbird.svg',
+	'message' => "Sendbird believes conversations are at the heart of building relationships and getting things done. As such, we built the world's most proven conversations platform for mobile apps across chat, voice, and video. Industry leaders like Reddit, DoorDash, and Hinge use Sendbird to drive increased transactions & loyalty for hundreds of millions of users every month.<br /><br />Sendbird has over 250M MAUs from over 50 countries operating in industries ranging from marketplaces, ride sharing and online communities to gaming, live video streaming and healthcare.<br /><br />The company is headquartered in San Mateo, CA with additional offices in New York, London, Seoul, Singapore, and Bengaluru. Sendbird has raised over $220M from leading investors, including: ICONIQ Capital, STEADFAST Capital Ventures, Tiger Global Management, Shasta Ventures, Softbank Vision Fund 2, and Y Combinator."
+);
+
 
 // TEMPLATE
 /*
@@ -31,12 +41,11 @@ $sponsors[] = array(
 $sponsors[] = array(
 	'name' => '',
 	'slug' => '',
-	'tier' => 1,
+	'tier' => 2,
 	'url' => '',
 	'logo' => '',
 	'message' => ""
 );
 */
-
 
 ?>
