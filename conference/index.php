@@ -142,7 +142,7 @@ shuffle($sponsors_tier2);
 
 // spit them out
 foreach($sponsors_tier2 as $sponsors_tier2_sponsor) {
-	echo '<li class="second_tier_sponsor"><a href="/conference/sponsors/' . $sponsors_tier2_sponsor['slug'] . '" target="_blank"><img src="/images/sponsors/' . $sponsors_tier2_sponsor['logo'] . '" height="60px" /></a></li>';
+	echo '<li class="second_tier_sponsor"><a href="/conference/sponsor/' . $sponsors_tier2_sponsor['slug'] . '" target="_blank"><img src="/images/sponsors/' . $sponsors_tier2_sponsor['logo'] . '" height="60px" /></a></li>';
 }
 
 if(count($sponsors_tier2)) {
