@@ -66,11 +66,18 @@ $talks[] = array(
 	'speaker' => 'haphan',
 	'title' => 'Building products powered by machine learning',
 	'description' => "Machine Learning and AI have become buzzwords in recent years. Most software products we build today are deterministic models. In such a model, what’s presented in the experience is fixed and predetermined by humans. In products that utilize machine learning, predictive technology determines what is presented. This is a probabilistic model where the likelihood that something is relevant or likely to be right, is scored or ranked. For example, just because you enter a query and get search results, doesn’t mean that the results are good. The UX of such an experience is not based on design, but on the predictive machine features. From this point of view, a product team working on machine learning capabilities operates differently from the traditional product development model.<br /><br />In this talk, Ha will share some common themes on machine learning products – from ideation to operationalizing machine learning. She will utilize examples from her experience building a search platform at Pluralsight, and working on computer vision and machine learning R&D projects at GoPro.",
-	'day' => 1,
-	'slot' => 2
+	'day' => 2,
+	'slot' => 1
 );
 
-
+// Troy Azmoon & Amy Lokey
+$talks[] = array(
+	'speaker' => array('troyazmoon', 'amylokey'),
+	'title' => 'Creating design in the Enterprise: The ServiceNow design journey',
+	'description' => "As a product leader, you speak the language of outcomes and realize the value of design in achieving product experiences that people will love. But what to do when there is no design function at your rapidly growing company? You showcase the power of design thinking in products you create. You learn from and work closely with the founder, who becomes your mentor. You take on the challenge to build a design function from the ground up. As demand for thoughtfully designed products increases, you purchase a design agency to accelerate the company-wide transformation. You create a design culture, and a studio to celebrate the creative, quirky, and down-to-earth team values. A vision takes hold on how to truly design at scale, platform-first. In time, all products across the company, now 10 times larger, are imbued with design teams, working together and contributing to a maturing design system. Coming back to the decades-old Platform UI, you lead a talented cross-functional team to deliver ServiceNow’s reimagined, all-new platform experience to thousands of the worlds largest companies: The Next Experience",
+	'day' => 2,
+	'slot' => 2
+);
 
 
 // TEMPLATE

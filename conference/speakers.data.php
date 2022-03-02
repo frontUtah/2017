@@ -109,6 +109,35 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/hpuxixd/'
 );
 
+// Troy Azmoon
+$speakers[] = array(
+	'slug' => 'troyazmoon',
+	'first' => 'Troy',
+	'last' => 'Azmoon',
+	'title' => 'Vice President, Platform Design',
+	'company' => 'ServiceNow',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/troyazmoon.jpg',
+	'bio' => "Design VP and founder of ServiceNow's design organization. Led creation and vision for ServiceNow's brand-new Platform UI, The Next Experience. Previously, product leader for ServiceNow's Visual Task Boards, ServiceNow Connect, and first Mobile product. Previously product leader, web developer and test engineer at companies from start-up to fortune 500.<br /><br />Enjoys surfing, motorcycles, archery, literature, piano, guitar, and building.",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/troyazmoon/'
+);
+
+// Amy Lokey
+$speakers[] = array(
+	'slug' => 'amylokey',
+	'first' => 'Amy',
+	'last' => 'Lokey',
+	'title' => 'SVP, Global Head of Design',
+	'company' => 'ServiceNow',
+	'discipline' => 'ux',
+	'photo' => 'headshots/amylokey.jpg',
+	'bio' => "Amy was previously head of the User Experience team for G Suite – Google's cloud-based applications for consumers, education and enterprise, including Gmail, Drive, Docs and Calendar. Prior to Google, Amy was head of User Experience for LinkedIn, across consumer and enterprise solutions. Amy helped grow LinkedIn’s business and product platform from startup, through IPO, to one of the largest tech company acquisitions by Microsoft.",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/amylokey/'
+);
 
 
 // TEMPLATE
@@ -128,6 +157,5 @@ $speakers[] = array(
 	'linkedin' => ''
 );
 */
-
 
 ?>
