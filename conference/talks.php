@@ -18,55 +18,61 @@ function print_talk($day, $slot) {
 	$talk = get_talk($day, $slot);
 	
 	if(!empty($talk)) {
-		echo '
-			<dd class="instructor">';
-					
-				// ensure speaker is an array
-				if(!is_array($talk['speaker'])) {
-					$talk['speaker'] = array($talk['speaker']);
-				}
-			
-				if(count($talk['speaker']) < 13) {
-					foreach($talk['speaker'] as $position => $this_speaker) {
-						// get speaker details
-						$speaker = get_speaker($this_speaker);
-							
-						echo '<div class="instructor ' . $speaker['discipline'] . '">
-								<div class="instructor-photo">
-									<a href="/conference/speaker/' . $speaker['slug'] . '"><img src="/images/';
-														
-						// ensure photo exists
-						if(file_exists($_SERVER['DOCUMENT_ROOT'] . '/images/' . $speaker['photo'])) {
-							echo $speaker['photo'];
-						} else {
-							echo 'instructor_missing.png';
-						}
-						
-						echo '" alt="' . $speaker['first'] . ' ' . $speaker['last'] . '"></a>
-										</div>
-										<div>
-											<a href="/conference/speaker/' . $speaker['slug'] . '">
-												<h4>' . $speaker['first'] . ' ' . $speaker['last'] . '</h4>
-												<p class="title">' . $speaker['title'] . '<br>' . $speaker['company'] . '</p>
-											</a>
-										</div>
-									</div>';
-					}
-				}
-							
-				echo '
-						</dd>
-							<dd class="description">
-								<h4>' . $talk['title'] . '</h4>
-								<p>' . $talk['description'] . '</p>
-							</dd>';
-		} else {
-			echo '
-				<dd class="instructor"></dd>
-				<dd class="description">
-					<h4>Talk (TBA)</h4>
-				</dd>';
+		// ensure speaker is an array
+		if(!is_array($talk['speaker'])) {
+			$talk['speaker'] = array($talk['speaker']);
 		}
+
+		echo '
+			<dd class="instructor';
+
+		if(count($talk['speaker']) > 1) {
+			echo ' team';
+		}
+
+		echo '">';
+	
+		if(count($talk['speaker']) < 13) {
+			foreach($talk['speaker'] as $position => $this_speaker) {
+				// get speaker details
+				$speaker = get_speaker($this_speaker);
+					
+				echo '<div class="instructor ' . $speaker['discipline'] . '">
+						<div class="instructor-photo">
+							<a href="/conference/speaker/' . $speaker['slug'] . '"><img src="/images/';
+												
+				// ensure photo exists
+				if(file_exists($_SERVER['DOCUMENT_ROOT'] . '/images/' . $speaker['photo'])) {
+					echo $speaker['photo'];
+				} else {
+					echo 'instructor_missing.png';
+				}
+				
+				echo '" alt="' . $speaker['first'] . ' ' . $speaker['last'] . '"></a>
+								</div>
+								<div>
+									<a href="/conference/speaker/' . $speaker['slug'] . '">
+										<h4>' . $speaker['first'] . ' ' . $speaker['last'] . '</h4>
+										<p class="title">' . $speaker['title'] . '<br>' . $speaker['company'] . '</p>
+									</a>
+								</div>
+							</div>';
+			}
+		}
+						
+		echo '
+				</dd>
+					<dd class="description">
+						<h4>' . $talk['title'] . '</h4>
+						<p>' . $talk['description'] . '</p>
+					</dd>';
+	} else {
+		echo '
+			<dd class="instructor"></dd>
+			<dd class="description">
+				<h4>Talk (TBA)</h4>
+			</dd>';
+	}
 }
 
 
