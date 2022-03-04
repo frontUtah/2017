@@ -26,7 +26,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 		<section class="notice" style="background: black; color: white">
   			<h2 style="color: #FD7C00">2022 conference cancelled</h2>
-			<p style="margin-bottom: 30px">With the pandemic and current economy’s effect on the travel and conference industry, we have found ourselves in a situation where we are unable to hold a conference this Spring of the quality and scope we have promised. While we have found great speakers with exciting stories, we will have to bring them back another day. Please subscribe to our email list below to get announcements about when Front UX & Product Management Case Study Conference will be back in 2023.</p>
+			<p style="margin-bottom: 30px">With the pandemic and current economy’s effect on the travel and conference industry, we have found ourselves in a situation where we are unable to hold a conference this Spring of the quality and scope we have promised. While we have found great speakers with exciting stories, we will have to bring them back another day. Please register for our <a href="/workshops">workshops in November</a> and subscribe to our email list below to get announcements about when Front UX & Product Management Case Study Conference will be back in 2023.</p>
 
 			
 			<!-- Begin Mailchimp Signup Form -->
