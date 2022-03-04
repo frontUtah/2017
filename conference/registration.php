@@ -2,9 +2,8 @@
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Registration - Front UX & Product Management Case Study Conference, 6-8 April 2022';
+$title = 'Registration - Front UX & Product Management Case Study Conference, Spring 2023';
 
-//$meta['twitter']['card'] = "Early bird passes are $500, that's 30% off if you purchase before April 1st. It gets even better if you bring your team. Tickets are only $450 each for groups of 10+, which is 35% off on the full price passes.";
 $meta['twitter']['card'] = "Early bird passes are $500, that's 30% off if you purchase before April 1st. It gets even better if you bring your team. Tickets are only $450 each for groups of 10+, which is 35% off on the full price passes.";
 $meta['twitter']['site'] = '@front';
 $meta['twitter']['title'] = $title;
@@ -24,12 +23,39 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		<section class="hero">
 			<h1>Registration</h1>
 		</section>
+
+		<section class="notice" style="background: black; color: white">
+  			<h2 style="color: #FD7C00">2022 conference cancelled</h2>
+			<p style="margin-bottom: 30px">With the pandemic and current economy’s effect on the travel and conference industry, we have found ourselves in a situation where we are unable to hold a conference this Spring of the quality and scope we have promised. While we have found great speakers with exciting stories, we will have to bring them back another day. Please subscribe to our email list below to get announcements about when Front UX & Product Management Case Study Conference will be back in 2023.</p>
+
+			
+			<!-- Begin Mailchimp Signup Form -->
+			
+			<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+
+			<div id="mc_embed_signup">
+			<form action="https://frontutah.us2.list-manage.com/subscribe/post?u=5a9bade195be7c98130573919&amp;id=e8d567ca7f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+			    <div id="mc_embed_signup_scroll">
+				<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+			    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+			    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5a9bade195be7c98130573919_e8d567ca7f" tabindex="-1" value=""></div>
+			    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+			    </div>
+			</form>
+			</div>
+
+			<!--End mc_embed_signup-->
+		</section>
+		
 		<section class="registration-about">
 			<h2>Registration</h2>
 			<p class="about-registration-about">
 			Front UX & Product Management Case Study Conference returns in 2022 to the spacious and stunning Eccles Theater in downtown Salt Lake City. You don’t want to miss this. Take advantage of early bird pricing and our great discounts to bring your entire team. This will be the biggest, most engaging, and comprehensive conference yet. Join us for incredible insights, inspiration, and fun.
 	 	</section>
 		
+
+
+
 		<section class="pricing">
 			<h2>Pricing</h2>
 			
@@ -106,7 +132,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			
 			
 			
-			
+			<!--
 			<div id="eventbrite-widget-container-184315822587"></div>
 			
 			<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
@@ -127,6 +153,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
 			    });
 			</script>
+			-->
 			
 		</section>
 
@@ -134,9 +161,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		<a id="hotels"></a><section class="accomodations">
 			<h2>Hotels</h2>
 
-			<!--
 			<p class="about-accomodations"><em>We are working to secure a discounted rate at a preferred hotel.</em></p>
-			-->
+			<!--
 
 			<p class="about-accomodations">We have acquired discounted nightly rate of $159/night + tax (20% off) for a single king at the Salt Lake City Marriott City Center. We encourage you to register early as these rates are only available for a limit number of rooms. Book your room through the button below or by calling their front desk and asking for the “Front Utah" group discount.</p> 
 			
@@ -161,49 +187,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</div>
 			</div>
 			
-			<!--
-			<div class="hotel">
-				<div class="hotel-info">
-					<h3>Salt Lake Marriott Downtown at City Creek</h3>
-					<p>75 South West Temple, Salt Lake City, Utah 84101<p>
-					<p>Front desk: 801.531.0800</p>
-					<ul>
-						<li>King or double queen beds</li>
-						<li>Fitness center</li>
-						<li>Complimentary WiFi</li>
-						<li>Onsite and in-room dining services</li>
-						<li>Smoke-free facility</li>
-						<li>Covered parking</li>
-						<li>5 minute walk from conference</li>
-					</ul>
-				</div>
-				<div class="book-hotel">
-					<p>Act quickly to get the conference discount rate of <strong>$139/night</strong> (25% off).</p>
-					<p><a target="_blank" href="https://www.marriott.com/events/start.mi?id=1601932878912&key=GRP" class="button">Book now</a></p>
-				</div>
-			</div>
-			
-			<div class="hotel">
-				<div class="hotel-info">
-					<h3>Hilton Salt Lake City Center</h3>
-					<p>255 South West Temple, Salt Lake City, Utah 84101<p>
-					<p>Reservations: 801.328.2000</p>
-					<ul>
-						<li>King or double queen beds</li>
-						<li>High Speed Internet Access</li>
-						<li>Onsite and in-room dining services</li>
-						<li>Fitness center</li>
-						<li>Heated indoor pool</li>
-						<li>Non-smoking rooms</li>
-						<li>3 minute walk from conference</li>
-						<li>Downtown nightlife</li>
-					</ul>
-				</div>
-				<div class="book-hotel">
-					<p>Act quickly to get the conference discount rate of <strong>$189/night</strong> (20% off).</p>
-					<p><a target="_blank" href="https://book.passkey.com/e/50198749" class="button">Book now</a></p>
-				</div>
-			</div>
+
 			-->
 		</section>
 

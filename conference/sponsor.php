@@ -4,7 +4,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
 $sponsor = get_sponsor($uri_parts[2]);
 
-$title = $sponsor['name'] . ' - Front UX & Product Management Case Study Conference, 6-8 April 2022';
+$title = $sponsor['name'] . ' - Front UX & Product Management Case Study Conference, Spring 2023';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 

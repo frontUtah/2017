@@ -1,14 +1,13 @@
 <?php
 
 // temp redirect until we have speakers again
-/*
+
 header('location: /conference', true, 307);
 exit();
-*/
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
-$title = 'Talks - Front UX & Product Management Case Study Conference, 6-8 April 2022';
+$title = 'Talks - Front UX & Product Management Case Study Conference, Spring 2023';
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
