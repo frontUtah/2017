@@ -34,28 +34,6 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<!--- <a href="http://www.pluralsight.com"><img id="broughtoyouby" src="/images/frontworkshops18/premeir-sponsor.png" /></a> -->
 			<p><a href="/conference/registration" class="button">Register</a></p>
 		</section>
-		<section class="notice" style="background: black; color: white">
-  			<h2 style="color: #FD7C00">2022 conference cancelled</h2>
-			<p style="margin-bottom: 30px">With the pandemic and current economy’s effect on the travel and conference industry, we have found ourselves in a situation where we are unable to hold a conference this Spring of the quality and scope we have promised. While we have found great speakers with exciting stories, we will have to bring them back another day. We invite you to join us for our <a href="/workshops">workshops in November</a> and subscribe to our email list below to get announcements about when Front UX & Product Management Case Study Conference will be back in 2023.</p>
-			
-			<!-- Begin Mailchimp Signup Form -->
-			
-			<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-
-			<div id="mc_embed_signup">
-			<form action="https://frontutah.us2.list-manage.com/subscribe/post?u=5a9bade195be7c98130573919&amp;id=e8d567ca7f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-			    <div id="mc_embed_signup_scroll">
-				<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-			    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-			    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5a9bade195be7c98130573919_e8d567ca7f" tabindex="-1" value=""></div>
-			    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-			    </div>
-			</form>
-			</div>
-
-			<!--End mc_embed_signup-->
-		</section>
-
 
 		<section class="training-courses">
 			<h2>Build better products</h2>
