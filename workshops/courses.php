@@ -30,6 +30,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					function print_courses($day) {
 						$slots = get_workshopseries_timeslots($day);
 
+
 						foreach($slots as $slot => $slot_details) {
 							$courses = get_courses($day, $slot);
 
