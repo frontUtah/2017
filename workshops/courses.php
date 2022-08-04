@@ -1,8 +1,8 @@
 <?php
 
 // off-season
-//header('location: /workshops', true, 307);
-//exit();
+header('location: /workshops', true, 307);
+exit();
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
