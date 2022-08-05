@@ -185,17 +185,17 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				<li>
 					<p>Registration questions:</p>
 					<p><a href="mailto:registration@frontutah.com">registration@frontutah.com</a></p>
-					<p><a href="tel:8013681971">801.368.1971</a></p>
+					<p><a href="tel:8013681971">801.428.9354</a></p>
 				</li>
 				<li>
 					<p>Hotel booking questions:</p>
 					<p><a href="mailto:registration@frontutah.com">registration@frontutah.com</a></p>
-					<p><a href="tel:8013681971">801.368.1971</a></p>
+					<p><a href="tel:8013681971">801.428.9354</a></p>
 				</li>
 				<li>
 					<p>Sponsorship inquiries:</p>
-					<p><a href="">Wade Shearer</a></p>
-					<p><a href="mailto:wade@frontutah.com">wade@frontutah.com</a></p>
+					<p><a href="">Ben Peck</a></p>
+					<p><a href="mailto:ben@frontutah.com">ben@frontutah.com</a></p>
 				</li>
 			</ul>
 		</section>

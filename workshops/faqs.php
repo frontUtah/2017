@@ -132,7 +132,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<h3>Sponsors and volunteering</h3>
 						<dl class="accordion">
 							<dt class="accordion-title question">How do I become a Front sponsor?</dt>
-							<dd class="accordion-content answer">Please contact Wade Shearer for information about sponsorship opportunities at wade@frontutah.com or 801.368.1971.</dd>
+							<dd class="accordion-content answer">Please contact Ben Peck for information about sponsorship opportunities at ben@frontutah.com or 801.428.9354.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">How do I become a Front volunteer?</dt>
