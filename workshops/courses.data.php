@@ -24,7 +24,7 @@ $courses[] = array(
  $courses[] = array(
  	'title' => 'Product Leadership Fundamentals: Find, Develop, and Keep Your Team Healthy',
  	'description' => "You’re an experienced product practitioner who has a love of mentoring and an ambition for leadership but are not sure where to start. To make that shift you need to arm yourself with some tactical skills around building a team, developing a team, and even having the hard conversations needed to keep the team healthy. In this workshop, we will be breaking our time into focusing on these three areas, reviewing tactics and tools, and learning through doing. <br><br>Experience Team Building 101: How to recruit, interview and identify the best person for your team. We will look at strategies for finding amazing applicants, effective ways of interviewing, and things to looks for and consider in selecting a new team member.<br><br>Developing Your Team: Tools to develop your PMs and UX Designers, and create career paths within your organization We will look at defining what career paths exist / should exist in your company, learn to use tools that help us guide a conversation to understand the many dimensions of your team member, and practice ways to select and prioritize actionable things you can work with your team member to improve.<br><br>Conversations: How to manage Product Managers and UX Designers who are dropping the ball. We will talk about one of the hardest and most important parts of leadership, managing team members who are dropping the ball. This is easier said than done. First, we need to understand why the ball is being dropped (system, workload, communication, soft skills, disengagement). If it is a system or workload issue, how do we co-author a solution with the team? If it is a communication or soft skills issue, how do we coach the individual? And if it is a disengagement issue, how do we have the hard conversation with our team member that they must step up or move on." ,
- 	'track' => 'product-management',
+ 	'track' => 'leadership',
  	'day' => 1,
  	'slot' => 1,
  	'room' => 2,
@@ -77,6 +77,30 @@ $courses[] = array(
  	'slot' => 2,
  	'room' => 1,
  	'instructor' => 'jaekobchenina',
+ 	'level' => 'intermediate'
+ );
+
+ // Kyle Jacobsen
+ $courses[] = array(
+ 	'title' => 'TBA',
+ 	'description' => "TBA",
+ 	'track' => 'leadership',
+ 	'day' => 1,
+ 	'slot' => 2,
+ 	'room' => 1,
+ 	'instructor' => 'kylejacobsen',
+ 	'level' => 'intermediate'
+ );
+
+ // Jeff Whitlock
+ $courses[] = array(
+ 	'title' => 'Be Less Wrong: Mental Models for Product Decision Making',
+ 	'description' => "What features should we build? How should we implement them? When are they ready to ship?<br /><br />Decision making is central to the job of every product leader. To be great product leaders, we all want to be right in every decision we make. But this isn’t possible.<br /><br />We face too much uncertainty in our profession. Being wrong is inevitable. Furthermore, trying to be right all the time can lead us to defend our position and pre-existing beliefs.<br /><br />Instead, we should try to be wrong less often.<br /><br />This workshop will cover uncommon mental models (heuristics, frameworks, techniques, and thinking strategies) that product leaders can use to be less wrong. For each model, we’ll introduce the concept and then follow-up with case studies and exercises to practice using it to make decisions in your daily work.",
+ 	'track' => 'product-management',
+ 	'day' => 1,
+ 	'slot' => 2,
+ 	'room' => 1,
+ 	'instructor' => 'jeffwhitlock',
  	'level' => 'intermediate'
  );
 

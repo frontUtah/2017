@@ -27,7 +27,7 @@
 	'title' => 'Head of Product & Design',
 	'company' => 'GrowthDay',
 	'discipline' => 'ux',
-	'photo' => 'frontworkshops18/speaker_drewbridewell.jpg',
+	'photo' => 'headshots/drewbridewell.jpg',
 	'bio' => 'Drew Bridewell is an experienced product and design leader, founder, and certified high-performance coach who is passionate about empowering and inspiring the makers of the world through intentional design.</br></br>Most recently Drew is Head of Design and Product at GrowthDay, a startup bringing together world-class research-backed personal development tools, community, and Life coaching by the world`s experts in personal development.</br></br>He founded Next Level UX in 2020 after a career-focused in learning and development products. During his time at Facebook, he built 3, 0-1 products focused on performance management,  to serve and empower the growth of Facebook`s 50k employees and 10k+ managers.</br></br>Drew also founded the design transformation team previously at InVision, where he studied and taught design systems across the world, mapping hundreds of the world`s best teams processes and systems and finding the opportunities to enhance their design maturity.</br></br>He also lead enterprise efforts for Lynda.com and LinkedIn Learning and delivered Lynda.com`s very first responsive cross-platform application.  He hosts Practical UX Weekly on LinkedIn Learning and coaches at the Stanford d.school ME216 program.</br></br>Drew has over 15 years in the tech industry and has made it his purpose to empower and champion the makers of the world through intentional design.',
 	'twitter' => 'abridewell',
 	'instagram' => 'abridewell/',
@@ -41,7 +41,7 @@
  	'last' => 'Hay',
  	'title' => 'CXO',
  	'company' => 'Help Scout',
- 	'discipline' => 'product-management',
+ 	'discipline' => 'leadership',
  	'photo' => 'frontpc18/instructor_mariahhay.jpg',
  	'bio' => 'Mariah Hay is the VP of User Experience for Pluralsight, an online subscription based education provider for the technology community. As a thought leader in human-centered design and user experience strategy, Mariah enjoys working with teams whose goal is to craft excellence for the end user. Her experience with industrial and interaction design teams serving high-level stakeholders reflects her personal goals of directing business through design excellence from the ground up. Her expertise in implementing human-centered design product practices at the enterprise level stems from over a decade of tenure in the industry including serving as Professor of Design Management at Savannah College of Art and Design, Directing UX for Universal Mind, and serving as Director of User Experience AMC Health. Mariah holds an MFA in Industrial Design from Savannah College of Art and Design.',
  	'twitter' => 'mariahhay',
@@ -92,6 +92,36 @@ $instructors[] = array(
  	'twitter' => '',
  	'instagram' => '',
  	'linkedin' => 'https://www.linkedin.com/in/sophiav/'
+ );
+
+ // Kyle Jacobsen
+ $instructors[] = array(
+ 	'slug' => 'kylejacobsen',
+ 	'first' => 'Kyle',
+ 	'last' => 'Jacobsen',
+ 	'title' => 'CPO',
+ 	'company' => 'Everee',
+ 	'discipline' => 'leadership',
+ 	'photo' => 'headshots/kylejacobsen.jpg',
+ 	'bio' => "Kyle has been building B2B SaaS since the dinosaurs roamed the earth. His journey has taken him across many different industries and in all stages of growth. He is now the CPO and Co-Founder of Everee.",
+ 	'twitter' => '',
+ 	'instagram' => '',
+ 	'linkedin' => 'https://www.linkedin.com/in/kylejacobsen/'
+ );
+
+ // Jeff Whitlock
+ $instructors[] = array(
+ 	'slug' => 'jeffwhitlock',
+ 	'first' => 'Jeff',
+ 	'last' => 'Whitlock',
+ 	'title' => 'Head Of Operations',
+ 	'company' => 'Grain',
+ 	'discipline' => 'product-management',
+ 	'photo' => 'headshots/jeffwhitlock.jpg',
+ 	'bio' => "Most recently I built PingPong, a video messaging app for remote teams. Acquired by Grain. <br /><br />Earlier in my career I started at McKinsey & Co., I was fortunate to land a product management opportunity at Vivint.SmartHome. While working with a great team, we were able to build the best-rated smart home app at the time (4.5 stars over 2400+ reviews).<br /><br />After leaving Vivint, I pursued my passion for Africa by joining a motorcycle taxi, ride-sharing startup in Uganda called SafeBoda. At SafeBoda, I wore many hats: product manager, UX designer, and call support director. Perhaps the most exciting and difficult challenge while at SafeBoda was building a world-class tech team with team members from 5 countries (Kenya, Uganda, Nigeria, Ghana, and the US).<br /><br />At SafeBoda, we successfully built and launched the product, achieving 10K+ rides within the first 4 months. I, unfortunately, had to leave SafeBoda prematurely for personal reasons, but the company is still going strong and is now doing >8,000 rides per day.",
+ 	'twitter' => '',
+ 	'instagram' => '',
+ 	'linkedin' => 'https://www.linkedin.com/in/jeff-whitlock/'
  );
 
 /*
