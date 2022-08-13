@@ -198,13 +198,13 @@ function get_time($day, $slot) {
 function get_workshop_day($day) {
 	switch($day) {
 		case 1:
-			return 'Day 1, November 2022';
+			return 'November 2, 2022';
 			break;
 		case 2:
-			return 'Day 2, November 2022';
+			return 'November 3, 2022';
 			break;
 		case 3:
-			return 'Day 3, November 2022';
+			return 'November 4, 2022';
 			break;
 	}
 }
