@@ -13,7 +13,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 ?>
 	<main class="secondary product-workshops-page workshops-instructors">
 		<section class="hero">
-			<h1>Instructors</h1>
+			<h1>Workshop Instructors</h1>
 		</section>
 		<section class="instructors">
 			<h2 class="">Instructors</h2>
@@ -43,7 +43,7 @@ foreach($instructors as $instructor) {
 ?>
 
 			</ul>
-			<p><em>+ <?php echo 20 - count($instructors); ?> more instructors to be announced soon!</em></p>
+			<p><em>+ <?php echo 16 - count($instructors); ?> more instructors to be announced soon!</em></p>
 		</section>
 		<section class="join-us">
 			<h2>Join us at the Front!</h2>

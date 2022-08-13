@@ -68,12 +68,12 @@ function print_schedulerow($day, $slot) {
 ?>
 	<main class="secondary product-workshops-page workshop-schedule">
 		<section class="hero">
-			<h1>Schedule</h1>
+			<h1>Workshop Schedule</h1>
 		</section>
 		<section class="schedule-breakdown">
 			<h2>Schedule</h2>
 						
-			<p class="about-schedule">There are 5 workshops per time-slot. Workshop are not assigned or pre-selected, 
+			<p class="about-schedule">There are 4 workshops per time-slot. Workshops are not assigned or pre-selected, 
 				allowing you to choose those that interest you most or adjust as your schedule requires. Workshop may fill 
 				up fast so we encourage attendees to arrive on time.</p>
 

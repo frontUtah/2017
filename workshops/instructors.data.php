@@ -89,7 +89,7 @@ $instructors[] = array(
  	'discipline' => 'ux',
  	'photo' => 'headshots/sophiaprater.jpg',
  	'bio' => "Sophia Prater is founder and lead UX designer at Rewired and the chief evangelist of object-oriented UX. Sophia teaches her OOUX methodologies at conferences, within companies, and through her OOUX Certification Program. She is the host of the OOUX Happy Hour meetup and the OOUX Podcast.<br /><br />Sophia has brought the complexity-untangling magic of OOUX to companies such as Facebook, Mastercard, Macy’s, Credit Karma, Hubspot, Intercom, Delta Airlines, CNN, and many more.<br /><br />Sophia lives outside of Atlanta in the beautiful north Georgia mountains, the wine country of the southeast United States, with her husband and business partner, Luke.",
- 	'twitter' => '',
+ 	'twitter' => 'sophiavux',
  	'instagram' => '',
  	'linkedin' => 'https://www.linkedin.com/in/sophiav/'
  );
@@ -118,10 +118,70 @@ $instructors[] = array(
  	'company' => 'Grain',
  	'discipline' => 'product-management',
  	'photo' => 'headshots/jeffwhitlock.jpg',
- 	'bio' => "Most recently I built PingPong, a video messaging app for remote teams. Acquired by Grain. <br /><br />Earlier in my career I started at McKinsey & Co., I was fortunate to land a product management opportunity at Vivint.SmartHome. While working with a great team, we were able to build the best-rated smart home app at the time (4.5 stars over 2400+ reviews).<br /><br />After leaving Vivint, I pursued my passion for Africa by joining a motorcycle taxi, ride-sharing startup in Uganda called SafeBoda. At SafeBoda, I wore many hats: product manager, UX designer, and call support director. Perhaps the most exciting and difficult challenge while at SafeBoda was building a world-class tech team with team members from 5 countries (Kenya, Uganda, Nigeria, Ghana, and the US).<br /><br />At SafeBoda, we successfully built and launched the product, achieving 10K+ rides within the first 4 months. I, unfortunately, had to leave SafeBoda prematurely for personal reasons, but the company is still going strong and is now doing >8,000 rides per day.",
- 	'twitter' => '',
+ 	'bio' => "Most recently Jeff built PingPong, a video messaging app for remote teams. Acquired by Grain. <br /><br />Earlier in his career he started at McKinsey & Co., He was fortunate to land a product management opportunity at Vivint SmartHome. While working with a great team, they were able to build the best-rated smart home app at the time (4.5 stars over 2400+ reviews).<br /><br />After leaving Vivint, he pursued his passion for Africa by joining a motorcycle taxi, ride-sharing startup in Uganda called SafeBoda. At SafeBoda, he wore many hats: product manager, UX designer, and call support director. Perhaps the most exciting and difficult challenge while at SafeBoda was building a world-class tech team with team members from 5 countries (Kenya, Uganda, Nigeria, Ghana, and the US).<br /><br />At SafeBoda, they successfully built and launched the product, achieving 10K+ rides within the first 4 months. Jeff, unfortunately, had to leave SafeBoda prematurely for personal reasons, but the company is still going strong and is now doing >8,000 rides per day.",
+ 	'twitter' => 'JeffreyWhitlock',
  	'instagram' => '',
  	'linkedin' => 'https://www.linkedin.com/in/jeff-whitlock/'
+ );
+
+ // Sarah Doody
+ $instructors[] = array(
+ 	'slug' => 'sarahdoody',
+ 	'first' => 'Sarah',
+ 	'last' => 'Doody',
+ 	'title' => 'Founder + CEO ',
+ 	'company' => 'UX Consultant',
+ 	'discipline' => 'research',
+ 	'photo' => 'headshots/sarahdoody.jpg',
+ 	'bio' => "Sarah helps companies and teams understand the people and purpose behind the products they are creating.<br /><br />Since 2004 She has been leveraging the power of storytelling and research to help teams reduce the risk of re-work and instead, build the right products and features the first time around.<br /><br />She's also the founder & CEO of Career Strategy Lab™ a UX career accelerator that helps UX professionals get hired without applying to hundreds of roles. We do this through group and individualized UX career coaching.",
+ 	'twitter' => 'sarahdoody',
+ 	'instagram' => '',
+ 	'linkedin' => 'https://www.linkedin.com/in/sarahdoody/'
+ );
+
+  // Kelsey Scherer
+ $instructors[] = array(
+ 	'slug' => 'kelseyscherer',
+ 	'first' => 'Kelsey',
+ 	'last' => 'Scherer',
+ 	'title' => 'VP of Product Design',
+ 	'company' => 'Buzzfeed',
+ 	'discipline' => 'leadership',
+ 	'photo' => 'headshots/kelseyscherer.jpg',
+ 	'bio' => "Kelsey is the VP of Product Design and UX Research at BuzzFeed. She manages a team of 19 design managers, product designers, and researchers who are responsible for all aspects of design, from research to execution. Their team works on the BuzzFeed website and app, the Tasty website and app, the HuffPost website and app, the BuzzFeed CMS, internal social publishing tools, new products and features for our clients, and more. Kelsey works closely with the leaders of product, engineering, data, and project management to define strategic direction and guide execution across all teams in the BuzzFeed tech org.<br /><br />She's spoken about designing and launching news products, building a culture of documentation, the intersection of media and technology, and the importance of design for startups. In 2017, She was selected to attend Poynter’s Leadership Academy for Women in Digital Media.<br /><br />Previously, she was a Product Design Manager for consumer products at BuzzFeed. Before that, she was the Design Director of Vox Media’s Storytelling Studio. She also led the design of storytelling tools on Autotune; worked on the relaunch of Racked, on the relaunch of Eater, with the Vox Media advertising team; and helped plan various community-based events with other members of the product team.",
+ 	'twitter' => 'kelsa_',
+ 	'instagram' => '',
+ 	'linkedin' => 'https://www.linkedin.com/in/kelsey-scherer/'
+ );
+
+  // Nate Barrett
+ $instructors[] = array(
+ 	'slug' => 'natebarrett',
+ 	'first' => 'Nate',
+ 	'last' => 'Barrett',
+ 	'title' => 'Head of Interactive Learning Platform',
+ 	'company' => 'Pluralsight',
+ 	'discipline' => 'product-management',
+ 	'photo' => 'headshots/natebarrett.jpg',
+ 	'bio' => "Nate Barrett has a passion for building great products and building the people that build great products. Nate has been in product for over twenty years building B2C and B2B products for billion-dollar enterprises and broke startups. He finds his greatest happiness working with product teams to solve hard problems through trial, failure and all-out passion for easing customer's pain. Nate is currently at Pluralsight leading the development of interactive learning experiences that allow technologists to learn by doing.",
+ 	'twitter' => 'ndbarrett',
+ 	'instagram' => '',
+ 	'linkedin' => 'https://www.linkedin.com/in/natebarrett/'
+ );
+
+  // David Hoang
+ $instructors[] = array(
+ 	'slug' => 'davidhoang',
+ 	'first' => 'David',
+ 	'last' => 'Hoang',
+ 	'title' => 'Head of Product Design',
+ 	'company' => 'Webflow',
+ 	'discipline' => 'leadership',
+ 	'photo' => 'headshots/davidhoang.jpg',
+ 	'bio' => "David Hoang is a design leader and technologist who is passionate about creating companies and products through a collaborative process with humans. Currently, he is the Director of Design at Webflow.<br /><br />Previously he was an independent Design and Product consultant working with startups and fortune 500 companies and led Product Design and Research at One Medical, a health tech company focused on transforming primary healthcare and was the Director of Design at Black Pixel, a remote-first digital product consultancy.<br /><br />His professional experience spans across brand, engineering, marketing, and product. David hails from the Pacific Northwest and currently lives in San Francisco, California.",
+ 	'twitter' => 'davidhoang',
+ 	'instagram' => '',
+ 	'linkedin' => 'https://www.linkedin.com/in/dhoang2/'
  );
 
 /*
