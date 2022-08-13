@@ -14,7 +14,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 <main class="secondary product-workshops-page workshops-courses">
 	<section class="hero">
-		<h1>Courses</h1>
+		<h1>Workshop Courses</h1>
 	</section>
 	<section class="courses <?php echo $track; ?>">
 		<h2 class="">Courses</h2>
