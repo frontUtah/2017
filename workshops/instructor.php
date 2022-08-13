@@ -48,17 +48,17 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 						// twitter
 						if(!empty($instructor['twitter'])) {
-							echo '<li><a class="twitter" href="https://twitter.com/' . $instructor['twitter'] . '">Twitter</a></li>';
+							echo '<li><a class="twitter" target="_blank" href="https://twitter.com/' . $instructor['twitter'] . '">Twitter</a></li>';
 						}
 
 						// linkedin
 						if(!empty($instructor['linkedin'])) {
-							echo '<li><a class="linkedin" href="' . $instructor['linkedin'] . '">LinkedIn</a></li>';
+							echo '<li><a class="linkedin" target="_blank" href="' . $instructor['linkedin'] . '">LinkedIn</a></li>';
 						}
 
 						// instagram
 						if(!empty($instructor['instagram'])) {
-							echo '<li><a class="instagram" href="https://www.instagram.com/' . $instructor['instagram'] . '/">Instagram</a></li>';
+							echo '<li><a class="instagram" target="_blank" href="https://www.instagram.com/' . $instructor['instagram'] . '/">Instagram</a></li>';
 						}
 
 						?>

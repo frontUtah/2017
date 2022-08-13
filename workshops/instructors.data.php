@@ -30,7 +30,7 @@
 	'photo' => 'headshots/drewbridewell.jpg',
 	'bio' => 'Drew Bridewell is an experienced product and design leader, founder, and certified high-performance coach who is passionate about empowering and inspiring the makers of the world through intentional design.</br></br>Most recently Drew is Head of Design and Product at GrowthDay, a startup bringing together world-class research-backed personal development tools, community, and Life coaching by the world`s experts in personal development.</br></br>He founded Next Level UX in 2020 after a career-focused in learning and development products. During his time at Facebook, he built 3, 0-1 products focused on performance management,  to serve and empower the growth of Facebook`s 50k employees and 10k+ managers.</br></br>Drew also founded the design transformation team previously at InVision, where he studied and taught design systems across the world, mapping hundreds of the world`s best teams processes and systems and finding the opportunities to enhance their design maturity.</br></br>He also lead enterprise efforts for Lynda.com and LinkedIn Learning and delivered Lynda.com`s very first responsive cross-platform application.  He hosts Practical UX Weekly on LinkedIn Learning and coaches at the Stanford d.school ME216 program.</br></br>Drew has over 15 years in the tech industry and has made it his purpose to empower and champion the makers of the world through intentional design.',
 	'twitter' => 'abridewell',
-	'instagram' => 'abridewell/',
+	'instagram' => 'drewbridewell',
 	'linkedin' => 'https://www.linkedin.com/in/abridewell/'
 );
 
