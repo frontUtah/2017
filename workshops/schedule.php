@@ -73,7 +73,7 @@ function print_schedulerow($day, $slot) {
 		<section class="schedule-breakdown">
 			<h2>Schedule</h2>
 						
-			<p class="about-schedule">There are 4 workshops per time-slot. Workshops are not assigned or pre-selected, 
+			<p class="about-schedule">There are four workshops per time-slot. Workshops are not assigned or pre-selected, 
 				allowing you to choose those that interest you most or adjust as your schedule requires. Workshop may fill 
 				up fast so we encourage attendees to arrive on time.</p>
 
@@ -143,7 +143,7 @@ function print_schedulerow($day, $slot) {
 						</dl>
 					</li>
 					<li class="timeslot four-hours">
-						<?php echo print_schedulerow(1, 1); ?>
+						<?php echo print_schedulerow(2, 1); ?>
 					</li>
 					<li class="timeslot one-hour">
 						<dl>
@@ -154,7 +154,7 @@ function print_schedulerow($day, $slot) {
 						</dl>
 					</li>
 					<li class="timeslot four-hours">
-						<?php echo print_schedulerow(1, 2); ?>
+						<?php echo print_schedulerow(2, 2); ?>
 					</li>
 					<li class="timeslot one-hour">
 						<dl>
@@ -203,7 +203,7 @@ function print_schedulerow($day, $slot) {
 						</dl>
 					</li>
 					<li class="timeslot four-hours">
-						<?php echo print_schedulerow(2, 1); ?>
+						<?php echo print_schedulerow(3, 1); ?>
 					</li>
 					<li class="timeslot one-hour">
 						<dl>
@@ -214,7 +214,7 @@ function print_schedulerow($day, $slot) {
 						</dl>
 					</li>
 					<li class="timeslot four-hours">
-						<?php echo print_schedulerow(2, 2); ?>
+						<?php echo print_schedulerow(3, 2); ?>
 					</li>
 					<li class="timeslot one-hour">
 						<dl>

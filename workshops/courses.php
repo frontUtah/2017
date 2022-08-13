@@ -22,7 +22,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 
 		<div class="course-calendar">
 			<div class="course-date">
-				<h3><?php echo get_workshop_day(1); ?></h3>
+				<h3><?php echo get_workshop_day(2); ?></h3>
 				<ul class="days-courses">
 
 					<?php
@@ -100,16 +100,16 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						}
 					}
 
-					echo print_courses(1);
+					echo print_courses(2);
 
 					?>
 
 				</ul>
 			</div>
 			<div class="course-date">
-				<h3><?php echo get_workshop_day(2); ?></h3>
+				<h3><?php echo get_workshop_day(3); ?></h3>
 				<ul class="days-courses">
-					<?php echo print_courses(2); ?>
+					<?php echo print_courses(3); ?>
 				</ul>
 			</div>
 		</div>
