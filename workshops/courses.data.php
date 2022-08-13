@@ -10,26 +10,35 @@ $courses[] = array();
 
 // Drew Bridewell
 $courses[] = array(
-	'title' => 'The building, scaling, and evolution of a Design System',
- 	'description' => "Product design over the last years has taken a substantial leap forward in progress. We now have multiple tools to choose from for executing our solutions, along with a collection of new responsibilities that each one of us needs to adapt to stay current.</br></br>In this Workshop, join Drew Bridewell, Senior Design Specialist from InVision, as he shares a wave of packaged up fresh design system content that you’ve never seen before.<br /><br />He’ll walk you through how you can elevate your thinking around design systems, as well as the practice that goes into successfully implementing one. </br></br>During the workshop Drew will provide take-home worksheets that can help you throughout the creation and governance process of building systems. He’ll finish by providing you the best-in-class habits to nurture your systems over time.",
+	'title' => 'High-Performance Product and Design Playbook',
+ 	'description' => "In this workshop Drew will help you build your own High-Performance Product and Design Playbook through the following...
+<ul>
+<li>Recalibrate Primary roles and responsibilities to elevate your processes, improve your agility and iterative mindset, learn and make decisions better, in harmony</li>
+<li>Validate ideas and reduce business cost from Zero to One business, product and design development </li>
+<li>Establish another level of intentionality and product and design impact in your business </li>
+<li>Increase your team's productivity and overall wellness </li>
+<li>Unlock individual and team personal development plans and connect to your higher potential</li>
+<li>Elevate and develop your team's rituals, routines, and rhythms</li>
+<li>Sustained productivity, performance, and leadership excellence</li>
+</ul>",
  	'track' => 'ux',
  	'day' => 1,
  	'slot' => 1,
  	'room' => 1,
  	'instructor' => 'drewbridewell',
-	'level' => 'advanced'
+	'level' => 'UX'
 );
 
 // Mariah Hay
  $courses[] = array(
  	'title' => 'Product Leadership Fundamentals: Find, Develop, and Keep Your Team Healthy',
- 	'description' => "You’re an experienced product practitioner who has a love of mentoring and an ambition for leadership but are not sure where to start. To make that shift you need to arm yourself with some tactical skills around building a team, developing a team, and even having the hard conversations needed to keep the team healthy. In this workshop, we will be breaking our time into focusing on these three areas, reviewing tactics and tools, and learning through doing. <br><br>Experience Team Building 101: How to recruit, interview and identify the best person for your team. We will look at strategies for finding amazing applicants, effective ways of interviewing, and things to looks for and consider in selecting a new team member.<br><br>Developing Your Team: Tools to develop your PMs and UX Designers, and create career paths within your organization We will look at defining what career paths exist / should exist in your company, learn to use tools that help us guide a conversation to understand the many dimensions of your team member, and practice ways to select and prioritize actionable things you can work with your team member to improve.<br><br>Conversations: How to manage Product Managers and UX Designers who are dropping the ball. We will talk about one of the hardest and most important parts of leadership, managing team members who are dropping the ball. This is easier said than done. First, we need to understand why the ball is being dropped (system, workload, communication, soft skills, disengagement). If it is a system or workload issue, how do we co-author a solution with the team? If it is a communication or soft skills issue, how do we coach the individual? And if it is a disengagement issue, how do we have the hard conversation with our team member that they must step up or move on." ,
+ 	'description' => "You’re an experienced product practitioner who has a love of mentoring and an ambition for leadership but are not sure where to start. To make that shift you need to arm yourself with some tactical skills around building a team, developing a team, and even having the hard conversations needed to keep the team healthy. In this workshop, we will be breaking our time into focusing on these three areas, reviewing tactics and tools, and learning through doing. <br><br><strong>Experience Team Building 101:</strong> How to recruit, interview and identify the best person for your team. We will look at strategies for finding amazing applicants, effective ways of interviewing, and things to looks for and consider in selecting a new team member.<br><br><strong>Developing Your Team:</strong> Tools to develop your PMs and UX Designers, and create career paths within your organization We will look at defining what career paths exist / should exist in your company, learn to use tools that help us guide a conversation to understand the many dimensions of your team member, and practice ways to select and prioritize actionable things you can work with your team member to improve.<br><br><strong>Conversations:</strong> How to manage Product Managers and UX Designers who are dropping the ball. We will talk about one of the hardest and most important parts of leadership, managing team members who are dropping the ball. This is easier said than done. First, we need to understand why the ball is being dropped (system, workload, communication, soft skills, disengagement). If it is a system or workload issue, how do we co-author a solution with the team? If it is a communication or soft skills issue, how do we coach the individual? And if it is a disengagement issue, how do we have the hard conversation with our team member that they must step up or move on." ,
  	'track' => 'leadership',
  	'day' => 1,
  	'slot' => 1,
  	'room' => 2,
  	'instructor' => 'mariahhay',
- 	'level' => 'intermediate'
+ 	'level' => 'leadership'
  );
 
    // Sarah Doody
@@ -41,7 +50,7 @@ $courses[] = array(
  	'slot' => 1,
  	'room' => 3,
  	'instructor' => 'sarahdoody',
- 	'level' => 'intermediate'
+ 	'level' => 'research'
  );
 
 // Garth Braithwaite
@@ -53,7 +62,7 @@ $courses[] = array(
  	'slot' => 2,
  	'room' => 1,
  	'instructor' => 'garthdbraithwaite',
- 	'level' => 'basic'
+ 	'level' => 'ux'
  );
 
   // Jeff Whitlock
@@ -65,7 +74,7 @@ $courses[] = array(
  	'slot' => 2,
  	'room' => 2,
  	'instructor' => 'jeffwhitlock',
- 	'level' => 'intermediate'
+ 	'level' => 'product'
  );
 
   // Kelsey Scherer
@@ -77,7 +86,7 @@ $courses[] = array(
  	'slot' => 2,
  	'room' => 3,
  	'instructor' => 'kelseyscherer',
- 	'level' => 'intermediate'
+ 	'level' => 'leadership'
  );
 
  // Sophia Prater
@@ -89,7 +98,7 @@ $courses[] = array(
  	'slot' => 1,
  	'room' => 1,
  	'instructor' => 'sophiaprater',
- 	'level' => 'basic'
+ 	'level' => 'ux'
  );
 
   // Kyle Jacobsen
@@ -101,19 +110,19 @@ $courses[] = array(
  	'slot' => 1,
  	'room' => 2,
  	'instructor' => 'kylejacobsen',
- 	'level' => 'intermediate'
+ 	'level' => 'leadership'
  );
 
   // Nate Barrett
  $courses[] = array(
- 	'title' => 'A process for managing big product bets',
- 	'description' => "Details coming soon...",
+ 	'title' => 'Removing "Luck" from Product Bets',
+ 	'description' => "You have a product vision and a solid strategy for getting there, but how do you know it's the right strategy? How do you remove as much risk as possible, and make the right product investment(s)? How do you increase your odds of winning? You make calculated bets. In this workshop, I'll share what I've seen work to win.",
  	'track' => 'product-management',
  	'day' => 2,
  	'slot' => 1,
  	'room' => 3,
  	'instructor' => 'natebarrett',
- 	'level' => 'intermediate'
+ 	'level' => 'product'
  );
 
  // Vicky Thomas
@@ -125,19 +134,19 @@ $courses[] = array(
  	'slot' => 2,
  	'room' => 1,
  	'instructor' => 'vickythomas',
- 	'level' => 'basic'
+ 	'level' => 'product'
  );
 
  // Jaekob Chenina
  $courses[] = array(
  	'title' => 'How to create intelligent products',
- 	'description' => "According to Gartner “AI Technologies will be in almost every new software product by 2020”. With this explosion of AI products, many will fail. However, there are common trends that are emerging among the intelligent products that are succeeding. So what is it, that makes an AI product that customers love? In this workshop, you will deep dive on the most relevant concepts across various disciplines that help answer this question.<br /><br /><ul><li>You will learn:</li><li>Analytics for AI products</li><li>Machine Learning for AI products</li><li>UX for AI Products</li><li>Common Use Cases for AI Products</li><li>Discovering AI Product Opportunities</li></ul><br /><br />You will also learn how to embed AI into your software development methodology and design an effective AI product team. Through exercises, case-studies and lessons learned, this workshop will empower your product team with an actionable path to incorporate AI in an impactful way into your business.",
+ 	'description' => "According to Gartner “AI Technologies will be in almost every new software product by 2020”. With this explosion of AI products, many will fail. However, there are common trends that are emerging among the intelligent products that are succeeding. So what is it, that makes an AI product that customers love? In this workshop, you will deep dive on the most relevant concepts across various disciplines that help answer this question.<br /><br />You will learn:<ul><li>Analytics for AI products</li><li>Machine Learning for AI products</li><li>UX for AI Products</li><li>Common Use Cases for AI Products</li><li>Discovering AI Product Opportunities</li></ul>You will also learn how to embed AI into your software development methodology and design an effective AI product team. Through exercises, case-studies and lessons learned, this workshop will empower your product team with an actionable path to incorporate AI in an impactful way into your business.",
  	'track' => 'ux',
  	'day' => 2,
  	'slot' => 2,
  	'room' => 2,
  	'instructor' => 'jaekobchenina',
- 	'level' => 'intermediate'
+ 	'level' => 'product'
  );
 
   // David Hoang
@@ -149,7 +158,7 @@ $courses[] = array(
  	'slot' => 2,
  	'room' => 3,
  	'instructor' => 'davidhoang',
- 	'level' => 'intermediate'
+ 	'level' => 'leadership'
  );
 
 
