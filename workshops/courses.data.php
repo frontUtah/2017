@@ -43,8 +43,8 @@ $courses[] = array(
 
    // Sarah Doody
  $courses[] = array(
- 	'title' => 'Storyboarding in Product Development',
- 	'description' => "Why do so many teams fail to launch products on time? Why do budgets quickly creep beyond initial projections? Why do so many products launch and then, customers fail to adopt the product or feature?<br /><br />It’s because too often, teams jump right into designing and building before they establish their product story –– the deep understanding of how the product fits into people’s lives.<br /><br />Teams often let the weeds of the product details distract them from considering the user as a person. Discussion about people is quickly overshadowed by pixels and code.<br /><br />Storyboarding is a critical activity to product development because it forces us to develop a deeper understanding of the people we are designing for. It forces us to establish the context, characters, and a clear language which creates an anchor that can ground the team and keep the focus on people.",
+ 	'title' => 'Rapid User Research & Usability Testing',
+ 	'description' => "Finally get your team to see how easy it can be do to research so you can understand your users. In this workshop we'll practice user interviews and usability testing. You'll have a toolkit for doing research on your own.<br><br>Many teams talk about doing research, but not enough teams actually do research. One main reason for this is lack of buy in from stakeholders and executives. Another reason is because research is perceived as being expense and time consuming. In this workshop, we’ll walk through the entire research process and understand how to get buy in and how to conduct smart, effective user research.<br><br>The workshop will consist of a brief overview of why research matters so that you can have more informed discussions with team mates and colleagues who don’t buy into research. Then, we’ll take a deep dive into the research process as well as practice doing research on each other based on a mock project that you’ll learn about in the workshop.",
  	'track' => 'research',
  	'day' => 2,
  	'slot' => 1,
@@ -56,7 +56,7 @@ $courses[] = array(
 // Garth Braithwaite
  $courses[] = array(
  	'title' => 'How to Establish and Maintain a Design System',
- 	'description' => "As teams and products grow it can become complicated to maintain consistency across all properties, additionally, there is often a duplication of initial work for each product starting from scratch. By establishing and maintaining a company-wide design language and design system implementation, teams are better equipped to ensure consistency, reduce duplication of work, and improve overall design and code quality.<br><br.In this workshop, you will get hands-on experience with initial ideation and planning of a design system, as well as designing initial tokens, components, assets, and usage guidelines. Along the way, we'll discuss common pitfalls and pain points associated with organizing a design system and establishing it throughout a company.",
+ 	'description' => "As teams and products grow it can become complicated to maintain consistency across all properties, additionally, there is often a duplication of initial work for each product starting from scratch. By establishing and maintaining a company-wide design language and design system implementation, teams are better equipped to ensure consistency, reduce duplication of work, and improve overall design and code quality.<br><br>.In this workshop, you will get hands-on experience with initial ideation and planning of a design system, as well as designing initial tokens, components, assets, and usage guidelines. Along the way, we'll discuss common pitfalls and pain points associated with organizing a design system and establishing it throughout a company.",
  	'track' => 'ux',
  	'day' => 2,
  	'slot' => 2,
