@@ -104,7 +104,7 @@ $courses[] = array(
   // Kyle Jacobsen
  $courses[] = array(
  	'title' => 'The Balance of Market Opportunities & Customer Driven Innovation',
- 	'description' => "Details coming soon...",
+ 	'description' => "Balancing investments between new market opportunities and innovation for existing customers can be one of the most challenging questions a business has to answer. It’s asking the age-old question, “should we go wider or should we go deeper?” Going wider increases the TAM of your product but it comes with great risk because it’s not a question of just product/market fit but of company/market fit. Going deeper satisfies your current clients but will it expand your revenue?<br /><br />The purpose of this workshop is to develop a methodology to answer this question. We will create a scorecard to help you and your team identify opportunities and risks in order to decide which investments are right for your company.  ",
  	'track' => 'leadership',
  	'day' => 3,
  	'slot' => 1,
@@ -151,8 +151,16 @@ $courses[] = array(
 
   // David Hoang
  $courses[] = array(
- 	'title' => 'How to Create a Design Leadership Playbook',
- 	'description' => "Details coming soon...",
+ 	'title' => 'Leading and operating your design org',
+ 	'description' => "Whether you're a senior-level individual contributor or people manager, ensuring your teams run well is critical to get results. This workshop will be an overview on the primary responsibilities of being a coach, operator, and strategist in design leadership. We'll cover:<br /><br />
+
+As companies scale, what got you here won't get you there. In this workshop, we'll cover:
+<ul>
+<li>An overview of the primary responsibilities and functions of operating your team</li>
+<li>Building operating playbook for your design orgs</li>
+<li>Proactively address common org problems you'll encounter as your team evolves</li>
+</ul>
+You'll come out of this workshop with best practices and an operating playbook to run and grow your design orgs.",
  	'track' => 'leadership',
  	'day' => 3,
  	'slot' => 2,
