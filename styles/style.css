@@ -1717,8 +1717,8 @@ section.instructor-preview h2 {
 }
 
 @media (min-width:1000px) {
-	section.instructor-preview {
-		padding: 70px 100px
+	section.instructor-preview, section.instructors {
+		padding: 70px 180px
 	}
 
 	section.instructor-preview h2 {
