@@ -29,6 +29,9 @@ if(isset($meta['opengraph']) && !empty($meta['opengraph'])) {
 	<link rel="apple-touch-icon" href="/images/apple-touch-icon.png" type="image/png" />
 	<link rel="mask-icon" href="/images/mask-icon.svg" color="gray" />
 	<link rel="shortcut icon" href="/images/favicon.ico" />
+
+	<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/5a9bade195be7c98130573919/8d424e0e9bc5a05884b399135.js");</script>
+	
 </head>
 <body>
 
