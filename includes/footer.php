@@ -21,7 +21,7 @@
 		<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 
 		<div id="mc_embed_signup">
-		<form action="https://frontutah.us2.list-manage.com/subscribe/post?u=5a9bade195be7c98130573919&amp;id=e8d567ca7f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+		<form action="https://frontutah.us2.list-manage.com/subscribe/post?u=5a9bade195be7c98130573919&amp;id=78b2b3728d&amp;f_id=005e49e0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 		    <div id="mc_embed_signup_scroll">
 			<label for="mce-EMAIL">Join our mailing list for updates</label>
 			<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
