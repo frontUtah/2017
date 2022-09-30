@@ -30,7 +30,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<li>800+ product designers and managers</li>
 				</ul>
 			</p>
-			<p class="date-location">Spring 2023 • Salt Lake City, Utah</p>
+			<p class="date-location">26-28 April 2023 • Salt Lake City, Utah</p>
 			<!--- <a href="http://www.pluralsight.com"><img id="broughtoyouby" src="/images/frontworkshops18/premeir-sponsor.png" /></a> -->
 			<p><a href="/conference/registration" class="button">Register</a></p>
 		</section>
@@ -104,7 +104,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<p>Our goal is to provide an environment that allows industry professionals to gather once a year and share the experiences that have helped them build better products and progress individually.</p>
 		</section>
 
-
+		<!--
 		<section class="training-courses sponsors">
 			<h2>Sponsors</h2>
 			<p>Front wouldn't be possible without our amazing sponsors that support these events year after year. <a href="/conference/sponsors">Learn more</a> about each partner, how we do sponsorships differently, and how you can get involved.</p>
@@ -153,6 +153,7 @@ if(count($sponsors_tier2)) {
 ?>
 
 		</section>
+	-->
 
 		<section class="photo-collage">
 			<img src="/images/collage-front-photos-mobile@2x.jpg" alt="" class="mobile">

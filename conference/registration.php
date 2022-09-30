@@ -44,11 +44,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<dt><div></div></dt>
 					<dd class="early">
 						Early bird pricing
-						<small>30% off <!--through 4 March 2022--></small>
+						<small>30% off through 24 Feb 2023</small>
 					</dd>
 					<dd class="standard">
 						Standard pricing
-						<small>After early bird<!--Starting 5 March 2022--></small>
+						<small>After early bird Starting 24 Feb 2023</small>
 					</dd>
 				</dl>
 				<dl class="full">
