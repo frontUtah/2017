@@ -109,28 +109,28 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			
 			
 			
-			<!--
-			<div id="eventbrite-widget-container-184315822587"></div>
 			
+			<div id="eventbrite-widget-container-429535621607"></div>
+
 			<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
-			
+
 			<script type="text/javascript">
 			    var exampleCallback = function() {
 			        console.log('Order complete!');
 			    };
-			
+
 			    window.EBWidgets.createWidget({
 			        // Required
 			        widgetType: 'checkout',
-			        eventId: '184315822587',
-			        iframeContainerId: 'eventbrite-widget-container-184315822587',
-			
+			        eventId: '429535621607',
+			        iframeContainerId: 'eventbrite-widget-container-429535621607',
+
 			        // Optional
 			        iframeContainerHeight: 1000,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
 			        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
 			    });
 			</script>
-			-->
+			
 			
 		</section>
 
