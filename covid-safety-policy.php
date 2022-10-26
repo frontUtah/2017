@@ -15,10 +15,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
  </p>
  			<ul>
  				<li>Attendees, sponsors, speakers, and staff experiencing or exhibiting any COVID-19 related symptoms as outlined by the federal and state Center for Disease Control and Prevention (CDC) such as fever, dry cough, or shortness of breath will not be allowed to enter the event. Attendees that begin experiencing related symptoms agree to notify staff and leave immediately.</li>
- 				<li>Anyone who has traveled internationally within the past 14 days may not attend, present, or work at the event.</li>
  				<li>Anyone that believes they have been recently exposed to a person or animal with a positive and confirmed case if COVID-19 may not attend, present, or work at the event.</li>
  				<li>All attendees, sponsors, speakers, and staff will be required to practice social distancing.</li>
- 				<li>All attendees, sponsors, speakers, and staff will be required to wear masks over their nose and mouth.</li>
+ 				<li>All attendees, sponsors, speakers, and staff are highly encouraged to wear masks over their nose and mouth.</li>
 				<li>All attendees, sponsors, speakers, and staff will be required to provide proof of vaccination or a negative COVID-19 test result with a date and time stamp within 48 hours of the event.</li>
 				<li>All attendees, sponsors, speakers, and staff will be required to sign a <a href="https://docs.google.com/document/d/12hlA-lkq-ztQZ3j_R2xgMhdVCCNKxXh8EuVukQNGY5E/edit">waiver and release of liability form</a> as part of registration.</li>
 				<li>Attendees, sponsors, speakers, and staff that exhibit any behavior in violation to the Front safety policy will be removed from the event by Front staff.</li>
