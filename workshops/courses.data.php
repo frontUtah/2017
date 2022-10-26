@@ -77,16 +77,16 @@ $courses[] = array(
  	'level' => 'product'
  );
 
-  // Kelsey Scherer
+  // Jacob Davidson
  $courses[] = array(
- 	'title' => 'Onboarding consistently and thoroughly',
- 	'description' => "If you’re a hiring manager or leader, you know how much time it takes to ramp up a new team member. All of this preparation is required to successfully onboard a new team member, but you don’t have to reinvent the wheel each time you hire someone. Whether you’re hiring rapidly or only hire a couple of people each year, streamlining your onboarding process will save you time, get new hires up to speed faster, and help cultivate the culture you want your team to have.<br /><br />In this workshop, we’ll use BuzzFeed’s onboarding documentation as a case study to illustrate an example of a repeatable and thorough onboarding process. Working in small groups, we’ll define a set of common (and maybe not-so-common!) problems to be solved during onboarding. From there, we’ll put together templates and frameworks that you can take back to your team to level up your onboarding process.",
- 	'track' => 'leadership',
+ 	'title' => 'Protecting Our Research from Ourselves: Optimizing Research for Creative and Empathic Decisions',
+ 	'description' => "By focusing so much on what comes at the end of research: the solution, we get in the way of understanding the problems we are trying to solve.<br /><br />This class teaches more about developing a mindset of exploration and discovery before getting to solutions. Whether you’re a PM, a Designer, or a Researcher, this class will help you understand how to plan, synthesize, and share research that looks to understand user’s obstacles and leverage those insights to inspire creativity and empathy among your teams.",
+ 	'track' => 'research',
  	'day' => 2,
  	'slot' => 2,
  	'room' => 3,
- 	'instructor' => 'kelseyscherer',
- 	'level' => 'leadership'
+ 	'instructor' => 'jacobdavidson',
+ 	'level' => 'research'
  );
 
  // Sophia Prater

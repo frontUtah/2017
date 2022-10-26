@@ -139,19 +139,19 @@ $instructors[] = array(
  	'linkedin' => 'https://www.linkedin.com/in/sarahdoody/'
  );
 
-  // Kelsey Scherer
+  // Jacob Davidson
  $instructors[] = array(
- 	'slug' => 'kelseyscherer',
- 	'first' => 'Kelsey',
- 	'last' => 'Scherer',
- 	'title' => 'VP of Product Design',
- 	'company' => 'Buzzfeed',
- 	'discipline' => 'leadership',
- 	'photo' => 'headshots/kelseyscherer.jpg',
- 	'bio' => "Kelsey is the head of Product Design & UX Research at BuzzFeed. She currently manages a team of 17 design managers, product designers, and researchers who are responsible for all aspects of design, from research to execution. She also works closely with the leaders of product, engineering, data, and project management to define strategic direction and guide execution across all teams in the BuzzFeed Tech organization.<br /><br />Previously, Kelsey worked as a Design Director at Vox Media, where she worked on relaunching brands like Racked and Eater, leading internal tools design, and helped plan various community-based events.",
- 	'twitter' => 'kelsa_',
+ 	'slug' => 'jacobdavidson',
+ 	'first' => 'Jacob',
+ 	'last' => 'Davidson',
+ 	'title' => 'UX Researcher',
+ 	'company' => 'CHG',
+ 	'discipline' => 'research',
+ 	'photo' => 'headshots/jacobdavidson.jpg',
+ 	'bio' => "Thick Data, Ethnography, Surveys, Applied Research, “The Design of Everyday Things” by Don Norman, and Microcultures are all things that Jacob will happily spend an afternoon discussing. Jacob has been a UX Researcher since 2019 and has worked with teams ranging anywhere from robotics to healthcare.<br /><br />Jacob is currently working for CHG Healthcare as a UX Researcher and is helping lead research and foster a mindset of exploration among the team he supports. Jacob is a big believer that anyone can do research, all we need are the right tools and a drive for curiosity.",
+ 	'twitter' => '',
  	'instagram' => '',
- 	'linkedin' => 'https://www.linkedin.com/in/kelsey-scherer/'
+ 	'linkedin' => 'https://www.linkedin.com/in/davidsonjake/'
  );
 
   // Nate Barrett
