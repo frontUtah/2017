@@ -164,14 +164,6 @@ function print_schedulerow($day, $slot) {
 				<ol class="timeline">
 					<li class="timeslot one-hour">
 						<dl>
-							<dt class="time">7:00 AM</dt>
-							<dd class="food">
-								<p>Group meditation</p>
-							</dd>
-						</dl>
-					</li>
-					<li class="timeslot one-hour">
-						<dl>
 							<dt class="time">7:30 AM</dt>
 							<dd class="food">
 								<p>Breakfast</p>
