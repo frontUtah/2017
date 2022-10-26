@@ -73,7 +73,7 @@ function print_schedulerow($day, $slot) {
 		<section class="schedule-breakdown">
 			<h2>Schedule</h2>
 						
-			<p class="about-schedule">There are four workshops per time-slot. Workshops are not assigned or pre-selected, 
+			<p class="about-schedule">There are three workshops per time-slot. Workshops are not assigned or pre-selected, 
 				allowing you to choose those that interest you most or adjust as your schedule requires. Workshop may fill 
 				up fast so we encourage attendees to arrive on time.</p>
 
@@ -128,14 +128,6 @@ function print_schedulerow($day, $slot) {
 				<ol class="timeline">
 					<li class="timeslot one-hour">
 						<dl>
-							<dt class="time">7:00 AM</dt>
-							<dd class="food">
-								<p>Sunrise walk</p>
-							</dd>
-						</dl>
-					</li>
-					<li class="timeslot one-hour">
-						<dl>
 							<dt class="time">7:30 AM</dt>
 							<dd class="food">
 								<p>Registration and breakfast</p>
@@ -158,25 +150,9 @@ function print_schedulerow($day, $slot) {
 					</li>
 					<li class="timeslot one-hour">
 						<dl>
-							<dt class="time">5:30 PM</dt>
-							<dd class="food">
-								<p>Service project</p>
-							</dd>
-						</dl>
-					</li>
-					<li class="timeslot one-hour">
-						<dl>
 							<dt class="time">7:00 PM</dt>
 							<dd class="food">
 								<p>Networking dinners</p>
-							</dd>
-						</dl>
-					</li>
-					<li class="timeslot one-hour">
-						<dl>
-							<dt class="time">8:00 PM</dt>
-							<dd class="food">
-								<p>After party</p>
 							</dd>
 						</dl>
 					</li>
