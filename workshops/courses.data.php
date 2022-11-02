@@ -146,8 +146,8 @@ Together, these methods will give you X-ray vision into the complexity at hand, 
 
  // Jaekob Chenina
  $courses[] = array(
- 	'title' => 'How to create intelligent products',
- 	'description' => "According to Gartner “AI Technologies will be in almost every new software product by 2020”. With this explosion of AI products, many will fail. However, there are common trends that are emerging among the intelligent products that are succeeding. So what is it, that makes an AI product that customers love? In this workshop, you will deep dive on the most relevant concepts across various disciplines that help answer this question.<br /><br />You will learn:<ul><li>Analytics for AI products</li><li>Machine Learning for AI products</li><li>UX for AI Products</li><li>Common Use Cases for AI Products</li><li>Discovering AI Product Opportunities</li></ul>You will also learn how to embed AI into your software development methodology and design an effective AI product team. Through exercises, case-studies and lessons learned, this workshop will empower your product team with an actionable path to incorporate AI in an impactful way into your business.",
+ 	'title' => 'How to Craft a Winning Product Strategy in the Era of AI',
+ 	'description' => "The demand for product leaders who understand AI and how to leverage it to drive an impactful business strategy is skyrocketing. In this workshop, you will learn how to evaluate AI opportunities, how to infuse AI into your roadmap, how to launch AI products, and how to maximize the impact of your AI initiatives with the minimal amount of resources. This interactive workshop will include case studies from real-world AI product roles and set you on your path to become an expert AI & data product leader.",
  	'track' => 'ux',
  	'day' => 3,
  	'slot' => 2,
