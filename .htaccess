@@ -32,3 +32,6 @@ RewriteRule ^ /%1 [NC,L,R]
 # internally map "/file" to "/file.php"
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^(.*?)/?$ /$1.php [NC,L]
+
+# external redirect
+Redirect 301 /volley https://hi.volley.app/land?tk=xTGj9kSMksvbYMzjfSYRuY-tk
