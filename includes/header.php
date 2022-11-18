@@ -87,7 +87,7 @@ foreach($sorted_global_nav as $key => $nav) {
 		</nav>
 		<nav class="social-nav">
 			<ul>
-				<li><a class="twitter" href="https://twitter.com/front">Twitter</a></li>
+				<li><a class="twitter" href="https://twitter.com/frontutah">Twitter</a></li>
 				<li><a class="linkedin" href="https://www.linkedin.com/company/front-utah">LinkedIn</a></li>
 				<li><a class="instagram" href="https://www.instagram.com/frontutah/">Instagram</a></li>
 			</ul>
