@@ -7,7 +7,7 @@
  */
 
 
-// Brandon Gardner
+/* Brandon Gardner
 $talks[] = array(
 	'speaker' => 'brandongardner',
 	'title' => 'Product skill gaps: From start-ups to enterprises',
@@ -41,6 +41,16 @@ $talks[] = array(
 	'description' => "Like any other department in an organization, design needs a strategy. A clear path forward, with a shared goal, and the ability to measure progress along the way. This strategy also needs to align with the rest of the organization to ensure we are not only delivering the right products and services, but we are also delivering joy and delight.<br /><br />I'm excited to share with you a design strategy framework I've found to be most successful, and the rise of UX metrics and outcome-driven products, in a recent case study from my current leadership role in crypto at Okcoin.",
 	'day' => 1,
 	'slot' => 4
+);
+ */
+
+ // Chetana Deorah
+$talks[] = array(
+	'speaker' => 'chetanadeorah',
+	'title' => 'Leading from compulsion to compassion',
+	'description' => "The modern-day workplace is getting to be demanding and we as humans continue to demand more from ourselves. Both emerging and seasoned leaders are continuously faced with choices and decisions to make. How we make these decisions impacts our teams, our work, and, most importantly, has a significant impact on our self. Outside of being a parent, being a leader is perhaps the only other role that comes with its fair share of freedom and responsibility.<br /><br />Who or what inspires you to lead? How aware are you to show up as the leader you want to be? Is there a practice or ritual to bring about an authentic, compelling, yet sustainable way to lead? Given her own upbringing as an Indian-American amidst a culture of tolerance and respect, she thrives in the diversity of thought and action. Drawing from her own personal and professional experiences, Chetana’s talk will explore what it means to lead from within and how the current workplace makes it difficult to do so. How our cultural and personal values intersect with who we are as leaders. What drives someone to lead compulsively?<br /><br />Let’s explore following yourself and to lead from a place of compulsion to compassion.",
+	'day' => 1,
+	'slot' => 1
 );
 
 // Drew Bridewell

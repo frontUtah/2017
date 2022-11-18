@@ -4,7 +4,7 @@
  * Use '</br></br>' to separate paragraphs
  */
 
-// Brandon Gardner
+/* Brandon Gardner
 $speakers[] = array(
 	'slug' => 'brandongardner',
 	'first' => 'Brandon',
@@ -33,6 +33,7 @@ $speakers[] = array(
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/christopherfryer/'
 );
+
 
 // Ethan Medeiros
 $speakers[] = array(
@@ -63,6 +64,23 @@ $speakers[] = array(
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/jaredlewandowski/'
 );
+*/
+
+// Chetana Deorah
+$speakers[] = array(
+	'slug' => 'chetanadeorah',
+	'first' => 'Chetana',
+	'last' => 'Deorah',
+	'title' => 'Program Partner',
+	'company' => 'Coho (prev On Deck)',
+	'discipline' => 'ux',
+	'photo' => 'headshots/chetanadeorah.jpg',
+	'bio' => "Chetana Deorah is a product design leader and mentor who helps empower human-centered design to achieve high-impact business goals. Most recently, as Design Director at Netflix, she led product design for global acquisition & growth with a focus on emerging markets.<br /><br />Before that, she was at Yahoo, Scribd, Betfair, Pivotal Labs, and Pentagram. As an Indian-American, Chetana brings a rich diversity of ideas and influences fostering a culture of product innovation, inclusion, compassionate leadership, and effective communication.<br /><br />When not building digital experiences, she volunteers her time in design education with Interact Project and DesignLab. She is a certified Hatha yoga teacher and pursues projects on well-being with non-profit organizations Sri Aurobindo Society & Isha Foundation.<br /><br />Chetana's analog interests include dabbling in visual poetry, experiments with vegetarian cooking and travel.",
+	'twitter' => 'tanadeo',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/chetanadeorah/'
+);
+
 
 // Drew Bridewell
 $speakers[] = array(
@@ -99,8 +117,8 @@ $speakers[] = array(
 	'slug' => 'haphan',
 	'first' => 'Ha',
 	'last' => 'Phan',
-	'title' => 'Director of Discovery Products',
-	'company' => 'Pluralsight',
+	'title' => 'Experience Strategy Director',
+	'company' => 'Ford Motor Company',
 	'discipline' => 'product-management',
 	'photo' => 'headshots/haphan.jpg',
 	'bio' => "Ha Phan has been working on Machine Learning and AI projects since 2015. She earned 11 patents at GoPro for her work on machine assisted video editing and the post-capture experience for 360 videos which informed the vision for the Fusion camera. Ha is a UX Designer turned Product leader. She previously led Discovery products at Pluralsight, growing the team that built a home-grown search platform from scratch.",
@@ -109,7 +127,7 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/hpuxixd/'
 );
 
-// Troy Azmoon
+/* Troy Azmoon
 $speakers[] = array(
 	'slug' => 'troyazmoon',
 	'first' => 'Troy',
@@ -123,6 +141,7 @@ $speakers[] = array(
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/troyazmoon/'
 );
+*/
 
 // Amy Lokey
 $speakers[] = array(
