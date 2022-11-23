@@ -74,9 +74,9 @@ $instructors[] = array(
 	'discipline' => 'product-management',
 	'photo' => 'frontworkshops18/speaker_jaekobchenina.jpg',
 	'bio' => "Jaekob is driving AI strategy and roadmap for several of Meta's core AI products which impact billions of users every day. His prior experience also includes working as a head of Product at Oracle, co-founder/CPO an of AI-analytics company, building Adobe Sensei, and leading algorithmic trading strategies at an NYC-based hedge fund as a head of data science.<br /><br />Jaekob is on a mission to empower businesses with AI that customers actually use and love. In his free time, Jaekob likes to share insights and best practices on building AI-driven products through his YouTube channel and build future leaders in PM classes he teaches at the Marriott School of Business as an adjunct MBA professor.",
-	'twitter' => 'chenina10',
+	'twitter' => 'JaekobChenina',
 	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/jchenina/'
+	'linkedin' => 'https://www.linkedin.com/in/jaekobchenina/'
 );
 
 // Sophia Prater

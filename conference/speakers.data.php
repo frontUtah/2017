@@ -64,6 +64,21 @@ $speakers[] = array(
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/jaredlewandowski/'
 );
+
+// Ha Phan
+$speakers[] = array(
+	'slug' => 'haphan',
+	'first' => 'Ha',
+	'last' => 'Phan',
+	'title' => 'Experience Strategy Director',
+	'company' => 'Ford Motor Company',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/haphan.jpg',
+	'bio' => "Ha Phan has been working on Machine Learning and AI projects since 2015. She earned 11 patents at GoPro for her work on machine assisted video editing and the post-capture experience for 360 videos which informed the vision for the Fusion camera. Ha is a UX Designer turned Product leader. She previously led Discovery products at Pluralsight, growing the team that built a home-grown search platform from scratch.",
+	'twitter' => 'hpdailyrant',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/hpuxixd/'
+);
 */
 
 // Chetana Deorah
@@ -112,20 +127,7 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/ipetronella/'
 );
 
-// Ha Phan
-$speakers[] = array(
-	'slug' => 'haphan',
-	'first' => 'Ha',
-	'last' => 'Phan',
-	'title' => 'Experience Strategy Director',
-	'company' => 'Ford Motor Company',
-	'discipline' => 'product-management',
-	'photo' => 'headshots/haphan.jpg',
-	'bio' => "Ha Phan has been working on Machine Learning and AI projects since 2015. She earned 11 patents at GoPro for her work on machine assisted video editing and the post-capture experience for 360 videos which informed the vision for the Fusion camera. Ha is a UX Designer turned Product leader. She previously led Discovery products at Pluralsight, growing the team that built a home-grown search platform from scratch.",
-	'twitter' => 'hpdailyrant',
-	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/hpuxixd/'
-);
+
 
 /* Troy Azmoon
 $speakers[] = array(
@@ -156,6 +158,21 @@ $speakers[] = array(
 	'twitter' => '',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/amylokey/'
+);
+
+// Nathan Baldwin
+$speakers[] = array(
+	'slug' => 'nathanbaldwin',
+	'first' => 'Nathan',
+	'last' => 'Baldwin',
+	'title' => 'Principal Product Designer',
+	'company' => 'Intuit',
+	'discipline' => 'ux',
+	'photo' => 'headshots/nathanbaldwin.jpg',
+	'bio' => "Nate has been working with generative and accessible color in design systems since 2015. He has a patent in generative color, and has partnered on inclusive and accessible color initiatives for Adobe products for six years. Nate started his career in Fine Art, and found passion in UX design. He is now a Product Designer on Intuit’s Design System team, and the creator of the online resource ColorAndContrast.com.",
+	'twitter' => 'NateBaldwinArt',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/natebaldwindesign/'
 );
 
 
