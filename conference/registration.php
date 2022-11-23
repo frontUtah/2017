@@ -76,6 +76,16 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<dd class="early">$450</dd>
 					<dd class="standard">$630</dd>
 				</dl>
+				<dl>
+					<dt>
+						<div>
+							Student discount
+							<small>50% off per ticket</small>
+						</div>
+					</dt>
+					<dd class="early">$250</dd>
+					<dd class="standard">$350</dd>
+				</dl>
 			</div>
 			
 			<!-- Standard -->
