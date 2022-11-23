@@ -29,6 +29,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<div class="course-description">
 						<h3><?php echo $sponsor['name'] ?></h3>
 						<p><?php echo $sponsor['message'] ?></p>
+						<p><a href="<?php echo $sponsor['url'] ?>" class="button button-small" target="_blank">Check out <?php echo $sponsor['name'] ?></a></p>
 					</div>
 				</div>
 			</div>

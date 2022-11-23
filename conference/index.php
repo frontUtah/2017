@@ -104,7 +104,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<p>Our goal is to provide an environment that allows industry professionals to gather once a year and share the experiences that have helped them build better products and progress individually.</p>
 		</section>
 
-		<!--
+		
 		<section class="training-courses sponsors">
 			<h2>Sponsors</h2>
 			<p>Front wouldn't be possible without our amazing sponsors that support these events year after year. <a href="/conference/sponsors">Learn more</a> about each partner, how we do sponsorships differently, and how you can get involved.</p>
@@ -129,7 +129,7 @@ foreach($sponsors as $sponsor) {
 
 // display premier sponsor if exists
 if(!is_null($sponsor_premier)) {
-	echo '<a href="' . $sponsor_premier['url'] . '" target="_blank"><img id="premier" src="/images/sponsors/' . $sponsor_premier['logo'] . '" /></a>';
+	echo '<a href="' . $sponsor_premier['url'] . '" ><img id="premier" src="/images/sponsors/' . $sponsor_premier['logo'] . '" /></a>';
 }
 
 
@@ -143,7 +143,7 @@ shuffle($sponsors_tier2);
 
 // spit them out
 foreach($sponsors_tier2 as $sponsors_tier2_sponsor) {
-	echo '<li class="second_tier_sponsor"><a href="/conference/sponsor/' . $sponsors_tier2_sponsor['slug'] . '" target="_blank"><img src="/images/sponsors/' . $sponsors_tier2_sponsor['logo'] . '" height="60px" /></a></li>';
+	echo '<li class="second_tier_sponsor"><a href="/conference/sponsor/' . $sponsors_tier2_sponsor['slug'] . '" ><img src="/images/sponsors/' . $sponsors_tier2_sponsor['logo'] . '" height="60px" /></a></li>';
 }
 
 if(count($sponsors_tier2)) {
@@ -153,7 +153,7 @@ if(count($sponsors_tier2)) {
 ?>
 
 		</section>
-	-->
+	
 
 		<section class="photo-collage">
 			<img src="/images/collage-front-photos-mobile@2x.jpg" alt="" class="mobile">

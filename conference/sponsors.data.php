@@ -4,7 +4,7 @@
  * Use '</br></br>' to separate paragraphs
  */
 
-// Underbelly
+/* Underbelly
 $sponsors[] = array(
 	'name' => 'Underbelly',
 	'slug' => 'underbelly',
@@ -33,7 +33,17 @@ $sponsors[] = array(
 	'logo' => 'sendbird.svg',
 	'message' => "Sendbird believes conversations are at the heart of building relationships and getting things done. As such, we built the world's most proven conversations platform for mobile apps across chat, voice, and video. Industry leaders like Doordash, Reddit, and Hinge use Sendbird to drive increased transactions & loyalty for hundreds of millions of users every month. Headquartered in San Mateo, California, Sendbird is backed by re ICONIQ Growth, STEADFAST Capital Ventures, Tiger Global Management, Meritech Capital, Emergence Capital, Shasta Ventures, August Capital, Funders Club, World Innovation Lab, and Y Combinator."
 );
+*/
 
+// Volley
+$sponsors[] = array(
+	'name' => 'Volley',
+	'slug' => 'volley',
+	'tier' => 2,
+	'url' => 'https://volleyapp.com',
+	'logo' => 'volley.svg',
+	'message' => "The  fastest ⚡️ way to monetize your expertise ✨<br><br>Create revenue-generating experiences powered by your expertise in minutes. No cost to set up. Only pay a small fee when you make a sale. <br><br>Used by 40k+ of the top creators, coaches, and consultants to monetize life changing experiences."
+);
 
 // TEMPLATE
 /*

@@ -35,7 +35,7 @@ foreach($sponsors as $sponsor) {
 
 // display premier sponsor if exists
 if(!is_null($sponsor_premier)) {
-	echo '<a href="/conference/sponsor/' . $sponsor_premier['slug'] . '" target="_blank"><img id="premier" src="/images/sponsors/' . $sponsor_premier['logo'] . '" /></a>';
+	echo '<a href="/conference/sponsor/' . $sponsor_premier['slug'] . '" ><img id="premier" src="/images/sponsors/' . $sponsor_premier['logo'] . '" /></a>';
 }
 
 
@@ -49,7 +49,7 @@ shuffle($sponsors_tier2);
 
 // spit them out
 foreach($sponsors_tier2 as $sponsors_tier2_sponsor) {
-	echo '<li class="second_tier_sponsor"><a href="/conference/sponsor/' . $sponsors_tier2_sponsor['slug'] . '" target="_blank"><img src="/images/sponsors/' . $sponsors_tier2_sponsor['logo'] . '" height="60px" /></a></li>';
+	echo '<li class="second_tier_sponsor"><a href="/conference/sponsor/' . $sponsors_tier2_sponsor['slug'] . '" ><img src="/images/sponsors/' . $sponsors_tier2_sponsor['logo'] . '" height="60px" /></a></li>';
 }
 
 if(count($sponsors_tier2)) {
@@ -65,8 +65,8 @@ if(count($sponsors_tier2)) {
 			<ul>
 				<li>
 					<p>Sponsorship inquiries:</p>
-					<p><a href="mailto:wade@frontutah.com">wade@frontutah.com</a></p>
-					<p><a href="tel:8013681971">801.368.1971</a></p>
+					<p><a href="mailto:ben@frontutah.com">ben@frontutah.com</a></p>
+					<p><a href="tel:8014289354">(801) 428-9354</a></p>
 				</li>
 			</ul>
 		</section>
