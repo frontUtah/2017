@@ -51,7 +51,7 @@ $talks[] = array(
 	'day' => 2,
 	'slot' => 1
 );
- */
+
 
  // Chetana Deorah
 $talks[] = array(
@@ -61,6 +61,7 @@ $talks[] = array(
 	'day' => 1,
 	'slot' => 1
 );
+ */
 
 // Drew Bridewell
 $talks[] = array(
@@ -94,6 +95,24 @@ $talks[] = array(
 	'speaker' => 'nathanbaldwin',
 	'title' => 'Color and contrast for accessible interfaces',
 	'description' => "Accessibility is about ensuring people can perceive and operate digital interfaces. For sighted people, this can be a difficult problem to solve. There are a plethora of visual experiences and impairments, and solving for one person’s challenge may adversely affect another’s. In other cases, a solution may not actually help the people it is intended to help. For example, dark mode may seem reasonable for photophobia (light sensitive people). However, high contrast text in dark mode can result in optical glare, making text illegible. The way that we can solve for the complexities of individual visual experience is with color personalization.<br /><br />In this talk, Nate will discuss the basics of the human visual system, color science, and how they relate to user interfaces. He will use examples from his work creating Adobe Spectrum’s color system in conjunction with their open source color tool, Leonardo.",
+	'day' => 2,
+	'slot' => 2
+);
+
+// Nancy Douyon
+$talks[] = array(
+	'speaker' => 'nancydouyon',
+	'title' => 'Responsible Innovation During Crisis',
+	'description' => "Every design decision has the potential to include or exclude customers. Global Research emphasizes the contribution that understanding user diversity makes to informing these decisions, and thus to including as many people as possible. User diversity covers variation in capabilities, needs and aspirations. I’ll discuss how we use Global Research to prioritize what product teams really need to build well and understand if their designs have relative ease of use that translates well to non-US users. Global Research priorities addresses some of the most challenging problems facing our global users today. Topics covered: gender-neutrality in tech Europe, responsible innovation dissolved @ Facebook, Twitter blue check mark crisis, spotify joe rogan fiasco, FTX etc",
+	'day' => 2,
+	'slot' => 2
+);
+
+// Brett Allred
+$talks[] = array(
+	'speaker' => 'brettallred',
+	'title' => 'How to build a Cross Functional Team That Deepens Customer Relationships and Increases Sales',
+	'description' => "MX’s Chief Product Officer Brett Allred will discuss how organizations can close the chasm between departments by building a true cross-functional team that ensures products meet the needs of customers. This case study highlights how MX transformed both the culture and structure of the technology and product teams to drive more meaningful sales conversations, strengthen customer relationships, and increase sales. ",
 	'day' => 2,
 	'slot' => 2
 );

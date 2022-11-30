@@ -79,7 +79,7 @@ $speakers[] = array(
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/hpuxixd/'
 );
-*/
+
 
 // Chetana Deorah
 $speakers[] = array(
@@ -95,6 +95,7 @@ $speakers[] = array(
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/chetanadeorah/'
 );
+*/
 
 
 // Drew Bridewell
@@ -129,7 +130,7 @@ $speakers[] = array(
 
 
 
-/* Troy Azmoon
+// Troy Azmoon
 $speakers[] = array(
 	'slug' => 'troyazmoon',
 	'first' => 'Troy',
@@ -143,7 +144,7 @@ $speakers[] = array(
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/troyazmoon/'
 );
-*/
+
 
 // Amy Lokey
 $speakers[] = array(
@@ -173,6 +174,79 @@ $speakers[] = array(
 	'twitter' => 'NateBaldwinArt',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/natebaldwindesign/'
+);
+
+// Nancy Douyon
+$speakers[] = array(
+	'slug' => 'nancydouyon',
+	'first' => 'Nancy',
+	'last' => 'Douyon',
+	'title' => 'Design Ethicist',
+	'company' => 'Prev Uber & Google',
+	'discipline' => 'ux',
+	'photo' => 'headshots/nancydouyon.jpg',
+	'bio' => "Nancy Douyon is a technology executive, an international speaker, and an entrepreneur. As CEO of Douyon Signature, a global user experience (“UX”) consultancy, she guides business executives to implement inclusive strategic solutions for technology and consumer companies.
+
+<br> <br>
+
+Coined a Global Design Ethicist & Product Philosopher, Nancy empowers  leading Fortune 500 companies to embrace responsible innovation and create accessible, equitable, and inclusive products and services. Non-confidential clients include Netflix, LVMH, Cisco, Uber, Stripe, Spotify, Colgate and Mars among others.
+
+<br> <br>
+
+Prior to her entrepreneurial journey Nancy spent two decades in the tech industry helping leading companies like Google, IBM, Intel and Uber incorporate human experience in their product design. She led the UX initiative for Google FI Mobile where she received the Global Business Platinum Award in recognition of her strategic and long-term impact to Google’s culture at the global level. At Facebook, Nancy has an advisory role for responsible innovation.
+
+<br> <br>
+
+Nancy’s current work is focused on building an enterprise software platform for  inclusive and universal design. The goal of this platform is to help business units avoid unintended product harms to individuals, communities, and society with consequence scanning, foresight modeling, stakeholder immersions, and more.
+
+<br> <br>
+
+Nancy’s ability to influence and actualize change - shifting enterprise and workplace culture - has been recognized by top companies around the globe and her mission is to help corporations, governments, institutions and their leaders do the same. 
+
+<br> <br>
+
+In addition to her work with clients, Nancy is a highly rated speaker and has spoken at the White House and at the top universities, institutions and corporations around the globe on issues like global usability and designing accountability into their product and workplace goals. Nancy also leads the Bay Area Blacks in Tech group (BayBIT), a growing organization of over 3000 Black technology professionals.
+
+<br> <br>
+
+Nancy holds a M.A. in human-computer interaction from the University of Michigan.
+
+<br> <br>
+
+A Haitian American immigrant, Nancy currently resides in the San Francisco Bay Area",
+	'twitter' => 'NancyDouyon',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/nancydouyon'
+);
+
+// Nate Sanders
+$speakers[] = array(
+	'slug' => 'natesanders',
+	'first' => 'Nate',
+	'last' => 'Sanders',
+	'title' => 'CEO',
+	'company' => 'Artifact',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/natesanders.jpg',
+	'bio' => "Nate Sanders is a product development enthusiast and lover of all things user and customer experience. Nate has worked with early to mid-stage SaaS startups for most of his career, accruing strong heuristics around how products people love and want are actually built. Nate is dogmatic about the fact that teams should ship opinionated theories instead of conjectures. Nate has worked with startups like Degreed, BambooHR, Canopy, Pluralsight and current is the CEO & Cofounder of Artifact, where he has championed and built the product team and user centered processes from the ground up.",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/nlsanders/'
+);
+
+// 
+$speakers[] = array(
+	'slug' => 'brettallred',
+	'first' => 'Brett',
+	'last' => 'Allred',
+	'title' => 'CPO',
+	'company' => 'MX',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/brettallred.jpg',
+	'bio' => "Brett Allred is Chief Product Officer at MX. Brett leads the company's product development efforts, including product strategy, design, and execution. Prior to joining MX, Brett was President and CTO of NUVI, a Utah-based social media analytics software company. He serves on the Board of Directors for Mountainland Technical College and enjoys mentoring small business owners.",
+	'twitter' => 'brettnallred',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/brett-allred-5336348/'
 );
 
 
