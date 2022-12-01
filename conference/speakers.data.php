@@ -224,7 +224,7 @@ $speakers[] = array(
 	'slug' => 'natesanders',
 	'first' => 'Nate',
 	'last' => 'Sanders',
-	'title' => 'CEO',
+	'title' => 'Chief Executive Officer',
 	'company' => 'Artifact',
 	'discipline' => 'product-management',
 	'photo' => 'headshots/natesanders.jpg',
@@ -234,12 +234,12 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/nlsanders/'
 );
 
-// 
+// Brett Allred
 $speakers[] = array(
 	'slug' => 'brettallred',
 	'first' => 'Brett',
 	'last' => 'Allred',
-	'title' => 'CPO',
+	'title' => 'Chief Innovation Officer',
 	'company' => 'MX',
 	'discipline' => 'product-management',
 	'photo' => 'headshots/brettallred.jpg',
@@ -247,6 +247,21 @@ $speakers[] = array(
 	'twitter' => 'brettnallred',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/brett-allred-5336348/'
+);
+
+// Joe Wilson
+$speakers[] = array(
+	'slug' => 'joewilson',
+	'first' => 'Joe',
+	'last' => 'Wilson',
+	'title' => 'Founder & Head of Product',
+	'company' => 'Volley',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/joewilson.jpg',
+	'bio' => "Started with Microsoft Paint and now we're here. Longtime design veteran & founder who has enjoyed being part of web 1.0, web 2.0, the advent of mobile apps, and hopefully many exciting advances to come. Past hits include GPS Kit, SloPro, Studio Design, and Cake Browser. I live in Utah with my wife and 3 children, who are all better at video games than me.",
+	'twitter' => 'BrandNewFeel',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/brandnewfeel/'
 );
 
 

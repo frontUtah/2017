@@ -117,6 +117,15 @@ $talks[] = array(
 	'slot' => 2
 );
 
+// Joe Wilson
+$talks[] = array(
+	'speaker' => 'joewilson',
+	'title' => 'Deciphering anecdotes and data',
+	'description' => "It's critical to talk to users. But users often say one thing and do another - or worse, do nothing at all. A big part of my journey at Volley has been figuring out how to decipher data in a world full of anecdotes. I want to share what I've learned and the principles we've put in place to help the team navigate multiple pivots.",
+	'day' => 2,
+	'slot' => 2
+);
+
 
 // TEMPLATE
 /*
