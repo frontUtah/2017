@@ -264,6 +264,21 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/brandnewfeel/'
 );
 
+// Sindhuja Narasimhan
+$speakers[] = array(
+	'slug' => 'sindhujanarasimhan',
+	'first' => 'Sindhuja',
+	'last' => 'Narasimhan',
+	'title' => 'Lead Designer',
+	'company' => 'Roku',
+	'discipline' => 'ux',
+	'photo' => 'headshots/sindhujanarasimhan.jpg',
+	'bio' => "Sindhu is Lead Designer at Roku, bringing Shoppable ads to Television. Before Roku, Sindhu founded and built her own startup, and worked in a Startup Studio incubating companies in the Seattle Area. She spent 3.5 years at Amazon working on design for 0-1 products like Amazon Key and Lex.<br> <br> Specialties: Product Management, User Experience Design, Emerging Technologies, Conversational Design, Interaction Design, User Research"",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/sindhujanarasimhan/'
+);
+
 
 // TEMPLATE
 /*

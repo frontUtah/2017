@@ -127,6 +127,16 @@ $talks[] = array(
 );
 
 
+// Sindhuja Narasimhan
+$talks[] = array(
+	'speaker' => 'sindhujanarasimhan',
+	'title' => 'ECommerce on Television',
+	'description' => "TV is the biggest and most-watched screen in most homes, and technologies are making it possible for consumers to buy directly from brands in real time using their remote. This is uncharted territory from a UX perspective as we move users from a leaned-back experience with content viewing to a leaned-in one with shopping on TV. Let's walk through UX considerations to make this experience stunning and seamless.",
+	'day' => 1,
+	'slot' => 6
+);
+
+
 // TEMPLATE
 /*
 // 
