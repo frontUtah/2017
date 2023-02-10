@@ -36,4 +36,3 @@ RewriteRule ^(.*?)/?$ /$1.php [NC,L]
 # external redirect
 Redirect 301 /volley https://hi.volley.app/land?tk=xTGj9kSMksvbYMzjfSYRuY-tk
 Redirect 301 /speaker-invite https://airtable.com/shrSN4tsalsqWM8u4
-Redirect 301 /sponsor2023 https://livesend.seismic.com/i/Zu0D6JSb6nFLMlKbZCEkYQZGOJ9LsVm___JpyEDfZPLUSSIGNAgfwzDHSZ9y7L7deInisfdP5xcksFLu95uLDqyqO14rO1NsAzYpmQZTZJfxT7NST3LYEQUALSIGN
