@@ -42,10 +42,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			<div class="prices">
 				<dl class="pricing-types">
 					<dt><div></div></dt>
-					<dd class="early">
+					<!--<dd class="early">
 						SUPER Early bird pricing
 						<small>40% off through 16 Dev 2023</small>
-					</dd>
+					</dd>-->
 					<dd class="standard">
 						Early bird pricing
 						<small>30% off through 24 Feb 2023</small>
@@ -57,8 +57,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</dl>
 				<dl class="full">
 					<dt><div>Full Conference</div></dt>
-					<dd class="early">$400</dd>
-					<dd class="standard">$500</dd>
+					<!--<dd class="early">$400</dd>-->
+					<dd class="early">$500</dd>
 					<dd class="standard">$700</dd>
 				</dl>
 				<dl>
@@ -68,8 +68,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<small>5% off per ticket</small>
 						</div>
 					</dt>
-					<dd class="early">$380</dd>
-					<dd class="standard">$475</dd>
+					<!--<dd class="early">$380</dd>-->
+					<dd class="early">$475</dd>
 					<dd class="standard">$665</dd>
 				</dl>
 				<dl>
@@ -79,8 +79,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<small>10% off per ticket</small>
 						</div>
 					</dt>
-					<dd class="early">$360</dd>
-					<dd class="standard">$450</dd>
+					<!--<dd class="early">$360</dd>-->
+					<dd class="early">$450</dd>
 					<dd class="standard">$630</dd>
 				</dl>
 				<dl>
@@ -90,8 +90,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<small>50% off per ticket</small>
 						</div>
 					</dt>
-					<dd class="early">$200</dd>
-					<dd class="standard">$250</dd>
+					<!--<dd class="early">$200</dd>-->
+					<dd class="early">$250</dd>
 					<dd class="standard">$350</dd>
 				</dl>
 			</div>
@@ -156,8 +156,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		<a id="hotels"></a><section class="accomodations">
 			<h2>Hotels</h2>
 
-			<p class="about-accomodations"><em>We are working to secure a discounted rate at a preferred hotel.</em></p>
-			<!--
+			<!--<p class="about-accomodations"><em>We are working to secure a discounted rate at a preferred hotel.</em></p>-->
+			
 
 			<p class="about-accomodations">We have acquired discounted nightly rate of $159/night + tax (20% off) for a single king at the Salt Lake City Marriott City Center. We encourage you to register early as these rates are only available for a limit number of rooms. Book your room through the button below or by calling their front desk and asking for the “Front Utah" group discount.</p> 
 			
@@ -183,7 +183,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			</div>
 			
 
-			-->
+			
 		</section>
 
 		

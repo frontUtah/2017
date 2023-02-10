@@ -279,6 +279,128 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/sindhujanarasimhan/'
 );
 
+// Wes O'Haire
+$speakers[] = array(
+	'slug' => 'wesohaire',
+	'first' => 'Wes',
+	'last' => 'O’Haire',
+	'title' => 'Design Lead',
+	'company' => 'Sequoia Capital',
+	'discipline' => 'ux',
+	'photo' => 'headshots/wesohaire.jpg',
+	'bio' => "Wes O’Haire is a Design Lead at Sequoia Capital where he’s using design to help some amazing investors and change how early companies get surfaced, evaluated, and funded. Before that, he was a senior manager leading product design teams at Dropbox and Hudl. <br> <br>Wes also founded Blacks Who Design and leads an effort inside MillerKnoll’s “Diversity in Design.” When he’s not at work, he’s hanging out with his wife and two rambunctious kids in Southern California and usually listening to Robert Glasper.",
+	'twitter' => 'WesOHaire',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/wesohaire/'
+);
+
+// Elizabeth Beeli
+$speakers[] = array(
+	'slug' => 'elizabethbeeli',
+	'first' => 'Elizabeth',
+	'last' => 'Beeli',
+	'title' => 'Associate Product Manager',
+	'company' => 'Lucid',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/elizabethbeeli.jpg',
+	'bio' => "After 5+ years in sales, I currently serve on the product team at Lucid where I work on our flagship product, Lucidchart.
+
+<br> <br>
+
+I’m most passionate about working on challenging problems with kind and bright people to build fast-growing, mission-driven technology companies. Having been involved in early-stage startups, primarily in ed-tech where competition and market penetration are particularly daunting tasks, I’m familiar with the challenges and pitfalls of scaling a company.
+
+<br> <br>
+
+When not voraciously reading (I'm always open to new recommendations) or writing, I enjoy skiing, hiking, and helping young people break into their dream job.",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/elizabeth-beeli/'
+);
+
+// Shruti Goli
+$speakers[] = array(
+	'slug' => 'shrutigoli',
+	'first' => 'Shruti',
+	'last' => 'Goli',
+	'title' => 'Chief Product Officer',
+	'company' => 'Trymata',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/shrutigoli.jpg',
+	'bio' => "Shruti has an extensive background working at Microsoft as a Product Manager. She went on to bootstrap a product analytics company, Stitchology.ai, which got acquired in May 2022. Now she serves as the Chief Product Officer & and co-founder of Trymata (previously known as TryMyUI).
+
+<br> <br>
+
+She is a seasoned executive with experience in the B2B SaaS space. ",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/shruti-goli-678b0299/'
+);
+
+// Virgilia Pruthi
+$speakers[] = array(
+	'slug' => 'virgiliapruthi',
+	'first' => 'Virgilia',
+	'last' => 'Pruthi',
+	'title' => 'Principal PM Manager',
+	'company' => 'Microsoft',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/virgiliapruthi.jpg',
+	'bio' => "Virgilia has led product teams and lines for the last 16 lines in the US and globally. Her experience includes product management positions that have spanned across a multitude of industries and technologies (ranging from AI, vision, B2B, consumer, core platform, mobile, and voice).
+
+<br> <br>
+
+Her unique journey includes deep leadership and IC experience at Amazon, BazaarVoice, Audible, WeightWatchers, and several startups. Currently, she works at Microsoft as a Principal Product Manager. To Virgilia, achieving a MAU in the billions is equally important as retaining the first 10 customers.
+
+<br> <br>
+
+Her liberal arts major matched with her entrepreneurial endeavors has framed how she approaches building and scaling products. It's through her empathy-driven product approach, curiosity, and incredible mentors that have helped her grow into a seasoned product leader. 
+
+<br> <br>
+
+Coaching for Virgilia is a way for her to help others elevate and grow in their product leadership, especially those who come from non-traditional backgrounds. She has taught at General Assembly, Product School, and spoken at multiple conferences including the Front Product/UX Summit. ",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'linkedin.com/in/virgiliakaur'
+);
+
+// Brian Christensen
+$speakers[] = array(
+	'slug' => 'brianchristensen',
+	'first' => 'Brian',
+	'last' => 'Christensen',
+	'title' => 'Group Product Manager',
+	'company' => 'USANA',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/brianchristensen.jpg',
+	'bio' => "Brian is a passionate product development leader dedicated to building simple and elegant solutions that can deliver high-impact product design and best-in-class customer experiences. Brian is a Group Product Manager at USANA, a wellness company navigating the digital transformation of the ever changing landscape of direct sales. Through his time at USANA, Brian has led key micro-services strategies that create simple pathways for thoughtful digital product development across multiple teams. With over 10 years of product management experience, Brian leads his teams to break normal processes and find the right solutions, not just the easiest solutions.",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/briancchristensen/'
+);
+
+// Crystal Yan
+$speakers[] = array(
+	'slug' => 'crystalyan',
+	'first' => 'Crystal',
+	'last' => 'Yan',
+	'title' => 'Product Manager',
+	'company' => 'Stripe',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/crystalyan.jpg',
+	'bio' => "Crystal Yan is a product manager and designer focused on designing product experiences that customers love.
+
+<br> <br>
+
+Currently, Crystal is a Product Manager at Stripe, product advisor to startups, and leadership coach to emerging product and design leaders. Previously, she was the Product Lead for Passbook by Remitly in Seattle, WA, served a two year term with the United States Digital Service at the White House in Washington DC, and was part of the founding team at FiscalNote. 
+
+<br> <br>
+
+She teaches at Maryland College of Art & Design (MICA), School of Visual Concepts, and at technology and design conferences globally.",
+	'twitter' => 'crystalcy',
+	'instagram' => '',
+	'linkedin' => 'linkedin.com/in/crystalcyan'
+);
+
 
 // TEMPLATE
 /*

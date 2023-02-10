@@ -78,7 +78,7 @@ $talks[] = array(
 	'title' => 'Growth: It’s all fun and games until the wheels fall off',
 	'description' => "If you've spent more than three minutes on LinkedIn lately, you've probably noticed that every team seems to be 'growing like crazy!'. But growth can be a chaotic and frustrating experience depending on how well you prepare for it. What do you do when you find yourself knee-deep in projects that are overlapping, with unclear priorities and ownership—and come to the panic-inducing realization that you're at risk of delivering a severely disjointed product experience? Oh, and let's not forget that the team is growing, and you'll soon have to do the same acrobatics with twice the people.<br /><br />Ingrid will share her experience navigating through the challenge (and opportunity!) of rapid growth at Ivanti and FullStory. How do you establish a clear design vision and strategy for a portfolio of 50+ products? How do you continue to execute well as a team when you double in size in a short amount of time? How do you align your own career development with opportunities that arise in a high-growth environment? By recognizing the challenges that accompany growth and having the tools to address them, you and your team can adapt, thrive, and do great work during seasons of constant change.",
 	'day' => 1,
-	'slot' => 6
+	'slot' => 2
 );
 
 // Troy Azmoon & Amy Lokey
@@ -86,8 +86,8 @@ $talks[] = array(
 	'speaker' => array('troyazmoon', 'amylokey'),
 	'title' => 'Creating design in the Enterprise: The ServiceNow design journey',
 	'description' => "As a product leader, you speak the language of outcomes and realize the value of design in achieving product experiences that people will love. But what to do when there is no design function at your rapidly growing company? You showcase the power of design thinking in products you create. You learn from and work closely with the founder, who becomes your mentor. You take on the challenge to build a design function from the ground up. As demand for thoughtfully designed products increases, you purchase a design agency to accelerate the company-wide transformation. You create a design culture, and a studio to celebrate the creative, quirky, and down-to-earth team values. A vision takes hold on how to truly design at scale, platform-first. In time, all products across the company, now 10 times larger, are imbued with design teams, working together and contributing to a maturing design system. Coming back to the decades-old Platform UI, you lead a talented cross-functional team to deliver ServiceNow’s reimagined, all-new platform experience to thousands of the worlds largest companies: The Next Experience",
-	'day' => 2,
-	'slot' => 2
+	'day' => 1,
+	'slot' => 3
 );
 
 // Nathan Baldwin
@@ -95,8 +95,8 @@ $talks[] = array(
 	'speaker' => 'nathanbaldwin',
 	'title' => 'Color and contrast for accessible interfaces',
 	'description' => "Accessibility is about ensuring people can perceive and operate digital interfaces. For sighted people, this can be a difficult problem to solve. There are a plethora of visual experiences and impairments, and solving for one person’s challenge may adversely affect another’s. In other cases, a solution may not actually help the people it is intended to help. For example, dark mode may seem reasonable for photophobia (light sensitive people). However, high contrast text in dark mode can result in optical glare, making text illegible. The way that we can solve for the complexities of individual visual experience is with color personalization.<br /><br />In this talk, Nate will discuss the basics of the human visual system, color science, and how they relate to user interfaces. He will use examples from his work creating Adobe Spectrum’s color system in conjunction with their open source color tool, Leonardo.",
-	'day' => 2,
-	'slot' => 2
+	'day' => 1,
+	'slot' => 4
 );
 
 // Nancy Douyon
@@ -104,8 +104,8 @@ $talks[] = array(
 	'speaker' => 'nancydouyon',
 	'title' => 'Responsible Innovation During Crisis',
 	'description' => "Every design decision has the potential to include or exclude customers. Global Research emphasizes the contribution that understanding user diversity makes to informing these decisions, and thus to including as many people as possible. User diversity covers variation in capabilities, needs and aspirations. I’ll discuss how we use Global Research to prioritize what product teams really need to build well and understand if their designs have relative ease of use that translates well to non-US users. Global Research priorities addresses some of the most challenging problems facing our global users today. Topics covered: gender-neutrality in tech Europe, responsible innovation dissolved @ Facebook, Twitter blue check mark crisis, spotify joe rogan fiasco, FTX etc",
-	'day' => 2,
-	'slot' => 2
+	'day' => 1,
+	'slot' => 5
 );
 
 // Brett Allred
@@ -113,8 +113,8 @@ $talks[] = array(
 	'speaker' => 'brettallred',
 	'title' => 'How to build a Cross Functional Team That Deepens Customer Relationships and Increases Sales',
 	'description' => "MX’s Chief Product Officer Brett Allred will discuss how organizations can close the chasm between departments by building a true cross-functional team that ensures products meet the needs of customers. This case study highlights how MX transformed both the culture and structure of the technology and product teams to drive more meaningful sales conversations, strengthen customer relationships, and increase sales. ",
-	'day' => 2,
-	'slot' => 2
+	'day' => 1,
+	'slot' => 6
 );
 
 // Joe Wilson
@@ -122,8 +122,8 @@ $talks[] = array(
 	'speaker' => 'joewilson',
 	'title' => 'Deciphering anecdotes and data',
 	'description' => "It's critical to talk to users. But users often say one thing and do another - or worse, do nothing at all. A big part of my journey at Volley has been figuring out how to decipher data in a world full of anecdotes. I want to share what I've learned and the principles we've put in place to help the team navigate multiple pivots.",
-	'day' => 2,
-	'slot' => 2
+	'day' => 1,
+	'slot' => 7
 );
 
 
@@ -133,7 +133,84 @@ $talks[] = array(
 	'title' => 'ECommerce on Television',
 	'description' => "TV is the biggest and most-watched screen in most homes, and technologies are making it possible for consumers to buy directly from brands in real time using their remote. This is uncharted territory from a UX perspective as we move users from a leaned-back experience with content viewing to a leaned-in one with shopping on TV. Let's walk through UX considerations to make this experience stunning and seamless.",
 	'day' => 1,
+	'slot' => 8
+);
+
+// Virgilia Pruthi
+$talks[] = array(
+	'speaker' => 'virgiliapruthi',
+	'title' => 'Reallocating focus - how to pause, accelerate, and subtract product initiatives when market conditions shift',
+	'description' => "Details coming soon...",
+	'day' => 2,
+	'slot' => 1
+);
+
+// Elizabeth Beeli
+$talks[] = array(
+	'speaker' => 'elizabethbeeli',
+	'title' => 'How to build a feedback system to test 4-8 ideas a week ',
+	'description' => "Impactful work multiplies the efforts of those around you. Having scalable patterns to test ideas, weed out the good from the bad, is instrumental for preemptively finding the next opportunities for your team and adopting product-led growth. Learn how Lucid built a feedback system to test 4-8 ideas a week.",
+	'day' => 2,
+	'slot' => 2
+);
+
+// Shruti Goli
+$talks[] = array(
+	'speaker' => 'shrutigoli',
+	'title' => 'Fixing product analytics: lessons from a frustrated Microsoft PM',
+	'description' => "Today, product analytics is broken. Product analytics helps product managers and UX designers by collecting different forms of data; however, deriving insights quickly and uncovering problem areas is often a stop gap for these tools. Trymata gives you all the data and the story to go with it to help you craft the best digital experience. ",
+	'day' => 2,
+	'slot' => 3
+);
+
+
+
+// Brian Christensen
+$talks[] = array(
+	'speaker' => 'brianchristensen',
+	'title' => 'Building the Right Thing - Even When You are Told No',
+	'description' => "All Product Owners have been given competing directives regarding the direction we want to take our product. Often the immediate needs outweigh the long term strategic growth of our products. Over time this can lead to full-time support of a legacy system no one wants to maintain leaving little to no time available for refactoring let alone new development. Is there a solution to this problem?
+
+<br /><br />
+
+This is the exact situation I faced when I was hired at USANA. My development team was stuck, monitoring a legacy system while wanting to build a better system using the latest and greatest technologies.  This presented a bigger problem however as my team is responsible for the commission payments to all of USANA’s associates around the world requiring constant update to respond to executive requests and international laws.  In sum, more obstacles were presented making the problem grow more ominous and seemingly impossible to overcome.
+
+<br /><br />
+
+I derived a creative solution that would check all the boxes while providing my team the time and resources to press ahead making our product the flagship it is today. ",
+	'day' => 2,
+	'slot' => 4
+);
+
+// Crystal Yan
+$talks[] = array(
+	'speaker' => 'crystalyan',
+	'title' => 'Designing in Crisis',
+	'description' => "In a place far from home, how do refugees and asylum seekers find information about and understand how to navigate a complex government process of applying for asylum? In this presentation, I’ll share how our team conducted human-centered design research with asylum seekers for the US asylum program, how those insights illuminated areas of improvement for content strategy and service design, and how we redesigned content and services while balancing needs for ease of use and data security. 
+
+<br /><br />
+
+Finally, I'll show how design strategy work illuminated the need for overhauling our overall organization's strategy. You'll leave this session with insight into the opportunity and impact of thoughtful product strategy in government, examples from specific case studies featuring the work of the United States Digital Service in designing products and services for asylum seekers, and lessons learned from conducting design research with vulnerable communities.",
+	'day' => 2,
+	'slot' => 5
+);
+
+// Wes O'Haire
+$talks[] = array(
+	'speaker' => 'wesohaire',
+	'title' => 'Coming soon...',
+	'description' => "Coming soon...",
+	'day' => 2,
 	'slot' => 6
+);
+
+// Brett Allred
+$talks[] = array(
+	'speaker' => 'brettallred',
+	'title' => 'Coming soon...',
+	'description' => "Coming soon...",
+	'day' => 2,
+	'slot' => 7
 );
 
 

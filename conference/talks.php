@@ -2,8 +2,8 @@
 
 // temp redirect until we have speakers again
 
-header('location: /conference', true, 307);
-exit();
+// header('location: /conference', true, 307);
+//exit();
 
 require($_SERVER['DOCUMENT_ROOT'] . '/includes/init.php');
 
@@ -121,7 +121,7 @@ function print_talk($day, $slot) {
 			<div class="course-date">
 				<h3><?php echo get_conference_day(2); ?></h3>
 				<ul class="days-courses">
-					<li class="course">
+					<!--<li class="course">
 						<dl>
 							<dt class="time">7:00<span class="am-pm">AM</span></dt>
 							<dd class="instructor"></dd>
@@ -129,7 +129,7 @@ function print_talk($day, $slot) {
 								<h4>Sunrise walk</h4>
 							</dd>
 						</dl>
-					</li>
+					</li>-->
 					<li class="course">
 						<dl>
 							<dt class="time">7:30<span class="am-pm">AM</span></dt>
@@ -240,7 +240,7 @@ function print_talk($day, $slot) {
 							</dd>
 						</dl>
 					</li>
-					<li class="course">
+					<!--<li class="course">
 						<dl>
 							<dt class="time">5:30<span class="am-pm">PM</span></dt>
 							<dd class="instructor"></dd>
@@ -266,14 +266,14 @@ function print_talk($day, $slot) {
 								<h4>After party</h4>
 							</dd>
 						</dl>
-					</li>
+					</li>-->
 				</ul>
 			</div>
 			
 			<div class="course-date">
 				<h3><?php echo get_conference_day(3); ?></h3>
 				<ul class="days-courses">
-					<li class="course">
+					<!--<li class="course">
 						<dl>
 							<dt class="time">7:00<span class="am-pm">AM</span></dt>
 							<dd class="instructor"></dd>
@@ -281,7 +281,7 @@ function print_talk($day, $slot) {
 								<h4>Group meditation session</h4>
 							</dd>
 						</dl>
-					</li>
+					</li>-->
 					<li class="course">
 						<dl>
 							<dt class="time">7:30<span class="am-pm">AM</span></dt>
