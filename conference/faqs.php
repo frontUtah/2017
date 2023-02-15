@@ -23,7 +23,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<h3>Registration information</h3>
 						<dl class="accordion">
 							<dt class="accordion-title question">What are the ticket pricing details?</dt>
-							<dd class="accordion-content answer">Front UX & Product Management Case Study Conference full conference passes are $500 (30% off) until 2 February 2022. Standard price Front UX & Product Management Case Study Conference full conference passes are $700. This includes all meals, courses, and activities.</dd>
+							<dd class="accordion-content answer">Front UX & Product Management Case Study Conference full conference passes are $500 (30% off) until 24 February 2023. Standard price Front UX & Product Management Case Study Conference full conference passes are $700. This includes all meals, courses, and activities.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Do you offer group pricing?</dt>
@@ -55,7 +55,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Where do I pick up my registration badge?</dt>
-							<dd class="accordion-content answer">You can pick-up your badge at the registration desk, located on the lower level of the Eccles Theater Grand Lobby on Wednesday, 6 April 2022, at 5:00 pm MT or Thursday, 7 April 2022, between 7:30 - 9:00 AM MT.</dd>
+							<dd class="accordion-content answer">You can pick-up your badge at the registration desk, located on the lower level of the Eccles Theater Grand Lobby on Wednesday, 26 April 2023, at 5:00 pm MT or Thursday, 27 April 2023, between 7:30 - 9:00 AM MT.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">Is there an age requirement for the event?</dt>
@@ -76,8 +76,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<dd class="accordion-content answer">We have acquired discounted nightly rates, for a single king or queen bed, of $159/night + 
 							tax at the <a href="https://www.marriott.com/events/start.mi?id=1582752880198&key=GRP">Salt 
 							Lake City Marriott City Center</a>. 
-							The rates are available for stays between 7-9 April 2021. The deadline 
-							for booking lodging at the discounted rate is 17 March 2021. We 
+							The rates are available for stays between 26-28 April 2023. The deadline 
+							for booking lodging at the discounted rate is 16 March 2023. We 
 							encourage you to register early as it these hotels will likely 
 							sell out before that date. Book your room online or by calling 888.236.2427 and asking for the “Front” group 
 							discount. The hotel is a block and a half (5 minute walk) from 
@@ -140,7 +140,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">How do I become a Front volunteer?</dt>
-							<dd class="accordion-content answer">To learn more about volunteer opportunities at Front Salt Lake City, please contact Andrew Branch at andrew@frontutah.com or (801) 885-9206.</dd>
+							<dd class="accordion-content answer">To learn more about volunteer opportunities at Front Salt Lake City, please contact Andrew Branch at ben@frontutah.com or 801.428.9354.</dd>
 						</dl>
 					</li>
 					<li class="faq-category">

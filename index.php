@@ -18,7 +18,7 @@ require('includes/header.php');
 		<ul>
 			<li>
 				<h3>Case Study Conference</h3>
-				<p class="date-location">Spring 2023, Salt Lake City</p>
+				<p class="date-location">26-28 April 2023, Salt Lake City</p>
 				<div href="https://www.youtube.com/watch?v=8f5QpAa1nh8" class="thumnail video-thumbnail recap-video">
 					<img src="images/conf-scene001.jpg" alt="" style="width: 413px;">
 				</div>

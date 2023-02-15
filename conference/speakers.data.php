@@ -95,22 +95,35 @@ $speakers[] = array(
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/chetanadeorah/'
 );
-*/
 
-
-// Drew Bridewell
+// Wes O'Haire
 $speakers[] = array(
-	'slug' => 'drewbridewell',
-	'first' => 'Drew',
-	'last' => 'Bridewell',
-	'title' => 'Head of Product and Design',
-	'company' => 'GrowthDay',
+	'slug' => 'wesohaire',
+	'first' => 'Wes',
+	'last' => 'O’Haire',
+	'title' => 'Design Lead',
+	'company' => 'Sequoia Capital',
 	'discipline' => 'ux',
-	'photo' => 'headshots/drewbridewell.jpg',
-	'bio' => "Drew Bridewell is an experienced product and design leader, founder, and certified high-performance coach who is passionate about empowering and inspiring the makers of the world through intentional design. Most recently Drew is Head of Design and Product at GrowthDay, a startup bringing together world-class research-backed personal development tools, community, and Life coaching by the world's experts in personal development. He founded Next Level UX in 2020 after a career-focused in learning and development products. During his time at Facebook, he built 3, 0-1 products focused on performance management,  to serve and empower the growth of Facebook's 50k employees and 10k+ managers. Drew also founded the design transformation team previously at InVision, where he studied and taught design systems across the world, mapping hundreds of the world's best teams processes and systems and finding the opportunities to enhance their design maturity. He also lead enterprise efforts for Lynda.com and LinkedIn Learning and delivered Lynda.com's very first responsive cross-platform application. He hosts Practical UX Weekly on LinkedIn Learning and coaches at the Stanford d.school ME216 program. Drew has over 15 years in the tech industry and has made it his purpose to empower and champion the makers of the world through intentional design.",
-	'twitter' => 'abridewell',
+	'photo' => 'headshots/wesohaire.jpg',
+	'bio' => "Wes O’Haire is a Design Lead at Sequoia Capital where he’s using design to help some amazing investors and change how early companies get surfaced, evaluated, and funded. Before that, he was a senior manager leading product design teams at Dropbox and Hudl. <br> <br>Wes also founded Blacks Who Design and leads an effort inside MillerKnoll’s “Diversity in Design.” When he’s not at work, he’s hanging out with his wife and two rambunctious kids in Southern California and usually listening to Robert Glasper.",
+	'twitter' => 'WesOHaire',
 	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/abridewell/'
+	'linkedin' => 'https://www.linkedin.com/in/wesohaire/'
+);
+
+// Sindhuja Narasimhan
+$speakers[] = array(
+	'slug' => 'sindhujanarasimhan',
+	'first' => 'Sindhuja',
+	'last' => 'Narasimhan',
+	'title' => 'Lead Designer',
+	'company' => 'Roku',
+	'discipline' => 'ux',
+	'photo' => 'headshots/sindhujanarasimhan.jpg',
+	'bio' => "Sindhu is Lead Designer at Roku, bringing Shoppable ads to Television. Before Roku, Sindhu founded and built her own startup, and worked in a Startup Studio incubating companies in the Seattle Area. She spent 3.5 years at Amazon working on design for 0-1 products like Amazon Key and Lex.<br> <br> Specialties: Product Management, User Experience Design, Emerging Technologies, Conversational Design, Interaction Design, User Research",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/sindhujanarasimhan/'
 );
 
 // Ingrid Cruz 
@@ -128,6 +141,23 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/ipetronella/'
 );
 
+*/
+
+
+// Drew Bridewell
+$speakers[] = array(
+	'slug' => 'drewbridewell',
+	'first' => 'Drew',
+	'last' => 'Bridewell',
+	'title' => 'Head of Product and Design',
+	'company' => 'GrowthDay',
+	'discipline' => 'ux',
+	'photo' => 'headshots/drewbridewell.jpg',
+	'bio' => "Drew Bridewell is an experienced product and design leader, founder, and certified high-performance coach who is passionate about empowering and inspiring the makers of the world through intentional design. Most recently Drew is Head of Design and Product at GrowthDay, a startup bringing together world-class research-backed personal development tools, community, and Life coaching by the world's experts in personal development. He founded Next Level UX in 2020 after a career-focused in learning and development products. During his time at Facebook, he built 3, 0-1 products focused on performance management,  to serve and empower the growth of Facebook's 50k employees and 10k+ managers. Drew also founded the design transformation team previously at InVision, where he studied and taught design systems across the world, mapping hundreds of the world's best teams processes and systems and finding the opportunities to enhance their design maturity. He also lead enterprise efforts for Lynda.com and LinkedIn Learning and delivered Lynda.com's very first responsive cross-platform application. He hosts Practical UX Weekly on LinkedIn Learning and coaches at the Stanford d.school ME216 program. Drew has over 15 years in the tech industry and has made it his purpose to empower and champion the makers of the world through intentional design.",
+	'twitter' => 'abridewell',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/abridewell/'
+);
 
 
 // Troy Azmoon
@@ -264,35 +294,6 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/brandnewfeel/'
 );
 
-// Sindhuja Narasimhan
-$speakers[] = array(
-	'slug' => 'sindhujanarasimhan',
-	'first' => 'Sindhuja',
-	'last' => 'Narasimhan',
-	'title' => 'Lead Designer',
-	'company' => 'Roku',
-	'discipline' => 'ux',
-	'photo' => 'headshots/sindhujanarasimhan.jpg',
-	'bio' => "Sindhu is Lead Designer at Roku, bringing Shoppable ads to Television. Before Roku, Sindhu founded and built her own startup, and worked in a Startup Studio incubating companies in the Seattle Area. She spent 3.5 years at Amazon working on design for 0-1 products like Amazon Key and Lex.<br> <br> Specialties: Product Management, User Experience Design, Emerging Technologies, Conversational Design, Interaction Design, User Research",
-	'twitter' => '',
-	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/sindhujanarasimhan/'
-);
-
-// Wes O'Haire
-$speakers[] = array(
-	'slug' => 'wesohaire',
-	'first' => 'Wes',
-	'last' => 'O’Haire',
-	'title' => 'Design Lead',
-	'company' => 'Sequoia Capital',
-	'discipline' => 'ux',
-	'photo' => 'headshots/wesohaire.jpg',
-	'bio' => "Wes O’Haire is a Design Lead at Sequoia Capital where he’s using design to help some amazing investors and change how early companies get surfaced, evaluated, and funded. Before that, he was a senior manager leading product design teams at Dropbox and Hudl. <br> <br>Wes also founded Blacks Who Design and leads an effort inside MillerKnoll’s “Diversity in Design.” When he’s not at work, he’s hanging out with his wife and two rambunctious kids in Southern California and usually listening to Robert Glasper.",
-	'twitter' => 'WesOHaire',
-	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/wesohaire/'
-);
 
 // Elizabeth Beeli
 $speakers[] = array(
@@ -399,6 +400,40 @@ She teaches at Maryland College of Art & Design (MICA), School of Visual Concept
 	'twitter' => 'crystalcy',
 	'instagram' => '',
 	'linkedin' => 'linkedin.com/in/crystalcyan'
+);
+
+// John Dilworth
+$speakers[] = array(
+	'slug' => 'johndilworth',
+	'first' => 'John',
+	'last' => 'Dilworth',
+	'title' => 'Cofounder',
+	'company' => 'The Flag Machine',
+	'discipline' => 'ux',
+	'photo' => 'headshots/johndilworth.jpg',
+	'bio' => "John Dilworth is VP of UX at Lucid Software. Long history of designing, coding and tinkering on the internet.",
+	'twitter' => 'johndilworth',
+	'instagram' => '',
+	'linkedin' => 'www.linkedin.com/in/johndilworth'
+);
+
+// Rob Foster
+$speakers[] = array(
+	'slug' => 'robfoster',
+	'first' => 'Rob',
+	'last' => 'Foster',
+	'title' => 'Cofounder',
+	'company' => 'The Flag Machine',
+	'discipline' => 'ux',
+	'photo' => 'headshots/robfoster.jpg',
+	'bio' => "I design and develop products and brands that people love. I write about topics I'm passionate about. I help run a charity that provides clean water to those in need. I live high in the Utah Mountains with my family where I bike, photograph, build stuff, and cook. I try to learn something new and useful every single day.
+
+<br> <br>
+
+I’ve been designing software, companies and brands for 25+ years. It’s my passion. I will never stop. I am obsessed with making things that are both beautiful and functional.",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/robfoster-unseenpowers/'
 );
 
 

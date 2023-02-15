@@ -61,15 +61,23 @@ $talks[] = array(
 	'day' => 1,
 	'slot' => 1
 );
- */
 
-// Drew Bridewell
+// Wes O'Haire
 $talks[] = array(
-	'speaker' => 'drewbridewell',
-	'title' => 'Take a deep breath&mdash;lets talk about the power of design intention',
-	'description' => "\"Focus on the people, empower the community, the bring intention and context into all that we do\". This past year placed a magnifying glass on what matters most to each of us. Family, careers, joy, and life fulfillment. Whether you're a seasoned pro, or just getting into product and design you'll learn fast that without strong peer building networks, community, and support the pursuit of life fulfillment can feel like a lonesome path. However, it's 2022 and we live in an age of a technology boom, so many tools, so many opportunities, with limitless potential.<br /><br />In this talk, Drew will reflect on the evolution of GrowthDay, a 2021 Startup that was founded to help bring personal development to the world through the use of tools, community, and life coaching.  Built and founded during COVID, GrowthDay is a cross-platform personal development app. Led by world-renown 3-time New York Times bestselling author and High-performance coach, and CEO Brendon Burchard. GrowthDay had 20 years of research and has been serving the community without an app. You'll see what's possible in 1 year with great intention, responsibility, and empowerment.<br /><br />Drew will also uncover the power of how rituals and routines played into the early success of this platform. Drew will also discuss how he leveraged his training and development platform Next Level UX to develop frameworks around the most important areas of focus when building new companies, teams, and relationships while manifesting a rich learning and high-performance culture.",
+	'speaker' => 'wesohaire',
+	'title' => 'Coming soon...',
+	'description' => "Coming soon...",
+	'day' => 2,
+	'slot' => 6
+);
+
+// Sindhuja Narasimhan
+$talks[] = array(
+	'speaker' => 'sindhujanarasimhan',
+	'title' => 'ECommerce on Television',
+	'description' => "TV is the biggest and most-watched screen in most homes, and technologies are making it possible for consumers to buy directly from brands in real time using their remote. This is uncharted territory from a UX perspective as we move users from a leaned-back experience with content viewing to a leaned-in one with shopping on TV. Let's walk through UX considerations to make this experience stunning and seamless.",
 	'day' => 1,
-	'slot' => 1
+	'slot' => 8
 );
 
 // Ingrid Cruz
@@ -79,6 +87,17 @@ $talks[] = array(
 	'description' => "If you've spent more than three minutes on LinkedIn lately, you've probably noticed that every team seems to be 'growing like crazy!'. But growth can be a chaotic and frustrating experience depending on how well you prepare for it. What do you do when you find yourself knee-deep in projects that are overlapping, with unclear priorities and ownership—and come to the panic-inducing realization that you're at risk of delivering a severely disjointed product experience? Oh, and let's not forget that the team is growing, and you'll soon have to do the same acrobatics with twice the people.<br /><br />Ingrid will share her experience navigating through the challenge (and opportunity!) of rapid growth at Ivanti and FullStory. How do you establish a clear design vision and strategy for a portfolio of 50+ products? How do you continue to execute well as a team when you double in size in a short amount of time? How do you align your own career development with opportunities that arise in a high-growth environment? By recognizing the challenges that accompany growth and having the tools to address them, you and your team can adapt, thrive, and do great work during seasons of constant change.",
 	'day' => 1,
 	'slot' => 2
+);
+
+ */
+
+// Drew Bridewell
+$talks[] = array(
+	'speaker' => 'drewbridewell',
+	'title' => 'Take a deep breath&mdash;lets talk about the power of design intention',
+	'description' => "\"Focus on the people, empower the community, the bring intention and context into all that we do\". This past year placed a magnifying glass on what matters most to each of us. Family, careers, joy, and life fulfillment. Whether you're a seasoned pro, or just getting into product and design you'll learn fast that without strong peer building networks, community, and support the pursuit of life fulfillment can feel like a lonesome path. However, it's 2022 and we live in an age of a technology boom, so many tools, so many opportunities, with limitless potential.<br /><br />In this talk, Drew will reflect on the evolution of GrowthDay, a 2021 Startup that was founded to help bring personal development to the world through the use of tools, community, and life coaching.  Built and founded during COVID, GrowthDay is a cross-platform personal development app. Led by world-renown 3-time New York Times bestselling author and High-performance coach, and CEO Brendon Burchard. GrowthDay had 20 years of research and has been serving the community without an app. You'll see what's possible in 1 year with great intention, responsibility, and empowerment.<br /><br />Drew will also uncover the power of how rituals and routines played into the early success of this platform. Drew will also discuss how he leveraged his training and development platform Next Level UX to develop frameworks around the most important areas of focus when building new companies, teams, and relationships while manifesting a rich learning and high-performance culture.",
+	'day' => 1,
+	'slot' => 1
 );
 
 // Troy Azmoon & Amy Lokey
@@ -127,15 +146,6 @@ $talks[] = array(
 );
 
 
-// Sindhuja Narasimhan
-$talks[] = array(
-	'speaker' => 'sindhujanarasimhan',
-	'title' => 'ECommerce on Television',
-	'description' => "TV is the biggest and most-watched screen in most homes, and technologies are making it possible for consumers to buy directly from brands in real time using their remote. This is uncharted territory from a UX perspective as we move users from a leaned-back experience with content viewing to a leaned-in one with shopping on TV. Let's walk through UX considerations to make this experience stunning and seamless.",
-	'day' => 1,
-	'slot' => 8
-);
-
 // Virgilia Pruthi
 $talks[] = array(
 	'speaker' => 'virgiliapruthi',
@@ -162,8 +172,6 @@ $talks[] = array(
 	'day' => 2,
 	'slot' => 3
 );
-
-
 
 // Brian Christensen
 $talks[] = array(
@@ -195,14 +203,36 @@ Finally, I'll show how design strategy work illuminated the need for overhauling
 	'slot' => 5
 );
 
-// Wes O'Haire
+// John Dilworth & Rob Foster
 $talks[] = array(
-	'speaker' => 'wesohaire',
-	'title' => 'Coming soon...',
-	'description' => "Coming soon...",
+	'speaker' => array('johndilworth', 'robfoster'),
+	'title' => 'The Utah Flag Machine: How Trolling Utahs New Flag Initiative Created Overwhelming Participation and Influenced the Design of Utahs New Flag.',
+	'description' => "When the state of Utah announced their initiative to redesign the state flag, Rob Foster and I started scheming about how we could get involved in the process. Over a couple weekends, we put together a website that would generate random Utah-themed flags and allow people to customize the designs to their liking. The site was meant to be fun, playful and even a little  bit sarcastic—poking a little fun at Utah and the seriousness of flag design (vexillology). 
+
+<br /><br />
+
+Over the period of just a few months the The Flag Machine received local, national, and industry attention and received over 50,000 visitors from all over the world who helped Utah receive record numbers of official flag submissions. 
+
+<br /><br />
+
+The Flag Machine was a weekend hobby design project—but it inspired and unlocked several ideas about design, community participation, and software interactions that all contributed to its success. 
+
+<br /><br />
+
+In this presentation to the Front audiences, we'd like to share our story and some unique ideas about software and design that we learned along the way, including:
+<ul>
+<li> The value of creative outlets outside of your day job</li>
+<li> The power of randomness and constraint</li>
+<li> Using the computer as a tool to help generate thousands, even millions of design options (vs. three variations)</li>
+<li> Building interfaces that are fun for anyone to use, including disabled or people with low motor function</li>
+<li> The strange world of vexillology (design of flags)</li>
+<li> The excitement of building tools that empower people to be creative.</li>
+<li> Community engagement and lay person design vs. design snobbism</li></ul>",
 	'day' => 2,
 	'slot' => 6
 );
+
+
 
 // Brett Allred
 $talks[] = array(
