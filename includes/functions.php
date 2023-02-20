@@ -213,13 +213,13 @@ function get_workshop_day($day) {
 function get_conference_day($day) {
 	switch($day) {
 		case 1:
-			return 'Wednesday, 6 April 2022';
+			return 'Wednesday, 26 April 2023';
 			break;
 		case 2:
-			return 'Thursday, 7 April 2022';
+			return 'Thursday, 27 April 2023';
 			break;
 		case 3:
-			return 'Friday, 8 April 2022';
+			return 'Friday, 28 April 2023';
 			break;
 	}
 }
