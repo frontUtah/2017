@@ -38,14 +38,15 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 			
 			
 			<!-- Early bird -->
+			<!--
 			
 			<div class="prices">
 				<dl class="pricing-types">
 					<dt><div></div></dt>
-					<!--<dd class="early">
+					<dd class="early">
 						SUPER Early bird pricing
 						<small>40% off through 16 Dev 2023</small>
-					</dd>-->
+					</dd>
 					<dd class="standard">
 						Early bird pricing
 						<small>30% off through 24 Feb 2023</small>
@@ -57,7 +58,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</dl>
 				<dl class="full">
 					<dt><div>Full Conference</div></dt>
-					<!--<dd class="early">$400</dd>-->
+					<dd class="early">$400</dd>
 					<dd class="early">$500</dd>
 					<dd class="standard">$700</dd>
 				</dl>
@@ -68,7 +69,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<small>5% off per ticket</small>
 						</div>
 					</dt>
-					<!--<dd class="early">$380</dd>-->
+					<dd class="early">$380</dd>
 					<dd class="early">$475</dd>
 					<dd class="standard">$665</dd>
 				</dl>
@@ -79,7 +80,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<small>10% off per ticket</small>
 						</div>
 					</dt>
-					<!--<dd class="early">$360</dd>-->
+					<dd class="early">$360</dd>
 					<dd class="early">$450</dd>
 					<dd class="standard">$630</dd>
 				</dl>
@@ -90,14 +91,15 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 							<small>50% off per ticket</small>
 						</div>
 					</dt>
-					<!--<dd class="early">$200</dd>-->
+					<dd class="early">$200</dd>
 					<dd class="early">$250</dd>
 					<dd class="standard">$350</dd>
 				</dl>
 			</div>
+			-->
 			
 			<!-- Standard -->
-			<!--
+			
 			
 			<div class="prices">
 				<dl class="full">
@@ -122,8 +124,17 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					</dt>
 					<dd class="early">$630</dd>
 				</dl>
+				<dl>
+					<dt>
+						<div>
+							Student discount
+							<small>50% off per ticket</small>
+						</div>
+					</dt>
+					<dd class="standard">$350</dd>
+				</dl>
 			</div>
-			-->
+			
 			
 			
 			
