@@ -156,9 +156,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		<a id="hotels"></a><section class="accomodations">
 			<h2>Hotels</h2>
 
-			<!--<p class="about-accomodations"><em>We are working to secure a discounted rate at a preferred hotel.</em></p>-->
+			<p class="about-accomodations"><em>We are working to secure a discounted rate at a preferred hotel.</em></p>
 			
-
+			<!--
 			<p class="about-accomodations">We have acquired discounted nightly rate of $159/night + tax (30% off) for a single king at the Salt Lake City Marriott City Center. We encourage you to register early as these rates are only available for a limit number of rooms. Book your room through the button below or by calling their front desk and asking for the “Front Utah" group discount.</p> 
 			
 			<div class="hotel">
@@ -181,7 +181,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<p><a target="_blank" href="https://www.marriott.com/events/start.mi?id=1634675728834&key=GRP" class="button">Book now</a></p>
 				</div>
 			</div>
-			
+			-->
 
 			
 		</section>

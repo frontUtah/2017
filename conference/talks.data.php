@@ -91,13 +91,38 @@ $talks[] = array(
 
  */
 
-// Drew Bridewell
+// Shawn Johnson
 $talks[] = array(
-	'speaker' => 'drewbridewell',
-	'title' => 'Take a deep breath&mdash;lets talk about the power of design intention',
-	'description' => "\"Focus on the people, empower the community, the bring intention and context into all that we do\". This past year placed a magnifying glass on what matters most to each of us. Family, careers, joy, and life fulfillment. Whether you're a seasoned pro, or just getting into product and design you'll learn fast that without strong peer building networks, community, and support the pursuit of life fulfillment can feel like a lonesome path. However, it's 2022 and we live in an age of a technology boom, so many tools, so many opportunities, with limitless potential.<br /><br />In this talk, Drew will reflect on the evolution of GrowthDay, a 2021 Startup that was founded to help bring personal development to the world through the use of tools, community, and life coaching.  Built and founded during COVID, GrowthDay is a cross-platform personal development app. Led by world-renown 3-time New York Times bestselling author and High-performance coach, and CEO Brendon Burchard. GrowthDay had 20 years of research and has been serving the community without an app. You'll see what's possible in 1 year with great intention, responsibility, and empowerment.<br /><br />Drew will also uncover the power of how rituals and routines played into the early success of this platform. Drew will also discuss how he leveraged his training and development platform Next Level UX to develop frameworks around the most important areas of focus when building new companies, teams, and relationships while manifesting a rich learning and high-performance culture.",
+	'speaker' => 'shawnjohnson',
+	'title' => 'Designing & Delivering Products at the Speed of Change',
+	'description' => "We have all been there before. We have our processes, methods, and mechanisms in place for how to design and deliver products people love. But what happens when all of that is thrown out the window? When you are asked to deliver in half the time, with a quarter the the team size required, and across 15 different devices and platforms on day one into a highly competitive and saturated market? 
+
+	<br /><br />
+
+We have all heard the term 'building the plane while flying it', but few leaders are equipped for the type of tools required for the tightropes and trapezes you will embark on. This was the task at hand when developing and launching Discovery+ to 25 million subscribers, across 13 countries and 12 languages.
+
+<br /><br />
+
+In this talk, Shawn will discuss what you need to do to survive take-off, a trip around the sun, and bringing everyone together to succeed in designing, developing and launching a global streaming service in record time. Shawn will highlight key pitfalls and important areas to achieve success through adaptive intelligence, quick decisions and trade-offs that keep the customer and the company culture at the center focus.
+
+<br /><br />
+
+Shawn will also share stories and examples of how he used collaboration tools and tactics, including using intuition and instinct with real time data to produce a Design led MLP (Most Lovable Product) that ultimately shifted the trajectory of the company and resulted in one of the largest media mergers in history.",
 	'day' => 1,
 	'slot' => 1
+);
+
+// Crystal Yan
+$talks[] = array(
+	'speaker' => 'crystalyan',
+	'title' => 'Designing in Crisis',
+	'description' => "In a place far from home, how do refugees and asylum seekers find information about and understand how to navigate a complex government process of applying for asylum? In this presentation, I’ll share how our team conducted human-centered design research with asylum seekers for the US asylum program, how those insights illuminated areas of improvement for content strategy and service design, and how we redesigned content and services while balancing needs for ease of use and data security. 
+
+<br /><br />
+
+Finally, I'll show how design strategy work illuminated the need for overhauling our overall organization's strategy. You'll leave this session with insight into the opportunity and impact of thoughtful product strategy in government, examples from specific case studies featuring the work of the United States Digital Service in designing products and services for asylum seekers, and lessons learned from conducting design research with vulnerable communities.",
+	'day' => 1,
+	'slot' => 2
 );
 
 // Troy Azmoon & Amy Lokey
@@ -155,11 +180,11 @@ $talks[] = array(
 	'slot' => 1
 );
 
-// Elizabeth Beeli
+// Drew Bridewell
 $talks[] = array(
-	'speaker' => 'elizabethbeeli',
-	'title' => 'How to build a feedback system to test 4-8 ideas a week ',
-	'description' => "Impactful work multiplies the efforts of those around you. Having scalable patterns to test ideas, weed out the good from the bad, is instrumental for preemptively finding the next opportunities for your team and adopting product-led growth. Learn how Lucid built a feedback system to test 4-8 ideas a week.",
+	'speaker' => 'drewbridewell',
+	'title' => 'Take a deep breath&mdash;lets talk about the power of design intention',
+	'description' => "\"Focus on the people, empower the community, the bring intention and context into all that we do\". This past year placed a magnifying glass on what matters most to each of us. Family, careers, joy, and life fulfillment. Whether you're a seasoned pro, or just getting into product and design you'll learn fast that without strong peer building networks, community, and support the pursuit of life fulfillment can feel like a lonesome path. However, it's 2022 and we live in an age of a technology boom, so many tools, so many opportunities, with limitless potential.<br /><br />In this talk, Drew will reflect on the evolution of GrowthDay, a 2021 Startup that was founded to help bring personal development to the world through the use of tools, community, and life coaching.  Built and founded during COVID, GrowthDay is a cross-platform personal development app. Led by world-renown 3-time New York Times bestselling author and High-performance coach, and CEO Brendon Burchard. GrowthDay had 20 years of research and has been serving the community without an app. You'll see what's possible in 1 year with great intention, responsibility, and empowerment.<br /><br />Drew will also uncover the power of how rituals and routines played into the early success of this platform. Drew will also discuss how he leveraged his training and development platform Next Level UX to develop frameworks around the most important areas of focus when building new companies, teams, and relationships while manifesting a rich learning and high-performance culture.",
 	'day' => 2,
 	'slot' => 2
 );
@@ -190,19 +215,6 @@ I derived a creative solution that would check all the boxes while providing my 
 	'slot' => 4
 );
 
-// Crystal Yan
-$talks[] = array(
-	'speaker' => 'crystalyan',
-	'title' => 'Designing in Crisis',
-	'description' => "In a place far from home, how do refugees and asylum seekers find information about and understand how to navigate a complex government process of applying for asylum? In this presentation, I’ll share how our team conducted human-centered design research with asylum seekers for the US asylum program, how those insights illuminated areas of improvement for content strategy and service design, and how we redesigned content and services while balancing needs for ease of use and data security. 
-
-<br /><br />
-
-Finally, I'll show how design strategy work illuminated the need for overhauling our overall organization's strategy. You'll leave this session with insight into the opportunity and impact of thoughtful product strategy in government, examples from specific case studies featuring the work of the United States Digital Service in designing products and services for asylum seekers, and lessons learned from conducting design research with vulnerable communities.",
-	'day' => 2,
-	'slot' => 5
-);
-
 // John Dilworth & Rob Foster
 $talks[] = array(
 	'speaker' => array('johndilworth', 'robfoster'),
@@ -229,18 +241,16 @@ In this presentation to the Front audiences, we'd like to share our story and so
 <li> The excitement of building tools that empower people to be creative.</li>
 <li> Community engagement and lay person design vs. design snobbism</li></ul>",
 	'day' => 2,
-	'slot' => 6
+	'slot' => 5
 );
 
-
-
-// Brett Allred
+// Elizabeth Beeli
 $talks[] = array(
-	'speaker' => 'brettallred',
-	'title' => 'Coming soon...',
-	'description' => "Coming soon...",
+	'speaker' => 'elizabethbeeli',
+	'title' => 'How to build a feedback system to test 4-8 ideas a week ',
+	'description' => "Impactful work multiplies the efforts of those around you. Having scalable patterns to test ideas, weed out the good from the bad, is instrumental for preemptively finding the next opportunities for your team and adopting product-led growth. Learn how Lucid built a feedback system to test 4-8 ideas a week.",
 	'day' => 2,
-	'slot' => 7
+	'slot' => 6
 );
 
 

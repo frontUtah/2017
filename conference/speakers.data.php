@@ -436,6 +436,41 @@ I’ve been designing software, companies and brands for 25+ years. It’s my pa
 	'linkedin' => 'https://www.linkedin.com/in/robfoster-unseenpowers/'
 );
 
+// Shawn Johnson
+$speakers[] = array(
+	'slug' => 'shawnjohnson',
+	'first' => 'Shawn',
+	'last' => 'Johnson',
+	'title' => 'GVP Product & Design',
+	'company' => 'Formerly Discovery+ | Discovery | NBCU | Microsoft',
+	'discipline' => 'ux',
+	'photo' => 'headshots/shawnjohnson.jpg',
+	'bio' => "Emmy® Award winning Executive, Speaker, Innovator, Entrepreneur & Futurist - Shawn Johnson is the former GVP Global Product & Design for Discovery+ and Discovery Inc. Responsible for Product, Design, Brand and Customer Experience, he defined the Product Vision and Go-to-Market Strategies for Discovery+ and 18 TVE products, platforms, services and experiences.
+
+	<br> <br>
+
+Combining an award-winning product portfolio with technology and business acumen; Shawn is a proven global leader who builds effective and high performing cross-functional teams through Product & Design Leadership. His products have been used by millions of people around the world to deliver engaging experiences that create positive, memorable & lasting relationships through evolving product and technology ecosystems.
+
+<br> <br>
+
+Prior to Discovery, Shawn worked at NBCUniversal, where he served as VP of Experience Design and built an industry leading Product Design Team driving the vision, strategy, and brand experience that produced some of the best products, applications, and channels with millions of global passionate fans. 
+
+<br> <br>
+
+In 2010, Shawn served as Senior UX Lead & Creative Director for Microsoft – working across the entire Microsoft ecosystem of products & services. He led business groups and partners towards a unified global brand vision and customer experience.
+
+<br> <br>
+
+Over the past three decades, Shawn has remained at the forefront of innovation – building, leading and cultivating teams globally. An entrepreneur and founder of several successful west coast agencies, Shawn has had the pleasure of working with a broad range of clients including, Nike, Unilever, Sony, Budweiser, Paramount Pictures, 20th Century Fox, Coca-Cola, Nissan, DreamWorks, Disney and Walt Disney Imagineering.
+
+<br> <br>
+
+Blurring the lines between impossible and possible, Shawn thrives at the intersection of product design, technology, and the imagination of the human spirit. He attended Otis Parsons School of Art & Design, and became one of the youngest instructors at the prestigious west coast design school.",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/shawnjohnson2/'
+);
+
 
 // TEMPLATE
 /*
