@@ -92,7 +92,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						<dl class="accordion">
 							<dt class="accordion-title question">Are there other hotels recommended?</dt>
 							<dd class="accordion-content answer">We highly recommend the <a href="https://www.marriott.com/events/start.mi?id=1582752880198&key=GRP">Salt 
-							Lake City Marriott City Center</a> as we have arranged discounted rates and because of the proximity to the venue. That said, the <a href="https://www.marriott.com/events/start.mi?id=1601932878912&key=GRP">Salt Lake Marriott Downtown at City Creek</a>, Salt Lake Plaza Hotel Temple Square, Hotel Monaco, and Hilton Salt Lake City Center are also close to the venue and are good options.</dd>
+							Lake City Marriott City Center</a> as we have arranged discounted rates and because of the proximity to the venue. That said, the <a href="https://www.marriott.com/events/start.mi?id=1601932878912&key=GRP">Salt Lake Marriott Downtown at City Creek</a>, , Hotel Monaco, and Hilton Salt Lake City Center are also close to the venue and are good options.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">What's the best way to get to the hotel and venue?</dt>
@@ -112,7 +112,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">What is the schedule?</dt>
-							<dd class="accordion-content answer">You can find the Full Conference schedule at <a href="/conference/schedule">www.frontutah.com/conference/schedule</a>.</dd>
+							<dd class="accordion-content answer">You can find the Full Conference schedule at <a href="/conference/talks">www.frontutah.com/conference/talks</a>.</dd>
 						</dl>
 						<dl class="accordion">
 							<dt class="accordion-title question">What is the conference attire?</dt>
