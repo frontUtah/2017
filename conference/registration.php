@@ -27,7 +27,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		<section class="registration-about">
 			<h2>Registration</h2>
 			<p class="about-registration-about">
-			Front UX & Product Management Case Study Conference returns in 2022 to the spacious and stunning Eccles Theater in downtown Salt Lake City. You don’t want to miss this. Take advantage of early bird pricing and our great discounts to bring your entire team. This will be the biggest, most engaging, and comprehensive conference yet. Join us for incredible insights, inspiration, and fun.
+			Front UX & Product Management Case Study Conference returns in 2023 to the spacious and stunning Eccles Theater in downtown Salt Lake City. You don’t want to miss this. Take advantage of early bird pricing and our great discounts to bring your entire team. This will be the biggest, most engaging, and comprehensive conference yet. Join us for incredible insights, inspiration, and fun.
 	 	</section>
 		
 
@@ -167,9 +167,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 		<a id="hotels"></a><section class="accomodations">
 			<h2>Hotels</h2>
 
-			<p class="about-accomodations"><em>We are working to secure a discounted rate at a preferred hotel.</em></p>
+			<!--<p class="about-accomodations"><em>We are working to secure a discounted rate at a preferred hotel.</em></p>
 			
-			<!--
+			
 			<p class="about-accomodations">We have acquired discounted nightly rate of $159/night + tax (30% off) for a single king at the Salt Lake City Marriott City Center. We encourage you to register early as these rates are only available for a limit number of rooms. Book your room through the button below or by calling their front desk and asking for the “Front Utah" group discount.</p> 
 			
 			<div class="hotel">
@@ -193,6 +193,30 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 				</div>
 			</div>
 			-->
+
+			<p class="about-accomodations">We have acquired discounted nightly rate of $219/night + tax at the Hyatt Regency. We encourage you to register early as these rates are only available for a limit number of rooms. Book your room through the button below or by calling their front desk and asking for the “Front Utah" group discount.</p> 
+			
+			<div class="hotel">
+				<div class="hotel-info">
+					<h3>Hyatt Regency Salt Lake City</h3>
+					<p>170 S W Temple St, Salt Lake City, UT 84101<p>
+					<p>Reservations: (801) 596-1234</p>
+					<ul>
+						<li>King or double queen beds</li>
+						<li>Complimentary fitness center</li>
+						<li>Complimentary high-speed internet</li>
+						<li>Onsite and in-room dining services</li>
+						<li>Heated outdoor pool</li>
+						<li>Accessible facility</li>
+						<li>6 minute walk from conference</li>
+					</ul>
+				</div>
+				<div class="book-hotel">
+					<p>Act quickly to get the conference discount rate of <strong>$219/night</strong>.</p>
+					<p><a target="_blank" href="https://www.hyatt.com/en-US/group-booking/SLCRS/G-FRON" class="button">Book now</a></p>
+				</div>
+			</div>
+			
 
 			
 		</section>
