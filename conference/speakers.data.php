@@ -472,6 +472,30 @@ Blurring the lines between impossible and possible, Shawn thrives at the interse
 );
 
 
+// Kyle Turman
+$speakers[] = array(
+	'slug' => 'kyleturman',
+	'first' => 'Kyle',
+	'last' => 'Turman',
+	'title' => 'Director of Product Design',
+	'company' => 'Retool',
+	'discipline' => 'ux',
+	'photo' => 'headshots/kyleturman.jpg',
+	'bio' => "As an award-losing product design leader, Kyle has led design teams at software companies large and small such as Etsy, Dropbox, and Slack over the past 16+ years.
+
+	<br> <br>
+
+Currently leading the Product Design team at Retool as Director of Product Design, Kyle specializes in creating people-centered products and teams that put people at the forefront through creating lovable brand-forward software and thoughtful internal structure that champions personal growth.
+
+<br> <br>
+
+Kyle currently resides in beautiful Oakland California with their dog and partner and loves nothing more than a nice slice of pizza and a glass of wine.",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => ''
+);
+
+
 // TEMPLATE
 /*
 // 

@@ -143,20 +143,20 @@ $talks[] = array(
 	'slot' => 4
 );
 
-// Nancy Douyon
-$talks[] = array(
-	'speaker' => 'nancydouyon',
-	'title' => 'Responsible Innovation During Crisis',
-	'description' => "Every design decision has the potential to include or exclude customers. Global Research emphasizes the contribution that understanding user diversity makes to informing these decisions, and thus to including as many people as possible. User diversity covers variation in capabilities, needs and aspirations. I’ll discuss how we use Global Research to prioritize what product teams really need to build well and understand if their designs have relative ease of use that translates well to non-US users. Global Research priorities addresses some of the most challenging problems facing our global users today. Topics covered: gender-neutrality in tech Europe, responsible innovation dissolved @ Facebook, Twitter blue check mark crisis, spotify joe rogan fiasco, FTX etc",
-	'day' => 1,
-	'slot' => 5
-);
-
 // Brett Allred
 $talks[] = array(
 	'speaker' => 'brettallred',
 	'title' => 'How to build a Cross Functional Team That Deepens Customer Relationships and Increases Sales',
 	'description' => "MX’s Chief Product Officer Brett Allred will discuss how organizations can close the chasm between departments by building a true cross-functional team that ensures products meet the needs of customers. This case study highlights how MX transformed both the culture and structure of the technology and product teams to drive more meaningful sales conversations, strengthen customer relationships, and increase sales. ",
+	'day' => 1,
+	'slot' => 5
+);
+
+// Nancy Douyon
+$talks[] = array(
+	'speaker' => 'nancydouyon',
+	'title' => 'Responsible Innovation During Crisis',
+	'description' => "Every design decision has the potential to include or exclude customers. Global Research emphasizes the contribution that understanding user diversity makes to informing these decisions, and thus to including as many people as possible. User diversity covers variation in capabilities, needs and aspirations. I’ll discuss how we use Global Research to prioritize what product teams really need to build well and understand if their designs have relative ease of use that translates well to non-US users. Global Research priorities addresses some of the most challenging problems facing our global users today. Topics covered: gender-neutrality in tech Europe, responsible innovation dissolved @ Facebook, Twitter blue check mark crisis, spotify joe rogan fiasco, FTX etc",
 	'day' => 1,
 	'slot' => 6
 );
@@ -168,6 +168,15 @@ $talks[] = array(
 	'description' => "It's critical to talk to users. But users often say one thing and do another - or worse, do nothing at all. A big part of my journey at Volley has been figuring out how to decipher data in a world full of anecdotes. I want to share what I've learned and the principles we've put in place to help the team navigate multiple pivots.",
 	'day' => 1,
 	'slot' => 7
+);
+
+// Kyle Turman
+$talks[] = array(
+	'speaker' => 'kyleturman',
+	'title' => 'Enough with the Confetti: How to design delight by infusing your product with brand attributes rather than a sprinkle of magic pixie dust.',
+	'description' => "Coming soon...",
+	'day' => 1,
+	'slot' => 8
 );
 
 
@@ -252,6 +261,8 @@ $talks[] = array(
 	'day' => 2,
 	'slot' => 6
 );
+
+
 
 
 // TEMPLATE
