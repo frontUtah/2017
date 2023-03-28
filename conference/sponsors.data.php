@@ -55,7 +55,7 @@ $sponsors[] = array(
 	'tier' => 2,
 	'url' => 'https://lucid.co',
 	'logo' => 'lucid.svg',
-	'message' => "Lucid started in Utah 10 years ago and now serves 30+ million users and 99% of the Fortune 500. Lucid's visual collaboration suite gives teams the power to go from imagining the future to building it. Their team builds Lucidspark, a virtual whiteboard where teams can put their heads together to inspire innovations and bring them to reality, and Lucidchart, the intelligent diagramming application that empowers teams to clariify complexity, align their insights, and build the future–faster."
+	'message' => "Lucid offers a leading visual collaboration suite that helps teams see and build the future from idea to reality. With its products—Lucidchart, Lucidspark, and Lucidscale—teams can align around a shared vision, clarify complexity, and collaborate visually, no matter where they're located. Top businesses use Lucid's products all around the world, including 99% of the Fortune 500. Lucid's partners include industry leaders such as Google, Atlassian, Amazon Web Services, Salesforce, and Microsoft."
 );
 
 // Dovetail
