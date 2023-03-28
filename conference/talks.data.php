@@ -112,15 +112,11 @@ Shawn will also share stories and examples of how he used collaboration tools an
 	'slot' => 1
 );
 
-// Crystal Yan
+// Joe Wilson
 $talks[] = array(
-	'speaker' => 'crystalyan',
-	'title' => 'Designing in Crisis',
-	'description' => "In a place far from home, how do refugees and asylum seekers find information about and understand how to navigate a complex government process of applying for asylum? In this presentation, I’ll share how our team conducted human-centered design research with asylum seekers for the US asylum program, how those insights illuminated areas of improvement for content strategy and service design, and how we redesigned content and services while balancing needs for ease of use and data security. 
-
-<br /><br />
-
-Finally, I'll show how design strategy work illuminated the need for overhauling our overall organization's strategy. You'll leave this session with insight into the opportunity and impact of thoughtful product strategy in government, examples from specific case studies featuring the work of the United States Digital Service in designing products and services for asylum seekers, and lessons learned from conducting design research with vulnerable communities.",
+	'speaker' => 'joewilson',
+	'title' => 'Deciphering anecdotes and data',
+	'description' => "It's critical to talk to users. But users often say one thing and do another - or worse, do nothing at all. A big part of my journey at Volley has been figuring out how to decipher data in a world full of anecdotes. I want to share what I've learned and the principles we've put in place to help the team navigate multiple pivots.",
 	'day' => 1,
 	'slot' => 2
 );
@@ -161,14 +157,16 @@ $talks[] = array(
 	'slot' => 6
 );
 
-// Joe Wilson
+// Shruti Goli
 $talks[] = array(
-	'speaker' => 'joewilson',
-	'title' => 'Deciphering anecdotes and data',
-	'description' => "It's critical to talk to users. But users often say one thing and do another - or worse, do nothing at all. A big part of my journey at Volley has been figuring out how to decipher data in a world full of anecdotes. I want to share what I've learned and the principles we've put in place to help the team navigate multiple pivots.",
+	'speaker' => 'shrutigoli',
+	'title' => 'Fixing product analytics: lessons from a frustrated Microsoft PM',
+	'description' => "Today, product analytics is broken. Product analytics helps product managers and UX designers by collecting different forms of data; however, deriving insights quickly and uncovering problem areas is often a stop gap for these tools. Trymata gives you all the data and the story to go with it to help you craft the best digital experience. ",
 	'day' => 1,
 	'slot' => 7
 );
+
+
 
 // Kyle Turman
 $talks[] = array(
@@ -189,37 +187,43 @@ $talks[] = array(
 	'slot' => 1
 );
 
-// Drew Bridewell
+// Mitch Clements
 $talks[] = array(
-	'speaker' => 'drewbridewell',
-	'title' => 'Take a deep breath&mdash;lets talk about the power of design intention',
-	'description' => "\"Focus on the people, empower the community, the bring intention and context into all that we do\". This past year placed a magnifying glass on what matters most to each of us. Family, careers, joy, and life fulfillment. Whether you're a seasoned pro, or just getting into product and design you'll learn fast that without strong peer building networks, community, and support the pursuit of life fulfillment can feel like a lonesome path. However, it's 2022 and we live in an age of a technology boom, so many tools, so many opportunities, with limitless potential.<br /><br />In this talk, Drew will reflect on the evolution of GrowthDay, a 2021 Startup that was founded to help bring personal development to the world through the use of tools, community, and life coaching.  Built and founded during COVID, GrowthDay is a cross-platform personal development app. Led by world-renown 3-time New York Times bestselling author and High-performance coach, and CEO Brendon Burchard. GrowthDay had 20 years of research and has been serving the community without an app. You'll see what's possible in 1 year with great intention, responsibility, and empowerment.<br /><br />Drew will also uncover the power of how rituals and routines played into the early success of this platform. Drew will also discuss how he leveraged his training and development platform Next Level UX to develop frameworks around the most important areas of focus when building new companies, teams, and relationships while manifesting a rich learning and high-performance culture.",
+	'speaker' => 'mitchclements',
+	'title' => 'From Basement Startup to a $1.2B Evaluation: The Business Value of Design',
+	'description' => "As designers, we all want a seat at the table. So what do you do when you don't have one? How do you convince C-level leadership to invest in user research and build a design system? How do you lead with a product vision and strategy when others view your role as making interfaces look pretty?
+
+<br /><br />
+
+Skip the presentations on how design has impacted other companies and instead do something specific and personal for your own. Start by focusing on what your leaders are already convinced of. Don't just show the numbers, but also create an emotional impact. Expose the current experience, then help visualize and share what the future experience could be. Create a compelling strategy that connects the dots of how you'll get from where you are to where you need to be. Then execute relentlessly, and witness the transformation.
+
+<br /><br />
+
+This is the story of how the design team at SimpleNexus demonstrated the business value of design to help a basement startup grow and reach a $1.2 billion evaluation.",
 	'day' => 2,
 	'slot' => 2
 );
 
-// Shruti Goli
+
+
+// Crystal Yan
 $talks[] = array(
-	'speaker' => 'shrutigoli',
-	'title' => 'Fixing product analytics: lessons from a frustrated Microsoft PM',
-	'description' => "Today, product analytics is broken. Product analytics helps product managers and UX designers by collecting different forms of data; however, deriving insights quickly and uncovering problem areas is often a stop gap for these tools. Trymata gives you all the data and the story to go with it to help you craft the best digital experience. ",
+	'speaker' => 'crystalyan',
+	'title' => 'Designing in Crisis',
+	'description' => "In a place far from home, how do refugees and asylum seekers find information about and understand how to navigate a complex government process of applying for asylum? In this presentation, I’ll share how our team conducted human-centered design research with asylum seekers for the US asylum program, how those insights illuminated areas of improvement for content strategy and service design, and how we redesigned content and services while balancing needs for ease of use and data security. 
+
+<br /><br />
+
+Finally, I'll show how design strategy work illuminated the need for overhauling our overall organization's strategy. You'll leave this session with insight into the opportunity and impact of thoughtful product strategy in government, examples from specific case studies featuring the work of the United States Digital Service in designing products and services for asylum seekers, and lessons learned from conducting design research with vulnerable communities.",
 	'day' => 2,
 	'slot' => 3
 );
 
-// Brian Christensen
+// Elizabeth Beeli
 $talks[] = array(
-	'speaker' => 'brianchristensen',
-	'title' => 'Building the Right Thing - Even When You are Told No',
-	'description' => "All Product Owners have been given competing directives regarding the direction we want to take our product. Often the immediate needs outweigh the long term strategic growth of our products. Over time this can lead to full-time support of a legacy system no one wants to maintain leaving little to no time available for refactoring let alone new development. Is there a solution to this problem?
-
-<br /><br />
-
-This is the exact situation I faced when I was hired at USANA. My development team was stuck, monitoring a legacy system while wanting to build a better system using the latest and greatest technologies.  This presented a bigger problem however as my team is responsible for the commission payments to all of USANA’s associates around the world requiring constant update to respond to executive requests and international laws.  In sum, more obstacles were presented making the problem grow more ominous and seemingly impossible to overcome.
-
-<br /><br />
-
-I derived a creative solution that would check all the boxes while providing my team the time and resources to press ahead making our product the flagship it is today. ",
+	'speaker' => 'elizabethbeeli',
+	'title' => 'How to build a feedback system to test 4-8 ideas a week ',
+	'description' => "Impactful work multiplies the efforts of those around you. Having scalable patterns to test ideas, weed out the good from the bad, is instrumental for preemptively finding the next opportunities for your team and adopting product-led growth. Learn how Lucid built a feedback system to test 4-8 ideas a week.",
 	'day' => 2,
 	'slot' => 4
 );
@@ -253,13 +257,43 @@ In this presentation to the Front audiences, we'd like to share our story and so
 	'slot' => 5
 );
 
-// Elizabeth Beeli
+
+
+// Varun Murugesan
 $talks[] = array(
-	'speaker' => 'elizabethbeeli',
-	'title' => 'How to build a feedback system to test 4-8 ideas a week ',
-	'description' => "Impactful work multiplies the efforts of those around you. Having scalable patterns to test ideas, weed out the good from the bad, is instrumental for preemptively finding the next opportunities for your team and adopting product-led growth. Learn how Lucid built a feedback system to test 4-8 ideas a week.",
+	'speaker' => 'varunmurugesan',
+	'title' => 'Hot Chicken Therapy: How to run remote "field research"',
+	'description' => "It's becoming common to expect PMs and PDs to run some user research. But what if you're stuck in a global pandemic? How can you get into the field without leaving your house...
+<br /><br />
+Varun puts the call out for more folks to run in the field research remotely. He'll walk through how he launched research at Best Buy that transformed how the company thought about really getting into the minds of their users without leaving their homes. Hint: the key is Nashville hot chicken.",
 	'day' => 2,
 	'slot' => 6
+);
+
+// Brian Christensen
+$talks[] = array(
+	'speaker' => 'brianchristensen',
+	'title' => 'Building the Right Thing - Even When You are Told No',
+	'description' => "All Product Owners have been given competing directives regarding the direction we want to take our product. Often the immediate needs outweigh the long term strategic growth of our products. Over time this can lead to full-time support of a legacy system no one wants to maintain leaving little to no time available for refactoring let alone new development. Is there a solution to this problem?
+
+<br /><br />
+
+This is the exact situation I faced when I was hired at USANA. My development team was stuck, monitoring a legacy system while wanting to build a better system using the latest and greatest technologies.  This presented a bigger problem however as my team is responsible for the commission payments to all of USANA’s associates around the world requiring constant update to respond to executive requests and international laws.  In sum, more obstacles were presented making the problem grow more ominous and seemingly impossible to overcome.
+
+<br /><br />
+
+I derived a creative solution that would check all the boxes while providing my team the time and resources to press ahead making our product the flagship it is today. ",
+	'day' => 2,
+	'slot' => 7
+);
+
+// Drew Bridewell
+$talks[] = array(
+	'speaker' => 'drewbridewell',
+	'title' => 'Take a deep breath&mdash;lets talk about the power of design intention',
+	'description' => "\"Focus on the people, empower the community, the bring intention and context into all that we do\". This past year placed a magnifying glass on what matters most to each of us. Family, careers, joy, and life fulfillment. Whether you're a seasoned pro, or just getting into product and design you'll learn fast that without strong peer building networks, community, and support the pursuit of life fulfillment can feel like a lonesome path. However, it's 2022 and we live in an age of a technology boom, so many tools, so many opportunities, with limitless potential.<br /><br />In this talk, Drew will reflect on the evolution of GrowthDay, a 2021 Startup that was founded to help bring personal development to the world through the use of tools, community, and life coaching.  Built and founded during COVID, GrowthDay is a cross-platform personal development app. Led by world-renown 3-time New York Times bestselling author and High-performance coach, and CEO Brendon Burchard. GrowthDay had 20 years of research and has been serving the community without an app. You'll see what's possible in 1 year with great intention, responsibility, and empowerment.<br /><br />Drew will also uncover the power of how rituals and routines played into the early success of this platform. Drew will also discuss how he leveraged his training and development platform Next Level UX to develop frameworks around the most important areas of focus when building new companies, teams, and relationships while manifesting a rich learning and high-performance culture.",
+	'day' => 2,
+	'slot' => 8
 );
 
 

@@ -495,6 +495,36 @@ Kyle currently resides in beautiful Oakland California with their dog and partne
 	'linkedin' => ''
 );
 
+// Varun Murugesan
+$speakers[] = array(
+	'slug' => 'varunmurugesan',
+	'first' => 'Varun',
+	'last' => 'Murugesan',
+	'title' => 'Principal Researcher',
+	'company' => 'SeatGeek',
+	'discipline' => 'research',
+	'photo' => 'headshots/varunmurugesan.jpg',
+	'bio' => "Varun is the Principal Researcher and cofounder at Apple & Banana, a UX research publication trusted by Fortune 1000 companies and teams-of ones around the world. With a background in psychology and applied statistics, he's built better practices and products at Facebook, UnitedHealth Group, SeatGeek and Best Buy.",
+	'twitter' => 'varun_murugesan',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/varunsmurugesan/'
+);
+
+// Mitch Clements
+$speakers[] = array(
+	'slug' => 'mitchclements',
+	'first' => 'Mitch',
+	'last' => 'Clements',
+	'title' => 'UX Manager',
+	'company' => 'SimpleNexus',
+	'discipline' => 'ux',
+	'photo' => 'headshots/mitchclements.jpg',
+	'bio' => "Mitchell Clements is a User Experience Design Manager at SimpleNexus, where he has helped the company grow from a 17-person basement startup to a $1.2 billion tech company by demonstrating the business value of design. During his career, he has worked in many roles including developer, product manager, and designer. He also volunteers his time in the design community as the vice-chair of the Product Hive mentorship program.",
+	'twitter' => '',
+	'instagram' => '',
+	'linkedin' => ''
+);
+
 
 // TEMPLATE
 /*
