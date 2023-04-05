@@ -141,6 +141,21 @@ $speakers[] = array(
 	'linkedin' => 'https://www.linkedin.com/in/ipetronella/'
 );
 
+// Brett Allred
+$speakers[] = array(
+	'slug' => 'brettallred',
+	'first' => 'Brett',
+	'last' => 'Allred',
+	'title' => 'Chief Innovation Officer',
+	'company' => 'MX',
+	'discipline' => 'product-management',
+	'photo' => 'headshots/brettallred.jpg',
+	'bio' => "Brett Allred is Chief Product Officer at MX. Brett leads the company's product development efforts, including product strategy, design, and execution. Prior to joining MX, Brett was President and CTO of NUVI, a Utah-based social media analytics software company. He serves on the Board of Directors for Mountainland Technical College and enjoys mentoring small business owners.",
+	'twitter' => 'brettnallred',
+	'instagram' => '',
+	'linkedin' => 'https://www.linkedin.com/in/brett-allred-5336348/'
+);
+
 */
 
 
@@ -262,21 +277,6 @@ $speakers[] = array(
 	'twitter' => '',
 	'instagram' => '',
 	'linkedin' => 'https://www.linkedin.com/in/nlsanders/'
-);
-
-// Brett Allred
-$speakers[] = array(
-	'slug' => 'brettallred',
-	'first' => 'Brett',
-	'last' => 'Allred',
-	'title' => 'Chief Innovation Officer',
-	'company' => 'MX',
-	'discipline' => 'product-management',
-	'photo' => 'headshots/brettallred.jpg',
-	'bio' => "Brett Allred is Chief Product Officer at MX. Brett leads the company's product development efforts, including product strategy, design, and execution. Prior to joining MX, Brett was President and CTO of NUVI, a Utah-based social media analytics software company. He serves on the Board of Directors for Mountainland Technical College and enjoys mentoring small business owners.",
-	'twitter' => 'brettnallred',
-	'instagram' => '',
-	'linkedin' => 'https://www.linkedin.com/in/brett-allred-5336348/'
 );
 
 // Joe Wilson

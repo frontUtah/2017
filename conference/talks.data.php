@@ -89,6 +89,15 @@ $talks[] = array(
 	'slot' => 2
 );
 
+// Brett Allred
+$talks[] = array(
+	'speaker' => 'brettallred',
+	'title' => 'How to build a Cross Functional Team That Deepens Customer Relationships and Increases Sales',
+	'description' => "MX’s Chief Product Officer Brett Allred will discuss how organizations can close the chasm between departments by building a true cross-functional team that ensures products meet the needs of customers. This case study highlights how MX transformed both the culture and structure of the technology and product teams to drive more meaningful sales conversations, strengthen customer relationships, and increase sales. ",
+	'day' => 1,
+	'slot' => 5
+);
+
  */
 
 // Shawn Johnson
@@ -139,11 +148,11 @@ $talks[] = array(
 	'slot' => 4
 );
 
-// Brett Allred
+// Nate Sanders
 $talks[] = array(
-	'speaker' => 'brettallred',
-	'title' => 'How to build a Cross Functional Team That Deepens Customer Relationships and Increases Sales',
-	'description' => "MX’s Chief Product Officer Brett Allred will discuss how organizations can close the chasm between departments by building a true cross-functional team that ensures products meet the needs of customers. This case study highlights how MX transformed both the culture and structure of the technology and product teams to drive more meaningful sales conversations, strengthen customer relationships, and increase sales. ",
+	'speaker' => 'natesanders',
+	'title' => 'Building products in an AI first world',
+	'description' => "Building AI products breaks the normal harmony, cadence, and discovery tracks for most companies. Learn how a few mental models and principles has helped the Artifact team solve difficult problems for an AI first product.",
 	'day' => 1,
 	'slot' => 5
 );

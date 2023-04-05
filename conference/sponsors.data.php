@@ -78,6 +78,17 @@ $sponsors[] = array(
 	'message' => "The  fastest ⚡️ way to monetize your expertise ✨<br><br>Create revenue-generating experiences powered by your expertise in minutes. No cost to set up. Only pay a small fee when you make a sale. <br><br>Used by 40k+ of the top creators, coaches, and consultants to monetize life changing experiences."
 );
 
+// Coding Space
+$sponsors[] = array(
+	'name' => 'Coding Scape',
+	'slug' => 'codingscape',
+	'tier' => 2,
+	'url' => 'https://codingscape.com/',
+	'logo' => 'codingscape.svg',
+	'message' => "We build world-class software with you. Our senior engineers and product teams partner with high-growth and enterprise companies to build products faster and more efficiently.
+"
+);
+
 
 // TEMPLATE
 /*
