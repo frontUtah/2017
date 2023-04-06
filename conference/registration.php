@@ -128,7 +128,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php');
 					<dt>
 						<div>
 							Unemployed / Student discount
-							<small>50% off per ticket</small>
+							<small>70% off per ticket</small>
 						</div>
 					</dt>
 					<dd class="standard">$200</dd>
